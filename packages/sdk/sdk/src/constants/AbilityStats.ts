@@ -1,0 +1,20 @@
+export enum AbilityStats {
+	'Skill damage' = 'Skill damage',
+	'Move. speed' = 'Move. speed',
+	'Skill duration' = 'Skill duration',
+	'Range' = 'Range',
+	'Casting time' = 'Casting time',
+	'Cost' = 'Cost',
+	'Cooldown' = 'Cooldown',
+	'Health' = 'Health',
+	'Slow' = 'Slow',
+	'Regen' = 'Regen',
+	'AP Increase' = 'AP Increase',
+	'Defense' = 'Defense',
+	'Stun' = 'Stun',
+	'Attack speed' = 'Attack speed',
+	'Debuff duration' = 'Debuff duration',
+	'Num. of hits' = 'Num. of hits',
+	'Area of effect' = 'Area of effect',
+	'Knockback' = 'Knockback'
+}
