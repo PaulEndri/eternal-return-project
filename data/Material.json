@@ -1,0 +1,2538 @@
+{
+  "Stone": {
+    "name": "Stone",
+    "href": "/Stone",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Safety Helmet": {
+        "name": "Safety Helmet",
+        "href": "/Safety_Helmet",
+        "image": null
+      },
+      "Glass Pieces": {
+        "name": "Glass Pieces",
+        "href": "/Glass_Pieces",
+        "image": null
+      },
+      "Powder of Life": {
+        "name": "Powder of Life",
+        "href": "/Powder_of_Life",
+        "image": null
+      },
+      "White Powder": {
+        "name": "White Powder",
+        "href": "/White_Powder",
+        "image": null
+      },
+      "Heated Stone": {
+        "name": "Heated Stone",
+        "href": "/Heated_Stone",
+        "image": null
+      },
+      "Moonstone": {
+        "name": "Moonstone",
+        "href": "/Moonstone",
+        "image": null
+      },
+      "Satisfaction": {
+        "name": "Satisfaction",
+        "href": "/Satisfaction",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "A stone that can be thrown or be used to make something.",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "Glass Bottle": {
+    "name": "Glass Bottle",
+    "href": "/Glass_Bottle",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Molotov Cocktail": {
+        "name": "Molotov Cocktail",
+        "href": "/Molotov_Cocktail",
+        "image": null
+      },
+      "Glass Pieces": {
+        "name": "Glass Pieces",
+        "href": "/Glass_Pieces",
+        "image": null
+      },
+      "Water Bottle": {
+        "name": "Water Bottle",
+        "href": "/Water_Bottle",
+        "image": null
+      },
+      "Healing Potion": {
+        "name": "Healing Potion",
+        "href": "/Healing_Potion",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "A glass bottle that is good for throwing.",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "Nail": {
+    "name": "Nail",
+    "href": "/Nail",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Divine Dual Swords": {
+        "name": "Divine Dual Swords",
+        "href": "/Divine_Dual_Swords",
+        "image": null
+      },
+      "Sword Stopper": {
+        "name": "Sword Stopper",
+        "href": "/Sword_Stopper",
+        "image": null
+      },
+      "White Rhinos": {
+        "name": "White Rhinos",
+        "href": "/White_Rhinos",
+        "image": null
+      },
+      "Gilded Quill Fan": {
+        "name": "Gilded Quill Fan",
+        "href": "/Gilded_Quill_Fan",
+        "image": null
+      },
+      "Spiked Plank": {
+        "name": "Spiked Plank",
+        "href": "/Spiked_Plank",
+        "image": null
+      },
+      "Goblin Bat": {
+        "name": "Goblin Bat",
+        "href": "/Goblin_Bat",
+        "image": null
+      },
+      "Spiky Bouncy Ball": {
+        "name": "Spiky Bouncy Ball",
+        "href": "/Spiky_Bouncy_Ball",
+        "image": null
+      },
+      "Composite Bow": {
+        "name": "Composite Bow",
+        "href": "/Composite_Bow",
+        "image": null
+      },
+      "Sharper": {
+        "name": "Sharper",
+        "href": "/Sharper",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Try hammering some of these into a baseball bat and take out a monster.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Leather": {
+    "name": "Leather",
+    "href": "/Leather",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Leather Glove": {
+        "name": "Leather Glove",
+        "href": "/Leather_Glove",
+        "image": null
+      },
+      "Leather Armor": {
+        "name": "Leather Armor",
+        "href": "/Leather_Armor",
+        "image": null
+      },
+      "Leather Jacket": {
+        "name": "Leather Jacket",
+        "href": "/Leather_Jacket",
+        "image": null
+      },
+      "Leather Shield": {
+        "name": "Leather Shield",
+        "href": "/Leather_Shield",
+        "image": null
+      },
+      "Bracer": {
+        "name": "Bracer",
+        "href": "/Bracer",
+        "image": null
+      },
+      "Beretta M92F": {
+        "name": "Beretta M92F",
+        "href": "/Beretta_M92F",
+        "image": null
+      },
+      "Knee Pads": {
+        "name": "Knee Pads",
+        "href": "/Knee_Pads",
+        "image": null
+      },
+      "Quiver": {
+        "name": "Quiver",
+        "href": "/Quiver",
+        "image": null
+      },
+      "Black Stag Hammer": {
+        "name": "Black Stag Hammer",
+        "href": "/Black_Stag_Hammer",
+        "image": null
+      },
+      "Sheath": {
+        "name": "Sheath",
+        "href": "/Sheath",
+        "image": null
+      },
+      "M16A1": {
+        "name": "M16A1",
+        "href": "/M16A1",
+        "image": null
+      },
+      "Combat Boots": {
+        "name": "Combat Boots",
+        "href": "/Combat_Boots",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Are there any beasts around? Leather is versitile and can be used in tons of different ways.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Turtle Shell": {
+    "name": "Turtle Shell",
+    "href": "/Turtle_Shell",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Bone Gauntlet": {
+        "name": "Bone Gauntlet",
+        "href": "/Bone_Gauntlet",
+        "image": null
+      },
+      "Turtle Dobok": {
+        "name": "Turtle Dobok",
+        "href": "/Turtle_Dobok",
+        "image": null
+      },
+      "Leather Shield": {
+        "name": "Leather Shield",
+        "href": "/Leather_Shield",
+        "image": null
+      },
+      "Herbal Medicine": {
+        "name": "Herbal Medicine",
+        "href": "/Herbal_Medicine",
+        "image": null
+      },
+      "Thuan Thien": {
+        "name": "Thuan Thien",
+        "href": "/Thuan_Thien",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Reminds me of a sandbox I had as a kid.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Rubber": {
+    "name": "Rubber",
+    "href": "/Rubber",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Helm of Banneret": {
+        "name": "Helm of Banneret",
+        "href": "/Helm_of_Banneret",
+        "image": null
+      },
+      "Diving Suit": {
+        "name": "Diving Suit",
+        "href": "/Diving_Suit",
+        "image": null
+      },
+      "Sling": {
+        "name": "Sling",
+        "href": "/Sling",
+        "image": null
+      },
+      "Flubber": {
+        "name": "Flubber",
+        "href": "/Flubber",
+        "image": null
+      },
+      "Longbow": {
+        "name": "Longbow",
+        "href": "/Longbow",
+        "image": null
+      },
+      "Power Crossbow": {
+        "name": "Power Crossbow",
+        "href": "/Power_Crossbow",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "A material that is always elastic. Unlike your cheeks, which lose elasticity day by day.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Scrap Metal": {
+    "name": "Scrap Metal",
+    "href": "/Scrap_Metal",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "High Heels": {
+        "name": "High Heels",
+        "href": "/High_Heels",
+        "image": null
+      },
+      "Steel": {
+        "name": "Steel",
+        "href": "/Steel",
+        "image": null
+      },
+      "Iron Sheet": {
+        "name": "Iron Sheet",
+        "href": "/Iron_Sheet",
+        "image": null
+      },
+      "Motor": {
+        "name": "Motor",
+        "href": "/Motor",
+        "image": null
+      },
+      "RDX": {
+        "name": "RDX",
+        "href": "/RDX",
+        "image": null
+      },
+      "Nunchaku": {
+        "name": "Nunchaku",
+        "href": "/Nunchaku",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Very old, beat up metal. Can you craft a weapon out of this?",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Lighter": {
+    "name": "Lighter",
+    "href": "/Lighter",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "True Samadhi Fire": {
+        "name": "True Samadhi Fire",
+        "href": "/True_Samadhi_Fire",
+        "image": null
+      },
+      "Boiling Water": {
+        "name": "Boiling Water",
+        "href": "/Boiling_Water",
+        "image": null
+      },
+      "Baijiu": {
+        "name": "Baijiu",
+        "href": "/Baijiu",
+        "image": null
+      },
+      "Kaoliang Liquor": {
+        "name": "Kaoliang Liquor",
+        "href": "/Kaoliang_Liquor",
+        "image": null
+      },
+      "Heated Oil": {
+        "name": "Heated Oil",
+        "href": "/Heated_Oil",
+        "image": null
+      },
+      "Ash": {
+        "name": "Ash",
+        "href": "/Ash",
+        "image": null
+      },
+      "Heated Stone": {
+        "name": "Heated Stone",
+        "href": "/Heated_Stone",
+        "image": null
+      },
+      "Shamshir": {
+        "name": "Shamshir",
+        "href": "/Shamshir",
+        "image": null
+      },
+      "Scorchbow": {
+        "name": "Scorchbow",
+        "href": "/Scorchbow",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "The ability to make fire is key.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Laser Pointer": {
+    "name": "Laser Pointer",
+    "href": "/Laser_Pointer",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Plasma Tonfa": {
+        "name": "Plasma Tonfa",
+        "href": "/Plasma_Tonfa",
+        "image": null
+      },
+      "Sniping Scope": {
+        "name": "Sniping Scope",
+        "href": "/Sniping_Scope",
+        "image": null
+      },
+      "Plasma Sword": {
+        "name": "Plasma Sword",
+        "href": "/Plasma_Sword",
+        "image": null
+      },
+      "Beam Axe": {
+        "name": "Beam Axe",
+        "href": "/Beam_Axe",
+        "image": null
+      },
+      "Plasma Whip": {
+        "name": "Plasma Whip",
+        "href": "/Plasma_Whip",
+        "image": null
+      },
+      "Sniper Bow": {
+        "name": "Sniper Bow",
+        "href": "/Sniper_Bow",
+        "image": null
+      },
+      "FN57": {
+        "name": "FN57",
+        "href": "/FN57",
+        "image": null
+      },
+      "Springfield": {
+        "name": "Springfield",
+        "href": "/Springfield",
+        "image": null
+      },
+      "Durendal mk2": {
+        "name": "Durendal mk2",
+        "href": "/Durendal_mk2",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "A useful addition when aiming weapons or pointing at the whiteboard. Made from a cell phone battery and a laser.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Stallion Medal": {
+    "name": "Stallion Medal",
+    "href": "/Stallion_Medal",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Tiara": {
+        "name": "Tiara",
+        "href": "/Tiara",
+        "image": null
+      },
+      "Police Baton": {
+        "name": "Police Baton",
+        "href": "/Police_Baton",
+        "image": null
+      },
+      "Covert Agent Uniform": {
+        "name": "Covert Agent Uniform",
+        "href": "/Covert_Agent_Uniform",
+        "image": null
+      },
+      "Rope Cuffs": {
+        "name": "Rope Cuffs",
+        "href": "/Rope_Cuffs",
+        "image": null
+      },
+      "Chakram": {
+        "name": "Chakram",
+        "href": "/Chakram",
+        "image": null
+      },
+      "Stallion Bow": {
+        "name": "Stallion Bow",
+        "href": "/Stallion_Bow",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "A form of identification that verifies the recognition of the royal order. There have been many cases where royalty have used this for inspection purposes.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Battery": {
+    "name": "Battery",
+    "href": "/Battery",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Dead Battery": {
+        "name": "Dead Battery",
+        "href": "/Dead_Battery",
+        "image": null
+      },
+      "Electronic Parts": {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Would be good for a flashlight, remote control, or your beeping smoke detector.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Alcohol": {
+    "name": "Alcohol",
+    "href": "/Alcohol",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Baijiu": {
+        "name": "Baijiu",
+        "href": "/Baijiu",
+        "image": null
+      },
+      "Soju": {
+        "name": "Soju",
+        "href": "/Soju",
+        "image": null
+      },
+      "Coffee Liqueur": {
+        "name": "Coffee Liqueur",
+        "href": "/Coffee_Liqueur",
+        "image": null
+      },
+      "Disinfectant": {
+        "name": "Disinfectant",
+        "href": "/Disinfectant",
+        "image": null
+      },
+      "Acupuncture": {
+        "name": "Acupuncture",
+        "href": "/Acupuncture",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a3/Acupuncture.png/"
+      },
+      "Acupuncture Needle": {
+        "name": "Acupuncture Needle",
+        "href": "/Acupuncture_Needle",
+        "image": null
+      },
+      "Fuhma Shuriken": {
+        "name": "Fuhma Shuriken",
+        "href": "/Fuhma_Shuriken",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Whenever you smell this, either a laboratory or a hospital might come to mind.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Oil": {
+    "name": "Oil",
+    "href": "/Oil",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Oilcloth": {
+        "name": "Oilcloth",
+        "href": "/Oilcloth",
+        "image": null
+      },
+      "Heated Oil": {
+        "name": "Heated Oil",
+        "href": "/Heated_Oil",
+        "image": null
+      },
+      "Masamune": {
+        "name": "Masamune",
+        "href": "/Masamune",
+        "image": null
+      },
+      "Molotov Cocktail": {
+        "name": "Molotov Cocktail",
+        "href": "/Molotov_Cocktail",
+        "image": null
+      },
+      "Strong Bow": {
+        "name": "Strong Bow",
+        "href": "/Strong_Bow",
+        "image": null
+      },
+      "Magnum-Python": {
+        "name": "Magnum-Python",
+        "href": "/Magnum-Python",
+        "image": null
+      },
+      "Gatling Gun": {
+        "name": "Gatling Gun",
+        "href": "/Gatling_Gun",
+        "image": null
+      },
+      "Wild Horse": {
+        "name": "Wild Horse",
+        "href": "/Wild_Horse",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "At room temperature, this fatty component exists in liquid form.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Cloth": {
+    "name": "Cloth",
+    "href": "/Cloth",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Dress": {
+        "name": "Dress",
+        "href": "/Dress",
+        "image": null
+      },
+      "Doll": {
+        "name": "Doll",
+        "href": "/Doll",
+        "image": null
+      },
+      "Repaired Slippers": {
+        "name": "Repaired Slippers",
+        "href": "/Repaired_Slippers",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Made by weaving fibers. Different thread types make different fabrics.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Gemstone": {
+    "name": "Gemstone",
+    "href": "/Gemstone",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Ruby": {
+        "name": "Ruby",
+        "href": "/Ruby",
+        "image": null
+      },
+      "Gold": {
+        "name": "Gold",
+        "href": "/Gold",
+        "image": null
+      },
+      "Muramasa": {
+        "name": "Muramasa",
+        "href": "/Muramasa",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "An unrefined gemstone. Could be worth something in the right hands.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Glue": {
+    "name": "Glue",
+    "href": "/Glue",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Glass Panel": {
+        "name": "Glass Panel",
+        "href": "/Glass_Panel",
+        "image": null
+      },
+      "Booby Trap": {
+        "name": "Booby Trap",
+        "href": "/Booby_Trap",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Why doesn't it stick to itself in the bottle?",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Paper": {
+    "name": "Paper",
+    "href": "/Paper",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Ash": {
+        "name": "Ash",
+        "href": "/Ash",
+        "image": null
+      },
+      "Blueprint": {
+        "name": "Blueprint",
+        "href": "/Blueprint",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Iron Ore": {
+    "name": "Iron Ore",
+    "href": "/Iron_Ore",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Iron Knuckles": {
+        "name": "Iron Knuckles",
+        "href": "/Iron_Knuckles",
+        "image": null
+      },
+      "Steel": {
+        "name": "Steel",
+        "href": "/Steel",
+        "image": null
+      },
+      "Enhanced Mouse Trap": {
+        "name": "Enhanced Mouse Trap",
+        "href": "/Enhanced_Mouse_Trap",
+        "image": null
+      },
+      "Rapier": {
+        "name": "Rapier",
+        "href": "/Rapier",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Just the ore. Extract the iron to make it useful!",
+    "maxStacks": "3",
+    "foundQuantity": "3"
+  },
+  "Can": {
+    "name": "Can",
+    "href": "/Can",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Can of Cola": {
+        "name": "Can of Cola",
+        "href": "/Can_of_Cola",
+        "image": null
+      },
+      "Canned Cod Liver": {
+        "name": "Canned Cod Liver",
+        "href": "/Canned_Cod_Liver",
+        "image": null
+      },
+      "Clang Clatter": {
+        "name": "Clang Clatter",
+        "href": "/Clang_Clatter",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "You can throw the can.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Gunpowder": {
+    "name": "Gunpowder",
+    "href": "/Gunpowder",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Dynamite": {
+        "name": "Dynamite",
+        "href": "/Dynamite",
+        "image": null
+      },
+      "Mine": {
+        "name": "Mine",
+        "href": "/Mine",
+        "image": null
+      },
+      "Explosive Trap": {
+        "name": "Explosive Trap",
+        "href": "/Explosive_Trap",
+        "image": null
+      },
+      "Shatter Shell Gauntlet": {
+        "name": "Shatter Shell Gauntlet",
+        "href": "/Shatter_Shell_Gauntlet",
+        "image": null
+      },
+      "Grenade": {
+        "name": "Grenade",
+        "href": "/Grenade",
+        "image": null
+      },
+      "Mighty Bow": {
+        "name": "Mighty Bow",
+        "href": "/Mighty_Bow",
+        "image": null
+      },
+      "STG44": {
+        "name": "STG44",
+        "href": "/STG44",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Explosive powder. It goes in guns. Boom.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Steel": {
+    "name": "Steel",
+    "href": "/Steel",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Scrap_Metal.png/"
+      },
+      {
+        "name": "Iron Ore",
+        "href": "/Iron_Ore",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/87/Iron_Ore.png/"
+      }
+    ],
+    "buildsInto": {
+      "Bastard Sword": {
+        "name": "Bastard Sword",
+        "href": "/Bastard_Sword",
+        "image": null
+      },
+      "Gigantic Axe": {
+        "name": "Gigantic Axe",
+        "href": "/Gigantic_Axe",
+        "image": null
+      },
+      "Sheet Metal Armor": {
+        "name": "Sheet Metal Armor",
+        "href": "/Sheet_Metal_Armor",
+        "image": null
+      },
+      "Steel Shield": {
+        "name": "Steel Shield",
+        "href": "/Steel_Shield",
+        "image": null
+      },
+      "Steel Knee Pads": {
+        "name": "Steel Knee Pads",
+        "href": "/Steel_Knee_Pads",
+        "image": null
+      },
+      "Pike": {
+        "name": "Pike",
+        "href": "/Pike",
+        "image": null
+      },
+      "Heavy Crossbow": {
+        "name": "Heavy Crossbow",
+        "href": "/Heavy_Crossbow",
+        "image": null
+      },
+      "Gauntlet": {
+        "name": "Gauntlet",
+        "href": "/Gauntlet",
+        "image": null
+      },
+      "Plumbata": {
+        "name": "Plumbata",
+        "href": "/Plumbata",
+        "image": null
+      },
+      "Magnum-Boa": {
+        "name": "Magnum-Boa",
+        "href": "/Magnum-Boa",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Scrap_Metal.png/"
+      },
+      {
+        "name": "Iron Ore",
+        "href": "/Iron_Ore",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/87/Iron_Ore.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Just some strong steel. They could name a football team after this.",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "Oilcloth": {
+    "name": "Oilcloth",
+    "href": "/Oilcloth",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Oil",
+        "href": "/Oil",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/06/Oil.png/"
+      },
+      {
+        "name": "Bandage",
+        "href": "/Bandage",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0c/Bandage.png/"
+      }
+    ],
+    "buildsInto": {
+      "Boots": {
+        "name": "Boots",
+        "href": "/Boots",
+        "image": null
+      },
+      "Fire Trap": {
+        "name": "Fire Trap",
+        "href": "/Fire_Trap",
+        "image": null
+      },
+      "Torch": {
+        "name": "Torch",
+        "href": "/Torch",
+        "image": null
+      },
+      "Brasil Gauntlet": {
+        "name": "Brasil Gauntlet",
+        "href": "/Brasil_Gauntlet",
+        "image": null
+      },
+      "The Legend of the General": {
+        "name": "The Legend of the General",
+        "href": "/The_Legend_of_the_General",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Oil",
+        "href": "/Oil",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/06/Oil.png/"
+      },
+      {
+        "name": "Bandage",
+        "href": "/Bandage",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0c/Bandage.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Oiled cloth. May be needed for something involving fire.",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "Heated Oil": {
+    "name": "Heated Oil",
+    "href": "/Heated_Oil",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Oil",
+        "href": "/Oil",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/06/Oil.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "buildsInto": {
+      "French Fries": {
+        "name": "French Fries",
+        "href": "/French_Fries",
+        "image": null
+      },
+      "Scrambled Eggs": {
+        "name": "Scrambled Eggs",
+        "href": "/Scrambled_Eggs",
+        "image": null
+      },
+      "Fried Chicken": {
+        "name": "Fried Chicken",
+        "href": "/Fried_Chicken",
+        "image": null
+      },
+      "Curry Croquette": {
+        "name": "Curry Croquette",
+        "href": "/Curry_Croquette",
+        "image": null
+      },
+      "Fish Cutlet": {
+        "name": "Fish Cutlet",
+        "href": "/Fish_Cutlet",
+        "image": null
+      },
+      "Stir Fried Ramen": {
+        "name": "Stir Fried Ramen",
+        "href": "/Stir_Fried_Ramen",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Oil",
+        "href": "/Oil",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/06/Oil.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Heated oil. It was sometimes used as a thermal weapon in the past, but now mostly used for cooking.",
+    "maxStacks": "3",
+    "foundQuantity": "3"
+  },
+  "Ruby": {
+    "name": "Ruby",
+    "href": "/Ruby",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Hammer",
+        "href": "/Hammer",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/81/Hammer.png/"
+      },
+      {
+        "name": "Gemstone",
+        "href": "/Gemstone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0a/Gemstone.png/"
+      }
+    ],
+    "buildsInto": {
+      "Jewel Sword": {
+        "name": "Jewel Sword",
+        "href": "/Jewel_Sword",
+        "image": null
+      },
+      "Santa Muerte": {
+        "name": "Santa Muerte",
+        "href": "/Santa_Muerte",
+        "image": null
+      },
+      "Imperial Crown": {
+        "name": "Imperial Crown",
+        "href": "/Imperial_Crown",
+        "image": null
+      },
+      "Sunset Armor": {
+        "name": "Sunset Armor",
+        "href": "/Sunset_Armor",
+        "image": null
+      },
+      "Crimson Bracelet": {
+        "name": "Crimson Bracelet",
+        "href": "/Crimson_Bracelet",
+        "image": null
+      },
+      "Bloodwing Knuckles": {
+        "name": "Bloodwing Knuckles",
+        "href": "/Bloodwing_Knuckles",
+        "image": null
+      },
+      "Sword of Shah Jahan": {
+        "name": "Sword of Shah Jahan",
+        "href": "/Sword_of_Shah_Jahan",
+        "image": null
+      },
+      "Ruby Special": {
+        "name": "Ruby Special",
+        "href": "/Ruby_Special",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Hammer",
+        "href": "/Hammer",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/81/Hammer.png/"
+      },
+      {
+        "name": "Gemstone",
+        "href": "/Gemstone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0a/Gemstone.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Rubies and sapphires actually have the same chemical composition and mineral structure! However, rubies have a small amount of chromium that makes them appear red.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Dead Battery": {
+    "name": "Dead Battery",
+    "href": "/Dead_Battery",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Water",
+        "href": "/Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9d/Water.png/"
+      }
+    ],
+    "buildsInto": {
+      "Ion Battery": {
+        "name": "Ion Battery",
+        "href": "/Ion_Battery",
+        "image": null
+      },
+      "Lightning Whip": {
+        "name": "Lightning Whip",
+        "href": "/Lightning_Whip",
+        "image": null
+      },
+      "Ball Lightning": {
+        "name": "Ball Lightning",
+        "href": "/Ball_Lightning",
+        "image": null
+      },
+      "Single Coil Pickup": {
+        "name": "Single Coil Pickup",
+        "href": "/Single_Coil_Pickup",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Water",
+        "href": "/Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9d/Water.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Is a dead battery still a battery? Just throw it at someone!",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "White Powder": {
+    "name": "White Powder",
+    "href": "/White_Powder",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Chalk",
+        "href": "/Chalk",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b9/Chalk.png/"
+      },
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      }
+    ],
+    "buildsInto": {
+      "C-4": {
+        "name": "C-4",
+        "href": "/C-4",
+        "image": null
+      },
+      "Gentian Silver Gun": {
+        "name": "Gentian Silver Gun",
+        "href": "/Gentian_Silver_Gun",
+        "image": null
+      },
+      "White Claw Punch": {
+        "name": "White Claw Punch",
+        "href": "/White_Claw_Punch",
+        "image": null
+      },
+      "Ryukyu Tonfa": {
+        "name": "Ryukyu Tonfa",
+        "href": "/Ryukyu_Tonfa",
+        "image": null
+      },
+      "Flour Bomb": {
+        "name": "Flour Bomb",
+        "href": "/Flour_Bomb",
+        "image": null
+      },
+      "Flechette": {
+        "name": "Flechette",
+        "href": "/Flechette",
+        "image": null
+      },
+      "Polaris": {
+        "name": "Polaris",
+        "href": "/Polaris",
+        "image": null
+      },
+      "The Wall": {
+        "name": "The Wall",
+        "href": "/The_Wall",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Chalk",
+        "href": "/Chalk",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b9/Chalk.png/"
+      },
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Unidentifiable white powder. Probably from chalk...",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Heated Stone": {
+    "name": "Heated Stone",
+    "href": "/Heated_Stone",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "buildsInto": {
+      "Baked Potato": {
+        "name": "Baked Potato",
+        "href": "/Baked_Potato",
+        "image": null
+      },
+      "Baked Carp": {
+        "name": "Baked Carp",
+        "href": "/Baked_Carp",
+        "image": null
+      },
+      "Grilled Chilean Sea Bass": {
+        "name": "Grilled Chilean Sea Bass",
+        "href": "/Grilled_Chilean_Sea_Bass",
+        "image": null
+      },
+      "Steak": {
+        "name": "Steak",
+        "href": "/Steak",
+        "image": null
+      },
+      "Fang Mace": {
+        "name": "Fang Mace",
+        "href": "/Fang_Mace",
+        "image": null
+      },
+      "Pellet Bow": {
+        "name": "Pellet Bow",
+        "href": "/Pellet_Bow",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "",
+    "maxStacks": "3",
+    "foundQuantity": "3"
+  },
+  "Meteorite": {
+    "name": "Meteorite",
+    "href": "/Meteorite",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Meteor Claymore": {
+        "name": "Meteor Claymore",
+        "href": "/Meteor_Claymore",
+        "image": null
+      },
+      "Kabana": {
+        "name": "Kabana",
+        "href": "/Kabana",
+        "image": null
+      },
+      "Moonstone": {
+        "name": "Moonstone",
+        "href": "/Moonstone",
+        "image": null
+      },
+      "Force Core": {
+        "name": "Force Core",
+        "href": "/Force_Core",
+        "image": null
+      },
+      "Wonderful Tonight": {
+        "name": "Wonderful Tonight",
+        "href": "/Wonderful_Tonight",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "A stone containing traces of alien vital force. It has mystical effects.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Ash": {
+    "name": "Ash",
+    "href": "/Ash",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Paper",
+        "href": "/Paper",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b2/Paper.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "buildsInto": {
+      "Poison": {
+        "name": "Poison",
+        "href": "/Poison",
+        "image": null
+      },
+      "Mount Slicer": {
+        "name": "Mount Slicer",
+        "href": "/Mount_Slicer",
+        "image": null
+      },
+      "Phoenix Gloves": {
+        "name": "Phoenix Gloves",
+        "href": "/Phoenix_Gloves",
+        "image": null
+      },
+      "Mystic Jade Charm": {
+        "name": "Mystic Jade Charm",
+        "href": "/Mystic_Jade_Charm",
+        "image": null
+      },
+      "Devil's Marksman": {
+        "name": "Devil's Marksman",
+        "href": "/Devil%27s_Marksman",
+        "image": null
+      },
+      "The Smiting Dragon": {
+        "name": "The Smiting Dragon",
+        "href": "/The_Smiting_Dragon",
+        "image": null
+      },
+      "Purple Haze": {
+        "name": "Purple Haze",
+        "href": "/Purple_Haze",
+        "image": null
+      },
+      "Straitjacket Sneakers": {
+        "name": "Straitjacket Sneakers",
+        "href": "/Straitjacket_Sneakers",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Paper",
+        "href": "/Paper",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b2/Paper.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "The remains of something burning.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Piano Wire": {
+    "name": "Piano Wire",
+    "href": "/Piano Wire",
+    "requirements": [],
+    "buildsInto": {
+      "Electronic Parts": {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "image": null
+      },
+      "Dynamite": {
+        "name": "Dynamite",
+        "href": "/Dynamite",
+        "image": null
+      },
+      "Mithril String": {
+        "name": "Mithril String",
+        "href": "/Mithril_String",
+        "image": null
+      },
+      "Throwing Stars": {
+        "name": "Throwing Stars",
+        "href": "/Throwing_Stars",
+        "image": null
+      },
+      "ldsl=Wooden Bow": {
+        "name": "ldsl=Wooden Bow",
+        "href": "/Wooden_Bow.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/2/2e/Wooden_Bow.png/"
+      },
+      "Wooden Bow": {
+        "name": "Wooden Bow",
+        "href": "/Wooden_Bow",
+        "image": null
+      },
+      "Long Crossbow": {
+        "name": "Long Crossbow",
+        "href": "/Long_Crossbow",
+        "image": null
+      },
+      "AK-47": {
+        "name": "AK-47",
+        "href": "/AK-47",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Common",
+    "stats": [],
+    "description": "Where did you find a piano?",
+    "maxStacks": "5",
+    "foundQuantity": "1"
+  },
+  "Electronic Parts": {
+    "name": "Electronic Parts",
+    "href": "/Electronic_Parts",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Piano Wire",
+        "href": "/Piano_Wire",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/58/Piano_Wire.png/"
+      }
+    ],
+    "buildsInto": {
+      "Tactical OPS Helmet": {
+        "name": "Tactical OPS Helmet",
+        "href": "/Tactical_OPS_Helmet",
+        "image": null
+      },
+      "Maverick Runner": {
+        "name": "Maverick Runner",
+        "href": "/Maverick_Runner",
+        "image": null
+      },
+      "Motor": {
+        "name": "Motor",
+        "href": "/Motor",
+        "image": null
+      },
+      "Cell Phone": {
+        "name": "Cell Phone",
+        "href": "/Cell_Phone",
+        "image": null
+      },
+      "Railgun": {
+        "name": "Railgun",
+        "href": "/Railgun",
+        "image": null
+      },
+      "Volticletto": {
+        "name": "Volticletto",
+        "href": "/Volticletto",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Piano Wire",
+        "href": "/Piano_Wire",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/58/Piano_Wire.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "You can likely craft something out of this.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Blueprint": {
+    "name": "Blueprint",
+    "href": "/Blueprint",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Fountain Pen",
+        "href": "/Fountain_Pen",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/fb/Fountain_Pen.png/"
+      },
+      {
+        "name": "Paper",
+        "href": "/Paper",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b2/Paper.png/"
+      }
+    ],
+    "buildsInto": {
+      "Monohoshizao": {
+        "name": "Monohoshizao",
+        "href": "/Monohoshizao",
+        "image": null
+      },
+      "Florentine": {
+        "name": "Florentine",
+        "href": "/Florentine",
+        "image": null
+      },
+      "Cell Phone": {
+        "name": "Cell Phone",
+        "href": "/Cell_Phone",
+        "image": null
+      },
+      "ldsl=Tactical Tonfa": {
+        "name": "ldsl=Tactical Tonfa",
+        "href": "/Tactical_Tonfa.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b9/Tactical_Tonfa.png/"
+      },
+      "Tactical Tonfa": {
+        "name": "Tactical Tonfa",
+        "href": "/Tactical_Tonfa",
+        "image": null
+      },
+      "Magnum-Anaconda": {
+        "name": "Magnum-Anaconda",
+        "href": "/Magnum-Anaconda",
+        "image": null
+      },
+      "Tac-50": {
+        "name": "Tac-50",
+        "href": "/Tac-50",
+        "image": null
+      },
+      "Nocaster": {
+        "name": "Nocaster",
+        "href": "/Nocaster",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Fountain Pen",
+        "href": "/Fountain_Pen",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/fb/Fountain_Pen.png/"
+      },
+      {
+        "name": "Paper",
+        "href": "/Paper",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b2/Paper.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "An elaborate blueprint. What on earth do all the lines and numbers mean?",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Iron Sheet": {
+    "name": "Iron Sheet",
+    "href": "/Iron_Sheet",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Scrap_Metal.png/"
+      },
+      {
+        "name": "Hammer",
+        "href": "/Hammer",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/81/Hammer.png/"
+      }
+    ],
+    "buildsInto": {
+      "Katana": {
+        "name": "Katana",
+        "href": "/Katana",
+        "image": null
+      },
+      "Dragon Guandao": {
+        "name": "Dragon Guandao",
+        "href": "/Dragon_Guandao",
+        "image": null
+      },
+      "Bulletproof Vest": {
+        "name": "Bulletproof Vest",
+        "href": "/Bulletproof_Vest",
+        "image": null
+      },
+      "Sheath": {
+        "name": "Sheath",
+        "href": "/Sheath",
+        "image": null
+      },
+      "Bazuband": {
+        "name": "Bazuband",
+        "href": "/Bazuband",
+        "image": null
+      },
+      "Magazine": {
+        "name": "Magazine",
+        "href": "/Magazine",
+        "image": null
+      },
+      "Steel Bow": {
+        "name": "Steel Bow",
+        "href": "/Steel_Bow",
+        "image": null
+      },
+      "NTW-20": {
+        "name": "NTW-20",
+        "href": "/NTW-20",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Scrap_Metal.png/"
+      },
+      {
+        "name": "Hammer",
+        "href": "/Hammer",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/81/Hammer.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "This will give you goosebumps if you scrape your fingernails across it.",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "Gold": {
+    "name": "Gold",
+    "href": "/Gold",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Pickaxe",
+        "href": "/Pickaxe",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b7/Pickaxe.png/"
+      },
+      {
+        "name": "Gemstone",
+        "href": "/Gemstone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0a/Gemstone.png/"
+      }
+    ],
+    "buildsInto": {
+      "Scythe": {
+        "name": "Scythe",
+        "href": "/Scythe",
+        "image": null
+      },
+      "Crown": {
+        "name": "Crown",
+        "href": "/Crown",
+        "image": null
+      },
+      "Imperial Burgonet": {
+        "name": "Imperial Burgonet",
+        "href": "/Imperial_Burgonet",
+        "image": null
+      },
+      "Commander's Armor": {
+        "name": "Commander's Armor",
+        "href": "/Commander%27s_Armor",
+        "image": null
+      },
+      "Golden Bracelet": {
+        "name": "Golden Bracelet",
+        "href": "/Golden_Bracelet",
+        "image": null
+      },
+      "ldsl=Thunder Whip": {
+        "name": "ldsl=Thunder Whip",
+        "href": "/Thunder_Whip.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/07/Thunder_Whip.png/"
+      },
+      "Thunder Whip": {
+        "name": "Thunder Whip",
+        "href": "/Thunder_Whip",
+        "image": null
+      },
+      "ldsl=Ruthenium Marble": {
+        "name": "ldsl=Ruthenium Marble",
+        "href": "/Ruthenium_Marble.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/63/Ruthenium_Marble.png/"
+      },
+      "Ruthenium Marble": {
+        "name": "Ruthenium Marble",
+        "href": "/Ruthenium_Marble",
+        "image": null
+      },
+      "Golden-Ratio Bow": {
+        "name": "Golden-Ratio Bow",
+        "href": "/Golden-Ratio_Bow",
+        "image": null
+      },
+      "Golden Rifle": {
+        "name": "Golden Rifle",
+        "href": "/Golden_Rifle",
+        "image": null
+      },
+      "Golden Bridge": {
+        "name": "Golden Bridge",
+        "href": "/Golden_Bridge",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Pickaxe",
+        "href": "/Pickaxe",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b7/Pickaxe.png/"
+      },
+      {
+        "name": "Gemstone",
+        "href": "/Gemstone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0a/Gemstone.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Uncommon",
+    "stats": [],
+    "description": "Soft, valuable, and gorgeous. A must have for any piece of jewelery.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Tree of Life": {
+    "name": "Tree of Life",
+    "href": "/Tree_of_Life",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Powder of Life": {
+        "name": "Powder of Life",
+        "href": "/Powder_of_Life",
+        "image": null
+      },
+      "Death Rune": {
+        "name": "Death Rune",
+        "href": "/Death_Rune",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "A tree that accumulated a lot of vital force over a long time. Also known as the World Tree, it symbolizes the origin of the universe and the root of life.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Moon Stone": {
+    "name": "Moon Stone",
+    "href": "/Moon_Stone",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Moonstone",
+        "href": "/Moonstone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/3/35/Moon_Stone.png/"
+      },
+      {
+        "name": "Meteorite",
+        "href": "/Meteorite",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9e/Meteorite.png/"
+      },
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      }
+    ],
+    "buildsInto": {
+      "Starsteel Twin Swords": {
+        "name": "Starsteel Twin Swords",
+        "href": "/Starsteel_Twin_Swords",
+        "image": null
+      },
+      "Cube Watch": {
+        "name": "Cube Watch",
+        "href": "/Cube_Watch",
+        "image": null
+      },
+      "Moonlight Pendant": {
+        "name": "Moonlight Pendant",
+        "href": "/Moonlight_Pendant",
+        "image": null
+      },
+      "Hammer of Thor": {
+        "name": "Hammer of Thor",
+        "href": "/Hammer_of_Thor",
+        "image": null
+      },
+      "The Deadly Ray": {
+        "name": "The Deadly Ray",
+        "href": "/The_Deadly_Ray",
+        "image": null
+      },
+      "Cosmic Bident": {
+        "name": "Cosmic Bident",
+        "href": "/Cosmic_Bident",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Meteorite",
+        "href": "/Meteorite",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9e/Meteorite.png/"
+      },
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "A jewel with a subdued shine.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Poison": {
+    "name": "Poison",
+    "href": "/Poison",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Ash",
+        "href": "/Ash",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b1/Ash.png/"
+      },
+      {
+        "name": "Water",
+        "href": "/Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9d/Water.png/"
+      },
+      {
+        "name": "Paper",
+        "href": "/Paper",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b2/Paper.png/"
+      },
+      {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/c/c4/Lighter.png/"
+      }
+    ],
+    "buildsInto": {
+      "Schrodinger's Box": {
+        "name": "Schrodinger's Box",
+        "href": "/Schrodinger%27s_Box",
+        "image": null
+      },
+      "Spy Umbrella": {
+        "name": "Spy Umbrella",
+        "href": "/Spy_Umbrella",
+        "image": null
+      },
+      "Venom Dart": {
+        "name": "Venom Dart",
+        "href": "/Venom_Dart",
+        "image": null
+      },
+      "Azure Dagger": {
+        "name": "Azure Dagger",
+        "href": "/Azure_Dagger",
+        "image": null
+      },
+      "Lloigor & Zahr": {
+        "name": "Lloigor & Zahr",
+        "href": "/Lloigor_%26_Zahr",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Ash",
+        "href": "/Ash",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b1/Ash.png/"
+      },
+      {
+        "name": "Water",
+        "href": "/Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9d/Water.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "DO NOT DRINK.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Motor": {
+    "name": "Motor",
+    "href": "/Motor",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f3/Electronic_Parts.png/"
+      },
+      {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Scrap_Metal.png/"
+      },
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Piano Wire",
+        "href": "/Piano_Wire",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/58/Piano_Wire.png/"
+      }
+    ],
+    "buildsInto": {
+      "Vibroblade": {
+        "name": "Vibroblade",
+        "href": "/Vibroblade",
+        "image": null
+      },
+      "Mallet": {
+        "name": "Mallet",
+        "href": "/Mallet",
+        "image": null
+      },
+      "Machine Gun": {
+        "name": "Machine Gun",
+        "href": "/Machine_Gun",
+        "image": null
+      },
+      "Vibro Nunchaku": {
+        "name": "Vibro Nunchaku",
+        "href": "/Vibro_Nunchaku",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f3/Electronic_Parts.png/"
+      },
+      {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/82/Scrap_Metal.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "A motor itself is useless, but you can probably turn it into something great.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Mithril": {
+    "name": "Mithril",
+    "href": "/Mithril",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Mithril Helm": {
+        "name": "Mithril Helm",
+        "href": "/Mithril_Helm",
+        "image": null
+      },
+      "Mithril Armor": {
+        "name": "Mithril Armor",
+        "href": "/Mithril_Armor",
+        "image": null
+      },
+      "Mithril Shield": {
+        "name": "Mithril Shield",
+        "href": "/Mithril_Shield",
+        "image": null
+      },
+      "Mithril Boots": {
+        "name": "Mithril Boots",
+        "href": "/Mithril_Boots",
+        "image": null
+      },
+      "Mithril String": {
+        "name": "Mithril String",
+        "href": "/Mithril_String",
+        "image": null
+      },
+      "ldsl=Joyeuse": {
+        "name": "ldsl=Joyeuse",
+        "href": "/Joyeuse.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d5/Joyeuse.png/"
+      },
+      "Joyeuse": {
+        "name": "Joyeuse",
+        "href": "/Joyeuse",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "This silver metal has the best reaction to vital force. It was strengthened due to its long exposure to VF. Light as a feather, but stronger than steel.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Glass Panel": {
+    "name": "Glass Panel",
+    "href": "/Glass_Panel",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Glass Pieces",
+        "href": "/Glass_Pieces",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/e/e9/Glass_Pieces.png/"
+      },
+      {
+        "name": "Glue",
+        "href": "/Glue",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Glue.png/"
+      },
+      {
+        "name": "Glass Bottle",
+        "href": "/Glass_Bottle",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/8/88/Glass_Bottle.png/"
+      },
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      }
+    ],
+    "buildsInto": {
+      "Optical Camouflage Suit": {
+        "name": "Optical Camouflage Suit",
+        "href": "/Optical_Camouflage_Suit",
+        "image": null
+      },
+      "Radar": {
+        "name": "Radar",
+        "href": "/Radar",
+        "image": null
+      },
+      "AK-12": {
+        "name": "AK-12",
+        "href": "/AK-12",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Glass Pieces",
+        "href": "/Glass_Pieces",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/e/e9/Glass_Pieces.png/"
+      },
+      {
+        "name": "Glue",
+        "href": "/Glue",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Glue.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "A glass panel used for a display. If you break the one on your TV, you gotta replace it with a new panel. At that point, you might as well just get a new TV.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Ion Battery": {
+    "name": "Ion Battery",
+    "href": "/Ion_Battery",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Dead Battery",
+        "href": "/Dead_Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/52/Dead_Battery.png/"
+      },
+      {
+        "name": "Carbonated Water",
+        "href": "/Carbonated_Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d5/Carbonated_Water.png/"
+      },
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Water",
+        "href": "/Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9d/Water.png/"
+      }
+    ],
+    "buildsInto": {
+      "Dioscuri": {
+        "name": "Dioscuri",
+        "href": "/Dioscuri",
+        "image": null
+      },
+      "Hammer of Thor": {
+        "name": "Hammer of Thor",
+        "href": "/Hammer_of_Thor",
+        "image": null
+      },
+      "Eighteen Foot Spear": {
+        "name": "Eighteen Foot Spear",
+        "href": "/Eighteen_Foot_Spear",
+        "image": null
+      },
+      "Cards of Tyranny": {
+        "name": "Cards of Tyranny",
+        "href": "/Cards_of_Tyranny",
+        "image": null
+      },
+      "Electron Blaster": {
+        "name": "Electron Blaster",
+        "href": "/Electron_Blaster",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Dead Battery",
+        "href": "/Dead_Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/52/Dead_Battery.png/"
+      },
+      {
+        "name": "Carbonated Water",
+        "href": "/Carbonated_Water",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d5/Carbonated_Water.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "A high capacity battery made of lithium ion that can be recharged many times.",
+    "maxStacks": "3",
+    "foundQuantity": "2"
+  },
+  "VF Blood Sample": {
+    "name": "VF Blood Sample",
+    "href": "/VF_Blood_Sample",
+    "image": null,
+    "requirements": [],
+    "buildsInto": {
+      "Dainsleif": {
+        "name": "Dainsleif",
+        "href": "/Dainsleif",
+        "image": null
+      },
+      "Chinese Opera Mask": {
+        "name": "Chinese Opera Mask",
+        "href": "/Chinese_Opera_Mask",
+        "image": null
+      },
+      "Queen of Hearts": {
+        "name": "Queen of Hearts",
+        "href": "/Queen_of_Hearts",
+        "image": null
+      },
+      "Red Shoes": {
+        "name": "Red Shoes",
+        "href": "/Red_Shoes",
+        "image": null
+      },
+      "Spear of Longinus": {
+        "name": "Spear of Longinus",
+        "href": "/Spear_of_Longinus",
+        "image": null
+      },
+      "Whip of Nine Bloody Tails": {
+        "name": "Whip of Nine Bloody Tails",
+        "href": "/Whip_of_Nine_Bloody_Tails",
+        "image": null
+      },
+      "Failnaught": {
+        "name": "Failnaught",
+        "href": "/Failnaught",
+        "image": null
+      }
+    },
+    "buildsFrom": [],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "Only the strongest can get this blood sample.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Cell Phone": {
+    "name": "Cell Phone",
+    "href": "/Cell_Phone",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Blueprint",
+        "href": "/Blueprint",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/98/Blueprint.png/"
+      },
+      {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f3/Electronic_Parts.png/"
+      },
+      {
+        "name": "Fountain Pen",
+        "href": "/Fountain_Pen",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/fb/Fountain_Pen.png/"
+      },
+      {
+        "name": "Paper",
+        "href": "/Paper",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/b/b2/Paper.png/"
+      },
+      {
+        "name": "Battery",
+        "href": "/Battery",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/6/6d/Battery.png/"
+      },
+      {
+        "name": "Piano Wire",
+        "href": "/Piano_Wire",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/5/58/Piano_Wire.png/"
+      }
+    ],
+    "buildsInto": {
+      "Vital Sign Sensor": {
+        "name": "Vital Sign Sensor",
+        "href": "/Vital_Sign_Sensor",
+        "image": null
+      },
+      "Smart Bomb": {
+        "name": "Smart Bomb",
+        "href": "/Smart_Bomb",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Blueprint",
+        "href": "/Blueprint",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/98/Blueprint.png/"
+      },
+      {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/f/f3/Electronic_Parts.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Rare",
+    "stats": [],
+    "description": "I'm not getting any bars here...",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  },
+  "Force Core": {
+    "name": "Force Core",
+    "href": "/Force_Core",
+    "image": null,
+    "requirements": [
+      {
+        "name": "Powder of Life",
+        "href": "/Powder_of_Life",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a0/Powder_of_Life.png/"
+      },
+      {
+        "name": "Meteorite",
+        "href": "/Meteorite",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9e/Meteorite.png/"
+      },
+      {
+        "name": "Tree of Life",
+        "href": "/Tree_of_Life",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/1/1c/Tree_of_Life.png/"
+      },
+      {
+        "name": "Stone",
+        "href": "/Stone",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/d/d4/Stone.png/"
+      }
+    ],
+    "buildsInto": {
+      "Fragarach": {
+        "name": "Fragarach",
+        "href": "/Fragarach",
+        "image": null
+      },
+      "Auto-arms": {
+        "name": "Auto-arms",
+        "href": "/Auto-arms",
+        "image": null
+      },
+      "Boots of Hermes": {
+        "name": "Boots of Hermes",
+        "href": "/Boots_of_Hermes",
+        "image": null
+      },
+      "Emerald Tablet": {
+        "name": "Emerald Tablet",
+        "href": "/Emerald_Tablet",
+        "image": null
+      },
+      "Remote Mine": {
+        "name": "Remote Mine",
+        "href": "/Remote_Mine",
+        "image": null
+      },
+      "ldsl=Monkey King Bar": {
+        "name": "ldsl=Monkey King Bar",
+        "href": "/Monkey_King_Bar.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/0/0a/Monkey_King_Bar.png/"
+      },
+      "Monkey King Bar": {
+        "name": "Monkey King Bar",
+        "href": "/Monkey_King_Bar",
+        "image": null
+      },
+      "ldsl=Sudarsana": {
+        "name": "ldsl=Sudarsana",
+        "href": "/Sudarsana.png",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/e/e7/Sudarsana.png/"
+      },
+      "Sudarsana": {
+        "name": "Sudarsana",
+        "href": "/Sudarsana",
+        "image": null
+      },
+      "Sharanga": {
+        "name": "Sharanga",
+        "href": "/Sharanga",
+        "image": null
+      },
+      "Kelte": {
+        "name": "Kelte",
+        "href": "/Kelte",
+        "image": null
+      }
+    },
+    "buildsFrom": [
+      {
+        "name": "Powder of Life",
+        "href": "/Powder_of_Life",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/a/a0/Powder_of_Life.png/"
+      },
+      {
+        "name": "Meteorite",
+        "href": "/Meteorite",
+        "image": "https://static.wikia.nocookie.net/blacksurvivaleternalreturn_gamepedia_en/images/9/9e/Meteorite.png/"
+      }
+    ],
+    "foundLocations": {},
+    "droppedFrom": {},
+    "rarity": "Epic",
+    "stats": [],
+    "description": "This seems to hold untapped power.",
+    "maxStacks": "3",
+    "foundQuantity": "1"
+  }
+}

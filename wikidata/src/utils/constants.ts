@@ -1,0 +1,10 @@
+export const DOWNLOAD_IMAGES = false;
+export const BASE_URL = 'https://eternalreturn.gamepedia.com/';
+export const WEAPON_PATH = 'Weapon';
+export const CONSUMABLE_PATH = 'Consumable';
+export const MATERIAL_PATH = 'Material';
+export const ARMOR_PATH = 'Armor';
+export const SPECIAL_PATH = 'Special';
+export const CHARACTER_PATH = 'Character';
+export const MAP_PATH = 'Lumia_Island';
+export const ANIMAL_PATH = 'Animal';
