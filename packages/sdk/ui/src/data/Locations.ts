@@ -1,5 +1,4 @@
-import { Locations as LocationsEnum } from '../constants/Locations';
-import { ILocation } from '../interfaces/ILocation';
+import { Locations as LocationsEnum, ILocation } from 'erbs-sdk';
 
 export const Locations: Record<LocationsEnum, ILocation> = {
 	Alley: {

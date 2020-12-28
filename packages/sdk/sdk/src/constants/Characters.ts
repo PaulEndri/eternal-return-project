@@ -14,7 +14,7 @@ export enum Characters {
 	'Shoichi' = 'Shoichi',
 	'Silvia' = 'Silvia',
 	'Sissela' = 'Sissela',
-	'Xiuaki' = 'Xiuaki',
+	'Xiukai' = 'Xiukai',
 	'Yuki' = 'Yuki',
 	'Zahir' = 'Zahir'
 }

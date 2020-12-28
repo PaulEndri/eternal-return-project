@@ -3,6 +3,7 @@ import { getImageSrc } from '../utilities/getImageSrc';
 
 interface CharacterThumbnailProps {
 	name: string;
+	isActive: boolean;
 	onClick?: Function;
 }
 
@@ -55,44 +56,71 @@ const CharacterThumbnailComponent: FunctionComponent<CharacterThumbnailProps> = 
 
 const CharacterThumbnailComponent: FunctionComponent<CharacterThumbnailProps> = ({
 	name,
-	onClick
+	onClick,
+	isActive
 }) => {
 	const [ hovering, setHovering ] = useState(false);
 	const parentStyle = {
+		height: '80px',
+		width: '80px',
 		overflow: 'hidden',
-		height: '100px',
-		width: '120px'
+		backgroundColor: 'rgba(200, 200, 200, 0.15)',
+		// margin: '3px',
+		border: '1px solid rgba(255, 255, 255, 0.1)'
 	};
 
-	if (hovering && onClick) {
-		Object.assign(parentStyle, {
-			backgroundColor: 'rgba(200, 200, 200, 0.9)',
-			border: '1px solid rgba(200, 200, 200, 1)'
+	const containerStyle = {
+		overflow: 'hidden',
+		transform: 'skew(45deg) scale(1.2)',
+		backgroundColor: 'rgba(255, 255, 255, 0.15)',
+		border: '1px solid ',
+		borderColor: 'rgba(200, 200, 200, 0.5)',
+		width: '90px',
+		height: '90px'
+	};
+
+	if ((hovering || isActive) && onClick) {
+		Object.assign(containerStyle, {
+			backgroundColor: 'rgba(200, 200, 200, 1)',
+			transform: 'skew(45deg) scale(1.2)',
+			borderColor: 'white'
 		});
-	} else {
+
 		Object.assign(parentStyle, {
-			backgroundColor: 'rgba(200, 200, 200, 0.5)',
-			border: '1px solid rgba(200, 200, 200, 1)'
+			backgroundColor: 'rgba(255, 190, 16, 0.9)'
 		});
 	}
+
 	return (
 		<div
-			onMouseEnter={() => setHovering(true)}
-			onMouseLeave={() => setHovering(false)}
-			onClick={(e) => (onClick ? onClick(e) : null)}
-			style={parentStyle}
+			style={{
+				// padding: 0,
+				// margin: 2,
+				backgroundColor: 'rgba(255, 255, 255, 0.01)',
+				border: '1px solid rgba(255, 255, 255, 0.02)'
+			}}
 		>
-			<img
-				src={getImageSrc(name)}
-				className="ui medium image"
-				style={{
-					minWidth: '300px',
-					objectFit: 'cover',
-					objectPosition: '50% 10%',
-					height: '200px',
-					marginLeft: '-80px'
-				}}
-			/>
+			<div
+				onMouseEnter={() => setHovering(true)}
+				onMouseLeave={() => setHovering(false)}
+				onClick={(e) => (onClick ? onClick(e) : null)}
+				style={parentStyle}
+				className="test"
+			>
+				<div style={containerStyle}>
+					<img
+						style={{
+							height: 'auto',
+							width: '70px',
+							margin: 'auto',
+							marginTop: '-5px',
+							transform: 'skew(-45deg)'
+						}}
+						src={getImageSrc(`characters/mini/${name}`)}
+						className="ui medium image"
+					/>
+				</div>
+			</div>
 		</div>
 	);
 };

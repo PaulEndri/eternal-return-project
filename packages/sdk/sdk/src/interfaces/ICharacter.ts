@@ -9,4 +9,5 @@ export interface ICharacter {
 	details: any[];
 	stats: {};
 	abilities: Record<Abilities, IAbility>;
+	weapons: string[];
 }

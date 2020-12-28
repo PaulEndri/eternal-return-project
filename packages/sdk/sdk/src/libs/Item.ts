@@ -28,12 +28,7 @@ export class Item<T extends string> implements IElement, IBasicItem<T> {
 	}
 
 	constructor(public name: T) {
-		if (ITEM_CACHE[name]) {
-			return Object.assign({}, ITEM_CACHE[name]);
-		}
-
 		if (!name) {
-			console.error('Herp derp', name);
 			return null;
 		}
 
@@ -69,8 +64,6 @@ export class Item<T extends string> implements IElement, IBasicItem<T> {
 			foundLocations: this.getAllItems(foundLocations),
 			droppedFrom: this.getAllItems(droppedFrom)
 		});
-
-		ITEM_CACHE[name] = Object.assign({}, this);
 	}
 
 	private getAllItems(data: Record<string, IElement> | IElement[]) {
@@ -96,10 +89,6 @@ export class Item<T extends string> implements IElement, IBasicItem<T> {
 				});
 
 			this._materials = materials;
-
-			Object.keys(materials).forEach((mat) => {
-				materials[mat] = materials[mat] / 2;
-			});
 		}
 
 		return this._materials;

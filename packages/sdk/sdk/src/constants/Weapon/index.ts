@@ -41,26 +41,26 @@ export * from './Nunchakus';
 export * from './Whips';
 
 export enum WeaponTypes {
-	Daggers = 'Daggers',
-	TwoHandedSwords = 'Two-Handed Swords',
-	Axes = 'Axes',
-	DualSwords = 'Dual Swords',
-	Pistols = 'Pistols',
-	AssaultRifles = 'Assault Rifles',
-	SniperRifles = 'Sniper Rifles',
-	Rapiers = 'Rapiers',
-	Spears = 'Spears',
-	Hammers = 'Hammers',
-	Bats = 'Bats',
-	Throws = 'Throws',
-	Shurikens = 'Shurikens',
-	Bows = 'Bows',
-	Crossbows = 'Crossbows',
-	Gloves = 'Gloves',
-	Tonfas = 'Tonfas',
-	Guitars = 'Guitars',
-	Nunchakus = 'Nunchakus',
-	Whips = 'Whips'
+	Daggers = 'Dagger',
+	TwoHandedSwords = 'Two-Handed Sword',
+	Axes = 'Axe',
+	DualSwords = 'Dual Sword',
+	Pistols = 'Pistol',
+	AssaultRifles = 'Assault Rifle',
+	SniperRifles = 'Sniper Rifle',
+	Rapiers = 'Rapier',
+	Spears = 'Spear',
+	Hammers = 'Hammer',
+	Bats = 'Bat',
+	Throws = 'Throw',
+	Shurikens = 'Shuriken',
+	Bows = 'Bow',
+	Crossbows = 'Crossbow',
+	Gloves = 'Glove',
+	Tonfas = 'Tonfa',
+	Guitars = 'Guitar',
+	Nunchakus = 'Nunchaku',
+	Whips = 'Whip'
 }
 
 export const Weapons = {

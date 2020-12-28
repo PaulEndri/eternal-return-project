@@ -1,88 +1,33 @@
 import cheerio from 'cheerio';
-import request from 'request';
 import fetch from 'node-fetch';
-import fs from 'fs';
-import { ICache } from 'erbs-sdk';
-import { Cache } from '../utils/Cache';
+import { IWikiCache } from '../interfaces/IWikiCache';
+import { WikICache } from '../utils/wikiCache';
 
 export class CoreScraper {
 	static BASE_URL = 'https://eternalreturn.gamepedia.com/';
-	public cache: ICache;
+	public cache: IWikiCache;
 
-	constructor(cache?: ICache) {
+	constructor(cache?: IWikiCache) {
 		if (cache) {
 			this.cache = cache;
 		} else {
-			this.cache = new Cache();
+			this.cache = new WikICache();
 		}
 	}
 
-	protected getImageSrc($image) {
-		try {
-			return $image.attr('src').split('revision').shift();
-		} catch (e) {
-			console.warn(e);
-
-			return '';
-		}
-	}
-
-	protected getSimpleElement($, el) {
+	protected getSimpleElement = ($, el, nameOnly = false) => {
 		const $el = $(el);
-		const $image = $el.find('img');
 
 		const name = $el.attr('title');
 		const element = {
 			name: name || null,
-			href: $el.attr('href'),
-			image: null
+			href: $el.attr('href')
 		};
 
-		if ($image.length > 0) {
-			element.image = this.getImageSrc($image);
-		}
+		return nameOnly ? name : element;
+	};
 
-		return element;
-	}
-
-	protected downloadFile(uri: string, fileName: string, fileType: string, directories: string[]) {
-		let path = 'EternalReturn/';
-
-		directories.forEach((dir) => {
-			path += `${dir}/`;
-			if (!fs.existsSync(path)) {
-				fs.mkdirSync(path);
-			}
-		});
-
-		if (!fileName || !uri) {
-			return Promise.resolve();
-		}
-
-		const finalName = `${path}${fileName
-			.replace('ldsl=', '')
-			.replace('link=', '')}.${fileType}`;
-
-		if (!fileName) {
-			return Promise.resolve();
-		}
-
-		return new Promise((resolve) => {
-			// console.log(`[File Download Begin] ${fileName} from ${uri}`);
-
-			request.head(uri, (err, res, body) => {
-				// console.log('content-type:', res.headers['content-type']);
-				// console.log('content-length:', res.headers['content-length']);
-
-				request(uri).pipe(fs.createWriteStream(finalName)).on('close', () => {
-					// console.log(`[File Download Complete] ${fileName}`);
-					resolve;
-				});
-			});
-		});
-	}
-
-	public async getPage(page: string, skipCache = false) {
+	public getPage = async (page: string, skipCache = false) => {
 		let path = `${CoreScraper.BASE_URL}${page}`;
 
 		while (path.indexOf('.com//') >= 0) {
@@ -101,7 +46,6 @@ export class CoreScraper {
 
 		await this.cache.set(path, $);
 
-		//console.log(`[Page Fetch] ${path}`);
 		return $;
-	}
+	};
 }

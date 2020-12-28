@@ -1,7 +1,4 @@
-import { Weapons } from '../../constants/Weapon';
-import { Armors } from '../../constants/Armor';
-
-export const rootMenus = [ 'Home', 'Wiki', 'Builds' ];
+import { Weapons, Armors } from 'erbs-sdk';
 
 export const wikiMenus = [
 	'Weapons',

@@ -1,4 +1,4 @@
-import { IBasicItem } from '../interfaces/IBasicItem';
+import { IBasicItem } from 'erbs-sdk';
 
 export const Items: Record<string, IBasicItem<string>> = {
   "Baseball": {

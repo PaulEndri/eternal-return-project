@@ -1,9 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import { Button, Segment, Header, Form, Radio, Dropdown, Label } from 'semantic-ui-react';
-import ItemCard from './itemCard.component';
 import { Types } from '../utilities/types';
 import { ICharacter, WeaponTypes } from 'erbs-sdk';
-import Weapons from '../data/Weapons.json';
+import { Weapons } from '../data/Weapons';
 
 console.log('[test]', Object.keys(Weapons));
 const weaponTypeOptions = (selectedCharacter?: ICharacter) => {
@@ -13,7 +12,7 @@ const weaponTypeOptions = (selectedCharacter?: ICharacter) => {
 				return true;
 			}
 			console.log('[filter]', key, value);
-			return Weapons[value].usableBy.some(({ name }) => name === selectedCharacter.name);
+			return Weapons[key].usableBy.some(({ name }) => name === selectedCharacter.name);
 		})
 		.map(([ key, value ]) => ({
 			key,
@@ -36,14 +35,25 @@ export const EquipmentFilterComponent: FunctionComponent<EquipmentFilterProps> =
 	selectedCharacter,
 	selectedWeaponType
 }) => (
-	<Segment.Group style={{ borderRadius: 0 }}>
-		<Segment basic color="black" inverted>
-			<Header as="h4">Select a Filter</Header>
+	<Segment.Group
+		style={{
+			borderRadius: 0,
+			backgroundColor: 'rgba(66, 64, 74, 0.2)',
+			marginTop: 14
+		}}
+	>
+		<Segment basic color="black" inverted textAlign="center" raised>
+			<Header>Filters</Header>
 		</Segment>
-		<Segment Basic>
-			<Form>
-				<Form.Group grouped>
-					<Label>Armor Types</Label>
+		<Segment basic>
+			<Form inverted color="blue">
+				<Label
+					color={'brown'}
+					style={{ width: '100%', textAlign: 'center', marginBottom: '8px' }}
+				>
+					Armor Types
+				</Label>
+				<Form.Group inline>
 					{Object.keys(Types).slice(1).map((type, idx) => (
 						<Form.Field key={`${type}${idx}`}>
 							<Radio
@@ -55,49 +65,49 @@ export const EquipmentFilterComponent: FunctionComponent<EquipmentFilterProps> =
 									setSelectedWeaponType(null);
 									setSelectedRadio(selectedRadio === type ? null : type);
 								}}
-							>
-								test
-							</Radio>
+							/>
 						</Form.Field>
 					))}
 				</Form.Group>
-				<Form.Group grouped>
-					<Label>Weapon Selection</Label>
-					<Form.Field>
-						<Radio
-							name="filterSelect"
-							label={'View All Weapons'}
-							value={Types.Weapon}
-							checked={selectedRadio === Types.Weapon}
-							onChange={(e) => {
-								setSelectedRadio(
-									selectedRadio === Types.Weapon && !selectedWeaponType
-										? null
-										: Types.Weapon
-								);
-							}}
-						/>
-					</Form.Field>
+				<Label
+					color={'brown'}
+					style={{ width: '100%', textAlign: 'center', marginBottom: '8px' }}
+				>
+					Weapon Types
+				</Label>
+				<Form.Group inline style={{ flexWrap: 'wrap', justifyContent: 'flex-start' }}>
 					{weaponTypeOptions(selectedCharacter).map(({ key, name }, idx) => (
-						<Form.Field key={`${name}${idx}`} inline>
-							<Radio
-								name="filterSelect"
-								label={name}
-								value={key as string}
-								checked={selectedWeaponType === key}
-								onChange={() => {
-									if (selectedWeaponType === name) {
-										setSelectedWeaponType(null);
-									} else {
-										if (selectedRadio !== Types.Weapon) {
-											setSelectedRadio(Types.Weapon);
-										}
-
-										setSelectedWeaponType(key);
-									}
-								}}
-							/>
-						</Form.Field>
+						<Form.Radio
+							key={`${name}${idx}`}
+							label={name}
+							value={key as string}
+							checked={selectedWeaponType === key}
+							onChange={() => {
+								if (selectedWeaponType === key) {
+									setSelectedWeaponType(null);
+									setSelectedRadio(null);
+								} else {
+									setSelectedRadio(Types.Weapon);
+									setSelectedWeaponType(key);
+								}
+							}}
+							// content={
+							// 	<Radio
+							// 		name="filterSelect"
+							// 		value={key as string}
+							// 		checked={selectedWeaponType === key}
+							// 		onChange={() => {
+							// 			if (selectedWeaponType === key) {
+							// 				setSelectedWeaponType(null);
+							// 				setSelectedRadio(null);
+							// 			} else {
+							// 				setSelectedRadio(Types.Weapon);
+							// 				setSelectedWeaponType(key);
+							// 			}
+							// 		}}
+							// 	/>
+							// }
+						/>
 					))}
 				</Form.Group>
 			</Form>

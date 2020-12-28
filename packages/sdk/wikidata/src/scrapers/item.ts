@@ -1,5 +1,4 @@
 import { CoreScraper } from './core';
-import { IBasicItem, IElement, ILocation, ICache } from 'erbs-sdk';
 import {
 	ARMOR_PATH,
 	CONSUMABLE_PATH,
@@ -7,18 +6,20 @@ import {
 	SPECIAL_PATH,
 	WEAPON_PATH
 } from '../utils/constants';
+import { IWikiCache } from '../interfaces/IWikiCache';
+import { IElement } from '../interfaces/IElement';
 
 export class ItemScraper extends CoreScraper {
 	constructor(
-		itemCache?: ICache,
-		private locationCache?: ICache,
-		private animalCache?: ICache,
-		private characterCache?: ICache
+		itemCache?: IWikiCache,
+		private locationCache?: IWikiCache,
+		private animalCache?: IWikiCache,
+		private characterCache?: IWikiCache
 	) {
 		super(itemCache);
 	}
 
-	private async injectDetailsToItems(items: Array<IElement | Array<any>>) {
+	private injectDetailsToItems = async (items: Array<IElement | Array<any>>) => {
 		for (const item of items) {
 			if (Array.isArray(item)) {
 				Object.assign(item[1], await this.getItem(item[1]));
@@ -26,9 +27,9 @@ export class ItemScraper extends CoreScraper {
 				Object.assign(item, await this.getItem(item));
 			}
 		}
-	}
+	};
 
-	public async getDroppedFromAnimals(item: IElement): Promise<Record<string, IElement>> {
+	public getDroppedFromAnimals = async (item: IElement): Promise<Record<string, IElement>> => {
 		if (this.animalCache) {
 			const animals = await this.animalCache.getAll();
 
@@ -40,11 +41,11 @@ export class ItemScraper extends CoreScraper {
 		}
 
 		return null;
-	}
+	};
 
-	public async getFoundLocations(item: IElement): Promise<Record<string, IElement>> {
+	public getFoundLocations = async (item: IElement): Promise<Record<string, IElement>> => {
 		if (this.locationCache) {
-			const locations = await this.locationCache.getAll<ILocation>();
+			const locations = await this.locationCache.getAll();
 
 			return Object.fromEntries(
 				Object.entries(locations)
@@ -57,9 +58,9 @@ export class ItemScraper extends CoreScraper {
 		}
 
 		return null;
-	}
+	};
 
-	public async getItem<T extends IBasicItem<any>>(item: IElement): Promise<T> {
+	public getItem = async (item: IElement) => {
 		if (!item || !item.href) {
 			console.log('Invalid Item', item);
 			return null;
@@ -89,8 +90,8 @@ export class ItemScraper extends CoreScraper {
 			.find('a img')
 			.parent()
 			.toArray()
-			.map((el) => this.getSimpleElement($, el))
-			.filter((el) => el.name !== item.name && el.name);
+			.map((el) => this.getSimpleElement($, el, true))
+			.filter((el) => el !== item.name && el);
 
 		const buildsFrom = $('#Recipe')
 			.parent()
@@ -100,7 +101,7 @@ export class ItemScraper extends CoreScraper {
 			.find('a img')
 			.parent()
 			.toArray()
-			.map((el) => this.getSimpleElement($, el));
+			.map((el) => this.getSimpleElement($, el, true));
 
 		const buildsInto = $('#Builds_into')
 			.parent()
@@ -108,9 +109,8 @@ export class ItemScraper extends CoreScraper {
 			.next()
 			.find('td a')
 			.toArray()
-			.map((el) => this.getSimpleElement($, el))
-			.filter((el) => el.name)
-			.map((el) => [ el.name, el ]);
+			.map((el) => this.getSimpleElement($, el, true))
+			.filter((el) => el);
 
 		const maxStacks = $stackable.length
 			? $stackable.parent().next().text().trim().replace(/[^0-9]/g, '')
@@ -124,7 +124,7 @@ export class ItemScraper extends CoreScraper {
 
 		return Object.assign({}, item, {
 			requirements,
-			buildsInto: Object.fromEntries(buildsInto),
+			buildsInto,
 			buildsFrom,
 			foundLocations,
 			droppedFrom,
@@ -133,13 +133,13 @@ export class ItemScraper extends CoreScraper {
 			description,
 			maxStacks,
 			foundQuantity
-		}) as T;
-	}
+		});
+	};
 
 	/**
      * @param complete if true, also fetch details for each weapon
      */
-	public async getWeapons(complete = false) {
+	public getWeapons = async (complete = false) => {
 		const $ = await this.getPage(WEAPON_PATH);
 		const categories = {};
 		const toc = $('.toclevel-1 a').toArray();
@@ -151,7 +151,7 @@ export class ItemScraper extends CoreScraper {
 			const $usableBy = $h2.next().find('a').toArray();
 			const $p = $h2.next('p');
 			const $abilityDetails = $p.nextUntil('div').next().find('div.ability_details');
-			const usableBy = $usableBy.map((el) => this.getSimpleElement($, el));
+			const usableBy = $usableBy.map((el) => this.getSimpleElement($, el, true));
 
 			const weapons = $p
 				.nextUntil('div')
@@ -160,8 +160,10 @@ export class ItemScraper extends CoreScraper {
 				.parent()
 				.parent()
 				.toArray()
-				.map((weaponEl) => this.getSimpleElement($, $(weaponEl).find('a:nth-child(1)')))
-				.filter(({ name }) => name);
+				.map((weaponEl) =>
+					this.getSimpleElement($, $(weaponEl).find('a:nth-child(1)'), !complete)
+				)
+				.filter((name) => name);
 
 			if (complete) {
 				await this.injectDetailsToItems(weapons);
@@ -179,25 +181,27 @@ export class ItemScraper extends CoreScraper {
 				}))
 			};
 
-			categories[name] = {
-				name,
-				weapons: Object.fromEntries(
-					weapons.map((wp) => {
-						return [ wp.name, wp ];
-					})
-				),
+			categories[name.replace(/_/g, '').replace(/-/g, '').replace(/ /g, '')] = {
+				name: name.replace(/_/g, ' '),
+				weapons: complete
+					? Object.fromEntries(
+							weapons.map((wp) => {
+								return [ wp.name, wp ];
+							})
+						)
+					: [ ...new Set(weapons) ],
 				abilityDetails,
 				usableBy
 			};
 		}
 
 		return categories;
-	}
+	};
 
 	/**
      * @param complete if true, also fetch details for each armor
      */
-	public async getArmors(complete = false) {
+	public getArmors = async (complete = false) => {
 		const $ = await this.getPage(ARMOR_PATH);
 		const categories = {};
 		const toc = $('.toclevel-2 a').toArray();
@@ -210,38 +214,39 @@ export class ItemScraper extends CoreScraper {
 				.next()
 				.find('a')
 				.toArray()
-				.map((e) => this.getSimpleElement($, e))
-				.map((armor) => [ armor.name, armor ]);
+				.map((e) => this.getSimpleElement($, e, !complete));
 
 			if (complete) {
 				this.injectDetailsToItems(armors);
 			}
 
-			categories[name] = Object.fromEntries(armors);
+			categories[name] = complete
+				? Object.fromEntries(armors.map((armor) => [ armor.name, armor ]))
+				: [ ...new Set(armors) ];
 		}
 
 		return categories;
-	}
+	};
 
 	/**
      * @param complete if true, also fetch details for each consumable item
      */
-	public async getConsumables(complete = false) {
+	public getConsumables = async (complete = false) => {
 		const $ = await this.getPage(CONSUMABLE_PATH);
 		const food = $('#mw-content-text > div > table:nth-child(4) a')
 			.toArray()
-			.map((el) => this.getSimpleElement($, el))
-			.map((mat) => [ mat.name, mat ]);
+			.map((el) => this.getSimpleElement($, el, !complete))
+			.map((mat) => (complete ? [ mat.name, mat ] : mat));
 		const drinks = $('#mw-content-text > div > table:nth-child(6) a')
 			.toArray()
-			.map((el) => this.getSimpleElement($, el))
-			.map((mat) => [ mat.name, mat ]);
+			.map((el) => this.getSimpleElement($, el, !complete))
+			.map((mat) => (complete ? [ mat.name, mat ] : mat));
 
 		const $special = await this.getPage(SPECIAL_PATH);
 		const special = $('#mw-content-text > div > table a')
 			.toArray()
-			.map((el) => this.getSimpleElement($, el))
-			.map((special) => [ special.name, special ]);
+			.map((el) => this.getSimpleElement($, el, !complete))
+			.map((mat) => (complete ? [ mat.name, mat ] : mat));
 
 		if (complete) {
 			await this.injectDetailsToItems(food);
@@ -250,33 +255,34 @@ export class ItemScraper extends CoreScraper {
 		}
 
 		return {
-			food: Object.fromEntries(food),
-			drink: Object.fromEntries(drinks),
-			special: Object.fromEntries(special)
+			food: complete ? Object.fromEntries(food) : [ ...new Set(food) ],
+			beverage: complete ? Object.fromEntries(drinks) : [ ...new Set(drinks) ],
+			summon: complete ? Object.fromEntries(special) : [ ...new Set(special) ]
 		};
-	}
+	};
 
 	/**
      * @param complete if true, also fetch details for each material
      */
-	public async getMaterials(complete = false) {
+	public getMaterials = async (complete = false) => {
 		const $ = await this.getPage(MATERIAL_PATH);
 		const mats = $('#mw-content-text > div > table a')
 			.toArray()
-			.map((el) => this.getSimpleElement($, el))
-			.map((mat) => [ mat.name, mat ]);
+			.map((el) => this.getSimpleElement($, el, !complete));
 
 		if (complete) {
 			await this.injectDetailsToItems(mats);
 		}
 
-		return Object.fromEntries(mats);
-	}
+		return complete
+			? Object.fromEntries(mats.map((mat) => [ mat.name, mat ]))
+			: [ ...new Set(mats) ];
+	};
 
 	/**
      * @param complete if true, also fetch details for each item
      */
-	public async getAll(complete = false) {
+	public getAll = async (complete = false) => {
 		const materials = await this.getMaterials(complete);
 		const armors = await this.getArmors(complete);
 		const weapons = await this.getWeapons(complete);
@@ -288,5 +294,5 @@ export class ItemScraper extends CoreScraper {
 			weapons,
 			consumables
 		};
-	}
+	};
 }

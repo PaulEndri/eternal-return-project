@@ -22,12 +22,12 @@ export class Loadout {
 	private _byProducts: Record<string, IBasicItem<any>>;
 
 	constructor(
-		private chest: Chest,
-		private arm: Arm,
-		private legs: Leg,
-		private head: Head,
-		private weapon: Weapon,
-		private accessory: Accessory
+		readonly chest: Chest,
+		readonly arm: Arm,
+		readonly legs: Leg,
+		readonly head: Head,
+		readonly weapon: Weapon,
+		readonly accessory: Accessory
 	) {}
 
 	static GenerateLoadout(data: IBasicLoadout) {
@@ -53,14 +53,16 @@ export class Loadout {
 		if (!this._totalMaterials) {
 			const totalMaterials = {};
 
-			this.items.forEach(({ requirements }) =>
-				requirements.filter((x) => x).forEach((req) => {
-					if (!totalMaterials[req.name]) {
-						totalMaterials[req.name] = 0;
-					}
+			this.items.forEach(
+				({ requirements }) =>
+					requirements &&
+					requirements.filter((x) => x).forEach((req) => {
+						if (!totalMaterials[req.name]) {
+							totalMaterials[req.name] = 0;
+						}
 
-					totalMaterials[req.name] += 1;
-				})
+						totalMaterials[req.name] += 1;
+					})
 			);
 
 			totalMaterials[this.weapon.starter] = 1;
@@ -120,65 +122,103 @@ export class Loadout {
 		return this._regions;
 	}
 
-	public get weightedRegions(): Record<LocationsEnum, IWeightedLocation> {
-		const regions = this.regions;
+	private clearInternals() {
+		this._totalMaterials = null;
+		this._totalCount = null;
+		this._regions = null;
+		this._weightedRegions = null;
+		this._byProducts = null;
+	}
 
-		if (!this._weightedRegions) {
-			const weightedRegions = Object.fromEntries(
-				Object.entries(regions).map(([ regionName, region ]) => {
-					const materialList = new MaterialList();
-					const regionMaterials = Object.entries(region.materials).filter(
-						([ materialName ]) => this.materials[materialName] > 0
-					);
-					const baseRegionCount = regionMaterials.reduce(
-						(previous: number, [ material, value ]) => {
-							materialList.add(material, +value.quantity);
-
-							return previous + this.getRegionItemWeight(material, +value.quantity);
-						},
-						0
-					);
-
-					const byProductsBuilt = Object.entries(this.byProducts)
-						.filter(([ name ]) => {
-							const item = new Item(name);
-
-							return item.canComplete(materialList.list);
-						})
-						.concat(
-							this.checkCompletedItems(materialList.list).map((item) => [
-								item.name,
-								item
-							])
-						);
-
-					return [
-						regionName as LocationsEnum,
-						{
-							name: regionName,
-							byProductsBuilt: Object.fromEntries(byProductsBuilt),
-							value: this.getRegionWeight(
-								baseRegionCount,
-								byProductsBuilt.length,
-								region.teleport
-							),
-							materials: Object.fromEntries(regionMaterials),
-							connections: region.connections,
-							teleport: region.teleport,
-							simplifiedMaterials: regionMaterials.map(([ name, drop ]) => [
-								name,
-								drop.quantity
-							])
-						} as IWeightedLocation
-					];
-				})
-			);
-
-			this._weightedRegions = weightedRegions as Record<LocationsEnum, IWeightedLocation>;
+	public setSlot(slot: keyof IBasicLoadout, item: Item<any>, immutable = true) {
+		if (!slot) {
+			throw new Error('No Slot Selected');
 		}
 
-		return this._weightedRegions;
+		this.clearInternals();
+
+		if (immutable) {
+			const newLoadout = {
+				Chest: this.chest,
+				Head: this.head,
+				Leg: this.legs,
+				Arm: this.arm,
+				Accessory: this.accessory,
+				Weapon: this.weapon,
+				[slot]: item
+			};
+
+			return new Loadout(
+				newLoadout.Chest,
+				newLoadout.Arm,
+				newLoadout.Leg,
+				newLoadout.Head,
+				newLoadout.Weapon,
+				newLoadout.Accessory
+			);
+		} else {
+			this[slot] = item;
+		}
 	}
+	// public get weightedRegions(): Record<LocationsEnum, IWeightedLocation> {
+	// 	const regions = this.regions;
+
+	// 	if (!this._weightedRegions) {
+	// 		const weightedRegions = Object.fromEntries(
+	// 			Object.entries(regions).map(([ regionName, region ]) => {
+	// 				const materialList = new MaterialList();
+	// 				const regionMaterials = Object.entries(region.materials).filter(
+	// 					([ materialName ]) => this.materials[materialName] > 0
+	// 				);
+	// 				const baseRegionCount = regionMaterials.reduce(
+	// 					(previous: number, [ material, value ]) => {
+	// 						materialList.add(material, +value.quantity);
+
+	// 						return previous + this.getRegionItemWeight(material, +value.quantity);
+	// 					},
+	// 					0
+	// 				);
+
+	// 				const byProductsBuilt = Object.entries(this.byProducts)
+	// 					.filter(([ name ]) => {
+	// 						const item = new Item(name);
+
+	// 						return item.canComplete(materialList.list);
+	// 					})
+	// 					.concat(
+	// 						this.checkCompletedItems(materialList.list).map((item) => [
+	// 							item.name,
+	// 							item
+	// 						])
+	// 					);
+
+	// 				return [
+	// 					regionName as LocationsEnum,
+	// 					{
+	// 						name: regionName,
+	// 						byProductsBuilt: Object.fromEntries(byProductsBuilt),
+	// 						value: this.getRegionWeight(
+	// 							baseRegionCount,
+	// 							byProductsBuilt.length,
+	// 							region.teleport
+	// 						),
+	// 						materials: Object.fromEntries(regionMaterials),
+	// 						connections: region.connections,
+	// 						teleport: region.teleport,
+	// 						simplifiedMaterials: regionMaterials.map(([ name, drop ]) => [
+	// 							name,
+	// 							drop.quantity
+	// 						])
+	// 					} as IWeightedLocation
+	// 				];
+	// 			})
+	// 		);
+
+	// 		this._weightedRegions = weightedRegions as Record<LocationsEnum, IWeightedLocation>;
+	// 	}
+
+	// 	return this._weightedRegions;
+	// }
 
 	public checkCompletedItems(materials: IMaterialList) {
 		return this.items.filter((item) => item.canComplete(materials));
