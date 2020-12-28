@@ -1,0 +1,4967 @@
+{
+  "Adriana": {
+    "name": "Adriana",
+    "href": "/Adriana",
+    "description": "\"Lily? Did you call my name?\"",
+    "details": [
+      [
+        "Real Name",
+        "Adriana Rivera"
+      ],
+      [
+        "Age",
+        "22"
+      ],
+      [
+        "Nationality",
+        "Mexico"
+      ],
+      [
+        "Occupation",
+        "Arsonist"
+      ],
+      [
+        "Role",
+        "Control Mage"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "31",
+        "Health": "530",
+        "Health regen": "0.5",
+        "Stamina": "480",
+        "Stamina regen": "1.00",
+        "Defense": "27",
+        "Bonus atk. speed": "4.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.00",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "76.6",
+        "Health": "1765",
+        "Health regen": "1.07",
+        "Stamina": "651",
+        "Stamina regen": "1.19",
+        "Defense": "59.3",
+        "Bonus atk. speed": "4.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.00",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.4",
+        "Health": "65",
+        "Health regen": "0.03",
+        "Stamina": "9",
+        "Stamina regen": "0.01",
+        "Defense": "1.7",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Pyromaniac",
+        "slot": "Passive",
+        "type": "Passive",
+        "description": "Adriana can start fires on the ground. Enemies lit on fire by a burning area are Burned, taking damage over time and have their movement speed reduced. Damage increases per stack of Burned. Adriana recovers 0.5/1/1.5% SP every 0.5s while a fire she lit is active.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "4/7/10 (+AP 15%) base damage every 0.5s (burned) / 20% increase per stack",
+            "tiers": {
+              "1": "4",
+              "2": "7",
+              "3": "10"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "-30%",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Flamethrower",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Adriana fires her flamethrower in the targeted direction, dealing true damage (true damage ignores defense and is not affected by skill amplification).",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "12/15/18/21/24 + AP 10/15/20/25/30% damage every 0.25s (max 9 hits)",
+            "tiers": {
+              "1": "10",
+              "2": "15",
+              "3": "20",
+              "4": "25",
+              "5": "30%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "2s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "6m\nWidth 0.9m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.13s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "30/50/70/90/110 SP",
+            "tiers": {
+              "1": "30",
+              "2": "50",
+              "3": "70",
+              "4": "90",
+              "5": "110"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "7/6.5/6/5.5/5 Seconds",
+            "tiers": {
+              "1": "7",
+              "2": "6.5",
+              "3": "6",
+              "4": "5.5",
+              "5": "5"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Oil Slick",
+        "slot": "W",
+        "type": "Zone Control",
+        "description": "Adriana spills oil on the targeted location. The oil slick remains for a certain time. Adriana can ignite the oil slick with a skill to start a fire for 5 seconds. Enemies inside the oil slick have their movement speed reduced and cannot use movement skills.\nMax Charges 2",
+        "stats": {
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "-30%",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "12m\nLength 5.75m\n\nWidth 0.825m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.13s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "0.3s Seconds (recharge 24/20/16/12/8s)",
+            "tiers": {
+              "1": "24",
+              "2": "20",
+              "3": "16",
+              "4": "12",
+              "5": "8s)"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Fire Escape",
+        "slot": "E",
+        "type": "Movement",
+        "description": "Adriana dashes in the targeted direction, leaving behind a trail of fire. The flames create fire and remain for 2 seconds.",
+        "stats": {
+          "Range": {
+            "title": "Range",
+            "value": "6m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.23s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "22/20/18/16/14 Seconds",
+            "tiers": {
+              "1": "22",
+              "2": "20",
+              "3": "18",
+              "4": "16",
+              "5": "14"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Cocktail Party",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Adriana throws a Molotov cocktail at the targeted location. The Molotov cocktail explodes upon landing, dealing damage and knocking back enemies. After the explosion, the Molotov cocktail leaves behind a fire for 5 seconds. Adriana can hold a maximum of 3 Molotov cocktails. She gains a new Molotov cocktail every few seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "70/130/190 (+AP 40%)",
+            "tiers": {
+              "1": "70",
+              "2": "130",
+              "3": "190"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5 Seconds",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "14m (1.5m radius)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.13 seconds",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "45/60/75 SP",
+            "tiers": {
+              "1": "45",
+              "2": "60",
+              "3": "75"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "0.3 Seconds (recharge 40/33/26)",
+            "tiers": {
+              "1": "40",
+              "2": "33",
+              "3": "26)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Aya": {
+    "name": "Aya",
+    "href": "/Aya",
+    "description": "\"Criminals? Where?!\"",
+    "details": [
+      [
+        "Real Name",
+        "Suzuki Aya"
+      ],
+      [
+        "Age",
+        "26"
+      ],
+      [
+        "Nationality",
+        "Japan"
+      ],
+      [
+        "Occupation",
+        "Police Officer"
+      ],
+      [
+        "Role",
+        "Marksman"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "28",
+        "Health": "480",
+        "Health regen": "0.5",
+        "Stamina": "440",
+        "Stamina regen": "2.3",
+        "Defense": "18",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.0",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "77.4",
+        "Health": "1677",
+        "Health regen": "1.26",
+        "Stamina": "858",
+        "Stamina regen": "3.63",
+        "Defense": "44.6",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.0",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.6",
+        "Health": "63",
+        "Health regen": "0.07",
+        "Stamina": "22",
+        "Stamina regen": "0.07",
+        "Defense": "1.4",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Aya's Justice",
+        "slot": "Passive",
+        "type": "Shield",
+        "description": "When Aya is attacked, she is enveloped by a protective field that blocks damage. Every time she uses her basic attack on an enemy, the cooldown of Aya's Justice is decreased by 2 seconds.",
+        "stats": {
+          "Health": {
+            "title": "Health",
+            "value": "100/150/200(+0.3 AP)",
+            "tiers": {
+              "1": "100",
+              "2": "150",
+              "3": "200(+0.3"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "2s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "30s",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Double Shot",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Aya rapidly shoots her target twice. The second shot does more damage.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "1st shot : 1.0AP ,2nd shot: 20/60/100/140/180 (+0.5 AP)",
+            "tiers": {
+              "1": "20",
+              "2": "60",
+              "3": "100",
+              "4": "140",
+              "5": "180"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "Attack Range",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80/90/100/110/120 SP",
+            "tiers": {
+              "1": "80",
+              "2": "90",
+              "3": "100",
+              "4": "110",
+              "5": "120"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "7/6.5/6/5.5/5 Seconds",
+            "tiers": {
+              "1": "7",
+              "2": "6.5",
+              "3": "6",
+              "4": "5.5",
+              "5": "5"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Steady Shot",
+        "slot": "W",
+        "type": "Attack",
+        "description": "Aya shoots ten times in the targeted direction for a moment.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "22(+0.25 AP)\n44(+0.3AP)\n66(+0.35AP)\n88(+0.4AP)\n\n110(+0.45AP) x 10",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "3s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.17s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100/110/120/130/140 SP",
+            "tiers": {
+              "1": "100",
+              "2": "110",
+              "3": "120",
+              "4": "130",
+              "5": "140"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "18/17/16/15/14 Seconds",
+            "tiers": {
+              "1": "18",
+              "2": "17",
+              "3": "16",
+              "4": "15",
+              "5": "14"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Moving Turn",
+        "slot": "E",
+        "type": "Movement",
+        "description": "Aya quickly dashes in the target direction.",
+        "stats": {
+          "Range": {
+            "title": "Range",
+            "value": "4m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "85/90/95/100/105 SP",
+            "tiers": {
+              "1": "85",
+              "2": "90",
+              "3": "95",
+              "4": "100",
+              "5": "105"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "22/19/16/13/10 Seconds",
+            "tiers": {
+              "1": "22",
+              "2": "19",
+              "3": "16",
+              "4": "13",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Blank Cartridge",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Aya fires a blank into the air. The sound of the gunshot startles nearby enemies, dealing damage and suppressing them for a moment.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "200/350/500(+0.7 AP)",
+            "tiers": {
+              "1": "200",
+              "2": "350",
+              "3": "500(+0.7"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1.5/1.75/2 Seconds",
+            "tiers": {
+              "1": "1.5",
+              "2": "1.75",
+              "3": "2"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "1.17 seconds",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "150 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "100/70/40 Seconds",
+            "tiers": {
+              "1": "100",
+              "2": "70",
+              "3": "40"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Chiara": {
+    "name": "Chiara",
+    "href": "/Chiara",
+    "description": "\"The time for salvation has passed.\"",
+    "details": [
+      [
+        "Real Name",
+        "Chiara"
+      ],
+      [
+        "Age",
+        "21"
+      ],
+      [
+        "Nationality",
+        "France"
+      ],
+      [
+        "Occupation",
+        "Nun"
+      ],
+      [
+        "Role",
+        "Mage"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "34",
+        "Health": "500",
+        "Health regen": "0.5",
+        "Stamina": "410",
+        "Stamina regen": "1.80",
+        "Defense": "24",
+        "Bonus atk. speed": "11.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.20",
+        "Sight range": "-"
+      },
+      "finish": {
+        "Attack power": "72.0",
+        "Health": "1640",
+        "Health regen": "0.88",
+        "Stamina": "657",
+        "Stamina regen": "2.37",
+        "Defense": "52.5",
+        "Bonus atk. speed": "11.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.20",
+        "Sight range": "-"
+      },
+      "growth": {
+        "Attack power": "2.0",
+        "Health": "60",
+        "Health regen": "0.02",
+        "Stamina": "13",
+        "Stamina regen": "0.03",
+        "Defense": "1.5",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Stigma",
+        "slot": "Passive",
+        "type": "Passive/Buff",
+        "description": "When Chiara hits an enemy with a skill, she carves a Stigma into them, reducing their defense by 2/4/6%. Chiara can apply a maximum of 4 Stigmas to the same enemy. When the enemy reaches the maximum amount of Stigmas, Chiara's movement speed is increased for 6 seconds.",
+        "stats": {
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "+4/6/8%",
+            "tiers": {
+              "1": "+4",
+              "2": "6",
+              "3": "8%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "6s (Stigma duration)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Hand of Corruption",
+        "slot": "Q",
+        "type": "Attack/Debuff",
+        "description": "Chiara casts out corrupted energy in the targeted direction, dealing damage to all enemies it hits. Hold the skill down for 0.5 seconds to cast out the corrupted energy further and in a straight line. Using the skill short-ranged reduces its cooldown by 20%.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "60/100/140/180/200 + AP 60%",
+            "tiers": {
+              "1": "60",
+              "2": "100",
+              "3": "140",
+              "4": "180",
+              "5": "200"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "-30%",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "0.25s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m (cone) / 12m (line)",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/60/70/80/90 SP",
+            "tiers": {
+              "1": "50",
+              "2": "60",
+              "3": "70",
+              "4": "80",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "10/9.5/9/8.5/8s",
+            "tiers": {
+              "1": "10",
+              "2": "9.5",
+              "3": "9",
+              "4": "8.5",
+              "5": "8s"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Depraved Prayer",
+        "slot": "W",
+        "type": "Defense/Damage",
+        "description": "Chiara divines a shield, absorbing damage. The shield remains for 6 seconds. If the shield is not depleted after 3 seconds, she can reactivate the skill again, making it explode, dealing damage to enemies in range.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "90/125/160/195/230 + AP 75% (absorbed) / 80/120/160/200/240 + AP 60% (explosion)",
+            "tiers": {
+              "1": "80",
+              "2": "120",
+              "3": "160",
+              "4": "200",
+              "5": "240"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "6s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5.5m (explosion)",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/60/70/80/90 SP",
+            "tiers": {
+              "1": "50",
+              "2": "60",
+              "3": "70",
+              "4": "80",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "16/15/14/13/12s",
+            "tiers": {
+              "1": "16",
+              "2": "15",
+              "3": "14",
+              "4": "13",
+              "5": "12s"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Mania",
+        "slot": "E",
+        "type": "Attack/Debuff",
+        "description": "Chiara sends out a shackle in the targeted direction, dealing damage to enemies hit and linking them to Chiara. If the link is maintained for 1.75 seconds, she deals damage and roots the enemy for 1.5 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/60/80/100/120 + AP 30% (if hit) / 70/110/150/190/230 + AP 70% (if rooted)",
+            "tiers": {
+              "1": "70",
+              "2": "110",
+              "3": "150",
+              "4": "190",
+              "5": "230"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1.75s (link)",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7m (Shackle max range: 8m)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.26s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "17/15.5/14/12.5/11s",
+            "tiers": {
+              "1": "17",
+              "2": "15.5",
+              "3": "14",
+              "4": "12.5",
+              "5": "11s"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Last Judgement",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Chiara can crash down upon an enemy with the maximum amount of Stigmas, dealing true damage and ending the Plague. Killing enemies with Last Judgement reduces the cooldown of Plague by 50%.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "200/300/400 + AP 120%",
+            "tiers": {
+              "1": "200",
+              "2": "300",
+              "3": "400"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Fiora": {
+    "name": "Fiora",
+    "href": "/Fiora",
+    "description": "\"My sword shall not falter.\"",
+    "details": [
+      [
+        "Real Name",
+        "Fiora Pellerin"
+      ],
+      [
+        "Age",
+        "24"
+      ],
+      [
+        "Nationality",
+        "Italy"
+      ],
+      [
+        "Occupation",
+        "Fencer"
+      ],
+      [
+        "Role",
+        "Fighter"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "37",
+        "Health": "550",
+        "Health regen": "0.8",
+        "Stamina": "430",
+        "Stamina regen": "2.2",
+        "Defense": "25",
+        "Bonus atk. speed": "22.0%",
+        "Bonus crit rate": "-",
+        "Move. speed": "3.15",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "90.2",
+        "Health": "2203",
+        "Health regen": "1.94",
+        "Stamina": "677",
+        "Stamina regen": "3.34",
+        "Defense": "66.8",
+        "Bonus atk. speed": "22.0%",
+        "Bonus crit rate": "-",
+        "Move. speed": "3.15",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.8",
+        "Health": "87",
+        "Health regen": "0.06",
+        "Stamina": "13",
+        "Stamina regen": "0.06",
+        "Defense": "2.2",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Touché",
+        "slot": "Passive",
+        "type": "Passive",
+        "description": "Fiora earns a stack of Touché every time she lands a normal attack on an enemy. When she reaches the maximum number of stacks, the Touché indicator activates for a certain time.",
+        "stats": {
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Applied instantly",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Fente",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Fiora attacks in the targeted direction, dealing damage and slowing enemies hit. If the enemies have the Touché indicator, she procs the indicator. dealing extra damage and slowing enemies.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "60/120/180/240/300 + 0.25 AP\nTouché proc: (72/144/216/288/360 + Critical Strike damage %) + 0.3AP",
+            "tiers": {
+              "1": "(72",
+              "2": "144",
+              "3": "216",
+              "4": "288",
+              "5": "360"
+            }
+          },
+          "Slow": {
+            "title": "Slow",
+            "value": "15%\nTouché proc: 70%",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.33s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "40/50/60/70/80 SP",
+            "tiers": {
+              "1": "40",
+              "2": "50",
+              "3": "60",
+              "4": "70",
+              "5": "80"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "9/8/7/6/5 Seconds",
+            "tiers": {
+              "1": "9",
+              "2": "8",
+              "3": "7",
+              "4": "6",
+              "5": "5"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Attaque Composée",
+        "slot": "W",
+        "type": "Attack",
+        "description": "Fiora swings her sword two times for her next normal attack. For every Touché indicator she procs with her other skills, the cooldown for Attaque Composée is decreased by 4 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "First swing: 0.6/0.7/0.8/0.9/1.0 AP\nSecond swing: 0.2/0.3/0.4/0.5/0.6 AP",
+            "tiers": {
+              "1": "0.2",
+              "2": "0.3",
+              "3": "0.4",
+              "4": "0.5",
+              "5": "0.6"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "Attack Range",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "70 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "20/17/14/11/8 Seconds",
+            "tiers": {
+              "1": "20",
+              "2": "17",
+              "3": "14",
+              "4": "11",
+              "5": "8"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Marche & Rompre",
+        "slot": "E",
+        "type": "Attack / Movement",
+        "description": "Fiora dashes to the targeted direction, dealing damage to the enemies she hits. If the enemies have the Touché indicator, she procs the indicator, dealing extra damage. If she deals damage to an enemy, she can use the skill again within a certain time and dash backwards.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "90/130/170/210/250 + 0.4AP\nTouché proc: (108/156/204/252/300 + Critical Strike Damage %) + 0.48AP",
+            "tiers": {
+              "1": "(108",
+              "2": "156",
+              "3": "204",
+              "4": "252",
+              "5": "300"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1.5s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m/4.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": ".2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "16/14/12/10/8 Seconds",
+            "tiers": {
+              "1": "16",
+              "2": "14",
+              "3": "12",
+              "4": "10",
+              "5": "8"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Garde",
+        "slot": "R",
+        "type": "Ulitmate (Buff)",
+        "description": "Fiora adopts an elaborate posture to unleash her most powerful attacks. When Garde is activated, every normal attack uses stamina and deals extra damage. If the stamina reaches a certain amount, the skill is automatically deactivated. It can also be deactivated by reactivating the skill.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "30/35/40\n(+0.06/0.18/0.30AP)",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant (Toggle)",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "20 Seconds",
+            "tiers": {}
+          }
+        }
+      }
+    }
+  },
+  "Hart": {
+    "name": "Hart",
+    "href": "/Hart",
+    "description": "\"Love and Peace!\"",
+    "details": [
+      [
+        "Real Name",
+        "Hart Floyd"
+      ],
+      [
+        "Age",
+        "23"
+      ],
+      [
+        "Nationality",
+        "USA"
+      ],
+      [
+        "Occupation",
+        "Musician"
+      ],
+      [
+        "Role",
+        "Caster"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "22",
+        "Health": "500",
+        "Health regen": "0.8",
+        "Stamina": "420",
+        "Stamina regen": "1.7",
+        "Defense": "20",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.0",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "79",
+        "Health": "1792",
+        "Health regen": "1.56",
+        "Stamina": "724",
+        "Stamina regen": "2.46",
+        "Defense": "56.1",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.0",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "3.0",
+        "Health": "68",
+        "Health regen": "0.04",
+        "Stamina": "16",
+        "Stamina regen": "0.04",
+        "Defense": "1.9",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Feedback",
+        "slot": "Passive",
+        "type": "Buff",
+        "description": "If Hart deals damage to an enemy with a normal attack, she recovers SP.  \nEvolved Feedback: Hart fires an additional sound wave per evolution point. Each dealing 0.15AP damage",
+        "stats": {
+          "Regen": {
+            "title": "Regen",
+            "value": "1/1.5/2% SP / Normal Attack",
+            "tiers": {
+              "1": "1",
+              "2": "1.5",
+              "3": "2%"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Delay",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Hart strums her guitar, charging her sound waves. When she strums the guitar again, the charged sound waves are released. She can charge for up to 4 seconds, and can maintain the sound wave for 4 seconds. She deals more damage depending on how long she charges.  \nEvolved Delay: Enemies hit are slowed by -15%/-35%, based on evolution points spent on this skill.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "80-160100-200120-240140-280160-320(+ 0.3 - 0.6 AP)",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "8m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "4 Seconds",
+            "tiers": {}
+          }
+        }
+      },
+      "W": {
+        "name": "Overdrive",
+        "slot": "W",
+        "type": "Buff",
+        "description": "Hart plays a lick on her guitar, increasing her Attack Power for a certain time.  \nEvolved Overdrive: Enemies will have their defense reduced by -15%/-30% to her next sound wave, based on evolution points spent on this skill.",
+        "stats": {
+          "AP Increase": {
+            "title": "AP Increase",
+            "value": "12/19/26/33/40%",
+            "tiers": {
+              "1": "12",
+              "2": "19",
+              "3": "26",
+              "4": "33",
+              "5": "40%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5 seconds",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100/105/110/115/120 SP",
+            "tiers": {
+              "1": "100",
+              "2": "105",
+              "3": "110",
+              "4": "115",
+              "5": "120"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "22/19/16/13/10 Seconds",
+            "tiers": {
+              "1": "22",
+              "2": "19",
+              "3": "16",
+              "4": "13",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Flanger",
+        "slot": "E",
+        "type": "Dash",
+        "description": "Hart quickly dashes in the targeted direction. She can activate this skill an additional two times. She dashes and strums her guitar, discharging sound waves in a 4m area around her and dealing damage to enemies hit. Her third dash is a little bit longer.  \nEvolved Flanger: Activating the skill grants 15%/25% skill damage amplificaiton for a few seconds, stacking up to 3 times.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "20/30/40/50/60 ( + 0.4 AP)",
+            "tiers": {
+              "1": "20",
+              "2": "30",
+              "3": "40",
+              "4": "50",
+              "5": "60"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "2m/3m(third dash)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "35/40/45/50/55 SP",
+            "tiers": {
+              "1": "35",
+              "2": "40",
+              "3": "45",
+              "4": "50",
+              "5": "55"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "17/15/13/11/9 Seconds",
+            "tiers": {
+              "1": "17",
+              "2": "15",
+              "3": "13",
+              "4": "11",
+              "5": "9"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Peacemaker",
+        "slot": "R",
+        "type": "Aura (Ultimate)",
+        "description": "Hart puts on a show, causing all her enemies in a range around her to dance. For every second of her performance, she recovers HP. Enemies attending the concert dance and have their movement speed reduced.  \nEvolved Peacemaker: Enemies attending the concert dance have their movement speed and SP reduced. SP reduction amount increases per number of Evolution Points.",
+        "stats": {
+          "Health": {
+            "title": "Health",
+            "value": "(30 + .02 Max HP)/(40 + .03 Max HP)/(50 + .04 Max HP) per second",
+            "tiers": {}
+          },
+          "Slow": {
+            "title": "Slow",
+            "value": "Enemy movespeed reduced to 2.5 m/s",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7/8/9m",
+            "tiers": {
+              "1": "7",
+              "2": "8",
+              "3": "9m"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "200/150/100 SP",
+            "tiers": {
+              "1": "200",
+              "2": "150",
+              "3": "100"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "120/100/80 Seconds",
+            "tiers": {
+              "1": "120",
+              "2": "100",
+              "3": "80"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Hyejin": {
+    "name": "Hyejin",
+    "href": "/Hyejin",
+    "description": "\"I will follow my destiny!\"",
+    "details": [
+      [
+        "Real Name",
+        "Lee Hyejin (이혜진)"
+      ],
+      [
+        "Age",
+        "18"
+      ],
+      [
+        "Nationality",
+        "Korea"
+      ],
+      [
+        "Occupation",
+        "Shaman"
+      ],
+      [
+        "Role",
+        "Mage"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "29",
+        "Health": "500",
+        "Health regen": "0.6",
+        "Stamina": "400",
+        "Stamina regen": "2",
+        "Defense": "22",
+        "Bonus atk. speed": "12%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "76.5",
+        "Health": "1716",
+        "Health regen": "1.17",
+        "Stamina": "894",
+        "Stamina regen": "3.52",
+        "Defense": "54.3",
+        "Bonus atk. speed": "12%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.5",
+        "Health": "64",
+        "Health regen": "0.03",
+        "Stamina": "26",
+        "Stamina regen": "0.08",
+        "Defense": "1.7",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Three Calamities",
+        "slot": "Passive",
+        "type": "Passive/Debuff",
+        "description": "When Hyejin hits an enemy with a skill, they receive a calamity. Upon reaching 3 stacks, Three Calamities is activated, fearing them. Feared enemies cannot receive Three Calamities again for 8 seconds.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "0.7/1.1/1.5s",
+            "tiers": {
+              "1": "0.7",
+              "2": "1.1",
+              "3": "1.5s"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Charm of Despair",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Hyejin casts a Charm of Despair in the targeted direction, dealing damage to the first enemy hit, and reducing their movement speed for 1 second. She can recast the skill to cast another charm.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "100/125/150/175/200 (+0.4 AP)",
+            "tiers": {
+              "1": "100",
+              "2": "125",
+              "3": "150",
+              "4": "175",
+              "5": "200"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "-50%",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "11.75m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.3s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/55/60/65/70 SP",
+            "tiers": {
+              "1": "50",
+              "2": "55",
+              "3": "60",
+              "4": "65",
+              "5": "70"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "20/17/14/11/8 s",
+            "tiers": {
+              "1": "20",
+              "2": "17",
+              "3": "14",
+              "4": "11",
+              "5": "8"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Charm of the Prophecy",
+        "slot": "W",
+        "type": "Attack",
+        "description": "Hyejin summons a Charm of the Prophecy in the targeted location that stays at the location. Charm of Prophecy ignites after the max time, or if the skill is activated again, dealing damage to enemies in range and rooting them.\nCharm of the Prophecy damage increases while on the ground.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "15/20/25/30/35(+0.5 AP) to 140/205/270/335/400(+0.5 AP)",
+            "tiers": {
+              "1": "140",
+              "2": "205",
+              "3": "270",
+              "4": "335",
+              "5": "400(+0.5"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "3s  Root: 1s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.23s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "60/65/70/75/80 SP",
+            "tiers": {
+              "1": "60",
+              "2": "65",
+              "3": "70",
+              "4": "75",
+              "5": "80"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "22/19/16/13/10 s",
+            "tiers": {
+              "1": "22",
+              "2": "19",
+              "3": "16",
+              "4": "13",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Charm of the Nomad",
+        "slot": "E",
+        "type": "Move Attack",
+        "description": "Hyejin casts a Charm of the Nomad in the targeted location, dealing damage to enemies hit. Activating the skill again teleports Hyejin to the location of Charm of the Nomad, dealing damage to enemies upon landing.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "45/70/95/120/145(+0.3 AP) / 50/75/100/125/150(+0.3 AP) upon landing",
+            "tiers": {
+              "1": "50",
+              "2": "75",
+              "3": "100",
+              "4": "125",
+              "5": "150(+0.3"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "10.5m / damage range upon landing = 1.25m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.25s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "12s",
+            "tiers": {}
+          }
+        }
+      },
+      "R": {
+        "name": "Five Omens",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Hyejin focuses for 1 second, summoning 5 Omens, and dealing damage to enemies in an area around her. The Omens spin around Hyejin for 20 seconds, each dealing damage to enemies hit. Omens are consumed after hitting an enemy. While focusing, her movement speed is reduced by 30%. Hyejin can teleport to her Charm of the Nomad location while focusing.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "150/275/400(+0.7 AP) (initial) / 80/130/180(+0.5 AP) per Omen",
+            "tiers": {
+              "1": "80",
+              "2": "130",
+              "3": "180(+0.5"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "20s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5.5m (0.5 projectile damage range)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "1s (focus)",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "120/90/60 Seconds",
+            "tiers": {
+              "1": "120",
+              "2": "90",
+              "3": "60"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Hyunwoo": {
+    "name": "Hyunwoo",
+    "href": "/Hyunwoo",
+    "description": "\"This is what my fists are for!\"",
+    "details": [
+      [
+        "Real Name",
+        "Jang Hyunwoo (장현우)"
+      ],
+      [
+        "Age",
+        "17"
+      ],
+      [
+        "Nationality",
+        "Korea"
+      ],
+      [
+        "Occupation",
+        "Student"
+      ],
+      [
+        "Role",
+        "Brawler"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "40",
+        "Health": "500",
+        "Health regen": "0.8",
+        "Stamina": "350",
+        "Stamina regen": "1.8",
+        "Defense": "16",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.15",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "98.9",
+        "Health": "2020",
+        "Health regen": "1.56",
+        "Stamina": "654",
+        "Stamina regen": "2.56",
+        "Defense": "63.5",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.15",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "3.1",
+        "Health": "80",
+        "Health regen": "0.04",
+        "Stamina": "16",
+        "Stamina regen": "0.04",
+        "Defense": "2.5",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Dogfight",
+        "slot": "Passive",
+        "type": "Heal (Passive)",
+        "description": "Hyunwoo receives 4 stacks of Dogfight when attacking an enemy, and 1 stack of Dogfight when being attacked. After gathering 70 stacks of HP, he heals a certain amount of his maximum health.",
+        "stats": {
+          "Health": {
+            "title": "Health",
+            "value": ".07/.11/.15 Max HP",
+            "tiers": {
+              "1": ".07",
+              "2": ".11",
+              "3": ".15"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Stomping Foot",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Hyunwoo stomps his foot very hard, dealing damage and slowing enemies in the targeted area for a moment.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "100/150/200/250/300 (+0.4 AP)",
+            "tiers": {
+              "1": "100",
+              "2": "150",
+              "3": "200",
+              "4": "250",
+              "5": "300"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "-40%",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "2s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "3m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "60/70/80/90/100 SP",
+            "tiers": {
+              "1": "60",
+              "2": "70",
+              "3": "80",
+              "4": "90",
+              "5": "100"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "10/9/8/7/6 Seconds",
+            "tiers": {
+              "1": "10",
+              "2": "9",
+              "3": "8",
+              "4": "7",
+              "5": "6"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Bluff",
+        "slot": "W",
+        "type": "Buff",
+        "description": "Hyunwoo gets bonus defense for a short time when Bluff is active. Additionally, after Bluff is activated, Hyunwoo is immune against stun, knockback, and suppression effects for a short time.",
+        "stats": {
+          "Defense": {
+            "title": "Defense",
+            "value": "+ 4/18/32/46/60 (+ 0.1 Defense)",
+            "tiers": {
+              "1": "4",
+              "2": "18",
+              "3": "32",
+              "4": "46",
+              "5": "60"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "3 seconds",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50 SP (All levels)",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "28/25/22/19/16 Seconds",
+            "tiers": {
+              "1": "28",
+              "2": "25",
+              "3": "22",
+              "4": "19",
+              "5": "16"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "First Attack",
+        "slot": "E",
+        "type": "Attack",
+        "description": "Hyunwoo charges toward the targeted direction, dealing damage and knocking back enemies in his path. If an enemy collides with a wall, they are stunned for a moment.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "5/8/11/14/17% of enemy's current HP",
+            "tiers": {
+              "1": "5",
+              "2": "8",
+              "3": "11",
+              "4": "14",
+              "5": "17%"
+            }
+          },
+          "Stun": {
+            "title": "Stun",
+            "value": "1.5 seconds",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "70/75/80/85/90 SP",
+            "tiers": {
+              "1": "70",
+              "2": "75",
+              "3": "80",
+              "4": "85",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "14/13.5/13/12.5/12 Seconds",
+            "tiers": {
+              "1": "14",
+              "2": "13.5",
+              "3": "13",
+              "4": "12.5",
+              "5": "12"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Haymaker",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Hyunwoo gathers his strength for a while and throws a huge punch at the targeted area, dealing considerable damage. The more time Hyunwoo spends gathering his strength, the more powerful his punch will be.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "200-600300-900400-1200(+ 0.7 ~ 2.1 AP)",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "3 - 4.2m",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "150 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "70/65/60 Seconds",
+            "tiers": {
+              "1": "70",
+              "2": "65",
+              "3": "60"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Isol": {
+    "name": "Isol",
+    "href": "/Isol",
+    "description": "\"Strategy in place\"",
+    "details": [
+      [
+        "Real Name",
+        "Marcelo"
+      ],
+      [
+        "Age",
+        "16"
+      ],
+      [
+        "Nationality",
+        "Brazil"
+      ],
+      [
+        "Occupation",
+        "Guerilla"
+      ],
+      [
+        "Role",
+        "Marksman"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "32",
+        "Health": "500",
+        "Health regen": "0.5",
+        "Stamina": "400",
+        "Stamina regen": "1.8",
+        "Defense": "23",
+        "Bonus atk. speed": "14.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.05",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "81.4",
+        "Health": "1640",
+        "Health regen": "1.07",
+        "Stamina": "799",
+        "Stamina regen": "2.37",
+        "Defense": "53.4",
+        "Bonus atk. speed": "14.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.05",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.6",
+        "Health": "60",
+        "Health regen": "0.03",
+        "Stamina": "21",
+        "Stamina regen": "0.03",
+        "Defense": "1.6",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Guerilla Warfare",
+        "slot": "Passive",
+        "type": "Buff/Debuff",
+        "description": "Enemies that take damage from a trap of his have their defense reduced by 5/15/25%.\nPhotographic Memory: If an enemy sets a trap in Isol's vision range, he remembers the  trap, preventing it from going invisible for him.\nIsol arms traps 0.3/0.4/0.5s faster",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "3s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Semtex Bomb",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Isol throws a bomb to the target location that sticks to an enemy or on the ground. If the bomb is thrown on the ground or sticks to an enemy, it explodes after 5 seconds, dealing 50/75/100/125/150 (+0.5 AP) damage and rooting enemies caught in the blast. If the bomb is stuck to an enemy, each attack reduces its timer by 0.5 seconds and increases the damage of the explosion by 8/12/16/20/24 (+0.3 AP).",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "50/75/100/125/150 + (0.5 AP) (Extra Damage: 8/12/16/20/24 + (0.3Ap) per attack)",
+            "tiers": {
+              "1": "8",
+              "2": "12",
+              "3": "16",
+              "4": "20",
+              "5": "24"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "8m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.27s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "60/80/100/110/130 SP",
+            "tiers": {
+              "1": "60",
+              "2": "80",
+              "3": "100",
+              "4": "110",
+              "5": "130"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "18/16/14/12/10 Seconds",
+            "tiers": {
+              "1": "18",
+              "2": "16",
+              "3": "14",
+              "4": "12",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Rebel Assault",
+        "slot": "W",
+        "type": "Attack",
+        "description": "Isol unleashes a fury of bullets in front of him, dealing damage, and reducing the movement speed of enemies by 15%.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "(20/30/40/50/60 +0.5 AP) *4",
+            "tiers": {
+              "1": "(20",
+              "2": "30",
+              "3": "40",
+              "4": "50",
+              "5": "60"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "2s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "8m",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "70/85/100/115/130 SP",
+            "tiers": {
+              "1": "70",
+              "2": "85",
+              "3": "100",
+              "4": "115",
+              "5": "130"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "16/14.5/13/11.5/10 Seconds",
+            "tiers": {
+              "1": "16",
+              "2": "14.5",
+              "3": "13",
+              "4": "11.5",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Camouflage",
+        "slot": "E",
+        "type": "Movement",
+        "description": "Isol rolls forward and blends into his surroundings, going invisible for a bit. The invisibility is lifted if Isol does any action other than basic movement.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "2.5/2.75/3/3.25/3.5 Seconds",
+            "tiers": {
+              "1": "2.5",
+              "2": "2.75",
+              "3": "3",
+              "4": "3.25",
+              "5": "3.5"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "110 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "23/20/17/14/11 Seconds",
+            "tiers": {
+              "1": "23",
+              "2": "20",
+              "3": "17",
+              "4": "14",
+              "5": "11"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "MOK Operational Mine",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Isol installs a MOK Operational Mine on the ground that detects enemies. The mine explodes when an enemy enters its range, dealing damage and reducing the movement speed of enemies by 10/20/30% for 2 seconds.\nMOK Operational Mine is not affected by skill amplification or reduction but is affected by trap masteries.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "100/150/200(+0.3 AP)",
+            "tiers": {
+              "1": "100",
+              "2": "150",
+              "3": "200(+0.3"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1.5/1.75/2 Seconds",
+            "tiers": {
+              "1": "1.5",
+              "2": "1.75",
+              "3": "2"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "1m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.54 seconds",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80/80/80 SP",
+            "tiers": {
+              "1": "80",
+              "2": "80",
+              "3": "80"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "30/25/20 Seconds",
+            "tiers": {
+              "1": "30",
+              "2": "25",
+              "3": "20"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jackie": {
+    "name": "Jackie",
+    "href": "/Jackie",
+    "description": "\"Is it time for hide and seek?\"",
+    "details": [
+      [
+        "Real Name",
+        "Jacquline Quilt"
+      ],
+      [
+        "Age",
+        "22"
+      ],
+      [
+        "Nationality",
+        "United Kingdom"
+      ],
+      [
+        "Occupation",
+        "N/A"
+      ],
+      [
+        "Role",
+        "Brawler"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "37",
+        "Health": "560",
+        "Health regen": "0.5",
+        "Stamina": "430",
+        "Stamina regen": "2.1",
+        "Defense": "26",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.1",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "88.3",
+        "Health": "2023",
+        "Health regen": "1.07",
+        "Stamina": "715",
+        "Stamina regen": "2.86",
+        "Defense": "67.8",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.1",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.7",
+        "Health": "77",
+        "Health regen": "0.03",
+        "Stamina": "15",
+        "Stamina regen": "0.04",
+        "Defense": "2.2",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Bloodfest",
+        "slot": "Passive",
+        "type": "Passive",
+        "description": "When Jackie slays an enemy, attack power is enhanced for 20/25/30 seconds. Survivor, bear increase her attack power by 8/20/40%. Any other animal increases it by 3/8/15% respectively.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "20/25/30s",
+            "tiers": {
+              "1": "20",
+              "2": "25",
+              "3": "30s"
+            }
+          }
+        }
+      },
+      "Q": {
+        "name": "Hack and Slash",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Jackie swings her weapon twice, making her target bleed. Bleeding enemies will take damage over a certain time.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "First swing: 20/40/60/80/100 +(0.45 AP) Second swing: 30/50/70/90/110 + (0.65AP)",
+            "tiers": {
+              "1": "30",
+              "2": "50",
+              "3": "70",
+              "4": "90",
+              "5": "110"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "2.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.17s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/60/70/80/90 SP",
+            "tiers": {
+              "1": "50",
+              "2": "60",
+              "3": "70",
+              "4": "80",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "10/9.5/9/8.5/8 Seconds",
+            "tiers": {
+              "1": "10",
+              "2": "9.5",
+              "3": "9",
+              "4": "8.5",
+              "5": "8"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Adrenaline Burst",
+        "slot": "W",
+        "type": "Buff",
+        "description": "Jackie's bursting adrenaline causes her to move faster for a moment. If she attacks a bleeding target during her adrenaline burst, she deals bonus damage to the target and restores her HP.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": ".1/.12/.15/.17/.2 AP",
+            "tiers": {
+              "1": ".1",
+              "2": ".12",
+              "3": ".15",
+              "4": ".17",
+              "5": ".2"
+            }
+          },
+          "Healing": {
+            "title": "Healing",
+            "value": "12/19/26/33/40 + (0.1 AP)",
+            "tiers": {
+              "1": "12",
+              "2": "19",
+              "3": "26",
+              "4": "33",
+              "5": "40"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "6/9/12/15/18%",
+            "tiers": {
+              "1": "6",
+              "2": "9",
+              "3": "12",
+              "4": "15",
+              "5": "18%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "90/100/110/120/130 SP",
+            "tiers": {
+              "1": "90",
+              "2": "100",
+              "3": "110",
+              "4": "120",
+              "5": "130"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "17/16/15/14/13 Seconds",
+            "tiers": {
+              "1": "17",
+              "2": "16",
+              "3": "15",
+              "4": "14",
+              "5": "13"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Leaping Strike",
+        "slot": "E",
+        "type": "Attack",
+        "description": "Jackie leaps to the targeted location, dealing damage to her enemies nearby upon landing. Hitting bleeding enemies with Leaping Strike slows their movement speed for a moment.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "10 + (0.3AP) / 70 + (0.4AP) / 130 + (0.5AP)/ 190 + (0.6AP)/ 250 + (0.7AP)",
+            "tiers": {}
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "40% reduction",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "6m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "70/85/100/115/130 SP",
+            "tiers": {
+              "1": "70",
+              "2": "85",
+              "3": "100",
+              "4": "115",
+              "5": "130"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "19/17/15/13/11 Seconds",
+            "tiers": {
+              "1": "19",
+              "2": "17",
+              "3": "15",
+              "4": "13",
+              "5": "11"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Chainsaw Murderer",
+        "slot": "R",
+        "type": "Ultimate (Attack)",
+        "description": "Jackie starts her deadly chainsaw. Her chainsaw boosts her attack speed and causes targets hit by her basic attacks to bleed. She also takes a swipe at her target and deals considerable damage before she turns off her chainsaw.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "300/500/700 + (1.0AP)",
+            "tiers": {
+              "1": "300",
+              "2": "500",
+              "3": "700"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "10/15/20s",
+            "tiers": {
+              "1": "10",
+              "2": "15",
+              "3": "20s"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "3m",
+            "tiers": {}
+          },
+          "Attack speed": {
+            "title": "Attack speed",
+            "value": "+20/25/30%",
+            "tiers": {
+              "1": "+20",
+              "2": "25",
+              "3": "30%"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "120/150/180 SP",
+            "tiers": {
+              "1": "120",
+              "2": "150",
+              "3": "180"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "120/100/80 Seconds",
+            "tiers": {
+              "1": "120",
+              "2": "100",
+              "3": "80"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Li Dailin": {
+    "name": "Li Dailin",
+    "href": "/Li_Dailin",
+    "description": "\"I'll go if there's something to drink there\"",
+    "details": [
+      [
+        "Real Name",
+        "Li Dailin"
+      ],
+      [
+        "Age",
+        "26"
+      ],
+      [
+        "Nationality",
+        "China"
+      ],
+      [
+        "Occupation",
+        "Unemployed"
+      ],
+      [
+        "Role",
+        "Brawler"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "33",
+        "Health": "550",
+        "Health regen": "1.1",
+        "Stamina": "420",
+        "Stamina regen": "0.2",
+        "Defense": "20",
+        "Bonus atk. speed": "12.5%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.1",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "69.1",
+        "Health": "2241",
+        "Health regen": "2.43",
+        "Stamina": "724",
+        "Stamina regen": "0.39",
+        "Defense": "67.5",
+        "Bonus atk. speed": "12.5%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.1",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "1.9",
+        "Health": "89",
+        "Health regen": "0.07",
+        "Stamina": "16",
+        "Stamina regen": "0.01",
+        "Defense": "2.5",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "BAC": {
+        "name": "Blood Alcohol Content",
+        "slot": "BAC",
+        "type": "Passive (Resource)",
+        "description": "Li Dailin can use Drink Up to fill her BAC bar. When her BAC is above 40, she gains Tipsy, giving her skills extra effects, and gaining Dialed In for her next normal attack. If her BAC hits 100, she becomes Inebriated, is silenced for 7 seconds and gains Dialed In.  Dialed In: Li Dailin's next normal attack will trigger twice. Her second attack deals 50/75/100% damage. Strong Stomach: her attack speed is increased 10/25/40% for a certain time after drinking alcoholic beverages.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "10s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Spirited Kick",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Li Dailin charges forward, dealing damage to enemies hit. She can reactivate this skill two more times. \nTipsy: Increases range and increases damage dealt.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "20/40/60/80/100 + 0.5 AP \n(Tipsy: 28/56/84/112/140 + 0.7 AP)",
+            "tiers": {
+              "1": "28",
+              "2": "56",
+              "3": "84",
+              "4": "112",
+              "5": "140"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "2.25m (Tipsy: 2.5m)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.14s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "0 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "12/11.5/11/10.5/10 Seconds",
+            "tiers": {
+              "1": "12",
+              "2": "11.5",
+              "3": "11",
+              "4": "10.5",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Drink Up",
+        "slot": "W",
+        "type": "Buff",
+        "description": "Li Dailin takes a drink for 0.8 seconds, gaining Liquid Strength and increasing her BAC by 45. While drinking, she avoids normal attacks and takes 15% less damage from skills. Normal attacks reduce the cooldown of Drink Up by 1 second.  Liquid Strength: the damage from her next normal attack and damage from Dialed In is increased depending on her BAC.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "0 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "8/7/6/5/4 Seconds",
+            "tiers": {
+              "1": "8",
+              "2": "7",
+              "3": "6",
+              "4": "5",
+              "5": "4"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Bottom Shelf",
+        "slot": "E",
+        "type": "Attack",
+        "description": "Li Dailin spits out cheap liquor in a cone in front of her, silencing enemies in range and dealing damage.  \nTipsy: Reduces movement speed of enemies by 20%.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "80/135/190/245/300 + 0.5 AP",
+            "tiers": {
+              "1": "80",
+              "2": "135",
+              "3": "190",
+              "4": "245",
+              "5": "300"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "0.8/1.1/1.4/1.7/2.0 Seconds",
+            "tiers": {
+              "1": "0.8",
+              "2": "1.1",
+              "3": "1.4",
+              "4": "1.7",
+              "5": "2.0"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "0 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "13/12/11/10/9 Seconds",
+            "tiers": {
+              "1": "13",
+              "2": "12",
+              "3": "11",
+              "4": "10",
+              "5": "9"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Striking Tiger",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Li Dailin launches forward, suppressing the first enemy hit and following it up with two consecutive kicks. Each blow deals damage in proportion to her enemy's missing HP. \nTipsy: follows up with 4 consecutive kicks.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/70/100(+0.2 AP) to 120/210/300(+0.6 AP)",
+            "tiers": {
+              "1": "120",
+              "2": "210",
+              "3": "300(+0.6"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "0.7 Seconds  (Tipsy: 1.2s)",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "8m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "0 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "185/150/115 Seconds",
+            "tiers": {
+              "1": "185",
+              "2": "150",
+              "3": "115"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Magnus": {
+    "name": "Magnus",
+    "href": "/Magnus",
+    "description": "\"Can anyone stop this body's speed?!\"",
+    "details": [
+      [
+        "Real Name",
+        "Magnus Scott"
+      ],
+      [
+        "Age",
+        "34"
+      ],
+      [
+        "Nationality",
+        "USA"
+      ],
+      [
+        "Occupation",
+        "Gang Leader"
+      ],
+      [
+        "Role",
+        "Brawler"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "32",
+        "Health": "600",
+        "Health regen": "1",
+        "Stamina": "410",
+        "Stamina regen": "1.9",
+        "Defense": "25",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.2",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "68.1",
+        "Health": "2329",
+        "Health regen": "1.95",
+        "Stamina": "676",
+        "Stamina regen": "3.04",
+        "Defense": "53.5",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.2",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "1.9",
+        "Health": "91",
+        "Health regen": "0.05",
+        "Stamina": "14",
+        "Stamina regen": "0.06",
+        "Defense": "1.5",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Tough Body",
+        "slot": "Passive",
+        "type": "Passive",
+        "description": "Magnus's defense power increases when his HP decreases. His defense is increased for each 1% of HP lost.",
+        "stats": {
+          "Defense": {
+            "title": "Defense",
+            "value": "0.2%/0.35%/0.5%",
+            "tiers": {
+              "1": "0.2%",
+              "2": "0.35%",
+              "3": "0.5%"
+            }
+          }
+        }
+      },
+      "Q": {
+        "name": "Broken Bullet",
+        "slot": "Q",
+        "type": "Attack / Debuff",
+        "description": "Magnus violently slams the ground and launches a rock towards the targeted area, dealing damage. \nEnemies hit by the rock have their movement speed reduced. The movement speed recovers slowly over time.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/100/160/220/280+ 40% AP",
+            "tiers": {
+              "1": "40",
+              "2": "100",
+              "3": "160",
+              "4": "220",
+              "5": "280+"
+            }
+          },
+          "Slow": {
+            "title": "Slow",
+            "value": "22/29/36/43/50%",
+            "tiers": {
+              "1": "22",
+              "2": "29",
+              "3": "36",
+              "4": "43",
+              "5": "50%"
+            }
+          },
+          "Debuff duration": {
+            "title": "Debuff duration",
+            "value": "4s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "11m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.8s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "90/100/110/120/130 SP",
+            "tiers": {
+              "1": "90",
+              "2": "100",
+              "3": "110",
+              "4": "120",
+              "5": "130"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "18/16/14/12/10s",
+            "tiers": {
+              "1": "18",
+              "2": "16",
+              "3": "14",
+              "4": "12",
+              "5": "10s"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "17 vs 1",
+        "slot": "W",
+        "type": "Attack",
+        "description": "Magnus swings his weapon in an area around him for 4 seconds, dealing damage. \nHis movement speed is decreased by 20% while 17 vs 1 is active. \n * He deals 1.5 times more damage to slowed or immobilized units.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "10/20/20/30/30 + .3 Defense +.3 AP",
+            "tiers": {
+              "1": "10",
+              "2": "20",
+              "3": "20",
+              "4": "30",
+              "5": "30"
+            }
+          },
+          "Num. of hits": {
+            "title": "Num. of hits",
+            "value": "6/6/7/7/8",
+            "tiers": {
+              "1": "6",
+              "2": "6",
+              "3": "7",
+              "4": "7",
+              "5": "8"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "-20%",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "4s",
+            "tiers": {}
+          },
+          "Area of effect": {
+            "title": "Area of effect",
+            "value": "2.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "Instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80/90/100/110/120 SP",
+            "tiers": {
+              "1": "80",
+              "2": "90",
+              "3": "100",
+              "4": "110",
+              "5": "120"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "10s",
+            "tiers": {}
+          }
+        }
+      },
+      "E": {
+        "name": "Heavy Strike",
+        "slot": "E",
+        "type": "Attack / Debuff",
+        "description": "Magnus smashes the targeted enemy, dealing damage, knocking them 3.25m to the left of where Magnus is currently facing. \nIf the target collides with a wall, they are stunned for 1.5 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "60/115/170/225/280 + .4 AP",
+            "tiers": {
+              "1": "60",
+              "2": "115",
+              "3": "170",
+              "4": "225",
+              "5": "280"
+            }
+          },
+          "Stun": {
+            "title": "Stun",
+            "value": "1.5s",
+            "tiers": {}
+          },
+          "Knockback": {
+            "title": "Knockback",
+            "value": "3.25m",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "3m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80/90/100/110/120 SP",
+            "tiers": {
+              "1": "80",
+              "2": "90",
+              "3": "100",
+              "4": "110",
+              "5": "120"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "12/11/10/9/8s",
+            "tiers": {
+              "1": "12",
+              "2": "11",
+              "3": "10",
+              "4": "9",
+              "5": "8s"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Bike From Hell",
+        "slot": "R",
+        "type": "Attack / Movement (Ultimate)",
+        "description": "Magnus summons a bike, riding it for a few seconds. By reactivating the skill, Magnus will jump off of the bike and launch it forward to explode. \nIf the bike hits an enemy, a wild animal, or a wall, it explodes and deals damage in an area.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "200/400/600 + 2 AP",
+            "tiers": {
+              "1": "200",
+              "2": "400",
+              "3": "600"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "9/10/11s",
+            "tiers": {
+              "1": "9",
+              "2": "10",
+              "3": "11s"
+            }
+          },
+          "Area of effect": {
+            "title": "Area of effect",
+            "value": "5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100/150/200 SP",
+            "tiers": {
+              "1": "100",
+              "2": "150",
+              "3": "200"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "90/80/70s",
+            "tiers": {
+              "1": "90",
+              "2": "80",
+              "3": "70s"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Nadine": {
+    "name": "Nadine",
+    "href": "/Nadine",
+    "description": "\"Let the hunt begin!\"",
+    "details": [
+      [
+        "Real Name",
+        "Nadine Chandrawinata"
+      ],
+      [
+        "Age",
+        "21"
+      ],
+      [
+        "Nationality",
+        "Indonesia"
+      ],
+      [
+        "Occupation",
+        "Archer"
+      ],
+      [
+        "Role",
+        "Marksman"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "32",
+        "Health": "520",
+        "Health regen": "0.4",
+        "Stamina": "350",
+        "Stamina regen": "1.9",
+        "Defense": "21",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "73.8",
+        "Health": "1660",
+        "Health regen": "0.97",
+        "Stamina": "597",
+        "Stamina regen": "2.85",
+        "Defense": "49.5",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.2",
+        "Health": "60",
+        "Health regen": "0.03",
+        "Stamina": "13",
+        "Stamina regen": "0.05",
+        "Defense": "1.5",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Wild and Clairvoyant",
+        "slot": "Passive",
+        "type": "Passive",
+        "description": "Nadine gets a stack of Wild for every wild animal she slays, giving some skills extra damage. Wild animals located inside a certain range near her appear on the minimap.",
+        "stats": {
+          "Range": {
+            "title": "Range",
+            "value": "20m",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Bullseye",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Nadine gathers her strength for a certain time, reducing her movement speed and gradually increasing the range of Bullseye. If she has more than a certain amount of Wild stacks, her maximum attack range increases. By reactivating the skill, she shoots an arrow, dealing damage.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "70-140/115-230/160-320/205-410/250-500 (+ .6 ~ 1.2 AP) (+ X wild stacks)",
+            "tiers": {
+              "1": "70-140",
+              "2": "115-230",
+              "3": "160-320",
+              "4": "205-410",
+              "5": "250-500"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "Attack Range - Attack Range * 2.5",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "60/65/70/75/80 SP",
+            "tiers": {
+              "1": "60",
+              "2": "65",
+              "3": "70",
+              "4": "75",
+              "5": "80"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "7 Seconds (all levels)",
+            "tiers": {}
+          }
+        }
+      },
+      "W": {
+        "name": "Squirrel Trap",
+        "slot": "W",
+        "type": "Trap",
+        "description": "Nadine throws a Squirrel Trap at the targeted location, dealing damage to any enemies it hits and arming itself after it lands. You can throw another trap within a certain time. If the distance between the traps is less than a certain distance, they connect to each other. Enemies caught in the connected traps have their movement speed reduced, and Nadine can see them for a certain time. The connected traps disappear after a certain time.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "Projectile: 100/170/240/310/380 +.06 AP  Trap: 100/140/180/220/260 + .06 AP",
+            "tiers": {
+              "1": "100",
+              "2": "140",
+              "3": "180",
+              "4": "220",
+              "5": "260"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.3s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50 SP (All levels)",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "26/22/18/14/10 Seconds",
+            "tiers": {
+              "1": "26",
+              "2": "22",
+              "3": "18",
+              "4": "14",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Monkey Wire",
+        "slot": "E",
+        "type": "Buff/Movement",
+        "description": "Nadine attaches a wire at the targeted location. The installed wire stays for a certain time. While it's installed and she is attached to it, her attack speed increases. If you reactivate it, the wire returns to its anchor point, bringing Nadine with it.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "6s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7m",
+            "tiers": {}
+          },
+          "Attack speed": {
+            "title": "Attack speed",
+            "value": "10/15/20/25/30% attack speed increase",
+            "tiers": {
+              "1": "10",
+              "2": "15",
+              "3": "20",
+              "4": "25",
+              "5": "30%"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "70/75/80/85/90 SP",
+            "tiers": {
+              "1": "70",
+              "2": "75",
+              "3": "80",
+              "4": "85",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "24/21/18/15/12 Seconds",
+            "tiers": {
+              "1": "24",
+              "2": "21",
+              "3": "18",
+              "4": "15",
+              "5": "12"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Wolf Assault",
+        "slot": "R",
+        "type": "Buff/Attack (Ultimate)",
+        "description": "For some time, Nadine summons a wolf every few normal attacks. The wolf attacks the enemy, dealing damage and reducing their attack and movement speed. (Nadine deals more damage the more Wild stacks she has.)",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "50/100/150 + 0.5AP (+ X Wild stacks)",
+            "tiers": {
+              "1": "50",
+              "2": "100",
+              "3": "150"
+            }
+          },
+          "Slow": {
+            "title": "Slow",
+            "value": "-35%",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "8/9/10 Seconds",
+            "tiers": {
+              "1": "8",
+              "2": "9",
+              "3": "10"
+            }
+          },
+          "Attack speed": {
+            "title": "Attack speed",
+            "value": "-35%",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.3s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "150 SP  (All levels)",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "90/75/60 Seconds",
+            "tiers": {
+              "1": "90",
+              "2": "75",
+              "3": "60"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Shoichi": {
+    "name": "Shoichi",
+    "href": "/Shoichi",
+    "description": "\"I look forward to working with everyone.\"",
+    "details": [
+      [
+        "Real Name",
+        "Shoichi"
+      ],
+      [
+        "Age",
+        "33"
+      ],
+      [
+        "Nationality",
+        "Japan"
+      ],
+      [
+        "Occupation",
+        "Stock broker"
+      ],
+      [
+        "Role",
+        "Assassin"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "33",
+        "Health": "550",
+        "Health regen": "0.08",
+        "Stamina": "370",
+        "Stamina regen": "1.60",
+        "Defense": "27",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.10",
+        "Sight range": "-"
+      },
+      "finish": {
+        "Attack power": "80.5",
+        "Health": "1975",
+        "Health regen": "1.56",
+        "Stamina": "617",
+        "Stamina regen": "2.36",
+        "Defense": "68.8",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.10",
+        "Sight range": "-"
+      },
+      "growth": {
+        "Attack power": "2.5",
+        "Health": "75",
+        "Health regen": "0.04",
+        "Stamina": "13",
+        "Stamina regen": "0.04",
+        "Defense": "2.2",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Phony Deal",
+        "slot": "Passive",
+        "type": "Passive/Buff",
+        "description": "Shoichi earns a stack of Phony Deal each time he hits an enemy with a skill, increasing his critical strike chance by 3/6/9% for 6 seconds.\nUpon reaching 5 stacks, his normal attack damage is increased by 10/15/20%. If Shoichi picks a dagger up off the ground, he throws it at the nearest enemy within 5m, dealing damage.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "25/60/95(+AP 30%)",
+            "tiers": {
+              "1": "25",
+              "2": "60",
+              "3": "95(+AP"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "6s",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Bad Faith",
+        "slot": "Q",
+        "type": "Attack/Buff",
+        "description": "Bad Faith: increased range and Shoichi will leave a dagger on the ground.",
+        "stats": {
+          "Range": {
+            "title": "Range",
+            "value": "3.5m (100-degree cone)",
+            "tiers": {}
+          }
+        }
+      },
+      "W": {
+        "name": "Bottom Line",
+        "slot": "W",
+        "type": "Defense/Damage",
+        "description": "Shoichi dashes to a targeted enemy or dagger, dealing damage to all enemies in his path. If he picks up a dagger, the cooldown of Bottom Line is reset.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "10/40/70/100/130(+AP 30%)",
+            "tiers": {
+              "1": "10",
+              "2": "40",
+              "3": "70",
+              "4": "100",
+              "5": "130(+AP"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant (dash) / 0.15s (damage)",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "17/15/13/11/9s",
+            "tiers": {
+              "1": "17",
+              "2": "15",
+              "3": "13",
+              "4": "11",
+              "5": "9s"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Risky Business",
+        "slot": "E",
+        "type": "Attack/Debuff",
+        "description": "Shoichi takes a step back and throws a dagger forward, dealing damage to the first enemy hit and reducing their movement speed for 1 second.nUpon hitting an enemy, a dagger will fall behind the enemy.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "20/60/100/140/180(+AP 30%)",
+            "tiers": {
+              "1": "20",
+              "2": "60",
+              "3": "100",
+              "4": "140",
+              "5": "180(+AP"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "- 10/20/30/40/50%",
+            "tiers": {
+              "1": "10",
+              "2": "20",
+              "3": "30",
+              "4": "40",
+              "5": "50%"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m (dagger) / 2m (step back)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.14s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "90 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "15/14/13/12/11s",
+            "tiers": {
+              "1": "15",
+              "2": "14",
+              "3": "13",
+              "4": "12",
+              "5": "11s"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Ruthless",
+        "slot": "R",
+        "type": "Attack/Debuff (Ultimate)",
+        "description": "Shoichi swings his deadly briefcase, dealing damage to enemies around him, slowing them for 1 second and tossing 4 daggers to the ground in a square.\nDaggers pierce enemies, dealing damage.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "50/150/250(+AP 30%) (briefcase) / 25/60/95(+AP 30%) (daggers)",
+            "tiers": {
+              "1": "25",
+              "2": "60",
+              "3": "95(+AP"
+            }
+          },
+          "Slow": {
+            "title": "Slow",
+            "value": "30%",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "2.5m (slow) / 3.5m (landing dagger)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.23s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "150 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "100/85/70 Seconds",
+            "tiers": {
+              "1": "100",
+              "2": "85",
+              "3": "70"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Silvia": {
+    "name": "Silvia",
+    "href": "/Silvia",
+    "description": "\"Time to race!\"",
+    "details": [
+      [
+        "Real Name",
+        "Silvia"
+      ],
+      [
+        "Age",
+        "23"
+      ],
+      [
+        "Nationality",
+        "Argentina"
+      ],
+      [
+        "Occupation",
+        "Racer"
+      ],
+      [
+        "Role",
+        "Shapeshifter"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "28",
+        "Health": "500",
+        "Health regen": "-",
+        "Stamina": "440",
+        "Stamina regen": "-",
+        "Defense": "20",
+        "Bonus atk. speed": "0.02%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.0",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "71.7",
+        "Health": "1697",
+        "Health regen": "-",
+        "Stamina": "858",
+        "Stamina regen": "-",
+        "Defense": "-",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.0",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.3",
+        "Health": "63",
+        "Health regen": "-",
+        "Stamina": "22",
+        "Stamina regen": "-",
+        "Defense": "-",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Lumia Grand Prix",
+        "slot": "Passive",
+        "type": "Passive/Buff",
+        "description": "Upon entering a new area, aside from the Research Center, Silvia's attack speed is increased by 1/2/3%. If she visits all 15 areas, her skill amplification is increased by 15%. Every 30 seconds, Silvia can gain 10/12/14 fuel when visiting a new area. She regains 1 fuel every 3 seconds when not on her bike.",
+        "stats": {
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "30s",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Radar Gun",
+        "slot": "Q",
+        "type": "Attack/Buff",
+        "description": "Silvia fires a Radar Gun, dealing damage to enemies hit and healing herself and allies hit for 40/60/80/100/120(+AP 30%) HP. Silvia gains 5 fuel for each target she hits, excluding herself.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "30/65/100/135/170(+AP 40%)",
+            "tiers": {
+              "1": "30",
+              "2": "65",
+              "3": "100",
+              "4": "135",
+              "5": "170(+AP"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7m - target distance 5m (length: 1m)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/60/70/80/90 SP",
+            "tiers": {
+              "1": "50",
+              "2": "60",
+              "3": "70",
+              "4": "80",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "7.5/6.75/6/5.25/4.5s",
+            "tiers": {
+              "1": "7.5",
+              "2": "6.75",
+              "3": "6",
+              "4": "5.25",
+              "5": "4.5s"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Finish Line",
+        "slot": "W",
+        "type": "Attack/DeBuff",
+        "description": "Silvia sets up a Finish Line in the targeted location, dealing damage and decreasing the movement speed of enemies that pass through it for 3 seconds. This only occurs the first time an enemy passes through.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/50/60/70/80(+AP 30%)",
+            "tiers": {
+              "1": "40",
+              "2": "50",
+              "3": "60",
+              "4": "70",
+              "5": "80(+AP"
+            }
+          },
+          "Slow": {
+            "title": "Slow",
+            "value": "40/50/60/70/80%",
+            "tiers": {
+              "1": "40",
+              "2": "50",
+              "3": "60",
+              "4": "70",
+              "5": "80%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7m (Length 5/5.5/6/6.5/7m)",
+            "tiers": {
+              "1": "5",
+              "2": "5.5",
+              "3": "6",
+              "4": "6.5",
+              "5": "7m)"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "25/35/45/55/65 SP",
+            "tiers": {
+              "1": "25",
+              "2": "35",
+              "3": "45",
+              "4": "55",
+              "5": "65"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "15s",
+            "tiers": {}
+          }
+        }
+      },
+      "E": {
+        "name": "Spare Tire",
+        "slot": "E",
+        "type": "Attack/Debuff",
+        "description": "Silvia launches a Spare Tire in the targeted direction, dealing damage based on the distance. Enemies within 3m are knocked back. Upon hitting an enemy further than 3m, Silvia gains 2~24 fuel based on the distance the tire traveled.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "80/100/120/140/160(+AP 60%) to 154/187/220/253/286(+AP 132%)",
+            "tiers": {
+              "1": "154",
+              "2": "187",
+              "3": "220",
+              "4": "253",
+              "5": "286(+AP"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "15m (distance)/ 1m (length)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/60/70/80/90 SP",
+            "tiers": {
+              "1": "50",
+              "2": "60",
+              "3": "70",
+              "4": "80",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "12/11/10/9/8s",
+            "tiers": {
+              "1": "12",
+              "2": "11",
+              "3": "10",
+              "4": "9",
+              "5": "8s"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Shift Gears",
+        "slot": "R",
+        "type": "Attack/Buff (Ultimate)",
+        "description": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills. She can use Shift Gears when her fuel is above 30. Silvia cannot use normal attacks or weapon skills while riding her motorcycle. \nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\nHer defense increases by 10/17/24 while on the bike.\nMoving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%. Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.",
+        "stats": {
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "+0.2/0.25/0.3",
+            "tiers": {
+              "1": "+0.2",
+              "2": "0.25",
+              "3": "0.3"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "2s",
+            "tiers": {}
+          }
+        }
+      },
+      "on bike Q": {
+        "name": "Power Slide",
+        "slot": "on bike Q",
+        "type": "Attack",
+        "description": "Silvia spins on her bike, dealing damage to enemies in range.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "60/102/144/186/228(+AP70%)",
+            "tiers": {
+              "1": "60",
+              "2": "102",
+              "3": "144",
+              "4": "186",
+              "5": "228(+AP70%)"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "2.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "5 Fuel",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "2.5/2.25/2/1.75/1.5s",
+            "tiers": {
+              "1": "2.5",
+              "2": "2.25",
+              "3": "2",
+              "4": "1.75",
+              "5": "1.5s"
+            }
+          }
+        }
+      },
+      "on bike W": {
+        "name": "Front Flip",
+        "slot": "on bike W",
+        "type": "Attack Move/Debuff",
+        "description": "Silvia jumps in the direction she is currently facing, dealing damage to enemies in range and knocking them airborne.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "90/130/170/210/250(+AP 60%)",
+            "tiers": {
+              "1": "90",
+              "2": "130",
+              "3": "170",
+              "4": "210",
+              "5": "250(+AP"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "1.75m / 3m (distance)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.4s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "5 Fuel",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "10/9/8/7/6s",
+            "tiers": {
+              "1": "10",
+              "2": "9",
+              "3": "8",
+              "4": "7",
+              "5": "6s"
+            }
+          }
+        }
+      },
+      "on bike E": {
+        "name": "Wheelie",
+        "slot": "on bike E",
+        "type": "Attack/Debuff",
+        "description": "Silvia wheelies toward the targeted enemy dealing damage and knocking them 1m back. She deals additional damage depending on her movement speed.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/65/90/115/140(+AP 60%) / 6/10/14/18/22 (additional)",
+            "tiers": {
+              "1": "6",
+              "2": "10",
+              "3": "14",
+              "4": "18",
+              "5": "22"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "5 Fuel",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "14/13/12/11/10s",
+            "tiers": {
+              "1": "14",
+              "2": "13",
+              "3": "12",
+              "4": "11",
+              "5": "10s"
+            }
+          }
+        }
+      },
+      "on bike R": {
+        "name": "Shift Gears",
+        "slot": "on bike R",
+        "type": "Attack/Buff (Ultimate)",
+        "description": "Silvia dismounts her bike and reverts her skills. Her next normal attack within 3 seconds deals damage.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "125/150/175%",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "2s",
+            "tiers": {}
+          }
+        }
+      }
+    }
+  },
+  "Sissela": {
+    "name": "Sissela",
+    "href": "/Sissela",
+    "description": "\"There's no escape now.\"",
+    "details": [
+      [
+        "Real Name",
+        "Sissela Kyle"
+      ],
+      [
+        "Age",
+        "16"
+      ],
+      [
+        "Nationality",
+        "Sweden"
+      ],
+      [
+        "Occupation",
+        "Incurable Patient"
+      ],
+      [
+        "Role",
+        "Mage"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "23",
+        "Health": "480",
+        "Health regen": "0.40",
+        "Stamina": "400",
+        "Stamina regen": "1.10",
+        "Defense": "19",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.00",
+        "Sight range": "-"
+      },
+      "finish": {
+        "Attack power": "68.6",
+        "Health": "1620",
+        "Health regen": "0.78",
+        "Stamina": "704",
+        "Stamina regen": "1.48",
+        "Defense": "51.3",
+        "Bonus atk. speed": "12.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.00",
+        "Sight range": "-"
+      },
+      "growth": {
+        "Attack power": "2.4",
+        "Health": "60",
+        "Health regen": "0.02",
+        "Stamina": "16",
+        "Stamina regen": "0.02",
+        "Defense": "1.7",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Agony",
+        "slot": "Passive",
+        "type": "Passive Buff",
+        "description": "As Sissela's HP decreases, she gains HP regeneration and skill amplification.\nHP regeneration per second: 2/4/6 ~ 26/36/46 (is not affected by the increase rate of HP regen)\nSkill Amplification: 2/5/8 ~ 10/25/40 \nWhen Wilson returns to Sissela, her next normal attack deals damage and reduces the movement speed of enemies by 10/20/30% for 2 seconds. \nWilson may be 10.25m away from Sissela before automatically returning",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "18 +1.2 AP + (Sissela's current level * 10)",
+            "tiers": {}
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "6s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Go Get 'Em Wilson!",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Wilson flies in the targeted direction, dealing damage to enemies in his path and damage upon arrival.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/60/80/100/120 (+0.3 AP)+60/90/120/150/180(+0.5 AP) upon arrival",
+            "tiers": {
+              "1": "AP)+60",
+              "2": "90",
+              "3": "120",
+              "4": "150",
+              "5": "180(+0.5"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "8m (damage range: 2m)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "50/60/70/80/90 HP",
+            "tiers": {
+              "1": "50",
+              "2": "60",
+              "3": "70",
+              "4": "80",
+              "5": "90"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "6.5/5.75/5/4.25/3.5 Seconds",
+            "tiers": {
+              "1": "6.5",
+              "2": "5.75",
+              "3": "5",
+              "4": "4.25",
+              "5": "3.5"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Girl in a Bubble",
+        "slot": "W",
+        "type": "Attack/Movement",
+        "description": "Wilson embraces Sissela for 1.5 seconds, blocking all damage and making her invulnerable. Wilson's shield explodes after the max time, or if the skill is activated again, dealing damage to enemies in an area around her and pushing them back 2m.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "30/90/150/210/270(+0.7 AP)",
+            "tiers": {
+              "1": "30",
+              "2": "90",
+              "3": "150",
+              "4": "210",
+              "5": "270(+0.7"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "2m (damage range)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "60/80/100/120/140 HP",
+            "tiers": {
+              "1": "60",
+              "2": "80",
+              "3": "100",
+              "4": "120",
+              "5": "140"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "21/19/17/15/13 Seconds",
+            "tiers": {
+              "1": "21",
+              "2": "19",
+              "3": "17",
+              "4": "15",
+              "5": "13"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Play With Us!",
+        "slot": "E",
+        "type": "Attack Move",
+        "description": "Wilson stretches his body in the targeted direction, pulling the first target hit.\nAlly pull: the target receives a shield, absorbing damage for 3 seconds and the cooldown of Play With Us! is reduced by 1.5 seconds.\nEnemy pull: Wilson deals damage and stuns the target for 1 second.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/90/140/190/240(+0.6 AP)  Damage absorbed by shield: 60/110/160/210/260 (+0.5 AP)",
+            "tiers": {
+              "1": "60",
+              "2": "110",
+              "3": "160",
+              "4": "210",
+              "5": "260"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "4.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "60/70/80/90/100 SP",
+            "tiers": {
+              "1": "60",
+              "2": "70",
+              "3": "80",
+              "4": "90",
+              "5": "100"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "14/13/12/11/10 Seconds",
+            "tiers": {
+              "1": "14",
+              "2": "13",
+              "3": "12",
+              "4": "11",
+              "5": "10"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Free at Last",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Sissela channels for 1 second. After 3 seconds, Sissela deals damage to all enemy players on the map, as well as herself.\nSissela's HP will not drop below 1 when taking damage from this skill. \nDealing damage with this skill increases the damage from Agony by 100% for 5 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "150/275/400(+1.0 AP) (100% in 10m radius, 100% same area, 50% other areas) + 2 additional damage for every 1% of her missing HP",
+            "tiers": {
+              "1": "150",
+              "2": "275",
+              "3": "400(+1.0"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "1s channeling",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "120/150/180 SP",
+            "tiers": {
+              "1": "120",
+              "2": "150",
+              "3": "180"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "150/135/120 Seconds",
+            "tiers": {
+              "1": "150",
+              "2": "135",
+              "3": "120"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Xiuaki": {
+    "name": "Xiuaki",
+    "href": "/Xiuaki",
+    "description": "",
+    "details": [],
+    "stats": {
+      "start": {},
+      "finish": {},
+      "growth": {}
+    },
+    "abilities": {}
+  },
+  "Yuki": {
+    "name": "Yuki",
+    "href": "/Yuki",
+    "description": "\"Ah, now it's my turn\"",
+    "details": [
+      [
+        "Real Name",
+        "Sato Yuki"
+      ],
+      [
+        "Age",
+        "18"
+      ],
+      [
+        "Nationality",
+        "Japan"
+      ],
+      [
+        "Occupation",
+        "High school student"
+      ],
+      [
+        "Role",
+        "Fighter"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "32",
+        "Health": "550",
+        "Health regen": "0.7",
+        "Stamina": "410",
+        "Stamina regen": "2.2",
+        "Defense": "26",
+        "Bonus atk. speed": "6.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.1",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "73.8",
+        "Health": "2089",
+        "Health regen": "1.65",
+        "Stamina": "790",
+        "Stamina regen": "3.34",
+        "Defense": "64",
+        "Bonus atk. speed": "6.0%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3.1",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.2",
+        "Health": "81",
+        "Health regen": "0.05",
+        "Stamina": "20",
+        "Stamina regen": "0.06",
+        "Defense": "2",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Perfect Fit",
+        "slot": "Passive",
+        "type": "Passive (Resource)",
+        "description": "Yuki stores cufflinks as a resource. Upon damaging an enemy, he consumes a stored cufflink, dealing additional true damage. Yuki recovers 1 cufflink every 4 seconds while out of combat. Activating Button Up will refill all of his cufflinks.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "15/30/45",
+            "tiers": {
+              "1": "15",
+              "2": "30",
+              "3": "45"
+            }
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "From Head to Toe",
+        "slot": "Q",
+        "type": "Attack/Buff",
+        "description": "Yuki's next normal attack deals damage and reduces the movement speed of enemies by 50% for 1 second. \nConsuming a cufflink stuns enemies for 0.5 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "20/45/70/95/120 (+1.0AP)",
+            "tiers": {
+              "1": "20",
+              "2": "45",
+              "3": "70",
+              "4": "95",
+              "5": "120"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "5s \n(movement speed reduction: 1s)",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.23s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "70 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "9/8/7/6/5s",
+            "tiers": {
+              "1": "9",
+              "2": "8",
+              "3": "7",
+              "4": "6",
+              "5": "5s"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Button Up",
+        "slot": "W",
+        "type": "Passive/Buff",
+        "description": "Passive: reduces cooldown of Button Up by 0.5 seconds each time Yuki takes damage. \nYuki straightens up his outfit and reduces the cooldown for Dashing Gentleman by 6/6.5/7/7.5/8. While using Button Up, his defense is increased by 50%. When Button Up is complete, he refills his cufflinks.",
+        "stats": {
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant (effect) / Cufflink refill: 1s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "90 SP",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "20/18/16/14/12 Seconds",
+            "tiers": {
+              "1": "20",
+              "2": "18",
+              "3": "16",
+              "4": "14",
+              "5": "12"
+            }
+          }
+        }
+      },
+      "E": {
+        "name": "Dashing Gentleman",
+        "slot": "E",
+        "type": "Move Attack",
+        "description": "Yuki dashes in the targeted direction, dealing damage to the first enemy hit. Enemies hit are disarmed, disabling their normal attacks.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "70/120/170/220/270(+0.4 AP)",
+            "tiers": {
+              "1": "70",
+              "2": "120",
+              "3": "170",
+              "4": "220",
+              "5": "270(+0.4"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1.25 Seconds",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.13s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "90/100/110/120/130 SP",
+            "tiers": {
+              "1": "90",
+              "2": "100",
+              "3": "110",
+              "4": "120",
+              "5": "130"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "15/14/13/12/11 Seconds",
+            "tiers": {
+              "1": "15",
+              "2": "14",
+              "3": "13",
+              "4": "12",
+              "5": "11"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Coup de Grace",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Yuki unsheaths his sword and slashes an area in front of him, dealing damage to enemies and leaving a mark, reducing movement speed of enemies by 70% for 1 second. The mark explodes after Yuki sheathes his sword, dealing true damage based on the enemy's max HP.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "250/375/500(+1.5 AP) initial / 15/20/25% of enemy's max HP",
+            "tiers": {
+              "1": "15",
+              "2": "20",
+              "3": "25%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "1s",
+            "tiers": {}
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5.5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.99s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "120/150/180 SP",
+            "tiers": {
+              "1": "120",
+              "2": "150",
+              "3": "180"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "140/110/80 Seconds",
+            "tiers": {
+              "1": "140",
+              "2": "110",
+              "3": "80"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Zahir": {
+    "name": "Zahir",
+    "href": "/Zahir",
+    "description": "\"If it is God's calling, I'll gladly execute it.\"",
+    "details": [
+      [
+        "Real Name",
+        "Zahir Singh"
+      ],
+      [
+        "Age",
+        "18"
+      ],
+      [
+        "Nationality",
+        "India"
+      ],
+      [
+        "Occupation",
+        "Follower"
+      ],
+      [
+        "Role",
+        "Mage"
+      ]
+    ],
+    "stats": {
+      "start": {
+        "Attack power": "25",
+        "Health": "520",
+        "Health regen": "0.6",
+        "Stamina": "400",
+        "Stamina regen": "2.4",
+        "Defense": "20",
+        "Bonus atk. speed": "11%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3",
+        "Sight range": "8"
+      },
+      "finish": {
+        "Attack power": "78.2",
+        "Health": "1736",
+        "Health regen": "1.17",
+        "Stamina": "894",
+        "Stamina regen": "4.3",
+        "Defense": "54.2",
+        "Bonus atk. speed": "11%",
+        "Bonus crit rate": "0%",
+        "Move. speed": "3",
+        "Sight range": "8"
+      },
+      "growth": {
+        "Attack power": "2.8",
+        "Health": "64",
+        "Health regen": "0.03",
+        "Stamina": "26",
+        "Stamina regen": "0.1",
+        "Defense": "1.8",
+        "Bonus atk. speed": "-",
+        "Bonus crit rate": "-",
+        "Move. speed": "-",
+        "Sight range": "-"
+      }
+    },
+    "abilities": {
+      "Passive": {
+        "name": "Eye of Azrael",
+        "slot": "Passive",
+        "type": "Passive",
+        "description": "If Zahir hits an enemy with a skill, an Eye of Azrael indicator is applied to the enemy for 6 seconds and Zahir's movement speed increases. If you hit an enemy with the indicator with a skill, it deals extra damage and an Eye of Azrael effect is applied to the skill used. If you kill an enemy, you see corpses in the current area for 20 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "extra 10/35/60 + 0.3 AP",
+            "tiers": {
+              "1": "10",
+              "2": "35",
+              "3": "60"
+            }
+          },
+          "Move. speed": {
+            "title": "Move. speed",
+            "value": "+20%/25%/30%",
+            "tiers": {
+              "1": "+20%",
+              "2": "25%",
+              "3": "30%"
+            }
+          },
+          "Skill duration": {
+            "title": "Skill duration",
+            "value": "20s/6s",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "instant",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "300s",
+            "tiers": {}
+          }
+        }
+      },
+      "Q": {
+        "name": "Narayanastra",
+        "slot": "Q",
+        "type": "Attack",
+        "description": "Zahir calls upon God's strength, dealing damage in a targeted area. Eye of Azrael effect: Narayanastra deals extra damage and the enemy's defense decreases for 2 seconds in proportion to the difference in kills between you and them.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "40/100/160/220/280 + 0.5 AP\nExtra Damage : 75/150/225/300/375 + 0.5AP",
+            "tiers": {
+              "1": "75",
+              "2": "150",
+              "3": "225",
+              "4": "300",
+              "5": "375"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "6m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "80/90/100/110/120 SP",
+            "tiers": {
+              "1": "80",
+              "2": "90",
+              "3": "100",
+              "4": "110",
+              "5": "120"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "8/7.5/7/6.5/6 Seconds",
+            "tiers": {
+              "1": "8",
+              "2": "7.5",
+              "3": "7",
+              "4": "6.5",
+              "5": "6"
+            }
+          }
+        }
+      },
+      "W": {
+        "name": "Gandiva",
+        "slot": "W",
+        "type": "Attack",
+        "description": "Zahir throws a Chakram in the targeted direction, dealing damage. If Zahir hits an enemy with any skill but Gandiva, he gains 2 Chakrams that float behind him for 20 seconds. Eye of Azrael effect: Hitting an enemy reduces their movement speed by 30% for 1 second and reduces the cooldown of every skill, excluding Gandiva, by 1.5 seconds.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "25/50/75/100/125 + 0.3AP",
+            "tiers": {
+              "1": "25",
+              "2": "50",
+              "3": "75",
+              "4": "100",
+              "5": "125"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "7m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.2s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "1 Weapon (All levels)",
+            "tiers": {}
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "0.5 Seconds (All levels)",
+            "tiers": {}
+          }
+        }
+      },
+      "E": {
+        "name": "Vayvayastra",
+        "slot": "E",
+        "type": "Attack",
+        "description": "Zahir summons and launches a gust of wind, dealing damage. The first enemy hit is launched airborne for 0.5 seconds and their movement speed is reduced by 30%. Eye of Azrael effect: The enemy is launched airborne for 1 second.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "80/110/140/170/200 + 0.5AP",
+            "tiers": {
+              "1": "80",
+              "2": "110",
+              "3": "140",
+              "4": "170",
+              "5": "200"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.17s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "100/120/140/160/180SP",
+            "tiers": {
+              "1": "100",
+              "2": "120",
+              "3": "140",
+              "4": "160",
+              "5": "180SP"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "20/18/16/14/12 Seconds",
+            "tiers": {
+              "1": "20",
+              "2": "18",
+              "3": "16",
+              "4": "14",
+              "5": "12"
+            }
+          }
+        }
+      },
+      "R": {
+        "name": "Bhargavastra",
+        "slot": "R",
+        "type": "Attack (Ultimate)",
+        "description": "Zahir calls down Chakrams from the heavens to damage enemies in a wide area, dealing damage. Bhargavastra applies an Eye of Azrael indicator to enemies if they don't have one.",
+        "stats": {
+          "Skill damage": {
+            "title": "Skill damage",
+            "value": "(Initial) 60/150/240+ 0.5AP\n30/75/120 + 0.5AP x4",
+            "tiers": {
+              "1": "0.5AP\n30",
+              "2": "75",
+              "3": "120"
+            }
+          },
+          "Range": {
+            "title": "Range",
+            "value": "5m",
+            "tiers": {}
+          },
+          "Casting time": {
+            "title": "Casting time",
+            "value": "0.4s",
+            "tiers": {}
+          },
+          "Cost": {
+            "title": "Cost",
+            "value": "120/150/180 SP",
+            "tiers": {
+              "1": "120",
+              "2": "150",
+              "3": "180"
+            }
+          },
+          "Cooldown": {
+            "title": "Cooldown",
+            "value": "100/85/70 Seconds",
+            "tiers": {
+              "1": "100",
+              "2": "85",
+              "3": "70"
+            }
+          }
+        }
+      }
+    }
+  }
+}
