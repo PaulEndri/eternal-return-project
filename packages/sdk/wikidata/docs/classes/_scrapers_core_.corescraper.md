@@ -8,13 +8,13 @@
 
 * **CoreScraper**
 
-  ↳ [AnimalScraper](_scrapers_animals_.animalscraper.md)
+  ↳ [ItemScraper](_scrapers_item_.itemscraper.md)
 
   ↳ [CharacterScraper](_scrapers_character_.characterscraper.md)
 
-  ↳ [ItemScraper](_scrapers_item_.itemscraper.md)
-
   ↳ [LocationScraper](_scrapers_locations_.locationscraper.md)
+
+  ↳ [AnimalScraper](_scrapers_animals_.animalscraper.md)
 
 ## Index
 
@@ -30,21 +30,18 @@
 ### Methods
 
 * [getPage](_scrapers_core_.corescraper.md#getpage)
-* [getSimpleElement](_scrapers_core_.corescraper.md#getsimpleelement)
 
 ## Constructors
 
 ### constructor
 
-\+ **new CoreScraper**(`cache?`: [IWikiCache](../interfaces/_interfaces_iwikicache_.iwikicache.md)): [CoreScraper](_scrapers_core_.corescraper.md)
-
-*Defined in [src/scrapers/core.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L8)*
+\+ **new CoreScraper**(`cache?`: IWikiCache): [CoreScraper](_scrapers_core_.corescraper.md)
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`cache?` | [IWikiCache](../interfaces/_interfaces_iwikicache_.iwikicache.md) |
+`cache?` | IWikiCache |
 
 **Returns:** [CoreScraper](_scrapers_core_.corescraper.md)
 
@@ -52,9 +49,7 @@ Name | Type |
 
 ### cache
 
-•  **cache**: [IWikiCache](../interfaces/_interfaces_iwikicache_.iwikicache.md)
-
-*Defined in [src/scrapers/core.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L8)*
+•  **cache**: IWikiCache
 
 ___
 
@@ -62,15 +57,11 @@ ___
 
 ▪ `Static` **BASE\_URL**: string = "https://eternalreturn.gamepedia.com/"
 
-*Defined in [src/scrapers/core.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L7)*
-
 ## Methods
 
 ### getPage
 
 ▸ **getPage**(`page`: string, `skipCache?`: boolean): Promise<any\>
-
-*Defined in [src/scrapers/core.ts:30](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L30)*
 
 #### Parameters:
 
@@ -80,21 +71,3 @@ Name | Type | Default value |
 `skipCache` | boolean | false |
 
 **Returns:** Promise<any\>
-
-___
-
-### getSimpleElement
-
-▸ `Protected`**getSimpleElement**(`$`: any, `el`: any, `nameOnly?`: boolean): any
-
-*Defined in [src/scrapers/core.ts:18](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L18)*
-
-#### Parameters:
-
-Name | Type | Default value |
------- | ------ | ------ |
-`$` | any | - |
-`el` | any | - |
-`nameOnly` | boolean | false |
-
-**Returns:** any

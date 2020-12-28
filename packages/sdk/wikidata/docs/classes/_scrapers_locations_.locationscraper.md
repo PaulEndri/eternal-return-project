@@ -19,7 +19,6 @@
 ### Properties
 
 * [cache](_scrapers_locations_.locationscraper.md#cache)
-* [genericApi](_scrapers_locations_.locationscraper.md#genericapi)
 * [BASE\_URL](_scrapers_locations_.locationscraper.md#base_url)
 
 ### Methods
@@ -27,7 +26,6 @@
 * [getAll](_scrapers_locations_.locationscraper.md#getall)
 * [getLocation](_scrapers_locations_.locationscraper.md#getlocation)
 * [getPage](_scrapers_locations_.locationscraper.md#getpage)
-* [getSimpleElement](_scrapers_locations_.locationscraper.md#getsimpleelement)
 
 ## Constructors
 
@@ -36,8 +34,6 @@
 \+ **new LocationScraper**(`cache?`: any): [LocationScraper](_scrapers_locations_.locationscraper.md)
 
 *Overrides [CoreScraper](_scrapers_core_.corescraper.md).[constructor](_scrapers_core_.corescraper.md#constructor)*
-
-*Defined in [src/scrapers/locations.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/locations.ts#L7)*
 
 #### Parameters:
 
@@ -51,19 +47,9 @@ Name | Type |
 
 ### cache
 
-•  **cache**: [IWikiCache](../interfaces/_interfaces_iwikicache_.iwikicache.md)
+•  **cache**: IWikiCache
 
 *Inherited from [CoreScraper](_scrapers_core_.corescraper.md).[cache](_scrapers_core_.corescraper.md#cache)*
-
-*Defined in [src/scrapers/core.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L8)*
-
-___
-
-### genericApi
-
-• `Private` **genericApi**: [GenericApi](_api_generic_.genericapi.md)
-
-*Defined in [src/scrapers/locations.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/locations.ts#L7)*
 
 ___
 
@@ -73,15 +59,11 @@ ___
 
 *Inherited from [CoreScraper](_scrapers_core_.corescraper.md).[BASE_URL](_scrapers_core_.corescraper.md#base_url)*
 
-*Defined in [src/scrapers/core.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L7)*
-
 ## Methods
 
 ### getAll
 
 ▸ **getAll**(`full?`: boolean): Promise<any\>
-
-*Defined in [src/scrapers/locations.ts:72](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/locations.ts#L72)*
 
 #### Parameters:
 
@@ -96,8 +78,6 @@ ___
 ### getLocation
 
 ▸ **getLocation**(`__namedParameters`: { href: string ; name: string  }, `full?`: boolean): Promise<any\>
-
-*Defined in [src/scrapers/locations.ts:15](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/locations.ts#L15)*
 
 #### Parameters:
 
@@ -116,8 +96,6 @@ ___
 
 *Inherited from [CoreScraper](_scrapers_core_.corescraper.md).[getPage](_scrapers_core_.corescraper.md#getpage)*
 
-*Defined in [src/scrapers/core.ts:30](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L30)*
-
 #### Parameters:
 
 Name | Type | Default value |
@@ -126,23 +104,3 @@ Name | Type | Default value |
 `skipCache` | boolean | false |
 
 **Returns:** Promise<any\>
-
-___
-
-### getSimpleElement
-
-▸ `Protected`**getSimpleElement**(`$`: any, `el`: any, `nameOnly?`: boolean): any
-
-*Inherited from [CoreScraper](_scrapers_core_.corescraper.md).[getSimpleElement](_scrapers_core_.corescraper.md#getsimpleelement)*
-
-*Defined in [src/scrapers/core.ts:18](https://github.com/PaulEndri/eternal-return-project/blob/1ca823a/wikidata/src/scrapers/core.ts#L18)*
-
-#### Parameters:
-
-Name | Type | Default value |
------- | ------ | ------ |
-`$` | any | - |
-`el` | any | - |
-`nameOnly` | boolean | false |
-
-**Returns:** any
