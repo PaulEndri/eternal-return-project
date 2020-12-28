@@ -1,0 +1,41 @@
+{
+  "Weapon": [
+    "Dagger",
+    "Two-Handed Sword",
+    "Dual Swords",
+    "Hammer",
+    "Axe",
+    "Spear",
+    "Bat",
+    "Whip",
+    "Glove",
+    "Tonfa",
+    "Throw",
+    "Shuriken",
+    "Bow",
+    "CrossBow",
+    "Pistol",
+    "AssaultRifle",
+    "SniperRifle",
+    "Nunchaku",
+    "Rapier",
+    "Guitar"
+  ],
+  "Armor": [
+    "Head",
+    "Chest",
+    "Arm",
+    "Leg",
+    "Accessory"
+  ],
+  "Consume": [
+    "Beverage",
+    "Food"
+  ],
+  "Misc": [
+    "Material"
+  ],
+  "Special": [
+    "Summon"
+  ]
+}

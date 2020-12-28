@@ -1,0 +1,972 @@
+{
+  "Bear": {
+    "name": "Bear",
+    "href": "/Bear",
+    "locations": {
+      "Beach": {
+        "name": "Beach",
+        "href": "/Beach",
+        "quantity": "3"
+      },
+      "Uptown": {
+        "name": "Uptown",
+        "href": "/Uptown",
+        "quantity": "2"
+      },
+      "Dock": {
+        "name": "Dock",
+        "href": "/Dock",
+        "quantity": "2"
+      },
+      "Pond": {
+        "name": "Pond",
+        "href": "/Pond",
+        "quantity": "2"
+      },
+      "Temple": {
+        "name": "Temple",
+        "href": "/Temple",
+        "quantity": "2"
+      },
+      "Alley": {
+        "name": "Alley",
+        "href": "/Alley",
+        "quantity": "3"
+      }
+    },
+    "items": {
+      "Leather": {
+        "name": "Leather",
+        "href": "/Leather",
+        "rarity": "Always",
+        "percentage": "100"
+      },
+      "Meat": {
+        "name": "Meat",
+        "href": "/Meat",
+        "rarity": "Always",
+        "percentage": "100"
+      },
+      "Steel": {
+        "name": "Steel",
+        "href": "/Steel",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Oilcloth": {
+        "name": "Oilcloth",
+        "href": "/Oilcloth",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "Heated Oil": {
+        "name": "Heated Oil",
+        "href": "/Heated_Oil",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "Ruby": {
+        "name": "Ruby",
+        "href": "/Ruby",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Dead Battery": {
+        "name": "Dead Battery",
+        "href": "/Dead_Battery",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "White Powder": {
+        "name": "White Powder",
+        "href": "/White_Powder",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Tree of Life": {
+        "name": "Tree of Life",
+        "href": "/Tree_of_Life",
+        "rarity": "Rarely",
+        "percentage": "2"
+      },
+      "Meteorite": {
+        "name": "Meteorite",
+        "href": "/Meteorite",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "Ash": {
+        "name": "Ash",
+        "href": "/Ash",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Electronic Parts": {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Blueprint": {
+        "name": "Blueprint",
+        "href": "/Blueprint",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Iron Sheet": {
+        "name": "Iron Sheet",
+        "href": "/Iron_Sheet",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Gold": {
+        "name": "Gold",
+        "href": "/Gold",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "Moon Stone": {
+        "name": "Moon Stone",
+        "href": "/Moon_Stone",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "Poison": {
+        "name": "Poison",
+        "href": "/Poison",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Motor": {
+        "name": "Motor",
+        "href": "/Motor",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Mithril": {
+        "name": "Mithril",
+        "href": "/Mithril",
+        "rarity": "Rarely",
+        "percentage": "6"
+      },
+      "Glass Panel": {
+        "name": "Glass Panel",
+        "href": "/Glass_Panel",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Ion Battery": {
+        "name": "Ion Battery",
+        "href": "/Ion_Battery",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "VF Blood Sample": {
+        "name": "VF Blood Sample",
+        "href": "/VF_Blood_Sample",
+        "rarity": "Rarely",
+        "percentage": "2"
+      },
+      "Cell Phone": {
+        "name": "Cell Phone",
+        "href": "/Cell_Phone",
+        "rarity": "Rarely",
+        "percentage": "4"
+      },
+      "Force Core": {
+        "name": "Force Core",
+        "href": "/Force_Core",
+        "rarity": "Rarely",
+        "percentage": "6"
+      }
+    }
+  },
+  "Boar": {
+    "name": "Boar",
+    "href": "/Boar",
+    "locations": {
+      "Archery Range": {
+        "name": "Archery Range",
+        "href": "/Archery_Range",
+        "quantity": "3"
+      },
+      "Avenue": {
+        "name": "Avenue",
+        "href": "/Avenue",
+        "quantity": "6"
+      },
+      "Temple": {
+        "name": "Temple",
+        "href": "/Temple",
+        "quantity": "3"
+      },
+      "Forest": {
+        "name": "Forest",
+        "href": "/Forest",
+        "quantity": "4"
+      },
+      "Cemetery": {
+        "name": "Cemetery",
+        "href": "/Cemetery",
+        "quantity": "4"
+      },
+      "Pond": {
+        "name": "Pond",
+        "href": "/Pond",
+        "quantity": "4"
+      },
+      "Beach": {
+        "name": "Beach",
+        "href": "/Beach",
+        "quantity": "3"
+      },
+      "Chapel": {
+        "name": "Chapel",
+        "href": "/Chapel",
+        "quantity": "3"
+      }
+    },
+    "items": {
+      "Meat": {
+        "name": "Meat",
+        "href": "/Meat",
+        "rarity": "Always",
+        "percentage": ""
+      },
+      "Fountain Pen": {
+        "name": "Fountain Pen",
+        "href": "/Fountain_Pen",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Surveillance Camera": {
+        "name": "Surveillance Camera",
+        "href": "/Surveillance_Camera",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Snare": {
+        "name": "Snare",
+        "href": "/Snare",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Mousetrap": {
+        "name": "Mousetrap",
+        "href": "/Mousetrap",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Piano Wire": {
+        "name": "Piano Wire",
+        "href": "/Piano_Wire",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Tights": {
+        "name": "Tights",
+        "href": "/Tights",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Short Spear": {
+        "name": "Short Spear",
+        "href": "/Short_Spear",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Stallion Medal": {
+        "name": "Stallion Medal",
+        "href": "/Stallion_Medal",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Monk's Robe": {
+        "name": "Monk's Robe",
+        "href": "/Monk%27s_Robe",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Alcohol": {
+        "name": "Alcohol",
+        "href": "/Alcohol",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Bike Helmet": {
+        "name": "Bike Helmet",
+        "href": "/Bike_Helmet",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Cloth": {
+        "name": "Cloth",
+        "href": "/Cloth",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Flower": {
+        "name": "Flower",
+        "href": "/Flower",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Holy Grail": {
+        "name": "Holy Grail",
+        "href": "/Holy_Grail",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Kitchen Knife": {
+        "name": "Kitchen Knife",
+        "href": "/Kitchen_Knife",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Iron Ore": {
+        "name": "Iron Ore",
+        "href": "/Iron_Ore",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Can": {
+        "name": "Can",
+        "href": "/Can",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Iron Ball": {
+        "name": "Iron Ball",
+        "href": "/Iron_Ball",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Glass Bottle": {
+        "name": "Glass Bottle",
+        "href": "/Glass_Bottle",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Hammer": {
+        "name": "Hammer",
+        "href": "/Hammer",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Playing Cards": {
+        "name": "Playing Cards",
+        "href": "/Playing_Cards",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Feather": {
+        "name": "Feather",
+        "href": "/Feather",
+        "rarity": "Rarely",
+        "percentage": ""
+      },
+      "Steel Chain": {
+        "name": "Steel Chain",
+        "href": "/Steel_Chain",
+        "rarity": "Rarely",
+        "percentage": ""
+      }
+    }
+  },
+  "Bat (Animal)": {
+    "name": "Bat (Animal)",
+    "href": "/Bat_(Animal)",
+    "locations": {
+      "Archery Range": {
+        "name": "Archery Range",
+        "href": "/Archery_Range",
+        "quantity": "3"
+      },
+      "School": {
+        "name": "School",
+        "href": "/School",
+        "quantity": "4"
+      },
+      "Beach": {
+        "name": "Beach",
+        "href": "/Beach",
+        "quantity": "3"
+      },
+      "Forest": {
+        "name": "Forest",
+        "href": "/Forest",
+        "quantity": "2"
+      },
+      "Cemetery": {
+        "name": "Cemetery",
+        "href": "/Cemetery",
+        "quantity": "3"
+      },
+      "Chapel": {
+        "name": "Chapel",
+        "href": "/Chapel",
+        "quantity": "3"
+      },
+      "Pond": {
+        "name": "Pond",
+        "href": "/Pond",
+        "quantity": "3"
+      },
+      "Temple": {
+        "name": "Temple",
+        "href": "/Temple",
+        "quantity": "3"
+      }
+    },
+    "items": {
+      "Leather": {
+        "name": "Leather",
+        "href": "/Leather",
+        "rarity": "Often",
+        "percentage": "30"
+      },
+      "Nail": {
+        "name": "Nail",
+        "href": "/Nail",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Turtle Shell": {
+        "name": "Turtle Shell",
+        "href": "/Turtle_Shell",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Rubber": {
+        "name": "Rubber",
+        "href": "/Rubber",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Box": {
+        "name": "Box",
+        "href": "/Box",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Pickaxe": {
+        "name": "Pickaxe",
+        "href": "/Pickaxe",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Needle": {
+        "name": "Needle",
+        "href": "/Needle",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Hairband": {
+        "name": "Hairband",
+        "href": "/Hairband",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Scissors": {
+        "name": "Scissors",
+        "href": "/Scissors",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Hat": {
+        "name": "Hat",
+        "href": "/Hat",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Oil": {
+        "name": "Oil",
+        "href": "/Oil",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Chalk": {
+        "name": "Chalk",
+        "href": "/Chalk",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Glue": {
+        "name": "Glue",
+        "href": "/Glue",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Paper": {
+        "name": "Paper",
+        "href": "/Paper",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Slippers": {
+        "name": "Slippers",
+        "href": "/Slippers",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Bandage": {
+        "name": "Bandage",
+        "href": "/Bandage",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Razor": {
+        "name": "Razor",
+        "href": "/Razor",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Bamboo": {
+        "name": "Bamboo",
+        "href": "/Bamboo",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Surveillance Camera": {
+        "name": "Surveillance Camera",
+        "href": "/Surveillance_Camera",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Binoculars": {
+        "name": "Binoculars",
+        "href": "/Binoculars",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Holy Grail": {
+        "name": "Holy Grail",
+        "href": "/Holy_Grail",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Buddhist Scripture": {
+        "name": "Buddhist Scripture",
+        "href": "/Buddhist_Scripture",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Scrap Metal": {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "rarity": "Rarely",
+        "percentage": "3"
+      },
+      "Laser Pointer": {
+        "name": "Laser Pointer",
+        "href": "/Laser_Pointer",
+        "rarity": "Rarely",
+        "percentage": "3"
+      }
+    }
+  },
+  "Dog": {
+    "name": "Dog",
+    "href": "/Dog",
+    "locations": {
+      "School": {
+        "name": "School",
+        "href": "/School",
+        "quantity": "3"
+      },
+      "Avenue": {
+        "name": "Avenue",
+        "href": "/Avenue",
+        "quantity": "3"
+      },
+      "Hotel": {
+        "name": "Hotel",
+        "href": "/Hotel",
+        "quantity": "3"
+      },
+      "Dock": {
+        "name": "Dock",
+        "href": "/Dock",
+        "quantity": "2"
+      },
+      "Uptown": {
+        "name": "Uptown",
+        "href": "/Uptown",
+        "quantity": "2"
+      },
+      "Factory": {
+        "name": "Factory",
+        "href": "/Factory",
+        "quantity": "3"
+      },
+      "Hospital": {
+        "name": "Hospital",
+        "href": "/Hospital",
+        "quantity": "2"
+      }
+    },
+    "items": {
+      "Leather": {
+        "name": "Leather",
+        "href": "/Leather",
+        "rarity": "Always",
+        "percentage": "100"
+      },
+      "Hatchet": {
+        "name": "Hatchet",
+        "href": "/Hatchet",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Laser Pointer": {
+        "name": "Laser Pointer",
+        "href": "/Laser_Pointer",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Surveillance Camera": {
+        "name": "Surveillance Camera",
+        "href": "/Surveillance_Camera",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Short Rod": {
+        "name": "Short Rod",
+        "href": "/Short_Rod",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Windbreaker": {
+        "name": "Windbreaker",
+        "href": "/Windbreaker",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Battery": {
+        "name": "Battery",
+        "href": "/Battery",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Fabric Armor": {
+        "name": "Fabric Armor",
+        "href": "/Fabric_Armor",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Full Body Swimsuit": {
+        "name": "Full Body Swimsuit",
+        "href": "/Full_Body_Swimsuit",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Watch": {
+        "name": "Watch",
+        "href": "/Watch",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Gunpowder": {
+        "name": "Gunpowder",
+        "href": "/Gunpowder",
+        "rarity": "Uncommon",
+        "percentage": "9.1"
+      },
+      "Bracelet": {
+        "name": "Bracelet",
+        "href": "/Bracelet",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Running Shoes": {
+        "name": "Running Shoes",
+        "href": "/Running_Shoes",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Lighter": {
+        "name": "Lighter",
+        "href": "/Lighter",
+        "rarity": "Uncommon",
+        "percentage": "9.1"
+      },
+      "Gemstone": {
+        "name": "Gemstone",
+        "href": "/Gemstone",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Ribbon": {
+        "name": "Ribbon",
+        "href": "/Ribbon",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Fan": {
+        "name": "Fan",
+        "href": "/Fan",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Buddhist Scripture": {
+        "name": "Buddhist Scripture",
+        "href": "/Buddhist_Scripture",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Scrap Metal": {
+        "name": "Scrap Metal",
+        "href": "/Scrap_Metal",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Cross": {
+        "name": "Cross",
+        "href": "/Cross",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      },
+      "Binoculars": {
+        "name": "Binoculars",
+        "href": "/Binoculars",
+        "rarity": "Rarely",
+        "percentage": "4.5"
+      }
+    }
+  },
+  "Chicken": {
+    "name": "Chicken",
+    "href": "/Chicken",
+    "locations": {
+      "School": {
+        "name": "School",
+        "href": "/School",
+        "quantity": "4"
+      },
+      "Avenue": {
+        "name": "Avenue",
+        "href": "/Avenue",
+        "quantity": "5"
+      },
+      "Alley": {
+        "name": "Alley",
+        "href": "/Alley",
+        "quantity": "6"
+      },
+      "Dock": {
+        "name": "Dock",
+        "href": "/Dock",
+        "quantity": "4"
+      },
+      "Factory": {
+        "name": "Factory",
+        "href": "/Factory",
+        "quantity": "3"
+      },
+      "Uptown": {
+        "name": "Uptown",
+        "href": "/Uptown",
+        "quantity": "4"
+      },
+      "Hotel": {
+        "name": "Hotel",
+        "href": "/Hotel",
+        "quantity": "3"
+      },
+      "Chapel": {
+        "name": "Chapel",
+        "href": "/Chapel",
+        "quantity": "3"
+      }
+    },
+    "items": {
+      "Meat": {
+        "name": "Meat",
+        "href": "/Meat",
+        "rarity": "Often",
+        "percentage": ""
+      },
+      "Leather": {
+        "name": "Leather",
+        "href": "/Leather",
+        "rarity": "Often",
+        "percentage": ""
+      }
+    }
+  },
+  "Wolf": {
+    "name": "Wolf",
+    "href": "/Wolf",
+    "locations": {
+      "Archery Range": {
+        "name": "Archery Range",
+        "href": "/Archery_Range",
+        "quantity": "3"
+      },
+      "Alley": {
+        "name": "Alley",
+        "href": "/Alley",
+        "quantity": "3"
+      },
+      "Hotel": {
+        "name": "Hotel",
+        "href": "/Hotel",
+        "quantity": "3"
+      },
+      "Forest": {
+        "name": "Forest",
+        "href": "/Forest",
+        "quantity": "2"
+      },
+      "Cemetery": {
+        "name": "Cemetery",
+        "href": "/Cemetery",
+        "quantity": "2"
+      },
+      "Factory": {
+        "name": "Factory",
+        "href": "/Factory",
+        "quantity": "3"
+      },
+      "Hospital": {
+        "name": "Hospital",
+        "href": "/Hospital",
+        "quantity": "3"
+      }
+    },
+    "items": {
+      "Meat": {
+        "name": "Meat",
+        "href": "/Meat",
+        "rarity": "Always",
+        "percentage": "100"
+      },
+      "Leather": {
+        "name": "Leather",
+        "href": "/Leather",
+        "rarity": "Always",
+        "percentage": "100"
+      },
+      "Steel": {
+        "name": "Steel",
+        "href": "/Steel",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Oilcloth": {
+        "name": "Oilcloth",
+        "href": "/Oilcloth",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Heated Oil": {
+        "name": "Heated Oil",
+        "href": "/Heated_Oil",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Ruby": {
+        "name": "Ruby",
+        "href": "/Ruby",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Dead Battery": {
+        "name": "Dead Battery",
+        "href": "/Dead_Battery",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "White Powder": {
+        "name": "White Powder",
+        "href": "/White_Powder",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Meteorite": {
+        "name": "Meteorite",
+        "href": "/Meteorite",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Ash": {
+        "name": "Ash",
+        "href": "/Ash",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Electronic Parts": {
+        "name": "Electronic Parts",
+        "href": "/Electronic_Parts",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Blueprint": {
+        "name": "Blueprint",
+        "href": "/Blueprint",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Iron Sheet": {
+        "name": "Iron Sheet",
+        "href": "/Iron_Sheet",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Gold": {
+        "name": "Gold",
+        "href": "/Gold",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Feather Duster": {
+        "name": "Feather Duster",
+        "href": "/Feather_Duster",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Moon Stone": {
+        "name": "Moon Stone",
+        "href": "/Moon_Stone",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Poison": {
+        "name": "Poison",
+        "href": "/Poison",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Motor": {
+        "name": "Motor",
+        "href": "/Motor",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Mithril": {
+        "name": "Mithril",
+        "href": "/Mithril",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Glass Panel": {
+        "name": "Glass Panel",
+        "href": "/Glass_Panel",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      },
+      "Ion Battery": {
+        "name": "Ion Battery",
+        "href": "/Ion_Battery",
+        "rarity": "Rarely",
+        "percentage": "5.3"
+      }
+    }
+  },
+  "Wickeline": {
+    "name": "Wickeline",
+    "href": "/Wickeline",
+    "locations": {},
+    "items": {}
+  }
+}
