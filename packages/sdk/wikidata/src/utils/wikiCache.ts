@@ -1,3 +1,7 @@
+/** 
+ * @packageDocumentation
+ * @internal
+ **/
 import { IWikiCache } from '../interfaces/IWikiCache';
 
 export class WikICache implements IWikiCache {

@@ -1,15 +1,15 @@
 {
     "out": "docs",
     "exclude": [
+        "./src/index.ts",
         "**/interfaces/*",
-        "./src/utils/constants.ts"
-    ],
-    "entryPoint": [
-        "./wikidata/src/index.ts"
+        "./src/utils/*",
+        "./src/scrapers/core.ts",
+        "node_modules/*"
     ],
     "excludePrivate": true,
     "excludeProtected": true,
-    "disableSources": true,
-    "excludeExternals": true,
-    "hideGenerator": true
+    "hideGenerator": true,
+    "name": "ER:BS Api/Scraper",
+    "theme": "markdown"
 }

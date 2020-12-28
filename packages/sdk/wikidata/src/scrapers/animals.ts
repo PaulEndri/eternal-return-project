@@ -1,10 +1,15 @@
+/**
+ * @packageDocumentation
+ * @module WikiData
+ * */
+import { IAnimal } from '../interfaces/IAnimal';
 import { IElement } from '../interfaces/IElement';
 import { ANIMAL_PATH } from '../utils/constants';
 import { CoreScraper } from './core';
 
 export class AnimalScraper extends CoreScraper {
 	public getAnimal = async ({ name, href }: IElement) => {
-		const cachedValue = await this.cache.get(name);
+		const cachedValue = await this.cache.get<IAnimal>(name);
 		if (cachedValue) {
 			return cachedValue;
 		}
@@ -17,7 +22,7 @@ export class AnimalScraper extends CoreScraper {
 				const location = this.getSimpleElement($, $(el).find('td a'));
 				const quantity = $(el).find('td:nth-child(2)').text().trim();
 
-				return [ location.name, { ...location, quantity } ];
+				return [ location.name, quantity ];
 			})
 			.filter((arr) => arr[0] && arr[0] !== 'undefined');
 
@@ -29,7 +34,7 @@ export class AnimalScraper extends CoreScraper {
 				const rarity = $(el).find('td:nth-child(2)').text().trim();
 				const percentage = $(el).find('td:nth-child(3)').text().trim();
 
-				return [ item.name, { ...item, rarity, percentage } ];
+				return [ item.name, { name: item.name, rarity, percentage } ];
 			})
 			.filter((arr) => arr[0] && arr[0] !== 'undefined');
 
@@ -38,7 +43,7 @@ export class AnimalScraper extends CoreScraper {
 			href,
 			locations: Object.fromEntries(locations),
 			items: Object.fromEntries(drops)
-		};
+		} as IAnimal;
 	};
 
 	public getAll = async () => {
@@ -52,6 +57,6 @@ export class AnimalScraper extends CoreScraper {
 
 		const animals = await Promise.all(animalPromises);
 
-		return Object.fromEntries(animals.map((anim) => [ anim.name, anim ]));
+		return Object.fromEntries<IAnimal>(animals.map((anim) => [ anim.name, anim ]));
 	};
 }

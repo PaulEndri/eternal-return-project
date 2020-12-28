@@ -1,3 +1,7 @@
+/**
+ * @packageDocumentation
+ * @module WikiData
+ * */
 import { GenericApi } from '../api/generic';
 import { IElement } from '../interfaces/IElement';
 import { LocationConnections, MAP_PATH, TeleportLocations } from '../utils/constants';

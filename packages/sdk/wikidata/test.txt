@@ -1,1 +1,0 @@
-[36mInfo: [39mLoaded plugin typedoc-plugin-markdown
