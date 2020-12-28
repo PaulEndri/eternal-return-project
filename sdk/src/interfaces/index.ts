@@ -1,7 +1,6 @@
 export * from './IAbility';
 export * from './IAnimalDrop';
 export * from './IBasicItem';
-export * from './ICache';
 export * from './ICharacter';
 export * from './IElement';
 export * from './ILoadout';

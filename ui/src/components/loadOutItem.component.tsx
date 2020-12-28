@@ -4,7 +4,7 @@ import { getImageSrc } from '../utilities/getImageSrc';
 import { rarityColor } from '../utilities/rarityColor';
 
 export const LoadOutItemComponent = ({ item, onClick, type }) => {
-	if (!item) {
+	if (!item || !item.name) {
 		return (
 			<Button
 				compact
@@ -23,9 +23,9 @@ export const LoadOutItemComponent = ({ item, onClick, type }) => {
 			fluid
 			color={rarityColor(item.rarity)}
 			onClick={() => onClick(item, type)}
-			style={{ border: '2px solid rgba(125, 125, 125, 0.5)', borderRadius: '0' }}
+			style={{ padding: 0, border: '3px outset rgba(255, 255, 255, 0.2)', borderRadius: '0' }}
 		>
-			<Image rounded size="tiny" src={getImageSrc(item.name)} />
+			<Image centered rounded size="tiny" src={getImageSrc(item.name)} />
 		</Button>
 	);
 };

@@ -1,5 +1,6 @@
 import { ILocation, IWeightedLocation } from '../interfaces/ILocation';
 import { IMaterialList } from '../interfaces/IMaterialList';
+import { Region } from './Region';
 
 export class MaterialList {
 	public list: IMaterialList = {};
@@ -40,6 +41,10 @@ export class MaterialList {
 				this.add(key, +item.quantity)
 			)
 		);
+	}
+
+	public addFromRegion(region: Region) {
+		Object.entries(region.materialCount).forEach(([ key, val ]) => this.add(key, +val));
 	}
 
 	public addFromWeightedLocations(locations: IWeightedLocation[]) {

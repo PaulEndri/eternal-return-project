@@ -1,9 +1,9 @@
+import { IElement } from '../interfaces/IElement';
 import { ANIMAL_PATH } from '../utils/constants';
-import { IAnimalDrop, IElement } from 'erbs-sdk';
 import { CoreScraper } from './core';
 
 export class AnimalScraper extends CoreScraper {
-	public async getAnimal({ name, href }: IElement) {
+	public getAnimal = async ({ name, href }: IElement) => {
 		const cachedValue = await this.cache.get(name);
 		if (cachedValue) {
 			return cachedValue;
@@ -19,7 +19,7 @@ export class AnimalScraper extends CoreScraper {
 
 				return [ location.name, { ...location, quantity } ];
 			})
-			.filter((arr) => arr[0]);
+			.filter((arr) => arr[0] && arr[0] !== 'undefined');
 
 		const drops = $('#mw-content-text > div > table:nth-child(9) > tbody')
 			.find('tr')
@@ -29,9 +29,9 @@ export class AnimalScraper extends CoreScraper {
 				const rarity = $(el).find('td:nth-child(2)').text().trim();
 				const percentage = $(el).find('td:nth-child(3)').text().trim();
 
-				return [ item.name, { ...item, rarity, percentage } as IAnimalDrop ];
+				return [ item.name, { ...item, rarity, percentage } ];
 			})
-			.filter((arr) => arr[0]);
+			.filter((arr) => arr[0] && arr[0] !== 'undefined');
 
 		return {
 			name,
@@ -39,9 +39,9 @@ export class AnimalScraper extends CoreScraper {
 			locations: Object.fromEntries(locations),
 			items: Object.fromEntries(drops)
 		};
-	}
+	};
 
-	public async getAll() {
+	public getAll = async () => {
 		const $ = await this.getPage(ANIMAL_PATH);
 
 		console.log('[test]', $);
@@ -53,5 +53,5 @@ export class AnimalScraper extends CoreScraper {
 		const animals = await Promise.all(animalPromises);
 
 		return Object.fromEntries(animals.map((anim) => [ anim.name, anim ]));
-	}
+	};
 }

@@ -6,4 +6,11 @@ const rarityColorMap = {
 	Legendary: 'yellow'
 };
 
-export const rarityColor = (rarity: string) => rarityColorMap[rarity];
+export const rarityColor = (rarity: string) => {
+	try {
+		return rarityColorMap[rarity];
+	} catch (e) {
+		console.error(e);
+		return rarityColorMap.Common;
+	}
+};

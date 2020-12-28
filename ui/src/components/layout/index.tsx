@@ -4,10 +4,7 @@ import { Container, Menu, Segment } from 'semantic-ui-react';
 
 const LayoutComponent = ({ children }: any) => {
 	return (
-		<Container
-			fluid={true}
-			style={{ marginLeft: '0px !important', marginRight: '0px !important' }}
-		>
+		<Container fluid style={{ marginLeft: '0px !important', marginRight: '0px !important' }}>
 			<Segment
 				inverted
 				style={{ marginBottom: 0, borderRadius: 0, padding: 0 }}
@@ -17,9 +14,6 @@ const LayoutComponent = ({ children }: any) => {
 					<Menu.Item header>ER:BS Companion</Menu.Item>
 					<Menu.Item as={Link} to="/">
 						Home
-					</Menu.Item>
-					<Menu.Item as={Link} to="/wiki">
-						Wiki
 					</Menu.Item>
 					<Menu.Item as={Link} to="/planner">
 						Planner

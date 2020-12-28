@@ -1,9 +1,22 @@
+import { IElement } from '../interfaces/IElement';
 import { CHARACTER_PATH } from '../utils/constants';
-import { ICharacter, IElement } from 'erbs-sdk';
 import { CoreScraper } from './core';
 
 export class CharacterScraper extends CoreScraper {
-	public async getCharacter({ name, href }: IElement) {
+	private statMap = {
+		'Attack power': 'AttackPower',
+		Health: 'HP',
+		'Health regen': 'HpRegen',
+		Stamina: 'SP',
+		'Stamina regen': 'SpRegen',
+		Defense: 'Defense',
+		'Bonus atk. speed': 'AttackSpeed',
+		'Bonus crit rate': 'CrtiticalChance',
+		'Move. speed': 'MoveSpeed',
+		'Sight range': 'SightRange'
+	};
+
+	public getCharacter = async ({ name, href }: IElement) => {
 		const cachedValue = await this.cache.get(name);
 		if (cachedValue) {
 			return cachedValue;
@@ -30,9 +43,11 @@ export class CharacterScraper extends CoreScraper {
 			const level20 = $($cols[2]).text().trim();
 			const growth = $($cols[3]).text().trim();
 
-			stats.start[title] = level1;
-			stats.finish[title] = level20;
-			stats.growth[title] = growth;
+			const statName = this.statMap[title];
+
+			stats.start[statName] = level1;
+			stats.finish[statName] = level20;
+			stats.growth[statName] = growth;
 		});
 
 		const $abilities = $('.ability_details');
@@ -81,27 +96,23 @@ export class CharacterScraper extends CoreScraper {
 				slot: abilitySlot,
 				type: abilityType,
 				description: abilityDescription,
-				stats: Object.fromEntries(abilityStats),
-				image: this.getImageSrc(
-					$abilityTable.find('tr:nth-child(3) > td:nth-child(1) a img')
-				)
+				stats: Object.fromEntries(abilityStats)
 			};
 		});
 
 		return {
 			name,
 			href,
-			image: this.getImageSrc($('th.infoboxdetails immg')),
 			description,
 			details,
 			stats,
 			abilities
 		};
-	}
+	};
 
-	public async getAll() {
+	public getAll = async (weaponData?: Record<string, any>) => {
 		const $ = await this.getPage(CHARACTER_PATH);
-		const characterPromises: Promise<ICharacter>[] = $(
+		const characterPromises: Promise<any>[] = $(
 			'#mw-content-text > div > table:nth-child(5) > tbody'
 		)
 			.find('img')
@@ -112,6 +123,14 @@ export class CharacterScraper extends CoreScraper {
 
 		const characters = await Promise.all(characterPromises);
 
+		if (weaponData) {
+			characters.forEach((char) => {
+				char.weapons = Object.entries(weaponData)
+					.filter(([ key, type ]) => type.usableBy.includes(char.name))
+					.map(([ key ]) => key);
+			});
+		}
+
 		return Object.fromEntries(characters.map((char) => [ char.name, char ]));
-	}
+	};
 }

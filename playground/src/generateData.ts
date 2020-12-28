@@ -1,14 +1,12 @@
 import { Accessory } from 'erbs-sdk';
 import fs from 'fs';
-import * as Scrapers from 'erbs-wiki-api';
-import { CharacterScraper, LocationScraper } from 'erbs-wiki-api';
-import { Cache } from './Cache';
+import { CharacterScraper, LocationScraper, WikICache } from 'erbs-wiki-api';
 
 const animalScraper = new Scrapers.AnimalScraper();
-const locationScraper = new LocationScraper();
+const locationScraper = new LocationScraper(new WikICache());
 const characterScraper = new CharacterScraper();
 const itemScraper = new Scrapers.ItemScraper(
-	new Cache(),
+	new WikICache(),
 	locationScraper['cache'],
 	animalScraper['cache'],
 	characterScraper['cache']

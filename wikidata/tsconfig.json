@@ -1,6 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "baseUrl": "./src/",
     "outDir": "./dist",                        /* Redirect output structure to the directory. */
   }
 }
