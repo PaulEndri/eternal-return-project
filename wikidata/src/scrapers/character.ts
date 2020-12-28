@@ -1,3 +1,8 @@
+/**
+ * @packageDocumentation
+ * @module WikiData
+ * */
+import { ICharacter } from '../interfaces/ICharacter';
 import { IElement } from '../interfaces/IElement';
 import { CHARACTER_PATH } from '../utils/constants';
 import { CoreScraper } from './core';
@@ -17,7 +22,7 @@ export class CharacterScraper extends CoreScraper {
 	};
 
 	public getCharacter = async ({ name, href }: IElement) => {
-		const cachedValue = await this.cache.get(name);
+		const cachedValue = await this.cache.get<ICharacter>(name);
 		if (cachedValue) {
 			return cachedValue;
 		}
@@ -106,8 +111,9 @@ export class CharacterScraper extends CoreScraper {
 			description,
 			details,
 			stats,
-			abilities
-		};
+			abilities,
+			weapons: []
+		} as ICharacter;
 	};
 
 	public getAll = async (weaponData?: Record<string, any>) => {
@@ -126,11 +132,11 @@ export class CharacterScraper extends CoreScraper {
 		if (weaponData) {
 			characters.forEach((char) => {
 				char.weapons = Object.entries(weaponData)
-					.filter(([ key, type ]) => type.usableBy.includes(char.name))
+					.filter(([ , type ]) => type.usableBy.includes(char.name))
 					.map(([ key ]) => key);
 			});
 		}
 
-		return Object.fromEntries(characters.map((char) => [ char.name, char ]));
+		return Object.fromEntries<ICharacter>(characters.map((char) => [ char.name, char ]));
 	};
 }

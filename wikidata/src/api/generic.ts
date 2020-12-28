@@ -1,8 +1,13 @@
+/** @module WikiData */
 import fetch from 'node-fetch';
 import { IGenericItem } from '../interfaces/IGenericItem';
 import { WikICache } from '../utils/wikiCache';
 import { Locations } from '../utils/constants';
+import { Item } from '../interfaces/Item';
 
+/**
+ * @remark Generic Api Class
+ */
 export class GenericApi {
 	static BASE_URL = 'http://api.playeternalreturn.com';
 	static ROUTES = {
@@ -40,9 +45,15 @@ export class GenericApi {
 		return results;
 	};
 
+	/**
+     * Get all items from the getAllItem route with minor processing
+     * 
+     * @param full if true will location Information
+     * @param force if true will bypass cache
+     */
 	public getAllItems = async (full = false, force = false) => {
 		if (this.itemCache.getCount() > 0 && !force) {
-			return await this.itemCache.getAll();
+			return await this.itemCache.getAll<Item>();
 		}
 
 		let itemLocations = {};
@@ -66,7 +77,7 @@ export class GenericApi {
 		const results: IGenericItem[] = await response.json();
 
 		const items = Object.fromEntries(results.map((item) => [ item.Name, item ]));
-		const returnedItems = {} as any;
+		const returnedItems = {} as Record<string, Item>;
 
 		for (const item of results) {
 			const {
@@ -116,10 +127,10 @@ export class GenericApi {
 			await this.itemCache.set(Name, data);
 		}
 
-		return returnedItems;
+		return returnedItems as Record<string, Item>;
 	};
 
-	public getItemsForArea = async (areaName: string) => {
+	public getItemsForArea = async (areaName: string): Promise<Record<string, number>> => {
 		if (await this.locationCache.get(areaName)) {
 			return this.locationCache.get(areaName);
 		}
@@ -131,7 +142,7 @@ export class GenericApi {
 			)}`
 		);
 		const results = await response.json();
-		const data = Object.fromEntries(
+		const data: Record<string, number> = Object.fromEntries(
 			results.map(({ DropCount, ItemName }) => [ ItemName, DropCount ])
 		);
 
@@ -143,7 +154,7 @@ export class GenericApi {
 	public getItem = async (itemName: string) => {
 		await this.getAllItems();
 
-		return await this.itemCache.get(itemName);
+		return await this.itemCache.get<Item>(itemName);
 	};
 
 	public getAllLocationItems = async () => {

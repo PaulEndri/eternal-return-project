@@ -1,3 +1,7 @@
+/**
+ * @packageDocumentation
+ * @module WikiData
+ * */
 import { CoreScraper } from './core';
 import {
 	ARMOR_PATH,
@@ -8,13 +12,13 @@ import {
 } from '../utils/constants';
 import { IWikiCache } from '../interfaces/IWikiCache';
 import { IElement } from '../interfaces/IElement';
+import { Item } from '../interfaces/Item';
 
 export class ItemScraper extends CoreScraper {
 	constructor(
 		itemCache?: IWikiCache,
 		private locationCache?: IWikiCache,
-		private animalCache?: IWikiCache,
-		private characterCache?: IWikiCache
+		private animalCache?: IWikiCache
 	) {
 		super(itemCache);
 	}
@@ -35,7 +39,7 @@ export class ItemScraper extends CoreScraper {
 
 			return Object.fromEntries(
 				Object.entries(animals)
-					.filter(([ name, animal ]: any) => animal.items && animal.items[item.name])
+					.filter(([ , animal ]: any) => animal.items && animal.items[item.name])
 					.map(([ name, animal ]: any) => [ name, { name, href: animal.href } ])
 			);
 		}
@@ -50,8 +54,7 @@ export class ItemScraper extends CoreScraper {
 			return Object.fromEntries(
 				Object.entries(locations)
 					.filter(
-						([ name, location ]: any) =>
-							location.materials && location.materials[item.name]
+						([ , location ]: any) => location.materials && location.materials[item.name]
 					)
 					.map(([ name, location ]: any) => [ name, { name, href: location.href } ])
 			);
@@ -66,9 +69,9 @@ export class ItemScraper extends CoreScraper {
 			return null;
 		}
 
-		const cachedValue = await this.cache.get(item.name);
+		const cachedValue = await this.cache.get<Item>(item.name);
+
 		if (cachedValue) {
-			console.log('[testing cache]', cachedValue);
 			return cachedValue;
 		}
 
@@ -133,7 +136,7 @@ export class ItemScraper extends CoreScraper {
 			description,
 			maxStacks,
 			foundQuantity
-		});
+		}) as Item;
 	};
 
 	/**
@@ -141,7 +144,15 @@ export class ItemScraper extends CoreScraper {
      */
 	public getWeapons = async (complete = false) => {
 		const $ = await this.getPage(WEAPON_PATH);
-		const categories = {};
+		const categories: Record<
+			string,
+			{
+				name: string;
+				weapons: string[] | Record<string, Item>;
+				abilityDetails: any;
+				usableBy: string[];
+			}
+		> = {};
 		const toc = $('.toclevel-1 a').toArray();
 
 		for (let el of toc) {
@@ -184,12 +195,12 @@ export class ItemScraper extends CoreScraper {
 			categories[name.replace(/_/g, '').replace(/-/g, '').replace(/ /g, '')] = {
 				name: name.replace(/_/g, ' '),
 				weapons: complete
-					? Object.fromEntries(
+					? Object.fromEntries<Item>(
 							weapons.map((wp) => {
 								return [ wp.name, wp ];
 							})
 						)
-					: [ ...new Set(weapons) ],
+					: [ ...new Set(weapons) ] as string[],
 				abilityDetails,
 				usableBy
 			};
@@ -203,7 +214,7 @@ export class ItemScraper extends CoreScraper {
      */
 	public getArmors = async (complete = false) => {
 		const $ = await this.getPage(ARMOR_PATH);
-		const categories = {};
+		const categories: Record<string, string[] | Record<string, Item>> = {};
 		const toc = $('.toclevel-2 a').toArray();
 
 		for (let el of toc) {
@@ -221,8 +232,8 @@ export class ItemScraper extends CoreScraper {
 			}
 
 			categories[name] = complete
-				? Object.fromEntries(armors.map((armor) => [ armor.name, armor ]))
-				: [ ...new Set(armors) ];
+				? Object.fromEntries<Item>(armors.map((armor) => [ armor.name, armor ]))
+				: [ ...new Set(armors) ] as string[];
 		}
 
 		return categories;
@@ -243,7 +254,7 @@ export class ItemScraper extends CoreScraper {
 			.map((mat) => (complete ? [ mat.name, mat ] : mat));
 
 		const $special = await this.getPage(SPECIAL_PATH);
-		const special = $('#mw-content-text > div > table a')
+		const special = $special('#mw-content-text > div > table a')
 			.toArray()
 			.map((el) => this.getSimpleElement($, el, !complete))
 			.map((mat) => (complete ? [ mat.name, mat ] : mat));

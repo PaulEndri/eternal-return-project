@@ -1,3 +1,4 @@
+/* @internal */
 export * from './scrapers/item';
 export * from './scrapers/character';
 export * from './scrapers/locations';
