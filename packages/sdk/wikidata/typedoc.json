@@ -2,19 +2,14 @@
     "out": "docs",
     "exclude": [
         "**/interfaces/*",
-        "src/utils/constants.ts"
+        "./src/utils/constants.ts"
+    ],
+    "entryPoint": [
+        "./wikidata/src/index.ts"
     ],
     "excludePrivate": true,
     "excludeProtected": true,
     "disableSources": true,
     "excludeExternals": true,
-    "hideGenerator": true,
-    "toc": [
-        "GenericApi",
-        "ItemScraper",
-        "AnimalScraper",
-        "WikiCache",
-        "LocationScraper",
-        "CharacterScraper"
-    ]
+    "hideGenerator": true
 }
