@@ -1,3 +1,10 @@
 {
-    "out": "docs"
+    "out": "docs",
+    "exclude": [
+        "**/interfaces/*",
+        "src/utils/constants.ts"
+    ],
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "disableSources": true
 }

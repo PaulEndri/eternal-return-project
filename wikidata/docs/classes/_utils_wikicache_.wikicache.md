@@ -10,14 +10,9 @@
 
 ## Implements
 
-* [IWikiCache](../interfaces/_interfaces_iwikicache_.iwikicache.md)
+* IWikiCache
 
 ## Index
-
-### Properties
-
-* [\_cache](_utils_wikicache_.wikicache.md#_cache)
-* [count](_utils_wikicache_.wikicache.md#count)
 
 ### Methods
 
@@ -27,29 +22,11 @@
 * [massInsert](_utils_wikicache_.wikicache.md#massinsert)
 * [set](_utils_wikicache_.wikicache.md#set)
 
-## Properties
-
-### \_cache
-
-• `Private` **\_cache**: {}
-
-*Defined in src/utils/wikiCache.ts:4*
-
-___
-
-### count
-
-• `Private` **count**: number = 0
-
-*Defined in src/utils/wikiCache.ts:5*
-
 ## Methods
 
 ### get
 
 ▸ **get**<T\>(`key`: string): Promise<T\>
-
-*Defined in src/utils/wikiCache.ts:7*
 
 #### Type parameters:
 
@@ -71,8 +48,6 @@ ___
 
 ▸ **getAll**<T\>(): Promise<Record<string, T\>\>
 
-*Defined in src/utils/wikiCache.ts:31*
-
 #### Type parameters:
 
 Name | Default |
@@ -87,8 +62,6 @@ ___
 
 ▸ **getCount**(): number
 
-*Defined in src/utils/wikiCache.ts:35*
-
 **Returns:** number
 
 ___
@@ -96,8 +69,6 @@ ___
 ### massInsert
 
 ▸ **massInsert**<T\>(`data`: Record<string, T\>): Promise<void\>
-
-*Defined in src/utils/wikiCache.ts:25*
 
 #### Type parameters:
 
@@ -118,8 +89,6 @@ ___
 ### set
 
 ▸ **set**<T\>(`key`: string, `value`: T): Promise<void\>
-
-*Defined in src/utils/wikiCache.ts:17*
 
 #### Type parameters:
 
