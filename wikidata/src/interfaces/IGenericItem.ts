@@ -1,0 +1,37 @@
+export interface IGenericItem {
+	AttackPower: number;
+	AttackRange: string;
+	AttackSpeedRatio: string;
+	Charges: number;
+	CooldownReduction: string;
+	CriticalStrikeChance: string;
+	CriticalStrikeDamage: string;
+	DecreaseRecoveryToBasicAttack: string;
+	DecreaseRecoveryToSkill: string;
+	Defense: string;
+	Grade: string;
+	Heal: string;
+	HpRegen: string;
+	HpRegenRatio: string;
+	InitialCount: number;
+	ItemCategory: string;
+	ItemType: string;
+	LifeSteal: string;
+	Material1: string;
+	Material2: string;
+	MaxHp: string;
+	MaxSp: string;
+	MoveSpeed: string;
+	MoveSpeedOutOfCombat: string;
+	Name: string;
+	SightRange: string;
+	SpRegen: string;
+	SpRegenRatio: string;
+	SpRestore: string;
+	Stackable: number;
+	increaseBasicAttackDamage: string;
+	increaseSkillDamage: string;
+	increaseSkillDamageRatio: string;
+	preventBasicAttackDamaged: string;
+	preventSkillDamagedRatio: string;
+}
