@@ -6,5 +6,15 @@
     ],
     "excludePrivate": true,
     "excludeProtected": true,
-    "disableSources": true
+    "disableSources": true,
+    "excludeExternals": true,
+    "hideGenerator": true,
+    "toc": [
+        "GenericApi",
+        "ItemScraper",
+        "AnimalScraper",
+        "WikiCache",
+        "LocationScraper",
+        "CharacterScraper"
+    ]
 }
