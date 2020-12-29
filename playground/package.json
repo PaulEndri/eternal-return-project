@@ -13,8 +13,6 @@
   "dependencies": {
     "axios": "^0.19.0",
     "cheerio": "^1.0.0-rc.3",
-    "erbs-sdk": "../sdk",
-    "erbs-wiki-api": "../wikidata",
     "json-format": "^1.0.1",
     "node-fetch": "^2.6.0",
     "request": "^2.88.0"
