@@ -36,14 +36,11 @@ export class ErBsClient {
 			throw new Error('No Api Key Passed In');
 		}
 
-		const response = await fetch(
-			`${this.baseURL}/${this.apiVersion}/${route}`.replace('//', '/'),
-			{
-				headers: {
-					'x-api-key': this.apiKey
-				}
+		const response = await fetch(`${this.baseURL}/${this.apiVersion}/${route}`, {
+			headers: {
+				'x-api-key': this.apiKey
 			}
-		);
+		});
 
 		if (response.ok) {
 			const results = await response.json();
