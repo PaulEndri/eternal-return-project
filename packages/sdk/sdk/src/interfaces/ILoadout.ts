@@ -1,9 +1,9 @@
-import { Accessories } from '../constants/Armor/Accessories';
-import { Arms } from '../constants/Armor/Arms';
-import { Chests } from '../constants/Armor/Chests';
-import { Heads } from '../constants/Armor/Heads';
-import { Legs } from '../constants/Armor/Legs';
-import { WeaponsEnum } from '../constants/Weapon';
+import { Accessories } from '../constants/data/Consumable/Armor/Accessories';
+import { Arms } from '../constants/data/Consumable/Armor/Arms';
+import { Chests } from '../constants/data/Consumable/Armor/Chests';
+import { Heads } from '../constants/data/Consumable/Armor/Heads';
+import { Legs } from '../constants/data/Consumable/Armor/Legs';
+import { WeaponsEnum } from '../constants/data/Weapon';
 import { IBasicItem } from './IBasicItem';
 
 export interface ILoadout {

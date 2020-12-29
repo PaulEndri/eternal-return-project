@@ -1,4 +1,4 @@
-import { Locations as LocationsEnum } from '../constants/Locations';
+import { Locations as LocationsEnum } from '../constants/data/Locations';
 import { ILocation } from '../interfaces/ILocation';
 
 export const Locations: Record<LocationsEnum, ILocation> = {

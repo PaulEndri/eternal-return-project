@@ -5,13 +5,13 @@ export interface IBasicItem<T extends string, K = IElement> {
 	href: string;
 	image?: string;
 	rarity: string;
-	stats: string[];
+	stats: Record<string, any>;
 	description: string;
 	maxStacks: string;
 	foundQuantity: string;
-	requirements?: K[];
-	buildsInto?: Record<string, K>;
-	buildsFrom?: K[];
-	foundLocations?: Record<string, K>;
+	requirements?: Record<string, number>;
+	buildsInto?: string[];
+	buildsFrom?: string[];
+	locations?: Record<string, number>;
 	droppedFrom?: Record<string, K>;
 }

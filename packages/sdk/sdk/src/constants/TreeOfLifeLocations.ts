@@ -1,4 +1,4 @@
-import { Locations } from './Locations';
+import { Locations } from './data/Locations';
 
 export enum TreeOfLifeLocations {
 	'Hotel' = Locations.Hotel,

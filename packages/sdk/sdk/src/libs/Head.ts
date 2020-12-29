@@ -1,4 +1,4 @@
-import { Heads } from '../constants/Armor/Heads';
+import { Heads } from '../constants/data/Consumable/Armor/Heads';
 import { WEIGHTS } from '../constants/Weights';
 import { Item } from './Item';
 

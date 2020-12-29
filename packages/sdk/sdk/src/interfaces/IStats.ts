@@ -1,9 +1,6 @@
 import { IStat } from './IStat';
 
 export interface IStats {
-	start?: IStat;
-	finish?: IStat;
-	growth?: IStat;
 	'Skill damage'?: IStat;
 	'Move. speed'?: IStat;
 	'Skill duration'?: IStat;
