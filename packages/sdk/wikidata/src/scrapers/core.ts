@@ -5,7 +5,7 @@
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import { IWikiCache } from '../interfaces/IWikiCache';
-import { WikICache } from '../utils/wikiCache';
+import { WikiCache } from '../utils/wikiCache';
 
 export class CoreScraper {
 	static BASE_URL = 'https://eternalreturn.gamepedia.com/';
@@ -15,7 +15,7 @@ export class CoreScraper {
 		if (cache) {
 			this.cache = cache;
 		} else {
-			this.cache = new WikICache();
+			this.cache = new WikiCache();
 		}
 	}
 

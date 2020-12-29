@@ -4,7 +4,7 @@
  **/
 import { IWikiCache } from '../interfaces/IWikiCache';
 
-export class WikICache implements IWikiCache {
+export class WikiCache implements IWikiCache {
 	private _cache = {};
 	private count = 0;
 
