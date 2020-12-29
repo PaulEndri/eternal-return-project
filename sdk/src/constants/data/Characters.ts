@@ -1,0 +1,20 @@
+export enum Characters {
+	'Adriana' = 'Adriana',
+	'Aya' = 'Aya',
+	'Chiara' = 'Chiara',
+	'Fiora' = 'Fiora',
+	'Hart' = 'Hart',
+	'Hyejin' = 'Hyejin',
+	'Hyunwoo' = 'Hyunwoo',
+	'Isol' = 'Isol',
+	'Jackie' = 'Jackie',
+	'Li Dailin' = 'Li Dailin',
+	'Magnus' = 'Magnus',
+	'Nadine' = 'Nadine',
+	'Shoichi' = 'Shoichi',
+	'Silvia' = 'Silvia',
+	'Sissela' = 'Sissela',
+	'Xiukai' = 'Xiukai',
+	'Yuki' = 'Yuki',
+	'Zahir' = 'Zahir'
+}
