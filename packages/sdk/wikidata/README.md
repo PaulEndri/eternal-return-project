@@ -3,7 +3,7 @@
 This is a simple NPM package that uses some of the public endpoints for Eternal Return and the data in the official Wiki to create a wrapper to pull some basic information for the game.
 
 ## Monorepo
-This project is housed inside of a monorepo that contains my other ERBS work
+This project is housed inside of a monorepo that contains my other ERBS work, monorepo stuff is using lerna
 
 ## Features
 - First Class Typescript Support
