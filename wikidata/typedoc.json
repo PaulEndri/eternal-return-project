@@ -2,7 +2,6 @@
     "out": "docs",
     "exclude": [
         "**/interfaces/*",
-        "./src/utils/*",
         "./src/scrapers/core.ts",
         "node_modules/*"
     ],

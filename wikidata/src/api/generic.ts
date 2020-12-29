@@ -1,7 +1,7 @@
 /** @module WikiData */
 import fetch from 'node-fetch';
 import { IGenericItem } from '../interfaces/IGenericItem';
-import { WikICache } from '../utils/wikiCache';
+import { WikiCache } from '../utils/wikiCache';
 import { Locations } from '../utils/constants';
 import { Item } from '../interfaces/Item';
 
@@ -15,8 +15,8 @@ export class GenericApi {
 		LOCATION_ITEMS: '/aesop/area?areaName={areaName}'
 	};
 
-	private itemCache = new WikICache();
-	private locationCache = new WikICache();
+	private itemCache = new WikiCache();
+	private locationCache = new WikiCache();
 
 	private getAllRequirements = (
 		needles: string[],
