@@ -1,4 +1,4 @@
-**[ER:BS Api/Scraper](README.md)**
+**[ER:BS Information](README.md)**
 
 > [Globals](globals.md)
 
@@ -22,10 +22,10 @@ This project is housed inside of a monorepo that contains my other ERBS work, mo
 - Additional helper methods for pulling specific data from the api
 
 ## Exports
-- [ErBsClient](docs/classes/libs.erbsclient.md)
-- [GameModes](docs/classes/constants.gamemodes.md)
-- [MasteryCodes](docs/classes/constants.masterycodes.md)
-- [MetaTypes](docs/classes/constants.metayypes.md)
+- [ErBsClient](/packages/client/docs/classes/libs.erbsclient.md)
+- [GameModes](/packages/client/docs/classes/constants.gamemodes.md)
+- [MasteryCodes](/packages/client/docs/classes/constants.masterycodes.md)
+- [MetaTypes](/packages/client/docs/classes/constants.metayypes.md)
 
 ## Usage
 ```typescript
@@ -46,5 +46,5 @@ const results = await Promise.all(methods);
 ```
 
 ## Docs:
-Check the typedocs above for more information for more information
+Check the typedocs above for more information or go through all the generated markdown here
 > [Globals](docs/globals.md)

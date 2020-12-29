@@ -1,4 +1,7 @@
-/* @internal */
+/** 
+ * @packageDocumentation
+ * @module WikiData
+ **/
 export * from './scrapers/item';
 export * from './scrapers/character';
 export * from './scrapers/locations';

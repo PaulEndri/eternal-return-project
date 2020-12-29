@@ -1,9 +1,9 @@
-import { IStats } from '../../src/interfaces/IStats';
+import { IStats } from './IStats';
 export interface IAbility {
-	name: string;
-	slot: string;
-	type: string;
-	description: string;
-	stats: Record<string, IStats>;
+    name: string;
+    slot: string;
+    type: string;
+    description: string;
+    stats: Record<string, IStats>;
 }
 //# sourceMappingURL=IAbility.d.ts.map

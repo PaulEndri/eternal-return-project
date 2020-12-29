@@ -1,7 +1,4 @@
-import { Item } from '../../src/interfaces/Item';
-/**
- * @remark Generic Api Class
- */
+import { Item } from '../interfaces/Item';
 export declare class GenericApi {
     static BASE_URL: string;
     static ROUTES: {
@@ -17,9 +14,9 @@ export declare class GenericApi {
      * @param full if true will location Information
      * @param force if true will bypass cache
      */
-    getAllItems: (full?: boolean, force?: boolean) => Promise<Record<string, Item<import("../../src/interfaces/IElement").IElement>>>;
+    getAllItems: (full?: boolean, force?: boolean) => Promise<Record<string, Item<import("../interfaces/IElement").IElement>>>;
     getItemsForArea: (areaName: string) => Promise<Record<string, number>>;
-    getItem: (itemName: string) => Promise<Item<import("../../src/interfaces/IElement").IElement>>;
+    getItem: (itemName: string) => Promise<Item<import("../interfaces/IElement").IElement>>;
     getAllLocationItems: () => Promise<Record<string, any>>;
 }
 //# sourceMappingURL=generic.d.ts.map

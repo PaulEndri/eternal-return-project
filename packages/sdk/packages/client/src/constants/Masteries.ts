@@ -1,3 +1,8 @@
+/** 
+ * @packageDocumentation
+ * @module ErBsClient
+ **/
+
 export enum MasteryCodes {
 	'None' = 0,
 	'Glove' = 1,

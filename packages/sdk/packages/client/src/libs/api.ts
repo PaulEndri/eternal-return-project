@@ -1,3 +1,8 @@
+/** 
+ * @packageDocumentation
+ * @module ErBsClient
+ **/
+
 import { GameModes } from '../constants/GameModes';
 import { MetaTypes } from '../constants/MetaTypes';
 import { ROUTES } from '../constants/Routes';
@@ -14,6 +19,7 @@ import { IUserGameHistory } from '../interfaces/IUserGameHistory';
 import { IUserRank } from '../interfaces/IUserRank';
 import { IUserRecord } from '../interfaces/IUserRecord';
 import { IWeapon } from '../interfaces/IWeapon';
+import fetch from 'node-fetch';
 
 const metaCache = {};
 

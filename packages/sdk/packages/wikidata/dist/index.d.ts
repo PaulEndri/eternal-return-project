@@ -1,7 +1,11 @@
-export * from '../src/scrapers/item';
-export * from '../src/scrapers/character';
-export * from '../src/scrapers/locations';
-export * from '../src/scrapers/animals';
-export * from '../src/utils/wikiCache';
-export * from '../src/api/generic';
+/**
+ * @packageDocumentation
+ * @module WikiData
+ **/
+export * from './scrapers/item';
+export * from './scrapers/character';
+export * from './scrapers/locations';
+export * from './scrapers/animals';
+export * from './utils/wikiCache';
+export * from './api/generic';
 //# sourceMappingURL=index.d.ts.map

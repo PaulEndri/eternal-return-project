@@ -1,6 +1,6 @@
 /** 
  * @packageDocumentation
- * @internal
+ * @module WikiData
  **/
 import { IWikiCache } from '../interfaces/IWikiCache';
 

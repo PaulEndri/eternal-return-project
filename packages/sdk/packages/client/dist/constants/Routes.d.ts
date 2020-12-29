@@ -1,3 +1,8 @@
+/**
+ * @packageDocumentation
+ * @module ErBsClient
+ * @ignore
+ **/
 export declare const ROUTES: {
     data: {
         default: string;

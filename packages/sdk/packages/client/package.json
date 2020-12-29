@@ -10,5 +10,8 @@
     "build:docs": "typedoc src/index.ts"
   },
   "author": "Paul Endri",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }

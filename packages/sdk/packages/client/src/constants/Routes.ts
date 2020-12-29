@@ -1,3 +1,8 @@
+/** 
+ * @packageDocumentation
+ * @module ErBsClient
+ * @ignore
+ **/
 export const ROUTES = {
 	data: {
 		default: '/data/{metaType}'
