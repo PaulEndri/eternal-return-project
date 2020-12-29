@@ -1,10 +1,8 @@
-**[ER:BS Api/Scraper](../README.md)**
+**[ER:BS Information](../README.md)**
 
-> [Globals](../globals.md) / [api](../modules/api.md) / GenericApi
+> [Globals](../globals.md) / [WikiData](../modules/wikidata.md) / GenericApi
 
 # Class: GenericApi
-
-**`remark`** Generic Api Class
 
 ## Hierarchy
 
@@ -14,18 +12,18 @@
 
 ### Properties
 
-* [BASE\_URL](api.genericapi.md#base_url)
+* [BASE\_URL](wikidata.genericapi.md#base_url)
 
 ### Methods
 
-* [getAllItems](api.genericapi.md#getallitems)
-* [getAllLocationItems](api.genericapi.md#getalllocationitems)
-* [getItem](api.genericapi.md#getitem)
-* [getItemsForArea](api.genericapi.md#getitemsforarea)
+* [getAllItems](wikidata.genericapi.md#getallitems)
+* [getAllLocationItems](wikidata.genericapi.md#getalllocationitems)
+* [getItem](wikidata.genericapi.md#getitem)
+* [getItemsForArea](wikidata.genericapi.md#getitemsforarea)
 
 ### Object literals
 
-* [ROUTES](api.genericapi.md#routes)
+* [ROUTES](wikidata.genericapi.md#routes)
 
 ## Properties
 
@@ -33,7 +31,7 @@
 
 ▪ `Static` **BASE\_URL**: string = "http://api.playeternalreturn.com"
 
-*Defined in [src/api/generic.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/api/generic.ts#L12)*
+*Defined in [packages/wikidata/src/api/generic.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/api/generic.ts#L12)*
 
 ## Methods
 
@@ -41,7 +39,7 @@
 
 ▸ **getAllItems**(`full?`: boolean, `force?`: boolean): Promise<Record<string, Item<IElement\>\>\>
 
-*Defined in [src/api/generic.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/api/generic.ts#L54)*
+*Defined in [packages/wikidata/src/api/generic.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/api/generic.ts#L54)*
 
 Get all items from the getAllItem route with minor processing
 
@@ -60,7 +58,7 @@ ___
 
 ▸ **getAllLocationItems**(): Promise<Record<string, any\>\>
 
-*Defined in [src/api/generic.ts:160](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/api/generic.ts#L160)*
+*Defined in [packages/wikidata/src/api/generic.ts:160](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/api/generic.ts#L160)*
 
 **Returns:** Promise<Record<string, any\>\>
 
@@ -70,7 +68,7 @@ ___
 
 ▸ **getItem**(`itemName`: string): Promise<Item<IElement\>\>
 
-*Defined in [src/api/generic.ts:154](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/api/generic.ts#L154)*
+*Defined in [packages/wikidata/src/api/generic.ts:154](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/api/generic.ts#L154)*
 
 #### Parameters:
 
@@ -86,7 +84,7 @@ ___
 
 ▸ **getItemsForArea**(`areaName`: string): Promise<Record<string, number\>\>
 
-*Defined in [src/api/generic.ts:133](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/api/generic.ts#L133)*
+*Defined in [packages/wikidata/src/api/generic.ts:133](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/api/generic.ts#L133)*
 
 #### Parameters:
 
@@ -102,7 +100,7 @@ Name | Type |
 
 ▪ `Static` **ROUTES**: object
 
-*Defined in [src/api/generic.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/api/generic.ts#L13)*
+*Defined in [packages/wikidata/src/api/generic.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/api/generic.ts#L13)*
 
 #### Properties:
 

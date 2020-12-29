@@ -1,3 +1,7 @@
+/**
+ * @packageDocumentation
+ * @module ErBsClient
+ **/
 import { GameModes } from '../constants/GameModes';
 import { MetaTypes } from '../constants/MetaTypes';
 import { IArmor } from '../interfaces/IArmor';

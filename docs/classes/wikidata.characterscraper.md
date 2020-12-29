@@ -1,4 +1,4 @@
-**[ER:BS Api/Scraper](../README.md)**
+**[ER:BS Information](../README.md)**
 
 > [Globals](../globals.md) / [WikiData](../modules/wikidata.md) / CharacterScraper
 
@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-* CoreScraper
+* [CoreScraper](wikidata.corescraper.md)
 
   ↳ **CharacterScraper**
 
@@ -33,9 +33,9 @@
 
 \+ **new CharacterScraper**(`cache?`: IWikiCache): [CharacterScraper](wikidata.characterscraper.md)
 
-*Inherited from [CharacterScraper](wikidata.characterscraper.md).[constructor](wikidata.characterscraper.md#constructor)*
+*Inherited from [CoreScraper](wikidata.corescraper.md).[constructor](wikidata.corescraper.md#constructor)*
 
-*Defined in [src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/scrapers/core.ts#L12)*
 
 #### Parameters:
 
@@ -51,9 +51,9 @@ Name | Type |
 
 •  **cache**: IWikiCache
 
-*Inherited from [ItemScraper](wikidata.itemscraper.md).[cache](wikidata.itemscraper.md#cache)*
+*Inherited from [CoreScraper](wikidata.corescraper.md).[cache](wikidata.corescraper.md#cache)*
 
-*Defined in [src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/scrapers/core.ts#L12)*
 
 ___
 
@@ -61,9 +61,9 @@ ___
 
 ▪ `Static` **BASE\_URL**: string = "https://eternalreturn.gamepedia.com/"
 
-*Inherited from [ItemScraper](wikidata.itemscraper.md).[BASE_URL](wikidata.itemscraper.md#base_url)*
+*Inherited from [CoreScraper](wikidata.corescraper.md).[BASE_URL](wikidata.corescraper.md#base_url)*
 
-*Defined in [src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/scrapers/core.ts#L11)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/scrapers/core.ts#L11)*
 
 ## Methods
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **getAll**(`weaponData?`: Record<string, any\>): Promise<{ [k:string]: T;  }\>
 
-*Defined in [src/scrapers/character.ts:119](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/scrapers/character.ts#L119)*
+*Defined in [packages/wikidata/src/scrapers/character.ts:119](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/scrapers/character.ts#L119)*
 
 #### Parameters:
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **getCharacter**(`__namedParameters`: { href: string ; name: string  }): Promise<ICharacter\>
 
-*Defined in [src/scrapers/character.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/scrapers/character.ts#L24)*
+*Defined in [packages/wikidata/src/scrapers/character.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/scrapers/character.ts#L24)*
 
 #### Parameters:
 
@@ -103,9 +103,9 @@ ___
 
 ▸ **getPage**(`page`: string, `skipCache?`: boolean): Promise<any\>
 
-*Inherited from [ItemScraper](wikidata.itemscraper.md).[getPage](wikidata.itemscraper.md#getpage)*
+*Inherited from [CoreScraper](wikidata.corescraper.md).[getPage](wikidata.corescraper.md#getpage)*
 
-*Defined in [src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/0121a07/wikidata/src/scrapers/core.ts#L34)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/scrapers/core.ts#L34)*
 
 #### Parameters:
 

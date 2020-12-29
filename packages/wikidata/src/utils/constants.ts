@@ -1,3 +1,7 @@
+/** 
+ * @packageDocumentation
+ * @module WikiData
+ **/
 export const DOWNLOAD_IMAGES = false;
 export const BASE_URL = 'https://eternalreturn.gamepedia.com/';
 export const WEAPON_PATH = 'Weapon';

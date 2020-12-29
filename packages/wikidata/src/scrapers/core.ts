@@ -1,7 +1,7 @@
-/**
+/** 
  * @packageDocumentation
- * @internal
- * */
+ * @module WikiData
+ **/
 import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 import { IWikiCache } from '../interfaces/IWikiCache';

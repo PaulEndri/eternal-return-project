@@ -1,13 +1,13 @@
-/** @module WikiData */
+/** 
+ * @packageDocumentation
+ * @module WikiData
+ **/
 import fetch from 'node-fetch';
 import { IGenericItem } from '../interfaces/IGenericItem';
 import { WikiCache } from '../utils/wikiCache';
 import { Locations } from '../utils/constants';
 import { Item } from '../interfaces/Item';
 
-/**
- * @remark Generic Api Class
- */
 export class GenericApi {
 	static BASE_URL = 'http://api.playeternalreturn.com';
 	static ROUTES = {

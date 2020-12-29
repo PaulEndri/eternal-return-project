@@ -1,3 +1,7 @@
+/**
+ * @packageDocumentation
+ * @module ErBsClient
+ **/
 export declare enum GameModes {
     Solo = 1,
     Duos = 2,

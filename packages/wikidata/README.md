@@ -12,11 +12,11 @@ This project is housed inside of a monorepo that contains my other ERBS work, mo
 - Optionally pull in items by category
 
 ## Exports
-- [ItemScraper](docs/classes/wikidata.itemscraper.md)
-- [AnimalScraper](docs/classes/wikidata.animalscraper.md)
-- [LocationScraper](docs/classes/wikidata.locationscraper.md)
-- [CharacterScraper](docs/classes/wikidata.characterscraper.md)
-- [GenericApi](docs/classes/api.genericapi.md)
+- [ItemScraper](/packages/wikidata/docs/classes/wikidata.itemscraper.md)
+- [AnimalScraper](/packages/wikidata/docs/classes/wikidata.animalscraper.md)
+- [LocationScraper](/packages/wikidata/docs/classes/wikidata.locationscraper.md)
+- [CharacterScraper](/packages/wikidata/docs/classes/wikidata.characterscraper.md)
+- [GenericApi](/packages/wikidata/docs/classes/api.genericapi.md)
 
 ## Usage
 ```typescript

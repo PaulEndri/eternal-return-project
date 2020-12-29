@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "build:docs": "node_modules/.bin/typedoc.cmd ./packages/client/src/index.ts ./packages/wikidata/src/index.ts"
+  },
   "devDependencies": {
     "@types/cheerio": "^0.22.23",
     "@types/node": "^14.14.10",

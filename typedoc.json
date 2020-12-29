@@ -1,0 +1,14 @@
+{
+    "out": "docs",
+    "entryPoint": "./packages/client/src/index.ts ./packages/wikidata/src/index.ts",
+    "exclude": [
+        "**/interfaces/*",
+        "./src/scrapers/core.ts",
+        "node_modules/*"
+    ],
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "hideGenerator": true,
+    "name": "ER:BS Information",
+    "theme": "markdown"
+}

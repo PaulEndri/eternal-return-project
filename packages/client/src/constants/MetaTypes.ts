@@ -1,3 +1,8 @@
+/** 
+ * @packageDocumentation
+ * @module ErBsClient
+ **/
+
 export enum MetaTypes {
 	ActionCost = 'ActionCost',
 	Area = 'Area',
