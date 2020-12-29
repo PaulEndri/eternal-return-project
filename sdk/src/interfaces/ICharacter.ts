@@ -1,4 +1,4 @@
-import { Abilities } from '../constants/Abilities';
+import { Abilities } from '../constants/data/Abilities';
 import { IAbility } from './IAbility';
 
 export interface ICharacter {

@@ -1,0 +1,13 @@
+{
+    "out": "docs",
+    "exclude": [
+        "**/interfaces/*",
+        "./src/scrapers/core.ts",
+        "node_modules/*"
+    ],
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "hideGenerator": true,
+    "name": "ER:BS Api/Scraper",
+    "theme": "markdown"
+}
