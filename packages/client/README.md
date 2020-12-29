@@ -18,10 +18,10 @@ This project is housed inside of a monorepo that contains my other ERBS work, mo
 - Additional helper methods for pulling specific data from the api
 
 ## Exports
-- [ErBsClient](/packages/client/docs/classes/libs.erbsclient.md)
-- [GameModes](/packages/client/docs/classes/constants.gamemodes.md)
-- [MasteryCodes](/packages/client/docs/classes/constants.masterycodes.md)
-- [MetaTypes](/packages/client/docs/classes/constants.metayypes.md)
+- [ErBsClient](/docs/classes/erbsclient.erbsclient-1.md)
+- [GameModes](/docs/enums/erbsclient.gamemodes.md)
+- [MasteryCodes](/docs/enums/erbsclient.masterycodes.md)
+- [MetaTypes](/docs/enums/erbsclient.metayypes.md)
 
 ## Usage
 ```typescript
