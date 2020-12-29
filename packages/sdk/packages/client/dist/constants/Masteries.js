@@ -1,0 +1,37 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var MasteryCodes;
+(function (MasteryCodes) {
+    MasteryCodes[MasteryCodes["None"] = 0] = "None";
+    MasteryCodes[MasteryCodes["Glove"] = 1] = "Glove";
+    MasteryCodes[MasteryCodes["Tonfa"] = 2] = "Tonfa";
+    MasteryCodes[MasteryCodes["Bat"] = 3] = "Bat";
+    MasteryCodes[MasteryCodes["Whip"] = 4] = "Whip";
+    MasteryCodes[MasteryCodes["HighAngleFire"] = 5] = "HighAngleFire";
+    MasteryCodes[MasteryCodes["DirectFire"] = 6] = "DirectFire";
+    MasteryCodes[MasteryCodes["Bow"] = 7] = "Bow";
+    MasteryCodes[MasteryCodes["CrossBow"] = 8] = "CrossBow";
+    MasteryCodes[MasteryCodes["Pistol"] = 9] = "Pistol";
+    MasteryCodes[MasteryCodes["AssaultRifle"] = 10] = "AssaultRifle";
+    MasteryCodes[MasteryCodes["SniperRifle"] = 11] = "SniperRifle";
+    MasteryCodes[MasteryCodes["Cannon"] = 12] = "Cannon";
+    MasteryCodes[MasteryCodes["Hammer"] = 13] = "Hammer";
+    MasteryCodes[MasteryCodes["Axe"] = 14] = "Axe";
+    MasteryCodes[MasteryCodes["OneHandSword"] = 15] = "OneHandSword";
+    MasteryCodes[MasteryCodes["TwoHandSword"] = 16] = "TwoHandSword";
+    MasteryCodes[MasteryCodes["Polearm"] = 17] = "Polearm";
+    MasteryCodes[MasteryCodes["DualSword"] = 18] = "DualSword";
+    MasteryCodes[MasteryCodes["Spear"] = 19] = "Spear";
+    MasteryCodes[MasteryCodes["Nunchaku"] = 20] = "Nunchaku";
+    MasteryCodes[MasteryCodes["Rapier"] = 21] = "Rapier";
+    MasteryCodes[MasteryCodes["Guitar"] = 22] = "Guitar";
+    MasteryCodes[MasteryCodes["Trap"] = 101] = "Trap";
+    MasteryCodes[MasteryCodes["Craft"] = 102] = "Craft";
+    MasteryCodes[MasteryCodes["Search"] = 103] = "Search";
+    MasteryCodes[MasteryCodes["Move"] = 104] = "Move";
+    MasteryCodes[MasteryCodes["Health"] = 201] = "Health";
+    MasteryCodes[MasteryCodes["Defense"] = 202] = "Defense";
+    MasteryCodes[MasteryCodes["Meditation"] = 203] = "Meditation";
+    MasteryCodes[MasteryCodes["Hunt"] = 204] = "Hunt";
+})(MasteryCodes = exports.MasteryCodes || (exports.MasteryCodes = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTWFzdGVyaWVzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2NvbnN0YW50cy9NYXN0ZXJpZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFZLFlBZ0NYO0FBaENELFdBQVksWUFBWTtJQUN2QiwrQ0FBVSxDQUFBO0lBQ1YsaURBQVcsQ0FBQTtJQUNYLGlEQUFXLENBQUE7SUFDWCw2Q0FBUyxDQUFBO0lBQ1QsK0NBQVUsQ0FBQTtJQUNWLGlFQUFtQixDQUFBO0lBQ25CLDJEQUFnQixDQUFBO0lBQ2hCLDZDQUFTLENBQUE7SUFDVCx1REFBYyxDQUFBO0lBQ2QsbURBQVksQ0FBQTtJQUNaLGdFQUFtQixDQUFBO0lBQ25CLDhEQUFrQixDQUFBO0lBQ2xCLG9EQUFhLENBQUE7SUFDYixvREFBYSxDQUFBO0lBQ2IsOENBQVUsQ0FBQTtJQUNWLGdFQUFtQixDQUFBO0lBQ25CLGdFQUFtQixDQUFBO0lBQ25CLHNEQUFjLENBQUE7SUFDZCwwREFBZ0IsQ0FBQTtJQUNoQixrREFBWSxDQUFBO0lBQ1osd0RBQWUsQ0FBQTtJQUNmLG9EQUFhLENBQUE7SUFDYixvREFBYSxDQUFBO0lBQ2IsaURBQVksQ0FBQTtJQUNaLG1EQUFhLENBQUE7SUFDYixxREFBYyxDQUFBO0lBQ2QsaURBQVksQ0FBQTtJQUNaLHFEQUFjLENBQUE7SUFDZCx1REFBZSxDQUFBO0lBQ2YsNkRBQWtCLENBQUE7SUFDbEIsaURBQVksQ0FBQTtBQUNiLENBQUMsRUFoQ1csWUFBWSxHQUFaLG9CQUFZLEtBQVosb0JBQVksUUFnQ3ZCIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGVudW0gTWFzdGVyeUNvZGVzIHtcclxuXHQnTm9uZScgPSAwLFxyXG5cdCdHbG92ZScgPSAxLFxyXG5cdCdUb25mYScgPSAyLFxyXG5cdCdCYXQnID0gMyxcclxuXHQnV2hpcCcgPSA0LFxyXG5cdCdIaWdoQW5nbGVGaXJlJyA9IDUsXHJcblx0J0RpcmVjdEZpcmUnID0gNixcclxuXHQnQm93JyA9IDcsXHJcblx0J0Nyb3NzQm93JyA9IDgsXHJcblx0J1Bpc3RvbCcgPSA5LFxyXG5cdCdBc3NhdWx0UmlmbGUnID0gMTAsXHJcblx0J1NuaXBlclJpZmxlJyA9IDExLFxyXG5cdCdDYW5ub24nID0gMTIsXHJcblx0J0hhbW1lcicgPSAxMyxcclxuXHQnQXhlJyA9IDE0LFxyXG5cdCdPbmVIYW5kU3dvcmQnID0gMTUsXHJcblx0J1R3b0hhbmRTd29yZCcgPSAxNixcclxuXHQnUG9sZWFybScgPSAxNyxcclxuXHQnRHVhbFN3b3JkJyA9IDE4LFxyXG5cdCdTcGVhcicgPSAxOSxcclxuXHQnTnVuY2hha3UnID0gMjAsXHJcblx0J1JhcGllcicgPSAyMSxcclxuXHQnR3VpdGFyJyA9IDIyLFxyXG5cdCdUcmFwJyA9IDEwMSxcclxuXHQnQ3JhZnQnID0gMTAyLFxyXG5cdCdTZWFyY2gnID0gMTAzLFxyXG5cdCdNb3ZlJyA9IDEwNCxcclxuXHQnSGVhbHRoJyA9IDIwMSxcclxuXHQnRGVmZW5zZScgPSAyMDIsXHJcblx0J01lZGl0YXRpb24nID0gMjAzLFxyXG5cdCdIdW50JyA9IDIwNFxyXG59XHJcbiJdfQ==

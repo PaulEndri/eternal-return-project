@@ -1,0 +1,1 @@
+{"version":3,"file":"core.d.ts","sourceRoot":"","sources":["../../src/scrapers/core.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,UAAU,EAAE,MAAM,0BAA0B,CAAC;AAGtD,qBAAa,WAAW;IACvB,MAAM,CAAC,QAAQ,SAA0C;IAClD,KAAK,EAAE,UAAU,CAAC;gBAEb,KAAK,CAAC,EAAE,UAAU;IAQ9B,SAAS,CAAC,gBAAgB,+CAUxB;IAEK,OAAO,SAAgB,MAAM,uCAoBlC;CACF"}

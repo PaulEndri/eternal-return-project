@@ -1,0 +1,26 @@
+
+export enum Heads {
+	"Hairband" = "Hairband"
+,	"Hat" = "Hat"
+,	"Bike Helmet" = "Bike Helmet"
+,	"Mask" = "Mask"
+,	"Circlet" = "Circlet"
+,	"Beret" = "Beret"
+,	"Chain Coif" = "Chain Coif"
+,	"Safety Helmet" = "Safety Helmet"
+,	"Ballistic Helmet" = "Ballistic Helmet"
+,	"Fire Helmet" = "Fire Helmet"
+,	"Tiara" = "Tiara"
+,	"Crown" = "Crown"
+,	"Close Helm" = "Close Helm"
+,	"Motorcycle Helmet" = "Motorcycle Helmet"
+,	"Crystal Tiara" = "Crystal Tiara"
+,	"Mithril Helm" = "Mithril Helm"
+,	"Tactical OPS Helmet" = "Tactical OPS Helmet"
+,	"Helm of Banneret" = "Helm of Banneret"
+,	"Chinese Opera Mask" = "Chinese Opera Mask"
+,	"Imperial Crown" = "Imperial Crown"
+,	"Imperial Burgonet" = "Imperial Burgonet"
+,	"Laurel Wreath" = "Laurel Wreath"
+
+}
