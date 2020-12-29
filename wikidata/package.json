@@ -3,17 +3,23 @@
   "version": "1.0.2",
   "description": "erbs wiki data api + generic erbs api",
   "repository": {
-    "type": "github",
-    "url": "https://github.com/PaulEndri/eternal-return-project/tree/master/wikidata"
+    "type": "git",
+    "url": "git+https://github.com/PaulEndri/eternal-return-project.git"
   },
-  "main": "dist/erbs/wikidata/src/index.js",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "start": "tsc && node dist/wikidata/src/",
     "start:dev": "ts-node ./src/",
     "build": "tsc",
     "build:docs": "typedoc src/index.ts"
   },
-  "author": "Paul Endri",
+  "author": "Paul Endri <abrecan.eyndrill@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
