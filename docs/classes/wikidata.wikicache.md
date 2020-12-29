@@ -28,7 +28,7 @@
 
 ▸ **get**<T\>(`key`: string): Promise<T\>
 
-*Defined in [packages/wikidata/src/utils/wikiCache.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/utils/wikiCache.ts#L11)*
+*Defined in [packages/wikidata/src/utils/wikiCache.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/wikiCache.ts#L11)*
 
 #### Type parameters:
 
@@ -50,7 +50,7 @@ ___
 
 ▸ **getAll**<T\>(): Promise<Record<string, T\>\>
 
-*Defined in [packages/wikidata/src/utils/wikiCache.ts:35](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/utils/wikiCache.ts#L35)*
+*Defined in [packages/wikidata/src/utils/wikiCache.ts:35](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/wikiCache.ts#L35)*
 
 #### Type parameters:
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **getCount**(): number
 
-*Defined in [packages/wikidata/src/utils/wikiCache.ts:39](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/utils/wikiCache.ts#L39)*
+*Defined in [packages/wikidata/src/utils/wikiCache.ts:39](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/wikiCache.ts#L39)*
 
 **Returns:** number
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **massInsert**<T\>(`data`: Record<string, T\>): Promise<void\>
 
-*Defined in [packages/wikidata/src/utils/wikiCache.ts:29](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/utils/wikiCache.ts#L29)*
+*Defined in [packages/wikidata/src/utils/wikiCache.ts:29](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/wikiCache.ts#L29)*
 
 #### Type parameters:
 
@@ -98,7 +98,7 @@ ___
 
 ▸ **set**<T\>(`key`: string, `value`: T): Promise<void\>
 
-*Defined in [packages/wikidata/src/utils/wikiCache.ts:21](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/wikidata/src/utils/wikiCache.ts#L21)*
+*Defined in [packages/wikidata/src/utils/wikiCache.ts:21](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/wikiCache.ts#L21)*
 
 #### Type parameters:
 

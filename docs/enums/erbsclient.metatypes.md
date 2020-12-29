@@ -90,7 +90,7 @@
 
 •  **ActionCost**:  = "ActionCost"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L7)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L7)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 •  **Area**:  = "Area"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L8)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L8)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 •  **AreaSound**:  = "AreaSound"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:9](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L9)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:9](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L9)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 •  **BotAiModel**:  = "BotAiModel"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:10](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L10)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:10](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L10)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 •  **BotCraft**:  = "BotCraft"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L11)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L11)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 •  **BotMastery**:  = "BotMastery"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L12)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L12)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 •  **BotNickName**:  = "BotNickName"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L13)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L13)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 •  **BotSkillBuild**:  = "BotSkillBuild"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:14](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L14)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:14](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L14)*
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 •  **BulletCapacity**:  = "BulletCapacity"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:15](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L15)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:15](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L15)*
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 •  **Character**:  = "Character"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:16](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L16)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:16](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L16)*
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 •  **CharacterAttributes**:  = "CharacterAttributes"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:17](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L17)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:17](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L17)*
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 •  **CharacterExp**:  = "CharacterExp"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:18](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L18)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:18](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L18)*
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 •  **CharacterLevelUpStat**:  = "CharacterLevelUpStat"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:19](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L19)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:19](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L19)*
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 •  **CharacterMastery**:  = "CharacterMastery"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:20](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L20)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:20](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L20)*
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 •  **CharacterModeModifier**:  = "CharacterModeModifier"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:21](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L21)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:21](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L21)*
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 •  **CharacterState**:  = "CharacterState"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:22](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L22)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:22](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L22)*
 
 ___
 
@@ -218,7 +218,7 @@ ___
 
 •  **CharacterStateGroup**:  = "CharacterStateGroup"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:23](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L23)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:23](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L23)*
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 •  **CharacterVoice**:  = "CharacterVoice"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L24)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L24)*
 
 ___
 
@@ -234,7 +234,7 @@ ___
 
 •  **CharacterVoiceRandomCount**:  = "CharacterVoiceRandomCount"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:25](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L25)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:25](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L25)*
 
 ___
 
@@ -242,7 +242,7 @@ ___
 
 •  **Collectible**:  = "Collectible"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:26](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L26)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:26](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L26)*
 
 ___
 
@@ -250,7 +250,7 @@ ___
 
 •  **ControlTypeUse**:  = "ControlTypeUse"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:27](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L27)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:27](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L27)*
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 •  **CriticalChance**:  = "CriticalChance"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:28](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L28)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:28](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L28)*
 
 ___
 
@@ -266,7 +266,7 @@ ___
 
 •  **DropGroup**:  = "DropGroup"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:29](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L29)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:29](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L29)*
 
 ___
 
@@ -274,7 +274,7 @@ ___
 
 •  **EffectAndSound**:  = "EffectAndSound"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:30](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L30)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:30](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L30)*
 
 ___
 
@@ -282,7 +282,7 @@ ___
 
 •  **Emotion**:  = "Emotion"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:31](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L31)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:31](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L31)*
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 •  **FootStep**:  = "FootStep"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:32](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L32)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:32](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L32)*
 
 ___
 
@@ -298,7 +298,7 @@ ___
 
 •  **GameRankExp**:  = "GameRankExp"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:33](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L33)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:33](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L33)*
 
 ___
 
@@ -306,7 +306,7 @@ ___
 
 •  **HookLineProjectile**:  = "HookLineProjectile"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L34)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L34)*
 
 ___
 
@@ -314,7 +314,7 @@ ___
 
 •  **HowToFindItem**:  = "HowToFindItem"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:35](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L35)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:35](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L35)*
 
 ___
 
@@ -322,7 +322,7 @@ ___
 
 •  **ItemArmor**:  = "ItemArmor"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:36](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L36)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:36](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L36)*
 
 ___
 
@@ -330,7 +330,7 @@ ___
 
 •  **ItemConsumable**:  = "ItemConsumable"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:37](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L37)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:37](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L37)*
 
 ___
 
@@ -338,7 +338,7 @@ ___
 
 •  **ItemMisc**:  = "ItemMisc"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:38](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L38)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:38](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L38)*
 
 ___
 
@@ -346,7 +346,7 @@ ___
 
 •  **ItemSearchOption**:  = "ItemSearchOption"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:39](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L39)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:39](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L39)*
 
 ___
 
@@ -354,7 +354,7 @@ ___
 
 •  **ItemSpawn**:  = "ItemSpawn"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:40](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L40)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:40](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L40)*
 
 ___
 
@@ -362,7 +362,7 @@ ___
 
 •  **ItemSpecial**:  = "ItemSpecial"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:41](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L41)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:41](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L41)*
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 •  **ItemWeapon**:  = "ItemWeapon"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:42](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L42)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:42](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L42)*
 
 ___
 
@@ -378,7 +378,7 @@ ___
 
 •  **KeyText**:  = "KeyText"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:43](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L43)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:43](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L43)*
 
 ___
 
@@ -386,7 +386,7 @@ ___
 
 •  **Level**:  = "Level"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:44](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L44)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:44](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L44)*
 
 ___
 
@@ -394,7 +394,7 @@ ___
 
 •  **MasteryExp**:  = "MasteryExp"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:45](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L45)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:45](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L45)*
 
 ___
 
@@ -402,7 +402,7 @@ ___
 
 •  **MasteryLevel**:  = "MasteryLevel"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:46](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L46)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:46](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L46)*
 
 ___
 
@@ -410,7 +410,7 @@ ___
 
 •  **MatchingQueueTier**:  = "MatchingQueueTier"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:47](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L47)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:47](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L47)*
 
 ___
 
@@ -418,7 +418,7 @@ ___
 
 •  **Mission**:  = "Mission"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:48](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L48)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:48](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L48)*
 
 ___
 
@@ -426,7 +426,7 @@ ___
 
 •  **Monster**:  = "Monster"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:49](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L49)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:49](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L49)*
 
 ___
 
@@ -434,7 +434,7 @@ ___
 
 •  **MonsterLevelUpStat**:  = "MonsterLevelUpStat"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:50](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L50)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:50](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L50)*
 
 ___
 
@@ -442,7 +442,7 @@ ___
 
 •  **MonsterSpawnLevel**:  = "MonsterSpawnLevel"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:51](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L51)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:51](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L51)*
 
 ___
 
@@ -450,7 +450,7 @@ ___
 
 •  **NaviCollectAndHunt**:  = "NaviCollectAndHunt"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:52](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L52)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:52](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L52)*
 
 ___
 
@@ -458,7 +458,7 @@ ___
 
 •  **NearByArea**:  = "NearByArea"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:53](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L53)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:53](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L53)*
 
 ___
 
@@ -466,7 +466,7 @@ ___
 
 •  **Noise**:  = "Noise"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L54)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L54)*
 
 ___
 
@@ -474,7 +474,7 @@ ___
 
 •  **PreMadeTeamTierRestrict**:  = "PreMadeTeamTierRestrict"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:55](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L55)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:55](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L55)*
 
 ___
 
@@ -482,7 +482,7 @@ ___
 
 •  **ProductAsset**:  = "ProductAsset"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:56](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L56)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:56](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L56)*
 
 ___
 
@@ -490,7 +490,7 @@ ___
 
 •  **ProductCharacter**:  = "ProductCharacter"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:57](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L57)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:57](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L57)*
 
 ___
 
@@ -498,7 +498,7 @@ ___
 
 •  **ProductInstant**:  = "ProductInstant"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:58](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L58)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:58](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L58)*
 
 ___
 
@@ -506,7 +506,7 @@ ___
 
 •  **ProjectileSetting**:  = "ProjectileSetting"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:59](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L59)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:59](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L59)*
 
 ___
 
@@ -514,7 +514,7 @@ ___
 
 •  **RecommendedArea**:  = "RecommendedArea"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:60](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L60)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:60](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L60)*
 
 ___
 
@@ -522,7 +522,7 @@ ___
 
 •  **RecommendedItemList**:  = "RecommendedItemList"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:61](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L61)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:61](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L61)*
 
 ___
 
@@ -530,7 +530,7 @@ ___
 
 •  **RecommendedList**:  = "RecommendedList"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:62](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L62)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:62](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L62)*
 
 ___
 
@@ -538,7 +538,7 @@ ___
 
 •  **RestrictedArea**:  = "RestrictedArea"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:63](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L63)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:63](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L63)*
 
 ___
 
@@ -546,7 +546,7 @@ ___
 
 •  **Reward**:  = "Reward"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:64](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L64)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:64](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L64)*
 
 ___
 
@@ -554,7 +554,7 @@ ___
 
 •  **RewardItem**:  = "RewardItem"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:65](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L65)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:65](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L65)*
 
 ___
 
@@ -562,7 +562,7 @@ ___
 
 •  **SecurityConsolEvent**:  = "SecurityConsolEvent"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:66](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L66)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:66](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L66)*
 
 ___
 
@@ -570,7 +570,7 @@ ___
 
 •  **ServerRegion**:  = "ServerRegion"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:67](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L67)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:67](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L67)*
 
 ___
 
@@ -578,7 +578,7 @@ ___
 
 •  **Skill**:  = "Skill"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:68](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L68)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:68](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L68)*
 
 ___
 
@@ -586,7 +586,7 @@ ___
 
 •  **SkillEvolution**:  = "SkillEvolution"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:69](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L69)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:69](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L69)*
 
 ___
 
@@ -594,7 +594,7 @@ ___
 
 •  **SkillEvolutionPoint**:  = "SkillEvolutionPoint"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:70](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L70)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:70](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L70)*
 
 ___
 
@@ -602,7 +602,7 @@ ___
 
 •  **SkillExtension**:  = "SkillExtension"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:71](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L71)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:71](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L71)*
 
 ___
 
@@ -610,7 +610,7 @@ ___
 
 •  **SkillGroup**:  = "SkillGroup"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:72](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L72)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:72](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L72)*
 
 ___
 
@@ -618,7 +618,7 @@ ___
 
 •  **SoundGroup**:  = "SoundGroup"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:73](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L73)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:73](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L73)*
 
 ___
 
@@ -626,7 +626,7 @@ ___
 
 •  **StartItem**:  = "StartItem"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:74](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L74)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:74](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L74)*
 
 ___
 
@@ -634,7 +634,7 @@ ___
 
 •  **SummonObject**:  = "SummonObject"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:75](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L75)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:75](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L75)*
 
 ___
 
@@ -642,7 +642,7 @@ ___
 
 •  **TimeOfDay**:  = "TimeOfDay"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:76](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L76)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:76](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L76)*
 
 ___
 
@@ -650,7 +650,7 @@ ___
 
 •  **TutorialReward**:  = "TutorialReward"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:77](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L77)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:77](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L77)*
 
 ___
 
@@ -658,7 +658,7 @@ ___
 
 •  **WeaponAnimatorLayers**:  = "WeaponAnimatorLayers"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:78](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L78)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:78](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L78)*
 
 ___
 
@@ -666,7 +666,7 @@ ___
 
 •  **WeaponMount**:  = "WeaponMount"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:79](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L79)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:79](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L79)*
 
 ___
 
@@ -674,7 +674,7 @@ ___
 
 •  **WeaponRoute**:  = "WeaponRoute"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:80](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L80)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:80](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L80)*
 
 ___
 
@@ -682,4 +682,4 @@ ___
 
 •  **WeaponTypeInfo**:  = "WeaponTypeInfo"
 
-*Defined in [packages/client/src/constants/MetaTypes.ts:81](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/MetaTypes.ts#L81)*
+*Defined in [packages/client/src/constants/MetaTypes.ts:81](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/MetaTypes.ts#L81)*

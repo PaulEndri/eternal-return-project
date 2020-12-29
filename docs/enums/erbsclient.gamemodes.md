@@ -18,7 +18,7 @@
 
 •  **Duos**:  = 2
 
-*Defined in [packages/client/src/constants/GameModes.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/GameModes.ts#L8)*
+*Defined in [packages/client/src/constants/GameModes.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/GameModes.ts#L8)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 •  **Solo**:  = 1
 
-*Defined in [packages/client/src/constants/GameModes.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/GameModes.ts#L7)*
+*Defined in [packages/client/src/constants/GameModes.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/GameModes.ts#L7)*
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 •  **Squads**:  = 3
 
-*Defined in [packages/client/src/constants/GameModes.ts:9](https://github.com/PaulEndri/eternal-return-project/blob/4e6b63d/packages/client/src/constants/GameModes.ts#L9)*
+*Defined in [packages/client/src/constants/GameModes.ts:9](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/GameModes.ts#L9)*
