@@ -1,7 +1,6 @@
 {
     "out": "docs",
     "exclude": [
-        "./src/index.ts",
         "**/interfaces/*",
         "./src/utils/*",
         "./src/scrapers/core.ts",

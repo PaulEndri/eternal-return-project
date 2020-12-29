@@ -1,7 +1,3 @@
-**[ER:BS Api/Scraper](README.md)**
-
-> [Globals](globals.md)
-
 #Eternal Return Black Survival Wiki Data Scraper/API
 This is a simple NPM package that uses some of the public endpoints for Eternal Return and the data in the official Wiki to create a wrapper to pull some basic information for the game.
 
@@ -12,11 +8,11 @@ This is a simple NPM package that uses some of the public endpoints for Eternal 
 - Optionally pull in items by category
 
 ## Exports
-- ItemScraper
-- AnimalScraper
-- LocationScraper
-- CharacterScraper
-- GenericApi
+- [ItemScraper](docs/classes/wikidata.itemscraper.md)
+- [AnimalScraper](docs/classes/wikidata.animalscraper.md)
+- [LocationScraper](docs/classes/wikidata.locationscraper.md)
+- [CharacterScraper](docs/classes/wikidata.characterscraper.md)
+- [GenericApi](docs/classes/api.genericapi.md)
 
 ## Usage
 ```typescript
@@ -42,4 +38,5 @@ const results = await Promise.all(methods);
 ```
 
 ## Docs:
-Check the typedocs for more information
+Check the typedocs above for more information for more information
+> [Globals](docs/globals.md)

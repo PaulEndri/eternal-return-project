@@ -3,3 +3,11 @@
 > Globals
 
 # ER:BS Api/Scraper
+
+## Index
+
+### Modules
+
+* [WikiData](modules/wikidata.md)
+* [api](modules/api.md)
+* [root](modules/root.md)
