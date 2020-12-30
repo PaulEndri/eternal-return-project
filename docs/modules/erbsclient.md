@@ -28,4 +28,4 @@
 
 • `Const` **metaCache**: object
 
-*Defined in [packages/client/src/libs/api.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L24)*
+*Defined in [packages/client/src/libs/api.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L24)*

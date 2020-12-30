@@ -5,6 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/playground/src/",
+    "scrape:Wiki": "ts-node src/generateData.ts",
+    "scrape:Public": "ts-node src/generateNewData.ts",
+    "scrape:Client": "ts-node src/getClientData.ts",
+    "scrape:Master": "ts-node src/generateMasterData.ts",
     "start:dev": "ts-node ./src/",
     "build": "tsc"
   },

@@ -30,7 +30,7 @@
 
 •  **Alley**:  = "Alley"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:47](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L47)*
+*Defined in [packages/wikidata/src/utils/constants.ts:47](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L47)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 •  **Archery Range**:  = "Archery Range"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:52](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L52)*
+*Defined in [packages/wikidata/src/utils/constants.ts:52](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L52)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 •  **Avenue**:  = "Avenue"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:49](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L49)*
+*Defined in [packages/wikidata/src/utils/constants.ts:49](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L49)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 •  **Beach**:  = "Beach"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:59](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L59)*
+*Defined in [packages/wikidata/src/utils/constants.ts:59](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L59)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 •  **Cemetery**:  = "Cemetery"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L54)*
+*Defined in [packages/wikidata/src/utils/constants.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L54)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 •  **Chapel**:  = "Chapel"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:58](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L58)*
+*Defined in [packages/wikidata/src/utils/constants.ts:58](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L58)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 •  **Dock**:  = "Dock"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:61](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L61)*
+*Defined in [packages/wikidata/src/utils/constants.ts:61](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L61)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 •  **Factory**:  = "Factory"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:55](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L55)*
+*Defined in [packages/wikidata/src/utils/constants.ts:55](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L55)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 •  **Forest**:  = "Forest"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:57](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L57)*
+*Defined in [packages/wikidata/src/utils/constants.ts:57](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L57)*
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 •  **Hospital**:  = "Hospital"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:51](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L51)*
+*Defined in [packages/wikidata/src/utils/constants.ts:51](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L51)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 •  **Hotel**:  = "Hotel"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:56](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L56)*
+*Defined in [packages/wikidata/src/utils/constants.ts:56](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L56)*
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 •  **Pond**:  = "Pond"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:50](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L50)*
+*Defined in [packages/wikidata/src/utils/constants.ts:50](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L50)*
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 •  **School**:  = "School"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:53](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L53)*
+*Defined in [packages/wikidata/src/utils/constants.ts:53](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L53)*
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 •  **Temple**:  = "Temple"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:48](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L48)*
+*Defined in [packages/wikidata/src/utils/constants.ts:48](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L48)*
 
 ___
 
@@ -142,4 +142,4 @@ ___
 
 •  **Uptown**:  = "Uptown"
 
-*Defined in [packages/wikidata/src/utils/constants.ts:60](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/utils/constants.ts#L60)*
+*Defined in [packages/wikidata/src/utils/constants.ts:60](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/utils/constants.ts#L60)*

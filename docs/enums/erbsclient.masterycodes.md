@@ -46,7 +46,7 @@
 
 •  **AssaultRifle**:  = 10
 
-*Defined in [packages/client/src/constants/Masteries.ts:17](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L17)*
+*Defined in [packages/client/src/constants/Masteries.ts:17](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L17)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 •  **Axe**:  = 14
 
-*Defined in [packages/client/src/constants/Masteries.ts:21](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L21)*
+*Defined in [packages/client/src/constants/Masteries.ts:21](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L21)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 •  **Bat**:  = 3
 
-*Defined in [packages/client/src/constants/Masteries.ts:10](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L10)*
+*Defined in [packages/client/src/constants/Masteries.ts:10](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L10)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 •  **Bow**:  = 7
 
-*Defined in [packages/client/src/constants/Masteries.ts:14](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L14)*
+*Defined in [packages/client/src/constants/Masteries.ts:14](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L14)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 •  **Cannon**:  = 12
 
-*Defined in [packages/client/src/constants/Masteries.ts:19](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L19)*
+*Defined in [packages/client/src/constants/Masteries.ts:19](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L19)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 •  **Craft**:  = 102
 
-*Defined in [packages/client/src/constants/Masteries.ts:31](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L31)*
+*Defined in [packages/client/src/constants/Masteries.ts:31](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L31)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 •  **CrossBow**:  = 8
 
-*Defined in [packages/client/src/constants/Masteries.ts:15](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L15)*
+*Defined in [packages/client/src/constants/Masteries.ts:15](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L15)*
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 •  **Defense**:  = 202
 
-*Defined in [packages/client/src/constants/Masteries.ts:35](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L35)*
+*Defined in [packages/client/src/constants/Masteries.ts:35](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L35)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 •  **DirectFire**:  = 6
 
-*Defined in [packages/client/src/constants/Masteries.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L13)*
+*Defined in [packages/client/src/constants/Masteries.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L13)*
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 •  **DualSword**:  = 18
 
-*Defined in [packages/client/src/constants/Masteries.ts:25](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L25)*
+*Defined in [packages/client/src/constants/Masteries.ts:25](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L25)*
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 •  **Glove**:  = 1
 
-*Defined in [packages/client/src/constants/Masteries.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L8)*
+*Defined in [packages/client/src/constants/Masteries.ts:8](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L8)*
 
 ___
 
@@ -134,7 +134,7 @@ ___
 
 •  **Guitar**:  = 22
 
-*Defined in [packages/client/src/constants/Masteries.ts:29](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L29)*
+*Defined in [packages/client/src/constants/Masteries.ts:29](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L29)*
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 •  **Hammer**:  = 13
 
-*Defined in [packages/client/src/constants/Masteries.ts:20](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L20)*
+*Defined in [packages/client/src/constants/Masteries.ts:20](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L20)*
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 •  **Health**:  = 201
 
-*Defined in [packages/client/src/constants/Masteries.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L34)*
+*Defined in [packages/client/src/constants/Masteries.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L34)*
 
 ___
 
@@ -158,7 +158,7 @@ ___
 
 •  **HighAngleFire**:  = 5
 
-*Defined in [packages/client/src/constants/Masteries.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L12)*
+*Defined in [packages/client/src/constants/Masteries.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L12)*
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 •  **Hunt**:  = 204
 
-*Defined in [packages/client/src/constants/Masteries.ts:37](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L37)*
+*Defined in [packages/client/src/constants/Masteries.ts:37](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L37)*
 
 ___
 
@@ -174,7 +174,7 @@ ___
 
 •  **Meditation**:  = 203
 
-*Defined in [packages/client/src/constants/Masteries.ts:36](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L36)*
+*Defined in [packages/client/src/constants/Masteries.ts:36](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L36)*
 
 ___
 
@@ -182,7 +182,7 @@ ___
 
 •  **Move**:  = 104
 
-*Defined in [packages/client/src/constants/Masteries.ts:33](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L33)*
+*Defined in [packages/client/src/constants/Masteries.ts:33](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L33)*
 
 ___
 
@@ -190,7 +190,7 @@ ___
 
 •  **None**:  = 0
 
-*Defined in [packages/client/src/constants/Masteries.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L7)*
+*Defined in [packages/client/src/constants/Masteries.ts:7](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L7)*
 
 ___
 
@@ -198,7 +198,7 @@ ___
 
 •  **Nunchaku**:  = 20
 
-*Defined in [packages/client/src/constants/Masteries.ts:27](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L27)*
+*Defined in [packages/client/src/constants/Masteries.ts:27](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L27)*
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 •  **OneHandSword**:  = 15
 
-*Defined in [packages/client/src/constants/Masteries.ts:22](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L22)*
+*Defined in [packages/client/src/constants/Masteries.ts:22](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L22)*
 
 ___
 
@@ -214,7 +214,7 @@ ___
 
 •  **Pistol**:  = 9
 
-*Defined in [packages/client/src/constants/Masteries.ts:16](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L16)*
+*Defined in [packages/client/src/constants/Masteries.ts:16](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L16)*
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 •  **Polearm**:  = 17
 
-*Defined in [packages/client/src/constants/Masteries.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L24)*
+*Defined in [packages/client/src/constants/Masteries.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L24)*
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 •  **Rapier**:  = 21
 
-*Defined in [packages/client/src/constants/Masteries.ts:28](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L28)*
+*Defined in [packages/client/src/constants/Masteries.ts:28](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L28)*
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 •  **Search**:  = 103
 
-*Defined in [packages/client/src/constants/Masteries.ts:32](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L32)*
+*Defined in [packages/client/src/constants/Masteries.ts:32](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L32)*
 
 ___
 
@@ -246,7 +246,7 @@ ___
 
 •  **SniperRifle**:  = 11
 
-*Defined in [packages/client/src/constants/Masteries.ts:18](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L18)*
+*Defined in [packages/client/src/constants/Masteries.ts:18](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L18)*
 
 ___
 
@@ -254,7 +254,7 @@ ___
 
 •  **Spear**:  = 19
 
-*Defined in [packages/client/src/constants/Masteries.ts:26](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L26)*
+*Defined in [packages/client/src/constants/Masteries.ts:26](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L26)*
 
 ___
 
@@ -262,7 +262,7 @@ ___
 
 •  **Tonfa**:  = 2
 
-*Defined in [packages/client/src/constants/Masteries.ts:9](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L9)*
+*Defined in [packages/client/src/constants/Masteries.ts:9](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L9)*
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 •  **Trap**:  = 101
 
-*Defined in [packages/client/src/constants/Masteries.ts:30](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L30)*
+*Defined in [packages/client/src/constants/Masteries.ts:30](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L30)*
 
 ___
 
@@ -278,7 +278,7 @@ ___
 
 •  **TwoHandSword**:  = 16
 
-*Defined in [packages/client/src/constants/Masteries.ts:23](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L23)*
+*Defined in [packages/client/src/constants/Masteries.ts:23](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L23)*
 
 ___
 
@@ -286,4 +286,4 @@ ___
 
 •  **Whip**:  = 4
 
-*Defined in [packages/client/src/constants/Masteries.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/constants/Masteries.ts#L11)*
+*Defined in [packages/client/src/constants/Masteries.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/constants/Masteries.ts#L11)*

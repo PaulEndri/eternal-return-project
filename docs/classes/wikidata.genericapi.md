@@ -31,7 +31,7 @@
 
 ▪ `Static` **BASE\_URL**: string = "http://api.playeternalreturn.com"
 
-*Defined in [packages/wikidata/src/api/generic.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/api/generic.ts#L12)*
+*Defined in [packages/wikidata/src/api/generic.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/api/generic.ts#L12)*
 
 ## Methods
 
@@ -39,7 +39,7 @@
 
 ▸ **getAllItems**(`full?`: boolean, `force?`: boolean): Promise<Record<string, Item<IElement\>\>\>
 
-*Defined in [packages/wikidata/src/api/generic.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/api/generic.ts#L54)*
+*Defined in [packages/wikidata/src/api/generic.ts:54](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/api/generic.ts#L54)*
 
 Get all items from the getAllItem route with minor processing
 
@@ -58,7 +58,7 @@ ___
 
 ▸ **getAllLocationItems**(): Promise<Record<string, any\>\>
 
-*Defined in [packages/wikidata/src/api/generic.ts:160](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/api/generic.ts#L160)*
+*Defined in [packages/wikidata/src/api/generic.ts:160](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/api/generic.ts#L160)*
 
 **Returns:** Promise<Record<string, any\>\>
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **getItem**(`itemName`: string): Promise<Item<IElement\>\>
 
-*Defined in [packages/wikidata/src/api/generic.ts:154](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/api/generic.ts#L154)*
+*Defined in [packages/wikidata/src/api/generic.ts:154](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/api/generic.ts#L154)*
 
 #### Parameters:
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **getItemsForArea**(`areaName`: string): Promise<Record<string, number\>\>
 
-*Defined in [packages/wikidata/src/api/generic.ts:133](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/api/generic.ts#L133)*
+*Defined in [packages/wikidata/src/api/generic.ts:133](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/api/generic.ts#L133)*
 
 #### Parameters:
 
@@ -100,7 +100,7 @@ Name | Type |
 
 ▪ `Static` **ROUTES**: object
 
-*Defined in [packages/wikidata/src/api/generic.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/api/generic.ts#L13)*
+*Defined in [packages/wikidata/src/api/generic.ts:13](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/api/generic.ts#L13)*
 
 #### Properties:
 

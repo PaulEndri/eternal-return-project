@@ -28,6 +28,7 @@
 * [getMaterials](erbsclient.erbsclient-1.md#getmaterials)
 * [getMetaData](erbsclient.erbsclient-1.md#getmetadata)
 * [getMetaDataHash](erbsclient.erbsclient-1.md#getmetadatahash)
+* [getPlayerNumber](erbsclient.erbsclient-1.md#getplayernumber)
 * [getPlayerRecord](erbsclient.erbsclient-1.md#getplayerrecord)
 * [getRankForPlayer](erbsclient.erbsclient-1.md#getrankforplayer)
 * [getSpecialItems](erbsclient.erbsclient-1.md#getspecialitems)
@@ -43,7 +44,7 @@
 
 \+ **new ErBsClient**(`apiKey?`: string, `apiVersion?`: string): [ErBsClient](erbsclient.erbsclient-1.md)
 
-*Defined in [packages/client/src/libs/api.ts:27](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L27)*
+*Defined in [packages/client/src/libs/api.ts:27](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L27)*
 
 #### Parameters:
 
@@ -60,7 +61,7 @@ Name | Type | Default value |
 
 ▸ **getArmors**(): Promise<IArmor[]\>
 
-*Defined in [packages/client/src/libs/api.ts:94](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L94)*
+*Defined in [packages/client/src/libs/api.ts:92](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L92)*
 
 **Returns:** Promise<IArmor[]\>
 
@@ -70,7 +71,7 @@ ___
 
 ▸ **getCharacterAttributes**(): Promise<ICharacterAttribute[]\>
 
-*Defined in [packages/client/src/libs/api.ts:82](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L82)*
+*Defined in [packages/client/src/libs/api.ts:80](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L80)*
 
 **Returns:** Promise<ICharacterAttribute[]\>
 
@@ -80,7 +81,7 @@ ___
 
 ▸ **getCharacterData**(): Promise<ICharacterData[]\>
 
-*Defined in [packages/client/src/libs/api.ts:78](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L78)*
+*Defined in [packages/client/src/libs/api.ts:76](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L76)*
 
 **Returns:** Promise<ICharacterData[]\>
 
@@ -90,7 +91,7 @@ ___
 
 ▸ **getCharacterLevelUpStats**(): Promise<ICharacterLevelUpStat[]\>
 
-*Defined in [packages/client/src/libs/api.ts:86](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L86)*
+*Defined in [packages/client/src/libs/api.ts:84](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L84)*
 
 **Returns:** Promise<ICharacterLevelUpStat[]\>
 
@@ -104,7 +105,7 @@ ___
 					.filter((stat) =\> stat.code === code)
 					.map(({ code, name, ...stat }) =\> stat) }[]\>
 
-*Defined in [packages/client/src/libs/api.ts:133](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L133)*
+*Defined in [packages/client/src/libs/api.ts:131](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L131)*
 
 Returns all characters and their attributes and level up stats
 
@@ -120,7 +121,7 @@ ___
 
 ▸ **getConsumables**(): Promise<IConsumable[]\>
 
-*Defined in [packages/client/src/libs/api.ts:105](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L105)*
+*Defined in [packages/client/src/libs/api.ts:103](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L103)*
 
 Returns all consumables (foods and drinks)
 
@@ -132,7 +133,7 @@ ___
 
 ▸ **getGamesForPlayer**(`userId`: number): Promise<IUserGameHistory[]\>
 
-*Defined in [packages/client/src/libs/api.ts:223](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L223)*
+*Defined in [packages/client/src/libs/api.ts:221](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L221)*
 
 Returns all games for the selected player (pagination WIP)
 
@@ -150,7 +151,7 @@ ___
 
 ▸ **getItemLocations**(): Promise<IItemLocation[]\>
 
-*Defined in [packages/client/src/libs/api.ts:126](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L126)*
+*Defined in [packages/client/src/libs/api.ts:124](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L124)*
 
 Returns where all items can be found or looted
 
@@ -162,7 +163,7 @@ ___
 
 ▸ **getItemSpawns**(): Promise<IItemSpawns[]\>
 
-*Defined in [packages/client/src/libs/api.ts:90](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L90)*
+*Defined in [packages/client/src/libs/api.ts:88](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L88)*
 
 **Returns:** Promise<IItemSpawns[]\>
 
@@ -172,7 +173,7 @@ ___
 
 ▸ **getMaterials**(): Promise<IItemMisc[]\>
 
-*Defined in [packages/client/src/libs/api.ts:112](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L112)*
+*Defined in [packages/client/src/libs/api.ts:110](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L110)*
 
 Returns all misc (material) items
 
@@ -184,7 +185,7 @@ ___
 
 ▸ **getMetaData**(`type`: [MetaTypes](../enums/erbsclient.metatypes.md)): Promise<any\>
 
-*Defined in [packages/client/src/libs/api.ts:60](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L60)*
+*Defined in [packages/client/src/libs/api.ts:58](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L58)*
 
 #### Parameters:
 
@@ -200,9 +201,27 @@ ___
 
 ▸ **getMetaDataHash**(): Promise<any\>
 
-*Defined in [packages/client/src/libs/api.ts:72](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L72)*
+*Defined in [packages/client/src/libs/api.ts:70](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L70)*
 
 **Returns:** Promise<any\>
+
+___
+
+### getPlayerNumber
+
+▸ **getPlayerNumber**(`name`: string): Promise<{ nickname: string ; userNum: number  }\>
+
+*Defined in [packages/client/src/libs/api.ts:250](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L250)*
+
+Player number lookup
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`name` | string | Player name  |
+
+**Returns:** Promise<{ nickname: string ; userNum: number  }\>
 
 ___
 
@@ -210,7 +229,7 @@ ___
 
 ▸ **getPlayerRecord**(`userId`: number, `season?`: number): Promise<IUserRecord[]\>
 
-*Defined in [packages/client/src/libs/api.ts:237](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L237)*
+*Defined in [packages/client/src/libs/api.ts:235](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L235)*
 
 Returns all records for a given player/season combination
 
@@ -229,7 +248,7 @@ ___
 
 ▸ **getRankForPlayer**(`userId`: number, `season`: number, `mode`: [GameModes](../enums/erbsclient.gamemodes.md)): Promise<IUserRank\>
 
-*Defined in [packages/client/src/libs/api.ts:207](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L207)*
+*Defined in [packages/client/src/libs/api.ts:205](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L205)*
 
 Get rank for a given player in given season and mode
 
@@ -249,7 +268,7 @@ ___
 
 ▸ **getSpecialItems**(): Promise<ISpecialItem[]\>
 
-*Defined in [packages/client/src/libs/api.ts:119](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L119)*
+*Defined in [packages/client/src/libs/api.ts:117](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L117)*
 
 Returns all special (trap) items
 
@@ -261,7 +280,7 @@ ___
 
 ▸ **getTopDuos**(`season?`: number): Promise<IUserRank[]\>
 
-*Defined in [packages/client/src/libs/api.ts:188](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L188)*
+*Defined in [packages/client/src/libs/api.ts:186](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L186)*
 
 Shorthand for getTopPlayers(season, GameModes.Duos)
 
@@ -279,7 +298,7 @@ ___
 
 ▸ **getTopPlayers**(`season`: number, `mode`: [GameModes](../enums/erbsclient.gamemodes.md)): Promise<IUserRank[]\>
 
-*Defined in [packages/client/src/libs/api.ts:161](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L161)*
+*Defined in [packages/client/src/libs/api.ts:159](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L159)*
 
 Gets top 1000 plkayers for a given season and mode
 
@@ -298,7 +317,7 @@ ___
 
 ▸ **getTopSolos**(`season?`: number): Promise<IUserRank[]\>
 
-*Defined in [packages/client/src/libs/api.ts:180](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L180)*
+*Defined in [packages/client/src/libs/api.ts:178](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L178)*
 
 Shorthand for getTopPlayers(season, GameModes.Solos)
 
@@ -316,7 +335,7 @@ ___
 
 ▸ **getTopSquads**(`season?`: number): Promise<IUserRank[]\>
 
-*Defined in [packages/client/src/libs/api.ts:196](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L196)*
+*Defined in [packages/client/src/libs/api.ts:194](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L194)*
 
 Shorthand for getTopPlayers(season, GameModes.Squads)
 
@@ -334,6 +353,6 @@ ___
 
 ▸ **getWeapons**(): Promise<IWeapon[]\>
 
-*Defined in [packages/client/src/libs/api.ts:98](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/client/src/libs/api.ts#L98)*
+*Defined in [packages/client/src/libs/api.ts:96](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/client/src/libs/api.ts#L96)*
 
 **Returns:** Promise<IWeapon[]\>

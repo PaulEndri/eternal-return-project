@@ -241,4 +241,17 @@ export class ErBsClient {
 
 		return response.userStats as IUserRecord[];
 	}
+
+	/**
+	 * Player number lookup
+	 *
+	 * @param name Player name
+	 */
+	public async getPlayerNumber(name: string) {
+		const route = ROUTES.user.number.replace('{name}', name);
+
+		const response = await this.call(route, true);
+
+		return response.user as { userNum: number; nickname: string };
+	}
 }

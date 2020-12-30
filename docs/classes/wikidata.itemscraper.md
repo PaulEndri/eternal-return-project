@@ -41,7 +41,7 @@
 
 *Overrides [CoreScraper](wikidata.corescraper.md).[constructor](wikidata.corescraper.md#constructor)*
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:17](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L17)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:17](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L17)*
 
 #### Parameters:
 
@@ -61,7 +61,7 @@ Name | Type |
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[cache](wikidata.corescraper.md#cache)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L12)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[BASE_URL](wikidata.corescraper.md#base_url)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L11)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L11)*
 
 ## Methods
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **getAll**(`complete?`: boolean): Promise<{ armors: Record<string, string[] \| Record<string, Item<IElement\>\>\> ; consumables: { beverage: { [k:string]: T;  } = complete ? Object.fromEntries(drinks) : [ ...new Set(drinks) ]; food: { [k:string]: T;  } = complete ? Object.fromEntries(food) : [ ...new Set(food) ]; summon: { [k:string]: T;  } = complete ? Object.fromEntries(special) : [ ...new Set(special) ] } ; materials: { [k:string]: T;  } ; weapons: Record<string, { abilityDetails: any ; name: string ; usableBy: string[] ; weapons: string[] \| Record<string, Item\>  }\>  }\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:296](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L296)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:296](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L296)*
 
 #### Parameters:
 
@@ -95,7 +95,7 @@ ___
 
 ▸ **getArmors**(`complete?`: boolean): Promise<Record<string, string[] \| Record<string, Item<IElement\>\>\>\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:215](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L215)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:215](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L215)*
 
 #### Parameters:
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **getConsumables**(`complete?`: boolean): Promise<{ beverage: { [k:string]: T;  } = complete ? Object.fromEntries(drinks) : [ ...new Set(drinks) ]; food: { [k:string]: T;  } = complete ? Object.fromEntries(food) : [ ...new Set(food) ]; summon: { [k:string]: T;  } = complete ? Object.fromEntries(special) : [ ...new Set(special) ] }\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:245](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L245)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:245](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L245)*
 
 #### Parameters:
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **getDroppedFromAnimals**(`item`: IElement): Promise<Record<string, IElement\>\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:36](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L36)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:36](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L36)*
 
 #### Parameters:
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **getFoundLocations**(`item`: IElement): Promise<Record<string, IElement\>\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:50](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L50)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:50](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L50)*
 
 #### Parameters:
 
@@ -159,7 +159,7 @@ ___
 
 ▸ **getItem**(`item`: IElement): Promise<Item<IElement\>\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:66](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L66)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:66](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L66)*
 
 #### Parameters:
 
@@ -175,7 +175,7 @@ ___
 
 ▸ **getMaterials**(`complete?`: boolean): Promise<{ [k:string]: T;  }\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:278](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L278)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:278](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L278)*
 
 #### Parameters:
 
@@ -193,7 +193,7 @@ ___
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[getPage](wikidata.corescraper.md#getpage)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L34)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L34)*
 
 #### Parameters:
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **getWeapons**(`complete?`: boolean): Promise<Record<string, { abilityDetails: any ; name: string ; usableBy: string[] ; weapons: string[] \| Record<string, Item\>  }\>\>
 
-*Defined in [packages/wikidata/src/scrapers/item.ts:145](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/item.ts#L145)*
+*Defined in [packages/wikidata/src/scrapers/item.ts:145](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/item.ts#L145)*
 
 #### Parameters:
 

@@ -1,4 +1,4 @@
-import { Accessories } from '../constants/data/Consumable/Armor/Accessories';
+import { Accessories } from '../constants';
 import { WEIGHTS } from '../constants/Weights';
 import { Item } from './Item';
 
