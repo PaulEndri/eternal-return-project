@@ -1,10 +1,7 @@
-import { Locations, Materials, TreeOfLifeLocations, Bats } from '../constants';
+import { Locations, Items } from '../constants';
 import { WEIGHTS } from '../constants/Weights';
-import { ILocation, IWeightedLocation } from '../interfaces/ILocation';
-import { Item } from './Item';
 import { Loadout } from './Loadout';
 import { MaterialList } from './MaterialList';
-import { getLocationCombinations } from '../utils/getLocationCombinations';
 import { Region } from './Region';
 
 export class Route {
@@ -12,21 +9,18 @@ export class Route {
 	static MINIMUM_ITEM_THRESHOLD = WEIGHTS.MINIMUM_ITEM_THRESHOLD;
 	static SHORT_ITEM_THRESHOLD = WEIGHTS.SHORT_ITEM_THRESHOLD;
 	static UNIVERSAL_ITEMS: string[] = [
-		Materials.Stone,
-		Materials.Leather,
-		Materials['VF Blood Sample'],
-		Materials.Meteorite,
-		Materials.Mithril,
-		Bats.Branch
+		Items.Stone,
+		Items.Leather,
+		Items['VF Blood Sample'],
+		Items.Meteorite,
+		Items.Mithril,
+		Items.Branch
 	];
+
 	private materials = new MaterialList();
 	private regions: Region[] = [];
 
-	constructor(
-		private loadout: Loadout,
-		private weights?,
-		private desiredStartingLocation?: Locations
-	) {
+	constructor(public loadout: Loadout) {
 		this.addMaterialsFromLoadout(this.materials, loadout);
 	}
 
@@ -35,7 +29,7 @@ export class Route {
 
 		Object.entries(loadout.materials)
 			.filter(([ mat ]) => Route.UNIVERSAL_ITEMS.includes(mat))
-			.forEach(([ mat, val ]) => materialList.add(mat, val));
+			.forEach(([ mat, val ]: [Items, number]) => materialList.add(mat, val));
 	}
 
 	public addRegions(locations: Locations[]) {
@@ -44,7 +38,7 @@ export class Route {
 				const region = new Region(location);
 
 				this.regions.push(region);
-				this.materials.addFromRegion(region);
+				this.materials.addFromList(region.materials.list);
 			}
 		}
 	}

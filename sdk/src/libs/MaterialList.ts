@@ -1,17 +1,18 @@
-import { ILocation, IWeightedLocation } from '../interfaces/ILocation';
+import { Items } from '../constants';
 import { IMaterialList } from '../interfaces/IMaterialList';
-import { Region } from './Region';
 
 export class MaterialList {
-	public list: IMaterialList = {};
+	public list: IMaterialList;
 
-	public constructor() {}
+	public constructor() {
+		this.list = {} as any;
+	}
 
-	public set(value, number = 0) {
+	public set(value: Items, number = 0) {
 		this.list[value] = number;
 	}
 
-	public add(value, number = 1) {
+	public add(value: Items, number = 1) {
 		if (!this.list[value]) {
 			this.list[value] = 0;
 		}
@@ -21,7 +22,7 @@ export class MaterialList {
 		return this.list[value];
 	}
 
-	public subtract(value, number = 1) {
+	public subtract(value: Items, number = 1) {
 		if (!this.list[value]) {
 			this.list[value] = 0;
 		} else {
@@ -32,27 +33,11 @@ export class MaterialList {
 	}
 
 	public addFromList(list: IMaterialList) {
-		Object.entries(list).forEach(([ key, val ]) => this.add(key, val));
+		Object.entries(list).forEach(([ key, val ]: [Items, number]) => this.add(key, val));
 	}
 
-	public addFromLocationArray(locations: ILocation[]) {
-		locations.forEach((location) =>
-			Object.entries(location.materials).forEach(([ key, item ]) =>
-				this.add(key, +item.quantity)
-			)
-		);
-	}
-
-	public addFromRegion(region: Region) {
-		Object.entries(region.materialCount).forEach(([ key, val ]) => this.add(key, +val));
-	}
-
-	public addFromWeightedLocations(locations: IWeightedLocation[]) {
-		locations
-			.filter((loc) => loc)
-			.forEach(({ simplifiedMaterials }) =>
-				simplifiedMaterials.forEach(([ key, val ]) => this.add(key, +val))
-			);
+	public addFromLists(lists: IMaterialList[]) {
+		lists.forEach(this.addFromList);
 	}
 
 	public clone() {

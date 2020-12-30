@@ -1,16 +1,23 @@
-import { IBasicItem } from './IBasicItem';
+import { Locations, Items, Animals } from '../constants';
+import { MaterialList } from '../libs/MaterialList';
 import { IElement } from './IElement';
-import { ILocationDrop } from './ILocationDrop';
 
-export interface ILocation extends IElement {
-	materials: Record<string, ILocationDrop>;
-	animals: Record<string, ILocationDrop>;
-	teleport: boolean;
-	connections: any[];
+export interface ILocationEntity extends IElement<Items & Animals> {
+	quantity: number;
 }
 
-export interface IWeightedLocation extends ILocation {
-	value: number;
-	byProductsBuilt: Record<string, IBasicItem<any>>;
-	simplifiedMaterials: Array<Array<string | number>>;
+export interface IRawLocation extends IElement<Locations> {
+	drops: ILocationEntity[];
+	animals: ILocationEntity[];
+	teleport: boolean;
+	connections: IElement<Locations>[];
+	apiMetaData?: {
+		type: string;
+		code: number;
+		name: string;
+	};
+}
+
+export interface ILocation extends IRawLocation {
+	materials: MaterialList;
 }

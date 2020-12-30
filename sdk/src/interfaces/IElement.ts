@@ -1,5 +1,4 @@
-export interface IElement {
-	name: string;
-	href: string;
-	image?: string;
+export interface IElement<T extends string = any> {
+	name: T;
+	id: string | number;
 }

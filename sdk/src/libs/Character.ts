@@ -1,14 +1,22 @@
-import { Abilities, Characters, WeaponTypes } from '../constants';
-import { IAbility, ICharacter } from '../interfaces';
+import { WeaponsLookup, Characters } from '../constants';
+import {
+	IAbility,
+	ICharacter,
+	ICharacterAttribute,
+	ICharacterInitialStat,
+	ICharacterLevelUpStat
+} from '../interfaces';
+import CharacterData from '../data/characters.json';
 
 export class Character implements ICharacter {
-	public name: string;
-	public href: string;
-	public image?: string;
+	public attributes: ICharacterAttribute[];
 	public description: string;
-	public details: any[];
-	public stats: {};
-	public abilities: Record<Abilities, IAbility>;
+	public details: Record<string, string>;
+	public stats: { initial: ICharacterInitialStat; perLevel: ICharacterLevelUpStat };
+	public abilities: Record<string, IAbility>;
+	public weapons: WeaponsLookup[];
+	public name: Characters;
+	public id: string | number;
 
 	constructor(seed: Characters | ICharacter) {
 		let source = seed;
@@ -17,7 +25,7 @@ export class Character implements ICharacter {
 				throw new Error(`Invalid seed: ${seed}`);
 			}
 
-			source = Characters[seed];
+			source = CharacterData[seed];
 		}
 
 		Object.assign(this, source);

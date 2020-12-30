@@ -167,7 +167,7 @@ const linkMasterItems = () => {
 		if (canBeLooted) {
 			Object.entries(canBeLooted).forEach(([ key, val ]) => {
 				if (key.indexOf('hunt') >= 0 && val === 1) {
-					const animalName = item.droppedFrom.push(key.replace('hunt', ''));
+					const animalName = key.replace('hunt', '');
 					const animalData = masterAnimals.find(
 						({ apiMetaData }) => apiMetaData.name === animalName
 					);

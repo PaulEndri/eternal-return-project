@@ -1,88 +1,64 @@
-import { Items } from '../../../data/Items';
-import { Locations as LocationsData } from '../data/Locations';
-import { Locations as LocationsEnum, Materials, Bats, WeaponsEnum } from '../constants';
-import { Accessory } from './Accessory';
-import { Arm } from './Arm';
-import { Chest } from './Chest';
-import { Head } from './Head';
-import { Leg } from './Leg';
-import { Weapon } from './Weapon';
-import { IBasicLoadout } from '../interfaces/ILoadout';
-import { ILocation, IWeightedLocation } from '../interfaces/ILocation';
 import { IMaterialList } from '../interfaces/IMaterialList';
-import { MaterialList } from './MaterialList';
-import { IBasicItem } from '../interfaces/IBasicItem';
-import { Item } from './Item';
+import { MaterialList } from '../libs/MaterialList';
+import { Item } from '../libs/Item';
+import {
+	Armors,
+	Locations,
+	StarterWeaponsByLookup,
+	Weapons,
+	WeaponsLookup,
+	Items
+} from '../constants';
+import { ILocation } from '../interfaces';
+import LocationsData from '../data/locations.json';
+import { LoadoutKeys } from '../constants/LoadoutKeys';
+import { BasicLoadout } from '../types/loadout';
 
 export class Loadout {
-	private _totalMaterials: Record<string, number>;
+	private _totalMaterials: MaterialList;
 	private _totalCount: number;
-	private _regions: Record<LocationsEnum, ILocation>;
-	private _weightedRegions: Record<LocationsEnum, IWeightedLocation>;
-	private _byProducts: Record<string, IBasicItem<any>>;
+	private _regions: Record<Partial<Locations>, ILocation>;
 
 	constructor(
-		readonly chest: Chest,
-		readonly arm: Arm,
-		readonly legs: Leg,
-		readonly head: Head,
-		readonly weapon: Weapon,
-		readonly accessory: Accessory
+		readonly Chest: Item<Armors.Chest, Armors.Chest>,
+		readonly Arm: Item<Armors.Arm, Armors.Arm>,
+		readonly Leg: Item<Armors.Leg, Armors.Leg>,
+		readonly Head: Item<Armors.Head, Armors.Head>,
+		readonly Weapon: Item<WeaponsLookup, Weapons>,
+		readonly Accessory: Item<Armors.Accessory, Armors.Accessory>
 	) {}
 
-	static GenerateLoadout(data: IBasicLoadout) {
+	static GenerateLoadout(data: BasicLoadout) {
 		return new Loadout(
-			new Chest(data.Chest),
-			new Arm(data.Arm),
-			new Leg(data.Leg),
-			new Head(data.Head),
-			new Weapon(data.Weapon),
-			new Accessory(data.Accessory)
+			new Item(data.Chest),
+			new Item(data.Arm),
+			new Item(data.Leg),
+			new Item(data.Head),
+			new Item(data.Weapon),
+			new Item(data.Accessory)
 		);
 	}
 
 	public get starterItem() {
-		return this.weapon.starter as WeaponsEnum;
+		return StarterWeaponsByLookup[this.Weapon.apiType];
 	}
 
 	public get items() {
-		return [ this.chest, this.weapon, this.accessory, this.arm, this.legs, this.head ];
+		return [ this.Chest, this.Arm, this.Leg, this.Head, this.Head, this.Accessory ];
 	}
 
 	public get materials(): IMaterialList {
 		if (!this._totalMaterials) {
-			const totalMaterials = {};
+			const totalMaterials = new MaterialList();
 
-			this.items.forEach(
-				({ requirements }) =>
-					requirements &&
-					requirements.filter((x) => x).forEach((req) => {
-						if (!totalMaterials[req.name]) {
-							totalMaterials[req.name] = 0;
-						}
+			totalMaterials.add(this.starterItem, 1);
 
-						totalMaterials[req.name] += 1;
-					})
-			);
+			totalMaterials.addFromLists(this.items.map((item) => item.requirements));
 
-			totalMaterials[this.weapon.starter] = 1;
 			this._totalMaterials = totalMaterials;
 		}
 
-		return this._totalMaterials;
-	}
-
-	public get byProducts(): Record<string, IBasicItem<any>> {
-		if (!this._byProducts) {
-			const _byProducts = {};
-			this.items.map(({ byProducts }) =>
-				Object.entries(byProducts).forEach(([ key, item ]) => (_byProducts[key] = item))
-			);
-
-			this._byProducts = _byProducts;
-		}
-
-		return this._byProducts;
+		return this._totalMaterials.list;
 	}
 
 	public get totalMaterials(): number {
@@ -96,11 +72,11 @@ export class Loadout {
 		return this._totalCount;
 	}
 
-	public get regions(): Record<LocationsEnum, ILocation> {
+	public get regions() {
 		if (!this._regions) {
 			const materials = this.materials;
-			const regions: Record<LocationsEnum, ILocation> = {} as any;
-			const excludedMats: string[] = [ Materials.Stone, Materials.Leather, Bats.Branch ];
+			const regions: Record<Partial<Locations>, ILocation> = {} as any;
+			const excludedMats: string[] = [ Items.Stone, Items.Leather, Items.Branch ];
 
 			Object.keys(materials)
 				.filter((mat) => mat && Items[mat] && !excludedMats.includes(mat))
@@ -126,11 +102,9 @@ export class Loadout {
 		this._totalMaterials = null;
 		this._totalCount = null;
 		this._regions = null;
-		this._weightedRegions = null;
-		this._byProducts = null;
 	}
 
-	public setSlot(slot: keyof IBasicLoadout, item: Item<any>, immutable = true) {
+	public setSlot(slot: LoadoutKeys, item: Item, immutable = true) {
 		if (!slot) {
 			throw new Error('No Slot Selected');
 		}
@@ -139,12 +113,12 @@ export class Loadout {
 
 		if (immutable) {
 			const newLoadout = {
-				Chest: this.chest,
-				Head: this.head,
-				Leg: this.legs,
-				Arm: this.arm,
-				Accessory: this.accessory,
-				Weapon: this.weapon,
+				Chest: this.Chest,
+				Head: this.Head,
+				Leg: this.Leg,
+				Arm: this.Arm,
+				Accessory: this.Accessory,
+				Weapon: this.Weapon,
 				[slot]: item
 			};
 
@@ -157,7 +131,7 @@ export class Loadout {
 				newLoadout.Accessory
 			);
 		} else {
-			this[slot] = item;
+			throw new Error('Unsupported Action: Non immutable loadout modification');
 		}
 	}
 	// public get weightedRegions(): Record<LocationsEnum, IWeightedLocation> {
@@ -224,15 +198,11 @@ export class Loadout {
 		return this.items.filter((item) => item.canComplete(materials));
 	}
 
-	public checkCompletedByProducts(materials: IMaterialList) {
-		return Object.keys(this.byProducts).filter((item) => new Item(item).canComplete(materials));
-	}
-
-	private getRegionItemWeight(name: string, value) {
+	public getItemWeight(name: string, value) {
 		return +value / this.materials[name];
 	}
 
-	private getRegionWeight(baseValue: number, byProductsCompleted: number, canTeleport: boolean) {
+	public getRegionWeight(baseValue: number, byProductsCompleted: number, canTeleport: boolean) {
 		return baseValue * (byProductsCompleted / 10 + 1) * (canTeleport ? 1.1 : 1);
 	}
 }
