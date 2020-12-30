@@ -18,5 +18,9 @@
     "erbs-client": "file:packages\\client",
     "erbs-sdk": "file:packages\\sdk",
     "erbs-wiki-api": "file:packages\\wikidata"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulEndri/eternal-return-project"
   }
 }
