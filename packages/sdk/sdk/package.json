@@ -1,10 +1,10 @@
 {
   "name": "erbs-sdk",
   "version": "1.0.0",
-  "description": "ERBS Logic SDK",
-  "main": "dist/erbs/sdk/src/index.js",
+  "description": "ERBS SDK",
+  "main": "dist/src/index.js",
   "scripts": {
-    "start": "tsc && node dist/sdk/src/",
+    "start": "tsc && node dist/src/",
     "start:dev": "ts-node ./src/",
     "build": "tsc"
   },

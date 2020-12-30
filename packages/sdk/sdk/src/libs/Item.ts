@@ -1,115 +1,75 @@
-import { Animals, Locations } from '../constants';
+import {
+	Animals,
+	Locations,
+	CategoriesLookup,
+	Items as ItemsEnum,
+	ItemsLookup
+} from '../constants';
 import { IElement } from '../interfaces/IElement';
-import { IBasicItem } from '../interfaces/IBasicItem';
-import { Items } from '../../../data/Items';
+import { IRawItem, IItem, IItemStats } from '../interfaces/IItem';
 import { IMaterialList } from '../interfaces/IMaterialList';
+import ItemData from '../data/items.json';
 
 const ITEM_CACHE = {} as any;
 
-export class Item<T extends string> implements IElement, IBasicItem<T> {
-	public href: string;
+export class Item<A extends string = any, T extends string = any> implements IItem {
 	public rarity: string;
-	public stats: string[];
+	public stats: IItemStats;
 	public description: string;
-	public maxStacks: string;
-	public foundQuantity: string;
-	public requirements?: Array<IBasicItem<string>>;
-	public buildsInto?: Record<string, IBasicItem<string>>;
-	public foundLocations?: Record<Locations, IBasicItem<Locations>>;
-	public droppedFrom?: Record<Animals, IBasicItem<Animals>>;
-	public buildsFrom?: Array<IElement>;
+	public maxStacks: number;
+	public foundQuantity: number;
+	public airSupply: boolean;
+	public collectible: number;
+	public requirements: IMaterialList;
+	public buildsInto: IElement<ItemsEnum>[];
+	public buildsFrom: IElement<ItemsEnum>[];
+	public locations: Record<Partial<Locations>, number>;
+	public droppedFrom: IElement<Animals>[];
+	public id: string | number;
+	public name: ItemsEnum;
 
-	private _materials: Record<string, number>;
+	public category: CategoriesLookup;
+	public apiType: A;
+	public clientType: T;
+
 	private _totalCount: number;
-	private _byProducts: Record<string, IBasicItem<any>>;
 
-	public get type() {
-		return 'item';
-	}
+	constructor(public needle: ItemsEnum | ItemsLookup | IRawItem<A, T>) {
+		let item: IRawItem<A, T>;
 
-	constructor(public name: T) {
-		if (!name) {
-			return null;
+		if (!needle) {
+			throw new Error('No valid item value provided');
+		} else if (typeof needle === 'object') {
+			item = needle;
+		} else {
+			item = ITEM_CACHE[needle];
+
+			if (!item) {
+				item = (ItemData as IRawItem[]).find(
+					({ name, id }) => name === needle.toString() || id === needle
+				) as IRawItem<A, T>;
+
+				if (!item) {
+					throw new Error(`Need to go fetching for ${needle}`);
+				}
+
+				ITEM_CACHE[needle] = item;
+			}
 		}
 
-		if (!Items[name]) {
-			console.error('Need to go hunting for', name);
-			throw new Error(`Need to go hunting for "${name}"`);
-		}
-
-		const {
-			href,
-			rarity,
-			stats,
-			description,
-			maxStacks,
-			foundQuantity,
-			requirements,
-			buildsInto,
-			buildsFrom,
-			foundLocations,
-			droppedFrom
-		} = Items[name] as IBasicItem<T>;
+		const { apiMetaData, clientMetaData, ...rest } = item;
 
 		Object.assign(this, {
-			href,
-			rarity,
-			stats,
-			buildsFrom,
-			description,
-			maxStacks: +maxStacks,
-			foundQuantity: +foundQuantity,
-			requirements: this.getAllItems(requirements),
-			buildsInto: this.getAllItems(buildsInto),
-			foundLocations: this.getAllItems(foundLocations),
-			droppedFrom: this.getAllItems(droppedFrom)
+			...rest
 		});
-	}
 
-	private getAllItems(data: Record<string, IElement> | IElement[]) {
-		if (Array.isArray(data)) {
-			return data.map(({ name }) => Items[name]);
-		} else {
-			return Object.fromEntries(Object.keys(data).map((val) => [ val, Items[val] ]));
-		}
+		this.category = apiMetaData.category as CategoriesLookup;
+		this.apiType = apiMetaData.type as A;
+		this.clientType = clientMetaData.type as T;
 	}
 
 	public get materials(): IMaterialList {
-		if (!this._materials) {
-			const materials = {};
-
-			this.requirements
-				.filter((item) => item && item.requirements.length === 0)
-				.forEach(({ name }) => {
-					if (!materials[name]) {
-						materials[name] = 0;
-					}
-
-					materials[name] = materials[name] + 1;
-				});
-
-			this._materials = materials;
-		}
-
-		return this._materials;
-	}
-
-	public get byProducts() {
-		if (!this._byProducts) {
-			const byProducts = {};
-
-			this.requirements
-				.filter((item) => item && item.requirements.length > 0)
-				.forEach((item) => {
-					if (!byProducts[item.name]) {
-						byProducts[item.name] = item;
-					}
-				});
-
-			this._byProducts = byProducts;
-		}
-
-		return this._byProducts;
+		return this.requirements;
 	}
 
 	public get totalMaterials() {
@@ -123,10 +83,6 @@ export class Item<T extends string> implements IElement, IBasicItem<T> {
 		return this._totalCount;
 	}
 
-	public get typeWeight() {
-		return 1;
-	}
-
 	public get rarityWeight() {
 		switch (this.rarity) {
 			case 'Common':
@@ -138,6 +94,7 @@ export class Item<T extends string> implements IElement, IBasicItem<T> {
 			case 'Epic':
 				return 4;
 			case 'Legendary':
+			case 'Legend':
 				return 5;
 			default:
 				return 0;

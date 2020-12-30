@@ -1,15 +1,17 @@
-import { Locations as LocationsEnum } from '../constants';
-import { Locations } from '../data/Locations';
-import { ILocation, ILocationDrop } from '../interfaces';
+import { Locations as LocationsEnum, Items } from '../constants';
+import LocationsData from '../data/locations.json';
+import { IElement, ILocation, ILocationEntity } from '../interfaces';
+import { MaterialList } from './MaterialList';
 
 export class Region implements ILocation {
-	public materials: Record<string, ILocationDrop>;
-	public animals: Record<string, ILocationDrop>;
+	public materials = new MaterialList();
+	public drops: ILocationEntity[];
+	public animals: ILocationEntity[];
 	public teleport: boolean;
-	public connections: any[];
-	public name: string;
-	public href: string;
-	public image?: string;
+	public connections: IElement<LocationsEnum>[];
+	public apiMetaData?: { type: string; code: number; name: string };
+	public name: LocationsEnum;
+	public id: string | number;
 
 	private _materialCount: Record<string, number>;
 
@@ -20,10 +22,14 @@ export class Region implements ILocation {
 				throw new Error(`Invalid seed: ${seed}`);
 			}
 
-			source = Locations[seed];
+			source = LocationsData[seed];
 		}
 
 		Object.assign(this, source);
+
+		this.drops.forEach(({ name, quantity }) => {
+			this.materials.add(name as Items, +quantity);
+		});
 	}
 
 	get materialCount() {
@@ -41,6 +47,6 @@ export class Region implements ILocation {
 	}
 
 	public loadConnections() {
-		return this.connections.map((seed) => new Region(seed));
+		return this.connections.map((seed) => new Region(seed.name));
 	}
 }

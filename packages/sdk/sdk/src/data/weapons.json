@@ -1,0 +1,1673 @@
+[
+  {
+    "name": "Dagger",
+    "abilityDetails": {
+      "name": "Cloak_and_Dagger",
+      "description": "Cloak-Activating the cloak skill causes you become transparent and increases your movement speed for 2 seconds by 40%. Your movement speed will decrease again after 2 seconds.\nDagger-For 4 seconds, the dagger effect is added to the next normal attack. Attacking an enemy when the dagger effect is active teleports you behind the enemy, dealing (?#) Critical damage an an additional 10% of the enemy's current HP as true damage.",
+      "info": [
+        {
+          "title": "Move. speed",
+          "value": "90 %"
+        },
+        {
+          "title": "Skill duration",
+          "value": "Movespeed: 1s Blink: 4s"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.2s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Jackie",
+      "Shoichi",
+      "Xiukai"
+    ],
+    "items": [
+      {
+        "name": "Scissors",
+        "id": 101101
+      },
+      {
+        "name": "Fountain Pen",
+        "id": 101102
+      },
+      {
+        "name": "Kitchen Knife",
+        "id": 101104
+      },
+      {
+        "name": "Army Knife",
+        "id": 101201
+      },
+      {
+        "name": "Rose Knife",
+        "id": 101301
+      },
+      {
+        "name": "Carnwennan",
+        "id": 101401
+      },
+      {
+        "name": "Mount Slicer",
+        "id": 101402
+      },
+      {
+        "name": "Vibroblade",
+        "id": 101404
+      },
+      {
+        "name": "Fragarach",
+        "id": 101405
+      }
+    ],
+    "apiMetaData": {
+      "type": "OneHandSword",
+      "name": "Dagger",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Two-Handed Sword",
+    "abilityDetails": {
+      "name": "Parry",
+      "description": "Block all damage for a certain time, and return the damage to the attacking enemy.",
+      "info": [
+        {
+          "title": "Skill duration",
+          "value": "0.75s"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.13s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Jackie",
+      "Fiora",
+      "Yuki"
+    ],
+    "items": [
+      {
+        "name": "Rusty Sword",
+        "id": 102101
+      },
+      {
+        "name": "Shamshir",
+        "id": 102201
+      },
+      {
+        "name": "Katana",
+        "id": 102301
+      },
+      {
+        "name": "Masamune",
+        "id": 102401
+      },
+      {
+        "name": "Muramasa",
+        "id": 102402
+      },
+      {
+        "name": "Bastard Sword",
+        "id": 102403
+      },
+      {
+        "name": "Jewel Sword",
+        "id": 102404
+      },
+      {
+        "name": "Thuan Thien",
+        "id": "Thuan Thien"
+      },
+      {
+        "name": "Plasma Sword",
+        "id": 102408
+      },
+      {
+        "name": "Excalibur",
+        "id": 102407
+      },
+      {
+        "name": "Arondight",
+        "id": 102406
+      },
+      {
+        "name": "Hovud",
+        "id": 102411
+      },
+      {
+        "name": "Monohoshizao",
+        "id": 102410
+      },
+      {
+        "name": "Laevateinn",
+        "id": 102409
+      },
+      {
+        "name": "Dainsleif",
+        "id": "Dainsleif"
+      }
+    ],
+    "apiMetaData": {
+      "type": "TwoHandSword",
+      "name": "TwoHandedSword",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Axe",
+    "abilityDetails": {
+      "name": "Berserk",
+      "description": "Every time you use a normal attack on an enemy, you gain a stack of Berserk. Your attack power increases with how many Berserk stacks you have. Activating this skill increases your attack power depending on the number of Berserk stacks you have and how much HP you have lost.",
+      "info": [
+        {
+          "title": "Skill duration",
+          "value": "5s/7s"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.2s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "60s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Jackie"
+    ],
+    "items": [
+      {
+        "name": "Pickaxe",
+        "id": 105102
+      },
+      {
+        "name": "Hatchet",
+        "id": 105103
+      },
+      {
+        "name": "Chain Scythe",
+        "id": 105201
+      },
+      {
+        "name": "Battle Axe",
+        "id": 105202
+      },
+      {
+        "name": "Light Hatchet",
+        "id": 105301
+      },
+      {
+        "name": "Reaper's Scythe",
+        "id": "Reaper's Scythe"
+      },
+      {
+        "name": "Gigantic Axe",
+        "id": 105401
+      },
+      {
+        "name": "Beam Axe",
+        "id": 105402
+      },
+      {
+        "name": "Santa Muerte",
+        "id": "Santa Muerte"
+      },
+      {
+        "name": "Scythe",
+        "id": 105404
+      },
+      {
+        "name": "Parashu",
+        "id": 105405
+      },
+      {
+        "name": "Harpe",
+        "id": 105406
+      }
+    ],
+    "apiMetaData": {
+      "type": "Axe",
+      "name": "Axe",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Dual Swords",
+    "abilityDetails": {
+      "name": "Dual_Sword_Rampage",
+      "description": "Charge in the targeted direction and deal damage to all enemies in your path. If you hit an enemy, you can use the skill again.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "(0.3 AP)/(0.5 AP) * 6"
+        },
+        {
+          "title": "Skill duration",
+          "value": "0.75s"
+        },
+        {
+          "title": "Range",
+          "value": "1.5m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.66s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "40s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Jackie",
+      "Yuki"
+    ],
+    "items": [
+      {
+        "name": "Twin Swords",
+        "id": 103201
+      },
+      {
+        "name": "Florentine",
+        "id": 103301
+      },
+      {
+        "name": "Divine Dual Swords",
+        "id": 103401
+      },
+      {
+        "name": "Starsteel Twin Swords",
+        "id": 103402
+      },
+      {
+        "name": "Dioscuri",
+        "id": 103501
+      },
+      {
+        "name": "Lloigor & Zahr",
+        "id": 103502
+      }
+    ],
+    "apiMetaData": {
+      "type": "DualSword",
+      "name": "DualSwords",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Pistol",
+    "abilityDetails": {
+      "name": "Moving_Reload",
+      "description": "Increase movement speed and quickly reload your gun. The cooldowns of all your other skills are reduced, except for your passive and weapon skills.",
+      "info": [
+        {
+          "title": "Move. speed",
+          "value": "35/70 %"
+        },
+        {
+          "title": "Skill duration",
+          "value": "3s"
+        },
+        {
+          "title": "Casting time",
+          "value": "Instant"
+        },
+        {
+          "title": "Cooldown",
+          "value": "50s/25s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Aya",
+      "Isol",
+      "Silvia"
+    ],
+    "items": [
+      {
+        "name": "Walther PPK",
+        "id": 116101
+      },
+      {
+        "name": "Magnum-Python",
+        "id": 116201
+      },
+      {
+        "name": "Beretta M92F",
+        "id": 116202
+      },
+      {
+        "name": "FN57",
+        "id": 116301
+      },
+      {
+        "name": "Double Revolver SP",
+        "id": 116401
+      },
+      {
+        "name": "Magnum-Anaconda",
+        "id": 116402
+      },
+      {
+        "name": "Devil's Marksman",
+        "id": "Devil's Marksman"
+      },
+      {
+        "name": "Elegance",
+        "id": 116404
+      },
+      {
+        "name": "Electron Blaster",
+        "id": 116405
+      },
+      {
+        "name": "Magnum-Boa",
+        "id": 116406
+      },
+      {
+        "name": "Kelte",
+        "id": 116501
+      }
+    ],
+    "apiMetaData": {
+      "type": "Pistol",
+      "name": "Pistol",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Assault Rifle",
+    "abilityDetails": {
+      "name": "Overheat",
+      "description": "When hitting an enemy with a normal attack, you gain an Overheat stack for each bullet. If you do not use a normal attack for a certain time, your start to lose stacks. When you reach the maximum number of stacks, you can activate the Overheat skill. When this skill is activated, the attack speed cap is ignored and your normal attacks gain a knockback effect.",
+      "info": [
+        {
+          "title": "Skill duration",
+          "value": "5s"
+        },
+        {
+          "title": "Casting time",
+          "value": "Instant"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30/30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Aya",
+      "Isol"
+    ],
+    "items": [
+      {
+        "name": "Fedorova",
+        "id": 117101
+      },
+      {
+        "name": "STG44",
+        "id": "STG44"
+      },
+      {
+        "name": "AK-47",
+        "id": 117301
+      },
+      {
+        "name": "M16A1",
+        "id": 117401
+      },
+      {
+        "name": "Machine Gun",
+        "id": 117402
+      },
+      {
+        "name": "Gatling Gun",
+        "id": 117403
+      },
+      {
+        "name": "AK-12",
+        "id": 117404
+      },
+      {
+        "name": "XCR",
+        "id": 117405
+      }
+    ],
+    "apiMetaData": {
+      "type": "AssaultRifle",
+      "name": "AssaultRifle",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Sniper Rifle",
+    "abilityDetails": {
+      "name": "Sniper",
+      "description": "Activate the sniper mode in the targeted direction.In sniper mode, your range of vision is increased and your view angle is narrowed. After choosing an enemy in your sight range to attack, they will be alerted that they are in your line of sight before you shoot and deal damage to them.You can end sniper mode by reactivating the effect.",
+      "info": [
+        {
+          "title": "Skill duration",
+          "value": "5s"
+        },
+        {
+          "title": "Casting time",
+          "value": ".03s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "40/30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Aya"
+    ],
+    "items": [
+      {
+        "name": "Long Rifle",
+        "id": 118101
+      },
+      {
+        "name": "Springfield",
+        "id": 118201
+      },
+      {
+        "name": "Harpoon Gun",
+        "id": 118301
+      },
+      {
+        "name": "Golden Rifle",
+        "id": 118401
+      },
+      {
+        "name": "Railgun",
+        "id": 118402
+      },
+      {
+        "name": "Tac-50",
+        "id": 118403
+      },
+      {
+        "name": "Intervention",
+        "id": 118404
+      },
+      {
+        "name": "NTW-20",
+        "id": 118405
+      },
+      {
+        "name": "Polaris",
+        "id": 118406
+      },
+      {
+        "name": "The Deadly Ray",
+        "id": 118501
+      }
+    ],
+    "apiMetaData": {
+      "type": "SniperRifle",
+      "name": "SniperRifle",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Rapier",
+    "abilityDetails": {
+      "name": "Quick_Cut",
+      "description": "Charge in the targeted direction and deal damage to all enemies in your path. If you hit an enemy, you can use the skill again.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "2 AP/2.5 AP"
+        },
+        {
+          "title": "Range",
+          "value": "5m"
+        },
+        {
+          "title": "Casting time",
+          "value": ".13s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Fiora",
+      "Chiara"
+    ],
+    "items": [
+      {
+        "name": "Needle",
+        "id": 120101
+      },
+      {
+        "name": "Rapier",
+        "id": 120201
+      },
+      {
+        "name": "Apricot Sword",
+        "id": 120301
+      },
+      {
+        "name": "Sword of Justice",
+        "id": 120302
+      },
+      {
+        "name": "Durendal mk2",
+        "id": "Durendal mk2"
+      },
+      {
+        "name": "Volticletto",
+        "id": 120403
+      },
+      {
+        "name": "Meteor Claymore",
+        "id": 120404
+      },
+      {
+        "name": "Joyeuse",
+        "id": 120405
+      },
+      {
+        "name": "Mistilteinn",
+        "id": 120402
+      }
+    ],
+    "apiMetaData": {
+      "type": "Rapier",
+      "name": "Rapier",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Spear",
+    "abilityDetails": {
+      "name": "Shadow_Stab",
+      "description": "Powerfully lunge your spear in the targeted direction, dealing damage. You also deal damage to enemies within a certain range. Enemies hit by the attack have their movement speed reduced, and all enemies in a certain range get knocked back.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "1AP/1.5AP"
+        },
+        {
+          "title": "Range",
+          "value": "2m/4m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.3s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Fiora",
+      "Xiukai"
+    ],
+    "items": [
+      {
+        "name": "Short Spear",
+        "id": 107101
+      },
+      {
+        "name": "Bamboo Spear",
+        "id": 107201
+      },
+      {
+        "name": "Bident",
+        "id": 107301
+      },
+      {
+        "name": "Pike",
+        "id": 107302
+      },
+      {
+        "name": "Halberd Axe",
+        "id": 107303
+      },
+      {
+        "name": "Sharpened Spear",
+        "id": 107401
+      },
+      {
+        "name": "Gentian Silver Gun",
+        "id": 107402
+      },
+      {
+        "name": "Eighteen Foot Spear",
+        "id": 107403
+      },
+      {
+        "name": "Cosmic Bident",
+        "id": 107404
+      },
+      {
+        "name": "Lance of Poseidon",
+        "id": 107405
+      },
+      {
+        "name": "Fangtian Huaji",
+        "id": 107407
+      },
+      {
+        "name": "Dragon Guandao",
+        "id": 107408
+      },
+      {
+        "name": "Blazing Lance",
+        "id": 107406
+      },
+      {
+        "name": "Spear of Longinus",
+        "id": 107501
+      }
+    ],
+    "apiMetaData": {
+      "type": "Spear",
+      "name": "Spear",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Hammer",
+    "abilityDetails": {
+      "name": "Armor_Piercing",
+      "description": "Smash the hammer down, dealing X damage and reducing the defense of enemies hit by X% for 5 seconds.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "100 + 100%/200% Defense"
+        },
+        {
+          "title": "Defense",
+          "value": "-25%/-40%"
+        },
+        {
+          "title": "Debuff duration",
+          "value": "3s/5s"
+        },
+        {
+          "title": "Area of effect",
+          "value": "[Square]3m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.5s"
+        },
+        {
+          "title": "Cost",
+          "value": "0 SP"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Magnus"
+    ],
+    "items": [
+      {
+        "name": "Hammer",
+        "id": 104101
+      },
+      {
+        "name": "Warhammer",
+        "id": 104201
+      },
+      {
+        "name": "Morning Star",
+        "id": 104301
+      },
+      {
+        "name": "Black Stag Hammer",
+        "id": 104302
+      },
+      {
+        "name": "Fang Mace",
+        "id": 104401
+      },
+      {
+        "name": "Hammer of Dagda",
+        "id": 104402
+      },
+      {
+        "name": "Hammer of Thor",
+        "id": 104403
+      },
+      {
+        "name": "Evening Star",
+        "id": 104404
+      },
+      {
+        "name": "Magic Stick",
+        "id": 104405
+      }
+    ],
+    "apiMetaData": {
+      "type": "Hammer",
+      "name": "Hammer",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Bat",
+    "abilityDetails": {
+      "name": "Full_Swing",
+      "description": "Swing your bat in front of you, dealing X damage to all enemies in the targeted area, and knocking them back. Enemies hit into wall are stunned for 0.5 second.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "100%/200% AP"
+        },
+        {
+          "title": "Stun",
+          "value": "0.5s"
+        },
+        {
+          "title": "Knockback",
+          "value": "?"
+        },
+        {
+          "title": "Area of effect",
+          "value": "[Semi-circle] 2.5m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.67s"
+        },
+        {
+          "title": "Cost",
+          "value": "0 SP"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Magnus"
+    ],
+    "items": [
+      {
+        "name": "Branch",
+        "id": 108101
+      },
+      {
+        "name": "Short Rod",
+        "id": 108102
+      },
+      {
+        "name": "Long Rod",
+        "id": 108202
+      },
+      {
+        "name": "Goblin Bat",
+        "id": 108301
+      },
+      {
+        "name": "Torch",
+        "id": 108402
+      },
+      {
+        "name": "Umbrella",
+        "id": 108401
+      },
+      {
+        "name": "Statue of Soteria",
+        "id": 108403
+      },
+      {
+        "name": "Spy Umbrella",
+        "id": 108501
+      },
+      {
+        "name": "Mallet",
+        "id": 108404
+      },
+      {
+        "name": "Monkey King Bar",
+        "id": 108502
+      }
+    ],
+    "apiMetaData": {
+      "type": "Bat",
+      "name": "Bat",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Throw",
+    "abilityDetails": {
+      "name": "Smokescreen",
+      "description": "A smokescreen appears at the targeted location. Enemies inside the smokescreen have their vision reduced and their movement speed decreased.",
+      "info": [
+        {
+          "title": "Move. speed",
+          "value": "-15/30%"
+        },
+        {
+          "title": "Skill duration",
+          "value": "5/7s"
+        },
+        {
+          "title": "Range",
+          "value": "7m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.15s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "20s/15s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Zahir",
+      "Adriana",
+      "Sissela"
+    ],
+    "items": [
+      {
+        "name": "Iron Ball",
+        "id": 112103
+      },
+      {
+        "name": "Baseball",
+        "id": 112105
+      },
+      {
+        "name": "Grenade",
+        "id": 112202
+      },
+      {
+        "name": "Molotov Cocktail",
+        "id": 112203
+      },
+      {
+        "name": "Signed Ball",
+        "id": 112205
+      },
+      {
+        "name": "Sling",
+        "id": 112204
+      },
+      {
+        "name": "Flour Bomb",
+        "id": 112301
+      },
+      {
+        "name": "Ball Lightning",
+        "id": 112303
+      },
+      {
+        "name": "Flubber",
+        "id": 112304
+      },
+      {
+        "name": "Spiky Bouncy Ball",
+        "id": 112403
+      },
+      {
+        "name": "Incendiary Bomb",
+        "id": 112302
+      },
+      {
+        "name": "Grenade of Antioch",
+        "id": 112305
+      },
+      {
+        "name": "David's Sling",
+        "id": "David's Sling"
+      },
+      {
+        "name": "Smoke Bomb",
+        "id": 112402
+      },
+      {
+        "name": "High Explosive Grenade",
+        "id": "High Explosive Grenade"
+      },
+      {
+        "name": "Ruthenium Marble",
+        "id": 112501
+      }
+    ],
+    "apiMetaData": {
+      "type": "HighAngleFire",
+      "name": "Throw",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Shuriken",
+    "abilityDetails": {
+      "name": "Caltrops",
+      "description": "Throw caltrops in an area, dealing damage to enemies that step on them and reducing their movement speed. Stepping on additional caltrops deals 30% of the initial damage.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "110/180 + 0.3AP"
+        },
+        {
+          "title": "Move. speed",
+          "value": "-30/40%"
+        },
+        {
+          "title": "Skill duration",
+          "value": "6s"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.3s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "35s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Zahir",
+      "Sissela",
+      "Hyejin",
+      "Emma"
+    ],
+    "items": [
+      {
+        "name": "Razor",
+        "id": 113101
+      },
+      {
+        "name": "Playing Cards",
+        "id": 113102
+      },
+      {
+        "name": "Chalk",
+        "id": 113104
+      },
+      {
+        "name": "Dart",
+        "id": 113201
+      },
+      {
+        "name": "Vintage Cards",
+        "id": 113203
+      },
+      {
+        "name": "Onyx Dagger",
+        "id": 113206
+      },
+      {
+        "name": "Throwing Stars",
+        "id": 113205
+      },
+      {
+        "name": "Charm",
+        "id": 113202
+      },
+      {
+        "name": "Willow Leaf Spike",
+        "id": 113207
+      },
+      {
+        "name": "Chakram",
+        "id": 113301
+      },
+      {
+        "name": "Apricot Flower Tag",
+        "id": 113302
+      },
+      {
+        "name": "Venom Dart",
+        "id": 113402
+      },
+      {
+        "name": "Dharma Chakram",
+        "id": 113403
+      },
+      {
+        "name": "Plumbata",
+        "id": 113404
+      },
+      {
+        "name": "Cards of Tyranny",
+        "id": 113401
+      },
+      {
+        "name": "Mystic Jade Charm",
+        "id": 113405
+      },
+      {
+        "name": "Fuhma Shuriken",
+        "id": 113406
+      },
+      {
+        "name": "Wind and Fire Wheels",
+        "id": 113411
+      },
+      {
+        "name": "Azure Dagger",
+        "id": 113409
+      },
+      {
+        "name": "Flechette",
+        "id": "Flechette"
+      },
+      {
+        "name": "Frost Venom Dart",
+        "id": 113408
+      },
+      {
+        "name": "Death Rune",
+        "id": 113412
+      },
+      {
+        "name": "Sudarsana",
+        "id": 113501
+      },
+      {
+        "name": "Petal Torrent",
+        "id": 113502
+      }
+    ],
+    "apiMetaData": {
+      "type": "DirectFire",
+      "name": "Shuriken",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Bow",
+    "abilityDetails": {
+      "name": "Rain_Of_Arrows",
+      "description": "Fire a bouquet of arrows at the targeted area, causing a hail of arrows. The arrows reach the target after a certain time, dealing damage to enemies hit by the rain of arrows and reducing their attack and movement speed. Enemies located at the center of the rain of arrows take more damage.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "150/250 + 1.0AP / Center of target: 300/500+ 2.0 AP"
+        },
+        {
+          "title": "Range",
+          "value": "30m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.3s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30 seconds"
+        }
+      ]
+    },
+    "usableBy": [
+      "Nadine",
+      "Hyejin"
+    ],
+    "items": [
+      {
+        "name": "Bow",
+        "id": "Bow"
+      },
+      {
+        "name": "Wooden Bow",
+        "id": 114201
+      },
+      {
+        "name": "Longbow",
+        "id": 114202
+      },
+      {
+        "name": "Composite Bow",
+        "id": 114203
+      },
+      {
+        "name": "Strong Bow",
+        "id": 114301
+      },
+      {
+        "name": "Stallion Bow",
+        "id": 114302
+      },
+      {
+        "name": "Mighty Bow",
+        "id": 114303
+      },
+      {
+        "name": "Pellet Bow",
+        "id": 114304
+      },
+      {
+        "name": "Scorchbow",
+        "id": 114402
+      },
+      {
+        "name": "Ancient Bolt",
+        "id": "Ancient Bolt"
+      },
+      {
+        "name": "Golden-Ratio Bow",
+        "id": 114403
+      },
+      {
+        "name": "Twinbow",
+        "id": 114405
+      },
+      {
+        "name": "Elemental Bow",
+        "id": 114501
+      },
+      {
+        "name": "Failnaught",
+        "id": 114502
+      }
+    ],
+    "apiMetaData": {
+      "type": "Bow",
+      "name": "Bow",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Crossbow",
+    "abilityDetails": {
+      "name": "Expulsion_Shot",
+      "description": "Fire the crossbow in the targeted direction. Targets hit by the arrows take damage and are knocked back. Enemies knocked into a wall take extra damage and are stunned.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "0.6/1 AP"
+        },
+        {
+          "title": "Range",
+          "value": "6m"
+        },
+        {
+          "title": "Casting time",
+          "value": "0.55s"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30 seconds"
+        }
+      ]
+    },
+    "usableBy": [
+      "Nadine"
+    ],
+    "items": [
+      {
+        "name": "Short Crossbow",
+        "id": 115101
+      },
+      {
+        "name": "Long Crossbow",
+        "id": 115201
+      },
+      {
+        "name": "Crossbow",
+        "id": "Crossbow"
+      },
+      {
+        "name": "Power Crossbow",
+        "id": 115301
+      },
+      {
+        "name": "Laser Crossbow",
+        "id": 115302
+      },
+      {
+        "name": "Heavy Crossbow",
+        "id": 115303
+      },
+      {
+        "name": "Steel Bow",
+        "id": 115401
+      },
+      {
+        "name": "The Legend of The General",
+        "id": "The Legend of The General"
+      },
+      {
+        "name": "Ballista",
+        "id": 115403
+      },
+      {
+        "name": "Sniper Crossbow",
+        "id": 115404
+      },
+      {
+        "name": "The Golden Ghost",
+        "id": 115405
+      },
+      {
+        "name": "Sharanga",
+        "id": 115501
+      }
+    ],
+    "apiMetaData": {
+      "type": "CrossBow",
+      "name": "Crossbow",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Glove",
+    "abilityDetails": {
+      "name": "Uppercut",
+      "description": "The range of your next normal attack increases and you deal additional damage for a certain time.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "1x Attack Damage + 1.0AP / 2x attack damage + 1.0AP"
+        },
+        {
+          "title": "Range",
+          "value": "attack range + 0.7m"
+        },
+        {
+          "title": "Casting time",
+          "value": "Instant"
+        },
+        {
+          "title": "Cooldown",
+          "value": "10s/10s"
+        }
+      ]
+    },
+    "usableBy": [
+      "HyunWoo",
+      "Li Dailin"
+    ],
+    "items": [
+      {
+        "name": "Brass Knuckles",
+        "id": 110101
+      },
+      {
+        "name": "Cotton Glove",
+        "id": "Cotton Glove"
+      },
+      {
+        "name": "Leather Glove",
+        "id": "Leather Glove"
+      },
+      {
+        "name": "Iron Knuckles",
+        "id": 110202
+      },
+      {
+        "name": "Gauntlet",
+        "id": 110301
+      },
+      {
+        "name": "Wing Knuckles",
+        "id": 110302
+      },
+      {
+        "name": "Bone Gauntlet",
+        "id": 110401
+      },
+      {
+        "name": "Shatter Shell Gauntlet",
+        "id": 110402
+      },
+      {
+        "name": "Glass Knuckles",
+        "id": 110403
+      },
+      {
+        "name": "Phoenix Gloves",
+        "id": 110404
+      },
+      {
+        "name": "One Inch Punch",
+        "id": 110405
+      },
+      {
+        "name": "Divine Fist",
+        "id": 110406
+      },
+      {
+        "name": "Bloodwing Knuckles",
+        "id": 110407
+      },
+      {
+        "name": "Frost Petal Hand",
+        "id": 110408
+      },
+      {
+        "name": "Buddha's Palm",
+        "id": "Buddha's Palm"
+      },
+      {
+        "name": "Brasil Gauntlet",
+        "id": 110410
+      },
+      {
+        "name": "White Claw Punch",
+        "id": 110411
+      },
+      {
+        "name": "Imperial Silk Glove",
+        "id": "Imperial Silk Glove"
+      }
+    ],
+    "apiMetaData": {
+      "type": "Glove",
+      "name": "Glove",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Tonfa",
+    "abilityDetails": {
+      "name": "Quick_Spin",
+      "description": "Block all damage for a certain time, and return the damage to the attacking enemy.",
+      "info": [
+        {
+          "title": "Skill duration",
+          "value": "0.75 Seconds"
+        },
+        {
+          "title": "Casting time",
+          "value": "Instant"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30/30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "HyunWoo"
+    ],
+    "items": [
+      {
+        "name": "Bamboo",
+        "id": 108103
+      },
+      {
+        "name": "Tonfa",
+        "id": 111201
+      },
+      {
+        "name": "Police Baton",
+        "id": 111301
+      },
+      {
+        "name": "Ryukyu Tonfa",
+        "id": 111401
+      },
+      {
+        "name": "Tactical Tonfa",
+        "id": 111402
+      },
+      {
+        "name": "Mai Sok",
+        "id": 111403
+      },
+      {
+        "name": "Plasma Tonfa",
+        "id": 111404
+      }
+    ],
+    "apiMetaData": {
+      "type": "Tonfa",
+      "name": "Tonfa",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Guitar",
+    "abilityDetails": {
+      "name": "Love.26...",
+      "description": "Release a sound wave in the targeted direction to draw your enemy to the music, dealing damage to the first enemy hit and making them move towards the user.",
+      "info": [
+        {
+          "title": "Skill damage",
+          "value": "1.25 / 2 AP"
+        },
+        {
+          "title": "Skill duration",
+          "value": "1.5s"
+        },
+        {
+          "title": "Casting time",
+          "value": "Instant"
+        },
+        {
+          "title": "Cooldown",
+          "value": "30s"
+        }
+      ]
+    },
+    "usableBy": [
+      "Hart"
+    ],
+    "items": [
+      {
+        "name": "Starter Guitar",
+        "id": 121101
+      },
+      {
+        "name": "Golden Bridge",
+        "id": 121201
+      },
+      {
+        "name": "Single Coil Pickup",
+        "id": 121202
+      },
+      {
+        "name": "Ruby Special",
+        "id": 121301
+      },
+      {
+        "name": "Humbucker Pickup",
+        "id": 121302
+      },
+      {
+        "name": "King-V",
+        "id": 121303
+      },
+      {
+        "name": "Nocaster",
+        "id": 121304
+      },
+      {
+        "name": "Superstrat",
+        "id": 121305
+      },
+      {
+        "name": "Wild Horse",
+        "id": 121306
+      },
+      {
+        "name": "Bohemian",
+        "id": 121401
+      },
+      {
+        "name": "Stairway to Heaven",
+        "id": 121402
+      },
+      {
+        "name": "Purple Haze",
+        "id": 121403
+      },
+      {
+        "name": "Satisfaction",
+        "id": 121404
+      },
+      {
+        "name": "Wonderful Tonight",
+        "id": 121405
+      },
+      {
+        "name": "The Wall",
+        "id": 121406
+      },
+      {
+        "name": "Teen Spirit",
+        "id": 121407
+      }
+    ],
+    "apiMetaData": {
+      "type": "Guitar",
+      "name": "Guitar",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Nunchaku",
+    "abilityDetails": {
+      "description": "",
+      "info": []
+    },
+    "usableBy": [
+      "Li Dailin"
+    ],
+    "items": [
+      {
+        "name": "Steel Chain",
+        "id": 119101
+      },
+      {
+        "name": "Nunchaku",
+        "id": "Nunchaku"
+      },
+      {
+        "name": "Sharper",
+        "id": 119301
+      },
+      {
+        "name": "Bleeder",
+        "id": 119302
+      },
+      {
+        "name": "The Smiting Dragon",
+        "id": 119401
+      },
+      {
+        "name": "Vibro Nunchaku",
+        "id": 119402
+      },
+      {
+        "name": "Whip",
+        "id": 109101
+      },
+      {
+        "name": "Rope Cuffs",
+        "id": "Rope Cuffs"
+      },
+      {
+        "name": "Bullwhip",
+        "id": "Bullwhip"
+      },
+      {
+        "name": "Wind Whip",
+        "id": "Wind Whip"
+      },
+      {
+        "name": "Thunder Whip",
+        "id": "Thunder Whip"
+      },
+      {
+        "name": "Lightning Whip",
+        "id": "Lightning Whip"
+      },
+      {
+        "name": "Gleipnir",
+        "id": "Gleipnir"
+      },
+      {
+        "name": "Plasma Whip",
+        "id": "Plasma Whip"
+      },
+      {
+        "name": "Whip of Nine Bloody Tails",
+        "id": "Whip of Nine Bloody Tails"
+      }
+    ],
+    "apiMetaData": {
+      "type": "Nunchaku",
+      "name": "Nunchaku",
+      "category": "Weapon"
+    }
+  },
+  {
+    "name": "Whip",
+    "abilityDetails": {
+      "description": "",
+      "info": []
+    },
+    "usableBy": [],
+    "items": [
+      {
+        "name": "Whip",
+        "id": 109101
+      },
+      {
+        "name": "Rope Cuffs",
+        "id": "Rope Cuffs"
+      },
+      {
+        "name": "Bullwhip",
+        "id": "Bullwhip"
+      },
+      {
+        "name": "Wind Whip",
+        "id": "Wind Whip"
+      },
+      {
+        "name": "Thunder Whip",
+        "id": "Thunder Whip"
+      },
+      {
+        "name": "Lightning Whip",
+        "id": "Lightning Whip"
+      },
+      {
+        "name": "Gleipnir",
+        "id": "Gleipnir"
+      },
+      {
+        "name": "Plasma Whip",
+        "id": "Plasma Whip"
+      },
+      {
+        "name": "Whip of Nine Bloody Tails",
+        "id": "Whip of Nine Bloody Tails"
+      }
+    ],
+    "apiMetaData": {
+      "type": "Whip",
+      "name": "Whip",
+      "category": "Weapon"
+    }
+  }
+]
