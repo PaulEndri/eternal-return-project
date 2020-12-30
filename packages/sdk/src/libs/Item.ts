@@ -45,7 +45,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 			item = ITEM_CACHE[needle];
 
 			if (!item) {
-				item = (ItemData as IRawItem[]).find(
+				item = ItemData.find(
 					({ name, id }: any) => name === needle.toString() || id === needle
 				) as IRawItem<A, T>;
 
