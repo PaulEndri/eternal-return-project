@@ -1,0 +1,862 @@
+[
+  {
+    "id": 6,
+    "name": "Bear",
+    "locations": {
+      "Beach": 3,
+      "Uptown": 2,
+      "Dock": 2,
+      "Pond": 2,
+      "Temple": 2,
+      "Alley": 3
+    },
+    "items": [
+      {
+        "name": "Leather",
+        "percentage": 100,
+        "rarity": "Always"
+      },
+      {
+        "name": "Meat",
+        "percentage": 100,
+        "rarity": "Always"
+      },
+      {
+        "name": "Steel",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Oilcloth",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Heated Oil",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ruby",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Dead Battery",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "White Powder",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Tree of Life",
+        "percentage": 2,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Meteorite",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ash",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Electronic Parts",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Blueprint",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Iron Sheet",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Gold",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Moon Stone",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Poison",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Motor",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Mithril",
+        "percentage": 6,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Glass Panel",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ion Battery",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "VF Blood Sample",
+        "percentage": 2,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Cell Phone",
+        "percentage": 4,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Force Core",
+        "percentage": 6,
+        "rarity": "Rarely"
+      }
+    ],
+    "stats": {
+      "createTime": 180,
+      "regenTime": 240,
+      "maxHp": 620,
+      "attackPower": 0,
+      "defense": 43,
+      "attackSpeed": 0.6,
+      "moveSpeed": 2.8,
+      "sightRange": 4,
+      "attackRange": 1.6,
+      "firstAttackRange": 3,
+      "aggressive": "None",
+      "radius": 1,
+      "uiHeight": 2,
+      "gainExp": 250,
+      "randomDropCount": 1
+    },
+    "displayName": "Bear",
+    "apiName": "Bear",
+    "apiMetaData": {
+      "resource": "Bear_01",
+      "dropGroup": 106,
+      "grade": "Epic",
+      "name": "Bear",
+      "code": 6
+    }
+  },
+  {
+    "id": 3,
+    "name": "Boar",
+    "locations": {
+      "Archery Range": 3,
+      "Avenue": 6,
+      "Temple": 3,
+      "Forest": 4,
+      "Cemetery": 4,
+      "Pond": 4,
+      "Beach": 3,
+      "Chapel": 3
+    },
+    "items": [
+      {
+        "name": "Meat",
+        "percentage": 0,
+        "rarity": "Always"
+      },
+      {
+        "name": "Fountain Pen",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Surveillance Camera",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Snare",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Mousetrap",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Piano Wire",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Tights",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Short Spear",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Stallion Medal",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Monk's Robe",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Alcohol",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Bike Helmet",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Cloth",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Flower",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Holy Grail",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Kitchen Knife",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Iron Ore",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Can",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Iron Ball",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Glass Bottle",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Hammer",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Playing Cards",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Feather",
+        "percentage": 0,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Steel Chain",
+        "percentage": 0,
+        "rarity": "Rarely"
+      }
+    ],
+    "stats": {
+      "createTime": 60,
+      "regenTime": 135,
+      "maxHp": 640,
+      "attackPower": 28,
+      "defense": 32,
+      "attackSpeed": 0.5,
+      "moveSpeed": 2.8,
+      "sightRange": 5,
+      "attackRange": 1.1,
+      "firstAttackRange": 4,
+      "aggressive": "None",
+      "radius": 0.5,
+      "uiHeight": 1.8,
+      "gainExp": 180,
+      "randomDropCount": 1
+    },
+    "displayName": "Boar",
+    "apiName": "Boar",
+    "apiMetaData": {
+      "resource": "Boar_01",
+      "dropGroup": 103,
+      "grade": "Uncommon",
+      "name": "Boar",
+      "code": 3
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bat (Animal)",
+    "locations": {
+      "Archery Range": 3,
+      "School": 4,
+      "Beach": 3,
+      "Forest": 2,
+      "Cemetery": 3,
+      "Chapel": 3,
+      "Pond": 3,
+      "Temple": 3
+    },
+    "items": [
+      {
+        "name": "Leather",
+        "percentage": 30,
+        "rarity": "Often"
+      },
+      {
+        "name": "Nail",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Turtle Shell",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Rubber",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Box",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Pickaxe",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Needle",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Hairband",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Scissors",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Hat",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Oil",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Chalk",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Glue",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Paper",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Slippers",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Bandage",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Razor",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Bamboo",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Surveillance Camera",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Binoculars",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Holy Grail",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Buddhist Scripture",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Scrap Metal",
+        "percentage": 3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Laser Pointer",
+        "percentage": 3,
+        "rarity": "Rarely"
+      }
+    ],
+    "stats": {
+      "createTime": 60,
+      "regenTime": 135,
+      "maxHp": 360,
+      "attackPower": 38,
+      "defense": 24,
+      "attackSpeed": 0.6,
+      "moveSpeed": 3.5,
+      "sightRange": 5,
+      "attackRange": 0.85,
+      "firstAttackRange": 4,
+      "aggressive": "None",
+      "radius": 0.4,
+      "uiHeight": 1.8,
+      "gainExp": 140,
+      "randomDropCount": 1
+    },
+    "displayName": "Bat (Animal)",
+    "apiName": "Bat",
+    "apiMetaData": {
+      "resource": "Bat_01",
+      "dropGroup": 102,
+      "grade": "Uncommon",
+      "name": "Bat",
+      "code": 2
+    }
+  },
+  {
+    "id": 4,
+    "name": "Dog",
+    "locations": {
+      "School": 3,
+      "Avenue": 3,
+      "Hotel": 3,
+      "Dock": 2,
+      "Uptown": 2,
+      "Factory": 3,
+      "Hospital": 2
+    },
+    "items": [
+      {
+        "name": "Leather",
+        "percentage": 100,
+        "rarity": "Always"
+      },
+      {
+        "name": "Hatchet",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Laser Pointer",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Surveillance Camera",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Short Rod",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Windbreaker",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Battery",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Fabric Armor",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Full Body Swimsuit",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Watch",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Gunpowder",
+        "percentage": 9.1,
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bracelet",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Running Shoes",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Lighter",
+        "percentage": 9.1,
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Gemstone",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ribbon",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Fan",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Buddhist Scripture",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Scrap Metal",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Cross",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Binoculars",
+        "percentage": 4.5,
+        "rarity": "Rarely"
+      }
+    ],
+    "stats": {
+      "createTime": 120,
+      "regenTime": 180,
+      "maxHp": 400,
+      "attackPower": 0,
+      "defense": 22,
+      "attackSpeed": 0.9,
+      "moveSpeed": 2.8,
+      "sightRange": 5,
+      "attackRange": 1,
+      "firstAttackRange": 4,
+      "aggressive": "None",
+      "radius": 0.5,
+      "uiHeight": 1.5,
+      "gainExp": 200,
+      "randomDropCount": 1
+    },
+    "displayName": "Dog",
+    "apiName": "WildDog",
+    "apiMetaData": {
+      "resource": "Dog_01",
+      "dropGroup": 104,
+      "grade": "Rare",
+      "name": "WildDog",
+      "code": 4
+    }
+  },
+  {
+    "id": 1,
+    "name": "Chicken",
+    "locations": {
+      "School": 4,
+      "Avenue": 5,
+      "Alley": 6,
+      "Dock": 4,
+      "Factory": 3,
+      "Uptown": 4,
+      "Hotel": 3,
+      "Chapel": 3
+    },
+    "items": [
+      {
+        "name": "Meat",
+        "percentage": 0,
+        "rarity": "Often"
+      },
+      {
+        "name": "Leather",
+        "percentage": 0,
+        "rarity": "Often"
+      }
+    ],
+    "stats": {
+      "createTime": 0,
+      "regenTime": 90,
+      "maxHp": 200,
+      "attackPower": 22,
+      "defense": 14,
+      "attackSpeed": 0.8,
+      "moveSpeed": 3.1,
+      "sightRange": 5,
+      "attackRange": 0.85,
+      "firstAttackRange": 4,
+      "aggressive": "None",
+      "radius": 0.4,
+      "uiHeight": 1.5,
+      "gainExp": 80,
+      "randomDropCount": 1
+    },
+    "displayName": "Chicken",
+    "apiName": "Chicken",
+    "apiMetaData": {
+      "resource": "Chicken_01",
+      "dropGroup": 101,
+      "grade": "Common",
+      "name": "Chicken",
+      "code": 1
+    }
+  },
+  {
+    "id": 5,
+    "name": "Wolf",
+    "locations": {
+      "Archery Range": 3,
+      "Alley": 3,
+      "Hotel": 3,
+      "Forest": 2,
+      "Cemetery": 2,
+      "Factory": 3,
+      "Hospital": 3
+    },
+    "items": [
+      {
+        "name": "Meat",
+        "percentage": 100,
+        "rarity": "Always"
+      },
+      {
+        "name": "Leather",
+        "percentage": 100,
+        "rarity": "Always"
+      },
+      {
+        "name": "Steel",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Oilcloth",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Heated Oil",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ruby",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Dead Battery",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "White Powder",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Meteorite",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ash",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Electronic Parts",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Blueprint",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Iron Sheet",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Gold",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Feather Duster",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Moon Stone",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Poison",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Motor",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Mithril",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Glass Panel",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      },
+      {
+        "name": "Ion Battery",
+        "percentage": 5.3,
+        "rarity": "Rarely"
+      }
+    ],
+    "stats": {
+      "createTime": 120,
+      "regenTime": 180,
+      "maxHp": 480,
+      "attackPower": 0,
+      "defense": 22,
+      "attackSpeed": 0.9,
+      "moveSpeed": 2.8,
+      "sightRange": 5,
+      "attackRange": 1.1,
+      "firstAttackRange": 4,
+      "aggressive": "None",
+      "radius": 0.5,
+      "uiHeight": 1.6,
+      "gainExp": 200,
+      "randomDropCount": 1
+    },
+    "displayName": "Wolf",
+    "apiName": "Wolf",
+    "apiMetaData": {
+      "resource": "Wolf_01",
+      "dropGroup": 105,
+      "grade": "Rare",
+      "name": "Wolf",
+      "code": 5
+    }
+  },
+  {
+    "id": 7,
+    "name": "Wickeline",
+    "locations": {},
+    "items": [],
+    "stats": {
+      "createTime": 600,
+      "regenTime": 0,
+      "maxHp": 700,
+      "attackPower": 70,
+      "defense": 0,
+      "attackSpeed": 0.8,
+      "moveSpeed": 2.8,
+      "sightRange": 5,
+      "attackRange": 1.2,
+      "firstAttackRange": 5,
+      "aggressive": "None",
+      "radius": 1,
+      "uiHeight": 3,
+      "gainExp": 0,
+      "randomDropCount": 1
+    },
+    "displayName": "Wickeline",
+    "apiName": "Wickline",
+    "apiMetaData": {
+      "resource": "Wickline_01",
+      "dropGroup": 107,
+      "grade": "Epic",
+      "name": "Wickline",
+      "code": 7
+    }
+  }
+]
