@@ -1,6 +1,6 @@
 {
   "name": "erbs-utilities",
-  "version": "1.2.5",
+  "version": "1.2.7",
   "description": "Eternal Return: Black Survival Monorepo Utilities",
   "main": "dist/index.js",
   "scripts": {
