@@ -45,15 +45,16 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 			item = ITEM_CACHE[needle];
 
 			if (!item) {
-				item = ItemData.find(
+				const searchedItem: any = ItemData.find(
 					({ name, id }: any) => name === needle.toString() || id === needle
-				) as IRawItem<A, T>;
+				);
 
-				if (!item) {
+				if (!searchedItem) {
 					throw new Error(`Need to go fetching for ${needle}`);
 				}
 
-				ITEM_CACHE[needle] = item;
+				ITEM_CACHE[needle] = searchedItem;
+				item = searchedItem as IRawItem<A, T>;
 			}
 		}
 
