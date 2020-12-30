@@ -37,7 +37,7 @@
 
 \+ **new CoreScraper**(`cache?`: IWikiCache): [CoreScraper](wikidata.corescraper.md)
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L12)*
 
 #### Parameters:
 
@@ -53,7 +53,7 @@ Name | Type |
 
 •  **cache**: IWikiCache
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L12)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 ▪ `Static` **BASE\_URL**: string = "https://eternalreturn.gamepedia.com/"
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L11)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L11)*
 
 ## Methods
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **getPage**(`page`: string, `skipCache?`: boolean): Promise<any\>
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L34)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L34)*
 
 #### Parameters:
 

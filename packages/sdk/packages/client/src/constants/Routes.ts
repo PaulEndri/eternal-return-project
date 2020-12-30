@@ -12,6 +12,7 @@ export const ROUTES = {
 		user: '/rank/{userNum}/{seasonId}/{matchingTeamMode}'
 	},
 	user: {
+		number: '/user/nickname?query={name}',
 		games: '/user/games/{userNum}',
 		stats: '/user/stats/{userNum}/{seasonId}'
 	}

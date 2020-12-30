@@ -4,7 +4,7 @@ import { ErBsClient, MetaTypes } from 'erbs-client';
 const client = new ErBsClient();
 
 const writeFile = (name: string, content) => {
-	fs.writeFileSync(`src/clientData/${name}.json`, JSON.stringify(content, null, 2));
+	fs.writeFileSync(`src/generated/clientData/${name}.json`, JSON.stringify(content, null, 2));
 };
 
 const wait3 = () => {
@@ -33,6 +33,8 @@ const getClientData = async () => {
 	const animals = await client.getMetaData(MetaTypes.Monster);
 	await wait3();
 	const howToFind = await client.getMetaData(MetaTypes.HowToFindItem);
+	await wait3();
+	const characters = await client.getCharacters();
 
 	return {
 		weapons,
@@ -44,7 +46,8 @@ const getClientData = async () => {
 		locations,
 		connections,
 		animals,
-		howToFind
+		howToFind,
+		characters
 	};
 };
 

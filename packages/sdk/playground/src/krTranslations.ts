@@ -1,4 +1,4 @@
-export const KrTranslations = {
+export const rawTranslations = {
 	'Chain Scythe': '사슬 낫',
 	'Battle Axe': '전투 도끼',
 	'Light Hatchet': '경량화 도끼',
@@ -172,7 +172,7 @@ export const KrTranslations = {
 	'Buddha’s Palm': '여래수투',
 	'Brasil Gauntlet': '브레이질 건틀릿',
 	'White Claw Punch': '소수',
-	'Imperial Silk Glove': '천참장갑',
+	'Imperial Silk Gloves': '천참장갑',
 	'Wooden Tonfa': '톤파',
 	'Police Baton': '경찰봉',
 	'Ryukyu Tonfa': '류큐톤파',
@@ -424,7 +424,7 @@ export const KrTranslations = {
 	Hotel: '호텔',
 	Hospital: '병원',
 	School: '학교',
-	Uptown: '고급 주택가',
+	Uptown: '고급주택가',
 	Factory: '공장',
 	Temple: '절',
 	Cemetery: '묘지',
@@ -492,5 +492,11 @@ export const KrTranslations = {
 };
 
 export const enTranslations = Object.fromEntries(
-	Object.entries(KrTranslations).map(([ en, kr ]) => [ kr, en ])
+	Object.entries(rawTranslations)
+		.map(([ en, kr ]) => [ kr.trim().replace(/ /g, ''), en ])
+		.concat(Object.entries(rawTranslations).map(([ en, kr ]) => [ kr, en ]))
+);
+
+export const krTranslations = Object.fromEntries(
+	Object.entries(rawTranslations).map(([ en, kr ]) => [ kr, en ])
 );

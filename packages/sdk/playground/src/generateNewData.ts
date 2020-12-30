@@ -1,10 +1,8 @@
 import fs from 'fs';
 import * as Scrapers from 'erbs-wiki-api';
 import { CharacterScraper, LocationScraper, WikiCache, GenericApi } from 'erbs-wiki-api';
-import Complete from './generated/Complete.json';
-import { ErBsClient, MetaTypes } from 'erbs-client';
+import Complete from './generated/classic/Complete.json';
 
-const client = new ErBsClient();
 const api = new GenericApi();
 const animalScraper = new Scrapers.AnimalScraper();
 const locationScraper = new LocationScraper(new WikiCache());
@@ -27,7 +25,7 @@ const methods = [
 ];
 
 const writeFile = (name: string, content) => {
-	fs.writeFileSync(`src/newGenerated/${name}.json`, JSON.stringify(content, null, 2));
+	fs.writeFileSync(`src/generated/newGenerated/${name}.json`, JSON.stringify(content, null, 2));
 };
 
 const wait3 = () => {
@@ -36,43 +34,16 @@ const wait3 = () => {
 	});
 };
 
-const getClientData = async () => {
-	const weapons = await client.getWeapons();
-	await wait3();
-	const armors = await client.getArmors();
-	await wait3();
-	const consumables = await client.getConsumables();
-	await wait3();
-	const misc = await client.getMaterials();
-	await wait3();
-	const special = await client.getSpecialItems();
-	await wait3();
-	const spawns = await client.getItemSpawns();
-	await wait3();
-	const locations = await client.getMetaData(MetaTypes.Area);
-	await wait3();
-	const connections = await client.getMetaData(MetaTypes.NearByArea);
-	await wait3();
-	const animals = await client.getMetaData(MetaTypes.Monster);
-	await wait3();
-	const howToFind = await client.getMetaData(MetaTypes.HowToFindItem);
-
-	return {
-		weapons,
-		armors,
-		consumables,
-		misc,
-		special,
-		spawns,
-		locations,
-		connections,
-		animals,
-		howToFind
-	};
-};
 Promise.all(methods)
 	.then(async ([ Animals, Locations, Weapons, Armors, Consumables, Materials, Items ]) => {
 		const realCharacters = await characterScraper.getAll(Weapons);
+		const Xiukai = await characterScraper.getCharacter({ name: 'Xiukai', href: '/Xiukai' });
+		Xiukai.weapons = Object.entries(Weapons)
+			.filter(([ , type ]: any) => type.usableBy.includes('Xiukai'))
+			.map(([ key ]) => key);
+
+		delete realCharacters.Xiuaki;
+		realCharacters.Xiukai = Xiukai;
 
 		const Categories = {};
 

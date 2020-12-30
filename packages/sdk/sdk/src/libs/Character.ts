@@ -1,5 +1,4 @@
 import { Abilities, Characters, WeaponTypes } from '../constants';
-import { Weapons } from '../data/Weapons';
 import { IAbility, ICharacter } from '../interfaces';
 
 export class Character implements ICharacter {
@@ -10,8 +9,6 @@ export class Character implements ICharacter {
 	public details: any[];
 	public stats: {};
 	public abilities: Record<Abilities, IAbility>;
-
-	private _weapons: WeaponTypes[] = [];
 
 	constructor(seed: Characters | ICharacter) {
 		let source = seed;
@@ -24,17 +21,5 @@ export class Character implements ICharacter {
 		}
 
 		Object.assign(this, source);
-	}
-
-	public get weapons() {
-		if (!this._weapons) {
-			this._weapons = Object.entries(Weapons)
-				.filter(([ weaponType, weaponData ]) =>
-					weaponData.usableBy.some(({ name }) => name === this.name)
-				)
-				.map(([ weaponType ]) => weaponType as WeaponTypes);
-		}
-
-		return this._weapons;
 	}
 }

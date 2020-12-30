@@ -35,7 +35,7 @@
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[constructor](wikidata.corescraper.md#constructor)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L12)*
 
 #### Parameters:
 
@@ -53,7 +53,7 @@ Name | Type |
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[cache](wikidata.corescraper.md#cache)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L12)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:12](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L12)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[BASE_URL](wikidata.corescraper.md#base_url)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L11)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:11](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L11)*
 
 ## Methods
 
@@ -71,7 +71,7 @@ ___
 
 ▸ **getAll**(`weaponData?`: Record<string, any\>): Promise<{ [k:string]: T;  }\>
 
-*Defined in [packages/wikidata/src/scrapers/character.ts:119](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/character.ts#L119)*
+*Defined in [packages/wikidata/src/scrapers/character.ts:119](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/character.ts#L119)*
 
 #### Parameters:
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **getCharacter**(`__namedParameters`: { href: string ; name: string  }): Promise<ICharacter\>
 
-*Defined in [packages/wikidata/src/scrapers/character.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/character.ts#L24)*
+*Defined in [packages/wikidata/src/scrapers/character.ts:24](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/character.ts#L24)*
 
 #### Parameters:
 
@@ -105,7 +105,7 @@ ___
 
 *Inherited from [CoreScraper](wikidata.corescraper.md).[getPage](wikidata.corescraper.md#getpage)*
 
-*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/f8a270f/packages/wikidata/src/scrapers/core.ts#L34)*
+*Defined in [packages/wikidata/src/scrapers/core.ts:34](https://github.com/PaulEndri/eternal-return-project/blob/6cfa1d0/packages/wikidata/src/scrapers/core.ts#L34)*
 
 #### Parameters:
 

@@ -16,14 +16,19 @@ const itemScraper = new ItemScraper(
 	animalScraper['cache']
 );
 
-const methods = [ animalScraper.getAll(), locationScraper.getAll(), characterScraper.getAll() ];
+const methods = [
+	animalScraper.getAll(),
+	locationScraper.getAll(),
+	characterScraper.getAll(),
+	characterScraper.getCharacter({ name: 'Xiukai', href: '/Xiukai' })
+];
 
 const writeFile = (name: string, content) => {
-	fs.writeFileSync(`src/generated/${name}.json`, JSON.stringify(content, null, 2));
+	fs.writeFileSync(`src/generated/classic/${name}.json`, JSON.stringify(content, null, 2));
 };
 
 Promise.all(methods)
-	.then(async ([ animals, locations, characters ]) => {
+	.then(async ([ animals, locations, characters, Xiukai ]) => {
 		const items = (await itemScraper.getAll(true)) as any;
 		const allItems = {
 			...items.materials,
@@ -55,6 +60,9 @@ Promise.all(methods)
 			...items.weapons.Nunchaku.weapons,
 			...items.weapons.Whip.weapons
 		};
+
+		delete characters.xiuaki;
+		characters.Xiukai = Xiukai;
 
 		const files = {
 			Animals: animals,

@@ -30,6 +30,7 @@ import {ErBsClient, GameModes} from 'erbs-client';
 const client = new ErBsClient('my-key', 'v1');
 
 const sampleMethods = [
+    client.getPlayerNumber('myPlayerName') , // Search for a player number using the given player name
     client.getCharacters(), // Merges multiple metadata calls to return all stats for all characters, no parameters
     client.getTopPlayers(1, GameModes.Duos), // gets all top players for a given season and game mode
     client.getTopSolos(), // shorthand for getTopPlayers(#, GameModes.Solos), same exists for squads and duos
