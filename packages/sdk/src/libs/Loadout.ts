@@ -10,7 +10,7 @@ import {
 	Items
 } from '../constants';
 import { ILocation } from '../interfaces';
-import LocationsData from '../data/locations.json';
+import { Locations as LocationData } from 'erbs-data';
 import { LoadoutKeys } from '../constants/LoadoutKeys';
 import { BasicLoadout } from '../types/loadout';
 
@@ -85,7 +85,7 @@ export class Loadout {
 
 					Object.keys(material.foundLocations).forEach((location) => {
 						if (!regions[location]) {
-							regions[location] = LocationsData[location];
+							regions[location] = LocationData[location];
 						}
 					});
 				});

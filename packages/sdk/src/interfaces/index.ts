@@ -1,4 +1,3 @@
-export * from './IAbility';
 export * from './IItem';
 export * from './ICharacter';
 export * from './IElement';

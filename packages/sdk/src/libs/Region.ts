@@ -1,5 +1,5 @@
 import { Locations as LocationsEnum, Items } from '../constants';
-import LocationsData from '../data/locations.json';
+import { Locations as LocationsData } from 'erbs-data';
 import { IElement, ILocation, ILocationEntity } from '../interfaces';
 import { MaterialList } from './MaterialList';
 

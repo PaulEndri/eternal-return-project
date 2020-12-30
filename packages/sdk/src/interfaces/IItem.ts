@@ -49,6 +49,7 @@ export interface IItem extends IElement<Items> {
 	description: string;
 	maxStacks: number;
 	foundQuantity: number;
+	stackable: boolean;
 	airSupply: boolean;
 	collectible: number;
 	requirements?: IMaterialList;
@@ -61,4 +62,5 @@ export interface IItem extends IElement<Items> {
 export interface IRawItem<A extends string = any, T extends string = any> extends IItem {
 	apiMetaData: IItemApiMetaData<A>;
 	clientMetaData: IItemClientMetaData<T>;
+	href?: string;
 }

@@ -18,7 +18,9 @@
     "erbs-client": "file:packages\\client",
     "erbs-data": "file:packages\\data",
     "erbs-sdk": "file:packages\\sdk",
-    "erbs-wiki-api": "file:packages\\wikidata"
+    "erbs-utilities": "file:packages\\utilities",
+    "erbs-wiki-api": "file:packages\\wikidata",
+    "ui": "file:packages\\ui"
   },
   "repository": {
     "type": "git",

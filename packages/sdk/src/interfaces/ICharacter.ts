@@ -1,9 +1,30 @@
 import { Characters, WeaponsLookup } from '../constants';
-import { IAbility } from './IAbility';
 import { IElement } from './IElement';
 
+export interface ITiers {
+	1?: string;
+	2?: string;
+	3?: string;
+	4?: string;
+	5?: string;
+}
+
+export interface IStat {
+	title: string;
+	value: string;
+	tiers: ITiers;
+}
+
+export interface IAbility {
+	name: string;
+	slot: string;
+	type: string;
+	description: string;
+	stats: Record<string, IStat>;
+}
+
 export interface ICharacterAttribute {
-	mastery: WeaponsLookup;
+	mastery: WeaponsLookup | string;
 	controlDifficulty: number;
 	attack: number;
 	defense: number;
@@ -39,14 +60,15 @@ export interface ICharacterInitialStat {
 	sightRange: number;
 }
 
-export interface ICharacter extends IElement<Characters> {
-	attributes: ICharacterAttribute[];
-	description: string;
-	details: Record<string, string>;
+export interface ICharacter extends IElement<Characters | string> {
+	attributes?: ICharacterAttribute[];
+	description?: string;
+	details?: Record<string, string>;
 	stats: {
 		initial: ICharacterInitialStat;
 		perLevel: ICharacterLevelUpStat;
 	};
-	abilities: Record<string, IAbility>;
-	weapons: WeaponsLookup[];
+	abilities?: Record<string, IAbility>;
+	weapons?: (WeaponsLookup | string)[];
+	apiMetaData?: any;
 }

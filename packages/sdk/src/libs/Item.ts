@@ -8,7 +8,9 @@ import {
 import { IElement } from '../interfaces/IElement';
 import { IRawItem, IItem, IItemStats } from '../interfaces/IItem';
 import { IMaterialList } from '../interfaces/IMaterialList';
-import ItemData from '../data/items.json';
+import { Items } from 'erbs-data';
+
+const ItemsArray = Object.values(Items);
 
 const ITEM_CACHE = {} as any;
 
@@ -20,6 +22,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 	public foundQuantity: number;
 	public airSupply: boolean;
 	public collectible: number;
+	public stackable: boolean;
 	public requirements: IMaterialList;
 	public buildsInto: IElement<ItemsEnum>[];
 	public buildsFrom: IElement<ItemsEnum>[];
@@ -34,7 +37,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 
 	private _totalCount: number;
 
-	constructor(public needle: ItemsEnum | ItemsLookup | IRawItem<A, T>) {
+	constructor(public needle: ItemsEnum | ItemsLookup | IRawItem<A, T> | number | string) {
 		let item: IRawItem<A, T>;
 
 		if (!needle) {
@@ -45,7 +48,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 			item = ITEM_CACHE[needle];
 
 			if (!item) {
-				const searchedItem: any = ItemData.find(
+				const searchedItem: any = ItemsArray.find(
 					({ name, id }: any) => name === needle.toString() || id === needle
 				);
 
@@ -58,7 +61,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 			}
 		}
 
-		const { apiMetaData, clientMetaData, ...rest } = item;
+		const { apiMetaData, clientMetaData, href, ...rest } = item;
 
 		Object.assign(this, {
 			...rest

@@ -1,5 +1,3 @@
-import { Locations } from '../constants';
-
 const data = {};
 
 const getRawCombinations = (a, n, s = [], t = []) => {
@@ -12,10 +10,10 @@ const getRawCombinations = (a, n, s = [], t = []) => {
 	}, s);
 };
 
-export const getLocationCombinations = (length = 3) => {
+export const getLocationCombinations = (length = 3, src) => {
 	if (!data[length]) {
 		data[length] = getRawCombinations(
-			Object.keys(Locations).filter((key) => key !== Locations['Research Center']),
+			Object.keys(src).filter((key) => key !== 'Research Center' && key !== 'ResearchCenter'),
 			length
 		);
 	}
