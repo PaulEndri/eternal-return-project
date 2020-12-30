@@ -46,7 +46,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 
 			if (!item) {
 				item = (ItemData as IRawItem[]).find(
-					({ name, id }) => name === needle.toString() || id === needle
+					({ name, id }: any) => name === needle.toString() || id === needle
 				) as IRawItem<A, T>;
 
 				if (!item) {
