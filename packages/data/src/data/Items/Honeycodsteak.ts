@@ -17,7 +17,7 @@ export const Honeycodsteak: Item = {
 	"buildsInto": [
 		{
 			"name": "Gleipnir",
-			"id": "Gleipnir"
+			"id": 109403
 		}
 	],
 	"requirements": {

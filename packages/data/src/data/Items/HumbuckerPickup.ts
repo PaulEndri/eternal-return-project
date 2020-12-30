@@ -10,7 +10,7 @@ export const HumbuckerPickup: Item = {
 		},
 		{
 			"name": "Sniping Scope",
-			"id": "Sniping Scope"
+			"id": 205206
 		}
 	],
 	"buildsInto": [

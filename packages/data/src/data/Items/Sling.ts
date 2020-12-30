@@ -16,7 +16,7 @@ export const Sling: Item = {
 	"buildsInto": [
 		{
 			"name": "David's Sling",
-			"id": "David's Sling"
+			"id": 112401
 		}
 	],
 	"requirements": {

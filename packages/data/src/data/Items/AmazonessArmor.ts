@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const AmazonessArmor: Item = {
-	"id": "Amazoness Armor",
+	"id": 202410,
 	"name": "Amazoness Armor",
-	"href": "/Amazoness_Armor",
 	"buildsFrom": [
 		{
 			"name": "Sheet Metal Armor",
@@ -19,7 +18,7 @@ export const AmazonessArmor: Item = {
 		"Fabric Armor": 1,
 		"Scrap Metal": 1,
 		"Iron Ore": 1,
-		"Full Body Swimsuit": 1,
+		"Wetsuit": 1,
 		"Scissors": 1
 	},
 	"stats": {
@@ -33,16 +32,16 @@ export const AmazonessArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor bestowed upon female warriors with outstanding archery ability and agility. Allows for flexibilty and protection.",
+	"apiMetaData": {
+		"code": 202410,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

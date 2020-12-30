@@ -20,7 +20,7 @@ export const Ruby: Item = {
 		},
 		{
 			"name": "Santa Muerte",
-			"id": "Santa Muerte"
+			"id": 105403
 		},
 		{
 			"name": "Bloodwing Knuckles",

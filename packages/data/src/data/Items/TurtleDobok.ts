@@ -6,7 +6,7 @@ export const TurtleDobok: Item = {
 	"buildsFrom": [
 		{
 			"name": "Monk's Robe",
-			"id": "Monk's Robe"
+			"id": 202103
 		},
 		{
 			"name": "Turtle Shell",

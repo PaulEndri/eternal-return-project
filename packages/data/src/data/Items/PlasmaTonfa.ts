@@ -10,7 +10,7 @@ export const PlasmaTonfa: Item = {
 		},
 		{
 			"name": "Laster Pointer",
-			"id": "Laster Pointer"
+			"id": 401108
 		}
 	],
 	"buildsInto": [],

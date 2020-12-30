@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const EODSuit: Item = {
-	"id": "EOD Suit",
+	"id": 202417,
 	"name": "EOD Suit",
-	"href": "/EOD_Suit",
 	"buildsFrom": [
 		{
 			"name": "Bulletproof Vest",
@@ -36,16 +35,16 @@ export const EODSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Originally developed as a bulletproof vest, often used at bomb disposal sites due to its protection.",
+	"apiMetaData": {
+		"code": 202417,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

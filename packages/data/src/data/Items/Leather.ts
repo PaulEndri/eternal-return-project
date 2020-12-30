@@ -47,7 +47,7 @@ export const Leather: Item = {
 		},
 		{
 			"name": "Combat Boots",
-			"id": "Combat Boots"
+			"id": 204405
 		},
 		{
 			"name": "Quiver",

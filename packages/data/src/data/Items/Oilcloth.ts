@@ -24,7 +24,7 @@ export const Oilcloth: Item = {
 		},
 		{
 			"name": "The Legend of The General",
-			"id": "The Legend of The General"
+			"id": 115402
 		},
 		{
 			"name": "Boots",

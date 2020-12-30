@@ -69,7 +69,7 @@ export const Head: Armor = {
 		},
 		{
 			"name": "Tactical OPS Helmet",
-			"id": "Tactical OPS Helmet"
+			"id": 201406
 		},
 		{
 			"name": "Helm of Banneret",

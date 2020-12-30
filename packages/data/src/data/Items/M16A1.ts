@@ -6,7 +6,7 @@ export const M16A1: Item = {
 	"buildsFrom": [
 		{
 			"name": "STG-44",
-			"id": "STG-44"
+			"id": 117201
 		},
 		{
 			"name": "Leather",

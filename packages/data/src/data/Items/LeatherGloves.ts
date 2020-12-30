@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const LeatherGloves: Item = {
 	"id": 110201,
 	"name": "Leather Gloves",
-	"href": "/Leather_Gloves",
 	"buildsFrom": [
 		{
 			"name": "Cotton Gloves",
@@ -21,7 +20,7 @@ export const LeatherGloves: Item = {
 		},
 		{
 			"name": "Imperial Silk Gloves",
-			"id": "Imperial Silk Gloves"
+			"id": 110412
 		}
 	],
 	"requirements": {
@@ -36,12 +35,12 @@ export const LeatherGloves: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
-	"clientMetaData": {
-		"type": "Glove",
-		"category": "Weapon"
-	},
 	"apiMetaData": {
 		"code": 110201,
+		"category": "Weapon",
+		"type": "Glove"
+	},
+	"clientMetaData": {
 		"type": "Glove",
 		"category": "Weapon"
 	},

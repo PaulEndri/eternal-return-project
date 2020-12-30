@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const WindWhip: Item = {
-	"id": "Wind Whip",
+	"id": 109301,
 	"name": "Wind Whip",
-	"href": "/Wind_Whip",
 	"buildsFrom": [
 		{
 			"name": "Rope Cuffs",
-			"id": "Rope Cuffs"
+			"id": 109201
 		},
 		{
 			"name": "Fan",
@@ -17,11 +16,11 @@ export const WindWhip: Item = {
 	"buildsInto": [
 		{
 			"name": "Gleipnir",
-			"id": "Gleipnir"
+			"id": 109403
 		},
 		{
 			"name": "Whip of Nine Bloody Tails",
-			"id": "Whip of Nine Bloody Tails"
+			"id": 109501
 		}
 	],
 	"requirements": {
@@ -39,14 +38,14 @@ export const WindWhip: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 109301,
+		"category": "Weapon",
+		"type": "Whip"
+	},
 	"clientMetaData": {
 		"type": "Whip",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

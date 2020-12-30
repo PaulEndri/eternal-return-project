@@ -7,7 +7,7 @@ export const Fedorova: Item = {
 	"buildsInto": [
 		{
 			"name": "STG-44",
-			"id": "STG-44"
+			"id": 117201
 		}
 	],
 	"requirements": {},

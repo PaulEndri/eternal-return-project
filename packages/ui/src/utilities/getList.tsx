@@ -1,37 +1,33 @@
-import {
-	Weapon,
-	Chest,
-	Arm,
-	Head,
-	Leg,
-	Accessory,
-	Accessories,
-	Arms,
-	Chests,
-	Heads,
-	Legs,
-	WeaponsEnum,
-	WeaponTypes
-} from 'erbs-sdk';
+import { Armors, ArmorType, Item, Weapons, WeaponsLookup, WeaponType } from 'erbs-sdk';
 import { Types } from './types';
 
-const getList = (itemClass, items) => {
-	return Object.keys(items).map((item) => new itemClass(item) as any);
-};
-export const ItemLists = {
-	[Types.Weapon]: getList(Weapon, WeaponsEnum),
-	[Types.Chest]: getList(Chest, Chests),
-	[Types.Head]: getList(Head, Heads),
-	[Types.Arm]: getList(Arm, Arms),
-	[Types.Leg]: getList(Leg, Legs),
-	[Types.Accessory]: getList(Accessory, Accessories)
-};
+const armorListByType = Object.fromEntries<Item[]>(
+	Object.values(Armors).map((key: Armors) => {
+		const type = new ArmorType(key);
 
-export const getItemList = (type, weaponType) => {
-	const options = ItemLists[type] ? ItemLists[type] : Object.values(ItemLists).flat();
-	if (type === Types.Weapon && weaponType) {
-		return options.filter((option) => option.type === WeaponTypes[weaponType]);
+		return [ key, type.loadArmors() ];
+	})
+);
+
+const weaponListByType = Object.fromEntries<Item[]>(
+	Object.entries(WeaponsLookup).map(([ name, val ]) => {
+		const type = new WeaponType(name);
+		console.log('[sup]', type);
+		return [ val, type.loadWeapons() ];
+	})
+);
+
+console.log('[Sup]', Object.keys(Weapons));
+
+console.log('[Sup]', { weaponListByType, armorListByType });
+export const getItemList = (type: Types | Weapons) => {
+	if (armorListByType[type]) {
+		return armorListByType[type];
+	} else if (weaponListByType[type]) {
+		return weaponListByType[type];
+	} else if (type === Types.Weapon) {
+		return Object.values(weaponListByType).flat();
+	} else {
+		return [];
 	}
-
-	return options;
 };

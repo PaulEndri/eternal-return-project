@@ -1,7 +1,7 @@
 import Item from '../../types/Item';
 
 export const Ancientbolt: Item = {
-	"id": "Ancient bolt",
+	"id": 114401,
 	"name": "Ancient bolt",
 	"href": "/Ancient_bolt",
 	"buildsFrom": [
@@ -36,9 +36,9 @@ export const Ancientbolt: Item = {
 		"category": "Weapon"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 114401,
+		"type": "Bow",
+		"category": "Weapon"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

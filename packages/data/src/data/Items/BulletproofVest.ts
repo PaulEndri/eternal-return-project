@@ -16,11 +16,11 @@ export const BulletproofVest: Item = {
 	"buildsInto": [
 		{
 			"name": "Battle Suit",
-			"id": "Battle Suit"
+			"id": 202415
 		},
 		{
 			"name": "EOD Suit",
-			"id": "EOD Suit"
+			"id": 202417
 		}
 	],
 	"requirements": {

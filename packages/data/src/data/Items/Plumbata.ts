@@ -16,7 +16,7 @@ export const Plumbata: Item = {
 	"buildsInto": [
 		{
 			"name": "Flechette",
-			"id": "Flechette"
+			"id": 113410
 		}
 	],
 	"requirements": {

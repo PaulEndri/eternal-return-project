@@ -16,7 +16,7 @@ export const StallionBow: Item = {
 	"buildsInto": [
 		{
 			"name": "Ancient bolt",
-			"id": "Ancient bolt"
+			"id": 114401
 		}
 	],
 	"requirements": {

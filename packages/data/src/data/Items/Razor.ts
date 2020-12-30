@@ -7,7 +7,7 @@ export const Razor: Item = {
 	"buildsInto": [
 		{
 			"name": "Bullwhip",
-			"id": "Bullwhip"
+			"id": 109202
 		},
 		{
 			"name": "Throwing Stars",

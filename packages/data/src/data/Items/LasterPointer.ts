@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const LasterPointer: Item = {
-	"id": "Laster Pointer",
+	"id": 401108,
 	"name": "Laster Pointer",
-	"href": "/Laster_Pointer",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -16,7 +15,7 @@ export const LasterPointer: Item = {
 		},
 		{
 			"name": "Plasma Whip",
-			"id": "Plasma Whip"
+			"id": 109404
 		},
 		{
 			"name": "Plasma Tonfa",
@@ -40,7 +39,7 @@ export const LasterPointer: Item = {
 		},
 		{
 			"name": "Sniping Scope",
-			"id": "Sniping Scope"
+			"id": 205206
 		}
 	],
 	"requirements": {},
@@ -50,16 +49,25 @@ export const LasterPointer: Item = {
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
+	"apiMetaData": {
+		"code": 401108,
+		"category": "Misc",
+		"type": "Material"
+	},
 	"clientMetaData": {
 		"type": "Material",
 		"category": "Misc"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
-	"droppedFrom": [],
+	"droppedFrom": [
+		{
+			"name": "Bat",
+			"id": 2
+		},
+		{
+			"name": "WildDog",
+			"id": 4
+		}
+	],
 	"airSupply": false,
 	"collectible": 0
 }

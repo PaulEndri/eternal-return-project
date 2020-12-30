@@ -5,8 +5,8 @@ export const DivingSuit: Item = {
 	"name": "Diving Suit",
 	"buildsFrom": [
 		{
-			"name": "Full Body Swimsuit",
-			"id": "Full Body Swimsuit"
+			"name": "Wetsuit",
+			"id": 202105
 		},
 		{
 			"name": "Rubber",
@@ -16,15 +16,15 @@ export const DivingSuit: Item = {
 	"buildsInto": [
 		{
 			"name": "Optical Camouflage Suit",
-			"id": "Optical Camouflage Suit"
+			"id": 202405
 		},
 		{
 			"name": "Battle Suit",
-			"id": "Battle Suit"
+			"id": 202415
 		}
 	],
 	"requirements": {
-		"Full Body Swimsuit": 1,
+		"Wetsuit": 1,
 		"Rubber": 1
 	},
 	"stats": {

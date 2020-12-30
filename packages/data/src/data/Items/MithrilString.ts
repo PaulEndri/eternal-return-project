@@ -16,7 +16,7 @@ export const MithrilString: Item = {
 	"buildsInto": [
 		{
 			"name": "Imperial Silk Gloves",
-			"id": "Imperial Silk Gloves"
+			"id": 110412
 		}
 	],
 	"requirements": {

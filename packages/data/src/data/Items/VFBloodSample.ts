@@ -7,7 +7,7 @@ export const VFBloodSample: Item = {
 	"buildsInto": [
 		{
 			"name": "Dáinsleif",
-			"id": "Dáinsleif"
+			"id": 102501
 		},
 		{
 			"name": "Spear of Longinus",
@@ -15,7 +15,7 @@ export const VFBloodSample: Item = {
 		},
 		{
 			"name": "Whip of Nine Bloody Tails",
-			"id": "Whip of Nine Bloody Tails"
+			"id": 109501
 		},
 		{
 			"name": "Failnaught",

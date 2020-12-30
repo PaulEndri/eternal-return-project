@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const STG44: Item = {
-	"id": "STG-44",
+	"id": 117201,
 	"name": "STG-44",
-	"href": "/STG-44",
 	"buildsFrom": [
 		{
 			"name": "Fedorova",
@@ -43,14 +42,14 @@ export const STG44: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"apiMetaData": {
+		"code": 117201,
+		"category": "Weapon",
+		"type": "AssaultRifle"
+	},
 	"clientMetaData": {
 		"type": "AssaultRifle",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

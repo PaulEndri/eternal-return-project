@@ -23,7 +23,7 @@ export const Cross: Item = {
 		},
 		{
 			"name": "Saint's Relic",
-			"id": "Saint's Relic"
+			"id": 205202
 		}
 	],
 	"requirements": {},

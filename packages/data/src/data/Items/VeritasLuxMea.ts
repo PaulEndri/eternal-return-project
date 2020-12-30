@@ -10,7 +10,7 @@ export const VeritasLuxMea: Item = {
 		},
 		{
 			"name": "Saint's Relic",
-			"id": "Saint's Relic"
+			"id": 205202
 		}
 	],
 	"buildsInto": [],

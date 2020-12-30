@@ -7,7 +7,7 @@ export const TurtleShell: Item = {
 	"buildsInto": [
 		{
 			"name": "Thuận Thiên",
-			"id": "Thuận Thiên"
+			"id": 102405
 		},
 		{
 			"name": "Bone Gauntlet",

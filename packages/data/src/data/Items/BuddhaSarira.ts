@@ -10,7 +10,7 @@ export const BuddhaSarira: Item = {
 		},
 		{
 			"name": "Monk's Robe",
-			"id": "Monk's Robe"
+			"id": 202103
 		}
 	],
 	"buildsInto": [
@@ -20,7 +20,7 @@ export const BuddhaSarira: Item = {
 		},
 		{
 			"name": "Buddha's Palm",
-			"id": "Buddha's Palm"
+			"id": 110409
 		},
 		{
 			"name": "Teen Spirit",

@@ -37,7 +37,9 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 
 	private _totalCount: number;
 
-	constructor(public needle: ItemsEnum | ItemsLookup | IRawItem<A, T> | number | string) {
+	static GetItem<A extends string = any, T extends string = any>(
+		needle: ItemsEnum | ItemsLookup | IRawItem<A, T> | number | string
+	) {
 		let item: IRawItem<A, T>;
 
 		if (!needle) {
@@ -59,6 +61,16 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 				ITEM_CACHE[needle] = searchedItem;
 				item = searchedItem as IRawItem<A, T>;
 			}
+		}
+
+		return item;
+	}
+
+	constructor(public needle: ItemsEnum | ItemsLookup | IRawItem<A, T> | number | string) {
+		const item = Item.GetItem<A, T>(needle);
+
+		if (!item) {
+			throw new Error(`Missing Item ${needle}`);
 		}
 
 		const { apiMetaData, clientMetaData, href, ...rest } = item;

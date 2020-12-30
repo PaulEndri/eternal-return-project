@@ -10,7 +10,7 @@ export const Kabana: Item = {
 		},
 		{
 			"name": "Commander's Armor",
-			"id": "Commander's Armor"
+			"id": 202412
 		}
 	],
 	"buildsInto": [],

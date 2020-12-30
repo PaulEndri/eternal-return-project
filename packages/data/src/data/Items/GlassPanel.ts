@@ -20,7 +20,7 @@ export const GlassPanel: Item = {
 		},
 		{
 			"name": "Optical Camouflage Suit",
-			"id": "Optical Camouflage Suit"
+			"id": 202405
 		},
 		{
 			"name": "Radar",

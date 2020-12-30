@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const MonksRobe: Item = {
-	"id": "Monk's Robe",
+	"id": 202103,
 	"name": "Monk's Robe",
-	"href": "/Monk's_Robe",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -33,16 +32,21 @@ export const MonksRobe: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Clothing for monks. The arm of each side is divided into four parts, representing Manjushri, Samantabhadra, Guanyin, and Ksitigarbha",
+	"apiMetaData": {
+		"code": 202103,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
-	"droppedFrom": [],
+	"droppedFrom": [
+		{
+			"name": "Boar",
+			"id": 3
+		}
+	],
 	"airSupply": false,
 	"collectible": 0
 }

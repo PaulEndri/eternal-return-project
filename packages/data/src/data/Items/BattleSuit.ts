@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const BattleSuit: Item = {
-	"id": "Battle Suit",
+	"id": 202415,
 	"name": "Battle Suit",
-	"href": "/Battle_Suit",
 	"buildsFrom": [
 		{
 			"name": "Bulletproof Vest",
@@ -20,7 +19,7 @@ export const BattleSuit: Item = {
 		"Branch": 1,
 		"Scrap Metal": 1,
 		"Hammer": 1,
-		"Full Body Swimsuit": 1,
+		"Wetsuit": 1,
 		"Rubber": 1
 	},
 	"stats": {
@@ -35,16 +34,16 @@ export const BattleSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A futuristic combat suit. It's made with bulletproof material that makes it great armor. However, when worn in hot areas, you might die of dehydration before encountering a single foe.",
+	"apiMetaData": {
+		"code": 202415,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

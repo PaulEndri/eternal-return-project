@@ -1,13 +1,12 @@
-import * as AnimalsData from './Animals';
-import * as WeaponsData from './Weapons';
-import * as ArmorsData from './Armors';
-import * as ItemsData from './Items';
-import * as CharactersData from './Characters';
-import * as LocationsData from './Locations';
-
-export const Animals = AnimalsData;
-export const Weapons = WeaponsData;
-export const Armors = ArmorsData;
-export const Items = ItemsData;
-export const Characters = CharactersData;
-export const Locations = LocationsData;
+import * as AnimalData from './Animals';
+import * as WeaponData from './Weapons';
+import * as ArmorData from './Armors';
+import * as ItemData from './Items';
+import * as CharacterData from './Characters';
+import * as LocationData from './Locations';
+export const Animals = AnimalData;
+export const Weapons = WeaponData;
+export const Armors = ArmorData;
+export const Items = ItemData;
+export const Characters = CharacterData;
+export const Locations = LocationData;

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const ImperialSilkGloves: Item = {
-	"id": "Imperial Silk Gloves",
+	"id": 110412,
 	"name": "Imperial Silk Gloves",
-	"href": "/Imperial_Silk_Gloves",
 	"buildsFrom": [
 		{
 			"name": "Mithril String",
@@ -30,14 +29,14 @@ export const ImperialSilkGloves: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"apiMetaData": {
+		"code": 110412,
+		"category": "Weapon",
+		"type": "Glove"
+	},
 	"clientMetaData": {
 		"type": "Glove",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

@@ -32,7 +32,7 @@ export const WhitePowder: Item = {
 		},
 		{
 			"name": "Flechette",
-			"id": "Flechette"
+			"id": 113410
 		},
 		{
 			"name": "Polaris",

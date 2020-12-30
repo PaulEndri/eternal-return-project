@@ -54,7 +54,7 @@ export const Dog: Animal = {
 			"rarity": "Rarely"
 		},
 		{
-			"name": "Full Body Swimsuit",
+			"name": "Wetsuit",
 			"percentage": 4.5,
 			"rarity": "Rarely"
 		},

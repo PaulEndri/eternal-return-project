@@ -28,7 +28,7 @@ export const Ash: Item = {
 		},
 		{
 			"name": "Devil's Marksman",
-			"id": "Devil's Marksman"
+			"id": 116403
 		},
 		{
 			"name": "The Smiting Dragon",

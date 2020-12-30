@@ -1,7 +1,7 @@
 import Item from '../../types/Item';
 
 export const TheLegendofTheGeneral: Item = {
-	"id": "The Legend of The General",
+	"id": 115402,
 	"name": "The Legend of The General",
 	"href": "/The_Legend_of_The_General",
 	"buildsFrom": [
@@ -40,9 +40,9 @@ export const TheLegendofTheGeneral: Item = {
 		"category": "Weapon"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 115402,
+		"type": "CrossBow",
+		"category": "Weapon"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const RockersJacket: Item = {
-	"id": "Rocker's Jacket",
+	"id": 202406,
 	"name": "Rocker's Jacket",
-	"href": "/Rocker's_Jacket",
 	"buildsFrom": [
 		{
 			"name": "Rider Jacket",
@@ -35,16 +34,16 @@ export const RockersJacket: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "There's something burning in my HEART. Today, I can do anything.",
+	"apiMetaData": {
+		"code": 202406,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

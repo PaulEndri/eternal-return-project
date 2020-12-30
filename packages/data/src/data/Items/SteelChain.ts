@@ -11,7 +11,7 @@ export const SteelChain: Item = {
 		},
 		{
 			"name": "Nunchaku",
-			"id": "Nunchaku"
+			"id": 119201
 		},
 		{
 			"name": "Chain Coif",

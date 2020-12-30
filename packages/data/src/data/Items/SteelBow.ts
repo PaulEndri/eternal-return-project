@@ -6,7 +6,7 @@ export const SteelBow: Item = {
 	"buildsFrom": [
 		{
 			"name": "Crossbow",
-			"id": "Crossbow"
+			"id": 115101
 		},
 		{
 			"name": "Iron Sheet",
@@ -16,7 +16,7 @@ export const SteelBow: Item = {
 	"buildsInto": [
 		{
 			"name": "The Legend of The General",
-			"id": "The Legend of The General"
+			"id": 115402
 		}
 	],
 	"requirements": {

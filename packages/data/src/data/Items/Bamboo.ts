@@ -27,11 +27,11 @@ export const Bamboo: Item = {
 		},
 		{
 			"name": "Ancient bolt",
-			"id": "Ancient bolt"
+			"id": 114401
 		},
 		{
 			"name": "Crossbow",
-			"id": "Crossbow"
+			"id": 115101
 		},
 		{
 			"name": "Superstrat",

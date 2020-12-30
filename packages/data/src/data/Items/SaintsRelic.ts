@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const SaintsRelic: Item = {
-	"id": "Saint's Relic",
+	"id": 205202,
 	"name": "Saint's Relic",
-	"href": "/Saint's_Relic",
 	"buildsFrom": [
 		{
 			"name": "Cross",
@@ -25,7 +24,7 @@ export const SaintsRelic: Item = {
 		},
 		{
 			"name": "David's Sling",
-			"id": "David's Sling"
+			"id": 112401
 		},
 		{
 			"name": "Crusader Armor",
@@ -50,16 +49,16 @@ export const SaintsRelic: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The last relic of one who fought to save those who have fallen, despite being betrayed, tortured, and crucified.",
+	"apiMetaData": {
+		"code": 205202,
+		"category": "Armor",
+		"type": "Trinket"
+	},
 	"clientMetaData": {
 		"type": "Accessory",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -6,7 +6,7 @@ export const Scythe: Item = {
 	"buildsFrom": [
 		{
 			"name": "Reaper's Scythe",
-			"id": "Reaper's Scythe"
+			"id": 105302
 		},
 		{
 			"name": "Gold",

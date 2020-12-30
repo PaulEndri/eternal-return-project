@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const CommandersArmor: Item = {
-	"id": "Commander's Armor",
+	"id": 202412,
 	"name": "Commander's Armor",
-	"href": "/Commander's_Armor",
 	"buildsFrom": [
 		{
 			"name": "Chain Armor",
@@ -37,16 +36,16 @@ export const CommandersArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's the General's armor, so it gotta be the strongest armor in town.",
+	"apiMetaData": {
+		"code": 202412,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

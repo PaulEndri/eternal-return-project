@@ -84,7 +84,7 @@ export const Throw: Weapon = {
 		},
 		{
 			"name": "David's Sling",
-			"id": "David's Sling"
+			"id": 112401
 		},
 		{
 			"name": "Smoke Bomb",
@@ -92,7 +92,7 @@ export const Throw: Weapon = {
 		},
 		{
 			"name": "High Explosive Grenade",
-			"id": "High Explosive Grenade"
+			"id": 112404
 		},
 		{
 			"name": "Ruthenium Marble",

@@ -6,7 +6,7 @@ export const WhiteRhinos: Item = {
 	"buildsFrom": [
 		{
 			"name": "Combat Boots",
-			"id": "Combat Boots"
+			"id": 204405
 		},
 		{
 			"name": "Nail",

@@ -30,12 +30,12 @@ export class Loadout {
 
 	static GenerateLoadout(data: BasicLoadout) {
 		return new Loadout(
-			new Item(data.Chest),
-			new Item(data.Arm),
-			new Item(data.Leg),
-			new Item(data.Head),
-			new Item(data.Weapon),
-			new Item(data.Accessory)
+			data.Chest ? new Item(data.Chest) : null,
+			data.Arm ? new Item(data.Arm) : null,
+			data.Leg ? new Item(data.Leg) : null,
+			data.Head ? new Item(data.Head) : null,
+			data.Weapon ? new Item(data.Weapon) : null,
+			data.Accessory ? new Item(data.Accessory) : null
 		);
 	}
 

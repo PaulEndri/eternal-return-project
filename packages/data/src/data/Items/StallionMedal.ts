@@ -7,7 +7,7 @@ export const StallionMedal: Item = {
 	"buildsInto": [
 		{
 			"name": "Rope Cuffs",
-			"id": "Rope Cuffs"
+			"id": 109201
 		},
 		{
 			"name": "Police Baton",

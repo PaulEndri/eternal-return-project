@@ -16,7 +16,7 @@ export const ChainArmor: Item = {
 	"buildsInto": [
 		{
 			"name": "Commander's Armor",
-			"id": "Commander's Armor"
+			"id": 202412
 		}
 	],
 	"requirements": {

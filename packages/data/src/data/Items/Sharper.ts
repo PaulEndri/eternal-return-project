@@ -6,7 +6,7 @@ export const Sharper: Item = {
 	"buildsFrom": [
 		{
 			"name": "Nunchaku",
-			"id": "Nunchaku"
+			"id": 119201
 		},
 		{
 			"name": "Nail",

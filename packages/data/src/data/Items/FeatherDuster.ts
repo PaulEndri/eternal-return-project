@@ -24,7 +24,7 @@ export const FeatherDuster: Item = {
 		},
 		{
 			"name": "Butler's Suit",
-			"id": "Butler's Suit"
+			"id": 202413
 		},
 		{
 			"name": "Laced Quiver",

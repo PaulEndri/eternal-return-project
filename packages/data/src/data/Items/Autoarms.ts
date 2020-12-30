@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Autoarms: Item = {
-	"id": "Auto-arms",
+	"id": 203503,
 	"name": "Auto-arms",
-	"href": "/Auto-arms",
 	"buildsFrom": [
 		{
 			"name": "Bracer",
@@ -33,16 +32,16 @@ export const Autoarms: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 203503,
+		"category": "Armor",
+		"type": "Arm"
+	},
 	"clientMetaData": {
 		"type": "Arm",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

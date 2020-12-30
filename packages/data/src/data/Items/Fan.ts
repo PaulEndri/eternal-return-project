@@ -11,7 +11,7 @@ export const Fan: Item = {
 		},
 		{
 			"name": "Wind Whip",
-			"id": "Wind Whip"
+			"id": 109301
 		},
 		{
 			"name": "Gilded Quill Fan",

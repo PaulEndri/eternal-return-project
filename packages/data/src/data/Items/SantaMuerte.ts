@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const SantaMuerte: Item = {
-	"id": "Santa Muerte",
+	"id": 105403,
 	"name": "Santa Muerte",
-	"href": "/Santa_Muerte",
 	"buildsFrom": [
 		{
 			"name": "Reaper's Scythe",
-			"id": "Reaper's Scythe"
+			"id": 105302
 		},
 		{
 			"name": "Ruby",
@@ -34,14 +33,14 @@ export const SantaMuerte: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Santa Muerte, the Mexican goddess of death, cuts off all negative energies with her long-handled scythe.",
+	"apiMetaData": {
+		"code": 105403,
+		"category": "Weapon",
+		"type": "Axe"
+	},
 	"clientMetaData": {
 		"type": "Axe",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

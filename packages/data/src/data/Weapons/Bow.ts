@@ -31,7 +31,7 @@ export const Bow: Weapon = {
 	"items": [
 		{
 			"name": "Bow",
-			"id": "Bow"
+			"id": 114101
 		},
 		{
 			"name": "Wooden Bow",

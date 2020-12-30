@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const Gleipnir: Item = {
-	"id": "Gleipnir",
+	"id": 109403,
 	"name": "Gleipnir",
-	"href": "/Gleipnir",
 	"buildsFrom": [
 		{
 			"name": "Wind Whip",
-			"id": "Wind Whip"
+			"id": 109301
 		},
 		{
 			"name": "Honey cod steak",
@@ -32,14 +31,14 @@ export const Gleipnir: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 109403,
+		"category": "Weapon",
+		"type": "Whip"
+	},
 	"clientMetaData": {
 		"type": "Whip",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

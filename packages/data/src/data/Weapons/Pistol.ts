@@ -56,7 +56,7 @@ export const Pistol: Weapon = {
 		},
 		{
 			"name": "Devil's Marksman",
-			"id": "Devil's Marksman"
+			"id": 116403
 		},
 		{
 			"name": "Elegance",

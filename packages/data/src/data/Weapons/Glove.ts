@@ -87,7 +87,7 @@ export const Glove: Weapon = {
 		},
 		{
 			"name": "Buddha's Palm",
-			"id": "Buddha's Palm"
+			"id": 110409
 		},
 		{
 			"name": "Brasil Gauntlet",

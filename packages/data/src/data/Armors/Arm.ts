@@ -81,7 +81,7 @@ export const Arm: Armor = {
 		},
 		{
 			"name": "Auto-arms",
-			"id": "Auto-arms"
+			"id": 203503
 		},
 		{
 			"name": "Radar",

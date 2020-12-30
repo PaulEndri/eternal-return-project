@@ -54,42 +54,42 @@ export const DesktopLoadoutComponent: FunctionComponent<LoadoutProps> = ({
 			</Segment>
 			<Segment raised inverted secondary color="black">
 				<LoadOutItemComponent
-					item={loadout.weapon}
+					item={loadout.Weapon}
 					type={Types.Weapon}
 					onClick={onLoadoutItemClick}
 				/>
 			</Segment>
 			<Segment raised inverted secondary color="black">
 				<LoadOutItemComponent
-					item={loadout.chest}
+					item={loadout.Chest}
 					type={Types.Chest}
 					onClick={onLoadoutItemClick}
 				/>
 			</Segment>
 			<Segment basic inverted secondary color="black">
 				<LoadOutItemComponent
-					item={loadout.head}
+					item={loadout.Head}
 					type={Types.Head}
 					onClick={onLoadoutItemClick}
 				/>
 			</Segment>
 			<Segment basic inverted secondary color="black">
 				<LoadOutItemComponent
-					item={loadout.arm}
+					item={loadout.Arm}
 					type={Types.Arm}
 					onClick={onLoadoutItemClick}
 				/>
 			</Segment>
 			<Segment basic inverted secondary color="black">
 				<LoadOutItemComponent
-					item={loadout.legs}
+					item={loadout.Leg}
 					type={Types.Leg}
 					onClick={onLoadoutItemClick}
 				/>
 			</Segment>
 			<Segment basic inverted secondary color="black">
 				<LoadOutItemComponent
-					item={loadout.accessory}
+					item={loadout.Accessory}
 					type={Types.Accessory}
 					onClick={onLoadoutItemClick}
 				/>

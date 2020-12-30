@@ -11,7 +11,7 @@ export const Box: Item = {
 		},
 		{
 			"name": "Schrodinger's Box",
-			"id": "Schrodinger's Box"
+			"id": 205404
 		},
 		{
 			"name": "Choco Pie Box",

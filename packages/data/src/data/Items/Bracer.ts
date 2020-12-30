@@ -24,7 +24,7 @@ export const Bracer: Item = {
 		},
 		{
 			"name": "Auto-arms",
-			"id": "Auto-arms"
+			"id": 203503
 		}
 	],
 	"requirements": {

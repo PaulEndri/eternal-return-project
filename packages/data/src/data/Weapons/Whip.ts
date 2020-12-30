@@ -14,35 +14,35 @@ export const Whip: Weapon = {
 		},
 		{
 			"name": "Rope Cuffs",
-			"id": "Rope Cuffs"
+			"id": 109201
 		},
 		{
 			"name": "Bullwhip",
-			"id": "Bullwhip"
+			"id": 109202
 		},
 		{
 			"name": "Wind Whip",
-			"id": "Wind Whip"
+			"id": 109301
 		},
 		{
 			"name": "Thunder Whip",
-			"id": "Thunder Whip"
+			"id": 109401
 		},
 		{
 			"name": "Lightning Whip",
-			"id": "Lightning Whip"
+			"id": 109402
 		},
 		{
 			"name": "Gleipnir",
-			"id": "Gleipnir"
+			"id": 109403
 		},
 		{
 			"name": "Plasma Whip",
-			"id": "Plasma Whip"
+			"id": 109404
 		},
 		{
 			"name": "Whip of Nine Bloody Tails",
-			"id": "Whip of Nine Bloody Tails"
+			"id": 109501
 		}
 	],
 	"apiMetaData": {

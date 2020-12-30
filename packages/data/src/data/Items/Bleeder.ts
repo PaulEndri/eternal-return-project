@@ -6,7 +6,7 @@ export const Bleeder: Item = {
 	"buildsFrom": [
 		{
 			"name": "Nunchaku",
-			"id": "Nunchaku"
+			"id": 119201
 		},
 		{
 			"name": "Razor",

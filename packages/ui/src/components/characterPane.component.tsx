@@ -2,7 +2,7 @@ import { Characters } from 'erbs-sdk';
 import React from 'react';
 import { Segment, Grid, Header } from 'semantic-ui-react';
 import CharacterThumbnailComponent from './characterThumbnail.component';
-import CharacterData from '../data/Character.json';
+import { Characters as CharacterData } from 'erbs-data';
 import CharacterCard from './characterCard.component';
 
 export const CharacterPane: React.FC<any> = ({

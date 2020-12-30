@@ -1,4 +1,4 @@
-import { Item, Loadout, Weapon } from 'erbs-sdk';
+import { Item, Loadout } from 'erbs-sdk';
 import React, { PureComponent, useState } from 'react';
 import {
 	Button,
@@ -12,13 +12,10 @@ import {
 	Header,
 	Tab
 } from 'semantic-ui-react';
-import { Types } from '../../utilities/types';
 import { DesktopLoadoutComponent } from '../../components/desktopLoadout.component';
 import { CharacterPane } from '../../components/characterPane.component';
 import { EquipmentPaneComponent } from '../../components/equipmentPane.component';
 import { RoutePaneComponent } from '../../components/routePane.component';
-
-export const getLoadoutType = (item) => (item instanceof Weapon ? Types.Weapon : item.type);
 
 export const initialLoadout = {
 	Weapon: null,
@@ -31,9 +28,8 @@ export const initialLoadout = {
 
 const PlannerView = () => {
 	const [ selectedItem, setSelectedItem ] = useState(null);
-	const [ selectedRadio, setSelectedRadio ] = useState(null);
+	const [ selectedFilter, setSelectedFilter ] = useState(null);
 	const [ selectedType, setSelectedType ] = useState(null);
-	const [ selectedWeaponType, setSelectedWeaponType ] = useState(null);
 	const [ selectedCharacter, setSelectedCharacter ] = useState(null);
 	const [ viewingCharacter, setViewingCharacter ] = useState(null);
 
@@ -47,18 +43,18 @@ const PlannerView = () => {
 		}
 	};
 
-	const onLoadoutItemClick = (item, type) => {
-		setSelectedType(item ? getLoadoutType(item) : type);
+	const onLoadoutItemClick = (item: Item<string>, type) => {
+		setSelectedType(item ? item.clientType : type);
 
 		if (item) {
 			setSelectedItem(item);
 		} else {
-			setSelectedRadio(type);
+			setSelectedFilter(type);
 		}
 	};
 
 	const onLookupItemClick = (item) => {
-		setSelectedType(getLoadoutType(item));
+		setSelectedType(item.clientType);
 		setSelectedItem(item);
 	};
 
@@ -69,11 +65,9 @@ const PlannerView = () => {
 	const equipmentPaneProps = {
 		selectedItem,
 		addSelectedToLoadout,
-		selectedRadio,
+		selectedFilter,
 		selectedCharacter,
-		selectedWeaponType,
-		setSelectedWeaponType,
-		setSelectedRadio,
+		setSelectedFilter,
 		onLookupItemClick
 	};
 

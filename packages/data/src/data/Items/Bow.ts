@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Bow: Item = {
-	"id": "Bow",
+	"id": 114101,
 	"name": "Bow",
-	"href": "/Bow",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -24,14 +23,14 @@ export const Bow: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try not to cry if the bowstring hits your face.",
+	"apiMetaData": {
+		"code": 114101,
+		"category": "Weapon",
+		"type": "Bow"
+	},
 	"clientMetaData": {
 		"type": "Bow",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

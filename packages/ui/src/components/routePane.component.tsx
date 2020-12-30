@@ -1,23 +1,7 @@
 import React, { useContext, useState } from 'react';
-import {
-	Segment,
-	Grid,
-	Header,
-	Button,
-	Image,
-	Transition,
-	List,
-	Label,
-	Input,
-	Form,
-	Dropdown
-} from 'semantic-ui-react';
-import { ItemCardComponent } from './itemCard.component';
-import { EquipmentFilterComponent } from './equipmentFilter.component';
-import { getItemList } from '../utilities/getList';
-import { rarityColor } from '../utilities/rarityColor';
+import { Segment, Grid, Header, Button, Label, Form, Dropdown } from 'semantic-ui-react';
 import { getImageSrc } from '../utilities/getImageSrc';
-import { ILoadout, Item, Loadout, Locations, Route } from 'erbs-sdk';
+import { Loadout, Locations, Route } from 'erbs-sdk';
 import { ItemModalContext } from '../state/itemModal';
 
 interface RoutePaneProps {
@@ -42,7 +26,7 @@ export const RoutePaneComponent: React.FC<RoutePaneProps> = ({ loadout }) => {
 
 	const generateRoute = () => {
 		try {
-			const route = new Route(loadout, weights, startingLocation);
+			const route = new Route(loadout);
 			setRoutes(route.generate());
 		} catch (e) {
 			console.error(e);

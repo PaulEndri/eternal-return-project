@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const OpticalCamouflageSuit: Item = {
-	"id": "Optical Camouflage Suit",
+	"id": 202405,
 	"name": "Optical Camouflage Suit",
-	"href": "/Optical_Camouflage_Suit",
 	"buildsFrom": [
 		{
 			"name": "Diving Suit",
@@ -16,7 +15,7 @@ export const OpticalCamouflageSuit: Item = {
 	],
 	"buildsInto": [],
 	"requirements": {
-		"Full Body Swimsuit": 1,
+		"Wetsuit": 1,
 		"Rubber": 1,
 		"Glass Bottle": 1,
 		"Stone": 1,
@@ -34,16 +33,16 @@ export const OpticalCamouflageSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "In the right environment, body parts covered by the suit become invisible.",
+	"apiMetaData": {
+		"code": 202405,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -16,7 +16,7 @@ export const ChainScythe: Item = {
 	"buildsInto": [
 		{
 			"name": "Reaper's Scythe",
-			"id": "Reaper's Scythe"
+			"id": 105302
 		}
 	],
 	"requirements": {

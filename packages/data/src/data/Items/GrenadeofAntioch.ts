@@ -6,7 +6,7 @@ export const GrenadeofAntioch: Item = {
 	"buildsFrom": [
 		{
 			"name": "High Explosive Grenade",
-			"id": "High Explosive Grenade"
+			"id": 112404
 		},
 		{
 			"name": "Cross",

@@ -16,7 +16,7 @@ export const ClangClatter: Item = {
 	"buildsInto": [
 		{
 			"name": "Rocker's Jacket",
-			"id": "Rocker's Jacket"
+			"id": 202406
 		}
 	],
 	"requirements": {

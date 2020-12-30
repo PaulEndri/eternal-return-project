@@ -16,7 +16,7 @@ export const Suit: Item = {
 	"buildsInto": [
 		{
 			"name": "Butler's Suit",
-			"id": "Butler's Suit"
+			"id": 202413
 		}
 	],
 	"requirements": {

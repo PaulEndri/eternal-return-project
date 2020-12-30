@@ -6,11 +6,11 @@ export const LaserCrossbow: Item = {
 	"buildsFrom": [
 		{
 			"name": "Crossbow",
-			"id": "Crossbow"
+			"id": 115101
 		},
 		{
 			"name": "Laster Pointer",
-			"id": "Laster Pointer"
+			"id": 401108
 		}
 	],
 	"buildsInto": [

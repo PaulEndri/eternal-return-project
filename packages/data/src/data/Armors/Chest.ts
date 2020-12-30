@@ -9,11 +9,11 @@ export const Chest: Armor = {
 		},
 		{
 			"name": "Monk's Robe",
-			"id": "Monk's Robe"
+			"id": 202103
 		},
 		{
 			"name": "Wetsuit",
-			"id": "Wetsuit"
+			"id": 202105
 		},
 		{
 			"name": "Fabric Armor",
@@ -89,19 +89,19 @@ export const Chest: Armor = {
 		},
 		{
 			"name": "Optical Camouflage Suit",
-			"id": "Optical Camouflage Suit"
+			"id": 202405
 		},
 		{
 			"name": "EOD Suit",
-			"id": "EOD Suit"
+			"id": 202417
 		},
 		{
 			"name": "Butler's Suit",
-			"id": "Butler's Suit"
+			"id": 202413
 		},
 		{
 			"name": "Rocker's Jacket",
-			"id": "Rocker's Jacket"
+			"id": 202406
 		},
 		{
 			"name": "Mithril Armor",
@@ -113,7 +113,7 @@ export const Chest: Armor = {
 		},
 		{
 			"name": "Amazoness Armor",
-			"id": "Amazoness Armor"
+			"id": 202410
 		},
 		{
 			"name": "Dragon Dobok",
@@ -121,11 +121,11 @@ export const Chest: Armor = {
 		},
 		{
 			"name": "Commander's Armor",
-			"id": "Commander's Armor"
+			"id": 202412
 		},
 		{
 			"name": "Battle Suit",
-			"id": "Battle Suit"
+			"id": 202415
 		},
 		{
 			"name": "Kabana",

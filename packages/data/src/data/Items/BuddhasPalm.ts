@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const BuddhasPalm: Item = {
-	"id": "Buddha's Palm",
+	"id": 110409,
 	"name": "Buddha's Palm",
-	"href": "/Buddha's_Palm",
 	"buildsFrom": [
 		{
 			"name": "Phoenix Gloves",
@@ -34,14 +33,14 @@ export const BuddhasPalm: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 110409,
+		"category": "Weapon",
+		"type": "Glove"
+	},
 	"clientMetaData": {
 		"type": "Glove",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

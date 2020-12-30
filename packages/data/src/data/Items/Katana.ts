@@ -24,7 +24,7 @@ export const Katana: Item = {
 		},
 		{
 			"name": "Dáinsleif",
-			"id": "Dáinsleif"
+			"id": 102501
 		}
 	],
 	"requirements": {

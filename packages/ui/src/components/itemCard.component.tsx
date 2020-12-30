@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useContext } from 'react';
 import { Button, Header, Image, List, Label, Segment } from 'semantic-ui-react';
-import { Item, IBasicItem } from 'erbs-sdk';
+import { Item, IItem } from 'erbs-sdk';
 import { getImageSrc } from '../utilities/getImageSrc';
 import { rarityColor } from '../utilities/rarityColor';
 import { ItemModalContext } from '../state/itemModal';
@@ -58,7 +58,7 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 							href={`https://eternalreturn.gamepedia.com/${item.name}`}
 							content={item.name}
 							style={{ marginBottom: '5px' }}
-							label={item.type}
+							label={item.clientType}
 						/>
 
 						<div style={{ color: 'white', fontStyle: 'italic' }}>
@@ -68,7 +68,11 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 					{item.stats && (
 						<Segment inverted raised style={{ backgroundColor: 'transparent' }}>
 							<Header>Stats</Header>
-							<List items={item.stats} />
+							<List
+								items={Object.entries(item.stats).map(
+									([ key, val ]) => `${key}: ${val}`
+								)}
+							/>
 						</Segment>
 					)}
 					{item.buildsFrom &&

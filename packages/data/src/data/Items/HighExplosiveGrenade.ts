@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const HighExplosiveGrenade: Item = {
-	"id": "High Explosive Grenade",
+	"id": 112404,
 	"name": "High Explosive Grenade",
-	"href": "/High_Explosive_Grenade",
 	"buildsFrom": [
 		{
 			"name": "Grenade",
@@ -37,14 +36,14 @@ export const HighExplosiveGrenade: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It hurts when you touch it, but it even hurts more when it explodes next to you.",
+	"apiMetaData": {
+		"code": 112404,
+		"category": "Weapon",
+		"type": "HighAngleFire"
+	},
 	"clientMetaData": {
 		"type": "Throw",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

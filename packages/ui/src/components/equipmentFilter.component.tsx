@@ -1,37 +1,31 @@
 import React, { FunctionComponent } from 'react';
-import { Button, Segment, Header, Form, Radio, Dropdown, Label } from 'semantic-ui-react';
+import { Segment, Header, Form, Radio, Label } from 'semantic-ui-react';
 import { Types } from '../utilities/types';
-import { ICharacter, WeaponTypes } from 'erbs-sdk';
-import { Weapons } from '../data/Weapons';
+import { ICharacter, WeaponsLookup } from 'erbs-sdk';
+
+const ReverseWeaponsLookup = Object.fromEntries(
+	Object.entries(WeaponsLookup).map(([ val, key ]) => [ key, val ])
+);
 
 const weaponTypeOptions = (selectedCharacter?: ICharacter) => {
-	return Object.entries(WeaponTypes as any)
-		.filter(([ key, value ]: [string, string]) => {
-			if (!selectedCharacter) {
-				return true;
-			}
-			return Weapons[key].usableBy.some(({ name }) => name === selectedCharacter.name);
-		})
-		.map(([ key, value ]) => ({
-			key,
-			name: value
-		}));
+	return !selectedCharacter
+		? Object.entries(WeaponsLookup).map(([ name, key ]) => ({ key, name }))
+		: selectedCharacter.weapons.map((lookup) => ({
+				key: lookup,
+				name: ReverseWeaponsLookup[lookup]
+			}));
 };
 
 interface EquipmentFilterProps {
-	selectedRadio: string;
-	setSelectedWeaponType: (string) => any;
-	selectedWeaponType: string;
-	setSelectedRadio: (string) => any;
+	selectedFilter: string;
+	setSelectedFilter: React.Dispatch<string>;
 	selectedCharacter?: ICharacter;
 }
 
 export const EquipmentFilterComponent: FunctionComponent<EquipmentFilterProps> = ({
-	selectedRadio,
-	setSelectedRadio,
-	setSelectedWeaponType,
-	selectedCharacter,
-	selectedWeaponType
+	selectedFilter,
+	setSelectedFilter,
+	selectedCharacter
 }) => (
 	<Segment.Group
 		style={{
@@ -58,10 +52,9 @@ export const EquipmentFilterComponent: FunctionComponent<EquipmentFilterProps> =
 								name="filterSelect"
 								value={type}
 								label={type}
-								checked={selectedRadio === type}
+								checked={selectedFilter === type}
 								onChange={() => {
-									setSelectedWeaponType(null);
-									setSelectedRadio(selectedRadio === type ? null : type);
+									setSelectedFilter(selectedFilter === type ? null : type);
 								}}
 							/>
 						</Form.Field>
@@ -78,33 +71,10 @@ export const EquipmentFilterComponent: FunctionComponent<EquipmentFilterProps> =
 						<Form.Radio
 							key={`${name}${idx}`}
 							label={name}
-							value={key as string}
-							checked={selectedWeaponType === key}
-							onChange={() => {
-								if (selectedWeaponType === key) {
-									setSelectedWeaponType(null);
-									setSelectedRadio(null);
-								} else {
-									setSelectedRadio(Types.Weapon);
-									setSelectedWeaponType(key);
-								}
-							}}
-							// content={
-							// 	<Radio
-							// 		name="filterSelect"
-							// 		value={key as string}
-							// 		checked={selectedWeaponType === key}
-							// 		onChange={() => {
-							// 			if (selectedWeaponType === key) {
-							// 				setSelectedWeaponType(null);
-							// 				setSelectedRadio(null);
-							// 			} else {
-							// 				setSelectedRadio(Types.Weapon);
-							// 				setSelectedWeaponType(key);
-							// 			}
-							// 		}}
-							// 	/>
-							// }
+							value={name as string}
+							checked={selectedFilter === name}
+							onChange={() =>
+								setSelectedFilter(selectedFilter === name ? null : name)}
 						/>
 					))}
 				</Form.Group>

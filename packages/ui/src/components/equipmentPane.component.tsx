@@ -1,32 +1,28 @@
 import React, { useContext } from 'react';
-import { Segment, Grid, Header, Button, Image, Transition, List, Label } from 'semantic-ui-react';
+import { Segment, Grid, Header, Button, Image, Transition, Label } from 'semantic-ui-react';
 import { ItemCardComponent } from './itemCard.component';
 import { EquipmentFilterComponent } from './equipmentFilter.component';
 import { getItemList } from '../utilities/getList';
 import { rarityColor } from '../utilities/rarityColor';
 import { getImageSrc } from '../utilities/getImageSrc';
-import { Item } from 'erbs-sdk';
+import { Item, Weapons } from 'erbs-sdk';
 import { ItemModalContext } from '../state/itemModal';
 
 interface EquipmentPaneProps {
 	selectedItem: any;
 	addSelectedToLoadout: () => void;
-	selectedRadio: any;
+	selectedFilter: any;
 	selectedCharacter: any;
-	selectedWeaponType: any;
-	setSelectedWeaponType: React.Dispatch<any>;
-	setSelectedRadio: React.Dispatch<any>;
+	setSelectedFilter: React.Dispatch<string>;
 	onLookupItemClick: (item: any) => void;
 }
 
 export const EquipmentPaneComponent: React.FC<EquipmentPaneProps> = ({
 	selectedItem,
 	addSelectedToLoadout,
-	selectedRadio,
+	selectedFilter,
 	selectedCharacter,
-	selectedWeaponType,
-	setSelectedWeaponType,
-	setSelectedRadio,
+	setSelectedFilter,
 	onLookupItemClick
 }) => {
 	let item: Item<any>;
@@ -99,11 +95,9 @@ export const EquipmentPaneComponent: React.FC<EquipmentPaneProps> = ({
 					<Grid.Row>
 						<Grid.Column width={16}>
 							<EquipmentFilterComponent
-								selectedRadio={selectedRadio}
+								selectedFilter={selectedFilter}
 								selectedCharacter={selectedCharacter}
-								selectedWeaponType={selectedWeaponType}
-								setSelectedWeaponType={setSelectedWeaponType}
-								setSelectedRadio={setSelectedRadio}
+								setSelectedFilter={setSelectedFilter}
 							/>
 						</Grid.Column>
 					</Grid.Row>
@@ -129,8 +123,8 @@ export const EquipmentPaneComponent: React.FC<EquipmentPaneProps> = ({
 									textAlign="center"
 								>
 									<Header inverted style={{ textTransform: 'capitalize' }}>
-										{selectedRadio ? (
-											(selectedWeaponType || selectedRadio).toLowerCase()
+										{selectedFilter ? (
+											selectedFilter.toLowerCase()
 										) : (
 											'equipment'
 										)}
@@ -144,16 +138,13 @@ export const EquipmentPaneComponent: React.FC<EquipmentPaneProps> = ({
 										justifyContent: 'center'
 									}}
 								>
-									{!selectedRadio && (
+									{!selectedFilter && (
 										<Segment fluid secondary inverted placeholder>
 											Select a Filter
 										</Segment>
 									)}
-									{selectedRadio &&
-										getItemList(
-											selectedRadio,
-											selectedWeaponType
-										).map((item) => {
+									{selectedFilter &&
+										getItemList(selectedFilter).map((item) => {
 											return (
 												<div>
 													<Button

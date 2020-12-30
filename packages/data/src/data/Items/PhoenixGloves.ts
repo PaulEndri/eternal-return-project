@@ -20,7 +20,7 @@ export const PhoenixGloves: Item = {
 		},
 		{
 			"name": "Buddha's Palm",
-			"id": "Buddha's Palm"
+			"id": 110409
 		}
 	],
 	"requirements": {

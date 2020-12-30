@@ -16,7 +16,7 @@ export const BallisticHelmet: Item = {
 	"buildsInto": [
 		{
 			"name": "Tactical OPS Helmet",
-			"id": "Tactical OPS Helmet"
+			"id": 201406
 		}
 	],
 	"requirements": {

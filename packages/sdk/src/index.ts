@@ -5,3 +5,5 @@ export * from './libs/Character';
 export * from './libs/Region';
 export * from './constants';
 export * from './interfaces';
+export * from './libs/WeaponType';
+export * from './libs/ArmorType';

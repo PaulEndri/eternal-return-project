@@ -11,7 +11,7 @@ export const ShortRod: Item = {
 		},
 		{
 			"name": "Reaper's Scythe",
-			"id": "Reaper's Scythe"
+			"id": 105302
 		},
 		{
 			"name": "Long Rod",

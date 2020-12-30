@@ -11,7 +11,7 @@ export const Binoculars: Item = {
 		},
 		{
 			"name": "Sniping Scope",
-			"id": "Sniping Scope"
+			"id": 205206
 		},
 		{
 			"name": "Telephoto Camera",

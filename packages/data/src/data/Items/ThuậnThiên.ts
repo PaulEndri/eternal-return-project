@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const ThuậnThiên: Item = {
-	"id": "Thuận Thiên",
+	"id": 102405,
 	"name": "Thuận Thiên",
-	"href": "/Thuận_Thiên",
 	"buildsFrom": [
 		{
 			"name": "Bastard Sword",
@@ -31,14 +30,14 @@ export const ThuậnThiên: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"apiMetaData": {
+		"code": 102405,
+		"category": "Weapon",
+		"type": "TwoHandSword"
+	},
 	"clientMetaData": {
 		"type": "Two-Handed Sword",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

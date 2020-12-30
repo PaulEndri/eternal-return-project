@@ -6,7 +6,7 @@ export const Longbow: Item = {
 	"buildsFrom": [
 		{
 			"name": "Bow",
-			"id": "Bow"
+			"id": 114101
 		},
 		{
 			"name": "Rubber",

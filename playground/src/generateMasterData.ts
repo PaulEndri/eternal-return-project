@@ -191,11 +191,14 @@ const generateItems = () => {
 	getItemData(misc, 'miscItemType');
 	getItemData(special, 'specialItemType');
 
-	const remainingTranslations = Object.values(missingTranslations);
-
+	writeFile('generatedEnTranslations', enTranslations);
+	writeFile('generatedRawTranslations', rawTranslations);
+	writeFile('generatedKrTranslations', krTranslations);
 	allItemKeys.forEach((remainingItemName) => {
+		// console.log(`[Trying to find "${remainingItemName}"]`);
 		const { type, category, ...item } = Items[remainingItemName];
-		const krName = rawTranslations[remainingItemName];
+		const krName =
+			krTranslations[remainingItemName] || krTranslations[remainingItemName.toLowerCase()];
 		let apiMetaData = {
 			code: null,
 			type: null,
@@ -204,20 +207,29 @@ const generateItems = () => {
 		let id = remainingItemName;
 
 		if (krName) {
+			// console.log(`[Found TL for "${remainingItemName}"]`);
+
 			allItemKeys = allItemKeys.filter((key) => key !== remainingItemName);
 
-			const krData = remainingTranslations.find(
-				({ name }) => name === krName || name === krName.replace(/ /g, '')
-			) as any;
+			const krData = missingTranslations[krName];
 
 			if (krData) {
+				// console.log(`[Found Data for "${remainingItemName}"]`);
+
 				id = krData.code;
 				apiMetaData = {
 					code: krData.code,
 					type: krData.type,
 					category: krData.itemType
 				};
+
+				delete missingTranslations[krName];
+				delete missingTranslations[krName.replace(/ /g, '')];
+			} else {
+				console.log(`[Failed to find Data for "${remainingItemName}"]`);
 			}
+		} else {
+			console.log(`[Failed to find TL for "${remainingItemName}"]`);
 		}
 
 		masterItems.push({
@@ -360,7 +372,7 @@ const generateLocations = () => {
 		krTranslations[name],
 		{
 			id: areaCode,
-			name: krTranslations[name],
+			name: enTranslations[name],
 			apiMetaData: { type: areaType, code: areaCode, name }
 		}
 	]);

@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const ThunderWhip: Item = {
-	"id": "Thunder Whip",
+	"id": 109401,
 	"name": "Thunder Whip",
-	"href": "/Thunder_Whip",
 	"buildsFrom": [
 		{
 			"name": "Bullwhip",
-			"id": "Bullwhip"
+			"id": 109202
 		},
 		{
 			"name": "Gold",
@@ -31,14 +30,14 @@ export const ThunderWhip: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 109401,
+		"category": "Weapon",
+		"type": "Whip"
+	},
 	"clientMetaData": {
 		"type": "Whip",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

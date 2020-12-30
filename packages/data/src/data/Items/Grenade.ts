@@ -16,7 +16,7 @@ export const Grenade: Item = {
 	"buildsInto": [
 		{
 			"name": "High Explosive Grenade",
-			"id": "High Explosive Grenade"
+			"id": 112404
 		}
 	],
 	"requirements": {

@@ -3,7 +3,8 @@ const rarityColorMap = {
 	Rare: 'blue',
 	Uncommon: 'green',
 	Epic: 'purple',
-	Legendary: 'yellow'
+	Legendary: 'yellow',
+	Legend: 'yellow'
 };
 
 export const rarityColor = (rarity: string) => {

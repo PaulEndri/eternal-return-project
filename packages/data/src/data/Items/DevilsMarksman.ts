@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const DevilsMarksman: Item = {
-	"id": "Devil's Marksman",
+	"id": 116403,
 	"name": "Devil's Marksman",
-	"href": "/Devil's_Marksman",
 	"buildsFrom": [
 		{
 			"name": "Double Revolver SP",
@@ -35,14 +34,14 @@ export const DevilsMarksman: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can perfect your marksmanship by selling your soul to the devil. What could possibly go wrong?",
+	"apiMetaData": {
+		"code": 116403,
+		"category": "Weapon",
+		"type": "Pistol"
+	},
 	"clientMetaData": {
 		"type": "Pistol",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

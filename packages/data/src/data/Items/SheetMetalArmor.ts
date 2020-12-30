@@ -20,7 +20,7 @@ export const SheetMetalArmor: Item = {
 		},
 		{
 			"name": "Amazoness Armor",
-			"id": "Amazoness Armor"
+			"id": 202410
 		}
 	],
 	"requirements": {

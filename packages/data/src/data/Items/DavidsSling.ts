@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const DavidsSling: Item = {
-	"id": "David's Sling",
+	"id": 112401,
 	"name": "David's Sling",
-	"href": "/David's_Sling",
 	"buildsFrom": [
 		{
 			"name": "Sling",
@@ -11,7 +10,7 @@ export const DavidsSling: Item = {
 		},
 		{
 			"name": "Saint's Relic",
-			"id": "Saint's Relic"
+			"id": 205202
 		}
 	],
 	"buildsInto": [],
@@ -34,14 +33,14 @@ export const DavidsSling: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "David's legendary stone that killed Goliath, the giant of Philistine.",
+	"apiMetaData": {
+		"code": 112401,
+		"category": "Weapon",
+		"type": "HighAngleFire"
+	},
 	"clientMetaData": {
 		"type": "Throw",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const WhipofNineBloodyTails: Item = {
-	"id": "Whip of Nine Bloody Tails",
+	"id": 109501,
 	"name": "Whip of Nine Bloody Tails",
-	"href": "/Whip_of_Nine_Bloody_Tails",
 	"buildsFrom": [
 		{
 			"name": "VF Blood Sample",
@@ -11,7 +10,7 @@ export const WhipofNineBloodyTails: Item = {
 		},
 		{
 			"name": "Wind Whip",
-			"id": "Wind Whip"
+			"id": 109301
 		}
 	],
 	"buildsInto": [],
@@ -32,14 +31,14 @@ export const WhipofNineBloodyTails: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 109501,
+		"category": "Weapon",
+		"type": "Whip"
+	},
 	"clientMetaData": {
 		"type": "Whip",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

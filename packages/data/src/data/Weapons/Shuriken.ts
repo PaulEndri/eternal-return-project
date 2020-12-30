@@ -113,7 +113,7 @@ export const Shuriken: Weapon = {
 		},
 		{
 			"name": "Flechette",
-			"id": "Flechette"
+			"id": 113410
 		},
 		{
 			"name": "Frost Venom Dart",

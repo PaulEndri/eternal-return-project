@@ -46,7 +46,7 @@ export const Axe: Weapon = {
 		},
 		{
 			"name": "Reaper's Scythe",
-			"id": "Reaper's Scythe"
+			"id": 105302
 		},
 		{
 			"name": "Gigantic Axe",
@@ -58,7 +58,7 @@ export const Axe: Weapon = {
 		},
 		{
 			"name": "Santa Muerte",
-			"id": "Santa Muerte"
+			"id": 105403
 		},
 		{
 			"name": "Scythe",

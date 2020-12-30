@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const ButlersSuit: Item = {
-	"id": "Butler's Suit",
+	"id": 202413,
 	"name": "Butler's Suit",
-	"href": "/Butler's_Suit",
 	"buildsFrom": [
 		{
 			"name": "Suit",
@@ -34,16 +33,16 @@ export const ButlersSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A graceful and courteous attitude, a soft tone, and a swallow-tailed black coat are the essentials of a butler. We can get a taste of high society by looking at them.",
+	"apiMetaData": {
+		"code": 202413,
+		"category": "Armor",
+		"type": "Chest"
+	},
 	"clientMetaData": {
 		"type": "Chest",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const RopeCuffs: Item = {
-	"id": "Rope Cuffs",
+	"id": 109201,
 	"name": "Rope Cuffs",
-	"href": "/Rope_Cuffs",
 	"buildsFrom": [
 		{
 			"name": "Whip",
@@ -17,7 +16,7 @@ export const RopeCuffs: Item = {
 	"buildsInto": [
 		{
 			"name": "Wind Whip",
-			"id": "Wind Whip"
+			"id": 109301
 		}
 	],
 	"requirements": {
@@ -33,14 +32,14 @@ export const RopeCuffs: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 109201,
+		"category": "Weapon",
+		"type": "Whip"
+	},
 	"clientMetaData": {
 		"type": "Whip",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

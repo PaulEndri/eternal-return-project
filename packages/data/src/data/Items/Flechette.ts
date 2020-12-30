@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Flechette: Item = {
-	"id": "Flechette",
+	"id": 113410,
 	"name": "Flechette",
-	"href": "/Flechette",
 	"buildsFrom": [
 		{
 			"name": "Plumbata",
@@ -35,14 +34,14 @@ export const Flechette: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 113410,
+		"category": "Weapon",
+		"type": "DirectFire"
+	},
 	"clientMetaData": {
 		"type": "Shuriken",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

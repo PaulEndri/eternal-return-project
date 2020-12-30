@@ -16,7 +16,7 @@ export const DeadBattery: Item = {
 	"buildsInto": [
 		{
 			"name": "Lightning Whip",
-			"id": "Lightning Whip"
+			"id": 109402
 		},
 		{
 			"name": "Ball Lightning",

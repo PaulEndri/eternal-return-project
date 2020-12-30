@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const CombatBoots: Item = {
-	"id": "Combat Boots",
+	"id": 204405,
 	"name": "Combat Boots",
-	"href": "/Combat_Boots",
 	"buildsFrom": [
 		{
 			"name": "Boots",
@@ -41,16 +40,16 @@ export const CombatBoots: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 204405,
+		"category": "Armor",
+		"type": "Leg"
+	},
 	"clientMetaData": {
 		"type": "Leg",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

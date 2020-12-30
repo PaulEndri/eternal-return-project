@@ -16,7 +16,7 @@ export const Boots: Item = {
 	"buildsInto": [
 		{
 			"name": "Combat Boots",
-			"id": "Combat Boots"
+			"id": 204405
 		},
 		{
 			"name": "EOD Boots",

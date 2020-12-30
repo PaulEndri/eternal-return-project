@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const ReapersScythe: Item = {
-	"id": "Reaper's Scythe",
+	"id": 105302,
 	"name": "Reaper's Scythe",
-	"href": "/Reaper's_Scythe",
 	"buildsFrom": [
 		{
 			"name": "Chain Scythe",
@@ -17,7 +16,7 @@ export const ReapersScythe: Item = {
 	"buildsInto": [
 		{
 			"name": "Santa Muerte",
-			"id": "Santa Muerte"
+			"id": 105403
 		},
 		{
 			"name": "Scythe",
@@ -43,14 +42,14 @@ export const ReapersScythe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon that the Grim Reaper carries. If the scythe claims someone, that soul will vanish.",
+	"apiMetaData": {
+		"code": 105302,
+		"category": "Weapon",
+		"type": "Axe"
+	},
 	"clientMetaData": {
 		"type": "Axe",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

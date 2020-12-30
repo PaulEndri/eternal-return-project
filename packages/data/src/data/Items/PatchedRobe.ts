@@ -6,7 +6,7 @@ export const PatchedRobe: Item = {
 	"buildsFrom": [
 		{
 			"name": "Monk's Robe",
-			"id": "Monk's Robe"
+			"id": 202103
 		},
 		{
 			"name": "Bandage",
@@ -20,7 +20,7 @@ export const PatchedRobe: Item = {
 		},
 		{
 			"name": "EOD Suit",
-			"id": "EOD Suit"
+			"id": 202417
 		}
 	],
 	"requirements": {

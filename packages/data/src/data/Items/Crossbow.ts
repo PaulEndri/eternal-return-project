@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const Crossbow: Item = {
-	"id": "Crossbow",
+	"id": 115101,
 	"name": "Crossbow",
-	"href": "/Crossbow",
 	"buildsFrom": [
 		{
 			"name": "Short Crossbow",
-			"id": 115101
+			"id": 115202
 		},
 		{
 			"name": "Bamboo",
@@ -41,14 +40,14 @@ export const Crossbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A mechanical bow that requires little human strength, but reloading takes a little longer than an ordinary bow.",
+	"apiMetaData": {
+		"code": 115101,
+		"category": "Weapon",
+		"type": "CrossBow"
+	},
 	"clientMetaData": {
 		"type": "CrossBow",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

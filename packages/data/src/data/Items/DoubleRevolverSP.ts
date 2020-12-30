@@ -16,7 +16,7 @@ export const DoubleRevolverSP: Item = {
 	"buildsInto": [
 		{
 			"name": "Devil's Marksman",
-			"id": "Devil's Marksman"
+			"id": 116403
 		}
 	],
 	"requirements": {

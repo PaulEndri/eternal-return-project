@@ -7,11 +7,11 @@ export const Whip: Item = {
 	"buildsInto": [
 		{
 			"name": "Rope Cuffs",
-			"id": "Rope Cuffs"
+			"id": 109201
 		},
 		{
 			"name": "Bullwhip",
-			"id": "Bullwhip"
+			"id": 109202
 		}
 	],
 	"requirements": {},

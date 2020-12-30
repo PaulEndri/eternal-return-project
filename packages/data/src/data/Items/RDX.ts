@@ -16,7 +16,7 @@ export const RDX: Item = {
 	"buildsInto": [
 		{
 			"name": "High Explosive Grenade",
-			"id": "High Explosive Grenade"
+			"id": 112404
 		},
 		{
 			"name": "The Golden Ghost",

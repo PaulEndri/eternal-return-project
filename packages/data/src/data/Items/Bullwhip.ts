@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Bullwhip: Item = {
-	"id": "Bullwhip",
+	"id": 109202,
 	"name": "Bullwhip",
-	"href": "/Bullwhip",
 	"buildsFrom": [
 		{
 			"name": "Whip",
@@ -17,11 +16,11 @@ export const Bullwhip: Item = {
 	"buildsInto": [
 		{
 			"name": "Thunder Whip",
-			"id": "Thunder Whip"
+			"id": 109401
 		},
 		{
 			"name": "Lightning Whip",
-			"id": "Lightning Whip"
+			"id": 109402
 		}
 	],
 	"requirements": {
@@ -37,14 +36,14 @@ export const Bullwhip: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 109202,
+		"category": "Weapon",
+		"type": "Whip"
+	},
 	"clientMetaData": {
 		"type": "Whip",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

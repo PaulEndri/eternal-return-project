@@ -36,7 +36,7 @@ export const ForceCore: Item = {
 		},
 		{
 			"name": "Auto-arms",
-			"id": "Auto-arms"
+			"id": 203503
 		},
 		{
 			"name": "Boots of Hermes",

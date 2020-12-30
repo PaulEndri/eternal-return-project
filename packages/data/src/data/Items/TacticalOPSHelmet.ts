@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const TacticalOPSHelmet: Item = {
-	"id": "Tactical OPS Helmet",
+	"id": 201406,
 	"name": "Tactical OPS Helmet",
-	"href": "/Tactical_OPS_Helmet",
 	"buildsFrom": [
 		{
 			"name": "Ballistic Helmet",
@@ -34,16 +33,16 @@ export const TacticalOPSHelmet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A tactical helmet used by special forces. Military grade communication technology is built-in.",
+	"apiMetaData": {
+		"code": 201406,
+		"category": "Armor",
+		"type": "Head"
+	},
 	"clientMetaData": {
 		"type": "Head",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

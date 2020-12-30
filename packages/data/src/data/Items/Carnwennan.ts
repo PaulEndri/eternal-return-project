@@ -10,7 +10,7 @@ export const Carnwennan: Item = {
 		},
 		{
 			"name": "Saint's Relic",
-			"id": "Saint's Relic"
+			"id": 205202
 		}
 	],
 	"buildsInto": [],

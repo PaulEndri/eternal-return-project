@@ -7,7 +7,7 @@ export const ScrapMetal: Item = {
 	"buildsInto": [
 		{
 			"name": "Nunchaku",
-			"id": "Nunchaku"
+			"id": 119201
 		},
 		{
 			"name": "High Heels",

@@ -30,7 +30,7 @@ export const Crossbow: Weapon = {
 	"items": [
 		{
 			"name": "Short Crossbow",
-			"id": 115101
+			"id": 115202
 		},
 		{
 			"name": "Long Crossbow",
@@ -38,7 +38,7 @@ export const Crossbow: Weapon = {
 		},
 		{
 			"name": "Crossbow",
-			"id": "Crossbow"
+			"id": 115101
 		},
 		{
 			"name": "Power Crossbow",
@@ -58,7 +58,7 @@ export const Crossbow: Weapon = {
 		},
 		{
 			"name": "The Legend of The General",
-			"id": "The Legend of The General"
+			"id": 115402
 		},
 		{
 			"name": "Ballista",

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Nunchaku: Item = {
-	"id": "Nunchaku",
+	"id": 119201,
 	"name": "Nunchaku",
-	"href": "/Nunchaku",
 	"buildsFrom": [
 		{
 			"name": "Steel Chain",
@@ -37,14 +36,14 @@ export const Nunchaku: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"apiMetaData": {
+		"code": 119201,
+		"category": "Weapon",
+		"type": "Nunchaku"
+	},
 	"clientMetaData": {
 		"type": "Nunchaku",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

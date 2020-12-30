@@ -6,7 +6,7 @@ export const AK47: Item = {
 	"buildsFrom": [
 		{
 			"name": "STG-44",
-			"id": "STG-44"
+			"id": 117201
 		},
 		{
 			"name": "Piano Wire",

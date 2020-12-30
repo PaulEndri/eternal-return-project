@@ -6,7 +6,7 @@ export const MachineGun: Item = {
 	"buildsFrom": [
 		{
 			"name": "STG-44",
-			"id": "STG-44"
+			"id": 117201
 		},
 		{
 			"name": "Motor",

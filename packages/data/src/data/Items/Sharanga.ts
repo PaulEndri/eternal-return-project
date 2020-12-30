@@ -10,7 +10,7 @@ export const Sharanga: Item = {
 		},
 		{
 			"name": "Crossbow",
-			"id": "Crossbow"
+			"id": 115101
 		}
 	],
 	"buildsInto": [],

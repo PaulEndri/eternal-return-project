@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Dáinsleif: Item = {
-	"id": "Dáinsleif",
+	"id": 102501,
 	"name": "Dáinsleif",
-	"href": "/Dáinsleif",
 	"buildsFrom": [
 		{
 			"name": "VF Blood Sample",
@@ -30,14 +29,14 @@ export const Dáinsleif: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"apiMetaData": {
+		"code": 102501,
+		"category": "Weapon",
+		"type": "TwoHandSword"
+	},
 	"clientMetaData": {
 		"type": "Two-Handed Sword",
 		"category": "Weapon"
-	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
 	},
 	"droppedFrom": [],
 	"airSupply": false,

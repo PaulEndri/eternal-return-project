@@ -24,7 +24,7 @@ export const ElectronicParts: Item = {
 		},
 		{
 			"name": "Tactical OPS Helmet",
-			"id": "Tactical OPS Helmet"
+			"id": 201406
 		},
 		{
 			"name": "Maverick Runner",

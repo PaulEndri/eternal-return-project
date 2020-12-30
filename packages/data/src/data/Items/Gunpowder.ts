@@ -19,7 +19,7 @@ export const Gunpowder: Item = {
 		},
 		{
 			"name": "STG-44",
-			"id": "STG-44"
+			"id": 117201
 		},
 		{
 			"name": "Dynamite",

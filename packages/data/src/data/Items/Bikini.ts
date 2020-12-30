@@ -5,8 +5,8 @@ export const Bikini: Item = {
 	"name": "Bikini",
 	"buildsFrom": [
 		{
-			"name": "Full Body Swimsuit",
-			"id": "Full Body Swimsuit"
+			"name": "Wetsuit",
+			"id": 202105
 		},
 		{
 			"name": "Scissors",
@@ -16,11 +16,11 @@ export const Bikini: Item = {
 	"buildsInto": [
 		{
 			"name": "Amazoness Armor",
-			"id": "Amazoness Armor"
+			"id": 202410
 		}
 	],
 	"requirements": {
-		"Full Body Swimsuit": 1,
+		"Wetsuit": 1,
 		"Scissors": 1
 	},
 	"stats": {

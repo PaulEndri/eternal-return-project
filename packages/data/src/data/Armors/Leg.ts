@@ -53,7 +53,7 @@ export const Leg: Armor = {
 		},
 		{
 			"name": "Combat Boots",
-			"id": "Combat Boots"
+			"id": 204405
 		},
 		{
 			"name": "Killer Heels",

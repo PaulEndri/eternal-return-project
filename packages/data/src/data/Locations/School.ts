@@ -47,7 +47,7 @@ export const School: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 401108,
+			"name": "Laster Pointer",
 			"id": 401108,
 			"quantity": 6
 		},
@@ -116,23 +116,23 @@ export const School: Location = {
 	"connections": [
 		{
 			"name": "Archery Range",
-			"id": 10
+			"id": "Archery Range"
 		},
 		{
 			"name": "Alley",
-			"id": 5
+			"id": "Alley"
 		},
 		{
 			"name": "Avenue",
-			"id": 7
+			"id": "Avenue"
 		},
 		{
 			"name": "Forest",
-			"id": 12
+			"id": "Forest"
 		},
 		{
 			"name": "Hotel",
-			"id": 6
+			"id": "Hotel"
 		}
 	]
 }

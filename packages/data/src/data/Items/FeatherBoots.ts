@@ -6,7 +6,7 @@ export const FeatherBoots: Item = {
 	"buildsFrom": [
 		{
 			"name": "Combat Boots",
-			"id": "Combat Boots"
+			"id": 204405
 		},
 		{
 			"name": "Feather",

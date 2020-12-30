@@ -2,9 +2,9 @@
   "name": "erbs-sdk",
   "version": "1.2.7",
   "description": "Eternal Return: Black Survival SDK",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "tsc && node dist/src/",
+    "start": "tsc && node dist/",
     "start:dev": "ts-node ./src/",
     "build": "tsc"
   },

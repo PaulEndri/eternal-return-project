@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const SnipingScope: Item = {
-	"id": "Sniping Scope",
+	"id": 205206,
 	"name": "Sniping Scope",
-	"href": "/Sniping_Scope",
 	"buildsFrom": [
 		{
 			"name": "Laster Pointer",
-			"id": "Laster Pointer"
+			"id": 401108
 		},
 		{
 			"name": "Binoculars",
@@ -38,16 +37,16 @@ export const SnipingScope: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You might be able to improve your accuracy with this on a rifle or other firearm.",
+	"apiMetaData": {
+		"code": 205206,
+		"category": "Armor",
+		"type": "Trinket"
+	},
 	"clientMetaData": {
 		"type": "Accessory",
 		"category": "Armor"
 	},
-	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
-	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }
