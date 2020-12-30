@@ -1,0 +1,52 @@
+import Item from '../../types/Item';
+
+export const VenomDart: Item = {
+	"id": 113402,
+	"name": "Venom Dart",
+	"buildsFrom": [
+		{
+			"name": "Needle",
+			"id": 120101
+		},
+		{
+			"name": "Poison",
+			"id": 401302
+		}
+	],
+	"buildsInto": [
+		{
+			"name": "Frost Venom Dart",
+			"id": 113408
+		}
+	],
+	"requirements": {
+		"Needle": 1,
+		"Paper": 1,
+		"Lighter": 1,
+		"Water": 1
+	},
+	"stats": {
+		"attackPower": 55,
+		"charges": 3,
+		"criticalStrikeDamage": 0.2,
+		"increaseSkillDamage": 15
+	},
+	"rarity": "Rare",
+	"stackable": false,
+	"maxStacks": 1,
+	"locations": {},
+	"foundQuantity": 1,
+	"description": "This deadly poison can kill an elephant within 3 seconds. Use it carefully.",
+	"apiMetaData": {
+		"code": 113402,
+		"category": "Weapon",
+		"type": "DirectFire"
+	},
+	"clientMetaData": {
+		"type": "Shuriken",
+		"category": "Weapon"
+	},
+	"droppedFrom": [],
+	"airSupply": false,
+	"collectible": 0
+}

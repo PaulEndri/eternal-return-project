@@ -27151,7 +27151,7 @@
         "DualSwords"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 560,
           "maxSp": 430,
           "initExtraPoint": 0,
@@ -27456,7 +27456,7 @@
         "SniperRifle"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 480,
           "maxSp": 440,
           "initExtraPoint": 0,
@@ -27735,7 +27735,7 @@
         "Spear"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 550,
           "maxSp": 430,
           "initExtraPoint": 0,
@@ -28072,7 +28072,7 @@
         "Bat"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 600,
           "maxSp": 410,
           "initExtraPoint": 0,
@@ -28371,7 +28371,7 @@
         "Shuriken"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 520,
           "maxSp": 400,
           "initExtraPoint": 0,
@@ -28657,7 +28657,7 @@
         "Crossbow"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 520,
           "maxSp": 350,
           "initExtraPoint": 0,
@@ -28953,7 +28953,7 @@
       },
       "weapons": [],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 500,
           "maxSp": 350,
           "initExtraPoint": 0,
@@ -29227,7 +29227,7 @@
         "Guitar"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 500,
           "maxSp": 420,
           "initExtraPoint": 0,
@@ -29518,7 +29518,7 @@
         "AssaultRifle"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 500,
           "maxSp": 400,
           "initExtraPoint": 0,
@@ -29577,7 +29577,7 @@
       ],
       "details": null,
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 550,
           "maxSp": 420,
           "initExtraPoint": 0,
@@ -29856,7 +29856,7 @@
         "DualSwords"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 550,
           "maxSp": 410,
           "initExtraPoint": 4,
@@ -30142,7 +30142,7 @@
         "Bow"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 500,
           "maxSp": 400,
           "initExtraPoint": 0,
@@ -30426,7 +30426,7 @@
         "Spear"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 530,
           "maxSp": 420,
           "initExtraPoint": 0,
@@ -30689,7 +30689,7 @@
         "Rapier"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 500,
           "maxSp": 410,
           "initExtraPoint": 0,
@@ -30977,7 +30977,7 @@
         "Shuriken"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 480,
           "maxSp": 400,
           "initExtraPoint": 0,
@@ -31411,7 +31411,7 @@
         "Pistol"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 500,
           "maxSp": 440,
           "initExtraPoint": 0,
@@ -31679,7 +31679,7 @@
         "Throw"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 530,
           "maxSp": 480,
           "initExtraPoint": 0,
@@ -31923,7 +31923,7 @@
         "Dagger"
       ],
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 550,
           "maxSp": 370,
           "initExtraPoint": 0,
@@ -31973,7 +31973,7 @@
       ],
       "details": null,
       "stats": {
-        "initital": {
+        "initial": {
           "maxHp": 550,
           "maxSp": 430,
           "initExtraPoint": 0,

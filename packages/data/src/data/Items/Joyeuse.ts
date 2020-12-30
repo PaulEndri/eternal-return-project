@@ -1,0 +1,45 @@
+import Item from '../../types/Item';
+
+export const Joyeuse: Item = {
+	"id": 120405,
+	"name": "Joyeuse",
+	"buildsFrom": [
+		{
+			"name": "Rapier",
+			"id": 120201
+		},
+		{
+			"name": "Mithril",
+			"id": 401304
+		}
+	],
+	"buildsInto": [],
+	"requirements": {
+		"Needle": 1,
+		"Iron Ore": 1,
+		"Mithril": 1
+	},
+	"stats": {
+		"attackPower": 75,
+		"criticalStrikeDamage": 0.3,
+		"moveSpeed": 0.2
+	},
+	"rarity": "Epic",
+	"stackable": false,
+	"maxStacks": 1,
+	"locations": {},
+	"foundQuantity": 1,
+	"description": "",
+	"apiMetaData": {
+		"code": 120405,
+		"category": "Weapon",
+		"type": "Rapier"
+	},
+	"clientMetaData": {
+		"type": "Rapier",
+		"category": "Weapon"
+	},
+	"droppedFrom": [],
+	"airSupply": false,
+	"collectible": 0
+}

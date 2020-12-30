@@ -1,0 +1,46 @@
+import Item from '../../types/Item';
+
+export const MithrilHelm: Item = {
+	"id": 201403,
+	"name": "Mithril Helm",
+	"buildsFrom": [
+		{
+			"name": "Mithril",
+			"id": 401304
+		},
+		{
+			"name": "Chain Coif",
+			"id": 201204
+		}
+	],
+	"buildsInto": [],
+	"requirements": {
+		"Mithril": 1,
+		"Hat": 1,
+		"Steel Chain": 1
+	},
+	"stats": {
+		"attackSpeedRatio": 0.12,
+		"cooldownReduction": 0.15,
+		"defense": 38,
+		"moveSpeed": 0.2
+	},
+	"rarity": "Epic",
+	"stackable": false,
+	"maxStacks": 1,
+	"locations": {},
+	"foundQuantity": 1,
+	"description": "A helm made of mithril that's been reforged through generations. Delicate reliefs carved into the surface hint at the craftsmanship invested into it.",
+	"apiMetaData": {
+		"code": 201403,
+		"category": "Armor",
+		"type": "Head"
+	},
+	"clientMetaData": {
+		"type": "Head",
+		"category": "Armor"
+	},
+	"droppedFrom": [],
+	"airSupply": true,
+	"collectible": 0
+}

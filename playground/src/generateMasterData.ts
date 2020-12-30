@@ -263,7 +263,7 @@ const generateCharacters = () => {
 					abilities,
 					weapons,
 					stats: {
-						initital: stats,
+						initial: stats,
 						perLevel: levelUpStats[0]
 					},
 					apiMetaData: {

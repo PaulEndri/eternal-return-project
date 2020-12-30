@@ -1,0 +1,21 @@
+{
+  "name": "erbs-data",
+  "version": "1.2.5",
+  "description": "Eternal Return: Black Survival Data Objects",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/",
+    "start:dev": "ts-node ./src/",
+    "build": "tsc"
+  },
+  "author": "Paul Endri",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulEndri/eternal-return-project",
+    "directory": "packages/data"
+  }
+}

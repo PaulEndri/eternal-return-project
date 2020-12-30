@@ -1,0 +1,66 @@
+import Item from '../../types/Item';
+
+export const DeadBattery: Item = {
+	"id": 401205,
+	"name": "Dead Battery",
+	"buildsFrom": [
+		{
+			"name": "Battery",
+			"id": 401110
+		},
+		{
+			"name": "Water",
+			"id": 301102
+		}
+	],
+	"buildsInto": [
+		{
+			"name": "Lightning Whip",
+			"id": "Lightning Whip"
+		},
+		{
+			"name": "Ball Lightning",
+			"id": 112303
+		},
+		{
+			"name": "Single Coil Pickup",
+			"id": 121202
+		},
+		{
+			"name": "Ion Battery",
+			"id": 401306
+		}
+	],
+	"requirements": {
+		"Battery": 1,
+		"Water": 1
+	},
+	"stats": {},
+	"rarity": "Uncommon",
+	"stackable": true,
+	"maxStacks": 3,
+	"locations": {},
+	"foundQuantity": 2,
+	"description": "Is a dead battery still a battery? Just throw it at someone!",
+	"apiMetaData": {
+		"code": 401205,
+		"category": "Misc",
+		"type": "Material"
+	},
+	"clientMetaData": {
+		"type": "Material",
+		"category": "Misc"
+	},
+	"droppedFrom": [
+		{
+			"name": "Wolf",
+			"id": 5
+		},
+		{
+			"name": "Bear",
+			"id": 6
+		}
+	],
+	"airSupply": true,
+	"collectible": 0
+}

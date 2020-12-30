@@ -6,7 +6,7 @@ import {
 	ICharacterInitialStat,
 	ICharacterLevelUpStat
 } from '../interfaces';
-import CharacterData from '../data/characters.json';
+import { Characters as CharacterData } from 'erbs-data';
 
 export class Character implements ICharacter {
 	public attributes: ICharacterAttribute[];
