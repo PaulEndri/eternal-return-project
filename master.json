@@ -908,10 +908,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -959,10 +958,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -1016,10 +1014,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -2265,10 +2262,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -2687,10 +2683,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -2738,10 +2733,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -3165,10 +3159,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -3902,10 +3895,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -5101,10 +5093,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -5445,10 +5436,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -6106,10 +6096,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -6158,10 +6147,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -6202,10 +6190,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -9565,10 +9552,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -9807,10 +9793,9 @@
         "category": "Weapon"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -10236,6 +10221,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "",
       "apiMetaData": {
         "code": 121101,
         "category": "Weapon",
@@ -10286,6 +10272,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "Some people think that the more expensive it is, the better it sounds.",
       "apiMetaData": {
         "code": 121201,
         "category": "Weapon",
@@ -10345,6 +10332,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "Single coil guitars generally have a brighter, crisper output, and sound clearer.",
       "apiMetaData": {
         "code": 121202,
         "category": "Weapon",
@@ -10395,6 +10383,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "A unique guitar that is as red as a ruby.",
       "apiMetaData": {
         "code": 121301,
         "category": "Weapon",
@@ -10444,6 +10433,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "A guitar with dual coil pickups. It has a darker output.",
       "apiMetaData": {
         "code": 121302,
         "category": "Weapon",
@@ -10491,6 +10481,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "This guitar has an unconventional V shape. Although it was sensational at release, it didn't see huge popularity.",
       "apiMetaData": {
         "code": 121303,
         "category": "Weapon",
@@ -10541,6 +10532,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "The most used title in art is \"Untitled\". Isn't there an unsaid rule that says not to do that with guitar names?",
       "apiMetaData": {
         "code": 121304,
         "category": "Weapon",
@@ -10593,6 +10585,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "Collectively refers to the most famous types of guitars in the world.",
       "apiMetaData": {
         "code": 121305,
         "category": "Weapon",
@@ -10641,6 +10634,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "If it follows in the footsteps of the performance it takes its name from, you can probably expect to be in front of a large audience with this one.",
       "apiMetaData": {
         "code": 121306,
         "category": "Weapon",
@@ -10688,6 +10682,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "\"Bohemian\" was first used to describe a part of the Czech population, but it is now used to represent free spirits.",
       "apiMetaData": {
         "code": 121401,
         "category": "Weapon",
@@ -10734,6 +10729,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "Heaven might be all bright and shiny, but we can't say the same for the stairway leading up to it. It might be covered in lead...",
       "apiMetaData": {
         "code": 121402,
         "category": "Weapon",
@@ -10778,6 +10774,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "Whether tomorrow is waiting for you, or if it's really the end of time... this island doesn't have the answer.",
       "apiMetaData": {
         "code": 121403,
         "category": "Weapon",
@@ -10824,6 +10821,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "The human nature of not being satisfied is what drives development. Humanity always blindly trusts evolution.",
       "apiMetaData": {
         "code": 121404,
         "category": "Weapon",
@@ -10868,6 +10866,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "If it's late in the evening, and you're wondering what item to craft, try this one!",
       "apiMetaData": {
         "code": 121405,
         "category": "Weapon",
@@ -10913,6 +10912,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "The test subjects on this island might as well just be, all in all, bricks in a wall.",
       "apiMetaData": {
         "code": 121406,
         "category": "Weapon",
@@ -10958,6 +10958,7 @@
       "maxStacks": 1,
       "locations": {},
       "foundQuantity": 1,
+      "description": "Humans shine the most as teens. This shining aura fades slowly, but inevitably, as times passes by.",
       "apiMetaData": {
         "code": 121407,
         "category": "Weapon",
@@ -11010,10 +11011,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -11058,10 +11058,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -11105,10 +11104,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -12010,10 +12008,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -12057,10 +12054,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -13208,10 +13204,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -13268,10 +13263,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -13315,10 +13309,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -14165,10 +14158,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -14212,10 +14204,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -14260,10 +14251,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -15186,10 +15176,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -15250,10 +15239,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -15301,10 +15289,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -15356,10 +15343,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -15405,15 +15391,13 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         },
-        "WildDog",
         {
-          "name": 3,
-          "id": 3
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -15461,10 +15445,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -15510,14 +15493,12 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         },
-        "Boar",
         {
-          "name": 3,
+          "name": "Boar",
           "id": 3
         }
       ],
@@ -15573,10 +15554,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -15626,15 +15606,13 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         },
-        "WildDog",
         {
-          "name": 3,
-          "id": 3
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -15963,10 +15941,9 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         }
       ],
       "airSupply": true,
@@ -16073,15 +16050,13 @@
         "category": "Armor"
       },
       "droppedFrom": [
-        "Bear",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bear",
+          "id": 6
         },
-        "Wickline",
         {
-          "name": 3,
-          "id": 3
+          "name": "Wickline",
+          "id": 7
         }
       ],
       "airSupply": false,
@@ -16570,7 +16545,6 @@
         "Forest": 6
       },
       "foundQuantity": 2,
-      "description": "Sweet and sticky. A natural ingredient that is good for cooking or just eating raw!",
       "apiMetaData": {
         "code": 301101,
         "category": "Consume",
@@ -16631,7 +16605,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 3,
-      "description": "You can't live without it.",
       "apiMetaData": {
         "code": 301102,
         "category": "Consume",
@@ -16696,7 +16669,6 @@
         "Hotel": 7
       },
       "foundQuantity": 2,
-      "description": "Without teeth, use gums! Without water, use ice!",
       "apiMetaData": {
         "code": 301103,
         "category": "Consume",
@@ -16745,7 +16717,6 @@
         "Uptown": 5
       },
       "foundQuantity": 1,
-      "description": "It would probably be tasty if you made juice with this.",
       "apiMetaData": {
         "code": 301107,
         "category": "Consume",
@@ -16826,7 +16797,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 3,
-      "description": "Put something in it before it cools down.",
       "apiMetaData": {
         "code": 301201,
         "category": "Consume",
@@ -16879,7 +16849,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 3,
-      "description": "",
       "apiMetaData": {
         "code": 301209,
         "category": "Consume",
@@ -16957,10 +16926,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -17089,10 +17057,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -17150,10 +17117,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -17212,15 +17178,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         },
-        "WildDog",
         {
-          "name": 3,
-          "id": 3
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -17291,10 +17255,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -17352,10 +17315,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -17397,10 +17359,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -17458,10 +17419,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -17528,10 +17488,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -17577,10 +17536,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -17627,10 +17585,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -17672,10 +17629,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -17717,10 +17673,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         }
       ],
       "airSupply": false,
@@ -17770,10 +17725,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -17819,10 +17773,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -17884,10 +17837,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "WildDog",
         {
-          "name": 1,
-          "id": 1
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -17992,10 +17944,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -18077,15 +18028,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18147,15 +18096,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18221,15 +18168,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18303,15 +18248,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18369,15 +18312,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18451,15 +18392,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18544,15 +18483,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18626,15 +18563,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18700,15 +18635,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18778,15 +18711,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18860,15 +18791,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -18950,15 +18879,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19024,10 +18951,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bear",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19092,20 +19018,17 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
-        },
-        "Bear",
-        {
-          "name": 3,
-          "id": 3
-        },
-        "Wickline",
-        {
-          "name": 5,
+          "name": "Wolf",
           "id": 5
+        },
+        {
+          "name": "Bear",
+          "id": 6
+        },
+        {
+          "name": "Wickline",
+          "id": 7
         }
       ],
       "airSupply": true,
@@ -19168,15 +19091,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19235,15 +19156,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19297,20 +19216,17 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
-        },
-        "Bear",
-        {
-          "name": 3,
-          "id": 3
-        },
-        "Wickline",
-        {
-          "name": 5,
+          "name": "Wolf",
           "id": 5
+        },
+        {
+          "name": "Bear",
+          "id": 6
+        },
+        {
+          "name": "Wickline",
+          "id": 7
         }
       ],
       "airSupply": true,
@@ -19365,15 +19281,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19436,15 +19350,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Wolf",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wolf",
+          "id": 5
         },
-        "Bear",
         {
-          "name": 3,
-          "id": 3
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19502,10 +19414,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bear",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19584,10 +19495,9 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bear",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bear",
+          "id": 6
         }
       ],
       "airSupply": true,
@@ -19639,15 +19549,13 @@
         "category": "Misc"
       },
       "droppedFrom": [
-        "Bear",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bear",
+          "id": 6
         },
-        "Wickline",
         {
-          "name": 3,
-          "id": 3
+          "name": "Wickline",
+          "id": 7
         }
       ],
       "airSupply": true,
@@ -19689,20 +19597,17 @@
         "category": "Special"
       },
       "droppedFrom": [
-        "Bat",
         {
-          "name": 1,
-          "id": 1
+          "name": "Bat",
+          "id": 2
         },
-        "Boar",
         {
-          "name": 3,
+          "name": "Boar",
           "id": 3
         },
-        "WildDog",
         {
-          "name": 5,
-          "id": 5
+          "name": "WildDog",
+          "id": 4
         }
       ],
       "airSupply": false,
@@ -19753,10 +19658,9 @@
         "category": "Special"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -19820,10 +19724,9 @@
         "category": "Special"
       },
       "droppedFrom": [
-        "Boar",
         {
-          "name": 1,
-          "id": 1
+          "name": "Boar",
+          "id": 3
         }
       ],
       "airSupply": false,
@@ -20008,10 +19911,9 @@
         "category": "Special"
       },
       "droppedFrom": [
-        "Wickline",
         {
-          "name": 1,
-          "id": 1
+          "name": "Wickline",
+          "id": 7
         }
       ],
       "airSupply": true,
@@ -22129,7 +22031,6 @@
         "Uptown": 5
       },
       "foundQuantity": 1,
-      "description": "A classic liquor made by distilling grain. Used as the main ingredient in many cocktails, but popular just by itself.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22183,7 +22084,6 @@
         "Dock": 6
       },
       "foundQuantity": 1,
-      "description": "Don't talk to me until I've had my fourth morning coffee.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22245,7 +22145,6 @@
         "Chapel": 3
       },
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22286,7 +22185,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 4,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22327,7 +22225,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22381,7 +22278,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 1,
-      "description": "A traditional Chinese liquor. Typically made from Sorghum. Often regarded as the best selling spirit in the world, due to China's affection for it.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22422,7 +22318,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "Although this hard liquor might smell like disinfectant, it's loved by Koreans and can be found at every single social gathering.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22463,7 +22358,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "You take it with cream and sugar?",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22553,7 +22447,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "A very popular liqueur. It goes well with milk...or vodka.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22594,7 +22487,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22635,7 +22527,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22676,7 +22567,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22717,7 +22607,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 3,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22758,7 +22647,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "It is good for recovering stamina or if you have a sore throat.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22804,7 +22692,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "You can even chew on the leftover ice after you drink it.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22845,7 +22732,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22886,7 +22772,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22927,7 +22812,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 3,
-      "description": "A very strong 100-120 proof alcohol. It has a clean, soft taste and delicate scent.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -22969,7 +22853,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "Did you ever hear that lukewarm honey is a cure for hangovers?",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23011,7 +22894,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 5,
-      "description": "Made with real flowers for a unique taste!",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23053,7 +22935,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "For those who don't drink coffee, this takes like bitter water.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23095,7 +22976,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 5,
-      "description": "It's sometimes consumed for its medicinal properties as it is made from medicinal herbs.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23137,7 +23017,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 5,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23179,7 +23058,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "Clean water fetched from the well early in the morning. It can be used for medicine or to drink while praying for victory.",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23221,7 +23099,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 2,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23263,7 +23140,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 4,
-      "description": "A sweet, warm drink with cocoa powder and milk. Try it with marshmallows!",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -23305,7 +23181,6 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 4,
-      "description": "",
       "clientMetaData": {
         "type": "Beverage",
         "category": "Consume"
@@ -27877,7 +27752,7 @@
         "perLevel": {
           "maxHp": 87,
           "maxSp": 13,
-          "attackPower": 2.8,
+          "attackPower": 3.2,
           "defense": 2.2,
           "criticalChance": 0,
           "hpRegen": 0.06,
@@ -28984,13 +28859,24 @@
           "stats": {
             "Skill damage": {
               "title": "Skill damage",
-              "value": "5/8/11/14/17% of enemy's current HP",
+              "value": "5/8/11/14/17% of enemy's current HP (+1.0 Defense)",
               "tiers": {
                 "1": "5",
                 "2": "8",
                 "3": "11",
                 "4": "14",
                 "5": "17%"
+              }
+            },
+            "Defense": {
+              "title": "Defense",
+              "value": "-7/-9/-11/-13/-15% (enemy)",
+              "tiers": {
+                "1": "-7",
+                "2": "-9",
+                "3": "-11",
+                "4": "-13",
+                "5": "-15%"
               }
             },
             "Stun": {
@@ -30313,10 +30199,232 @@
           "assistance": 3
         }
       ],
-      "description": "",
-      "details": {},
-      "abilities": {},
-      "weapons": [],
+      "description": "\"Okay, let's get cookin'\"",
+      "details": {
+        "Real Name": "Zuo XiuKai",
+        "Age": "34",
+        "Nationality": "China",
+        "Occupation": "Chef",
+        "Role": "Tank"
+      },
+      "abilities": {
+        "Passive": {
+          "name": "Juggernaut Chef",
+          "slot": "Passive",
+          "type": "Buff",
+          "description": "Food and beverages made by Xiukai have 30% bonus recovery. When crafting a food item of Uncommon or higher rarity, he earns a stack of Juggernaut Chef, increasing his max HP by 8 for each stack. \nStacks given per food: 1/2/3 for all rarities",
+          "stats": {
+            "Casting time": {
+              "title": "Casting time",
+              "value": "instant",
+              "tiers": {}
+            }
+          }
+        },
+        "Q": {
+          "name": "Lost in the Sauce",
+          "slot": "Q",
+          "type": "Attack",
+          "description": "Xiukai throws his sauce barrel in the targeted direction, dealing damage to enemies hit and reducing their movement speed by 30% for 2 seconds.",
+          "stats": {
+            "Skill damage": {
+              "title": "Skill damage",
+              "value": "80/120/160/200/240(+0.5 AP)",
+              "tiers": {
+                "1": "80",
+                "2": "120",
+                "3": "160",
+                "4": "200",
+                "5": "240(+0.5"
+              }
+            },
+            "Range": {
+              "title": "Range",
+              "value": "8.5m",
+              "tiers": {}
+            },
+            "Casting time": {
+              "title": "Casting time",
+              "value": "0.26s",
+              "tiers": {}
+            },
+            "Cost": {
+              "title": "Cost",
+              "value": "30/45/60/75/90 HP",
+              "tiers": {
+                "1": "30",
+                "2": "45",
+                "3": "60",
+                "4": "75",
+                "5": "90"
+              }
+            },
+            "Cooldown": {
+              "title": "Cooldown",
+              "value": "7/6.5/6/5.5/5 Seconds",
+              "tiers": {
+                "1": "7",
+                "2": "6.5",
+                "3": "6",
+                "4": "5.5",
+                "5": "5"
+              }
+            }
+          }
+        },
+        "W": {
+          "name": "Heavy Meal",
+          "slot": "W",
+          "type": "Attack",
+          "description": "Xiukai slams his giant wok on the ground, dealing damage in an area around him and reducing the movement speed of enemies hit by 10/20/30/40/50% for 1.5 seconds.\nEnemies with impaired movement receive an additional damage (3/3.5/4/4.5/5% of Xiukai's max HP) and their movement speed is reduced for an additional 3 seconds.",
+          "stats": {
+            "Skill damage": {
+              "title": "Skill damage",
+              "value": "60/100/140/180/220(+0.4 AP)",
+              "tiers": {
+                "1": "60",
+                "2": "100",
+                "3": "140",
+                "4": "180",
+                "5": "220(+0.4"
+              }
+            },
+            "Range": {
+              "title": "Range",
+              "value": "4m",
+              "tiers": {}
+            },
+            "Casting time": {
+              "title": "Casting time",
+              "value": "0.34s",
+              "tiers": {}
+            },
+            "Cost": {
+              "title": "Cost",
+              "value": "30/45/60/75/90 HP",
+              "tiers": {
+                "1": "30",
+                "2": "45",
+                "3": "60",
+                "4": "75",
+                "5": "90"
+              }
+            },
+            "Cooldown": {
+              "title": "Cooldown",
+              "value": "16/14/12/10/8 Seconds",
+              "tiers": {
+                "1": "16",
+                "2": "14",
+                "3": "12",
+                "4": "10",
+                "5": "8"
+              }
+            }
+          }
+        },
+        "E": {
+          "name": "Wok It Off",
+          "slot": "E",
+          "type": "Attack/Movement",
+          "description": "Xiukai slides on his wok in the targeted direction, dealing damage to enemies hit. Enemies with impared movement receive additional damage and are knocked airborne for 1 second.",
+          "stats": {
+            "Skill damage": {
+              "title": "Skill damage",
+              "value": "80/110/140/170/190(+0.5 AP) (+ 1.5/2/2.5/3/3.5% of Xiukai's max HP)  Additional Damage: (1.5/2/2.5/3/3.5% of Xiukai's max HP)",
+              "tiers": {
+                "1": "(1.5",
+                "2": "2",
+                "3": "2.5",
+                "4": "3",
+                "5": "3.5%"
+              }
+            },
+            "Range": {
+              "title": "Range",
+              "value": "7m",
+              "tiers": {}
+            },
+            "Casting time": {
+              "title": "Casting time",
+              "value": "0.34s",
+              "tiers": {}
+            },
+            "Cost": {
+              "title": "Cost",
+              "value": "30/45/60/75/90 HP",
+              "tiers": {
+                "1": "30",
+                "2": "45",
+                "3": "60",
+                "4": "75",
+                "5": "90"
+              }
+            },
+            "Cooldown": {
+              "title": "Cooldown",
+              "value": "16/14/12/10/8 Seconds",
+              "tiers": {
+                "1": "16",
+                "2": "14",
+                "3": "12",
+                "4": "10",
+                "5": "8"
+              }
+            }
+          }
+        },
+        "R": {
+          "name": "Burnt to a Crisp",
+          "slot": "R",
+          "type": "Attack (Ultimate)",
+          "description": "Xiukai dishes out fire from his wok 6 times in 3 seconds, dealing damage to enemies in a cone in front of him. (+ stacks of Juggernaut Chef). Enemies with impaired movement have their defense reduced by 10/15/20% for 3 seconds.",
+          "stats": {
+            "Skill damage": {
+              "title": "Skill damage",
+              "value": "50/100/150(+0.5 AP)",
+              "tiers": {
+                "1": "50",
+                "2": "100",
+                "3": "150(+0.5"
+              }
+            },
+            "Skill duration": {
+              "title": "Skill duration",
+              "value": "3s",
+              "tiers": {}
+            },
+            "Range": {
+              "title": "Range",
+              "value": "6.5m (90 degree)",
+              "tiers": {}
+            },
+            "Casting time": {
+              "title": "Casting time",
+              "value": "0.5s",
+              "tiers": {}
+            },
+            "Cost": {
+              "title": "Cost",
+              "value": "100/120/140 HP",
+              "tiers": {
+                "1": "100",
+                "2": "120",
+                "3": "140"
+              }
+            },
+            "Cooldown": {
+              "title": "Cooldown",
+              "value": "60 Seconds",
+              "tiers": {}
+            }
+          }
+        }
+      },
+      "weapons": [
+        "Dagger",
+        "Spear"
+      ],
       "stats": {
         "initital": {
           "maxHp": 530,
@@ -30592,7 +30700,7 @@
           "hpRegen": 0.5,
           "spRegen": 1.8,
           "attackSpeed": 0.11,
-          "moveSpeed": 3.2,
+          "moveSpeed": 3.15,
           "sightRange": 8
         },
         "perLevel": {
@@ -31830,10 +31938,10 @@
           "sightRange": 8
         },
         "perLevel": {
-          "maxHp": 78,
+          "maxHp": 75,
           "maxSp": 13,
           "attackPower": 2.9,
-          "defense": 2.2,
+          "defense": 2,
           "criticalChance": 0,
           "hpRegen": 0.04,
           "spRegen": 0.04,
@@ -31874,8 +31982,8 @@
           "defense": 28,
           "criticalStrikeChance": 0,
           "hpRegen": 0.4,
-          "spRegen": 1.1,
-          "attackSpeed": 0.12,
+          "spRegen": 1.6,
+          "attackSpeed": 0.1,
           "moveSpeed": 3,
           "sightRange": 8
         },

@@ -2,6 +2,7 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 - [Eternal Return: Black Survival Project](#eternal-return-black-survival-project)
   - [Introduction](#introduction)
+  - [Master Json File](#master-json-file)
   - [Packages](#packages)
     - [Wikidata](#wikidata)
     - [Client](#client)
@@ -12,6 +13,10 @@
 
 ## Introduction
 This project is my attempt at working with monorepo principles to create a usable UI, SDK, backend APi (Eventually) and any needed utilities. Each project has it's own directory and any dependencies are treated as local NPM Dependencies
+
+
+## Master Json File
+I'm going to be maintaining a JSON file that's going to act as my master for all static data, it's at the root and will be kept up to date as I can.
 
 ## Packages
 ### Wikidata

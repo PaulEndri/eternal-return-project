@@ -4,14 +4,12 @@ import { Types } from '../utilities/types';
 import { ICharacter, WeaponTypes } from 'erbs-sdk';
 import { Weapons } from '../data/Weapons';
 
-console.log('[test]', Object.keys(Weapons));
 const weaponTypeOptions = (selectedCharacter?: ICharacter) => {
 	return Object.entries(WeaponTypes as any)
 		.filter(([ key, value ]: [string, string]) => {
 			if (!selectedCharacter) {
 				return true;
 			}
-			console.log('[filter]', key, value);
 			return Weapons[key].usableBy.some(({ name }) => name === selectedCharacter.name);
 		})
 		.map(([ key, value ]) => ({

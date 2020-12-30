@@ -6,8 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/",
     "start:dev": "ts-node ./src/",
-    "build": "tsc",
-    "build:docs": "typedoc src/index.ts"
+    "build": "tsc"
   },
   "author": "Paul Endri",
   "license": "ISC",

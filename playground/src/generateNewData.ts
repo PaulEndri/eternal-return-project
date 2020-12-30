@@ -28,12 +28,6 @@ const writeFile = (name: string, content) => {
 	fs.writeFileSync(`src/generated/newGenerated/${name}.json`, JSON.stringify(content, null, 2));
 };
 
-const wait3 = () => {
-	return new Promise((resolve) => {
-		setTimeout(resolve, 1000 * 3);
-	});
-};
-
 Promise.all(methods)
 	.then(async ([ Animals, Locations, Weapons, Armors, Consumables, Materials, Items ]) => {
 		const realCharacters = await characterScraper.getAll(Weapons);

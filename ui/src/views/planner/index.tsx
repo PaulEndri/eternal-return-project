@@ -43,7 +43,6 @@ const PlannerView = () => {
 		if (!slot) {
 			setLoadout(Loadout.GenerateLoadout(initialLoadout));
 		} else {
-			console.log('[test]', slot, item);
 			setLoadout(loadout.setSlot(slot, item));
 		}
 	};

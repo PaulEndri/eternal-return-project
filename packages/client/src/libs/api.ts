@@ -36,7 +36,6 @@ export class ErBsClient {
 			throw new Error('No Api Key Passed In');
 		}
 
-		console.log('[test]', this.apiKey, `${this.baseURL}/${this.apiVersion}${route}`);
 		const response = await fetch(`${this.baseURL}/${this.apiVersion}${route}`, {
 			headers: {
 				'x-api-key': this.apiKey || process.env.API_KEY

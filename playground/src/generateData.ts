@@ -39,28 +39,10 @@ Promise.all(methods)
 			...items.armors.Chest,
 			...items.armors.Arm,
 			...items.armors.Leg,
-			...items.armors.Accessory,
-			...items.weapons.Dagger.weapons,
-			...items.weapons['Two-Handed_Sword'].weapons,
-			...items.weapons.Axe.weapons,
-			...items.weapons.Dual_Swords.weapons,
-			...items.weapons.Pistol.weapons,
-			...items.weapons.Assault_Rifle.weapons,
-			...items.weapons.Sniper_Rifle.weapons,
-			...items.weapons.Rapier.weapons,
-			...items.weapons.Spear.weapons,
-			...items.weapons.Hammer.weapons,
-			...items.weapons.Bat.weapons,
-			...items.weapons.Throw.weapons,
-			...items.weapons.Shuriken.weapons,
-			...items.weapons.Bow.weapons,
-			...items.weapons.Crossbow.weapons,
-			...items.weapons.Tonfa.weapons,
-			...items.weapons.Glove.weapons,
-			...items.weapons.Nunchaku.weapons,
-			...items.weapons.Whip.weapons
+			...items.armors.Accessory
 		};
 
+		Object.values(items.weapons).forEach(({ weapons }) => Object.assign(allItems, weapons));
 		delete characters.xiuaki;
 		characters.Xiukai = Xiukai;
 

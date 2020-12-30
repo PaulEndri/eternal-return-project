@@ -49,7 +49,6 @@ export class AnimalScraper extends CoreScraper {
 	public getAll = async () => {
 		const $ = await this.getPage(ANIMAL_PATH);
 
-		console.log('[test]', $);
 		const animalPromises: Promise<any>[] = $('#mw-content-text > div > ul a')
 			.toArray()
 			.map((el) => this.getSimpleElement($, el))

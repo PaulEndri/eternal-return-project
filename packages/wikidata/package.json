@@ -12,8 +12,7 @@
   "scripts": {
     "start": "tsc && node dist/wikidata/src/",
     "start:dev": "ts-node ./src/",
-    "build": "tsc",
-    "build:docs": "typedoc src/index.ts"
+    "build": "tsc"
   },
   "author": "Paul Endri <abrecan.eyndrill@gmail.com>",
   "license": "ISC",
