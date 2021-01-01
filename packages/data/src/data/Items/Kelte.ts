@@ -27,11 +27,13 @@ export const Kelte: Item = {
 		"moveSpeed": 0.2
 	},
 	"rarity": "Legend",
+	"code": "악켈테",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The gun of Manas, a hero of Kyrgyzstan. The gun’s barrel was formed from Damascus steel and fires death in bullet form.",
+	"displayName": "Kelte",
 	"apiMetaData": {
 		"code": 116501,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GoldenRatioBow: Item = {
 	"id": 114403,
-	"name": "Golden-Ratio Bow",
+	"name": "GoldenRatioBow",
 	"buildsFrom": [
 		{
 			"name": "Pellet Bow",
@@ -27,11 +27,13 @@ export const GoldenRatioBow: Item = {
 		"increaseSkillDamageRatio": 0.2
 	},
 	"rarity": "Epic",
+	"code": "골든래쇼보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A composite bow and arrow designed according to the golden ratio. It boasts extraordinary precision.",
+	"displayName": "Golden-Ratio Bow",
 	"apiMetaData": {
 		"code": 114403,
 		"category": "Weapon",

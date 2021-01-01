@@ -35,11 +35,13 @@ export const Superstrat: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Rare",
+	"code": "슈퍼스트랫",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Collectively refers to the most famous types of guitars in the world.",
+	"displayName": "Superstrat",
 	"apiMetaData": {
 		"code": 121305,
 		"category": "Weapon",

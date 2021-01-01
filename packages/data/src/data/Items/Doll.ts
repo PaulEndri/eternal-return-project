@@ -36,11 +36,13 @@ export const Doll: Item = {
 		"spRegenRatio": 1
 	},
 	"rarity": "Uncommon",
+	"code": "인형",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Aren't you a little old to be playing with dolls?",
+	"displayName": "Doll",
 	"apiMetaData": {
 		"code": 205205,
 		"category": "Armor",

@@ -22,7 +22,7 @@ export const Carnwennan: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"attackPower": 26,
+		"attackPower": 37,
 		"cooldownReduction": 0.1,
 		"hpRegen": 1.5,
 		"moveSpeed": 0.1,
@@ -30,11 +30,13 @@ export const Carnwennan: Item = {
 		"increaseBasicAttackDamage": 29
 	},
 	"rarity": "Epic",
+	"code": "카른웬난",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Carnwennan",
 	"apiMetaData": {
 		"code": 101401,
 		"category": "Weapon",

@@ -7,7 +7,7 @@ export interface ICharacterData {
 	maxExtraPoint: number;
 	attackPower: number;
 	defense: number;
-	criticalStrikeChance: number;
+	criticalChance: number;
 	hpRegen: number;
 	spRegen: number;
 	attackSpeed: number;

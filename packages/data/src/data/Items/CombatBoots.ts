@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CombatBoots: Item = {
 	"id": 204405,
-	"name": "Combat Boots",
+	"name": "CombatBoots",
 	"buildsFrom": [
 		{
 			"name": "Boots",
@@ -35,11 +35,13 @@ export const CombatBoots: Item = {
 		"moveSpeed": 0.27
 	},
 	"rarity": "Rare",
+	"code": "킬힐",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Combat Boots",
 	"apiMetaData": {
 		"code": 204405,
 		"category": "Armor",

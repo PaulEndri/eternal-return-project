@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const EmeraldTablet: Item = {
 	"id": 205501,
-	"name": "Emerald Tablet",
+	"name": "EmeraldTablet",
 	"buildsFrom": [
 		{
 			"name": "Force Core",
@@ -28,11 +28,13 @@ export const EmeraldTablet: Item = {
 		"defense": 10
 	},
 	"rarity": "Legend",
+	"code": "에메랄드타블렛",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Emerald Tablet",
 	"apiMetaData": {
 		"code": 205501,
 		"category": "Armor",

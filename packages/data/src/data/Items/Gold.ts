@@ -61,11 +61,13 @@ export const Gold: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "황금",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Soft, valuable, and gorgeous. A must have for any piece of jewelery.",
+	"displayName": "Gold",
 	"apiMetaData": {
 		"code": 401214,
 		"category": "Misc",

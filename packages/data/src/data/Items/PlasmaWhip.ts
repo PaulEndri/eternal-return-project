@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PlasmaWhip: Item = {
 	"id": 109404,
-	"name": "Plasma Whip",
+	"name": "PlasmaWhip",
 	"buildsFrom": [
 		{
 			"name": "Lightning Whip",
@@ -22,16 +22,18 @@ export const PlasmaWhip: Item = {
 		"Laster Pointer": 1
 	},
 	"stats": {
-		"attackPower": 49,
-		"attackSpeedRatio": 0.2,
+		"attackPower": 54,
+		"attackSpeedRatio": 0.3,
 		"sightRange": 2.3
 	},
 	"rarity": "Epic",
+	"code": "플라즈마윕",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Plasma Whip",
 	"apiMetaData": {
 		"code": 109404,
 		"category": "Weapon",

@@ -21,6 +21,7 @@ export const Cloth: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "옷감",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -30,6 +31,7 @@ export const Cloth: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Made by weaving fibers. Different thread types make different fabrics.",
+	"displayName": "Cloth",
 	"apiMetaData": {
 		"code": 401113,
 		"category": "Misc",

@@ -1,38 +1,37 @@
 import Item from '../../types/Item';
 
 export const Chocolate: Item = {
-	"id": "Chocolate",
+	"id": 302119,
 	"name": "Chocolate",
-	"href": "/Chocolate",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Chocolate Milk",
-			"id": "Chocolate Milk"
+			"id": 301214
 		},
 		{
 			"name": "Hot Chocolate",
-			"id": "Hot Chocolate"
+			"id": 301310
 		},
 		{
 			"name": "Choco Pie",
-			"id": "Choco Pie"
+			"id": 302216
 		},
 		{
 			"name": "Easter Egg",
-			"id": "Easter Egg"
+			"id": 302235
 		},
 		{
 			"name": "Whisky Bonbon",
-			"id": "Whisky Bonbon"
+			"id": 302236
 		},
 		{
 			"name": "Choco Ice Cream",
-			"id": "Choco Ice Cream"
+			"id": 302237
 		},
 		{
 			"name": "Chocolate Chip Cookies",
-			"id": "Chocolate Chip Cookies"
+			"id": 302311
 		}
 	],
 	"requirements": {},
@@ -49,14 +48,15 @@ export const Chocolate: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "When you're low on sugar, eating this makes you feel strong and happy.",
+	"displayName": "Chocolate",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302119,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

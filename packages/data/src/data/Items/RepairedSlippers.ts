@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RepairedSlippers: Item = {
 	"id": 204301,
-	"name": "Repaired Slippers",
+	"name": "RepairedSlippers",
 	"buildsFrom": [
 		{
 			"name": "Slippers",
@@ -33,11 +33,13 @@ export const RepairedSlippers: Item = {
 		"spRegenRatio": 0.3
 	},
 	"rarity": "Uncommon",
+	"code": "덧댄슬리퍼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Repaired Slippers",
 	"apiMetaData": {
 		"code": 204301,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GlassPieces: Item = {
 	"id": 205204,
-	"name": "Glass Pieces",
+	"name": "GlassPieces",
 	"buildsFrom": [
 		{
 			"name": "Glass Bottle",
@@ -28,7 +28,7 @@ export const GlassPieces: Item = {
 		},
 		{
 			"name": "Killer Heels",
-			"id": 204403
+			"id": 204405
 		},
 		{
 			"name": "Glass Panel",
@@ -43,11 +43,13 @@ export const GlassPieces: Item = {
 		"criticalStrikeChance": 0.13
 	},
 	"rarity": "Uncommon",
+	"code": "유리조각",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Be careful not to cut yourself on the sharp edges.",
+	"displayName": "Glass Pieces",
 	"apiMetaData": {
 		"code": 205204,
 		"category": "Armor",

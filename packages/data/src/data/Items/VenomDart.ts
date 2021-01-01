@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const VenomDart: Item = {
 	"id": 113402,
-	"name": "Venom Dart",
+	"name": "VenomDart",
 	"buildsFrom": [
 		{
 			"name": "Needle",
@@ -32,11 +32,13 @@ export const VenomDart: Item = {
 		"increaseSkillDamage": 15
 	},
 	"rarity": "Rare",
+	"code": "독침",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This deadly poison can kill an elephant within 3 seconds. Use it carefully.",
+	"displayName": "Venom Dart",
 	"apiMetaData": {
 		"code": 113402,
 		"category": "Weapon",

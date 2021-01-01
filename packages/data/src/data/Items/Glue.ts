@@ -11,12 +11,13 @@ export const Glue: Item = {
 		},
 		{
 			"name": "Booby Trap",
-			"id": "Booby Trap"
+			"id": 502205
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "접착제",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -26,6 +27,7 @@ export const Glue: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Why doesn't it stick to itself in the bottle?",
+	"displayName": "Glue",
 	"apiMetaData": {
 		"code": 401116,
 		"category": "Misc",

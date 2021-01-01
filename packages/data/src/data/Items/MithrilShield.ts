@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MithrilShield: Item = {
 	"id": 203404,
-	"name": "Mithril Shield",
+	"name": "MithrilShield",
 	"buildsFrom": [
 		{
 			"name": "Mithril",
@@ -26,11 +26,13 @@ export const MithrilShield: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Epic",
+	"code": "미스릴방패",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A shield made with Mithril. It's light, but the strength is beyond imagination.",
+	"displayName": "Mithril Shield",
 	"apiMetaData": {
 		"code": 203404,
 		"category": "Armor",

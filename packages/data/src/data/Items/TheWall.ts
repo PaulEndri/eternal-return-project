@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TheWall: Item = {
 	"id": 121406,
-	"name": "The Wall",
+	"name": "TheWall",
 	"buildsFrom": [
 		{
 			"name": "Superstrat",
@@ -28,11 +28,13 @@ export const TheWall: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Epic",
+	"code": "더월",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The test subjects on this island might as well just be, all in all, bricks in a wall.",
+	"displayName": "The Wall",
 	"apiMetaData": {
 		"code": 121406,
 		"category": "Weapon",

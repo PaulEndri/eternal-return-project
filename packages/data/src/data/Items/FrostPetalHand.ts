@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FrostPetalHand: Item = {
 	"id": 110408,
-	"name": "Frost Petal Hand",
+	"name": "FrostPetalHand",
 	"buildsFrom": [
 		{
 			"name": "Phoenix Gloves",
@@ -27,11 +27,13 @@ export const FrostPetalHand: Item = {
 		"increaseSkillDamage": 38
 	},
 	"rarity": "Epic",
+	"code": "빙화현옥수",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A guardian spirit that was passed down through generations of the North Polar Sea kingdom's bloodline. Petal-shaped ice flakes form along its surface to protect its user from harm.",
+	"displayName": "Frost Petal Hand",
 	"apiMetaData": {
 		"code": 110408,
 		"category": "Weapon",

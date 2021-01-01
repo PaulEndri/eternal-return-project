@@ -30,11 +30,13 @@ export const Bazuband: Item = {
 		"preventBasicAttackDamaged": 8
 	},
 	"rarity": "Rare",
+	"code": "바주반드",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Older styled forearm protectors to protect your, well, forearms.",
+	"displayName": "Bazuband",
 	"apiMetaData": {
 		"code": 203303,
 		"category": "Armor",

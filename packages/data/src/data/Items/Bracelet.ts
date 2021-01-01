@@ -19,6 +19,7 @@ export const Bracelet: Item = {
 		"maxSp": 220
 	},
 	"rarity": "Common",
+	"code": "팔찌",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -28,6 +29,7 @@ export const Bracelet: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A metal bracelet. It feels tight. Maybe you're just nervous.",
+	"displayName": "Bracelet",
 	"apiMetaData": {
 		"code": 203104,
 		"category": "Armor",

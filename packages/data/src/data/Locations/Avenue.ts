@@ -27,12 +27,12 @@ export const Avenue: Location = {
 	],
 	"drops": [
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 6
 		},
 		{
-			"name": 301108,
+			"name": "Milk",
 			"id": 301108,
 			"quantity": 6
 		},
@@ -67,7 +67,7 @@ export const Avenue: Location = {
 			"quantity": 8
 		},
 		{
-			"name": 302119,
+			"name": "Chocolate",
 			"id": 302119,
 			"quantity": 6
 		},
@@ -87,7 +87,7 @@ export const Avenue: Location = {
 			"quantity": 8
 		},
 		{
-			"name": "Playing Cards",
+			"name": "PlayingCards",
 			"id": 113102,
 			"quantity": 8
 		},
@@ -102,12 +102,12 @@ export const Avenue: Location = {
 			"quantity": 8
 		},
 		{
-			"name": "Fountain Pen",
+			"name": "FountainPen",
 			"id": 101102,
 			"quantity": 8
 		},
 		{
-			"name": "Glass Bottle",
+			"name": "GlassBottle",
 			"id": 112104,
 			"quantity": 8
 		}

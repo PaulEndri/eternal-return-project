@@ -22,17 +22,19 @@ export const Vibroblade: Item = {
 		"Scrap Metal": 1
 	},
 	"stats": {
-		"attackPower": 53,
-		"attackSpeedRatio": 0.3,
+		"attackPower": 57,
+		"attackSpeedRatio": 0.35,
 		"moveSpeed": 0.1,
 		"moveSpeedOutOfCombat": 0.1
 	},
 	"rarity": "Epic",
+	"code": "초진동나이프",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This high-frequency vibrating blade will cleave the matter of its target at a molecular level. The knife vibrates at a frequency beyond human imagination.",
+	"displayName": "Vibroblade",
 	"apiMetaData": {
 		"code": 101404,
 		"category": "Weapon",

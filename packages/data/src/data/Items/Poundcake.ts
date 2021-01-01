@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const Poundcake: Item = {
-	"id": "Poundcake",
+	"id": 302319,
 	"name": "Poundcake",
-	"href": "/Poundcake",
 	"buildsFrom": [
 		{
 			"name": "Butter",
-			"id": "Butter"
+			"id": 302206
 		},
 		{
 			"name": "Bread",
-			"id": "Bread"
+			"id": 302110
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const Poundcake: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Poundcake",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302319,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

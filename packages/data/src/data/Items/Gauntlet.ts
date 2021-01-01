@@ -33,11 +33,13 @@ export const Gauntlet: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "건틀릿",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Gloves that knights wore to protect their hands.",
+	"displayName": "Gauntlet",
 	"apiMetaData": {
 		"code": 110301,
 		"category": "Weapon",

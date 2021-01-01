@@ -6,7 +6,7 @@ export const Bucephalus: Item = {
 	"buildsFrom": [
 		{
 			"name": "Killer Heels",
-			"id": 204403
+			"id": 204405
 		},
 		{
 			"name": "Chain Leggings",
@@ -30,11 +30,13 @@ export const Bucephalus: Item = {
 		"spRegen": 1
 	},
 	"rarity": "Epic",
+	"code": "부케팔로스",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Bucephalus",
 	"apiMetaData": {
 		"code": 204408,
 		"category": "Armor",

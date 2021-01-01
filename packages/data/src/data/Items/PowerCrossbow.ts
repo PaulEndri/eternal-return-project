@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PowerCrossbow: Item = {
 	"id": 115301,
-	"name": "Power Crossbow",
+	"name": "PowerCrossbow",
 	"buildsFrom": [
 		{
 			"name": "Long Crossbow",
@@ -29,11 +29,13 @@ export const PowerCrossbow: Item = {
 		"charges": 6
 	},
 	"rarity": "Rare",
+	"code": "노",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A good weapon, but it's paramount that you keep good track of your arrows.",
+	"displayName": "Power Crossbow",
 	"apiMetaData": {
 		"code": 115301,
 		"category": "Weapon",

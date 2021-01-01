@@ -15,6 +15,9 @@ const LayoutComponent = ({ children }: any) => {
 					<Menu.Item as={Link} to="/">
 						Home
 					</Menu.Item>
+					<Menu.Item as={Link} to="/wiki/*">
+						Wiki
+					</Menu.Item>
 					<Menu.Item as={Link} to="/planner">
 						Planner
 					</Menu.Item>

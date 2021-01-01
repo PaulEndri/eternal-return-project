@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SniperCrossbow: Item = {
 	"id": 115404,
-	"name": "Sniper Crossbow",
+	"name": "SniperCrossbow",
 	"buildsFrom": [
 		{
 			"name": "Laser Crossbow",
@@ -22,16 +22,18 @@ export const SniperCrossbow: Item = {
 	},
 	"stats": {
 		"attackPower": 85,
-		"attackRange": 1.2,
+		"attackRange": 1,
 		"charges": 7,
-		"sightRange": 5
+		"sightRange": 3.5
 	},
 	"rarity": "Epic",
+	"code": "저격크로스보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A new type of bow with remarkably high accuracy. It's equipped with a laser sight, similar to modern sniper rifles.",
+	"displayName": "Sniper Crossbow",
 	"apiMetaData": {
 		"code": 115404,
 		"category": "Weapon",

@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const SpicyFishStew: Item = {
-	"id": "Spicy Fish Stew",
-	"name": "Spicy Fish Stew",
-	"href": "/Spicy_Fish_Stew",
+	"id": 302301,
+	"name": "SpicyFishStew",
 	"buildsFrom": [
 		{
 			"name": "Carp",
-			"id": "Carp"
+			"id": 302109
 		},
 		{
 			"name": "Boiling Water",
@@ -29,16 +28,17 @@ export const SpicyFishStew: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Spicy Fish Stew",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302301,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

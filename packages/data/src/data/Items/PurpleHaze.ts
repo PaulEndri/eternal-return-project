@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PurpleHaze: Item = {
 	"id": 121403,
-	"name": "Purple Haze",
+	"name": "PurpleHaze",
 	"buildsFrom": [
 		{
 			"name": "King-V",
@@ -24,14 +24,16 @@ export const PurpleHaze: Item = {
 	},
 	"stats": {
 		"attackPower": 85,
-		"increaseSkillDamageRatio": 0.22
+		"increaseSkillDamageRatio": 0.21
 	},
 	"rarity": "Epic",
+	"code": "퍼플헤이즈",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Whether tomorrow is waiting for you, or if it's really the end of time... this island doesn't have the answer.",
+	"displayName": "Purple Haze",
 	"apiMetaData": {
 		"code": 121403,
 		"category": "Weapon",

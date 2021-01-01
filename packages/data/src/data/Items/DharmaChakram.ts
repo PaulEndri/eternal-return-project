@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const DharmaChakram: Item = {
 	"id": 113403,
-	"name": "Dharma Chakram",
+	"name": "DharmaChakram",
 	"buildsFrom": [
 		{
 			"name": "Chakram",
@@ -31,11 +31,13 @@ export const DharmaChakram: Item = {
 		"increaseSkillDamageRatio": 0.15
 	},
 	"rarity": "Rare",
+	"code": "법륜",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A legendary weapon Buddha used to exorcise a demon. It causes damage with the sharp blades that rotate around its perimeter.",
+	"displayName": "Dharma Chakram",
 	"apiMetaData": {
 		"code": 113403,
 		"category": "Weapon",

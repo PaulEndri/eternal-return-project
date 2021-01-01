@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RiderJacket: Item = {
 	"id": 202301,
-	"name": "Rider Jacket",
+	"name": "RiderJacket",
 	"buildsFrom": [
 		{
 			"name": "Leather Jacket",
@@ -30,11 +30,13 @@ export const RiderJacket: Item = {
 		"preventBasicAttackDamaged": 9
 	},
 	"rarity": "Rare",
+	"code": "라이더자켓",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Worn more often as a fashion statement than for actual riding.",
+	"displayName": "Rider Jacket",
 	"apiMetaData": {
 		"code": 202301,
 		"category": "Armor",

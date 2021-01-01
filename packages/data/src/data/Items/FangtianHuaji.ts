@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FangtianHuaji: Item = {
 	"id": 107407,
-	"name": "Fangtian Huaji",
+	"name": "FangtianHuaji",
 	"buildsFrom": [
 		{
 			"name": "Halberd Axe",
@@ -26,14 +26,16 @@ export const FangtianHuaji: Item = {
 		"attackPower": 88,
 		"decreaseRecoveryToSkill": 1,
 		"moveSpeed": -0.1,
-		"increaseSkillDamage": 37
+		"increaseSkillDamage": 34
 	},
 	"rarity": "Epic",
+	"code": "방천화극",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Fangtian Huaji",
 	"apiMetaData": {
 		"code": 107407,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WoodenBow: Item = {
 	"id": 114201,
-	"name": "Wooden Bow",
+	"name": "WoodenBow",
 	"buildsFrom": [
 		{
 			"name": "Branch",
@@ -31,11 +31,13 @@ export const WoodenBow: Item = {
 		"attackPower": 26
 	},
 	"rarity": "Uncommon",
+	"code": "목궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A wooden bow. As plain as it seems, you need choice timber to make a usable wooden bow. Plywood is a no go.",
+	"displayName": "Wooden Bow",
 	"apiMetaData": {
 		"code": 114201,
 		"category": "Weapon",

@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const CreedoftheKnight: Item = {
+export const CreedOfTheKnight: Item = {
 	"id": 203406,
-	"name": "Creed of the Knight",
+	"name": "CreedOfTheKnight",
 	"buildsFrom": [
 		{
 			"name": "Steel Shield",
@@ -30,11 +30,13 @@ export const CreedoftheKnight: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Epic",
+	"code": "기사의신조",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Shielding is not just a skill that must be mastered by a knight, but also symbolizes a knight's creed to protect the weak.",
+	"displayName": "Creed of the Knight",
 	"apiMetaData": {
 		"code": 203406,
 		"category": "Armor",

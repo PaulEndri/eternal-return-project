@@ -28,11 +28,13 @@ export const Bleeder: Item = {
 		"attackPower": 38
 	},
 	"rarity": "Rare",
+	"code": "블리더",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Bleeder",
 	"apiMetaData": {
 		"code": 119302,
 		"category": "Weapon",

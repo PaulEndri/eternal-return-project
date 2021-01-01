@@ -29,11 +29,13 @@ export const Meteorite: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "운석",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A stone containing traces of alien vital force. It has mystical effects.",
+	"displayName": "Meteorite",
 	"apiMetaData": {
 		"code": 401209,
 		"category": "Misc",

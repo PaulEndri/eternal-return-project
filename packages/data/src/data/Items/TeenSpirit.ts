@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TeenSpirit: Item = {
 	"id": 121407,
-	"name": "Teen Spirit",
+	"name": "TeenSpirit",
 	"buildsFrom": [
 		{
 			"name": "Wild Horse",
@@ -28,11 +28,13 @@ export const TeenSpirit: Item = {
 		"increaseBasicAttackDamage": 20
 	},
 	"rarity": "Epic",
+	"code": "틴스피릿",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Humans shine the most as teens. This shining aura fades slowly, but inevitably, as times passes by.",
+	"displayName": "Teen Spirit",
 	"apiMetaData": {
 		"code": 121407,
 		"category": "Weapon",

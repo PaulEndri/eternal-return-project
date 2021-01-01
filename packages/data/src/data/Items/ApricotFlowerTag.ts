@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ApricotFlowerTag: Item = {
 	"id": 113302,
-	"name": "Apricot Flower Tag",
+	"name": "ApricotFlowerTag",
 	"buildsFrom": [
 		{
 			"name": "Willow Leaf Spike",
@@ -32,11 +32,13 @@ export const ApricotFlowerTag: Item = {
 		"increaseBasicAttackDamage": 30
 	},
 	"rarity": "Rare",
+	"code": "매화비표",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
+	"displayName": "Apricot Flower Tag",
 	"apiMetaData": {
 		"code": 113302,
 		"category": "Weapon",

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const ChocoIceCream: Item = {
-	"id": "Choco Ice Cream",
-	"name": "Choco Ice Cream",
-	"href": "/Choco_Ice_Cream",
+	"id": 302237,
+	"name": "ChocoIceCream",
 	"buildsFrom": [
 		{
 			"name": "Ice",
@@ -11,7 +10,7 @@ export const ChocoIceCream: Item = {
 		},
 		{
 			"name": "Chocolate",
-			"id": "Chocolate"
+			"id": 302119
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const ChocoIceCream: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Choco Ice Cream",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302237,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

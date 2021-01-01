@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ElementalBow: Item = {
 	"id": 114501,
-	"name": "Elemental Bow",
+	"name": "ElementalBow",
 	"buildsFrom": [
 		{
 			"name": "Scorchbow",
@@ -26,14 +26,16 @@ export const ElementalBow: Item = {
 		"attackPower": 60,
 		"decreaseRecoveryToSkill": 1,
 		"moveSpeed": 0.1,
-		"increaseSkillDamage": 45
+		"increaseSkillDamage": 41
 	},
 	"rarity": "Epic",
+	"code": "엘리멘탈보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow with the elemental powers of nature, such as fire or electricity. Similar to the four elements of Aristotle.",
+	"displayName": "Elemental Bow",
 	"apiMetaData": {
 		"code": 114501,
 		"category": "Weapon",

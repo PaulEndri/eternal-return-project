@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const Claymore: Item = {
-	"id": "Claymore",
+	"id": 502406,
 	"name": "Claymore",
-	"href": "/Claymore",
 	"buildsFrom": [
 		{
 			"name": "Mine",
-			"id": "Mine"
+			"id": 502304
 		},
 		{
 			"name": "Explosive Trap",
-			"id": "Explosive Trap"
+			"id": 502306
 		}
 	],
 	"buildsInto": [],
@@ -22,23 +21,24 @@ export const Claymore: Item = {
 		"Mousetrap": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Epic",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Claymore",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502406,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

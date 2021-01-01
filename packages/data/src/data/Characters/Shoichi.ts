@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Shoichi: Character = {
 	"id": 18,
+	"displayName": "Shoichi",
 	"name": "Shoichi",
+	"background": "\"So, how much is this job worth?\" - Shoichi \nShoichi was just your regular everyday salaryman in Japan, watching the days pass by from his office chair. \nHowever, his life took a turn after the unexpected death of his wife from a congenital heart disease.\nDue to a lack of funds, Shoichi was unable to get her proper treatment and blames himself for her untimely death. Determined to protect his daughter, who inherited the disease from her mother, Shoichi decided that he would do absolutely anything to afford her preventive care.\nHe has a smooth tongue and can discuss high-class matters with ease. He prefer to drink tea rather than coffee, but believes that drinking tea is seen as... kinda lame.\n",
 	"attributes": [
 		{
 			"mastery": "OneHandSword",
@@ -196,10 +198,10 @@ export const Shoichi: Character = {
 				},
 				"Cooldown": {
 					"title": "Cooldown",
-					"value": "100/85/70 Seconds",
+					"value": "110/90/70 Seconds",
 					"tiers": {
-						"1": "100",
-						"2": "85",
+						"1": "110",
+						"2": "90",
 						"3": "70"
 					}
 				}
@@ -217,7 +219,7 @@ export const Shoichi: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 30,
 			"defense": 27,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.8,
 			"spRegen": 1.6,
 			"attackSpeed": 0.12,

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ButlersSuit: Item = {
 	"id": 202413,
-	"name": "Butler's Suit",
+	"name": "ButlersSuit",
 	"buildsFrom": [
 		{
 			"name": "Suit",
@@ -28,11 +28,13 @@ export const ButlersSuit: Item = {
 		"preventBasicAttackDamaged": 10
 	},
 	"rarity": "Epic",
+	"code": "집사복",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A graceful and courteous attitude, a soft tone, and a swallow-tailed black coat are the essentials of a butler. We can get a taste of high society by looking at them.",
+	"displayName": "Butler's Suit",
 	"apiMetaData": {
 		"code": 202413,
 		"category": "Armor",

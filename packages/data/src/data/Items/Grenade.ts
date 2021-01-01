@@ -29,11 +29,13 @@ export const Grenade: Item = {
 		"increaseBasicAttackDamage": 20
 	},
 	"rarity": "Uncommon",
+	"code": "수류탄",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Be careful! The moment you relax and forget you're carrying a grenade is the moment that you become a victim. Boom.",
+	"displayName": "Grenade",
 	"apiMetaData": {
 		"code": 112202,
 		"category": "Weapon",

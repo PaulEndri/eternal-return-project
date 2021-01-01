@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BlazingLance: Item = {
 	"id": 107406,
-	"name": "Blazing Lance",
+	"name": "BlazingLance",
 	"buildsFrom": [
 		{
 			"name": "True Samadhi Fire",
@@ -28,11 +28,13 @@ export const BlazingLance: Item = {
 		"increaseBasicAttackDamage": 30
 	},
 	"rarity": "Legend",
+	"code": "화첨창",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The length stretches freely, and flames spurt from the end of the spear; a treasure that appeared in \"Fengshen Yanyi.\"",
+	"displayName": "Blazing Lance",
 	"apiMetaData": {
 		"code": 107406,
 		"category": "Weapon",

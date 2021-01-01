@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BlazingDress: Item = {
 	"id": 202416,
-	"name": "Blazing Dress",
+	"name": "BlazingDress",
 	"buildsFrom": [
 		{
 			"name": "True Samadhi Fire",
@@ -26,14 +26,16 @@ export const BlazingDress: Item = {
 		"hpRegen": 2.5,
 		"spRegen": 3,
 		"spRegenRatio": 0.75,
-		"increaseBasicAttackDamage": 22
+		"increaseBasicAttackDamage": 18
 	},
 	"rarity": "Legend",
+	"code": "불꽃드레스",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Blazing Dress",
 	"apiMetaData": {
 		"code": 202416,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RoseKnife: Item = {
 	"id": 101301,
-	"name": "Rose Knife",
+	"name": "RoseKnife",
 	"buildsFrom": [
 		{
 			"name": "Army Knife",
@@ -35,11 +35,13 @@ export const RoseKnife: Item = {
 		"moveSpeedOutOfCombat": 0.1
 	},
 	"rarity": "Rare",
+	"code": "장미칼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Rose Knife",
 	"apiMetaData": {
 		"code": 101301,
 		"category": "Weapon",

@@ -5,64 +5,19 @@ interface CharacterThumbnailProps {
 	name: string;
 	isActive: boolean;
 	onClick?: Function;
+	width?: number;
 }
-
-/**
- * 
-const CharacterThumbnailComponent: FunctionComponent<CharacterThumbnailProps> = ({
-	name,
-	onClick
-}) => {
-	const [ hovering, setHovering ] = useState(false);
-	const parentStyle = {
-		overflow: 'hidden',
-		height: '100px',
-		width: '120px'
-	};
-
-	if (hovering && onClick) {
-		Object.assign(parentStyle, {
-			backgroundColor: 'rgba(200, 200, 200, 0.9)',
-			border: '1px solid rgba(200, 200, 200, 1)'
-		});
-	} else {
-		Object.assign(parentStyle, {
-			backgroundColor: 'rgba(200, 200, 200, 0.5)',
-			border: '1px solid rgba(200, 200, 200, 1)'
-		});
-	}
-	return (
-		<div
-			onMouseEnter={() => setHovering(true)}
-			onMouseLeave={() => setHovering(false)}
-			onClick={(e) => (onClick ? onClick(e) : null)}
-			style={parentStyle}
-		>
-			<img
-				src={getImageSrc(name)}
-				className="ui medium image"
-				style={{
-					minWidth: '300px',
-					objectFit: 'cover',
-					objectPosition: '50% 10%',
-					height: '200px',
-					marginLeft: '-80px'
-				}}
-			/>
-		</div>
-	);
-};
- */
 
 const CharacterThumbnailComponent: FunctionComponent<CharacterThumbnailProps> = ({
 	name,
 	onClick,
-	isActive
+	isActive,
+	width = 70
 }) => {
 	const [ hovering, setHovering ] = useState(false);
 	const parentStyle = {
-		height: '80px',
-		width: '80px',
+		height: `${width + 10}px`,
+		width: `${width + 10}px`,
 		overflow: 'hidden',
 		backgroundColor: 'rgba(200, 200, 200, 0.15)',
 		// margin: '3px',
@@ -75,8 +30,8 @@ const CharacterThumbnailComponent: FunctionComponent<CharacterThumbnailProps> = 
 		backgroundColor: 'rgba(255, 255, 255, 0.15)',
 		border: '1px solid ',
 		borderColor: 'rgba(200, 200, 200, 0.5)',
-		width: '90px',
-		height: '90px'
+		width: `${width + 20}px`,
+		height: `${width + 20}px`
 	};
 
 	if ((hovering || isActive) && onClick) {
@@ -111,7 +66,7 @@ const CharacterThumbnailComponent: FunctionComponent<CharacterThumbnailProps> = 
 					<img
 						style={{
 							height: 'auto',
-							width: '70px',
+							width: `${width}px`,
 							margin: 'auto',
 							marginTop: '-5px',
 							transform: 'skew(-45deg)'

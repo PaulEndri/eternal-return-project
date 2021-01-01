@@ -29,11 +29,13 @@ export const Scorchbow: Item = {
 		"increaseSkillDamage": 18
 	},
 	"rarity": "Rare",
+	"code": "화전",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A fiery arrow will burn your enemy.",
+	"displayName": "Scorchbow",
 	"apiMetaData": {
 		"code": 114402,
 		"category": "Weapon",

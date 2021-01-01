@@ -1,18 +1,18 @@
-export interface Stat {
+export type Stat = {
 	title: string;
 	value: string;
 	tiers: Record<string, string>;
-}
+};
 
-export interface Ability {
+export type Ability = {
 	name: string;
 	slot: string;
 	type: string;
 	description: string;
 	stats: Record<string, Stat>;
-}
+};
 
-export interface CharacterAttribute {
+export type CharacterAttribute = {
 	mastery: string;
 	controlDifficulty: number;
 	attack: number;
@@ -20,9 +20,9 @@ export interface CharacterAttribute {
 	disruptor: number;
 	move: number;
 	assistance: number;
-}
+};
 
-export interface CharacterLevelUpStat {
+export type CharacterLevelUpStat = {
 	maxHp: number;
 	maxSp: number;
 	attackPower: number;
@@ -32,25 +32,27 @@ export interface CharacterLevelUpStat {
 	spRegen: number;
 	attackSpeed: number;
 	moveSpeed: number;
-}
+};
 
-export interface CharacterInitialStat {
+export type CharacterInitialStat = {
 	maxHp: number;
 	maxSp: number;
 	initExtraPoint: number;
 	maxExtraPoint: number;
 	attackPower: number;
 	defense: number;
-	criticalStrikeChance: number;
+	criticalChance: number;
 	hpRegen: number;
 	spRegen: number;
 	attackSpeed: number;
 	moveSpeed: number;
 	sightRange: number;
-}
+};
 
-export interface Character {
+export type Character = {
 	name: string;
+	displayName?: string;
+	background?: string;
 	id: string | number;
 	attributes?: CharacterAttribute[];
 	description?: string;
@@ -62,6 +64,6 @@ export interface Character {
 	abilities?: Record<string, Ability>;
 	weapons?: string[];
 	apiMetaData?: any;
-}
+};
 
 export default Character;

@@ -20,11 +20,11 @@ export const Cola: Item = {
 		},
 		{
 			"name": "Whiskey Cocktail",
-			"id": "Whiskey Cocktail"
+			"id": 301307
 		},
 		{
 			"name": "Can of Cola",
-			"id": "Can of Cola"
+			"id": 301309
 		}
 	],
 	"requirements": {
@@ -35,10 +35,12 @@ export const Cola: Item = {
 		"spRestore": 400
 	},
 	"rarity": "Uncommon",
+	"code": "콜라",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Cola",
 	"apiMetaData": {
 		"code": 301209,
 		"category": "Consume",

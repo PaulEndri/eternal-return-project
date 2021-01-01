@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TurtleShell: Item = {
 	"id": 401104,
-	"name": "Turtle Shell",
+	"name": "TurtleShell",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -23,12 +23,13 @@ export const TurtleShell: Item = {
 		},
 		{
 			"name": "Herbal Medicine",
-			"id": "Herbal Medicine"
+			"id": 302207
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "거북이등딱지",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -38,6 +39,7 @@ export const TurtleShell: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Reminds me of a sandbox I had as a kid.",
+	"displayName": "Turtle Shell",
 	"apiMetaData": {
 		"code": 401104,
 		"category": "Misc",

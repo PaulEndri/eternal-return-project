@@ -27,16 +27,17 @@ export const Gunpowder: Item = {
 		},
 		{
 			"name": "Mine",
-			"id": "Mine"
+			"id": 502304
 		},
 		{
 			"name": "Explosive Trap",
-			"id": "Explosive Trap"
+			"id": 502306
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "화약",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -46,6 +47,7 @@ export const Gunpowder: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Explosive powder. It goes in guns. Boom.",
+	"displayName": "Gunpowder",
 	"apiMetaData": {
 		"code": 401121,
 		"category": "Misc",

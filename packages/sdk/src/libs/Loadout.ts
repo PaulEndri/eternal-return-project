@@ -53,7 +53,9 @@ export class Loadout {
 
 			totalMaterials.add(this.starterItem, 1);
 
-			totalMaterials.addFromLists(this.items.map((item) => item.requirements));
+			totalMaterials.addFromLists(
+				this.items.map((item) => (item ? item.requirements : null)).filter((v) => v)
+			);
 
 			this._totalMaterials = totalMaterials;
 		}

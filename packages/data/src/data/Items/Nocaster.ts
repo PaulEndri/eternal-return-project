@@ -30,14 +30,16 @@ export const Nocaster: Item = {
 		"attackPower": 15,
 		"attackSpeedRatio": 0.2,
 		"lifeSteal": 0.1,
-		"increaseBasicAttackDamage": 15
+		"increaseBasicAttackDamage": 10
 	},
 	"rarity": "Rare",
+	"code": "노캐스터",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The most used title in art is \"Untitled\". Isn't there an unsaid rule that says not to do that with guitar names?",
+	"displayName": "Nocaster",
 	"apiMetaData": {
 		"code": 121304,
 		"category": "Weapon",

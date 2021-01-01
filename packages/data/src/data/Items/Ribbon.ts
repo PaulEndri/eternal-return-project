@@ -23,6 +23,7 @@ export const Ribbon: Item = {
 		"lifeSteal": 0.05
 	},
 	"rarity": "Common",
+	"code": "리본",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -32,6 +33,7 @@ export const Ribbon: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It'll be pretty if you put it in your hair.",
+	"displayName": "Ribbon",
 	"apiMetaData": {
 		"code": 205103,
 		"category": "Armor",

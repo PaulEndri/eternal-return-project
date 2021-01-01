@@ -1,38 +1,37 @@
 import Item from '../../types/Item';
 
 export const Milk: Item = {
-	"id": "Milk",
+	"id": 301108,
 	"name": "Milk",
-	"href": "/Milk",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Latte",
-			"id": "Latte"
+			"id": 301210
 		},
 		{
 			"name": "Honey Milk",
-			"id": "Honey Milk"
+			"id": 301211
 		},
 		{
 			"name": "Chocolate Milk",
-			"id": "Chocolate Milk"
+			"id": 301214
 		},
 		{
 			"name": "Cowboy",
-			"id": "Cowboy"
+			"id": 301218
 		},
 		{
 			"name": "White Russian",
-			"id": "White Russian"
+			"id": 301311
 		},
 		{
 			"name": "Butter",
-			"id": "Butter"
+			"id": 302206
 		},
 		{
 			"name": "Potato Soup",
-			"id": "Potato Soup"
+			"id": 302228
 		}
 	],
 	"requirements": {},
@@ -48,14 +47,15 @@ export const Milk: Item = {
 		"Chapel": 3
 	},
 	"foundQuantity": 2,
+	"displayName": "Milk",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301108,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

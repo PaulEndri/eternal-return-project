@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const SmartBomb: Item = {
-	"id": "Smart Bomb",
-	"name": "Smart Bomb",
-	"href": "/Smart_Bomb",
+	"id": 502502,
+	"name": "SmartBomb",
 	"buildsFrom": [
 		{
 			"name": "RDX",
@@ -24,23 +23,24 @@ export const SmartBomb: Item = {
 		"Battery": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Legend",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Smart Bomb",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502502,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

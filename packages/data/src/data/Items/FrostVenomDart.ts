@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FrostVenomDart: Item = {
 	"id": 113408,
-	"name": "Frost Venom Dart",
+	"name": "FrostVenomDart",
 	"buildsFrom": [
 		{
 			"name": "Venom Dart",
@@ -33,11 +33,13 @@ export const FrostVenomDart: Item = {
 		"increaseSkillDamage": 20
 	},
 	"rarity": "Epic",
+	"code": "빙백은침",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Frost Venom Dart",
 	"apiMetaData": {
 		"code": 113408,
 		"category": "Weapon",

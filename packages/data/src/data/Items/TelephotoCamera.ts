@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TelephotoCamera: Item = {
 	"id": 502207,
-	"name": "Telephoto Camera",
+	"name": "TelephotoCamera",
 	"buildsFrom": [
 		{
 			"name": "Surveillance Camera",
@@ -25,10 +25,12 @@ export const TelephotoCamera: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "망원카메라",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Telephoto Camera",
 	"apiMetaData": {
 		"code": 502207,
 		"category": "Special",

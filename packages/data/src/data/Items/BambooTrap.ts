@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const BambooTrap: Item = {
-	"id": "Bamboo Trap",
-	"name": "Bamboo Trap",
-	"href": "/Bamboo_Trap",
+	"id": 502204,
+	"name": "BambooTrap",
 	"buildsFrom": [
 		{
 			"name": "Snare",
-			"id": "Snare"
+			"id": 502102
 		},
 		{
 			"name": "Bamboo",
@@ -17,7 +16,7 @@ export const BambooTrap: Item = {
 	"buildsInto": [
 		{
 			"name": "Pendulum Axe",
-			"id": "Pendulum Axe"
+			"id": 502305
 		}
 	],
 	"requirements": {
@@ -25,23 +24,24 @@ export const BambooTrap: Item = {
 		"Bamboo": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Bamboo Trap",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502204,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -22,15 +22,17 @@ export const Dioscuri: Item = {
 		"Carbonated Water": 1
 	},
 	"stats": {
-		"attackPower": 38,
+		"attackPower": 40,
 		"attackSpeedRatio": 0.5
 	},
 	"rarity": "Epic",
+	"code": "디오스쿠로이",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Named after the Greek mythological twin brothers, Castor and Pollux. Twins but with different dads!",
+	"displayName": "Dioscuri",
 	"apiMetaData": {
 		"code": 103501,
 		"category": "Weapon",

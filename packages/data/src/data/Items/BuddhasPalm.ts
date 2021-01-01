@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BuddhasPalm: Item = {
 	"id": 110409,
-	"name": "Buddha's Palm",
+	"name": "BuddhasPalm",
 	"buildsFrom": [
 		{
 			"name": "Phoenix Gloves",
@@ -28,11 +28,13 @@ export const BuddhasPalm: Item = {
 		"increaseSkillDamageRatio": 0.18
 	},
 	"rarity": "Epic",
+	"code": "여래수투",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Buddha's Palm",
 	"apiMetaData": {
 		"code": 110409,
 		"category": "Weapon",

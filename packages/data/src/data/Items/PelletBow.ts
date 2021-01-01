@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PelletBow: Item = {
 	"id": 114304,
-	"name": "Pellet Bow",
+	"name": "PelletBow",
 	"buildsFrom": [
 		{
 			"name": "Wooden Bow",
@@ -29,11 +29,13 @@ export const PelletBow: Item = {
 		"attackPower": 55
 	},
 	"rarity": "Rare",
+	"code": "탄궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Can fire bullets instead of arrows. It'd be a good idea to check to see if there are more bullets around.",
+	"displayName": "Pellet Bow",
 	"apiMetaData": {
 		"code": 114304,
 		"category": "Weapon",

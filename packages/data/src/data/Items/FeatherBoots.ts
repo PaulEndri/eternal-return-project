@@ -2,11 +2,11 @@ import Item from '../../types/Item';
 
 export const FeatherBoots: Item = {
 	"id": 204402,
-	"name": "Feather Boots",
+	"name": "FeatherBoots",
 	"buildsFrom": [
 		{
 			"name": "Combat Boots",
-			"id": 204405
+			"id": 204404
 		},
 		{
 			"name": "Feather",
@@ -27,11 +27,13 @@ export const FeatherBoots: Item = {
 		"moveSpeed": 0.4
 	},
 	"rarity": "Epic",
+	"code": "경량화부츠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "They feel as light as a feather! Maybe because that's what they're made of!",
+	"displayName": "Feather Boots",
 	"apiMetaData": {
 		"code": 204402,
 		"category": "Armor",

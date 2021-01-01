@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Soju: Item = {
-	"id": "Soju",
+	"id": 301205,
 	"name": "Soju",
-	"href": "/Soju",
 	"buildsFrom": [
 		{
 			"name": "Alcohol",
@@ -27,16 +26,17 @@ export const Soju: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Soju",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301205,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

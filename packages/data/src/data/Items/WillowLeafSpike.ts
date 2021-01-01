@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WillowLeafSpike: Item = {
 	"id": 113207,
-	"name": "Willow Leaf Spike",
+	"name": "WillowLeafSpike",
 	"buildsFrom": [
 		{
 			"name": "Onyx Dagger",
@@ -30,11 +30,13 @@ export const WillowLeafSpike: Item = {
 		"increaseBasicAttackDamage": 20
 	},
 	"rarity": "Rare",
+	"code": "유엽비도",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Willow Leaf Spike",
 	"apiMetaData": {
 		"code": 113207,
 		"category": "Weapon",

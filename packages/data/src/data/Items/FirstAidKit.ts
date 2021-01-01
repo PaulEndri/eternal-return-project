@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const FirstAidKit: Item = {
-	"id": "First Aid Kit",
-	"name": "First Aid Kit",
-	"href": "/First_Aid_Kit",
+	"id": 302324,
+	"name": "FirstAidKit",
 	"buildsFrom": [
 		{
 			"name": "Disinfectant",
-			"id": "Disinfectant"
+			"id": 302213
 		},
 		{
 			"name": "Bandage",
@@ -29,16 +28,17 @@ export const FirstAidKit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The best bet for treating injuries. If you're in a hurt, this looks more like a treasure chest.",
+	"displayName": "First Aid Kit",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302324,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

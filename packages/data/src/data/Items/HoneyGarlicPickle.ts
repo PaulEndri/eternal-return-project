@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const HoneyGarlicPickle: Item = {
-	"id": "Honey Garlic Pickle",
-	"name": "Honey Garlic Pickle",
-	"href": "/Honey_Garlic_Pickle",
+	"id": 302232,
+	"name": "HoneyGarlicPickle",
 	"buildsFrom": [
 		{
 			"name": "Garlic",
-			"id": "Garlic"
+			"id": 302106
 		},
 		{
 			"name": "Honey",
@@ -28,16 +27,17 @@ export const HoneyGarlicPickle: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "",
+	"displayName": "Honey Garlic Pickle",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302232,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LeatherGloves: Item = {
 	"id": 110201,
-	"name": "Leather Gloves",
+	"name": "LeatherGloves",
 	"buildsFrom": [
 		{
 			"name": "Cotton Gloves",
@@ -31,10 +31,12 @@ export const LeatherGloves: Item = {
 		"attackPower": 18
 	},
 	"rarity": "Uncommon",
+	"code": "글러브",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Leather Gloves",
 	"apiMetaData": {
 		"code": 110201,
 		"category": "Weapon",

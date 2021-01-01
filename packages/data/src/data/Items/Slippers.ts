@@ -20,6 +20,7 @@ export const Slippers: Item = {
 		"spRegen": 0.5
 	},
 	"rarity": "Common",
+	"code": "슬리퍼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -29,6 +30,7 @@ export const Slippers: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A slipper soaked in sweat. The stench alone makes it a serious contender as a lethal weapon.",
+	"displayName": "Slippers",
 	"apiMetaData": {
 		"code": 204101,
 		"category": "Armor",

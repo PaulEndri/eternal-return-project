@@ -1,34 +1,33 @@
 import Item from '../../types/Item';
 
 export const Whiskey: Item = {
-	"id": "Whiskey",
+	"id": 301104,
 	"name": "Whiskey",
-	"href": "/Whiskey",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Screwdriver",
-			"id": "Screwdriver"
+			"id": 301207
 		},
 		{
 			"name": "Highball",
-			"id": "Highball"
+			"id": 301213
 		},
 		{
 			"name": "On The Rocks",
-			"id": "On The Rocks"
+			"id": 301217
 		},
 		{
 			"name": "Cowboy",
-			"id": "Cowboy"
+			"id": 301218
 		},
 		{
 			"name": "Whiskey Cocktail",
-			"id": "Whiskey Cocktail"
+			"id": 301307
 		},
 		{
 			"name": "Whisky Bonbon",
-			"id": "Whisky Bonbon"
+			"id": 302236
 		}
 	],
 	"requirements": {},
@@ -44,14 +43,15 @@ export const Whiskey: Item = {
 		"Uptown": 5
 	},
 	"foundQuantity": 1,
+	"displayName": "Whiskey",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301104,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

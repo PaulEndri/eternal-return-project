@@ -42,12 +42,12 @@ export const School: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Fountain Pen",
+			"name": "FountainPen",
 			"id": 101102,
 			"quantity": 7
 		},
 		{
-			"name": "Laster Pointer",
+			"name": "LasterPointer",
 			"id": 401108,
 			"quantity": 6
 		},
@@ -62,7 +62,7 @@ export const School: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 302110,
+			"name": "Bread",
 			"id": 302110,
 			"quantity": 6
 		},
@@ -92,7 +92,7 @@ export const School: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Bike Helmet",
+			"name": "BikeHelmet",
 			"id": 201104,
 			"quantity": 6
 		},
@@ -107,7 +107,7 @@ export const School: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 6
 		}
@@ -116,23 +116,23 @@ export const School: Location = {
 	"connections": [
 		{
 			"name": "Archery Range",
-			"id": "Archery Range"
+			"id": 10
 		},
 		{
 			"name": "Alley",
-			"id": "Alley"
+			"id": 5
 		},
 		{
 			"name": "Avenue",
-			"id": "Avenue"
+			"id": 7
 		},
 		{
 			"name": "Forest",
-			"id": "Forest"
+			"id": 12
 		},
 		{
 			"name": "Hotel",
-			"id": "Hotel"
+			"id": 6
 		}
 	]
 }

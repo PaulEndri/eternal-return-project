@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const CannedCodLiver: Item = {
-	"id": "Canned Cod Liver",
-	"name": "Canned Cod Liver",
-	"href": "/Canned_Cod_Liver",
+	"id": 302204,
+	"name": "CannedCodLiver",
 	"buildsFrom": [
 		{
 			"name": "Cod",
-			"id": "Cod"
+			"id": 302104
 		},
 		{
 			"name": "Can",
@@ -28,16 +27,17 @@ export const CannedCodLiver: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Canned Cod Liver",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302204,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

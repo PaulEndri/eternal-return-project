@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GlacialIce: Item = {
 	"id": 205402,
-	"name": "Glacial Ice",
+	"name": "GlacialIce",
 	"buildsFrom": [
 		{
 			"name": "Powder of Life",
@@ -34,11 +34,13 @@ export const GlacialIce: Item = {
 		"increaseSkillDamage": 18
 	},
 	"rarity": "Epic",
+	"code": "만년빙",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It seems different from normal ice. It practically burns me to the bone by just looking at it. Keep it out of your lemonade.",
+	"displayName": "Glacial Ice",
 	"apiMetaData": {
 		"code": 205402,
 		"category": "Armor",

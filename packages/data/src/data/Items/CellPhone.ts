@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CellPhone: Item = {
 	"id": 501401,
-	"name": "Cell Phone",
+	"name": "CellPhone",
 	"buildsFrom": [
 		{
 			"name": "Blueprint",
@@ -20,7 +20,7 @@ export const CellPhone: Item = {
 		},
 		{
 			"name": "Smart Bomb",
-			"id": "Smart Bomb"
+			"id": 502502
 		}
 	],
 	"requirements": {
@@ -31,11 +31,13 @@ export const CellPhone: Item = {
 	},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "휴대폰",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "I'm not getting any bars here...",
+	"displayName": "Cell Phone",
 	"apiMetaData": {
 		"code": 501401,
 		"category": "Misc",

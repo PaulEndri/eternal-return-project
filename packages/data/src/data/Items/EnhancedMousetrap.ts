@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const EnhancedMousetrap: Item = {
-	"id": "Enhanced Mousetrap",
-	"name": "Enhanced Mousetrap",
-	"href": "/Enhanced_Mousetrap",
+	"id": 502202,
+	"name": "EnhancedMousetrap",
 	"buildsFrom": [
 		{
 			"name": "Mousetrap",
@@ -20,23 +19,24 @@ export const EnhancedMousetrap: Item = {
 		"Iron Ore": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Enhanced Mousetrap",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502202,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

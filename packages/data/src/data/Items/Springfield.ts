@@ -37,11 +37,13 @@ export const Springfield: Item = {
 		"sightRange": 1.5
 	},
 	"rarity": "Uncommon",
+	"code": "스프링필드",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Springfield",
 	"apiMetaData": {
 		"code": 118201,
 		"category": "Weapon",

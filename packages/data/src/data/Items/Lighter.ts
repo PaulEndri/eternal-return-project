@@ -23,11 +23,11 @@ export const Lighter: Item = {
 		},
 		{
 			"name": "Baijiu",
-			"id": "Baijiu"
+			"id": 301204
 		},
 		{
 			"name": "Kaoliang Liquor",
-			"id": "Kaoliang Liquor"
+			"id": 301301
 		},
 		{
 			"name": "Heated Oil",
@@ -45,6 +45,7 @@ export const Lighter: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "라이터",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -55,6 +56,7 @@ export const Lighter: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "The ability to make fire is key.",
+	"displayName": "Lighter",
 	"apiMetaData": {
 		"code": 401107,
 		"category": "Misc",

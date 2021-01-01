@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HeatedStone: Item = {
 	"id": 401215,
-	"name": "Heated Stone",
+	"name": "HeatedStone",
 	"buildsFrom": [
 		{
 			"name": "Stone",
@@ -24,19 +24,19 @@ export const HeatedStone: Item = {
 		},
 		{
 			"name": "Baked Potato",
-			"id": "Baked Potato"
+			"id": 302303
 		},
 		{
 			"name": "Baked Carp",
-			"id": "Baked Carp"
+			"id": 302304
 		},
 		{
 			"name": "Grilled Chilean Sea Bass",
-			"id": "Grilled Chilean Sea Bass"
+			"id": 302306
 		},
 		{
 			"name": "Steak",
-			"id": "Steak"
+			"id": 302323
 		}
 	],
 	"requirements": {
@@ -45,11 +45,13 @@ export const HeatedStone: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "달궈진돌멩이",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "",
+	"displayName": "Heated Stone",
 	"apiMetaData": {
 		"code": 401215,
 		"category": "Misc",

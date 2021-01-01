@@ -61,11 +61,13 @@ export const Steel: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "강철",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Just some strong steel. They could name a football team after this.",
+	"displayName": "Steel",
 	"apiMetaData": {
 		"code": 401201,
 		"category": "Misc",

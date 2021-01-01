@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MagicStick: Item = {
 	"id": 104405,
-	"name": "Magic Stick",
+	"name": "MagicStick",
 	"buildsFrom": [
 		{
 			"name": "Warhammer",
@@ -27,11 +27,13 @@ export const MagicStick: Item = {
 		"increaseSkillDamageRatio": 0.27
 	},
 	"rarity": "Epic",
+	"code": "마법봉",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The stick often carried by the main characters of Shoujo comics. The moral of the Shoujo genre is that peace must be maintained through greater power.",
+	"displayName": "Magic Stick",
 	"apiMetaData": {
 		"code": 104405,
 		"category": "Weapon",

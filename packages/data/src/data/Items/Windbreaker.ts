@@ -20,6 +20,7 @@ export const Windbreaker: Item = {
 		"preventBasicAttackDamaged": 3
 	},
 	"rarity": "Common",
+	"code": "바람막이",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -29,6 +30,7 @@ export const Windbreaker: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A jumper that keeps you warm by blocking out the wind. It works best when it blocks the wind completely, so make sure to wear it properly!",
+	"displayName": "Windbreaker",
 	"apiMetaData": {
 		"code": 202101,
 		"category": "Armor",

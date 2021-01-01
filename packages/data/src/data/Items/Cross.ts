@@ -31,6 +31,7 @@ export const Cross: Item = {
 		"increaseBasicAttackDamage": 7
 	},
 	"rarity": "Common",
+	"code": "십자가",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -39,6 +40,7 @@ export const Cross: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Feeling...holy?",
+	"displayName": "Cross",
 	"apiMetaData": {
 		"code": 205109,
 		"category": "Armor",

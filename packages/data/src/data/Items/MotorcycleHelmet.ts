@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MotorcycleHelmet: Item = {
 	"id": 201405,
-	"name": "Motorcycle Helmet",
+	"name": "MotorcycleHelmet",
 	"buildsFrom": [
 		{
 			"name": "Fire Helmet",
@@ -23,14 +23,16 @@ export const MotorcycleHelmet: Item = {
 	"stats": {
 		"attackPower": 10,
 		"maxHp": 300,
-		"sightRange": 2.5
+		"sightRange": 1.5
 	},
 	"rarity": "Rare",
+	"code": "오토바이헬멧",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Motorcycle Helmet",
 	"apiMetaData": {
 		"code": 201405,
 		"category": "Armor",

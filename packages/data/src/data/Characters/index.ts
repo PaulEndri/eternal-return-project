@@ -7,7 +7,7 @@ export * from './Nadine';
 export * from './Hyunwoo';
 export * from './Hart';
 export * from './Isol';
-export * from './LIDailin';
+export * from './LiDailin';
 export * from './Yuki';
 export * from './Hyejin';
 export * from './Xiukai';

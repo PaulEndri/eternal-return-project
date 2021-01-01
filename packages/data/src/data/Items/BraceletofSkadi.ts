@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const BraceletofSkadi: Item = {
+export const BraceletOfSkadi: Item = {
 	"id": 203501,
-	"name": "Bracelet of Skadi",
+	"name": "BraceletOfSkadi",
 	"buildsFrom": [
 		{
 			"name": "Glacial Ice",
@@ -30,11 +30,13 @@ export const BraceletofSkadi: Item = {
 		"increaseSkillDamage": 20
 	},
 	"rarity": "Legend",
+	"code": "스카디의팔찌",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bracelet worn by Skadi, a Norse Goddess associated with winter. Do you feel a chill?",
+	"displayName": "Bracelet of Skadi",
 	"apiMetaData": {
 		"code": 203501,
 		"category": "Armor",

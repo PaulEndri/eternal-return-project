@@ -20,6 +20,7 @@ export const Hat: Item = {
 		"defense": 4
 	},
 	"rarity": "Common",
+	"code": "모자",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -29,6 +30,7 @@ export const Hat: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Nothing beats than a simple cap when it's sunny, raining, or snowing.",
+	"displayName": "Hat",
 	"apiMetaData": {
 		"code": 201102,
 		"category": "Armor",

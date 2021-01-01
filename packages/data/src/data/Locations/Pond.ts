@@ -42,22 +42,22 @@ export const Pond: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Short Rod",
+			"name": "ShortRod",
 			"id": 108102,
 			"quantity": 5
 		},
 		{
-			"name": "Turtle Shell",
+			"name": "TurtleShell",
 			"id": 401104,
 			"quantity": 7
 		},
 		{
-			"name": 302116,
+			"name": "OrientalHerb",
 			"id": 302116,
 			"quantity": 7
 		},
 		{
-			"name": "Short Spear",
+			"name": "ShortSpear",
 			"id": 107101,
 			"quantity": 5
 		},
@@ -67,7 +67,7 @@ export const Pond: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 502102,
+			"name": "Snare",
 			"id": 502102,
 			"quantity": 6
 		},

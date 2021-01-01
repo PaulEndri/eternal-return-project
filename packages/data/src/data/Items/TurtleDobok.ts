@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TurtleDobok: Item = {
 	"id": 202203,
-	"name": "Turtle Dobok",
+	"name": "TurtleDobok",
 	"buildsFrom": [
 		{
 			"name": "Monk's Robe",
@@ -28,11 +28,13 @@ export const TurtleDobok: Item = {
 		"defense": 10
 	},
 	"rarity": "Uncommon",
+	"code": "거북도복",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A martial arts uniform worn by ninja turtles. They're obviously giant turtles, why do they need masks?",
+	"displayName": "Turtle Dobok",
 	"apiMetaData": {
 		"code": 202203,
 		"category": "Armor",

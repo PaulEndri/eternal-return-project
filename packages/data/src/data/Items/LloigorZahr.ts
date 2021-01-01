@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LloigorZahr: Item = {
 	"id": 103502,
-	"name": "Lloigor & Zahr",
+	"name": "LloigorZahr",
 	"buildsFrom": [
 		{
 			"name": "Twin Swords",
@@ -22,16 +22,18 @@ export const LloigorZahr: Item = {
 		"Water": 1
 	},
 	"stats": {
-		"attackPower": 30,
+		"attackPower": 33,
 		"attackSpeedRatio": 0.2,
 		"increaseSkillDamage": 36
 	},
 	"rarity": "Epic",
+	"code": "로이거 차르",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You'll love crafting these twin swords, just be careful if you feel wind but the weather isn't windy. Lloigor might be watching.",
+	"displayName": "Lloigor & Zahr",
 	"apiMetaData": {
 		"code": 103502,
 		"category": "Weapon",

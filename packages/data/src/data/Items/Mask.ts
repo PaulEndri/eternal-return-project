@@ -33,11 +33,13 @@ export const Mask: Item = {
 		"moveSpeed": 0.08
 	},
 	"rarity": "Uncommon",
+	"code": "가면",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you can escape from Lumia Island, try visiting the Carnival of Venice. It's one of the most popular festivals in the world, but you can visit only if you manage to get out of here alive.",
+	"displayName": "Mask",
 	"apiMetaData": {
 		"code": 201201,
 		"category": "Armor",

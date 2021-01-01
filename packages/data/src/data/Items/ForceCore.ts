@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ForceCore: Item = {
 	"id": 401403,
-	"name": "Force Core",
+	"name": "ForceCore",
 	"buildsFrom": [
 		{
 			"name": "Powder of Life",
@@ -48,7 +48,7 @@ export const ForceCore: Item = {
 		},
 		{
 			"name": "Remote Mine",
-			"id": "Remote Mine"
+			"id": 502501
 		}
 	],
 	"requirements": {
@@ -58,11 +58,13 @@ export const ForceCore: Item = {
 	},
 	"stats": {},
 	"rarity": "Epic",
+	"code": "포스코어",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This seems to hold untapped power.",
+	"displayName": "Force Core",
 	"apiMetaData": {
 		"code": 401403,
 		"category": "Misc",

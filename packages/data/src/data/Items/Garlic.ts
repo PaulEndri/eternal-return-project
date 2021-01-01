@@ -1,26 +1,25 @@
 import Item from '../../types/Item';
 
 export const Garlic: Item = {
-	"id": "Garlic",
+	"id": 302106,
 	"name": "Garlic",
-	"href": "/Garlic",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Garlic Bread",
-			"id": "Garlic Bread"
+			"id": 302205
 		},
 		{
 			"name": "Bacon and Garlic Sticks",
-			"id": "Bacon and Garlic Sticks"
+			"id": 302224
 		},
 		{
 			"name": "Honey Garlic Pickle",
-			"id": "Honey Garlic Pickle"
+			"id": 302232
 		},
 		{
 			"name": "Garlic Ramen",
-			"id": "Garlic Ramen"
+			"id": 302402
 		}
 	],
 	"requirements": {},
@@ -37,14 +36,15 @@ export const Garlic: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A delicious addition to many dishes. Also great for keeping away vampires.",
+	"displayName": "Garlic",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302106,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

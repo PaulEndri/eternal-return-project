@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const OnTheRocks: Item = {
-	"id": "On The Rocks",
-	"name": "On The Rocks",
-	"href": "/On_The_Rocks",
+	"id": 301217,
+	"name": "OnTheRocks",
 	"buildsFrom": [
 		{
 			"name": "Ice",
@@ -11,7 +10,7 @@ export const OnTheRocks: Item = {
 		},
 		{
 			"name": "Whiskey",
-			"id": "Whiskey"
+			"id": 301104
 		}
 	],
 	"buildsInto": [],
@@ -27,16 +26,17 @@ export const OnTheRocks: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "On The Rocks",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301217,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

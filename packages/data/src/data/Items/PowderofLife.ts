@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const PowderofLife: Item = {
+export const PowderOfLife: Item = {
 	"id": 205301,
-	"name": "Powder of Life",
+	"name": "PowderOfLife",
 	"buildsFrom": [
 		{
 			"name": "Tree of Life",
@@ -36,11 +36,13 @@ export const PowderofLife: Item = {
 		"spRegen": 1.5
 	},
 	"rarity": "Rare",
+	"code": "생명의가루",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A powder that summons the spirits. Better combined with other items to make something mystical.",
+	"displayName": "Powder of Life",
 	"apiMetaData": {
 		"code": 205301,
 		"category": "Armor",

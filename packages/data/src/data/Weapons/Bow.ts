@@ -67,7 +67,7 @@ export const Bow: Weapon = {
 		},
 		{
 			"name": "Ancient Bolt",
-			"id": "Ancient Bolt"
+			"id": 114401
 		},
 		{
 			"name": "Golden-Ratio Bow",

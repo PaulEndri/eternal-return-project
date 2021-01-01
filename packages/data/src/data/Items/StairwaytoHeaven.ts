@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const StairwaytoHeaven: Item = {
+export const StairwayToHeaven: Item = {
 	"id": 121402,
-	"name": "Stairway to Heaven",
+	"name": "StairwayToHeaven",
 	"buildsFrom": [
 		{
 			"name": "Humbucker Pickup",
@@ -29,11 +29,13 @@ export const StairwaytoHeaven: Item = {
 		"increaseSkillDamageRatio": 0.2
 	},
 	"rarity": "Epic",
+	"code": "천국의계단",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Heaven might be all bright and shiny, but we can't say the same for the stairway leading up to it. It might be covered in lead...",
+	"displayName": "Stairway to Heaven",
 	"apiMetaData": {
 		"code": 121402,
 		"category": "Weapon",

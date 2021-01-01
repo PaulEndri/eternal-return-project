@@ -11,22 +11,23 @@ export const Mousetrap: Item = {
 		},
 		{
 			"name": "Enhanced Mousetrap",
-			"id": "Enhanced Mousetrap"
+			"id": 502202
 		},
 		{
 			"name": "Jungle Guillotine",
-			"id": "Jungle Guillotine"
+			"id": 502303
 		},
 		{
 			"name": "Explosive Trap",
-			"id": "Explosive Trap"
+			"id": 502306
 		}
 	],
 	"requirements": {},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Common",
+	"code": "쥐덫",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
@@ -35,6 +36,7 @@ export const Mousetrap: Item = {
 		"Beach": 5
 	},
 	"foundQuantity": 2,
+	"displayName": "Mousetrap",
 	"apiMetaData": {
 		"code": 502103,
 		"category": "Special",

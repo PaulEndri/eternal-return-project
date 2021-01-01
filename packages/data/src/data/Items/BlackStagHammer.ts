@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BlackStagHammer: Item = {
 	"id": 104302,
-	"name": "Black Stag Hammer",
+	"name": "BlackStagHammer",
 	"buildsFrom": [
 		{
 			"name": "Warhammer",
@@ -32,11 +32,13 @@ export const BlackStagHammer: Item = {
 		"attackPower": 56
 	},
 	"rarity": "Rare",
+	"code": "사슴망치",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Black Stag Hammer",
 	"apiMetaData": {
 		"code": 104302,
 		"category": "Weapon",

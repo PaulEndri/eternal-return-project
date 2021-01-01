@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HeatedOil: Item = {
 	"id": 401203,
-	"name": "Heated Oil",
+	"name": "HeatedOil",
 	"buildsFrom": [
 		{
 			"name": "Oil",
@@ -16,27 +16,27 @@ export const HeatedOil: Item = {
 	"buildsInto": [
 		{
 			"name": "French Fries",
-			"id": "French Fries"
+			"id": 302302
 		},
 		{
 			"name": "Scrambled Egg",
-			"id": "Scrambled Egg"
+			"id": 302309
 		},
 		{
 			"name": "Fried Chicken",
-			"id": "Fried Chicken"
+			"id": 302316
 		},
 		{
 			"name": "Curry Croquette",
-			"id": "Curry Croquette"
+			"id": 302322
 		},
 		{
 			"name": "Fish Cutlet",
-			"id": "Fish Cutlet"
+			"id": 302326
 		},
 		{
 			"name": "Stir Fried Ramen",
-			"id": "Stir Fried Ramen"
+			"id": 302327
 		}
 	],
 	"requirements": {
@@ -45,11 +45,13 @@ export const HeatedOil: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "뜨거운오일",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "Heated oil. It was sometimes used as a thermal weapon in the past, but now mostly used for cooking.",
+	"displayName": "Heated Oil",
 	"apiMetaData": {
 		"code": 401203,
 		"category": "Misc",

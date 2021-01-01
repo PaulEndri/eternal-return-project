@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CloseHelm: Item = {
 	"id": 201402,
-	"name": "Close Helm",
+	"name": "CloseHelm",
 	"buildsFrom": [
 		{
 			"name": "Chain Coif",
@@ -36,11 +36,13 @@ export const CloseHelm: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "투구",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A helmet made out of steel to protect the head of its wearer. It's heavy, but it makes you feel safe.",
+	"displayName": "Close Helm",
 	"apiMetaData": {
 		"code": 201402,
 		"category": "Armor",

@@ -1,54 +1,53 @@
 import Item from '../../types/Item';
 
 export const Bread: Item = {
-	"id": "Bread",
+	"id": 302110,
 	"name": "Bread",
-	"href": "/Bread",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Garlic Bread",
-			"id": "Garlic Bread"
+			"id": 302205
 		},
 		{
 			"name": "Carp Bread",
-			"id": "Carp Bread"
+			"id": 302209
 		},
 		{
 			"name": "Choco Pie",
-			"id": "Choco Pie"
+			"id": 302216
 		},
 		{
 			"name": "Bun",
-			"id": "Bun"
+			"id": 302225
 		},
 		{
 			"name": "Hamburger",
-			"id": "Hamburger"
+			"id": 302226
 		},
 		{
 			"name": "Potato Bread",
-			"id": "Potato Bread"
+			"id": 302227
 		},
 		{
 			"name": "Citrus Cake",
-			"id": "Citrus Cake"
+			"id": 302230
 		},
 		{
 			"name": "Egg Bun",
-			"id": "Egg Bun"
+			"id": 302234
 		},
 		{
 			"name": "Curry Bun",
-			"id": "Curry Bun"
+			"id": 302238
 		},
 		{
 			"name": "Mocha Bread",
-			"id": "Mocha Bread"
+			"id": 302308
 		},
 		{
 			"name": "Poundcake",
-			"id": "Poundcake"
+			"id": 302319
 		}
 	],
 	"requirements": {},
@@ -65,14 +64,15 @@ export const Bread: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A staple food. You can also staple it to trees.",
+	"displayName": "Bread",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302110,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

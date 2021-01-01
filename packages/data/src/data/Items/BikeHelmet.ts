@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BikeHelmet: Item = {
 	"id": 201104,
-	"name": "Bike Helmet",
+	"name": "BikeHelmet",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -19,6 +19,7 @@ export const BikeHelmet: Item = {
 		"maxHp": 90
 	},
 	"rarity": "Common",
+	"code": "자전거헬멧",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -28,6 +29,7 @@ export const BikeHelmet: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A shabby and cheap looking helmet for when you take your bike for a spin.",
+	"displayName": "Bike Helmet",
 	"apiMetaData": {
 		"code": 201104,
 		"category": "Armor",

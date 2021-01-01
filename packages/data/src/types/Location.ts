@@ -1,10 +1,10 @@
-export interface LocationEntity {
+export type LocationEntity = {
 	name: string | number;
 	id: string | number;
 	quantity?: number;
-}
+};
 
-export interface Location {
+export type Location = {
 	name: string;
 	id: number;
 	drops: LocationEntity[];
@@ -16,6 +16,6 @@ export interface Location {
 		code: number;
 		name: string;
 	};
-}
+};
 
 export default Location;

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const AcupunctureNeedle: Item = {
-	"id": "Acupuncture Needle",
-	"name": "Acupuncture Needle",
-	"href": "/Acupuncture_Needle",
+	"id": 302217,
+	"name": "AcupunctureNeedle",
 	"buildsFrom": [
 		{
 			"name": "Alcohol",
@@ -17,7 +16,7 @@ export const AcupunctureNeedle: Item = {
 	"buildsInto": [
 		{
 			"name": "Zen Vitality",
-			"id": "Zen Vitality"
+			"id": 302329
 		}
 	],
 	"requirements": {
@@ -33,16 +32,17 @@ export const AcupunctureNeedle: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It stings.. but only just a little.",
+	"displayName": "Acupuncture Needle",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302217,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

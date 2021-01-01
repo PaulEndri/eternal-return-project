@@ -1,22 +1,23 @@
 import React, { FunctionComponent, useContext } from 'react';
-import { Button, Header, Image, List, Label, Segment } from 'semantic-ui-react';
-import { Item, IItem } from 'erbs-sdk';
+import { Button, Header, Image, Label, List, Segment } from 'semantic-ui-react';
+import { Item } from 'erbs-sdk';
 import { getImageSrc } from '../utilities/getImageSrc';
 import { rarityColor } from '../utilities/rarityColor';
-import { ItemModalContext } from '../state/itemModal';
 import { ItemModalButton } from './itemModalButton.component';
+import { ItemModalContext } from '../state/itemModal';
 
 type ItemCardProps = {
 	item?: Item<string>;
 	addSelectedToLoadout?: any;
+	showReqs?: boolean;
 };
 
 export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 	item,
-	addSelectedToLoadout
+	addSelectedToLoadout,
+	showReqs
 }) => {
 	const { setItem } = useContext(ItemModalContext);
-
 	return (
 		<Segment.Group
 			style={{
@@ -39,13 +40,13 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 								marginBottom: '10px',
 								padding: '1px',
 								border: '2px inset rgba(255, 190, 16, 0.45)',
-
+								maxWidth: '275px',
 								overflow: 'hidden'
 							}}
 						>
 							<Image
 								floated="right"
-								src={getImageSrc(item.name)}
+								src={getImageSrc(item.displayName)}
 								fluid
 								bordered
 								style={{ backgroundColor: rarityColor(item.rarity) }}
@@ -56,7 +57,7 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 							color={rarityColor(item.rarity)}
 							as="a"
 							href={`https://eternalreturn.gamepedia.com/${item.name}`}
-							content={item.name}
+							content={item.displayName}
 							style={{ marginBottom: '5px' }}
 							label={item.clientType}
 						/>
@@ -79,8 +80,8 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 					item.buildsFrom.length > 0 && (
 						<Segment inverted style={{ backgroundColor: 'transparent' }}>
 							<Header>Built From</Header>
-							{item.buildsFrom.map(({ name }, idx) => (
-								<ItemModalButton key={name + idx} name={name} />
+							{item.buildsFrom.map(({ name, id }, idx) => (
+								<ItemModalButton key={name + idx} id={id} />
 							))}
 						</Segment>
 					)}
@@ -88,8 +89,8 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 					Object.entries(item.buildsInto).length > 0 && (
 						<Segment inverted style={{ backgroundColor: 'transparent' }}>
 							<Header>Builds Into</Header>
-							{Object.keys(item.buildsInto).map((name, idx) => (
-								<ItemModalButton key={name + idx} name={name} />
+							{item.buildsInto.map((item, idx) => (
+								<ItemModalButton key={item.id} id={item.id} />
 							))}
 						</Segment>
 					)}
@@ -105,9 +106,42 @@ export const ItemCardComponent: FunctionComponent<ItemCardProps> = ({
 						>
 							<Button
 								onClick={() => addSelectedToLoadout(item)}
-								content={`Add ${item.name} to Loadout`}
+								content={`Add ${item.displayName} to Loadout`}
 								color="green"
 							/>
+						</Segment>
+					)}
+					{item.materials &&
+					showReqs &&
+					Object.entries(item.materials).length > 0 && (
+						<Segment inverted style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }} basic>
+							<Label style={{ width: '100%', textAlign: 'center' }} color="red">
+								Total Material Requirements
+							</Label>
+							<div
+								style={{
+									width: '100%',
+									display: 'flex',
+									flexWrap: 'wrap',
+									flexDirection: 'row',
+									justifyContent: 'center'
+								}}
+							>
+								{Object.entries(
+									item.materials
+								).map(([ material, quantity ], key) => (
+									<div style={{ margin: '5px' }}>
+										<Label
+											image
+											key={key + material}
+											onClick={() => setItem(material)}
+										>
+											<img src={getImageSrc(material)} />
+											{quantity}
+										</Label>
+									</div>
+								))}
+							</div>
 						</Segment>
 					)}
 				</React.Fragment>

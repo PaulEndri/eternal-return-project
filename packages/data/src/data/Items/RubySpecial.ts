@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RubySpecial: Item = {
 	"id": 121301,
-	"name": "Ruby Special",
+	"name": "RubySpecial",
 	"buildsFrom": [
 		{
 			"name": "Single Coil Pickup",
@@ -33,11 +33,13 @@ export const RubySpecial: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Rare",
+	"code": "루비스페셜",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A unique guitar that is as red as a ruby.",
+	"displayName": "Ruby Special",
 	"apiMetaData": {
 		"code": 121301,
 		"category": "Weapon",

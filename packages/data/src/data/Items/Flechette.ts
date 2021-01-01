@@ -29,11 +29,13 @@ export const Flechette: Item = {
 		"moveSpeed": 0.2
 	},
 	"rarity": "Epic",
+	"code": "플레솃",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Flechette",
 	"apiMetaData": {
 		"code": 113410,
 		"category": "Weapon",

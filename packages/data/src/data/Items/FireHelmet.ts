@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FireHelmet: Item = {
 	"id": 201302,
-	"name": "Fire Helmet",
+	"name": "FireHelmet",
 	"buildsFrom": [
 		{
 			"name": "Safety Helmet",
@@ -28,11 +28,13 @@ export const FireHelmet: Item = {
 		"maxHp": 280
 	},
 	"rarity": "Rare",
+	"code": "소방헬멧",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Head protection for firefighters. Strong resistance to flames and heat. Also equipped with a flashlight!",
+	"displayName": "Fire Helmet",
 	"apiMetaData": {
 		"code": 201302,
 		"category": "Armor",

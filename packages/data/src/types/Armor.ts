@@ -1,4 +1,4 @@
-export interface Armor {
+export type Armor = {
 	name: string;
 	items: Array<{ id: number | string; name: string }>;
 	apiMetaData: {
@@ -6,6 +6,6 @@ export interface Armor {
 		name: string;
 		category: string;
 	};
-}
+};
 
 export default Armor;

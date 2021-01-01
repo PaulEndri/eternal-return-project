@@ -27,7 +27,7 @@ export const Uptown: Location = {
 	],
 	"drops": [
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 6
 		},
@@ -42,22 +42,22 @@ export const Uptown: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Fountain Pen",
+			"name": "FountainPen",
 			"id": 101102,
 			"quantity": 6
 		},
 		{
-			"name": 302105,
+			"name": "Lemon",
 			"id": 302105,
 			"quantity": 5
 		},
 		{
-			"name": 301104,
+			"name": "Whiskey",
 			"id": 301104,
 			"quantity": 5
 		},
 		{
-			"name": "Running Shoes",
+			"name": "RunningShoes",
 			"id": 204102,
 			"quantity": 6
 		},
@@ -67,17 +67,17 @@ export const Uptown: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 302119,
+			"name": "Chocolate",
 			"id": 302119,
 			"quantity": 5
 		},
 		{
-			"name": 302120,
+			"name": "CurryPowder",
 			"id": 302120,
 			"quantity": 5
 		},
 		{
-			"name": 301106,
+			"name": "Coffee",
 			"id": 301106,
 			"quantity": 5
 		},
@@ -87,7 +87,7 @@ export const Uptown: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Carbonated Water",
+			"name": "CarbonatedWater",
 			"id": 301107,
 			"quantity": 5
 		},
@@ -102,12 +102,12 @@ export const Uptown: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Piano Wire",
+			"name": "PianoWire",
 			"id": 502104,
 			"quantity": 7
 		},
 		{
-			"name": 401108,
+			"name": "LasterPointer",
 			"id": 401108,
 			"quantity": 6
 		}

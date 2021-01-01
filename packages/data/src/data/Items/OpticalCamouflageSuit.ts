@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const OpticalCamouflageSuit: Item = {
 	"id": 202405,
-	"name": "Optical Camouflage Suit",
+	"name": "OpticalCamouflageSuit",
 	"buildsFrom": [
 		{
 			"name": "Diving Suit",
@@ -15,7 +15,6 @@ export const OpticalCamouflageSuit: Item = {
 	],
 	"buildsInto": [],
 	"requirements": {
-		"Wetsuit": 1,
 		"Rubber": 1,
 		"Glass Bottle": 1,
 		"Stone": 1,
@@ -28,11 +27,13 @@ export const OpticalCamouflageSuit: Item = {
 		"preventSkillDamagedRatio": 0.1
 	},
 	"rarity": "Epic",
+	"code": "광학미채수트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "In the right environment, body parts covered by the suit become invisible.",
+	"displayName": "Optical Camouflage Suit",
 	"apiMetaData": {
 		"code": 202405,
 		"category": "Armor",

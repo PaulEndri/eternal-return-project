@@ -29,11 +29,13 @@ export const Sheath: Item = {
 		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Rare",
+	"code": "검집",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Used to keep your blade sharp. Often decorated with jewels.",
+	"displayName": "Sheath",
 	"apiMetaData": {
 		"code": 203301,
 		"category": "Armor",

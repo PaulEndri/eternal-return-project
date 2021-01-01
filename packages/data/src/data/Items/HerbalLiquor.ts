@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const HerbalLiquor: Item = {
-	"id": "Herbal Liquor",
-	"name": "Herbal Liquor",
-	"href": "/Herbal_Liquor",
+	"id": 301305,
+	"name": "HerbalLiquor",
 	"buildsFrom": [
 		{
 			"name": "Baijiu",
-			"id": "Baijiu"
+			"id": 301204
 		},
 		{
 			"name": "Oriental Herb",
-			"id": "Oriental Herb"
+			"id": 302116
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const HerbalLiquor: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 5,
+	"displayName": "Herbal Liquor",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301305,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

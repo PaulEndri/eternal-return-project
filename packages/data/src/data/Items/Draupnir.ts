@@ -28,11 +28,13 @@ export const Draupnir: Item = {
 		"increaseSkillDamageRatio": 0.15
 	},
 	"rarity": "Epic",
+	"code": "드라우프니르",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The magical golden bracelet of the Norse God, Odin. It has the power to provide unthinkable riches... and a full stomach",
+	"displayName": "Draupnir",
 	"apiMetaData": {
 		"code": 203403,
 		"category": "Armor",

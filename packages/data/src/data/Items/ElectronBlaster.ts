@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ElectronBlaster: Item = {
 	"id": 116405,
-	"name": "Electron Blaster",
+	"name": "ElectronBlaster",
 	"buildsFrom": [
 		{
 			"name": "Beretta M92F",
@@ -29,11 +29,13 @@ export const ElectronBlaster: Item = {
 		"increaseBasicAttackDamage": 28
 	},
 	"rarity": "Epic",
+	"code": "일렉트론블라스터",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's not as strong as the laser guns used on the other side of the cosmos, but it's still pretty powerful.",
+	"displayName": "Electron Blaster",
 	"apiMetaData": {
 		"code": 116405,
 		"category": "Weapon",

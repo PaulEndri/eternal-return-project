@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const DoubleRevolverSP: Item = {
 	"id": 116401,
-	"name": "Double Revolver SP",
+	"name": "DoubleRevolverSP",
 	"buildsFrom": [
 		{
 			"name": "Magnum-Python",
@@ -31,11 +31,13 @@ export const DoubleRevolverSP: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "더블리볼버SP",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This isn't two revolvers -- it's one double revolver.",
+	"displayName": "Double Revolver SP",
 	"apiMetaData": {
 		"code": 116401,
 		"category": "Weapon",

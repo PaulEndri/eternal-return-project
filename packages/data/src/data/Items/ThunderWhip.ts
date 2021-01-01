@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ThunderWhip: Item = {
 	"id": 109401,
-	"name": "Thunder Whip",
+	"name": "ThunderWhip",
 	"buildsFrom": [
 		{
 			"name": "Bullwhip",
@@ -21,15 +21,17 @@ export const ThunderWhip: Item = {
 		"Gemstone": 1
 	},
 	"stats": {
-		"attackPower": 55,
+		"attackPower": 30,
 		"increaseSkillDamageRatio": 0.18
 	},
 	"rarity": "Rare",
+	"code": "뇌룡편",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Thunder Whip",
 	"apiMetaData": {
 		"code": 109401,
 		"category": "Weapon",

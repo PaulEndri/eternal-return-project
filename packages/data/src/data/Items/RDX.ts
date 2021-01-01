@@ -28,11 +28,11 @@ export const RDX: Item = {
 		},
 		{
 			"name": "C-4",
-			"id": "C-4"
+			"id": 502404
 		},
 		{
 			"name": "Smart Bomb",
-			"id": "Smart Bomb"
+			"id": 502502
 		}
 	],
 	"requirements": {
@@ -41,13 +41,15 @@ export const RDX: Item = {
 		"Scrap Metal": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Rare",
+	"code": "RDX",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "RDX",
 	"apiMetaData": {
 		"code": 502307,
 		"category": "Special",

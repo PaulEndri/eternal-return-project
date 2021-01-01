@@ -56,7 +56,7 @@ export const TwoHandedSword: Weapon = {
 		},
 		{
 			"name": "Thuan Thien",
-			"id": "Thuan Thien"
+			"id": 102405
 		},
 		{
 			"name": "Plasma Sword",
@@ -84,7 +84,7 @@ export const TwoHandedSword: Weapon = {
 		},
 		{
 			"name": "Dainsleif",
-			"id": "Dainsleif"
+			"id": 102501
 		}
 	],
 	"apiMetaData": {

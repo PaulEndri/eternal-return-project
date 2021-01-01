@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Hart: Character = {
 	"id": 8,
+	"displayName": "Hart",
 	"name": "Hart",
+	"background": "\"Love and ...Peace\" - Hart\nHart started playing guitar, hooked on the idea that love and music can change the world. She formed a band, who in turn, gained enough popularity that they were pursued by major labels. Hart refused the offers as she would not be able to play the music she wanted. Her other band members, in need of the monetary incentives, signed a contract with a label without her. Shocked by their betrayal, and determined to prove that she was right, she became even more obsessed with using music to change people.\n\nHer father owns an almond farm and she has a twin brother, Clever.\n",
 	"attributes": [
 		{
 			"mastery": "Guitar",
@@ -247,7 +249,7 @@ export const Hart: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 22,
 			"defense": 20,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.8,
 			"spRegen": 1.7,
 			"attackSpeed": 0.12,

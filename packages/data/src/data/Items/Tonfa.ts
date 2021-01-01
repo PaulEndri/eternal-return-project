@@ -32,11 +32,13 @@ export const Tonfa: Item = {
 		"defense": 8
 	},
 	"rarity": "Uncommon",
+	"code": "톤파",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon that is modified and widely used in Okinawa. Tonfa-based martial arts shares many similarities with bare-handed martial arts.",
+	"displayName": "Tonfa",
 	"apiMetaData": {
 		"code": 111201,
 		"category": "Weapon",

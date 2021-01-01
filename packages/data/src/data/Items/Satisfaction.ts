@@ -26,14 +26,16 @@ export const Satisfaction: Item = {
 		"attackPower": 30,
 		"attackSpeedRatio": 0.3,
 		"lifeSteal": 0.1,
-		"increaseBasicAttackDamage": 14
+		"increaseBasicAttackDamage": 11
 	},
 	"rarity": "Epic",
+	"code": "새티스팩션",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The human nature of not being satisfied is what drives development. Humanity always blindly trusts evolution.",
+	"displayName": "Satisfaction",
 	"apiMetaData": {
 		"code": 121404,
 		"category": "Weapon",

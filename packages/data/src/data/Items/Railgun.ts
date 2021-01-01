@@ -32,11 +32,13 @@ export const Railgun: Item = {
 		"sightRange": 2
 	},
 	"rarity": "Rare",
+	"code": "레일건",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Uses electromagnets to rapidly accelerate and launch a metal projectile.",
+	"displayName": "Railgun",
 	"apiMetaData": {
 		"code": 118402,
 		"category": "Weapon",

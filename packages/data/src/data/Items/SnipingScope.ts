@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SnipingScope: Item = {
 	"id": 205206,
-	"name": "Sniping Scope",
+	"name": "SnipingScope",
 	"buildsFrom": [
 		{
 			"name": "Laster Pointer",
@@ -32,11 +32,13 @@ export const SnipingScope: Item = {
 		"sightRange": 4
 	},
 	"rarity": "Uncommon",
+	"code": "저격스코프",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You might be able to improve your accuracy with this on a rifle or other firearm.",
+	"displayName": "Sniping Scope",
 	"apiMetaData": {
 		"code": 205206,
 		"category": "Armor",

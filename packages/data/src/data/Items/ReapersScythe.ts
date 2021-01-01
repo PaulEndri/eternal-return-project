@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ReapersScythe: Item = {
 	"id": 105302,
-	"name": "Reaper's Scythe",
+	"name": "ReapersScythe",
 	"buildsFrom": [
 		{
 			"name": "Chain Scythe",
@@ -37,11 +37,13 @@ export const ReapersScythe: Item = {
 		"attackRange": 0.5
 	},
 	"rarity": "Rare",
+	"code": "사신의낫",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon that the Grim Reaper carries. If the scythe claims someone, that soul will vanish.",
+	"displayName": "Reaper's Scythe",
 	"apiMetaData": {
 		"code": 105302,
 		"category": "Weapon",

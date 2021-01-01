@@ -27,13 +27,15 @@ export const Stingburst: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Epic",
+	"code": "폭뢰침",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Stingburst",
 	"apiMetaData": {
 		"code": 502402,
 		"category": "Special",

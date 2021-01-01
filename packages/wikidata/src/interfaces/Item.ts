@@ -3,6 +3,7 @@ import { IElement } from './IElement';
 export interface Item<K = IElement> {
 	name: string;
 	href: string;
+	code?: number;
 	rarity: string;
 	stats: Record<string, any>;
 	description?: string;

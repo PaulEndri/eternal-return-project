@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TacticalTonfa: Item = {
 	"id": 111402,
-	"name": "Tactical Tonfa",
+	"name": "TacticalTonfa",
 	"buildsFrom": [
 		{
 			"name": "Police Baton",
@@ -22,16 +22,18 @@ export const TacticalTonfa: Item = {
 		"Paper": 1
 	},
 	"stats": {
-		"attackPower": 65,
+		"attackPower": 70,
 		"defense": 10,
 		"lifeSteal": 0.25
 	},
 	"rarity": "Epic",
+	"code": "택티컬톤파",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Tactical Tonfa",
 	"apiMetaData": {
 		"code": 111402,
 		"category": "Weapon",

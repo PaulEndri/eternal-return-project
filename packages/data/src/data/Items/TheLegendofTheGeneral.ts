@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
-export const TheLegendofTheGeneral: Item = {
+export const TheLegendOfTheGeneral: Item = {
 	"id": 115402,
-	"name": "The Legend of The General",
-	"href": "/The_Legend_of_The_General",
+	"name": "TheLegendOfTheGeneral",
 	"buildsFrom": [
 		{
 			"name": "Steel Bow",
@@ -35,6 +34,7 @@ export const TheLegendofTheGeneral: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "The Legend of The General",
 	"clientMetaData": {
 		"type": "CrossBow",
 		"category": "Weapon"

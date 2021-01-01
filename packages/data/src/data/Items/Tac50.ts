@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const Tac50: Item = {
 	"id": 118403,
-	"name": "Tac-50",
+	"name": "Tac50",
 	"buildsFrom": [
 		{
 			"name": "Harpoon Gun",
@@ -24,15 +24,17 @@ export const Tac50: Item = {
 	"stats": {
 		"attackPower": 140,
 		"lifeSteal": 0.2,
-		"moveSpeed": -0.07,
+		"moveSpeed": -0.03,
 		"sightRange": 2.5
 	},
 	"rarity": "Epic",
+	"code": "Tac-50",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Tac-50",
 	"apiMetaData": {
 		"code": 118403,
 		"category": "Weapon",

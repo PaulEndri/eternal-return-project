@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const DivineFist: Item = {
 	"id": 110406,
-	"name": "Divine Fist",
+	"name": "DivineFist",
 	"buildsFrom": [
 		{
 			"name": "Shatter Shell Gauntlet",
@@ -22,16 +22,18 @@ export const DivineFist: Item = {
 		"Cross": 1
 	},
 	"stats": {
-		"attackPower": 42,
-		"moveSpeed": -0.1,
+		"attackPower": 46,
+		"moveSpeed": -0.05,
 		"increaseBasicAttackDamage": 33
 	},
 	"rarity": "Epic",
+	"code": "디바인피스트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Divine Fist",
 	"apiMetaData": {
 		"code": 110406,
 		"category": "Weapon",

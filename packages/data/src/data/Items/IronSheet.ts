@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const IronSheet: Item = {
 	"id": 401213,
-	"name": "Iron Sheet",
+	"name": "IronSheet",
 	"buildsFrom": [
 		{
 			"name": "Scrap Metal",
@@ -53,11 +53,13 @@ export const IronSheet: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "철판",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "This will give you goosebumps if you scrape your fingernails across it.",
+	"displayName": "Iron Sheet",
 	"apiMetaData": {
 		"code": 401213,
 		"category": "Misc",

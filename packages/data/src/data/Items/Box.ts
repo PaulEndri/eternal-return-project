@@ -15,7 +15,7 @@ export const Box: Item = {
 		},
 		{
 			"name": "Choco Pie Box",
-			"id": "Choco Pie Box"
+			"id": 302312
 		}
 	],
 	"requirements": {},
@@ -23,6 +23,7 @@ export const Box: Item = {
 		"maxHp": 90
 	},
 	"rarity": "Common",
+	"code": "상자",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -32,6 +33,7 @@ export const Box: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "...It's an empty box.",
+	"displayName": "Box",
 	"apiMetaData": {
 		"code": 205107,
 		"category": "Armor",

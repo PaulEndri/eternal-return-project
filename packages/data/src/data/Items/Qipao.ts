@@ -30,11 +30,13 @@ export const Qipao: Item = {
 		"spRegenRatio": 1.5
 	},
 	"rarity": "Rare",
+	"code": "치파오",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A traditional Chinese dress. They vary in style from simple cotton dresses to silk ones with elaborate fine details.",
+	"displayName": "Qipao",
 	"apiMetaData": {
 		"code": 202304,
 		"category": "Armor",

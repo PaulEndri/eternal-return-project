@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MountSlicer: Item = {
 	"id": 101402,
-	"name": "Mount Slicer",
+	"name": "MountSlicer",
 	"buildsFrom": [
 		{
 			"name": "Rose Knife",
@@ -29,11 +29,13 @@ export const MountSlicer: Item = {
 		"increaseSkillDamage": 35
 	},
 	"rarity": "Epic",
+	"code": "파산검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Mount Slicer",
 	"apiMetaData": {
 		"code": 101402,
 		"category": "Weapon",

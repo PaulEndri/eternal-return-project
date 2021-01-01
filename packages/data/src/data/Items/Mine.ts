@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const Mine: Item = {
-	"id": "Mine",
+	"id": 502304,
 	"name": "Mine",
-	"href": "/Mine",
 	"buildsFrom": [
 		{
 			"name": "Booby Trap",
-			"id": "Booby Trap"
+			"id": 502205
 		},
 		{
 			"name": "Gunpowder",
@@ -17,7 +16,7 @@ export const Mine: Item = {
 	"buildsInto": [
 		{
 			"name": "Claymore",
-			"id": "Claymore"
+			"id": 502406
 		}
 	],
 	"requirements": {
@@ -26,23 +25,24 @@ export const Mine: Item = {
 		"Gunpowder": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Mine",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502304,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

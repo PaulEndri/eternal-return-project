@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const RemoteMine: Item = {
-	"id": "Remote Mine",
-	"name": "Remote Mine",
-	"href": "/Remote_Mine",
+	"id": 502501,
+	"name": "RemoteMine",
 	"buildsFrom": [
 		{
 			"name": "Force Core",
@@ -23,23 +22,24 @@ export const RemoteMine: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Legend",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Remote Mine",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502501,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

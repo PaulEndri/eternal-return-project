@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ShortCrossbow: Item = {
 	"id": 115202,
-	"name": "Short Crossbow",
+	"name": "ShortCrossbow",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -11,7 +11,7 @@ export const ShortCrossbow: Item = {
 		},
 		{
 			"name": "Crossbow",
-			"id": 115101
+			"id": 115202
 		}
 	],
 	"requirements": {},
@@ -19,6 +19,7 @@ export const ShortCrossbow: Item = {
 		"attackPower": 12
 	},
 	"rarity": "Common",
+	"code": "크로스보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -27,6 +28,7 @@ export const ShortCrossbow: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "This is a mechanical bow, so take aim and shoot at will.",
+	"displayName": "Short Crossbow",
 	"apiMetaData": {
 		"code": 115202,
 		"category": "Weapon",

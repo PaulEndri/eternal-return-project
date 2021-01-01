@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SpikyBouncyBall: Item = {
 	"id": 112403,
-	"name": "Spiky Bouncy Ball",
+	"name": "SpikyBouncyBall",
 	"buildsFrom": [
 		{
 			"name": "Flubber",
@@ -31,11 +31,13 @@ export const SpikyBouncyBall: Item = {
 		"decreaseRecoveryToSkill": 1
 	},
 	"rarity": "Rare",
+	"code": "가시탱탱볼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A rubber ball with sharp fragments on the surface. It hurts. Also, don't underestimate its bouncing capability!",
+	"displayName": "Spiky Bouncy Ball",
 	"apiMetaData": {
 		"code": 112403,
 		"category": "Weapon",

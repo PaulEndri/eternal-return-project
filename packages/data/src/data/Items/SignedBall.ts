@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SignedBall: Item = {
 	"id": 112205,
-	"name": "Signed Ball",
+	"name": "SignedBall",
 	"buildsFrom": [
 		{
 			"name": "Baseball",
@@ -28,11 +28,13 @@ export const SignedBall: Item = {
 		"charges": 50
 	},
 	"rarity": "Uncommon",
+	"code": "싸인볼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Signed Ball",
 	"apiMetaData": {
 		"code": 112205,
 		"category": "Weapon",

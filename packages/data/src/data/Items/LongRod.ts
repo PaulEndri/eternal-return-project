@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LongRod: Item = {
 	"id": 108202,
-	"name": "Long Rod",
+	"name": "LongRod",
 	"buildsFrom": [
 		{
 			"name": "Short Rod",
@@ -35,11 +35,13 @@ export const LongRod: Item = {
 		"attackPower": 25
 	},
 	"rarity": "Uncommon",
+	"code": "장봉",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can keep more distance than when using a short rod, but you still have to be careful.",
+	"displayName": "Long Rod",
 	"apiMetaData": {
 		"code": 108202,
 		"category": "Weapon",

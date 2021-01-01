@@ -1,22 +1,21 @@
 import Item from '../../types/Item';
 
 export const Carp: Item = {
-	"id": "Carp",
+	"id": 302109,
 	"name": "Carp",
-	"href": "/Carp",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Carp Bread",
-			"id": "Carp Bread"
+			"id": 302209
 		},
 		{
 			"name": "Spicy Fish Stew",
-			"id": "Spicy Fish Stew"
+			"id": 302301
 		},
 		{
 			"name": "Baked Carp",
-			"id": "Baked Carp"
+			"id": 302304
 		}
 	],
 	"requirements": {},
@@ -29,16 +28,17 @@ export const Carp: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "A carp is actually good for throwing. I don't think the carp likes it though.",
+	"displayName": "Carp",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302109,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,
-	"collectible": 0
+	"collectible": 5
 }

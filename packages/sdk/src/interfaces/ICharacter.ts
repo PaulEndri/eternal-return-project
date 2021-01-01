@@ -52,7 +52,7 @@ export interface ICharacterInitialStat {
 	maxExtraPoint: number;
 	attackPower: number;
 	defense: number;
-	criticalStrikeChance: number;
+	criticalChance: number;
 	hpRegen: number;
 	spRegen: number;
 	attackSpeed: number;
@@ -61,6 +61,8 @@ export interface ICharacterInitialStat {
 }
 
 export interface ICharacter extends IElement<Characters | string> {
+	displayName?: string;
+	background?: string;
 	attributes?: ICharacterAttribute[];
 	description?: string;
 	details?: Record<string, string>;

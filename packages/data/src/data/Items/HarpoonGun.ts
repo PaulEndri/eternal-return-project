@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HarpoonGun: Item = {
 	"id": 118301,
-	"name": "Harpoon Gun",
+	"name": "HarpoonGun",
 	"buildsFrom": [
 		{
 			"name": "Springfield",
@@ -34,11 +34,13 @@ export const HarpoonGun: Item = {
 		"sightRange": 2
 	},
 	"rarity": "Rare",
+	"code": "하푼건",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A powerful gun that fires harpoons. Thar she blows!",
+	"displayName": "Harpoon Gun",
 	"apiMetaData": {
 		"code": 118301,
 		"category": "Weapon",

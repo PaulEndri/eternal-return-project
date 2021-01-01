@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WonderfulTonight: Item = {
 	"id": 121405,
-	"name": "Wonderful Tonight",
+	"name": "WonderfulTonight",
 	"buildsFrom": [
 		{
 			"name": "Superstrat",
@@ -27,11 +27,13 @@ export const WonderfulTonight: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Epic",
+	"code": "원더풀투나잇",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If it's late in the evening, and you're wondering what item to craft, try this one!",
+	"displayName": "Wonderful Tonight",
 	"apiMetaData": {
 		"code": 121405,
 		"category": "Weapon",

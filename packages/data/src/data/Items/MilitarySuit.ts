@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MilitarySuit: Item = {
 	"id": 202205,
-	"name": "Military Suit",
+	"name": "MilitarySuit",
 	"buildsFrom": [
 		{
 			"name": "Windbreaker",
@@ -32,11 +32,13 @@ export const MilitarySuit: Item = {
 		"preventBasicAttackDamaged": 10
 	},
 	"rarity": "Uncommon",
+	"code": "군복",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Like a school uniform, these military uniforms get some people excited! But when you actually see them out in the street...meh.",
+	"displayName": "Military Suit",
 	"apiMetaData": {
 		"code": 202205,
 		"category": "Armor",

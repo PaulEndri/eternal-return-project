@@ -25,11 +25,13 @@ export const Joyeuse: Item = {
 		"moveSpeed": 0.2
 	},
 	"rarity": "Epic",
+	"code": "주와이외즈",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Joyeuse",
 	"apiMetaData": {
 		"code": 120405,
 		"category": "Weapon",

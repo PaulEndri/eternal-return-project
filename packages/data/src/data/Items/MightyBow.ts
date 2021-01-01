@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MightyBow: Item = {
 	"id": 114303,
-	"name": "Mighty Bow",
+	"name": "MightyBow",
 	"buildsFrom": [
 		{
 			"name": "Longbow",
@@ -29,11 +29,13 @@ export const MightyBow: Item = {
 		"increaseBasicAttackDamage": 11
 	},
 	"rarity": "Rare",
+	"code": "벽력궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow that can be made by combining a bow and gunpowder. While hiding in darkness, you must draw the bow quietly, but quickly.",
+	"displayName": "Mighty Bow",
 	"apiMetaData": {
 		"code": 114303,
 		"category": "Weapon",

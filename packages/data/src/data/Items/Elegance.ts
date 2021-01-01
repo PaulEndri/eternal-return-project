@@ -28,11 +28,13 @@ export const Elegance: Item = {
 		"sightRange": 5
 	},
 	"rarity": "Epic",
+	"code": "엘레강스",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Though it looks like an old gun, it is actually a smaller version of the railgun pistol. Up to 6 bullets are loaded from a clip. At first glance, it looks like a decoration, but it is just as effective as the real, full-size version.",
+	"displayName": "Elegance",
 	"apiMetaData": {
 		"code": 116404,
 		"category": "Weapon",

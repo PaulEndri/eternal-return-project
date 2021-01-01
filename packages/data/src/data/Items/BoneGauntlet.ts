@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BoneGauntlet: Item = {
 	"id": 110401,
-	"name": "Bone Gauntlet",
+	"name": "BoneGauntlet",
 	"buildsFrom": [
 		{
 			"name": "Gauntlet",
@@ -35,11 +35,13 @@ export const BoneGauntlet: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "귀골장갑",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armored gloves made from a turtle shell.",
+	"displayName": "Bone Gauntlet",
 	"apiMetaData": {
 		"code": 110401,
 		"category": "Weapon",

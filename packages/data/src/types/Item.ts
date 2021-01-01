@@ -1,21 +1,21 @@
-export interface ItemElement {
+export type ItemElement = {
 	name: string | number;
 	id: string | number;
-}
+};
 
-export interface ItemClientMetaData {
+export type ItemClientMetaData = {
 	type: string;
 	category: string;
-}
+};
 
-export interface ItemApiMetaData {
+export type ItemApiMetaData = {
 	code?: number;
 	category?: string;
 	type?: string;
-}
+};
 
-export interface ItemStats {
-	attackPower?: number;
+export type ItemStats = {
+	attackPower?: number | string;
 	moveSpeed?: number;
 	moveSpeedOutOfCombat?: number;
 	cooldownReduction?: number;
@@ -28,6 +28,7 @@ export interface ItemStats {
 	sightRange?: number;
 	spRegen?: number;
 	lifeSteal?: number;
+	criticalChance?: number;
 	criticalStrikeChance?: number;
 	decreaseRecoveryToSkill?: number;
 	increaseSkillDamageRatio?: number;
@@ -42,12 +43,14 @@ export interface ItemStats {
 	preventBasicAttackDamaged?: number;
 	spRestore?: number;
 	heal?: number;
-}
+};
 
-export interface Item {
-	name: string | number;
-	id: string | number;
+export type Item = {
+	name: string;
+	code?: number | string;
+	id: number;
 	href?: string;
+	displayName: string | number;
 	rarity: string;
 	stats: ItemStats;
 	stackable: boolean;
@@ -63,6 +66,6 @@ export interface Item {
 	droppedFrom?: ItemElement[];
 	apiMetaData: ItemApiMetaData;
 	clientMetaData: ItemClientMetaData;
-}
+};
 
 export default Item;

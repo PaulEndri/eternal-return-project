@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const DoubleGuillotine: Item = {
-	"id": "Double Guillotine",
-	"name": "Double Guillotine",
-	"href": "/Double_Guillotine",
+	"id": 502405,
+	"name": "DoubleGuillotine",
 	"buildsFrom": [
 		{
 			"name": "Jungle Guillotine",
-			"id": "Jungle Guillotine"
+			"id": 502303
 		},
 		{
 			"name": "Pendulum Axe",
-			"id": "Pendulum Axe"
+			"id": 502305
 		}
 	],
 	"buildsInto": [],
@@ -23,23 +22,24 @@ export const DoubleGuillotine: Item = {
 		"Hatchet": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Epic",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Double Guillotine",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502405,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const VFBloodSample: Item = {
 	"id": 401401,
-	"name": "VF Blood Sample",
+	"name": "VFBloodSample",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -37,11 +37,13 @@ export const VFBloodSample: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "VF혈액샘플",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Only the strongest can get this blood sample.",
+	"displayName": "VF Blood Sample",
 	"apiMetaData": {
 		"code": 401401,
 		"category": "Misc",

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const HiddenMaiden: Item = {
-	"id": "Hidden Maiden",
-	"name": "Hidden Maiden",
-	"href": "/Hidden_Maiden",
+	"id": 502407,
+	"name": "HiddenMaiden",
 	"buildsFrom": [
 		{
 			"name": "Spiked Plank",
@@ -11,7 +10,7 @@ export const HiddenMaiden: Item = {
 		},
 		{
 			"name": "Jungle Guillotine",
-			"id": "Jungle Guillotine"
+			"id": 502303
 		}
 	],
 	"buildsInto": [],
@@ -21,23 +20,24 @@ export const HiddenMaiden: Item = {
 		"Kitchen Knife": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Hidden Maiden",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502407,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -35,11 +35,13 @@ export const Warhammer: Item = {
 		"attackPower": 40
 	},
 	"rarity": "Uncommon",
+	"code": "워해머",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's like a gift set of close combat weapons! Includes a hammer for striking, a spear for piercing, and a sword for slashing.",
+	"displayName": "Warhammer",
 	"apiMetaData": {
 		"code": 104201,
 		"category": "Weapon",

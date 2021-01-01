@@ -27,12 +27,12 @@ export const Dock: Location = {
 	],
 	"drops": [
 		{
-			"name": "Glass Bottle",
+			"name": "GlassBottle",
 			"id": 112104,
 			"quantity": 7
 		},
 		{
-			"name": "Short Rod",
+			"name": "ShortRod",
 			"id": 108102,
 			"quantity": 5
 		},
@@ -42,12 +42,12 @@ export const Dock: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Turtle Shell",
+			"name": "TurtleShell",
 			"id": 401104,
 			"quantity": 7
 		},
 		{
-			"name": 502102,
+			"name": "Snare",
 			"id": 502102,
 			"quantity": 5
 		},
@@ -57,7 +57,7 @@ export const Dock: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 202105,
+			"name": "Wetsuit",
 			"id": 202105,
 			"quantity": 7
 		},
@@ -67,12 +67,12 @@ export const Dock: Location = {
 			"quantity": 8
 		},
 		{
-			"name": 301106,
+			"name": "Coffee",
 			"id": 301106,
 			"quantity": 5
 		},
 		{
-			"name": 302113,
+			"name": "Ramen",
 			"id": 302113,
 			"quantity": 6
 		},
@@ -82,17 +82,17 @@ export const Dock: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 6
 		},
 		{
-			"name": 302110,
+			"name": "Bread",
 			"id": 302110,
 			"quantity": 4
 		},
 		{
-			"name": "Kitchen Knife",
+			"name": "KitchenKnife",
 			"id": 101104,
 			"quantity": 4
 		},
@@ -102,17 +102,17 @@ export const Dock: Location = {
 			"quantity": 8
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "ScrapMetal",
 			"id": 401106,
 			"quantity": 8
 		},
 		{
-			"name": "Rusty Sword",
+			"name": "RustySword",
 			"id": 102101,
 			"quantity": 6
 		},
 		{
-			"name": "Long Rifle",
+			"name": "LongRifle",
 			"id": 118101,
 			"quantity": 3
 		}

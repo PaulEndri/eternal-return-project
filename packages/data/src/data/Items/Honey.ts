@@ -11,27 +11,27 @@ export const Honey: Item = {
 		},
 		{
 			"name": "Honey Milk",
-			"id": "Honey Milk"
+			"id": 301211
 		},
 		{
 			"name": "Honey Water",
-			"id": "Honey Water"
+			"id": 301215
 		},
 		{
 			"name": "Hot Honey Water",
-			"id": "Hot Honey Water"
+			"id": 301302
 		},
 		{
 			"name": "Honey cod steak",
-			"id": "Honey cod steak"
+			"id": 302201
 		},
 		{
 			"name": "Honey Garlic Pickle",
-			"id": "Honey Garlic Pickle"
+			"id": 302232
 		},
 		{
 			"name": "Honey Butter",
-			"id": "Honey Butter"
+			"id": 302315
 		}
 	],
 	"requirements": {},
@@ -39,6 +39,7 @@ export const Honey: Item = {
 		"spRestore": 250
 	},
 	"rarity": "Common",
+	"code": "꿀",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
@@ -47,6 +48,7 @@ export const Honey: Item = {
 		"Forest": 6
 	},
 	"foundQuantity": 2,
+	"displayName": "Honey",
 	"apiMetaData": {
 		"code": 301101,
 		"category": "Consume",

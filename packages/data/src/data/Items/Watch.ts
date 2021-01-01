@@ -19,6 +19,7 @@ export const Watch: Item = {
 		"attackSpeedRatio": 0.1
 	},
 	"rarity": "Common",
+	"code": "손목시계",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -28,6 +29,7 @@ export const Watch: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It's right twice a day.",
+	"displayName": "Watch",
 	"apiMetaData": {
 		"code": 203101,
 		"category": "Armor",

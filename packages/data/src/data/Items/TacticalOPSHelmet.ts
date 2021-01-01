@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TacticalOPSHelmet: Item = {
 	"id": 201406,
-	"name": "Tactical OPS Helmet",
+	"name": "TacticalOPSHelmet",
 	"buildsFrom": [
 		{
 			"name": "Ballistic Helmet",
@@ -28,11 +28,13 @@ export const TacticalOPSHelmet: Item = {
 		"maxHp": 120
 	},
 	"rarity": "Epic",
+	"code": "전술OPS헬멧",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A tactical helmet used by special forces. Military grade communication technology is built-in.",
+	"displayName": "Tactical OPS Helmet",
 	"apiMetaData": {
 		"code": 201406,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const DeadBattery: Item = {
 	"id": 401205,
-	"name": "Dead Battery",
+	"name": "DeadBattery",
 	"buildsFrom": [
 		{
 			"name": "Battery",
@@ -37,11 +37,13 @@ export const DeadBattery: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "방전전지",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Is a dead battery still a battery? Just throw it at someone!",
+	"displayName": "Dead Battery",
 	"apiMetaData": {
 		"code": 401205,
 		"category": "Misc",

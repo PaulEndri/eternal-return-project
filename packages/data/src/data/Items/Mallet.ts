@@ -28,11 +28,13 @@ export const Mallet: Item = {
 		"decreaseRecoveryToBasicAttack": 1
 	},
 	"rarity": "Epic",
+	"code": "타구봉",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Mallet",
 	"apiMetaData": {
 		"code": 108404,
 		"category": "Weapon",

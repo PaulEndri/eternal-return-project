@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RyukyuTonfa: Item = {
 	"id": 111401,
-	"name": "Ryukyu Tonfa",
+	"name": "RyukyuTonfa",
 	"buildsFrom": [
 		{
 			"name": "Tonfa",
@@ -34,11 +34,13 @@ export const RyukyuTonfa: Item = {
 		"defense": 18
 	},
 	"rarity": "Rare",
+	"code": "류큐톤파",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Ryukyu Tonfa",
 	"apiMetaData": {
 		"code": 111401,
 		"category": "Weapon",

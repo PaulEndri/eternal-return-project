@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GatlingGun: Item = {
 	"id": 117403,
-	"name": "Gatling Gun",
+	"name": "GatlingGun",
 	"buildsFrom": [
 		{
 			"name": "Machine Gun",
@@ -30,11 +30,13 @@ export const GatlingGun: Item = {
 		"increaseBasicAttackDamage": 12
 	},
 	"rarity": "Epic",
+	"code": "개틀링건",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The world's first machine gun, it fires through several barrels joined together. Can cause catastrophic damage to the enemy in a short period of time.",
+	"displayName": "Gatling Gun",
 	"apiMetaData": {
 		"code": 117403,
 		"category": "Weapon",

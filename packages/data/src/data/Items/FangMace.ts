@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FangMace: Item = {
 	"id": 104401,
-	"name": "Fang Mace",
+	"name": "FangMace",
 	"buildsFrom": [
 		{
 			"name": "Morning Star",
@@ -26,11 +26,13 @@ export const FangMace: Item = {
 		"increaseSkillDamage": 31
 	},
 	"rarity": "Epic",
+	"code": "낭아봉",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Fang Mace",
 	"apiMetaData": {
 		"code": 104401,
 		"category": "Weapon",

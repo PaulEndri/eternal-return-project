@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Chiara: Character = {
 	"id": 14,
+	"displayName": "Chiara",
 	"name": "Chiara",
+	"background": "\"I'm ruined...There will be no salvation for me...\" - Chiara \nChiara was sent to a catholic church institution at birth. Every day, she was brainwashed with stories of the omnipotence of His Almighty.\nWhen she was finally allowed to leave the compound, she ventured to seedy, sordid, and wretched places to preach, holding belief that God would protect her. She found herself in reprehensible situations, harshly realizing the cruel reality of life. A denial of God started growing in her mind, causing her disgust within.\n\nShe detests seeing beautiful and noble things because of her dissatisfaction with herself. \n",
 	"attributes": [
 		{
 			"mastery": "Rapier",
@@ -236,7 +238,7 @@ export const Chiara: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 34,
 			"defense": 24,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.5,
 			"spRegen": 1.8,
 			"attackSpeed": 0.11,

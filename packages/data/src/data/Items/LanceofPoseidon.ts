@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const LanceofPoseidon: Item = {
+export const LanceOfPoseidon: Item = {
 	"id": 107405,
-	"name": "Lance of Poseidon",
+	"name": "LanceOfPoseidon",
 	"buildsFrom": [
 		{
 			"name": "Bident",
@@ -26,11 +26,13 @@ export const LanceofPoseidon: Item = {
 		"moveSpeed": -0.05
 	},
 	"rarity": "Epic",
+	"code": "트리아이나",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A powerful spear that can bring forth waves. It's said to have once been used by Poseidon.",
+	"displayName": "Lance of Poseidon",
 	"apiMetaData": {
 		"code": 107405,
 		"category": "Weapon",

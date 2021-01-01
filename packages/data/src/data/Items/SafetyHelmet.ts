@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SafetyHelmet: Item = {
 	"id": 201205,
-	"name": "Safety Helmet",
+	"name": "SafetyHelmet",
 	"buildsFrom": [
 		{
 			"name": "Bike Helmet",
@@ -27,11 +27,13 @@ export const SafetyHelmet: Item = {
 		"maxHp": 210
 	},
 	"rarity": "Uncommon",
+	"code": "안전모",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Please wear your personal protective equipment in all construction areas.",
+	"displayName": "Safety Helmet",
 	"apiMetaData": {
 		"code": 201205,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MithrilBoots: Item = {
 	"id": 204407,
-	"name": "Mithril Boots",
+	"name": "MithrilBoots",
 	"buildsFrom": [
 		{
 			"name": "Mithril",
@@ -25,11 +25,13 @@ export const MithrilBoots: Item = {
 		"moveSpeed": 0.45
 	},
 	"rarity": "Epic",
+	"code": "미스릴부츠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Boots made out of mithril. Stronger than steel and fireproof, too!",
+	"displayName": "Mithril Boots",
 	"apiMetaData": {
 		"code": 204407,
 		"category": "Armor",

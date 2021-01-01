@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const FireTrap: Item = {
-	"id": "Fire Trap",
-	"name": "Fire Trap",
-	"href": "/Fire_Trap",
+	"id": 502403,
+	"name": "FireTrap",
 	"buildsFrom": [
 		{
 			"name": "Explosive Trap",
-			"id": "Explosive Trap"
+			"id": 502306
 		},
 		{
 			"name": "Oilcloth",
@@ -22,23 +21,24 @@ export const FireTrap: Item = {
 		"Bandage": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Fire Trap",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502403,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

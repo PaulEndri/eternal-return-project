@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HighHeels: Item = {
 	"id": 204203,
-	"name": "High Heels",
+	"name": "HighHeels",
 	"buildsFrom": [
 		{
 			"name": "Slippers",
@@ -16,7 +16,7 @@ export const HighHeels: Item = {
 	"buildsInto": [
 		{
 			"name": "Killer Heels",
-			"id": 204403
+			"id": 204405
 		}
 	],
 	"requirements": {
@@ -28,11 +28,13 @@ export const HighHeels: Item = {
 		"spRegen": 0.8
 	},
 	"rarity": "Uncommon",
+	"code": "하이힐",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Makes you a bit taller. Maybe the air is fresher up there.",
+	"displayName": "High Heels",
 	"apiMetaData": {
 		"code": 204203,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const OneInchPunch: Item = {
 	"id": 110405,
-	"name": "One Inch Punch",
+	"name": "OneInchPunch",
 	"buildsFrom": [
 		{
 			"name": "Bone Gauntlet",
@@ -29,11 +29,13 @@ export const OneInchPunch: Item = {
 		"spRegenRatio": 0.5
 	},
 	"rarity": "Epic",
+	"code": "단영촌천투",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "One Inch Punch",
 	"apiMetaData": {
 		"code": 110405,
 		"category": "Weapon",

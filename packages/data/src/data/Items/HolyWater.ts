@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const HolyWater: Item = {
-	"id": "Holy Water",
-	"name": "Holy Water",
-	"href": "/Holy_Water",
+	"id": 302211,
+	"name": "HolyWater",
 	"buildsFrom": [],
 	"buildsInto": [],
 	"requirements": {},
@@ -16,16 +15,17 @@ export const HolyWater: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Holy water. Good for body and spirit.",
+	"displayName": "Holy Water",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302211,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

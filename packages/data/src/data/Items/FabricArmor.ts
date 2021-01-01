@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FabricArmor: Item = {
 	"id": 202106,
-	"name": "Fabric Armor",
+	"name": "FabricArmor",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -19,6 +19,7 @@ export const FabricArmor: Item = {
 		"defense": 11
 	},
 	"rarity": "Common",
+	"code": "천갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -28,6 +29,7 @@ export const FabricArmor: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Armor made from fabric. It doesn't seem to protect you from much. Good luck.",
+	"displayName": "Fabric Armor",
 	"apiMetaData": {
 		"code": 202106,
 		"category": "Armor",

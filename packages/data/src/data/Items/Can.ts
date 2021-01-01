@@ -7,11 +7,11 @@ export const Can: Item = {
 	"buildsInto": [
 		{
 			"name": "Can of Cola",
-			"id": "Can of Cola"
+			"id": 301309
 		},
 		{
 			"name": "Canned Cod Liver",
-			"id": "Canned Cod Liver"
+			"id": 302204
 		},
 		{
 			"name": "Clang Clatter",
@@ -21,6 +21,7 @@ export const Can: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "캔",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -30,6 +31,7 @@ export const Can: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "You can throw the can.",
+	"displayName": "Can",
 	"apiMetaData": {
 		"code": 401120,
 		"category": "Misc",

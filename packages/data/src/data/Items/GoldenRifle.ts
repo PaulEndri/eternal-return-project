@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GoldenRifle: Item = {
 	"id": 118401,
-	"name": "Golden Rifle",
+	"name": "GoldenRifle",
 	"buildsFrom": [
 		{
 			"name": "Springfield",
@@ -36,11 +36,13 @@ export const GoldenRifle: Item = {
 		"increaseSkillDamageRatio": 0.18
 	},
 	"rarity": "Rare",
+	"code": "금교전",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A rifle accented with gold. High in both accuracy, destructive power, and flashiness.",
+	"displayName": "Golden Rifle",
 	"apiMetaData": {
 		"code": 118401,
 		"category": "Weapon",

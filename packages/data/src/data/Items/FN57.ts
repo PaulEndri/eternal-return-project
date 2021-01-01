@@ -31,11 +31,13 @@ export const FN57: Item = {
 		"sightRange": 2.5
 	},
 	"rarity": "Rare",
+	"code": "FN57",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "FN57",
 	"apiMetaData": {
 		"code": 116301,
 		"category": "Weapon",

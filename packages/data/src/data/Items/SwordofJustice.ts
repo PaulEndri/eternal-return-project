@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const SwordofJustice: Item = {
+export const SwordOfJustice: Item = {
 	"id": 120302,
-	"name": "Sword of Justice",
+	"name": "SwordOfJustice",
 	"buildsFrom": [
 		{
 			"name": "Rapier",
@@ -35,11 +35,13 @@ export const SwordofJustice: Item = {
 		"spRegenRatio": 2
 	},
 	"rarity": "Epic",
+	"code": "활빈검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Historical texts state that Hong Gil-dong, the Robin Hood of ancient Korea, used it.",
+	"displayName": "Sword of Justice",
 	"apiMetaData": {
 		"code": 120302,
 		"category": "Weapon",

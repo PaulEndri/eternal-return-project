@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const SwordofShahJahan: Item = {
+export const SwordOfShahJahan: Item = {
 	"id": 203407,
-	"name": "Sword of Shah Jahan",
+	"name": "SwordOfShahJahan",
 	"buildsFrom": [
 		{
 			"name": "Sheath",
@@ -22,15 +22,17 @@ export const SwordofShahJahan: Item = {
 	},
 	"stats": {
 		"attackPower": 28,
-		"maxHp": 350,
+		"maxHp": 300,
 		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Epic",
+	"code": "샤자한의검집",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword used by the emperor of India's great Mughal Empire. Due to the jewels around the sword, historians doubt its use in battle.",
+	"displayName": "Sword of Shah Jahan",
 	"apiMetaData": {
 		"code": 203407,
 		"category": "Armor",

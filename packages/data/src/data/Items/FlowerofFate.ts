@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const FlowerofFate: Item = {
+export const FlowerOfFate: Item = {
 	"id": 205203,
-	"name": "Flower of Fate",
+	"name": "FlowerOfFate",
 	"buildsFrom": [
 		{
 			"name": "Flower",
@@ -32,11 +32,13 @@ export const FlowerofFate: Item = {
 		"criticalStrikeChance": 0.15
 	},
 	"rarity": "Uncommon",
+	"code": "운명의꽃",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Flower of Fate",
 	"apiMetaData": {
 		"code": 205203,
 		"category": "Armor",

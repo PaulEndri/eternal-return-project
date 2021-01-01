@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const QueenofHearts: Item = {
+export const QueenOfHearts: Item = {
 	"id": 202502,
-	"name": "Queen of Hearts",
+	"name": "QueenOfHearts",
 	"buildsFrom": [
 		{
 			"name": "VF Blood Sample",
@@ -26,11 +26,13 @@ export const QueenofHearts: Item = {
 		"hpRegen": 3
 	},
 	"rarity": "Legend",
+	"code": "퀸오브하트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A magical cloak that only a true queen can wear. The magic from the cloak protected the Queen, but its power hasn't been used for a while...",
+	"displayName": "Queen of Hearts",
 	"apiMetaData": {
 		"code": 202502,
 		"category": "Armor",

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Baijiu: Item = {
-	"id": "Baijiu",
+	"id": 301204,
 	"name": "Baijiu",
-	"href": "/Baijiu",
 	"buildsFrom": [
 		{
 			"name": "Alcohol",
@@ -17,15 +16,15 @@ export const Baijiu: Item = {
 	"buildsInto": [
 		{
 			"name": "Kaoliang Liquor",
-			"id": "Kaoliang Liquor"
+			"id": 301301
 		},
 		{
 			"name": "Flower Liquor",
-			"id": "Flower Liquor"
+			"id": 301303
 		},
 		{
 			"name": "Herbal Liquor",
-			"id": "Herbal Liquor"
+			"id": 301305
 		}
 	],
 	"requirements": {
@@ -40,16 +39,17 @@ export const Baijiu: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Baijiu",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301204,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

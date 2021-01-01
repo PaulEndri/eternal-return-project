@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ClangClatter: Item = {
 	"id": 502206,
-	"name": "Clang Clatter",
+	"name": "ClangClatter",
 	"buildsFrom": [
 		{
 			"name": "Can",
@@ -24,13 +24,15 @@ export const ClangClatter: Item = {
 		"Iron Ball": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
+	"code": "소란발생기",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 5,
+	"displayName": "Clang Clatter",
 	"apiMetaData": {
 		"code": 502206,
 		"category": "Special",

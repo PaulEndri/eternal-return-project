@@ -29,14 +29,16 @@ export const Mistilteinn: Item = {
 		"criticalStrikeDamage": 0.25,
 		"hpRegen": 1.5,
 		"spRegenRatio": 2,
-		"increaseSkillDamageRatio": 0.17
+		"increaseSkillDamageRatio": 0.15
 	},
 	"rarity": "Legend",
+	"code": "미스틸테인",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Mistilteinn",
 	"apiMetaData": {
 		"code": 120402,
 		"category": "Weapon",

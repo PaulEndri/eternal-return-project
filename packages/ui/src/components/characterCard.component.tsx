@@ -1,11 +1,11 @@
 import React, { FunctionComponent } from 'react';
-import { Button, Image, Segment } from 'semantic-ui-react';
+import { Button, Segment } from 'semantic-ui-react';
 import { ICharacter } from 'erbs-sdk';
-import { getImageSrc } from '../utilities/getImageSrc';
+import { CharacterPortrait } from './characterPortrait.component';
 
 type CharacterCardProps = {
 	character: ICharacter;
-	onClick: any;
+	onClick?: any;
 };
 
 const CharacterCard: FunctionComponent<CharacterCardProps> = ({ character, onClick }) => {
@@ -15,31 +15,17 @@ const CharacterCard: FunctionComponent<CharacterCardProps> = ({ character, onCli
 				borderRadius: 0,
 				paddingLeft: 0,
 				marginLeft: 0,
-				backgroundColor: 'rgba(66, 64, 74, 0.2)'
+				backgroundColor: '#232326'
 			}}
 		>
 			{character && (
 				<React.Fragment>
 					<Segment basic compact textAlign="center">
-						<div
-							style={{
-								backgroundColor: '#877e8a',
-								margin: 'auto',
-								marginBottom: '10px',
-								width: 200,
-								border: '1px solid rgba(255, 190, 16, 0.45)',
-
-								overflow: 'hidden'
-							}}
-						>
-							<Image
-								style={{ maxWidth: 200, width: 200 }}
-								src={getImageSrc(`characters/half/${character.name}`)}
-							/>
-						</div>
+						<CharacterPortrait name={character.name} />
 
 						<Button
 							color="brown"
+							fluid
 							as="a"
 							href={`https://eternalreturn.gamepedia.com/${character.name}`}
 							content={character.name}
@@ -51,22 +37,24 @@ const CharacterCard: FunctionComponent<CharacterCardProps> = ({ character, onCli
 						</div>
 					</Segment>
 
-					<Segment
-						attached="top"
-						style={{
-							border: 0,
-							borderRadius: 0,
-							backgroundColor: 'rgba(0, 0, 0, 0.5)'
-						}}
-						raised
-						stacked
-					>
-						<Button
-							onClick={() => onClick(character)}
-							content={'Select your character'}
-							color="green"
-						/>
-					</Segment>
+					{onClick && (
+						<Segment
+							attached="top"
+							style={{
+								border: 0,
+								borderRadius: 0,
+								backgroundColor: 'rgba(0, 0, 0, 0.5)'
+							}}
+							raised
+							stacked
+						>
+							<Button
+								onClick={() => onClick(character)}
+								content={'Select your character'}
+								color="green"
+							/>
+						</Segment>
+					)}
 				</React.Fragment>
 			)}
 			{!character && (

@@ -19,23 +19,23 @@ export const Ice: Item = {
 		},
 		{
 			"name": "Ice Coffee",
-			"id": "Ice Coffee"
+			"id": 301206
 		},
 		{
 			"name": "Ice Water",
-			"id": "Ice Water"
+			"id": 301216
 		},
 		{
 			"name": "On The Rocks",
-			"id": "On The Rocks"
+			"id": 301217
 		},
 		{
 			"name": "Purified Water",
-			"id": "Purified Water"
+			"id": 301308
 		},
 		{
 			"name": "Choco Ice Cream",
-			"id": "Choco Ice Cream"
+			"id": 302237
 		}
 	],
 	"requirements": {},
@@ -43,6 +43,7 @@ export const Ice: Item = {
 		"spRestore": 200
 	},
 	"rarity": "Common",
+	"code": "얼음",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
@@ -51,6 +52,7 @@ export const Ice: Item = {
 		"Hotel": 7
 	},
 	"foundQuantity": 2,
+	"displayName": "Ice",
 	"apiMetaData": {
 		"code": 301103,
 		"category": "Consume",

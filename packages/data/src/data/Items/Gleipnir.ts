@@ -10,7 +10,7 @@ export const Gleipnir: Item = {
 		},
 		{
 			"name": "Honey cod steak",
-			"id": "Honey cod steak"
+			"id": 302201
 		}
 	],
 	"buildsInto": [],
@@ -22,15 +22,17 @@ export const Gleipnir: Item = {
 		"Honey": 1
 	},
 	"stats": {
-		"attackPower": 54,
-		"attackSpeedRatio": 0.3
+		"attackPower": 58,
+		"increaseSkillDamage": 35
 	},
 	"rarity": "Epic",
+	"code": "글레이프니르",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Gleipnir",
 	"apiMetaData": {
 		"code": 109403,
 		"category": "Weapon",

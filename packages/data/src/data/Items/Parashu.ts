@@ -24,14 +24,16 @@ export const Parashu: Item = {
 	"stats": {
 		"attackPower": 115,
 		"cooldownReduction": 0.1,
-		"moveSpeed": 0.2
+		"moveSpeed": 0.15
 	},
 	"rarity": "Epic",
+	"code": "파라슈",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Parashu",
 	"apiMetaData": {
 		"code": 105405,
 		"category": "Weapon",

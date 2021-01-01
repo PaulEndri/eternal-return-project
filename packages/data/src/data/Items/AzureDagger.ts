@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const AzureDagger: Item = {
 	"id": 113409,
-	"name": "Azure Dagger",
+	"name": "AzureDagger",
 	"buildsFrom": [
 		{
 			"name": "Onyx Dagger",
@@ -28,11 +28,13 @@ export const AzureDagger: Item = {
 		"increaseSkillDamage": 24
 	},
 	"rarity": "Epic",
+	"code": "푸른색단도",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Blue weapons aren't always associated with ice or water...",
+	"displayName": "Azure Dagger",
 	"apiMetaData": {
 		"code": 113409,
 		"category": "Weapon",

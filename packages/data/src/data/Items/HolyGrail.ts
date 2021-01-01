@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HolyGrail: Item = {
 	"id": 205108,
-	"name": "Holy Grail",
+	"name": "HolyGrail",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -23,6 +23,7 @@ export const HolyGrail: Item = {
 		"hpRegenRatio": 1.2
 	},
 	"rarity": "Common",
+	"code": "성배",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -30,6 +31,7 @@ export const HolyGrail: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A relic that has materializes through various trials and adventures in Medieval myths. Many knights endured the trials, yet none ended up with a happy ending.",
+	"displayName": "Holy Grail",
 	"apiMetaData": {
 		"code": 205108,
 		"category": "Armor",

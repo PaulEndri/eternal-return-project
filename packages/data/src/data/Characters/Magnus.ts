@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Magnus: Character = {
 	"id": 4,
+	"displayName": "Magnus",
 	"name": "Magnus",
+	"background": "\"The Legendary Biker, Magnus!\" - Magnus\nMagnus is the leader of the prominent motorcycle gang found across the US, Reaper's Wheel. Even before he took the helm, the group was well-known. Other gangs and bikers tried to intimidate them wherever they went, resulting in gang fights and turf wars. \nMagnus, however, would always emerge victorious, no matter how many he was up against. He became a living legend amongst the bikers across the country and the rest of Reaper's Wheel. Magnus is proud of his absolute power. \n\nHe has knack for aggravating and taunting others. \nHis catchphrase words are \"Power!\" and \"Persistence!\"\n",
 	"attributes": [
 		{
 			"mastery": "Hammer",
@@ -310,7 +312,7 @@ export const Magnus: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 32,
 			"defense": 25,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 1,
 			"spRegen": 1.9,
 			"attackSpeed": 0.12,

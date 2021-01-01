@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CrusaderArmor: Item = {
 	"id": 202408,
-	"name": "Crusader Armor",
+	"name": "CrusaderArmor",
 	"buildsFrom": [
 		{
 			"name": "Sheet Metal Armor",
@@ -24,15 +24,17 @@ export const CrusaderArmor: Item = {
 	"stats": {
 		"defense": 30,
 		"hpRegenRatio": 2,
-		"moveSpeed": -0.1,
-		"increaseBasicAttackDamage": 20
+		"moveSpeed": -0.02,
+		"increaseBasicAttackDamage": 15
 	},
 	"rarity": "Epic",
+	"code": "성기사의갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Some say that this armor provides special protection from the undead. It's a shame there's no zombies around here.",
+	"displayName": "Crusader Armor",
 	"apiMetaData": {
 		"code": 202408,
 		"category": "Armor",

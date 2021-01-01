@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CrimsonBracelet: Item = {
 	"id": 203304,
-	"name": "Crimson Bracelet",
+	"name": "CrimsonBracelet",
 	"buildsFrom": [
 		{
 			"name": "Bracelet",
@@ -29,11 +29,13 @@ export const CrimsonBracelet: Item = {
 		"maxSp": 250
 	},
 	"rarity": "Rare",
+	"code": "진홍팔찌",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bracelet lavish with white and red gemstones. However, the large size of the beads may be somewhat annoying the wearer.",
+	"displayName": "Crimson Bracelet",
 	"apiMetaData": {
 		"code": 203304,
 		"category": "Armor",

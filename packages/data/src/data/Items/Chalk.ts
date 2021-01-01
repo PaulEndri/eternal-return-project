@@ -16,6 +16,7 @@ export const Chalk: Item = {
 		"charges": 50
 	},
 	"rarity": "Common",
+	"code": "분필",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -25,6 +26,7 @@ export const Chalk: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Chalk",
 	"apiMetaData": {
 		"code": 113104,
 		"category": "Weapon",

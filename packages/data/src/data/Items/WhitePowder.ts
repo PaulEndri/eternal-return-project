@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WhitePowder: Item = {
 	"id": 401206,
-	"name": "White Powder",
+	"name": "WhitePowder",
 	"buildsFrom": [
 		{
 			"name": "Chalk",
@@ -44,7 +44,7 @@ export const WhitePowder: Item = {
 		},
 		{
 			"name": "C-4",
-			"id": "C-4"
+			"id": 502404
 		}
 	],
 	"requirements": {
@@ -53,11 +53,13 @@ export const WhitePowder: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "백색가루",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Unidentifiable white powder. Probably from chalk...",
+	"displayName": "White Powder",
 	"apiMetaData": {
 		"code": 401206,
 		"category": "Misc",

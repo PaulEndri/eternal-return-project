@@ -29,11 +29,13 @@ export const Flubber: Item = {
 		"charges": 50
 	},
 	"rarity": "Rare",
+	"code": "플러버",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It feels like the innocence of childhood. If you drop it, it'll lose its viscosity and become stiff, so take care of it.",
+	"displayName": "Flubber",
 	"apiMetaData": {
 		"code": 112304,
 		"category": "Weapon",

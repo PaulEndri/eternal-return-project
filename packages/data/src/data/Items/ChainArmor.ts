@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ChainArmor: Item = {
 	"id": 202302,
-	"name": "Chain Armor",
+	"name": "ChainArmor",
 	"buildsFrom": [
 		{
 			"name": "Leather Armor",
@@ -28,11 +28,13 @@ export const ChainArmor: Item = {
 		"defense": 30
 	},
 	"rarity": "Rare",
+	"code": "사슬갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor used in both Asia and Europe in the past. Made out of interconnecting metal links.",
+	"displayName": "Chain Armor",
 	"apiMetaData": {
 		"code": 202302,
 		"category": "Armor",

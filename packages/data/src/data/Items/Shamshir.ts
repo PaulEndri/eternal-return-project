@@ -31,11 +31,13 @@ export const Shamshir: Item = {
 		"attackPower": 27
 	},
 	"rarity": "Uncommon",
+	"code": "샴쉬르",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The name translates into \"The Tail of the Lion.\" A symbolic sword of Persia, it's also known to be the origin of the sabre.",
+	"displayName": "Shamshir",
 	"apiMetaData": {
 		"code": 102201,
 		"category": "Weapon",

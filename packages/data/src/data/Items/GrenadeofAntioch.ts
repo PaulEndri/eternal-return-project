@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const GrenadeofAntioch: Item = {
+export const GrenadeOfAntioch: Item = {
 	"id": 112305,
-	"name": "Grenade of Antioch",
+	"name": "GrenadeOfAntioch",
 	"buildsFrom": [
 		{
 			"name": "High Explosive Grenade",
@@ -27,11 +27,13 @@ export const GrenadeofAntioch: Item = {
 		"increaseBasicAttackDamage": 80
 	},
 	"rarity": "Epic",
+	"code": "안티오크의수류탄",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Grenade of Antioch",
 	"apiMetaData": {
 		"code": 112305,
 		"category": "Weapon",

@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const TandooriChicken: Item = {
-	"id": "Tandoori Chicken",
-	"name": "Tandoori Chicken",
-	"href": "/Tandoori_Chicken",
+	"id": 302222,
+	"name": "TandooriChicken",
 	"buildsFrom": [
 		{
 			"name": "Curry Powder",
-			"id": "Curry Powder"
+			"id": 302120
 		},
 		{
 			"name": "Meat",
-			"id": "Meat"
+			"id": 302111
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const TandooriChicken: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Tandoori Chicken",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302222,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -29,11 +29,13 @@ export const Sling: Item = {
 		"charges": 50
 	},
 	"rarity": "Rare",
+	"code": "슬링",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Sling",
 	"apiMetaData": {
 		"code": 112204,
 		"category": "Weapon",

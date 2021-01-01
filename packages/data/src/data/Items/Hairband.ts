@@ -20,6 +20,7 @@ export const Hairband: Item = {
 		"maxSp": 130
 	},
 	"rarity": "Common",
+	"code": "머리띠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -29,6 +30,7 @@ export const Hairband: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "If you use a cheap one, the glue might stick to your hair or ears.",
+	"displayName": "Hairband",
 	"apiMetaData": {
 		"code": 201101,
 		"category": "Armor",

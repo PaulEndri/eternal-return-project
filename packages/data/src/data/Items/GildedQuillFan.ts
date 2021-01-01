@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GildedQuillFan: Item = {
 	"id": 205210,
-	"name": "Gilded Quill Fan",
+	"name": "GildedQuillFan",
 	"buildsFrom": [
 		{
 			"name": "Fan",
@@ -32,11 +32,13 @@ export const GildedQuillFan: Item = {
 		"increaseSkillDamage": 14
 	},
 	"rarity": "Uncommon",
+	"code": "군선",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you fan your face with this, try not to scratch yourself.",
+	"displayName": "Gilded Quill Fan",
 	"apiMetaData": {
 		"code": 205210,
 		"category": "Armor",

@@ -28,15 +28,17 @@ export const Torch: Item = {
 	"stats": {
 		"attackPower": 40,
 		"attackSpeedRatio": 0.1,
-		"hpRegen": 0.8,
+		"hpRegen": 0.5,
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "횃불",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The torch that lights your way might help you keep your own life from being extinguished. If you see an enemy, don't hesitate to swing.",
+	"displayName": "Torch",
 	"apiMetaData": {
 		"code": 108402,
 		"category": "Weapon",

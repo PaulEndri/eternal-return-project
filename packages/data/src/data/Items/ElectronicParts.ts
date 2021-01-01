@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ElectronicParts: Item = {
 	"id": 401211,
-	"name": "Electronic Parts",
+	"name": "ElectronicParts",
 	"buildsFrom": [
 		{
 			"name": "Battery",
@@ -28,7 +28,7 @@ export const ElectronicParts: Item = {
 		},
 		{
 			"name": "Maverick Runner",
-			"id": 204404
+			"id": 204403
 		},
 		{
 			"name": "Motor",
@@ -45,11 +45,13 @@ export const ElectronicParts: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "전자부품",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can likely craft something out of this.",
+	"displayName": "Electronic Parts",
 	"apiMetaData": {
 		"code": 401211,
 		"category": "Misc",

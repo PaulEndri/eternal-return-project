@@ -27,11 +27,13 @@ export const Excalibur: Item = {
 		"maxHp": 400
 	},
 	"rarity": "Epic",
+	"code": "엑스칼리버",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A noted sword produced in Avalon, the nation of fairies. King  Arthur received this sword from the beautiful Lady of the Lake and returned it after the final battle against Prince Mordred.",
+	"displayName": "Excalibur",
 	"apiMetaData": {
 		"code": 102407,
 		"category": "Weapon",

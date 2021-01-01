@@ -25,11 +25,13 @@ export const Uchiwa: Item = {
 		"increaseSkillDamage": 21
 	},
 	"rarity": "Rare",
+	"code": "우치와",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A fan with your favorite celebrity's face printed on it. It might block the view of the person behind you, so keep it at home during the concert.",
+	"displayName": "Uchiwa",
 	"apiMetaData": {
 		"code": 205302,
 		"category": "Armor",

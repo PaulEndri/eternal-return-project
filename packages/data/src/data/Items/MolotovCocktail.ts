@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MolotovCocktail: Item = {
 	"id": 112203,
-	"name": "Molotov Cocktail",
+	"name": "MolotovCocktail",
 	"buildsFrom": [
 		{
 			"name": "Glass Bottle",
@@ -33,11 +33,13 @@ export const MolotovCocktail: Item = {
 		"charges": 20
 	},
 	"rarity": "Uncommon",
+	"code": "화염병",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Make a mistake and drop it, you'll become your own worst enemy.",
+	"displayName": "Molotov Cocktail",
 	"apiMetaData": {
 		"code": 112203,
 		"category": "Weapon",

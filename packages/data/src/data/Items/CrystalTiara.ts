@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CrystalTiara: Item = {
 	"id": 201404,
-	"name": "Crystal Tiara",
+	"name": "CrystalTiara",
 	"buildsFrom": [
 		{
 			"name": "Tiara",
@@ -27,11 +27,13 @@ export const CrystalTiara: Item = {
 		"maxSp": 700
 	},
 	"rarity": "Epic",
+	"code": "수정티아라",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A tiara made of crystals. The intricacies are impressive.",
+	"displayName": "Crystal Tiara",
 	"apiMetaData": {
 		"code": 201404,
 		"category": "Armor",

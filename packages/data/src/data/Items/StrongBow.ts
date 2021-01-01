@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const StrongBow: Item = {
 	"id": 114301,
-	"name": "Strong Bow",
+	"name": "StrongBow",
 	"buildsFrom": [
 		{
 			"name": "Wooden Bow",
@@ -33,11 +33,13 @@ export const StrongBow: Item = {
 		"attackSpeedRatio": 0.15
 	},
 	"rarity": "Rare",
+	"code": "강궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow with strong elasticity, the bow string is made of 240 strands of three-ply thread.",
+	"displayName": "Strong Bow",
 	"apiMetaData": {
 		"code": 114301,
 		"category": "Weapon",

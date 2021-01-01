@@ -53,11 +53,13 @@ export const Ruby: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "루비",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Rubies and sapphires actually have the same chemical composition and mineral structure! However, rubies have a small amount of chromium that makes them appear red.",
+	"displayName": "Ruby",
 	"apiMetaData": {
 		"code": 401204,
 		"category": "Misc",

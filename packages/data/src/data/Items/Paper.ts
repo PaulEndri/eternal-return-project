@@ -17,6 +17,7 @@ export const Paper: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "종이",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -26,6 +27,7 @@ export const Paper: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Paper",
 	"apiMetaData": {
 		"code": 401117,
 		"category": "Misc",

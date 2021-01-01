@@ -2,11 +2,11 @@ import Item from '../../types/Item';
 
 export const LongCrossbow: Item = {
 	"id": 115201,
-	"name": "Long Crossbow",
+	"name": "LongCrossbow",
 	"buildsFrom": [
 		{
 			"name": "Short Crossbow",
-			"id": 115202
+			"id": 115101
 		},
 		{
 			"name": "Piano Wire",
@@ -31,11 +31,13 @@ export const LongCrossbow: Item = {
 		"attackPower": 30
 	},
 	"rarity": "Uncommon",
+	"code": "쇠뇌",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A long range weapon that can shoot further than a standard bow. During the Chosun Period, there are records of shots landing from as far as 600 steps away.",
+	"displayName": "Long Crossbow",
 	"apiMetaData": {
 		"code": 115201,
 		"category": "Weapon",

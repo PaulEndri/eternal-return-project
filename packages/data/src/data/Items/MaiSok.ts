@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MaiSok: Item = {
 	"id": 111403,
-	"name": "Mai Sok",
+	"name": "MaiSok",
 	"buildsFrom": [
 		{
 			"name": "Ryukyu Tonfa",
@@ -22,16 +22,18 @@ export const MaiSok: Item = {
 		"Short Rod": 1
 	},
 	"stats": {
-		"attackPower": 45,
+		"attackPower": 50,
 		"defense": 20,
 		"hpRegenRatio": 1
 	},
 	"rarity": "Epic",
+	"code": "마이쏙",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Mai Sok",
 	"apiMetaData": {
 		"code": 111403,
 		"category": "Weapon",

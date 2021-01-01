@@ -36,11 +36,13 @@ export const Bracer: Item = {
 		"hpRegen": 1
 	},
 	"rarity": "Uncommon",
+	"code": "브레이서",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Throw this on your wrist to protect you from the bow string.",
+	"displayName": "Bracer",
 	"apiMetaData": {
 		"code": 203203,
 		"category": "Armor",

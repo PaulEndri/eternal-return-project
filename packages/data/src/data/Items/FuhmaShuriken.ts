@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FuhmaShuriken: Item = {
 	"id": 113406,
-	"name": "Fuhma Shuriken",
+	"name": "FuhmaShuriken",
 	"buildsFrom": [
 		{
 			"name": "Apricot Flower Tag",
@@ -22,17 +22,19 @@ export const FuhmaShuriken: Item = {
 		"Alcohol": 1
 	},
 	"stats": {
-		"attackPower": 44,
+		"attackPower": 48,
 		"charges": 50,
 		"cooldownReduction": 0.15,
 		"increaseBasicAttackDamage": 36
 	},
 	"rarity": "Epic",
+	"code": "풍마수리검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A ninja star originally used by Humma, a band of ninja that were active during the Sengoku period.",
+	"displayName": "Fuhma Shuriken",
 	"apiMetaData": {
 		"code": 113406,
 		"category": "Weapon",

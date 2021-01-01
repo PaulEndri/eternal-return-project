@@ -30,11 +30,13 @@ export const Radar: Item = {
 		"defense": 15
 	},
 	"rarity": "Legend",
+	"code": "레이더",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you can get it working properly, it might help you find the location of anyone in the world.",
+	"displayName": "Radar",
 	"apiMetaData": {
 		"code": 203502,
 		"category": "Armor",

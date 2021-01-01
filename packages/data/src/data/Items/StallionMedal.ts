@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const StallionMedal: Item = {
 	"id": 401109,
-	"name": "Stallion Medal",
+	"name": "StallionMedal",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -28,11 +28,16 @@ export const StallionMedal: Item = {
 		{
 			"name": "Covert Agent Uniform",
 			"id": 202404
+		},
+		{
+			"name": "Shaman's Bronze",
+			"id": 205211
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "마패",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -42,6 +47,7 @@ export const StallionMedal: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A form of identification that verifies the recognition of the royal order. There have been many cases where royalty have used this for inspection purposes.",
+	"displayName": "Stallion Medal",
 	"apiMetaData": {
 		"code": 401109,
 		"category": "Misc",

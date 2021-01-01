@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MithrilHelm: Item = {
 	"id": 201403,
-	"name": "Mithril Helm",
+	"name": "MithrilHelm",
 	"buildsFrom": [
 		{
 			"name": "Mithril",
@@ -26,11 +26,13 @@ export const MithrilHelm: Item = {
 		"moveSpeed": 0.2
 	},
 	"rarity": "Epic",
+	"code": "미스릴투구",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A helm made of mithril that's been reforged through generations. Delicate reliefs carved into the surface hint at the craftsmanship invested into it.",
+	"displayName": "Mithril Helm",
 	"apiMetaData": {
 		"code": 201403,
 		"category": "Armor",

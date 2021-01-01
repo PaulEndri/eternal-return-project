@@ -24,15 +24,16 @@ export const Ballista: Item = {
 	"stats": {
 		"attackPower": 115,
 		"attackSpeedRatio": -0.05,
-		"charges": 6,
-		"moveSpeed": -0.05
+		"charges": 6
 	},
 	"rarity": "Epic",
+	"code": "발리스타",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A smaller bow originally designed for siege warfare. It boasts incredible power.",
+	"displayName": "Ballista",
 	"apiMetaData": {
 		"code": 115403,
 		"category": "Weapon",

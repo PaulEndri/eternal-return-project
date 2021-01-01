@@ -1,23 +1,22 @@
 import Item from '../../types/Item';
 
 export const Snare: Item = {
-	"id": "Snare",
+	"id": 502102,
 	"name": "Snare",
-	"href": "/Snare",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Bamboo Trap",
-			"id": "Bamboo Trap"
+			"id": 502204
 		},
 		{
 			"name": "Booby Trap",
-			"id": "Booby Trap"
+			"id": 502205
 		}
 	],
 	"requirements": {},
 	"stats": {
-		"attackPower": 4
+		"attackPower": "#REF!"
 	},
 	"rarity": "Common",
 	"stackable": true,
@@ -31,16 +30,22 @@ export const Snare: Item = {
 		"Dock": 6
 	},
 	"foundQuantity": 2,
+	"displayName": "Snare",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502102,
+		"type": "Summon",
+		"category": "Special"
 	},
-	"droppedFrom": [],
+	"droppedFrom": [
+		{
+			"name": "Boar",
+			"id": 3
+		}
+	],
 	"airSupply": false,
 	"collectible": 0
 }

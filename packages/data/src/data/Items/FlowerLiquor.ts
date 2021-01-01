@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const FlowerLiquor: Item = {
-	"id": "Flower Liquor",
-	"name": "Flower Liquor",
-	"href": "/Flower_Liquor",
+	"id": 301303,
+	"name": "FlowerLiquor",
 	"buildsFrom": [
 		{
 			"name": "Baijiu",
-			"id": "Baijiu"
+			"id": 301204
 		},
 		{
 			"name": "Flower",
@@ -28,16 +27,17 @@ export const FlowerLiquor: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 5,
+	"displayName": "Flower Liquor",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301303,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

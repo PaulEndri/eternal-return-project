@@ -32,7 +32,7 @@ export const Oilcloth: Item = {
 		},
 		{
 			"name": "Fire Trap",
-			"id": "Fire Trap"
+			"id": 502403
 		}
 	],
 	"requirements": {
@@ -41,11 +41,13 @@ export const Oilcloth: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "기름먹인천",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Oiled cloth. May be needed for something involving fire.",
+	"displayName": "Oilcloth",
 	"apiMetaData": {
 		"code": 401202,
 		"category": "Misc",

@@ -16,9 +16,10 @@ export const Whip: Item = {
 	],
 	"requirements": {},
 	"stats": {
-		"attackPower": 9
+		"attackPower": 12
 	},
 	"rarity": "Common",
+	"code": "채찍",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -27,6 +28,7 @@ export const Whip: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Whip",
 	"apiMetaData": {
 		"code": 109101,
 		"category": "Weapon",

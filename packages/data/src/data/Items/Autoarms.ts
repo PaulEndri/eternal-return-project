@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const Autoarms: Item = {
 	"id": 203503,
-	"name": "Auto-arms",
+	"name": "Autoarms",
 	"buildsFrom": [
 		{
 			"name": "Bracer",
@@ -27,11 +27,13 @@ export const Autoarms: Item = {
 		"hpRegen": 1.5
 	},
 	"rarity": "Legend",
+	"code": "오토암즈",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Auto-arms",
 	"apiMetaData": {
 		"code": 203503,
 		"category": "Armor",

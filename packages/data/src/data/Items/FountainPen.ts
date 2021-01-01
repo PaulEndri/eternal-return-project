@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FountainPen: Item = {
 	"id": 101102,
-	"name": "Fountain Pen",
+	"name": "FountainPen",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -23,6 +23,7 @@ export const FountainPen: Item = {
 		"attackPower": 5
 	},
 	"rarity": "Common",
+	"code": "만년필",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -32,6 +33,7 @@ export const FountainPen: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A kind of pen for writing. The ink inside the pen holder flows out through the nib, allowing it to be used for a long time - though your hand will be covered in ink if not used correctly. Or if you are a lefty.",
+	"displayName": "Fountain Pen",
 	"apiMetaData": {
 		"code": 101102,
 		"category": "Weapon",

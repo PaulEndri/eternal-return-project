@@ -16,7 +16,7 @@ export const Boots: Item = {
 	"buildsInto": [
 		{
 			"name": "Combat Boots",
-			"id": 204405
+			"id": 204404
 		},
 		{
 			"name": "EOD Boots",
@@ -34,11 +34,13 @@ export const Boots: Item = {
 		"moveSpeed": 0.22
 	},
 	"rarity": "Rare",
+	"code": "부츠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Protects your feet and calves. Don't wear them too tight -- it might restrict your bloodflow.",
+	"displayName": "Boots",
 	"apiMetaData": {
 		"code": 204302,
 		"category": "Armor",

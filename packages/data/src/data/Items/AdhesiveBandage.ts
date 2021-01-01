@@ -1,14 +1,13 @@
 import Item from '../../types/Item';
 
 export const AdhesiveBandage: Item = {
-	"id": "Adhesive Bandage",
-	"name": "Adhesive Bandage",
-	"href": "/Adhesive_Bandage",
+	"id": 302107,
+	"name": "AdhesiveBandage",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Disinfectant",
-			"id": "Disinfectant"
+			"id": 302213
 		}
 	],
 	"requirements": {},
@@ -23,14 +22,15 @@ export const AdhesiveBandage: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Useful because it sticks to skin well and doesn't fall off easily. Just don't keep it on for too long.",
+	"displayName": "Adhesive Bandage",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302107,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

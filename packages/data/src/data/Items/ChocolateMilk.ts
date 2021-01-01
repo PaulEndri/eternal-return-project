@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const ChocolateMilk: Item = {
-	"id": "Chocolate Milk",
-	"name": "Chocolate Milk",
-	"href": "/Chocolate_Milk",
+	"id": 301214,
+	"name": "ChocolateMilk",
 	"buildsFrom": [
 		{
 			"name": "Chocolate",
-			"id": "Chocolate"
+			"id": 302119
 		},
 		{
 			"name": "Milk",
-			"id": "Milk"
+			"id": 301108
 		}
 	],
 	"buildsInto": [],
@@ -27,16 +26,17 @@ export const ChocolateMilk: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Chocolate Milk",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301214,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

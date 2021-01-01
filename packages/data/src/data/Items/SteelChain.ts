@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SteelChain: Item = {
 	"id": 119101,
-	"name": "Steel Chain",
+	"name": "SteelChain",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -35,6 +35,7 @@ export const SteelChain: Item = {
 		"attackPower": 11
 	},
 	"rarity": "Common",
+	"code": "쇠사슬",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -44,6 +45,7 @@ export const SteelChain: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Steel Chain",
 	"apiMetaData": {
 		"code": 119101,
 		"category": "Weapon",

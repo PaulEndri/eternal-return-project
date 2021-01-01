@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LaurelWreath: Item = {
 	"id": 201408,
-	"name": "Laurel Wreath",
+	"name": "LaurelWreath",
 	"buildsFrom": [
 		{
 			"name": "True Samadhi Fire",
@@ -29,11 +29,13 @@ export const LaurelWreath: Item = {
 		"increaseBasicAttackDamage": 15
 	},
 	"rarity": "Legend",
+	"code": "월계관",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A crown made of branches of a laurel tree, which is a symbol of Apollo. Crowns symbolize wealth, but a laurel crown symbolizes honor.",
+	"displayName": "Laurel Wreath",
 	"apiMetaData": {
 		"code": 201408,
 		"category": "Armor",

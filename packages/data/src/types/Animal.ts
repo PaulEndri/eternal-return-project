@@ -1,4 +1,4 @@
-export interface AnimalStats {
+export type AnimalStats = {
 	createTime: number;
 	regenTime: number;
 	maxHp: number;
@@ -14,15 +14,15 @@ export interface AnimalStats {
 	uiHeight: number;
 	gainExp: number;
 	randomDropCount: number;
-}
+};
 
-export interface AnimalDrop {
+export type AnimalDrop = {
 	name: string;
 	percentage: number;
 	rarity: string;
-}
+};
 
-export interface Animal {
+export type Animal = {
 	name: string;
 	id: string | number;
 	locations: Record<string, number>;
@@ -37,6 +37,6 @@ export interface Animal {
 		name: string;
 		code: number;
 	};
-}
+};
 
 export default Animal;

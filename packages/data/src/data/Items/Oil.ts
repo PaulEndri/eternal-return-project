@@ -41,6 +41,7 @@ export const Oil: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "오일",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -51,6 +52,7 @@ export const Oil: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "At room temperature, this fatty component exists in liquid form.",
+	"displayName": "Oil",
 	"apiMetaData": {
 		"code": 401112,
 		"category": "Misc",

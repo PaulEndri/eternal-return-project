@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PetalTorrent: Item = {
 	"id": 113502,
-	"name": "Petal Torrent",
+	"name": "PetalTorrent",
 	"buildsFrom": [
 		{
 			"name": "Frost Venom Dart",
@@ -34,11 +34,13 @@ export const PetalTorrent: Item = {
 		"increaseSkillDamage": 25
 	},
 	"rarity": "Legend",
+	"code": "만천화우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Petal Torrent",
 	"apiMetaData": {
 		"code": 113502,
 		"category": "Weapon",

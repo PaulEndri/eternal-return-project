@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const ChocolateChipCookies: Item = {
-	"id": "Chocolate Chip Cookies",
-	"name": "Chocolate Chip Cookies",
-	"href": "/Chocolate_Chip_Cookies",
+	"id": 302311,
+	"name": "ChocolateChipCookies",
 	"buildsFrom": [
 		{
 			"name": "Chocolate",
-			"id": "Chocolate"
+			"id": 302119
 		},
 		{
 			"name": "Butter",
-			"id": "Butter"
+			"id": 302206
 		}
 	],
 	"buildsInto": [],
@@ -29,16 +28,17 @@ export const ChocolateChipCookies: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "A timeless classic, the chocolate chip cookie is the king of snacks.",
+	"displayName": "Chocolate Chip Cookies",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302311,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

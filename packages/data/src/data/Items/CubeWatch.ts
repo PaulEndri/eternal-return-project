@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CubeWatch: Item = {
 	"id": 203408,
-	"name": "Cube Watch",
+	"name": "CubeWatch",
 	"buildsFrom": [
 		{
 			"name": "Watch",
@@ -24,11 +24,13 @@ export const CubeWatch: Item = {
 		"defense": 27
 	},
 	"rarity": "Rare",
+	"code": "큐브워치",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Cube Watch",
 	"apiMetaData": {
 		"code": 203408,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const VintageCards: Item = {
 	"id": 113203,
-	"name": "Vintage Cards",
+	"name": "VintageCards",
 	"buildsFrom": [
 		{
 			"name": "Playing Cards",
@@ -33,11 +33,13 @@ export const VintageCards: Item = {
 		"criticalStrikeChance": 0.1
 	},
 	"rarity": "Uncommon",
+	"code": "빈티지카드",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A shabby looking deck of cards. Probably used to gamble in a sketchy alley.",
+	"displayName": "Vintage Cards",
 	"apiMetaData": {
 		"code": 113203,
 		"category": "Weapon",

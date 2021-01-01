@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const HammerofDagda: Item = {
+export const HammerOfDagda: Item = {
 	"id": 104402,
-	"name": "Hammer of Dagda",
+	"name": "HammerOfDagda",
 	"buildsFrom": [
 		{
 			"name": "Black Stag Hammer",
@@ -26,11 +26,13 @@ export const HammerofDagda: Item = {
 		"hpRegenRatio": 2.5
 	},
 	"rarity": "Epic",
+	"code": "다그다의망치",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Hammer of Dagda",
 	"apiMetaData": {
 		"code": 104402,
 		"category": "Weapon",

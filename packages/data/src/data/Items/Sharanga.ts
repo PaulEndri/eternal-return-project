@@ -10,7 +10,7 @@ export const Sharanga: Item = {
 		},
 		{
 			"name": "Crossbow",
-			"id": 115101
+			"id": 115202
 		}
 	],
 	"buildsInto": [],
@@ -26,11 +26,13 @@ export const Sharanga: Item = {
 		"charges": 10
 	},
 	"rarity": "Legend",
+	"code": "샤릉가",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Sharanga",
 	"apiMetaData": {
 		"code": 115501,
 		"category": "Weapon",

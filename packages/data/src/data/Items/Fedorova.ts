@@ -16,6 +16,7 @@ export const Fedorova: Item = {
 		"charges": 1
 	},
 	"rarity": "Common",
+	"code": "페도로프자동소총",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -24,6 +25,7 @@ export const Fedorova: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Fedorova",
 	"apiMetaData": {
 		"code": 117101,
 		"category": "Weapon",

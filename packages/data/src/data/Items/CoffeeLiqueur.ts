@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const CoffeeLiqueur: Item = {
-	"id": "Coffee Liqueur",
-	"name": "Coffee Liqueur",
-	"href": "/Coffee_Liqueur",
+	"id": 301208,
+	"name": "CoffeeLiqueur",
 	"buildsFrom": [
 		{
 			"name": "Coffee",
-			"id": "Coffee"
+			"id": 301106
 		},
 		{
 			"name": "Alcohol",
@@ -17,11 +16,11 @@ export const CoffeeLiqueur: Item = {
 	"buildsInto": [
 		{
 			"name": "White Russian",
-			"id": "White Russian"
+			"id": 301311
 		},
 		{
 			"name": "Mocha Bread",
-			"id": "Mocha Bread"
+			"id": 302308
 		}
 	],
 	"requirements": {
@@ -36,16 +35,17 @@ export const CoffeeLiqueur: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Coffee Liqueur",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301208,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

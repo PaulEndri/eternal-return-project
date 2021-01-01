@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const EighteenFootSpear: Item = {
 	"id": 107403,
-	"name": "Eighteen Foot Spear",
+	"name": "EighteenFootSpear",
 	"buildsFrom": [
 		{
 			"name": "Sharpened Spear",
@@ -27,11 +27,13 @@ export const EighteenFootSpear: Item = {
 		"attackSpeedRatio": 0.4
 	},
 	"rarity": "Epic",
+	"code": "장팔사모",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Eighteen Foot Spear",
 	"apiMetaData": {
 		"code": 107403,
 		"category": "Weapon",

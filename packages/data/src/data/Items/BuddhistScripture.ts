@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BuddhistScripture: Item = {
 	"id": 205106,
-	"name": "Buddhist Scripture",
+	"name": "BuddhistScripture",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -23,6 +23,7 @@ export const BuddhistScripture: Item = {
 		"increaseSkillDamageRatio": 0.07
 	},
 	"rarity": "Common",
+	"code": "불경",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -30,6 +31,7 @@ export const BuddhistScripture: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Smells like incense. No idea what it says, though.",
+	"displayName": "Buddhist Scripture",
 	"apiMetaData": {
 		"code": 205106,
 		"category": "Armor",

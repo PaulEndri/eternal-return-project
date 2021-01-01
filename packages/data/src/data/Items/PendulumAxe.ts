@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const PendulumAxe: Item = {
-	"id": "Pendulum Axe",
-	"name": "Pendulum Axe",
-	"href": "/Pendulum_Axe",
+	"id": 502305,
+	"name": "PendulumAxe",
 	"buildsFrom": [
 		{
 			"name": "Bamboo Trap",
-			"id": "Bamboo Trap"
+			"id": 502204
 		},
 		{
 			"name": "Hatchet",
@@ -17,7 +16,7 @@ export const PendulumAxe: Item = {
 	"buildsInto": [
 		{
 			"name": "Double Guillotine",
-			"id": "Double Guillotine"
+			"id": 502405
 		}
 	],
 	"requirements": {
@@ -26,23 +25,24 @@ export const PendulumAxe: Item = {
 		"Hatchet": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Pendulum Axe",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502305,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

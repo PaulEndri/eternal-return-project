@@ -1,23 +1,22 @@
 import Item from '../../types/Item';
 
 export const ChocoPie: Item = {
-	"id": "Choco Pie",
-	"name": "Choco Pie",
-	"href": "/Choco_Pie",
+	"id": 302216,
+	"name": "ChocoPie",
 	"buildsFrom": [
 		{
 			"name": "Bread",
-			"id": "Bread"
+			"id": 302110
 		},
 		{
 			"name": "Chocolate",
-			"id": "Chocolate"
+			"id": 302119
 		}
 	],
 	"buildsInto": [
 		{
 			"name": "Choco Pie Box",
-			"id": "Choco Pie Box"
+			"id": 302312
 		}
 	],
 	"requirements": {
@@ -33,16 +32,17 @@ export const ChocoPie: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Delicious frozen or in the microwave.  You can even just eat the marshmallow in between",
+	"displayName": "Choco Pie",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302216,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

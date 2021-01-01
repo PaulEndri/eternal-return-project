@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TrueSamadhiFire: Item = {
 	"id": 205403,
-	"name": "True Samadhi Fire",
+	"name": "TrueSamadhiFire",
 	"buildsFrom": [
 		{
 			"name": "Powder of Life",
@@ -42,11 +42,13 @@ export const TrueSamadhiFire: Item = {
 		"increaseBasicAttackDamage": 13
 	},
 	"rarity": "Epic",
+	"code": "삼매진화",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Flames captured in a delicate glass sphere. Ascetics used it to escape.",
+	"displayName": "True Samadhi Fire",
 	"apiMetaData": {
 		"code": 205403,
 		"category": "Armor",

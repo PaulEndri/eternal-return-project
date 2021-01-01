@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const CurryCroquette: Item = {
-	"id": "Curry Croquette",
-	"name": "Curry Croquette",
-	"href": "/Curry_Croquette",
+	"id": 302322,
+	"name": "CurryCroquette",
 	"buildsFrom": [
 		{
 			"name": "Curry Powder",
-			"id": "Curry Powder"
+			"id": 302120
 		},
 		{
 			"name": "Heated Oil",
@@ -29,16 +28,17 @@ export const CurryCroquette: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Curry Croquette",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302322,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -21,6 +21,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 	public maxStacks: number;
 	public foundQuantity: number;
 	public airSupply: boolean;
+	public displayName: string;
 	public collectible: number;
 	public stackable: boolean;
 	public requirements: IMaterialList;
@@ -66,7 +67,7 @@ export class Item<A extends string = any, T extends string = any> implements IIt
 		return item;
 	}
 
-	constructor(public needle: ItemsEnum | ItemsLookup | IRawItem<A, T> | number | string) {
+	constructor(needle: ItemsEnum | ItemsLookup | IRawItem<A, T> | number | string) {
 		const item = Item.GetItem<A, T>(needle);
 
 		if (!item) {

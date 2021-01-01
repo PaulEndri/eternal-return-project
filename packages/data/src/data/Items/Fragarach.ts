@@ -27,11 +27,13 @@ export const Fragarach: Item = {
 		"moveSpeedOutOfCombat": 0.1
 	},
 	"rarity": "Legend",
+	"code": "프라가라흐",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Fragarach",
 	"apiMetaData": {
 		"code": 101405,
 		"category": "Weapon",

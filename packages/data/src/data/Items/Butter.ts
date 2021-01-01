@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const Butter: Item = {
-	"id": "Butter",
+	"id": 302206,
 	"name": "Butter",
-	"href": "/Butter",
 	"buildsFrom": [
 		{
 			"name": "Milk",
-			"id": "Milk"
+			"id": 301108
 		},
 		{
 			"name": "Branch",
@@ -17,19 +16,19 @@ export const Butter: Item = {
 	"buildsInto": [
 		{
 			"name": "Chocolate Chip Cookies",
-			"id": "Chocolate Chip Cookies"
+			"id": 302311
 		},
 		{
 			"name": "Honey Butter",
-			"id": "Honey Butter"
+			"id": 302315
 		},
 		{
 			"name": "Poundcake",
-			"id": "Poundcake"
+			"id": 302319
 		},
 		{
 			"name": "Butter-Fried Potatoes",
-			"id": "Butter-Fried Potatoes"
+			"id": 302325
 		}
 	],
 	"requirements": {
@@ -45,16 +44,17 @@ export const Butter: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Butter",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302206,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

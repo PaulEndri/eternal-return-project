@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const IronBall: Item = {
 	"id": 112103,
-	"name": "Iron Ball",
+	"name": "IronBall",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -32,6 +32,7 @@ export const IronBall: Item = {
 		"charges": 50
 	},
 	"rarity": "Common",
+	"code": "쇠구슬",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -41,6 +42,7 @@ export const IronBall: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Iron Ball",
 	"apiMetaData": {
 		"code": 112103,
 		"category": "Weapon",

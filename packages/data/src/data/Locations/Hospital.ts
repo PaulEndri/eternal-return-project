@@ -37,7 +37,7 @@ export const Hospital: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 401108,
+			"name": "LasterPointer",
 			"id": 401108,
 			"quantity": 6
 		},
@@ -47,7 +47,7 @@ export const Hospital: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 6
 		},
@@ -62,12 +62,12 @@ export const Hospital: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 302105,
+			"name": "Lemon",
 			"id": 302105,
 			"quantity": 4
 		},
 		{
-			"name": 302107,
+			"name": "AdhesiveBandage",
 			"id": 302107,
 			"quantity": 4
 		},
@@ -82,7 +82,7 @@ export const Hospital: Location = {
 			"quantity": 4
 		},
 		{
-			"name": 301108,
+			"name": "Milk",
 			"id": 301108,
 			"quantity": 5
 		},
@@ -97,12 +97,12 @@ export const Hospital: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "ScrapMetal",
 			"id": 401106,
 			"quantity": 6
 		},
 		{
-			"name": "Cotton Gloves",
+			"name": "CottonGloves",
 			"id": 110102,
 			"quantity": 4
 		},

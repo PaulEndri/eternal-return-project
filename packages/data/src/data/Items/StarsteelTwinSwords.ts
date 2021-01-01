@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const StarsteelTwinSwords: Item = {
 	"id": 103402,
-	"name": "Starsteel Twin Swords",
+	"name": "StarsteelTwinSwords",
 	"buildsFrom": [
 		{
 			"name": "Twin Swords",
@@ -25,11 +25,13 @@ export const StarsteelTwinSwords: Item = {
 		"attackSpeedRatio": 0.5
 	},
 	"rarity": "Epic",
+	"code": "자웅일대검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A pair of swords that Liu Bei used in \"Romance of the Three Kingdoms\".",
+	"displayName": "Starsteel Twin Swords",
 	"apiMetaData": {
 		"code": 103402,
 		"category": "Weapon",

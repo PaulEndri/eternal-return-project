@@ -17,6 +17,7 @@ export class Character implements ICharacter {
 	static SCRAPER = new CharacterScraper();
 	static CLIENT = new ErBsClient();
 
+	public background?: string;
 	public attributes: ICharacterAttribute[];
 	public description: string;
 	public details: Record<string, string>;
@@ -32,7 +33,9 @@ export class Character implements ICharacter {
 		}
 
 		let source = seed;
-		if (typeof seed === 'string') {
+		if (seed === Characters.LiDailin) {
+			source = CharacterData.LiDailin;
+		} else if (typeof seed === 'string') {
 			if (!Characters[seed]) {
 				throw new Error(`Invalid seed: ${seed}`);
 			}
@@ -78,5 +81,17 @@ export class Character implements ICharacter {
 		}
 
 		return weaponTypeData;
+	}
+
+	public getStatsForLevel(level: number) {
+		return Object.fromEntries(
+			Object.entries(this.stats.initial).map(([ stat, initialValue ]: [string, number]) => {
+				let name = stat === 'criticalStrikeChance' ? 'criticalChance' : stat;
+				const perLevel = this.stats.perLevel[name] || 0;
+				const levelUpValues = Math.round(perLevel * level);
+
+				return [ name, initialValue + levelUpValues ];
+			})
+		);
 	}
 }

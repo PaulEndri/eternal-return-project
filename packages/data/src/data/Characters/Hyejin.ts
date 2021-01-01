@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Hyejin: Character = {
 	"id": 12,
+	"displayName": "Hyejin",
 	"name": "Hyejin",
+	"background": "\"This must be another fated way.\" - Hyejin \nHyejin is the only child of a generational shaman family.\nHer destiny, if she had been born after dawn, would have been straightforward and undisturbed. Hyejin was not so lucky. Having been born before dawn, she was fated to go through a great ordeal at the age of 18.\nShe seems to accept her destiny as it is. Being raised from a shaman family, Hyejin believes her fate has already been determined.\nShe often plays Bipa, a Korean lute used to communicate with spirits. To be honest though, it kinda just looks like she's murmuring to herself. \n",
 	"attributes": [
 		{
 			"mastery": "Bow",
@@ -259,7 +261,7 @@ export const Hyejin: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 29,
 			"defense": 22,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.6,
 			"spRegen": 2,
 			"attackSpeed": 0.12,

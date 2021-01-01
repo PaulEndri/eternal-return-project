@@ -31,13 +31,13 @@ export const rawTranslations = {
 	'Bastard Sword': '바스타드 소드',
 	'Jewel Sword': '보검',
 	'Plasma Sword': '플라즈마 소드',
-	'Thuận Thiên': '뚜언 띠엔',
+	'Thuan Thien': '뚜언띠엔',
 	Arondight: '아론다이트',
 	Excalibur: '엑스칼리버',
 	Monohoshizao: '모노호시자오',
 	Hovud: '호푸어드',
 	Laevateinn: '레바테인',
-	Dáinsleif: '다인슬라이프',
+	Dainsleif: '다인슬라이프',
 	'Twin Swords': '쌍칼',
 	Florentine: '피렌체식 쌍검',
 	'Divine Dual Swords': '이천일류',
@@ -54,7 +54,7 @@ export const rawTranslations = {
 	'Electron Blaster': '일렉트론 블라스터',
 	'Magnum-Boa': '매그넘-보아',
 	Kelte: '악켈테',
-	'STG-44': 'STG44',
+	STG44: 'STG44',
 	'AK-47': 'AK-47',
 	M16A1: 'M16A1',
 	'Machine Gun': '기관총',
@@ -496,11 +496,17 @@ export const rawTranslations = {
 	Spear: '창',
 	Throw: '투척',
 	Tonfa: '톤파',
-	'Two Handed Sword': '양손검'
+	'Two Handed Sword': '양손검',
+	"Shaman's Bronze": '비파단도',
+	'Revenge of Goujian': '월왕구천'
 };
 
 const enArray = Object.keys(rawTranslations);
-const enTranslationsArray = [ [ '눈차크', 'Nunchaku' ] ];
+const enTranslationsArray = [
+	[ '눈차크', 'Nunchaku' ],
+	[ '비파단도', "Shaman's Bronze" ],
+	[ '월왕구천', 'Revenge of Goujian' ]
+];
 
 enArray.forEach((en) => {
 	enTranslationsArray.push([ rawTranslations[en], en ]);
@@ -517,5 +523,10 @@ export const krTranslations = Object.fromEntries([
 	...Object.entries(enTranslations).map(([ kr, en ]: [string, string]) => [
 		en.toLowerCase(),
 		kr
-	])
+	]),
+	[ 'Thuận Thiên', '뚜언띠엔' ],
+	[ 'Dáinsleif', '다인슬라이프' ],
+	[ 'STG-44', 'STG44' ],
+	[ 'Cotton Gloves', '목장갑' ],
+	[ 'Leather Gloves', '글러브' ]
 ]);

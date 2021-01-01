@@ -32,11 +32,13 @@ export const Plumbata: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "플럼바타",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Plumbata",
 	"apiMetaData": {
 		"code": 113404,
 		"category": "Weapon",

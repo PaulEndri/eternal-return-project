@@ -27,7 +27,7 @@ export interface IItemStats {
 	sightRange?: number;
 	spRegen?: number;
 	lifeSteal?: number;
-	criticalStrikeChance?: number;
+	criticalChance?: number;
 	decreaseRecoveryToSkill?: number;
 	increaseSkillDamageRatio?: number;
 	attackRange?: number;
@@ -46,6 +46,7 @@ export interface IItemStats {
 export interface IItem extends IElement<Items> {
 	rarity: string;
 	stats: IItemStats;
+	displayName?: string;
 	description: string;
 	maxStacks: number;
 	foundQuantity: number;

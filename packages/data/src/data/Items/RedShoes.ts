@@ -2,11 +2,11 @@ import Item from '../../types/Item';
 
 export const RedShoes: Item = {
 	"id": 204502,
-	"name": "Red Shoes",
+	"name": "RedShoes",
 	"buildsFrom": [
 		{
 			"name": "Killer Heels",
-			"id": 204403
+			"id": 204405
 		},
 		{
 			"name": "VF Blood Sample",
@@ -29,11 +29,13 @@ export const RedShoes: Item = {
 		"spRegen": 1
 	},
 	"rarity": "Legend",
+	"code": "분홍신",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Red Shoes",
 	"apiMetaData": {
 		"code": 204502,
 		"category": "Armor",

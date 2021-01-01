@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const KingV: Item = {
 	"id": 121303,
-	"name": "King-V",
+	"name": "KingV",
 	"buildsFrom": [
 		{
 			"name": "Golden Bridge",
@@ -30,11 +30,13 @@ export const KingV: Item = {
 		"increaseSkillDamageRatio": 0.16
 	},
 	"rarity": "Rare",
+	"code": "King-V",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This guitar has an unconventional V shape. Although it was sensational at release, it didn't see huge popularity.",
+	"displayName": "King-V",
 	"apiMetaData": {
 		"code": 121303,
 		"category": "Weapon",

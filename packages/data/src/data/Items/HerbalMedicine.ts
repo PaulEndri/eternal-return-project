@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const HerbalMedicine: Item = {
-	"id": "Herbal Medicine",
-	"name": "Herbal Medicine",
-	"href": "/Herbal_Medicine",
+	"id": 302207,
+	"name": "HerbalMedicine",
 	"buildsFrom": [
 		{
 			"name": "Oriental Herb",
-			"id": "Oriental Herb"
+			"id": 302116
 		},
 		{
 			"name": "Turtle Shell",
@@ -17,7 +16,7 @@ export const HerbalMedicine: Item = {
 	"buildsInto": [
 		{
 			"name": "Zen Vitality",
-			"id": "Zen Vitality"
+			"id": 302329
 		}
 	],
 	"requirements": {
@@ -32,16 +31,17 @@ export const HerbalMedicine: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Herbal Medicine",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302207,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -24,13 +24,15 @@ export const Dynamite: Item = {
 		"Gunpowder": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
+	"code": "다이너마이트",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Dynamite",
 	"apiMetaData": {
 		"code": 502203,
 		"category": "Special",

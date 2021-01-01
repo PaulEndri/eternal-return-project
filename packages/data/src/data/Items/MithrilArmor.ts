@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MithrilArmor: Item = {
 	"id": 202407,
-	"name": "Mithril Armor",
+	"name": "MithrilArmor",
 	"buildsFrom": [
 		{
 			"name": "Mithril",
@@ -25,11 +25,13 @@ export const MithrilArmor: Item = {
 		"moveSpeed": 0.2
 	},
 	"rarity": "Epic",
+	"code": "미스릴갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Normal chain armor cannot completely protect its wearer from external impact, but the Mithril material on this armor defies the normality of chain armor.",
+	"displayName": "Mithril Armor",
 	"apiMetaData": {
 		"code": 202407,
 		"category": "Armor",

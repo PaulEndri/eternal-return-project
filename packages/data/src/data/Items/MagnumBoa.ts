@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MagnumBoa: Item = {
 	"id": 116406,
-	"name": "Magnum-Boa",
+	"name": "MagnumBoa",
 	"buildsFrom": [
 		{
 			"name": "Magnum-Anaconda",
@@ -31,11 +31,13 @@ export const MagnumBoa: Item = {
 		"sightRange": 3.5
 	},
 	"rarity": "Epic",
+	"code": "매그넘-보아",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Magnum-Boa",
 	"apiMetaData": {
 		"code": 116406,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SchrodingersBox: Item = {
 	"id": 205404,
-	"name": "Schrodinger's Box",
+	"name": "SchrodingersBox",
 	"buildsFrom": [
 		{
 			"name": "Box",
@@ -25,11 +25,13 @@ export const SchrodingersBox: Item = {
 		"increaseSkillDamage": 7
 	},
 	"rarity": "Rare",
+	"code": "슈뢰딩거의상자",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The cat inside the box is both alive and dead at the same time. Use it to show off your knowledge of quantum physics.",
+	"displayName": "Schrodinger's Box",
 	"apiMetaData": {
 		"code": 205404,
 		"category": "Armor",

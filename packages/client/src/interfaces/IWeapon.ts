@@ -18,7 +18,7 @@ export interface IWeapon {
 	spRegenRatio: number;
 	spRegen: number;
 	attackSpeedRatio: number;
-	criticalStrikeChance: number;
+	criticalChance: number;
 	criticalStrikeDamage: number;
 	cooldownReduction: number;
 	lifeSteal: number;

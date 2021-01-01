@@ -20,7 +20,8 @@ const methods = [
 	animalScraper.getAll(),
 	locationScraper.getAll(),
 	characterScraper.getAll(),
-	characterScraper.getCharacter({ name: 'Xiukai', href: '/Xiukai' })
+	characterScraper.getCharacter({ name: 'Xiukai', href: '/Xiukai' }),
+	characterScraper.getCharacter({ name: 'Emma', href: '/Emma' })
 ];
 
 const writeFile = (name: string, content) => {
@@ -28,7 +29,7 @@ const writeFile = (name: string, content) => {
 };
 
 Promise.all(methods)
-	.then(async ([ animals, locations, characters, Xiukai ]) => {
+	.then(async ([ animals, locations, characters, Xiukai, Emma ]) => {
 		const items = (await itemScraper.getAll(true)) as any;
 		const allItems = {
 			...items.materials,
@@ -45,6 +46,7 @@ Promise.all(methods)
 		Object.values(items.weapons).forEach(({ weapons }) => Object.assign(allItems, weapons));
 		delete characters.xiuaki;
 		characters.Xiukai = Xiukai;
+		characters.Emma = Emma;
 
 		const files = {
 			Animals: animals,

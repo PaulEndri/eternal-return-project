@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Aya: Character = {
 	"id": 2,
+	"displayName": "Aya",
 	"name": "Aya",
+	"background": "\"For my light, for my justice.\" - Aya\nAya was born with an innate longing for justice, and employed this longing to become a police officer. However, her world and confidence in her job was shaken after her family were victims of a murder case. She became obsessed with her vision of justice - beginning to think that only she was able to bring justice to the world. \n\nAya grew repulsed at the sight of corpses. When her job requires the occasional inspection of an animal corpse, it takes a toll on her psyche. \nShe has a brother named Suzuki Hikaru, who lost both of his legs.\n",
 	"attributes": [
 		{
 			"mastery": "Pistol",
@@ -132,7 +134,7 @@ export const Aya: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "22(+0.25 AP)\n44(+0.3AP)\n66(+0.35AP)\n88(+0.4AP)\n\n110(+0.45AP) x 10",
+					"value": "22(+0.3 AP)\n44(+0.35AP)\n66(+0.4AP)\n88(+0.45AP)\n\n110(+0.5AP) x 10",
 					"tiers": {}
 				},
 				"Skill duration": {
@@ -163,13 +165,13 @@ export const Aya: Character = {
 				},
 				"Cooldown": {
 					"title": "Cooldown",
-					"value": "18/17/16/15/14 Seconds",
+					"value": "18/16.5/15/13.5/12 Seconds",
 					"tiers": {
 						"1": "18",
-						"2": "17",
-						"3": "16",
-						"4": "15",
-						"5": "14"
+						"2": "16.5",
+						"3": "15",
+						"4": "13.5",
+						"5": "12"
 					}
 				}
 			}
@@ -278,7 +280,7 @@ export const Aya: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 28,
 			"defense": 18,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.5,
 			"spRegen": 2.3,
 			"attackSpeed": 0.12,

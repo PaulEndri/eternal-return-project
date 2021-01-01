@@ -5,8 +5,8 @@ export const Bikini: Item = {
 	"name": "Bikini",
 	"buildsFrom": [
 		{
-			"name": "Wetsuit",
-			"id": 202105
+			"name": "Full Body Swimsuit",
+			"id": null
 		},
 		{
 			"name": "Scissors",
@@ -20,7 +20,6 @@ export const Bikini: Item = {
 		}
 	],
 	"requirements": {
-		"Wetsuit": 1,
 		"Scissors": 1
 	},
 	"stats": {
@@ -28,11 +27,13 @@ export const Bikini: Item = {
 		"preventSkillDamagedRatio": 0.11
 	},
 	"rarity": "Uncommon",
+	"code": "비키니",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's a bikini made of a thin fabric. You might wanna suck in your stomach when you're wearing it. It's so versatile, men can wear it, too.",
+	"displayName": "Bikini",
 	"apiMetaData": {
 		"code": 202209,
 		"category": "Armor",

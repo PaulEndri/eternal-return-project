@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const StatueofSoteria: Item = {
+export const StatueOfSoteria: Item = {
 	"id": 108403,
-	"name": "Statue of Soteria",
+	"name": "StatueOfSoteria",
 	"buildsFrom": [
 		{
 			"name": "Torch",
@@ -25,17 +25,19 @@ export const StatueofSoteria: Item = {
 	"stats": {
 		"attackPower": 90,
 		"attackSpeedRatio": 0.15,
-		"hpRegen": 1.2,
+		"hpRegen": 0.6,
 		"lifeSteal": 0.1,
-		"moveSpeed": 0.15,
+		"moveSpeed": 0.1,
 		"spRegenRatio": 0.6
 	},
 	"rarity": "Epic",
+	"code": "구원의여신상",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me. I lift my lamp beside the golden door.",
+	"displayName": "Statue of Soteria",
 	"apiMetaData": {
 		"code": 108403,
 		"category": "Weapon",

@@ -43,6 +43,7 @@ export const Feather: Item = {
 		"moveSpeed": 0.08
 	},
 	"rarity": "Common",
+	"code": "깃털",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -52,6 +53,7 @@ export const Feather: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Great for heat preservation or just for decoration!",
+	"displayName": "Feather",
 	"apiMetaData": {
 		"code": 205101,
 		"category": "Armor",

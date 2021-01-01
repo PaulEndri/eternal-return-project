@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const HotRamen: Item = {
-	"id": "Hot Ramen",
-	"name": "Hot Ramen",
-	"href": "/Hot_Ramen",
+	"id": 302307,
+	"name": "HotRamen",
 	"buildsFrom": [
 		{
 			"name": "Ramen",
-			"id": "Ramen"
+			"id": 302113
 		},
 		{
 			"name": "Boiling Water",
@@ -17,7 +16,7 @@ export const HotRamen: Item = {
 	"buildsInto": [
 		{
 			"name": "Garlic Ramen",
-			"id": "Garlic Ramen"
+			"id": 302402
 		}
 	],
 	"requirements": {
@@ -34,16 +33,17 @@ export const HotRamen: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "With chopped onions and egg it tastes heavenly. You probably can't stop yourself from slurping it up when you eat.",
+	"displayName": "Hot Ramen",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302307,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

@@ -31,7 +31,7 @@ export const Bamboo: Item = {
 		},
 		{
 			"name": "Crossbow",
-			"id": 115101
+			"id": 115202
 		},
 		{
 			"name": "Superstrat",
@@ -43,7 +43,7 @@ export const Bamboo: Item = {
 		},
 		{
 			"name": "Bamboo Trap",
-			"id": "Bamboo Trap"
+			"id": 502204
 		}
 	],
 	"requirements": {},
@@ -51,6 +51,7 @@ export const Bamboo: Item = {
 		"attackPower": 12
 	},
 	"rarity": "Common",
+	"code": "대나무",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -62,6 +63,7 @@ export const Bamboo: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It doesn't thicken as it grows, and dies after blooming. We make baskets out of it because of its flexibility.",
+	"displayName": "Bamboo",
 	"apiMetaData": {
 		"code": 108103,
 		"category": "Weapon",

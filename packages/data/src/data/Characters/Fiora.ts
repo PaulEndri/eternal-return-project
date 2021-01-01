@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Fiora: Character = {
 	"id": 3,
+	"displayName": "Fiora",
 	"name": "Fiora",
+	"background": "\"Waist! Neck! Your posture is a mess!\" - Fiora\nFiora is a renowned fencer. Growing up, her family heavily instilled a belief that she should always have pride and a straight posture.  \nHer father never recognized her talent, believing women to be only for doing chores. As an act of rebellion against her father, and with a desire to be recognized by him, Fiora took up fencing. \n\nShe excelled at math in school. \nFiora vows to protect anyone weaker than her, and longs for recognition by anyone stronger than her.\n",
 	"attributes": [
 		{
 			"mastery": "Rapier",
@@ -252,7 +254,7 @@ export const Fiora: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 37,
 			"defense": 25,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.8,
 			"spRegen": 2.2,
 			"attackSpeed": 0.22,

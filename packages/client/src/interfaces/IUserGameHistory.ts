@@ -30,7 +30,7 @@ export interface IUserGameHistory {
 	outOfCombatMoveSpeed: number;
 	sightRange: number;
 	attackRange: number;
-	criticalStrikeChance: number;
+	criticalChance: number;
 	criticalStrikeDamage: number;
 	coolDownReduction: number;
 	lifeSteal: number;

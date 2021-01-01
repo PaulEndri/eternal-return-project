@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BerettaM92F: Item = {
 	"id": 116202,
-	"name": "Beretta M92F",
+	"name": "BerettaM92F",
 	"buildsFrom": [
 		{
 			"name": "Walther PPK",
@@ -41,11 +41,13 @@ export const BerettaM92F: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Uncommon",
+	"code": "베레타M92F",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Beretta M92F",
 	"apiMetaData": {
 		"code": 116202,
 		"category": "Weapon",

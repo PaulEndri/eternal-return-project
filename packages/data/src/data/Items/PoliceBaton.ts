@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PoliceBaton: Item = {
 	"id": 111301,
-	"name": "Police Baton",
+	"name": "PoliceBaton",
 	"buildsFrom": [
 		{
 			"name": "Tonfa",
@@ -29,11 +29,13 @@ export const PoliceBaton: Item = {
 		"defense": 8
 	},
 	"rarity": "Rare",
+	"code": "경찰봉",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Police Baton",
 	"apiMetaData": {
 		"code": 111301,
 		"category": "Weapon",

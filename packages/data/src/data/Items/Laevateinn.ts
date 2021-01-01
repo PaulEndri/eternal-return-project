@@ -27,11 +27,13 @@ export const Laevateinn: Item = {
 		"increaseBasicAttackDamage": 20
 	},
 	"rarity": "Legend",
+	"code": "레바테인",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "In Norse mythology, Laevateinn is a sword that was made by Loki by carving runes into it. In mythology, it is used to kill the invincible rooster, Vidofnir.",
+	"displayName": "Laevateinn",
 	"apiMetaData": {
 		"code": 102409,
 		"category": "Weapon",

@@ -31,7 +31,7 @@ export const AssaultRifle: Weapon = {
 		},
 		{
 			"name": "STG44",
-			"id": "STG44"
+			"id": 117201
 		},
 		{
 			"name": "AK-47",

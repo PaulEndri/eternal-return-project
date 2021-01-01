@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RustySword: Item = {
 	"id": 102101,
-	"name": "Rusty Sword",
+	"name": "RustySword",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -20,6 +20,10 @@ export const RustySword: Item = {
 		{
 			"name": "Twin Swords",
 			"id": 103201
+		},
+		{
+			"name": "Shaman's Bronze",
+			"id": 205211
 		}
 	],
 	"requirements": {},
@@ -27,6 +31,7 @@ export const RustySword: Item = {
 		"attackPower": 11
 	},
 	"rarity": "Common",
+	"code": "녹슨검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -36,6 +41,7 @@ export const RustySword: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Every swordsman must train with this common longsword.",
+	"displayName": "Rusty Sword",
 	"apiMetaData": {
 		"code": 102101,
 		"category": "Weapon",

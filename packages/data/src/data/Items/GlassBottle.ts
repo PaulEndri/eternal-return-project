@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GlassBottle: Item = {
 	"id": 112104,
-	"name": "Glass Bottle",
+	"name": "GlassBottle",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -15,16 +15,17 @@ export const GlassBottle: Item = {
 		},
 		{
 			"name": "Water Bottle",
-			"id": "Water Bottle"
+			"id": 301203
 		},
 		{
 			"name": "Healing Potion",
-			"id": "Healing Potion"
+			"id": 302317
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "유리병",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -34,6 +35,7 @@ export const GlassBottle: Item = {
 	},
 	"foundQuantity": 2,
 	"description": "A glass bottle that is good for throwing.",
+	"displayName": "Glass Bottle",
 	"apiMetaData": {
 		"code": 112104,
 		"category": "Misc",

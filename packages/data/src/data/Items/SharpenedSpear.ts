@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SharpenedSpear: Item = {
 	"id": 107401,
-	"name": "Sharpened Spear",
+	"name": "SharpenedSpear",
 	"buildsFrom": [
 		{
 			"name": "Bamboo Spear",
@@ -33,11 +33,13 @@ export const SharpenedSpear: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "강창",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Sharpened Spear",
 	"apiMetaData": {
 		"code": 107401,
 		"category": "Weapon",

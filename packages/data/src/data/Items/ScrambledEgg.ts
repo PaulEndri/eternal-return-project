@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const ScrambledEgg: Item = {
-	"id": "Scrambled Egg",
-	"name": "Scrambled Egg",
-	"href": "/Scrambled_Egg",
+	"id": 302309,
+	"name": "ScrambledEgg",
 	"buildsFrom": [
 		{
 			"name": "Egg",
-			"id": "Egg"
+			"id": 302112
 		},
 		{
 			"name": "Heated Oil",
@@ -28,16 +27,17 @@ export const ScrambledEgg: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Scrambled Egg",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302309,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

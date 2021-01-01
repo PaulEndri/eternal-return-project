@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const KitchenKnife: Item = {
 	"id": 101104,
-	"name": "Kitchen Knife",
+	"name": "KitchenKnife",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -19,7 +19,7 @@ export const KitchenKnife: Item = {
 		},
 		{
 			"name": "Jungle Guillotine",
-			"id": "Jungle Guillotine"
+			"id": 502303
 		}
 	],
 	"requirements": {},
@@ -29,6 +29,7 @@ export const KitchenKnife: Item = {
 		"moveSpeedOutOfCombat": 0.1
 	},
 	"rarity": "Common",
+	"code": "식칼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -38,6 +39,7 @@ export const KitchenKnife: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A knife used in the kitchen. It can be a deadly weapon in the hands of an expert.",
+	"displayName": "Kitchen Knife",
 	"apiMetaData": {
 		"code": 101104,
 		"category": "Weapon",

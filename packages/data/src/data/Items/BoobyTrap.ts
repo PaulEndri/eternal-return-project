@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const BoobyTrap: Item = {
-	"id": "Booby Trap",
-	"name": "Booby Trap",
-	"href": "/Booby_Trap",
+	"id": 502205,
+	"name": "BoobyTrap",
 	"buildsFrom": [
 		{
 			"name": "Snare",
-			"id": "Snare"
+			"id": 502102
 		},
 		{
 			"name": "Glue",
@@ -17,7 +16,7 @@ export const BoobyTrap: Item = {
 	"buildsInto": [
 		{
 			"name": "Mine",
-			"id": "Mine"
+			"id": 502304
 		}
 	],
 	"requirements": {
@@ -25,23 +24,24 @@ export const BoobyTrap: Item = {
 		"Glue": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Booby Trap",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502205,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

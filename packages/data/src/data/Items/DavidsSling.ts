@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const DavidsSling: Item = {
 	"id": 112401,
-	"name": "David's Sling",
+	"name": "DavidsSling",
 	"buildsFrom": [
 		{
 			"name": "Sling",
@@ -22,17 +22,19 @@ export const DavidsSling: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"attackPower": 75,
+		"attackPower": 80,
 		"charges": 50,
 		"hpRegenRatio": 1.5,
 		"increaseBasicAttackDamage": 30
 	},
 	"rarity": "Epic",
+	"code": "다비드슬링",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "David's legendary stone that killed Goliath, the giant of Philistine.",
+	"displayName": "David's Sling",
 	"apiMetaData": {
 		"code": 112401,
 		"category": "Weapon",

@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const OrientalConcoction: Item = {
-	"id": "Oriental Concoction",
-	"name": "Oriental Concoction",
-	"href": "/Oriental_Concoction",
+	"id": 302314,
+	"name": "OrientalConcoction",
 	"buildsFrom": [
 		{
 			"name": "Oriental Herb",
-			"id": "Oriental Herb"
+			"id": 302116
 		},
 		{
 			"name": "Boiling Water",
@@ -29,16 +28,17 @@ export const OrientalConcoction: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "A concoction prepared by brewing medicial herbs. Revitalizes the body.",
+	"displayName": "Oriental Concoction",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302314,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

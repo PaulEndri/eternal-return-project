@@ -36,11 +36,13 @@ export const Circlet: Item = {
 		"maxSp": 270
 	},
 	"rarity": "Uncommon",
+	"code": "머리테",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A simple accessory worn on the head. It looks rather plain.",
+	"displayName": "Circlet",
 	"apiMetaData": {
 		"code": 201202,
 		"category": "Armor",

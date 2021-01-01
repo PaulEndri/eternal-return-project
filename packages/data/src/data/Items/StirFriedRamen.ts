@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const StirFriedRamen: Item = {
-	"id": "Stir Fried Ramen",
-	"name": "Stir Fried Ramen",
-	"href": "/Stir_Fried_Ramen",
+	"id": 302327,
+	"name": "StirFriedRamen",
 	"buildsFrom": [
 		{
 			"name": "Ramen",
-			"id": "Ramen"
+			"id": 302113
 		},
 		{
 			"name": "Heated Oil",
@@ -29,16 +28,17 @@ export const StirFriedRamen: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Are there.. too many different ways to eat ramen?",
+	"displayName": "Stir Fried Ramen",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302327,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

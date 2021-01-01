@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RopeCuffs: Item = {
 	"id": 109201,
-	"name": "Rope Cuffs",
+	"name": "RopeCuffs",
 	"buildsFrom": [
 		{
 			"name": "Whip",
@@ -24,14 +24,17 @@ export const RopeCuffs: Item = {
 		"Stallion Medal": 1
 	},
 	"stats": {
-		"attackPower": 19
+		"attackPower": 24,
+		"increaseSkillDamage": 6
 	},
 	"rarity": "Uncommon",
+	"code": "오랏줄",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Rope Cuffs",
 	"apiMetaData": {
 		"code": 109201,
 		"category": "Weapon",

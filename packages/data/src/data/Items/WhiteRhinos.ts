@@ -2,11 +2,11 @@ import Item from '../../types/Item';
 
 export const WhiteRhinos: Item = {
 	"id": 204411,
-	"name": "White Rhinos",
+	"name": "WhiteRhinos",
 	"buildsFrom": [
 		{
 			"name": "Combat Boots",
-			"id": 204405
+			"id": 204404
 		},
 		{
 			"name": "Nail",
@@ -28,11 +28,13 @@ export const WhiteRhinos: Item = {
 		"moveSpeed": 0.35
 	},
 	"rarity": "Epic",
+	"code": "클링온부츠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "What kind of rhino wears boots..?",
+	"displayName": "White Rhinos",
 	"apiMetaData": {
 		"code": 204411,
 		"category": "Armor",

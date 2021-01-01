@@ -1,34 +1,33 @@
 import Item from '../../types/Item';
 
 export const Egg: Item = {
-	"id": "Egg",
+	"id": 302112,
 	"name": "Egg",
-	"href": "/Egg",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Fish Fillet With Egg",
-			"id": "Fish Fillet With Egg"
+			"id": 302229
 		},
 		{
 			"name": "Lemon Ice Cream",
-			"id": "Lemon Ice Cream"
+			"id": 302231
 		},
 		{
 			"name": "Egg Bun",
-			"id": "Egg Bun"
+			"id": 302234
 		},
 		{
 			"name": "Easter Egg",
-			"id": "Easter Egg"
+			"id": 302235
 		},
 		{
 			"name": "Scrambled Egg",
-			"id": "Scrambled Egg"
+			"id": 302309
 		},
 		{
 			"name": "Boiled Egg",
-			"id": "Boiled Egg"
+			"id": 302318
 		}
 	],
 	"requirements": {},
@@ -45,14 +44,15 @@ export const Egg: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Egg",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302112,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

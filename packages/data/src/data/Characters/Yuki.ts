@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Yuki: Character = {
 	"id": 11,
+	"displayName": "Yuki",
 	"name": "Yuki",
+	"background": "\"Is there anything I can do for you?\" - Yuki \nA sharp high school student, Yuki is a member of the kendo club with flawless demeanor and decorum.\n\nHe never loses his composure and takes on new challenges with the confidence of a seasoned vet.\nHis perfectionism is sturdy, yet fragile, like a fortress of ice and glass. \n",
 	"attributes": [
 		{
 			"mastery": "TwoHandSword",
@@ -252,7 +254,7 @@ export const Yuki: Character = {
 			"maxExtraPoint": 4,
 			"attackPower": 32,
 			"defense": 26,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.7,
 			"spRegen": 2.2,
 			"attackSpeed": 0.06,

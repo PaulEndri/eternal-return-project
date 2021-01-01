@@ -30,11 +30,13 @@ export const Dart: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Uncommon",
+	"code": "다트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's cute, but it can be deadly if it hits the right spot.",
+	"displayName": "Dart",
 	"apiMetaData": {
 		"code": 113201,
 		"category": "Weapon",

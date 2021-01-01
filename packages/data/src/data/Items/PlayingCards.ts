@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PlayingCards: Item = {
 	"id": 113102,
-	"name": "Playing Cards",
+	"name": "PlayingCards",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -25,6 +25,7 @@ export const PlayingCards: Item = {
 		"criticalStrikeChance": 0.05
 	},
 	"rarity": "Common",
+	"code": "트럼프카드",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -33,6 +34,7 @@ export const PlayingCards: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It's exhilarating to have a lucky win streak.",
+	"displayName": "Playing Cards",
 	"apiMetaData": {
 		"code": 113102,
 		"category": "Weapon",

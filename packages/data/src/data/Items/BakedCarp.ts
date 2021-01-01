@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const BakedCarp: Item = {
-	"id": "Baked Carp",
-	"name": "Baked Carp",
-	"href": "/Baked_Carp",
+	"id": 302304,
+	"name": "BakedCarp",
 	"buildsFrom": [
 		{
 			"name": "Carp",
-			"id": "Carp"
+			"id": 302109
 		},
 		{
 			"name": "Heated Stone",
@@ -29,16 +28,17 @@ export const BakedCarp: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Fish is actually one of the most common foods to choke on.",
+	"displayName": "Baked Carp",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302304,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

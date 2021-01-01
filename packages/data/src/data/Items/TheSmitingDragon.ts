@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TheSmitingDragon: Item = {
 	"id": 119401,
-	"name": "The Smiting Dragon",
+	"name": "TheSmitingDragon",
 	"buildsFrom": [
 		{
 			"name": "Sharper",
@@ -27,11 +27,13 @@ export const TheSmitingDragon: Item = {
 		"increaseSkillDamage": 14
 	},
 	"rarity": "Epic",
+	"code": "대소반룡곤",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "The Smiting Dragon",
 	"apiMetaData": {
 		"code": 119401,
 		"category": "Weapon",

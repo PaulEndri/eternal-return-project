@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const GarlicBread: Item = {
-	"id": "Garlic Bread",
-	"name": "Garlic Bread",
-	"href": "/Garlic_Bread",
+	"id": 302205,
+	"name": "GarlicBread",
 	"buildsFrom": [
 		{
 			"name": "Bread",
-			"id": "Bread"
+			"id": 302110
 		},
 		{
 			"name": "Garlic",
-			"id": "Garlic"
+			"id": 302106
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const GarlicBread: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "One of the most delicious substances known to man.",
+	"displayName": "Garlic Bread",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302205,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

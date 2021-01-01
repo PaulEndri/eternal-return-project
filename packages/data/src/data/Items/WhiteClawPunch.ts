@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WhiteClawPunch: Item = {
 	"id": 110411,
-	"name": "White Claw Punch",
+	"name": "WhiteClawPunch",
 	"buildsFrom": [
 		{
 			"name": "Glass Knuckles",
@@ -26,11 +26,13 @@ export const WhiteClawPunch: Item = {
 		"criticalStrikeChance": 0.2
 	},
 	"rarity": "Epic",
+	"code": "소수",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "White Claw Punch",
 	"apiMetaData": {
 		"code": 110411,
 		"category": "Weapon",

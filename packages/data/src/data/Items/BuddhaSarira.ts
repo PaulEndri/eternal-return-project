@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BuddhaSarira: Item = {
 	"id": 205207,
-	"name": "Buddha Sarira",
+	"name": "BuddhaSarira",
 	"buildsFrom": [
 		{
 			"name": "Buddhist Scripture",
@@ -36,15 +36,17 @@ export const BuddhaSarira: Item = {
 		"Monk's Robe": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.1,
-		"increaseSkillDamageRatio": 0.07
+		"cooldownReduction": 0.08,
+		"increaseSkillDamageRatio": 0.08
 	},
 	"rarity": "Uncommon",
+	"code": "진신사리",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A relic found in the ashes from the body of Buddha. It smells vaguely of incense.",
+	"displayName": "Buddha Sarira",
 	"apiMetaData": {
 		"code": 205207,
 		"category": "Armor",

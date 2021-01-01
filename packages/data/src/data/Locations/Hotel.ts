@@ -37,22 +37,22 @@ export const Hotel: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 302105,
+			"name": "Lemon",
 			"id": 302105,
 			"quantity": 6
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "ScrapMetal",
 			"id": 401106,
 			"quantity": 8
 		},
 		{
-			"name": "Cotton Gloves",
+			"name": "CottonGloves",
 			"id": 110102,
 			"quantity": 4
 		},
 		{
-			"name": "Iron Ore",
+			"name": "IronOre",
 			"id": 401118,
 			"quantity": 7
 		},
@@ -62,7 +62,7 @@ export const Hotel: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Carbonated Water",
+			"name": "CarbonatedWater",
 			"id": 301107,
 			"quantity": 5
 		},
@@ -72,12 +72,12 @@ export const Hotel: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 301104,
+			"name": "Whiskey",
 			"id": 301104,
 			"quantity": 5
 		},
 		{
-			"name": "Kitchen Knife",
+			"name": "KitchenKnife",
 			"id": 101104,
 			"quantity": 4
 		},
@@ -92,7 +92,7 @@ export const Hotel: Location = {
 			"quantity": 4
 		},
 		{
-			"name": "Playing Cards",
+			"name": "PlayingCards",
 			"id": 113102,
 			"quantity": 6
 		},
@@ -102,12 +102,12 @@ export const Hotel: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Piano Wire",
+			"name": "PianoWire",
 			"id": 502104,
 			"quantity": 7
 		},
 		{
-			"name": "Walther PPK",
+			"name": "WaltherPPK",
 			"id": 116101,
 			"quantity": 5
 		}

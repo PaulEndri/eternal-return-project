@@ -27,7 +27,7 @@ export const Forest: Location = {
 	],
 	"drops": [
 		{
-			"name": "Short Crossbow",
+			"name": "Crossbow",
 			"id": 115101,
 			"quantity": 4
 		},
@@ -37,7 +37,7 @@ export const Forest: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 302112,
+			"name": "Egg",
 			"id": 302112,
 			"quantity": 6
 		},
@@ -67,12 +67,12 @@ export const Forest: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Short Spear",
+			"name": "ShortSpear",
 			"id": 107101,
 			"quantity": 4
 		},
 		{
-			"name": 502102,
+			"name": "Snare",
 			"id": 502102,
 			"quantity": 5
 		},
@@ -82,12 +82,12 @@ export const Forest: Location = {
 			"quantity": 6
 		},
 		{
-			"name": 302116,
+			"name": "OrientalHerb",
 			"id": 302116,
 			"quantity": 6
 		},
 		{
-			"name": "Iron Ore",
+			"name": "IronOre",
 			"id": 401118,
 			"quantity": 7
 		},
@@ -97,17 +97,17 @@ export const Forest: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Iron Ball",
+			"name": "IronBall",
 			"id": 112103,
 			"quantity": 7
 		},
 		{
-			"name": "Brass Knuckles",
+			"name": "BrassKnuckles",
 			"id": 110101,
 			"quantity": 5
 		},
 		{
-			"name": "Long Rifle",
+			"name": "LongRifle",
 			"id": 118101,
 			"quantity": 4
 		}

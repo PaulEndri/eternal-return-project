@@ -27,11 +27,13 @@ export const Kabana: Item = {
 		"increaseSkillDamageRatio": 0.18
 	},
 	"rarity": "Legend",
+	"code": "카바나",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The armor of Karna, hero of the epic, Mahabharata. The armor becomes one with the body.",
+	"displayName": "Kabana",
 	"apiMetaData": {
 		"code": 202501,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GlacialShoes: Item = {
 	"id": 204410,
-	"name": "Glacial Shoes",
+	"name": "GlacialShoes",
 	"buildsFrom": [
 		{
 			"name": "Repaired Slippers",
@@ -30,11 +30,13 @@ export const GlacialShoes: Item = {
 		"increaseSkillDamage": 15
 	},
 	"rarity": "Legend",
+	"code": "글레이셜슈즈",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Glacial Shoes",
 	"apiMetaData": {
 		"code": 204410,
 		"category": "Armor",

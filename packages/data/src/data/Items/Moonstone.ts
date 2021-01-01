@@ -45,10 +45,12 @@ export const Moonstone: Item = {
 	},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "문스톤",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Moonstone",
 	"apiMetaData": {
 		"code": 401301,
 		"category": "Misc",

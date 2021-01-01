@@ -37,11 +37,13 @@ export const Pike: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "파이크",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Pike",
 	"apiMetaData": {
 		"code": 107302,
 		"category": "Weapon",

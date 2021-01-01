@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const HammerofThor: Item = {
+export const HammerOfThor: Item = {
 	"id": 104403,
-	"name": "Hammer of Thor",
+	"name": "HammerOfThor",
 	"buildsFrom": [
 		{
 			"name": "Black Stag Hammer",
@@ -27,11 +27,13 @@ export const HammerofThor: Item = {
 		"attackSpeedRatio": 0.4
 	},
 	"rarity": "Epic",
+	"code": "토르의망치",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The hammer that Thor, the God of Thunder, used. Also called Mjolnir, meaning \"The Destroyer.\"",
+	"displayName": "Hammer of Thor",
 	"apiMetaData": {
 		"code": 104403,
 		"category": "Weapon",

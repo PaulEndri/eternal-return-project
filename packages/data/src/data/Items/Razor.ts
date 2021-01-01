@@ -32,6 +32,7 @@ export const Razor: Item = {
 		"charges": 50
 	},
 	"rarity": "Common",
+	"code": "면도칼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -41,6 +42,7 @@ export const Razor: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Check for these in your Halloween candy before you eat it!",
+	"displayName": "Razor",
 	"apiMetaData": {
 		"code": 113101,
 		"category": "Weapon",

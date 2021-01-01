@@ -29,11 +29,13 @@ export const Suit: Item = {
 		"preventBasicAttackDamaged": 12
 	},
 	"rarity": "Rare",
+	"code": "정장",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sharp outfit that can be worn for any special event! Or if your office has a dress code!",
+	"displayName": "Suit",
 	"apiMetaData": {
 		"code": 202303,
 		"category": "Armor",

@@ -1,22 +1,21 @@
 import Item from '../../types/Item';
 
 export const Ramen: Item = {
-	"id": "Ramen",
+	"id": 302113,
 	"name": "Ramen",
-	"href": "/Ramen",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Hot Ramen",
-			"id": "Hot Ramen"
+			"id": 302307
 		},
 		{
 			"name": "Stir Fried Ramen",
-			"id": "Stir Fried Ramen"
+			"id": 302327
 		},
 		{
 			"name": "Cold Noodles",
-			"id": "Cold Noodles"
+			"id": 302328
 		}
 	],
 	"requirements": {},
@@ -33,14 +32,15 @@ export const Ramen: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Put it in a bag, smash it into pieces, add some spices, shake it up, and eat.",
+	"displayName": "Ramen",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302113,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PianoWire: Item = {
 	"id": 502104,
-	"name": "Piano Wire",
+	"name": "PianoWire",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -36,9 +36,10 @@ export const PianoWire: Item = {
 	],
 	"requirements": {},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Common",
+	"code": "피아노선",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
@@ -48,6 +49,7 @@ export const PianoWire: Item = {
 		"Uptown": 7
 	},
 	"foundQuantity": 1,
+	"displayName": "Piano Wire",
 	"apiMetaData": {
 		"code": 502104,
 		"category": "Special",

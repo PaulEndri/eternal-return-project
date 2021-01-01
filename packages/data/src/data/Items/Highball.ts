@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const Highball: Item = {
-	"id": "Highball",
+	"id": 301213,
 	"name": "Highball",
-	"href": "/Highball",
 	"buildsFrom": [
 		{
 			"name": "Whiskey",
-			"id": "Whiskey"
+			"id": 301104
 		},
 		{
 			"name": "Carbonated Water",
@@ -27,16 +26,17 @@ export const Highball: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Highball",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301213,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

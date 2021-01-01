@@ -1,26 +1,25 @@
 import Item from '../../types/Item';
 
 export const Lemon: Item = {
-	"id": "Lemon",
+	"id": 302105,
 	"name": "Lemon",
-	"href": "/Lemon",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Lemonade",
-			"id": "Lemonade"
+			"id": 301202
 		},
 		{
 			"name": "Screwdriver",
-			"id": "Screwdriver"
+			"id": 301207
 		},
 		{
 			"name": "Citrus Cake",
-			"id": "Citrus Cake"
+			"id": 302230
 		},
 		{
 			"name": "Lemon Ice Cream",
-			"id": "Lemon Ice Cream"
+			"id": 302231
 		}
 	],
 	"requirements": {},
@@ -37,14 +36,15 @@ export const Lemon: Item = {
 	},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Lemon",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302105,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

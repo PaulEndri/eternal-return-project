@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const VeritasLuxMea: Item = {
 	"id": 205405,
-	"name": "Veritas Lux Mea",
+	"name": "VeritasLuxMea",
 	"buildsFrom": [
 		{
 			"name": "Buddha Sarira",
@@ -27,11 +27,13 @@ export const VeritasLuxMea: Item = {
 		"increaseSkillDamageRatio": 0.08
 	},
 	"rarity": "Rare",
+	"code": "진리는나의빛",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Truth is my light.",
+	"displayName": "Veritas Lux Mea",
 	"apiMetaData": {
 		"code": 205405,
 		"category": "Armor",

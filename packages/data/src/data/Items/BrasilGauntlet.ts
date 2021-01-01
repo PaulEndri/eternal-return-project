@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BrasilGauntlet: Item = {
 	"id": 110410,
-	"name": "Brasil Gauntlet",
+	"name": "BrasilGauntlet",
 	"buildsFrom": [
 		{
 			"name": "Bone Gauntlet",
@@ -27,14 +27,16 @@ export const BrasilGauntlet: Item = {
 		"attackSpeedRatio": 0.3,
 		"defense": 13,
 		"hpRegen": 1,
-		"moveSpeed": -0.1
+		"moveSpeed": -0.05
 	},
 	"rarity": "Epic",
+	"code": "브레이질건틀릿",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A combat glove used on the mystical island Brasil, which is located  west side of Ireland. This island can only be seen once every seven years. (Not to be confused with the country Brazil)",
+	"displayName": "Brasil Gauntlet",
 	"apiMetaData": {
 		"code": 110410,
 		"category": "Weapon",

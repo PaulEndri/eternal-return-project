@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const OnyxDagger: Item = {
 	"id": 113206,
-	"name": "Onyx Dagger",
+	"name": "OnyxDagger",
 	"buildsFrom": [
 		{
 			"name": "Razor",
@@ -33,11 +33,13 @@ export const OnyxDagger: Item = {
 		"increaseBasicAttackDamage": 10
 	},
 	"rarity": "Uncommon",
+	"code": "흑건",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made out of a throwing dagger and a cross. It practically jumps from the tips of your fingers to fly into the heart of your enemy",
+	"displayName": "Onyx Dagger",
 	"apiMetaData": {
 		"code": 113206,
 		"category": "Weapon",

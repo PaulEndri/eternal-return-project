@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const C4: Item = {
-	"id": "C-4",
-	"name": "C-4",
-	"href": "/C-4",
+	"id": 502404,
+	"name": "C4",
 	"buildsFrom": [
 		{
 			"name": "RDX",
@@ -23,23 +22,24 @@ export const C4: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Epic",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "C-4",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502404,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

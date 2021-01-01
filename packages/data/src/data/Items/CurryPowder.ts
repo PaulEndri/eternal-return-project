@@ -1,26 +1,25 @@
 import Item from '../../types/Item';
 
 export const CurryPowder: Item = {
-	"id": "Curry Powder",
-	"name": "Curry Powder",
-	"href": "/Curry_Powder",
+	"id": 302120,
+	"name": "CurryPowder",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Tandoori Chicken",
-			"id": "Tandoori Chicken"
+			"id": 302222
 		},
 		{
 			"name": "Curry Bun",
-			"id": "Curry Bun"
+			"id": 302238
 		},
 		{
 			"name": "Curry",
-			"id": "Curry"
+			"id": 302313
 		},
 		{
 			"name": "Curry Croquette",
-			"id": "Curry Croquette"
+			"id": 302322
 		}
 	],
 	"requirements": {},
@@ -36,14 +35,15 @@ export const CurryPowder: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Would taste great if it were cooked with hot water.",
+	"displayName": "Curry Powder",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302120,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

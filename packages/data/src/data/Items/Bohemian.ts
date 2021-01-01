@@ -30,11 +30,13 @@ export const Bohemian: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Epic",
+	"code": "보헤미안",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "\"Bohemian\" was first used to describe a part of the Czech population, but it is now used to represent free spirits.",
+	"displayName": "Bohemian",
 	"apiMetaData": {
 		"code": 121401,
 		"category": "Weapon",

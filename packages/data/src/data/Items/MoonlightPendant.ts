@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MoonlightPendant: Item = {
 	"id": 205401,
-	"name": "Moonlight Pendant",
+	"name": "MoonlightPendant",
 	"buildsFrom": [
 		{
 			"name": "Ribbon",
@@ -29,11 +29,13 @@ export const MoonlightPendant: Item = {
 		"lifeSteal": 0.2
 	},
 	"rarity": "Rare",
+	"code": "달빛펜던트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It is not just a simple pendant. Magical powers are unleashed when shining a particular light through it.",
+	"displayName": "Moonlight Pendant",
 	"apiMetaData": {
 		"code": 205401,
 		"category": "Armor",

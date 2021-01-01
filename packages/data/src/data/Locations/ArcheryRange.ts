@@ -32,17 +32,17 @@ export const ArcheryRange: Location = {
 			"quantity": 5
 		},
 		{
-			"name": "Running Shoes",
+			"name": "RunningShoes",
 			"id": 204102,
 			"quantity": 5
 		},
 		{
-			"name": "Fabric Armor",
+			"name": "FabricArmor",
 			"id": 202106,
 			"quantity": 6
 		},
 		{
-			"name": 302112,
+			"name": "Egg",
 			"id": 302112,
 			"quantity": 5
 		},
@@ -57,12 +57,12 @@ export const ArcheryRange: Location = {
 			"quantity": 5
 		},
 		{
-			"name": 114101,
+			"name": "Bow",
 			"id": 114101,
 			"quantity": 4
 		},
 		{
-			"name": 202103,
+			"name": "MonksRobe",
 			"id": 202103,
 			"quantity": 5
 		},
@@ -72,17 +72,17 @@ export const ArcheryRange: Location = {
 			"quantity": 5
 		},
 		{
-			"name": 502102,
+			"name": "Snare",
 			"id": 502102,
 			"quantity": 5
 		},
 		{
-			"name": "Iron Ball",
+			"name": "IronBall",
 			"id": 112103,
 			"quantity": 5
 		},
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 5
 		},
@@ -97,7 +97,7 @@ export const ArcheryRange: Location = {
 			"quantity": 5
 		},
 		{
-			"name": 302119,
+			"name": "Chocolate",
 			"id": 302119,
 			"quantity": 4
 		},
@@ -107,7 +107,7 @@ export const ArcheryRange: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Rusty Sword",
+			"name": "RustySword",
 			"id": 102101,
 			"quantity": 5
 		}

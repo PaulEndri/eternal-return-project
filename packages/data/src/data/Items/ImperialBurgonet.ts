@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ImperialBurgonet: Item = {
 	"id": 201410,
-	"name": "Imperial Burgonet",
+	"name": "ImperialBurgonet",
 	"buildsFrom": [
 		{
 			"name": "Close Helm",
@@ -27,14 +27,16 @@ export const ImperialBurgonet: Item = {
 		"defense": 10,
 		"maxSp": 200,
 		"moveSpeed": 0.1,
-		"increaseSkillDamageRatio": 0.14
+		"increaseSkillDamageRatio": 0.16
 	},
 	"rarity": "Epic",
+	"code": "황실부르고넷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "An extravagant burgonet used by the imperial family. Unlike a basic helmet, it is lavishly decorated",
+	"displayName": "Imperial Burgonet",
 	"apiMetaData": {
 		"code": 201410,
 		"category": "Armor",

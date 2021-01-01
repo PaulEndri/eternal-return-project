@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const NTW20: Item = {
 	"id": 118405,
-	"name": "NTW-20",
+	"name": "NTW20",
 	"buildsFrom": [
 		{
 			"name": "Golden Rifle",
@@ -29,11 +29,13 @@ export const NTW20: Item = {
 		"increaseSkillDamageRatio": 0.22
 	},
 	"rarity": "Epic",
+	"code": "NTW-20",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "NTW-20",
 	"apiMetaData": {
 		"code": 118405,
 		"category": "Weapon",

@@ -38,11 +38,13 @@ export const Motor: Item = {
 	},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "모터",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A motor itself is useless, but you can probably turn it into something great.",
+	"displayName": "Motor",
 	"apiMetaData": {
 		"code": 401303,
 		"category": "Misc",

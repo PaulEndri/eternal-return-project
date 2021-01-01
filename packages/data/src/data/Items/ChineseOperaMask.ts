@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ChineseOperaMask: Item = {
 	"id": 201411,
-	"name": "Chinese Opera Mask",
+	"name": "ChineseOperaMask",
 	"buildsFrom": [
 		{
 			"name": "Mask",
@@ -27,11 +27,13 @@ export const ChineseOperaMask: Item = {
 		"moveSpeedOutOfCombat": 0.4
 	},
 	"rarity": "Epic",
+	"code": "변검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Chinese Opera Mask",
 	"apiMetaData": {
 		"code": 201411,
 		"category": "Armor",

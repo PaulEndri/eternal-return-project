@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TheGoldenGhost: Item = {
 	"id": 115405,
-	"name": "The Golden Ghost",
+	"name": "TheGoldenGhost",
 	"buildsFrom": [
 		{
 			"name": "Power Crossbow",
@@ -27,11 +27,13 @@ export const TheGoldenGhost: Item = {
 		"increaseBasicAttackDamage": 37
 	},
 	"rarity": "Epic",
+	"code": "영광금귀신기노",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "The Golden Ghost",
 	"apiMetaData": {
 		"code": 115405,
 		"category": "Weapon",

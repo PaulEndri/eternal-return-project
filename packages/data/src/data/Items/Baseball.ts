@@ -16,11 +16,13 @@ export const Baseball: Item = {
 		"charges": 50
 	},
 	"rarity": "Common",
+	"code": "야구공",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Baseball",
 	"apiMetaData": {
 		"code": 112105,
 		"category": "Weapon",

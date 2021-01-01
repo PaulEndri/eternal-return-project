@@ -11,28 +11,29 @@ export const Alcohol: Item = {
 		},
 		{
 			"name": "Baijiu",
-			"id": "Baijiu"
+			"id": 301204
 		},
 		{
 			"name": "Soju",
-			"id": "Soju"
+			"id": 301205
 		},
 		{
 			"name": "Coffee Liqueur",
-			"id": "Coffee Liqueur"
+			"id": 301208
 		},
 		{
 			"name": "Disinfectant",
-			"id": "Disinfectant"
+			"id": 302213
 		},
 		{
 			"name": "Acupuncture Needle",
-			"id": "Acupuncture Needle"
+			"id": 302217
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "알코올",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -42,6 +43,7 @@ export const Alcohol: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Whenever you smell this, either a laboratory or a hospital might come to mind.",
+	"displayName": "Alcohol",
 	"apiMetaData": {
 		"code": 401111,
 		"category": "Misc",

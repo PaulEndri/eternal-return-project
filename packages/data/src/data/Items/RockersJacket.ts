@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RockersJacket: Item = {
 	"id": 202406,
-	"name": "Rocker's Jacket",
+	"name": "RockersJacket",
 	"buildsFrom": [
 		{
 			"name": "Rider Jacket",
@@ -25,15 +25,17 @@ export const RockersJacket: Item = {
 		"attackPower": 30,
 		"decreaseRecoveryToSkill": 1,
 		"defense": 11,
-		"moveSpeedOutOfCombat": 0.3,
+		"moveSpeedOutOfCombat": 0.15,
 		"preventBasicAttackDamaged": 15
 	},
 	"rarity": "Epic",
+	"code": "락커의자켓",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "There's something burning in my HEART. Today, I can do anything.",
+	"displayName": "Rocker's Jacket",
 	"apiMetaData": {
 		"code": 202406,
 		"category": "Armor",

@@ -17,6 +17,7 @@ export const Battery: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "배터리",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -26,6 +27,7 @@ export const Battery: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Would be good for a flashlight, remote control, or your beeping smoke detector.",
+	"displayName": "Battery",
 	"apiMetaData": {
 		"code": 401110,
 		"category": "Misc",

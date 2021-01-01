@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HeavyCrossbow: Item = {
 	"id": 115303,
-	"name": "Heavy Crossbow",
+	"name": "HeavyCrossbow",
 	"buildsFrom": [
 		{
 			"name": "Long Crossbow",
@@ -31,11 +31,13 @@ export const HeavyCrossbow: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "헤비크로스보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Heavier than a standard crossbow, but also that much stronger. It was a popular weapon in Medieval Europe as it was easy to learn and use.",
+	"displayName": "Heavy Crossbow",
 	"apiMetaData": {
 		"code": 115303,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LeatherArmor: Item = {
 	"id": 202201,
-	"name": "Leather Armor",
+	"name": "LeatherArmor",
 	"buildsFrom": [
 		{
 			"name": "Fabric Armor",
@@ -35,11 +35,13 @@ export const LeatherArmor: Item = {
 		"defense": 22
 	},
 	"rarity": "Uncommon",
+	"code": "가죽갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor made from leather. Stronger than armor made from just fabric!",
+	"displayName": "Leather Armor",
 	"apiMetaData": {
 		"code": 202201,
 		"category": "Armor",

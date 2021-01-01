@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const HelmofBanneret: Item = {
+export const HelmOfBanneret: Item = {
 	"id": 201407,
-	"name": "Helm of Banneret",
+	"name": "HelmOfBanneret",
 	"buildsFrom": [
 		{
 			"name": "Close Helm",
@@ -29,11 +29,13 @@ export const HelmofBanneret: Item = {
 		"preventSkillDamagedRatio": 0.11
 	},
 	"rarity": "Epic",
+	"code": "기사단장의투구",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The war has begun and the righteous knight stands at the vanguard. May the blessings of victory be upon him.",
+	"displayName": "Helm of Banneret",
 	"apiMetaData": {
 		"code": 201407,
 		"category": "Armor",

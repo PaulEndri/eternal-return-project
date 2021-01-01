@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
-export const Honeycodsteak: Item = {
-	"id": "Honey cod steak",
-	"name": "Honey cod steak",
-	"href": "/Honey_cod_steak",
+export const HoneyCodSteak: Item = {
+	"id": 302201,
+	"name": "HoneyCodSteak",
 	"buildsFrom": [
 		{
 			"name": "Cod",
-			"id": "Cod"
+			"id": 302104
 		},
 		{
 			"name": "Honey",
@@ -32,16 +31,17 @@ export const Honeycodsteak: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Honey cod steak",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302201,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

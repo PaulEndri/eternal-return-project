@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const BoiledEgg: Item = {
-	"id": "Boiled Egg",
-	"name": "Boiled Egg",
-	"href": "/Boiled_Egg",
+	"id": 302318,
+	"name": "BoiledEgg",
 	"buildsFrom": [
 		{
 			"name": "Egg",
-			"id": "Egg"
+			"id": 302112
 		},
 		{
 			"name": "Boiling Water",
@@ -29,16 +28,17 @@ export const BoiledEgg: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Boiled Egg",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302318,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

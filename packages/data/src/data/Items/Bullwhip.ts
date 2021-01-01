@@ -28,14 +28,16 @@ export const Bullwhip: Item = {
 		"Razor": 1
 	},
 	"stats": {
-		"attackPower": 19
+		"attackPower": 30
 	},
 	"rarity": "Uncommon",
+	"code": "철편",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Bullwhip",
 	"apiMetaData": {
 		"code": 109202,
 		"category": "Weapon",

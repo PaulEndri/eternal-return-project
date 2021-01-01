@@ -15,6 +15,7 @@ export const Bow: Item = {
 		"attackPower": 11
 	},
 	"rarity": "Common",
+	"code": "양궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -23,6 +24,7 @@ export const Bow: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try not to cry if the bowstring hits your face.",
+	"displayName": "Bow",
 	"apiMetaData": {
 		"code": 114101,
 		"category": "Weapon",

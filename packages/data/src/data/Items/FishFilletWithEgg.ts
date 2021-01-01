@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const FishFilletWithEgg: Item = {
-	"id": "Fish Fillet With Egg",
-	"name": "Fish Fillet With Egg",
-	"href": "/Fish_Fillet_With_Egg",
+	"id": 302229,
+	"name": "FishFilletWithEgg",
 	"buildsFrom": [
 		{
 			"name": "Cod",
-			"id": "Cod"
+			"id": 302104
 		},
 		{
 			"name": "Egg",
-			"id": "Egg"
+			"id": 302112
 		}
 	],
 	"buildsInto": [],
@@ -27,16 +26,17 @@ export const FishFilletWithEgg: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Fish Fillet With Egg",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302229,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

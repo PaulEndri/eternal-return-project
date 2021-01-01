@@ -1,26 +1,25 @@
 import Item from '../../types/Item';
 
 export const OrientalHerb: Item = {
-	"id": "Oriental Herb",
-	"name": "Oriental Herb",
-	"href": "/Oriental_Herb",
+	"id": 302116,
+	"name": "OrientalHerb",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Herbal Liquor",
-			"id": "Herbal Liquor"
+			"id": 301305
 		},
 		{
 			"name": "Herbal Medicine",
-			"id": "Herbal Medicine"
+			"id": 302207
 		},
 		{
 			"name": "Orchid",
-			"id": "Orchid"
+			"id": 302218
 		},
 		{
 			"name": "Oriental Concoction",
-			"id": "Oriental Concoction"
+			"id": 302314
 		}
 	],
 	"requirements": {},
@@ -37,14 +36,15 @@ export const OrientalHerb: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "An herb used in traditional medicine.",
+	"displayName": "Oriental Herb",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302116,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

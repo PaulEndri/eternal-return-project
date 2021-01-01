@@ -21,6 +21,7 @@ export const Gemstone: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "원석",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -31,6 +32,7 @@ export const Gemstone: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "An unrefined gemstone. Could be worth something in the right hands.",
+	"displayName": "Gemstone",
 	"apiMetaData": {
 		"code": 401114,
 		"category": "Misc",

@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Nadine: Character = {
 	"id": 6,
+	"displayName": "Nadine",
 	"name": "Nadine",
+	"background": "\"With a bow in my hands, I won't miss.\" - Nadine\nA sudden landslide occured when Nadine was only 4 years old, resulting in the loss of both of her parents. She was the sole survivor, ultimately being rescued and raised by wild animals. Authorities declared her dead, but she was found 8 years later by a hunter, giving her a chance at a new life as a human. To this day, she struggles to live in normalcy, hesitating on even the most trivial of tasks. \n\nNadine is claustrophobic due to her deep-seated memory of being buried. \nShe will overthink situations to the point of freezing, but has a facade of indifference to hide it.\n",
 	"attributes": [
 		{
 			"mastery": "Bow",
@@ -259,7 +261,7 @@ export const Nadine: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 32,
 			"defense": 21,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.4,
 			"spRegen": 1.9,
 			"attackSpeed": 0.12,

@@ -49,11 +49,13 @@ export const Blueprint: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "정교한도면",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "An elaborate blueprint. What on earth do all the lines and numbers mean?",
+	"displayName": "Blueprint",
 	"apiMetaData": {
 		"code": 401212,
 		"category": "Misc",

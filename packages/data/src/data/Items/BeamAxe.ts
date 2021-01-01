@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BeamAxe: Item = {
 	"id": 105402,
-	"name": "Beam Axe",
+	"name": "BeamAxe",
 	"buildsFrom": [
 		{
 			"name": "Gigantic Axe",
@@ -27,11 +27,13 @@ export const BeamAxe: Item = {
 		"sightRange": 4
 	},
 	"rarity": "Epic",
+	"code": "빔엑스",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Widely used since the Old Stone Age, it became a masterpiece when fused with modern technology.",
+	"displayName": "Beam Axe",
 	"apiMetaData": {
 		"code": 105402,
 		"category": "Weapon",

@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const HotHoneyWater: Item = {
-	"id": "Hot Honey Water",
-	"name": "Hot Honey Water",
-	"href": "/Hot_Honey_Water",
+	"id": 301302,
+	"name": "HotHoneyWater",
 	"buildsFrom": [
 		{
 			"name": "Boiling Water",
@@ -28,16 +27,17 @@ export const HotHoneyWater: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Hot Honey Water",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301302,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

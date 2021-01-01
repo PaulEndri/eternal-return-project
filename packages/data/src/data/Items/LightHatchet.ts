@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LightHatchet: Item = {
 	"id": 105301,
-	"name": "Light Hatchet",
+	"name": "LightHatchet",
 	"buildsFrom": [
 		{
 			"name": "Battle Axe",
@@ -29,11 +29,13 @@ export const LightHatchet: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "경량화도끼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Light Hatchet",
 	"apiMetaData": {
 		"code": 105301,
 		"category": "Weapon",

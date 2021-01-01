@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MachineGun: Item = {
 	"id": 117402,
-	"name": "Machine Gun",
+	"name": "MachineGun",
 	"buildsFrom": [
 		{
 			"name": "STG-44",
@@ -34,11 +34,13 @@ export const MachineGun: Item = {
 		"increaseBasicAttackDamage": 11
 	},
 	"rarity": "Epic",
+	"code": "기관총",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A gun that continuously fires bullets when the trigger is held down.",
+	"displayName": "Machine Gun",
 	"apiMetaData": {
 		"code": 117402,
 		"category": "Weapon",

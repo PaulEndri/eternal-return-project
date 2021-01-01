@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const WindandFireWheels: Item = {
+export const WindAndFireWheels: Item = {
 	"id": 113411,
-	"name": "Wind and Fire Wheels",
+	"name": "WindAndFireWheels",
 	"buildsFrom": [
 		{
 			"name": "Dharma Chakram",
@@ -24,14 +24,16 @@ export const WindandFireWheels: Item = {
 	"stats": {
 		"attackPower": 55,
 		"charges": 50,
-		"increaseSkillDamageRatio": 0.17
+		"increaseSkillDamageRatio": 0.2
 	},
 	"rarity": "Epic",
+	"code": "건곤권",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Wind and Fire Wheels",
 	"apiMetaData": {
 		"code": 113411,
 		"category": "Weapon",

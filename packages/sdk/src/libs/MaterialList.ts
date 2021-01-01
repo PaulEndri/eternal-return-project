@@ -37,7 +37,7 @@ export class MaterialList {
 	}
 
 	public addFromLists(lists: IMaterialList[]) {
-		lists.forEach(this.addFromList);
+		lists.forEach((list) => this.addFromList(list));
 	}
 
 	public clone() {

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SunsetArmor: Item = {
 	"id": 202402,
-	"name": "Sunset Armor",
+	"name": "SunsetArmor",
 	"buildsFrom": [
 		{
 			"name": "Leather Armor",
@@ -25,11 +25,13 @@ export const SunsetArmor: Item = {
 		"maxHp": 450
 	},
 	"rarity": "Rare",
+	"code": "석양의갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made of leather, it features a ruby that shines like a bright, red sun",
+	"displayName": "Sunset Armor",
 	"apiMetaData": {
 		"code": 202402,
 		"category": "Armor",

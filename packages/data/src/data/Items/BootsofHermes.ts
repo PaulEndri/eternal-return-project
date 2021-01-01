@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const BootsofHermes: Item = {
+export const BootsOfHermes: Item = {
 	"id": 204501,
-	"name": "Boots of Hermes",
+	"name": "BootsOfHermes",
 	"buildsFrom": [
 		{
 			"name": "Force Core",
@@ -27,11 +27,13 @@ export const BootsofHermes: Item = {
 		"moveSpeedOutOfCombat": 0.2
 	},
 	"rarity": "Legend",
+	"code": "헤르메스의부츠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Shoes worn by Hermes, the Greek God of Travellers. Try them on, you'll feel like you're floating.",
+	"displayName": "Boots of Hermes",
 	"apiMetaData": {
 		"code": 204501,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MagnumAnaconda: Item = {
 	"id": 116402,
-	"name": "Magnum-Anaconda",
+	"name": "MagnumAnaconda",
 	"buildsFrom": [
 		{
 			"name": "Magnum-Python",
@@ -33,11 +33,13 @@ export const MagnumAnaconda: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "매그넘-아나콘다",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Named after the Anaconda, which is larger than a Python, it uses a larger caliber Magnum cartridge.",
+	"displayName": "Magnum-Anaconda",
 	"apiMetaData": {
 		"code": 116402,
 		"category": "Weapon",

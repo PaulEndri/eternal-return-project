@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const KneePads: Item = {
 	"id": 204201,
-	"name": "Knee Pads",
+	"name": "KneePads",
 	"buildsFrom": [
 		{
 			"name": "Tights",
@@ -28,11 +28,13 @@ export const KneePads: Item = {
 		"moveSpeed": 0.16
 	},
 	"rarity": "Uncommon",
+	"code": "무릎보호대",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Learning to ride a bike? Put these on.",
+	"displayName": "Knee Pads",
 	"apiMetaData": {
 		"code": 204201,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SwordStopper: Item = {
 	"id": 203402,
-	"name": "Sword Stopper",
+	"name": "SwordStopper",
 	"buildsFrom": [
 		{
 			"name": "Bazuband",
@@ -23,15 +23,17 @@ export const SwordStopper: Item = {
 	},
 	"stats": {
 		"decreaseRecoveryToBasicAttack": 1,
-		"defense": 26,
+		"defense": 28,
 		"preventBasicAttackDamaged": 11
 	},
 	"rarity": "Epic",
+	"code": "소드스토퍼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It is, quite literally, armor that protects from swords. The hooks on it catch and entangle blades",
+	"displayName": "Sword Stopper",
 	"apiMetaData": {
 		"code": 203402,
 		"category": "Armor",

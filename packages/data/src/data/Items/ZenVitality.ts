@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const ZenVitality: Item = {
-	"id": "Zen Vitality",
-	"name": "Zen Vitality",
-	"href": "/Zen_Vitality",
+	"id": 302329,
+	"name": "ZenVitality",
 	"buildsFrom": [
 		{
 			"name": "Acupuncture Needle",
-			"id": "Acupuncture Needle"
+			"id": 302217
 		},
 		{
 			"name": "Herbal Medicine",
-			"id": "Herbal Medicine"
+			"id": 302207
 		}
 	],
 	"buildsInto": [],
@@ -30,16 +29,17 @@ export const ZenVitality: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Zen Vitality",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302329,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

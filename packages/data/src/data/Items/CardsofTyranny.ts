@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const CardsofTyranny: Item = {
+export const CardsOfTyranny: Item = {
 	"id": 113401,
-	"name": "Cards of Tyranny",
+	"name": "CardsOfTyranny",
 	"buildsFrom": [
 		{
 			"name": "Vintage Cards",
@@ -28,11 +28,13 @@ export const CardsofTyranny: Item = {
 		"criticalStrikeChance": 0.2
 	},
 	"rarity": "Epic",
+	"code": "미치광이왕의카드",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
+	"displayName": "Cards of Tyranny",
 	"apiMetaData": {
 		"code": 113401,
 		"category": "Weapon",

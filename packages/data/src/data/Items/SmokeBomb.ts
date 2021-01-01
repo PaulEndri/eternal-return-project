@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SmokeBomb: Item = {
 	"id": 112402,
-	"name": "Smoke Bomb",
+	"name": "SmokeBomb",
 	"buildsFrom": [
 		{
 			"name": "Flour Bomb",
@@ -28,11 +28,13 @@ export const SmokeBomb: Item = {
 		"charges": 20
 	},
 	"rarity": "Epic",
+	"code": "연막탄",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Inflicts immense damage by emitting a poisonous gas. It is made from gunpowder and a special barrel.",
+	"displayName": "Smoke Bomb",
 	"apiMetaData": {
 		"code": 112402,
 		"category": "Weapon",

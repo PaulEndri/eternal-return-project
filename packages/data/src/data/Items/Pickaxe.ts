@@ -19,6 +19,7 @@ export const Pickaxe: Item = {
 		"attackPower": 15
 	},
 	"rarity": "Common",
+	"code": "곡괭이",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -29,6 +30,7 @@ export const Pickaxe: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Can we consider it a blade attack if you swing the pickaxe and attack your opponent..?",
+	"displayName": "Pickaxe",
 	"apiMetaData": {
 		"code": 105102,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BastardSword: Item = {
 	"id": 102403,
-	"name": "Bastard Sword",
+	"name": "BastardSword",
 	"buildsFrom": [
 		{
 			"name": "Rusty Sword",
@@ -33,11 +33,13 @@ export const BastardSword: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "바스타드소드",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "In the Middle Ages, the Bastard Sword was the only weapon with the characteristics of both a double-handed sword and a single-handed sword, so it was named Bastard, meaning mixed breed.",
+	"displayName": "Bastard Sword",
 	"apiMetaData": {
 		"code": 102403,
 		"category": "Weapon",

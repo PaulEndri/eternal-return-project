@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MithrilString: Item = {
 	"id": 502401,
-	"name": "Mithril String",
+	"name": "MithrilString",
 	"buildsFrom": [
 		{
 			"name": "Mithril",
@@ -24,13 +24,15 @@ export const MithrilString: Item = {
 		"Piano Wire": 1
 	},
 	"stats": {
-		"attackPower": 8
+		"attackPower": "#REF!"
 	},
 	"rarity": "Rare",
+	"code": "미스릴실",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Mithril String",
 	"apiMetaData": {
 		"code": 502401,
 		"category": "Special",

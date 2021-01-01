@@ -31,11 +31,13 @@ export const Florentine: Item = {
 		"lifeSteal": 0.1
 	},
 	"rarity": "Rare",
+	"code": "피렌체식 쌍검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The master of these swords from Florence says you can't use them seperately. One in each hand at all times.",
+	"displayName": "Florentine",
 	"apiMetaData": {
 		"code": 103301,
 		"category": "Weapon",

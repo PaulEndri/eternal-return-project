@@ -31,11 +31,13 @@ export const Nunchaku: Item = {
 		"attackPower": 27
 	},
 	"rarity": "Uncommon",
+	"code": "눈차크",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Nunchaku",
 	"apiMetaData": {
 		"code": 119201,
 		"category": "Weapon",

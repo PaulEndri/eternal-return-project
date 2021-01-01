@@ -26,11 +26,13 @@ export const Scythe: Item = {
 		"increaseSkillDamageRatio": 0.18
 	},
 	"rarity": "Epic",
+	"code": "스퀴테",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Scythe",
 	"apiMetaData": {
 		"code": 105404,
 		"category": "Weapon",

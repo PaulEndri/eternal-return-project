@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RunningShoes: Item = {
 	"id": 204102,
-	"name": "Running Shoes",
+	"name": "RunningShoes",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -19,6 +19,7 @@ export const RunningShoes: Item = {
 		"moveSpeed": 0.08
 	},
 	"rarity": "Common",
+	"code": "운동화",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -28,6 +29,7 @@ export const RunningShoes: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Everyone likes running shoes. You can walk in them, too y'know.",
+	"displayName": "Running Shoes",
 	"apiMetaData": {
 		"code": 204102,
 		"category": "Armor",

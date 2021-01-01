@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Sissela: Character = {
 	"id": 15,
+	"displayName": "Sissela",
 	"name": "Sissela",
+	"background": "\"Life is an agony. Only more agony awaits to greet me.\" - Sissela \nSuffering from an incurable disease affecting only a hundred in the world, Sissela has been hospitalized since her diagnosis at a very young age. Despite the uncountable attempts to free herself from her extreme and constant pain, she couldn’t easily end her life.\n\nA rare specimen in medicine, she was supported with experimental treatments and fully paid medical bills. To her, it seems that she is being kept alive merely for the sake of continuing research.\n\nShe is often expressionless, and does not talk much. Often isolated, she habitually draws faces on things and gives them names to talk to them. She feels pretty awkward talking to other people. \n",
 	"attributes": [
 		{
 			"mastery": "HighAngleFire",
@@ -261,7 +263,7 @@ export const Sissela: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 23,
 			"defense": 19,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.4,
 			"spRegen": 1.1,
 			"attackSpeed": 0.12,

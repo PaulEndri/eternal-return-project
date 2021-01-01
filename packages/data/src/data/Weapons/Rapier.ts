@@ -47,7 +47,7 @@ export const Rapier: Weapon = {
 		},
 		{
 			"name": "Durendal mk2",
-			"id": "Durendal mk2"
+			"id": 120401
 		},
 		{
 			"name": "Volticletto",

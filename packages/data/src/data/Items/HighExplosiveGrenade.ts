@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HighExplosiveGrenade: Item = {
 	"id": 112404,
-	"name": "High Explosive Grenade",
+	"name": "HighExplosiveGrenade",
 	"buildsFrom": [
 		{
 			"name": "Grenade",
@@ -31,11 +31,13 @@ export const HighExplosiveGrenade: Item = {
 		"increaseBasicAttackDamage": 60
 	},
 	"rarity": "Epic",
+	"code": "고폭수류탄",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It hurts when you touch it, but it even hurts more when it explodes next to you.",
+	"displayName": "High Explosive Grenade",
 	"apiMetaData": {
 		"code": 112404,
 		"category": "Weapon",

@@ -23,18 +23,20 @@ export const Harpe: Item = {
 		"Feather": 1
 	},
 	"stats": {
-		"attackPower": 125,
+		"attackPower": 105,
 		"attackRange": 0.5,
 		"decreaseRecoveryToSkill": 1,
 		"moveSpeed": 0.1,
-		"increaseSkillDamage": 45
+		"increaseSkillDamage": 38
 	},
 	"rarity": "Epic",
+	"code": "하르페",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The sword given to Perseus by Hermes, the God of Thieves. He used this to cut off Medusa's head and to rescue Andromeda from a sea monster.",
+	"displayName": "Harpe",
 	"apiMetaData": {
 		"code": 105406,
 		"category": "Weapon",

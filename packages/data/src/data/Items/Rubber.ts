@@ -33,6 +33,7 @@ export const Rubber: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "고무",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -42,6 +43,7 @@ export const Rubber: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A material that is always elastic. Unlike your cheeks, which lose elasticity day by day.",
+	"displayName": "Rubber",
 	"apiMetaData": {
 		"code": 401105,
 		"category": "Misc",

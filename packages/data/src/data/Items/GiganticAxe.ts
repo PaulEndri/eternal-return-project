@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GiganticAxe: Item = {
 	"id": 105401,
-	"name": "Gigantic Axe",
+	"name": "GiganticAxe",
 	"buildsFrom": [
 		{
 			"name": "Battle Axe",
@@ -30,11 +30,13 @@ export const GiganticAxe: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "대부",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Gigantic Axe",
 	"apiMetaData": {
 		"code": 105401,
 		"category": "Weapon",

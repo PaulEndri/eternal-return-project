@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const IonBattery: Item = {
 	"id": 401306,
-	"name": "Ion Battery",
+	"name": "IonBattery",
 	"buildsFrom": [
 		{
 			"name": "Dead Battery",
@@ -42,11 +42,13 @@ export const IonBattery: Item = {
 	},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "이온전지",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "A high capacity battery made of lithium ion that can be recharged many times.",
+	"displayName": "Ion Battery",
 	"apiMetaData": {
 		"code": 401306,
 		"category": "Misc",

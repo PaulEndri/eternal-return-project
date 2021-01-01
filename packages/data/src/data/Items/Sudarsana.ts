@@ -26,11 +26,13 @@ export const Sudarsana: Item = {
 		"charges": 50
 	},
 	"rarity": "Legend",
+	"code": "수다르사나",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon of Vishnu, one of the three main Hindu Gods. It was used to destroy air fortresses.",
+	"displayName": "Sudarsana",
 	"apiMetaData": {
 		"code": 113501,
 		"category": "Weapon",

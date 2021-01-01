@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const GrilledChileanSeaBass: Item = {
-	"id": "Grilled Chilean Sea Bass",
-	"name": "Grilled Chilean Sea Bass",
-	"href": "/Grilled_Chilean_Sea_Bass",
+	"id": 302306,
+	"name": "GrilledChileanSeaBass",
 	"buildsFrom": [
 		{
 			"name": "Cod",
-			"id": "Cod"
+			"id": 302104
 		},
 		{
 			"name": "Heated Stone",
@@ -29,16 +28,17 @@ export const GrilledChileanSeaBass: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "",
+	"displayName": "Grilled Chilean Sea Bass",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302306,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

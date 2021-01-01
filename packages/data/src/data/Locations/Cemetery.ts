@@ -32,12 +32,12 @@ export const Cemetery: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 301106,
+			"name": "Coffee",
 			"id": 301106,
 			"quantity": 5
 		},
 		{
-			"name": 302106,
+			"name": "Garlic",
 			"id": 302106,
 			"quantity": 5
 		},
@@ -47,7 +47,7 @@ export const Cemetery: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Fabric Armor",
+			"name": "FabricArmor",
 			"id": 202106,
 			"quantity": 7
 		},
@@ -67,17 +67,17 @@ export const Cemetery: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Iron Ore",
+			"name": "IronOre",
 			"id": 401118,
 			"quantity": 7
 		},
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 6
 		},
 		{
-			"name": 302112,
+			"name": "Egg",
 			"id": 302112,
 			"quantity": 5
 		},
@@ -87,7 +87,7 @@ export const Cemetery: Location = {
 			"quantity": 5
 		},
 		{
-			"name": "Brass Knuckles",
+			"name": "BrassKnuckles",
 			"id": 110101,
 			"quantity": 5
 		},
@@ -102,7 +102,7 @@ export const Cemetery: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Steel Chain",
+			"name": "SteelChain",
 			"id": 119101,
 			"quantity": 7
 		}

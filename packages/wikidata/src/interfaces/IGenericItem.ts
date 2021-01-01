@@ -3,8 +3,9 @@ export interface IGenericItem {
 	AttackRange: string;
 	AttackSpeedRatio: string;
 	Charges: number;
+	Code: number;
 	CooldownReduction: string;
-	CriticalStrikeChance: string;
+	criticalChance: string;
 	CriticalStrikeDamage: string;
 	DecreaseRecoveryToBasicAttack: string;
 	DecreaseRecoveryToSkill: string;

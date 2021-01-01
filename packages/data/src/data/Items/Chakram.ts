@@ -29,11 +29,13 @@ export const Chakram: Item = {
 		"charges": 50
 	},
 	"rarity": "Rare",
+	"code": "챠크람",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The chakram is basically a throwing weapon, but in some cases, it also can be used to slash enemies like a melee weapon. Its circular shape has sharp blades around it, making it even more deadly.",
+	"displayName": "Chakram",
 	"apiMetaData": {
 		"code": 113301,
 		"category": "Weapon",

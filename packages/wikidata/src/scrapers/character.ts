@@ -105,10 +105,13 @@ export class CharacterScraper extends CoreScraper {
 			};
 		});
 
+		const background = $('#Background').parent().nextUntil('h2').text();
+
 		return {
 			name,
 			href,
 			description,
+			background,
 			details,
 			stats,
 			abilities,

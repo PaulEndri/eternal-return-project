@@ -2,12 +2,12 @@ import Item from '../../types/Item';
 
 export const CarbonatedWater: Item = {
 	"id": 301107,
-	"name": "Carbonated Water",
+	"name": "CarbonatedWater",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Lemonade",
-			"id": "Lemonade"
+			"id": 301202
 		},
 		{
 			"name": "Cola",
@@ -15,7 +15,7 @@ export const CarbonatedWater: Item = {
 		},
 		{
 			"name": "Highball",
-			"id": "Highball"
+			"id": 301213
 		},
 		{
 			"name": "Ion Battery",
@@ -27,6 +27,7 @@ export const CarbonatedWater: Item = {
 		"spRestore": 380
 	},
 	"rarity": "Common",
+	"code": "탄산수",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
@@ -35,6 +36,7 @@ export const CarbonatedWater: Item = {
 		"Uptown": 5
 	},
 	"foundQuantity": 1,
+	"displayName": "Carbonated Water",
 	"apiMetaData": {
 		"code": 301107,
 		"category": "Consume",

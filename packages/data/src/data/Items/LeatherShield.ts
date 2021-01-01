@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LeatherShield: Item = {
 	"id": 203201,
-	"name": "Leather Shield",
+	"name": "LeatherShield",
 	"buildsFrom": [
 		{
 			"name": "Turtle Shell",
@@ -32,11 +32,13 @@ export const LeatherShield: Item = {
 		"defense": 10
 	},
 	"rarity": "Uncommon",
+	"code": "가죽방패",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Strong, but flexible. Not the best for blocking sharp attacks, but it's better than nothing.",
+	"displayName": "Leather Shield",
 	"apiMetaData": {
 		"code": 203201,
 		"category": "Armor",

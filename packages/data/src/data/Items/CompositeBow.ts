@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CompositeBow: Item = {
 	"id": 114203,
-	"name": "Composite Bow",
+	"name": "CompositeBow",
 	"buildsFrom": [
 		{
 			"name": "Longbow",
@@ -29,11 +29,13 @@ export const CompositeBow: Item = {
 		"decreaseRecoveryToBasicAttack": 1
 	},
 	"rarity": "Rare",
+	"code": "컴포지트보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A high quality composite bow that was used in the East. There is a record of a man shooting over 440 meters during the England Archery Competition of 1795.",
+	"displayName": "Composite Bow",
 	"apiMetaData": {
 		"code": 114203,
 		"category": "Weapon",

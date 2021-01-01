@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const FeatherDuster: Item = {
 	"id": 205209,
-	"name": "Feather Duster",
+	"name": "FeatherDuster",
 	"buildsFrom": [
 		{
 			"name": "Short Rod",
@@ -40,11 +40,13 @@ export const FeatherDuster: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Uncommon",
+	"code": "먼지털이개",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Dust sticks to this thing like iron to a magnet. Feather dusters...how do they work?",
+	"displayName": "Feather Duster",
 	"apiMetaData": {
 		"code": 205209,
 		"category": "Armor",

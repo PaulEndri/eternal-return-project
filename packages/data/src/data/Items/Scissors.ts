@@ -27,6 +27,7 @@ export const Scissors: Item = {
 		"attackPower": 5
 	},
 	"rarity": "Common",
+	"code": "가위",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -36,6 +37,7 @@ export const Scissors: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A basic pair of scissors. Snip snip.",
+	"displayName": "Scissors",
 	"apiMetaData": {
 		"code": 101101,
 		"category": "Weapon",

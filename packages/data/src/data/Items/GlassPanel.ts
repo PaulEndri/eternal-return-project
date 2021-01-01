@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GlassPanel: Item = {
 	"id": 401305,
-	"name": "Glass Panel",
+	"name": "GlassPanel",
 	"buildsFrom": [
 		{
 			"name": "Glass Pieces",
@@ -34,11 +34,13 @@ export const GlassPanel: Item = {
 	},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "유리판",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A glass panel used for a display. If you break the one on your TV, you gotta replace it with a new panel. At that point, you might as well just get a new TV.",
+	"displayName": "Glass Panel",
 	"apiMetaData": {
 		"code": 401305,
 		"category": "Misc",

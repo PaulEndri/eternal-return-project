@@ -27,12 +27,12 @@ export const Temple: Location = {
 	],
 	"drops": [
 		{
-			"name": "Kitchen Knife",
+			"name": "KitchenKnife",
 			"id": 101104,
 			"quantity": 5
 		},
 		{
-			"name": 302106,
+			"name": "Garlic",
 			"id": 302106,
 			"quantity": 6
 		},
@@ -42,22 +42,22 @@ export const Temple: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 302113,
+			"name": "Ramen",
 			"id": 302113,
 			"quantity": 4
 		},
 		{
-			"name": 302116,
+			"name": "OrientalHerb",
 			"id": 302116,
 			"quantity": 6
 		},
 		{
-			"name": "Buddhist Scripture",
+			"name": "BuddhistScripture",
 			"id": 205106,
 			"quantity": 8
 		},
 		{
-			"name": "Short Spear",
+			"name": "ShortSpear",
 			"id": 107101,
 			"quantity": 4
 		},
@@ -72,7 +72,7 @@ export const Temple: Location = {
 			"quantity": 7
 		},
 		{
-			"name": 202103,
+			"name": "MonksRobe",
 			"id": 202103,
 			"quantity": 9
 		},
@@ -87,12 +87,12 @@ export const Temple: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Fabric Armor",
+			"name": "FabricArmor",
 			"id": 202106,
 			"quantity": 8
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "StallionMedal",
 			"id": 401109,
 			"quantity": 7
 		},
@@ -102,7 +102,7 @@ export const Temple: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Short Rod",
+			"name": "ShortRod",
 			"id": 108102,
 			"quantity": 5
 		}

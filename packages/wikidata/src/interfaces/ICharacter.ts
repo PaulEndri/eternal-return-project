@@ -5,6 +5,7 @@ export interface ICharacter {
 	href: string;
 	image?: string;
 	description: string;
+	background?: string;
 	details: any[];
 	stats: {};
 	abilities: Record<string, IAbility>;

@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Isol: Character = {
 	"id": 9,
+	"displayName": "Isol",
 	"name": "Isol",
+	"background": "\"I can't stop here.\" - Isol\nIsol, known as Marcelo at the time, escaped his orphanage at the age of 12 at the suggestion of his trusted friend, Francisco.   \nFollowing his escape, he joined the terrorist group known as MOK. Isol is the sole survivor among the several child soldiers who joined the group around then.  \nHe tended to devolve to unnecessarily cruel ways of murder. \nIsol is overly disinterested in learning about others as he hates unnecessarily forming close relationships.\n",
 	"attributes": [
 		{
 			"mastery": "AssaultRifle",
@@ -264,7 +266,7 @@ export const Isol: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 32,
 			"defense": 23,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.5,
 			"spRegen": 1.8,
 			"attackSpeed": 0.14,

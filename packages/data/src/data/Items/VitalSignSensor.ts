@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const VitalSignSensor: Item = {
 	"id": 203405,
-	"name": "Vital Sign Sensor",
+	"name": "VitalSignSensor",
 	"buildsFrom": [
 		{
 			"name": "Watch",
@@ -31,11 +31,13 @@ export const VitalSignSensor: Item = {
 		"defense": 15
 	},
 	"rarity": "Epic",
+	"code": "바이탈센서",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Vital Sign Sensor",
 	"apiMetaData": {
 		"code": 203405,
 		"category": "Armor",

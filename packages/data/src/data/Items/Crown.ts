@@ -28,14 +28,16 @@ export const Crown: Item = {
 	"stats": {
 		"defense": 16,
 		"maxSp": 360,
-		"increaseSkillDamageRatio": 0.11
+		"increaseSkillDamageRatio": 0.08
 	},
 	"rarity": "Rare",
+	"code": "왕관",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The one  to wear the crown must bear its weight.",
+	"displayName": "Crown",
 	"apiMetaData": {
 		"code": 201401,
 		"category": "Armor",

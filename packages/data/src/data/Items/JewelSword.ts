@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const JewelSword: Item = {
 	"id": 102404,
-	"name": "Jewel Sword",
+	"name": "JewelSword",
 	"buildsFrom": [
 		{
 			"name": "Shamshir",
@@ -34,11 +34,13 @@ export const JewelSword: Item = {
 		"maxHp": 200
 	},
 	"rarity": "Rare",
+	"code": "보검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Valuable by its very existence. Often is the case of such swords that were made with precious materials or used by a famous hero.",
+	"displayName": "Jewel Sword",
 	"apiMetaData": {
 		"code": 102404,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LightningWhip: Item = {
 	"id": 109402,
-	"name": "Lightning Whip",
+	"name": "LightningWhip",
 	"buildsFrom": [
 		{
 			"name": "Bullwhip",
@@ -26,15 +26,17 @@ export const LightningWhip: Item = {
 		"Water": 1
 	},
 	"stats": {
-		"attackPower": 41,
+		"attackPower": 42,
 		"attackSpeedRatio": 0.2
 	},
 	"rarity": "Rare",
+	"code": "벽력편",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Lightning Whip",
 	"apiMetaData": {
 		"code": 109402,
 		"category": "Weapon",

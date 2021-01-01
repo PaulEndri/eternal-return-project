@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ImperialSilkGloves: Item = {
 	"id": 110412,
-	"name": "Imperial Silk Gloves",
+	"name": "ImperialSilkGloves",
 	"buildsFrom": [
 		{
 			"name": "Mithril String",
@@ -22,13 +22,15 @@ export const ImperialSilkGloves: Item = {
 	},
 	"stats": {
 		"attackPower": 85,
-		"moveSpeed": 0.2
+		"moveSpeed": 0.1
 	},
 	"rarity": "Epic",
+	"code": "천잠장갑",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Imperial Silk Gloves",
 	"apiMetaData": {
 		"code": 110412,
 		"category": "Weapon",

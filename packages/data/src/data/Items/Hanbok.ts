@@ -29,16 +29,18 @@ export const Hanbok: Item = {
 		"Flower": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.15,
-		"defense": 5,
+		"cooldownReduction": 0.08,
+		"defense": 12,
 		"hpRegen": 1
 	},
 	"rarity": "Rare",
+	"code": "한복",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A traditional Korean dress. The diverse range of colors and elegant embroidery enhances the harmony of curves and straight lines.",
+	"displayName": "Hanbok",
 	"apiMetaData": {
 		"code": 202306,
 		"category": "Armor",

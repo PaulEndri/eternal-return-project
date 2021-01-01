@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const RutheniumMarble: Item = {
 	"id": 112501,
-	"name": "Ruthenium Marble",
+	"name": "RutheniumMarble",
 	"buildsFrom": [
 		{
 			"name": "Spiky Bouncy Ball",
@@ -29,11 +29,13 @@ export const RutheniumMarble: Item = {
 		"increaseSkillDamageRatio": 0.2
 	},
 	"rarity": "Epic",
+	"code": "루테늄구슬",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made out of Ruthenium, which is the hardest element among the platinum metals. It also has applications as a superconductor.",
+	"displayName": "Ruthenium Marble",
 	"apiMetaData": {
 		"code": 112501,
 		"category": "Weapon",

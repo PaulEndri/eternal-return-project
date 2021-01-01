@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const EveningStar: Item = {
 	"id": 104404,
-	"name": "Evening Star",
+	"name": "EveningStar",
 	"buildsFrom": [
 		{
 			"name": "Moonstone",
@@ -22,14 +22,16 @@ export const EveningStar: Item = {
 		"Iron Ball": 1
 	},
 	"stats": {
-		"attackPower": 145
+		"attackPower": 150
 	},
 	"rarity": "Epic",
+	"code": "개밥바라기",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Evening Star",
 	"apiMetaData": {
 		"code": 104404,
 		"category": "Weapon",

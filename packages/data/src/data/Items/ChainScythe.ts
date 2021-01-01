@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ChainScythe: Item = {
 	"id": 105201,
-	"name": "Chain Scythe",
+	"name": "ChainScythe",
 	"buildsFrom": [
 		{
 			"name": "Pickaxe",
@@ -28,11 +28,13 @@ export const ChainScythe: Item = {
 		"attackRange": 0.2
 	},
 	"rarity": "Uncommon",
+	"code": "사슬낫",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon of the Grim Reaper that has a sharp scythe at one end of a steel chain.",
+	"displayName": "Chain Scythe",
 	"apiMetaData": {
 		"code": 105201,
 		"category": "Weapon",

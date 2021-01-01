@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SurveillanceCamera: Item = {
 	"id": 502101,
-	"name": "Surveillance Camera",
+	"name": "SurveillanceCamera",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -13,6 +13,7 @@ export const SurveillanceCamera: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "감시카메라",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
@@ -26,6 +27,7 @@ export const SurveillanceCamera: Item = {
 		"Dock": 6
 	},
 	"foundQuantity": 1,
+	"displayName": "Surveillance Camera",
 	"apiMetaData": {
 		"code": 502101,
 		"category": "Special",

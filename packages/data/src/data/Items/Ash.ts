@@ -53,11 +53,13 @@ export const Ash: Item = {
 	},
 	"stats": {},
 	"rarity": "Uncommon",
+	"code": "재",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The remains of something burning.",
+	"displayName": "Ash",
 	"apiMetaData": {
 		"code": 401210,
 		"category": "Misc",

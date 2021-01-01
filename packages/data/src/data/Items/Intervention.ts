@@ -27,11 +27,13 @@ export const Intervention: Item = {
 		"sightRange": 4.5
 	},
 	"rarity": "Epic",
+	"code": "인터벤션",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Intervention",
 	"apiMetaData": {
 		"code": 118404,
 		"category": "Weapon",

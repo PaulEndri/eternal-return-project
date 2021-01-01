@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SteelKneePads: Item = {
 	"id": 204401,
-	"name": "Steel Knee Pads",
+	"name": "SteelKneePads",
 	"buildsFrom": [
 		{
 			"name": "Knee Pads",
@@ -30,11 +30,13 @@ export const SteelKneePads: Item = {
 		"moveSpeed": 0.24
 	},
 	"rarity": "Rare",
+	"code": "강철무릎보호대",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A kick to the shin is a favorite among angry girlfriends. Keep your shins protected.",
+	"displayName": "Steel Knee Pads",
 	"apiMetaData": {
 		"code": 204401,
 		"category": "Armor",

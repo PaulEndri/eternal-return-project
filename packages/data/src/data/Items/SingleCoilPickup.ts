@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SingleCoilPickup: Item = {
 	"id": 121202,
-	"name": "Single Coil Pickup",
+	"name": "SingleCoilPickup",
 	"buildsFrom": [
 		{
 			"name": "Starter Guitar",
@@ -42,11 +42,13 @@ export const SingleCoilPickup: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Uncommon",
+	"code": "싱글픽업",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Single coil guitars generally have a brighter, crisper output, and sound clearer.",
+	"displayName": "Single Coil Pickup",
 	"apiMetaData": {
 		"code": 121202,
 		"category": "Weapon",

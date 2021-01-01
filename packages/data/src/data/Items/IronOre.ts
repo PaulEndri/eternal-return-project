@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const IronOre: Item = {
 	"id": 401118,
-	"name": "Iron Ore",
+	"name": "IronOre",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -19,12 +19,13 @@ export const IronOre: Item = {
 		},
 		{
 			"name": "Enhanced Mousetrap",
-			"id": "Enhanced Mousetrap"
+			"id": 502202
 		}
 	],
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "철광석",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -34,6 +35,7 @@ export const IronOre: Item = {
 	},
 	"foundQuantity": 3,
 	"description": "Just the ore. Extract the iron to make it useful!",
+	"displayName": "Iron Ore",
 	"apiMetaData": {
 		"code": 401118,
 		"category": "Misc",

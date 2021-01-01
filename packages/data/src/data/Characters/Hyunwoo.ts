@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Hyunwoo: Character = {
 	"id": 7,
+	"displayName": "Hyunwoo",
 	"name": "Hyunwoo",
+	"background": "\"It couldn't get any worse.\" - Hyunwoo\nHyunwoo had no ambitions or dreams. All he felt was... emptiness.  \nTo fill the void within, he turned to the thrill of constantly picking fights and brawls.  \nDespite all his attempts, the emptiness and anxiety inside him only grew. \n\nHe has a compulsion for a lottery ticket to be the first thing he buys as an adult. \nHe has always been more attached to his friends than his family.\n",
 	"attributes": [
 		{
 			"mastery": "Glove",
@@ -269,7 +271,7 @@ export const Hyunwoo: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 40,
 			"defense": 26,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.8,
 			"spRegen": 1.8,
 			"attackSpeed": 0.12,

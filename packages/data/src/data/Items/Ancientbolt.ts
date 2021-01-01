@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
-export const Ancientbolt: Item = {
+export const AncientBolt: Item = {
 	"id": 114401,
-	"name": "Ancient bolt",
-	"href": "/Ancient_bolt",
+	"name": "AncientBolt",
 	"buildsFrom": [
 		{
 			"name": "Stallion Bow",
@@ -31,6 +30,7 @@ export const Ancientbolt: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Ancient bolt",
 	"clientMetaData": {
 		"type": "Bow",
 		"category": "Weapon"

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const AK47: Item = {
 	"id": 117301,
-	"name": "AK-47",
+	"name": "AK47",
 	"buildsFrom": [
 		{
 			"name": "STG-44",
@@ -31,11 +31,13 @@ export const AK47: Item = {
 		"increaseBasicAttackDamage": 2
 	},
 	"rarity": "Rare",
+	"code": "AK-47",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "AK-47",
 	"apiMetaData": {
 		"code": 117301,
 		"category": "Weapon",

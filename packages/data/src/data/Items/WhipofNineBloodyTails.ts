@@ -1,8 +1,8 @@
 import Item from '../../types/Item';
 
-export const WhipofNineBloodyTails: Item = {
+export const WhipOfNineBloodyTails: Item = {
 	"id": 109501,
-	"name": "Whip of Nine Bloody Tails",
+	"name": "WhipOfNineBloodyTails",
 	"buildsFrom": [
 		{
 			"name": "VF Blood Sample",
@@ -21,16 +21,18 @@ export const WhipofNineBloodyTails: Item = {
 		"Fan": 1
 	},
 	"stats": {
-		"attackPower": 70,
+		"attackPower": 65,
 		"lifeSteal": 0.2,
 		"increaseSkillDamage": 40
 	},
 	"rarity": "Legend",
+	"code": "혈화구절편",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Whip of Nine Bloody Tails",
 	"apiMetaData": {
 		"code": 109501,
 		"category": "Weapon",

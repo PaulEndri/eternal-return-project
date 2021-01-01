@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const StallionBow: Item = {
 	"id": 114302,
-	"name": "Stallion Bow",
+	"name": "StallionBow",
 	"buildsFrom": [
 		{
 			"name": "Mighty Bow",
@@ -30,11 +30,13 @@ export const StallionBow: Item = {
 		"increaseBasicAttackDamage": 25
 	},
 	"rarity": "Rare",
+	"code": "국궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A traditional Korean bow that can kill a tiger with a single arrow.",
+	"displayName": "Stallion Bow",
 	"apiMetaData": {
 		"code": 114302,
 		"category": "Weapon",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ScrapMetal: Item = {
 	"id": 401106,
-	"name": "Scrap Metal",
+	"name": "ScrapMetal",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -33,6 +33,7 @@ export const ScrapMetal: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "고철",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -43,6 +44,7 @@ export const ScrapMetal: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Very old, beat up metal. Can you craft a weapon out of this?",
+	"displayName": "Scrap Metal",
 	"apiMetaData": {
 		"code": 401106,
 		"category": "Misc",

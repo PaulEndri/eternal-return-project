@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MagnumPython: Item = {
 	"id": 116201,
-	"name": "Magnum-Python",
+	"name": "MagnumPython",
 	"buildsFrom": [
 		{
 			"name": "Walther PPK",
@@ -34,11 +34,13 @@ export const MagnumPython: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Uncommon",
+	"code": "매그넘-파이선",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you research revolvers that use Magnum cartridges, you'll find that some of them use scientific names for snakes. This one is the  Pythonidae, also known as Python.",
+	"displayName": "Magnum-Python",
 	"apiMetaData": {
 		"code": 116201,
 		"category": "Weapon",

@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const FriedChicken: Item = {
-	"id": "Fried Chicken",
-	"name": "Fried Chicken",
-	"href": "/Fried_Chicken",
+	"id": 302316,
+	"name": "FriedChicken",
 	"buildsFrom": [
 		{
 			"name": "Meat",
-			"id": "Meat"
+			"id": 302111
 		},
 		{
 			"name": "Heated Oil",
@@ -29,16 +28,17 @@ export const FriedChicken: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "If it can fly and has wings and a beak, it's definitely a chicken. It could actually be a crow, pigeon, or whatever, but once you fry it, it will still be Fried Chicken.",
+	"displayName": "Fried Chicken",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302316,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

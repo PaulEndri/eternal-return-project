@@ -34,11 +34,13 @@ export const Charm: Item = {
 		"increaseSkillDamageRatio": 0.1
 	},
 	"rarity": "Rare",
+	"code": "부적",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Charm",
 	"apiMetaData": {
 		"code": 113202,
 		"category": "Weapon",

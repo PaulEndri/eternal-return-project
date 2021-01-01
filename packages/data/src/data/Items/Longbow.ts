@@ -35,11 +35,13 @@ export const Longbow: Item = {
 		"attackPower": 25
 	},
 	"rarity": "Uncommon",
+	"code": "장궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A unique Korean bow incorporating a horn in its designs. Anyone can use the bow, as it will adapt to the user.",
+	"displayName": "Longbow",
 	"apiMetaData": {
 		"code": 114202,
 		"category": "Weapon",

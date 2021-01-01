@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const DurendalMk2: Item = {
 	"id": 120401,
-	"name": "Durendal Mk2",
+	"name": "DurendalMk2",
 	"buildsFrom": [
 		{
 			"name": "Apricot Sword",
@@ -29,10 +29,12 @@ export const DurendalMk2: Item = {
 		"sightRange": 3
 	},
 	"rarity": "Epic",
+	"code": "듀랜달Mk2",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Durendal Mk2",
 	"apiMetaData": {
 		"code": 120401,
 		"category": "Weapon",

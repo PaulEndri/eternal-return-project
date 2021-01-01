@@ -27,17 +27,17 @@ export const Factory: Location = {
 	],
 	"drops": [
 		{
-			"name": "Scrap Metal",
+			"name": "ScrapMetal",
 			"id": 401106,
 			"quantity": 9
 		},
 		{
-			"name": "Iron Ball",
+			"name": "IronBall",
 			"id": 112103,
 			"quantity": 7
 		},
 		{
-			"name": 302120,
+			"name": "CurryPowder",
 			"id": 302120,
 			"quantity": 5
 		},
@@ -82,7 +82,7 @@ export const Factory: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Walther PPK",
+			"name": "WaltherPPK",
 			"id": 116101,
 			"quantity": 4
 		},
@@ -92,7 +92,7 @@ export const Factory: Location = {
 			"quantity": 4
 		},
 		{
-			"name": "Short Crossbow",
+			"name": "Crossbow",
 			"id": 115101,
 			"quantity": 4
 		},

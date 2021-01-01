@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SteelShield: Item = {
 	"id": 203401,
-	"name": "Steel Shield",
+	"name": "SteelShield",
 	"buildsFrom": [
 		{
 			"name": "Leather Shield",
@@ -31,11 +31,13 @@ export const SteelShield: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "강철방패",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A durable shield made of metal and leather.",
+	"displayName": "Steel Shield",
 	"apiMetaData": {
 		"code": 203401,
 		"category": "Armor",

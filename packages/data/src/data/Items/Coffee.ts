@@ -1,30 +1,29 @@
 import Item from '../../types/Item';
 
 export const Coffee: Item = {
-	"id": "Coffee",
+	"id": 301106,
 	"name": "Coffee",
-	"href": "/Coffee",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Ice Coffee",
-			"id": "Ice Coffee"
+			"id": 301206
 		},
 		{
 			"name": "Coffee Liqueur",
-			"id": "Coffee Liqueur"
+			"id": 301208
 		},
 		{
 			"name": "Latte",
-			"id": "Latte"
+			"id": 301210
 		},
 		{
 			"name": "Americano",
-			"id": "Americano"
+			"id": 301304
 		},
 		{
 			"name": "Bun",
-			"id": "Bun"
+			"id": 302225
 		}
 	],
 	"requirements": {},
@@ -40,14 +39,15 @@ export const Coffee: Item = {
 		"Dock": 6
 	},
 	"foundQuantity": 1,
+	"displayName": "Coffee",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301106,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

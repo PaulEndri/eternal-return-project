@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SheetMetalArmor: Item = {
 	"id": 202305,
-	"name": "Sheet Metal Armor",
+	"name": "SheetMetalArmor",
 	"buildsFrom": [
 		{
 			"name": "Fabric Armor",
@@ -34,11 +34,13 @@ export const SheetMetalArmor: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "판금갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor comprised of several layers of metal plates. Sheet Metal Armor is effective at withstanding slashing and striking attacks, but is weaker against long-range weapons.",
+	"displayName": "Sheet Metal Armor",
 	"apiMetaData": {
 		"code": 202305,
 		"category": "Armor",

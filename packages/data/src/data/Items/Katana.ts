@@ -36,11 +36,13 @@ export const Katana: Item = {
 		"attackPower": 35
 	},
 	"rarity": "Rare",
+	"code": "일본도",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "I can't believe that I'm actually holding a Japanese sword that I saw in the movies!",
+	"displayName": "Katana",
 	"apiMetaData": {
 		"code": 102301,
 		"category": "Weapon",

@@ -33,11 +33,13 @@ export const Dress: Item = {
 		"spRegenRatio": 1
 	},
 	"rarity": "Uncommon",
+	"code": "드레스",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Historically, not only women wore dresses as casual attire. In fact, it's only been about 600 years since men started wearing pants.",
+	"displayName": "Dress",
 	"apiMetaData": {
 		"code": 202207,
 		"category": "Armor",

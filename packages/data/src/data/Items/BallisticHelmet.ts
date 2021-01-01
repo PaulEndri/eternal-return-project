@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BallisticHelmet: Item = {
 	"id": 201301,
-	"name": "Ballistic Helmet",
+	"name": "BallisticHelmet",
 	"buildsFrom": [
 		{
 			"name": "Beret",
@@ -25,16 +25,18 @@ export const BallisticHelmet: Item = {
 		"Bike Helmet": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.13,
-		"defense": 10,
+		"cooldownReduction": 0.08,
+		"defense": 15,
 		"maxHp": 90
 	},
 	"rarity": "Rare",
+	"code": "방탄모",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Battered and tattered Ballistic Helmet. Initials marked inside the helmet scratched out and written over. Seems it's been passed around plenty of times.",
+	"displayName": "Ballistic Helmet",
 	"apiMetaData": {
 		"code": 201301,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ArmyKnife: Item = {
 	"id": 101201,
-	"name": "Army Knife",
+	"name": "ArmyKnife",
 	"buildsFrom": [
 		{
 			"name": "Kitchen Knife",
@@ -37,11 +37,13 @@ export const ArmyKnife: Item = {
 		"moveSpeedOutOfCombat": 0.2
 	},
 	"rarity": "Uncommon",
+	"code": "군용나이프",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Very threatening yet easy to carry. It faithfully performs its duties, such as cutting and stabbing.",
+	"displayName": "Army Knife",
 	"apiMetaData": {
 		"code": 101201,
 		"category": "Weapon",

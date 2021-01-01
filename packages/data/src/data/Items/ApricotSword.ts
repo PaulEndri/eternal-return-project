@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ApricotSword: Item = {
 	"id": 120301,
-	"name": "Apricot Sword",
+	"name": "ApricotSword",
 	"buildsFrom": [
 		{
 			"name": "Rapier",
@@ -40,11 +40,13 @@ export const ApricotSword: Item = {
 		"criticalStrikeDamage": 0.25
 	},
 	"rarity": "Rare",
+	"code": "매화검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Apricot Sword",
 	"apiMetaData": {
 		"code": 120301,
 		"category": "Weapon",

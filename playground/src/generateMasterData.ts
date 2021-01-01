@@ -14,8 +14,10 @@ import Weapons from './generated/newGenerated/Weapons.json';
 import lootLogic from './generated/clientData/howToFind.json';
 import Locations from './generated/newGenerated/Locations.json';
 import locationSpawns from './generated/clientData/spawns.json';
+// import ClassicItemData from './generated/classic/Complete.json';
 
 import fs from 'fs';
+import { sanitizeItemString } from 'erbs-utilities';
 
 const masterAnimals = [];
 const masterItems = [];
@@ -25,6 +27,18 @@ let missingTranslations = {};
 const missingItems = new Set();
 
 let allItemKeys = Object.keys(Items);
+const ItemKeyLookupArray = [];
+const ItemIdLookup = {};
+allItemKeys.map((key) => {
+	ItemIdLookup[Items[key].code];
+
+	ItemKeyLookupArray.push(
+		[ key, Items[key].code ],
+		[ Items[key].code, key ],
+		[ sanitizeItemString(key), Items[key].code ]
+	);
+});
+const ItemKeyLookups = Object.fromEntries(ItemKeyLookupArray);
 const writeFile = (name: string, content) => {
 	fs.writeFileSync(`src/generated/masterData/${name}.json`, JSON.stringify(content, null, 2));
 };
@@ -98,7 +112,11 @@ const getItemData = (itemArr: any[], apiTypeKey = 'type', apiCode = 'code', apiN
 		const enName = enTranslations[name];
 		const apiType = item[apiTypeKey];
 		const id = item[apiCode];
-		const data = enName ? Items[enName] : Items[name];
+		let data = enName ? Items[enName] : Items[name];
+
+		if (!data && id) {
+			data = ItemIdLookup[id];
+		}
 
 		if (data) {
 			allItemKeys = allItemKeys.filter((key) => key !== enName && key !== name);
@@ -108,6 +126,9 @@ const getItemData = (itemArr: any[], apiTypeKey = 'type', apiCode = 'code', apiN
 			masterItems.push({
 				id,
 				...rest,
+				code: item.name,
+				name: sanitizeItemString(rest.name),
+				displayName: rest.name,
 				apiMetaData: {
 					code: id,
 					category: item.itemType,
@@ -137,7 +158,13 @@ const linkMasterItems = () => {
 		item.collectible = 0;
 
 		item.buildsFrom = item.buildsFrom.map((itemName) => {
-			const foundItem = masterItems.find(({ name }) => itemName === name);
+			let foundItem = ItemKeyLookups[itemName];
+
+			if (!foundItem) {
+				foundItem = masterItems.find(({ name }) => sanitizeItemString(itemName) === name);
+			} else {
+				foundItem = masterItems.find(({ id }) => id === foundItem);
+			}
 
 			if (!foundItem || typeof foundItem.id === 'string') {
 				missingItems.add(itemName);
@@ -150,15 +177,34 @@ const linkMasterItems = () => {
 		});
 
 		item.buildsInto = item.buildsInto.map((itemName) => {
-			const foundItem = masterItems.find(({ name }) => itemName === name);
+			let foundItem = ItemKeyLookups[itemName];
+			const name = itemName;
+			let id;
 
-			if (!foundItem || typeof foundItem.id === 'string') {
-				missingItems.add(itemName);
+			if (!foundItem) {
+				foundItem = masterItems.find(
+					({ name, displayName }) =>
+						sanitizeItemString(itemName) === name ||
+						sanitizeItemString(itemName).toLowerCase() === name.toLowerCase() ||
+						displayName === itemName ||
+						sanitizeItemString(itemName).toLowerCase() ===
+							sanitizeItemString(displayName).toLowerCase()
+				);
+
+				if (!foundItem || typeof foundItem.id === 'string') {
+					console.log('[Failed to find BuildInto]', { itemName });
+
+					missingItems.add(itemName);
+				} else {
+					id = foundItem.id;
+				}
+			} else {
+				id = foundItem;
 			}
 
 			return {
-				name: itemName,
-				id: foundItem ? foundItem.id : null
+				name,
+				id
 			};
 		});
 
@@ -194,57 +240,71 @@ const generateItems = () => {
 	writeFile('generatedEnTranslations', enTranslations);
 	writeFile('generatedRawTranslations', rawTranslations);
 	writeFile('generatedKrTranslations', krTranslations);
-	allItemKeys.forEach((remainingItemName) => {
+
+	// while (allItemKeys.length > 0) {
+	// 	const remainingItemName = allItemKeys.pop();
+
+	for (const remainingItemName of allItemKeys) {
 		// console.log(`[Trying to find "${remainingItemName}"]`);
-		const { type, category, ...item } = Items[remainingItemName];
+
+		const { type, category, href, code, ...item } = Items[remainingItemName];
 		const krName =
 			krTranslations[remainingItemName] || krTranslations[remainingItemName.toLowerCase()];
+
 		let apiMetaData = {
 			code: null,
 			type: null,
 			category: null
 		};
-		let id = remainingItemName;
+
+		let krData;
+		let id = code;
 
 		if (krName) {
 			// console.log(`[Found TL for "${remainingItemName}"]`);
 
-			allItemKeys = allItemKeys.filter((key) => key !== remainingItemName);
-
-			const krData = missingTranslations[krName];
-
-			if (krData) {
-				// console.log(`[Found Data for "${remainingItemName}"]`);
-
-				id = krData.code;
-				apiMetaData = {
-					code: krData.code,
-					type: krData.type,
-					category: krData.itemType
-				};
-
-				delete missingTranslations[krName];
-				delete missingTranslations[krName.replace(/ /g, '')];
-			} else {
-				console.log(`[Failed to find Data for "${remainingItemName}"]`);
-			}
+			krData = missingTranslations[krName];
 		} else {
-			console.log(`[Failed to find TL for "${remainingItemName}"]`);
+			// console.log(`[Failed to find TL for "${remainingItemName}"]`);
 		}
 
-		masterItems.push({
-			id,
-			...item,
-			clientMetaData: {
-				type,
-				category
-			},
-			apiMetaData
-		});
-	});
+		if (!krData && ItemKeyLookups[id]) {
+			// console.log(`[Found id for ${remainingItemName}: ${id}]`);
+			krData = Object.values(missingTranslations).find(({ code }) => code === id);
+		} else if (!krData) {
+			// console.log(`[Failed to find obejct by ID for "${remainingItemName}"]`);
+		}
+
+		if (krData) {
+			// console.log(`[Found Data for "${remainingItemName}"]`);
+
+			id = krData.code;
+			apiMetaData = {
+				code: krData.code,
+				type: krData.type,
+				category: krData.itemType
+			};
+
+			delete missingTranslations[krData.name];
+			allItemKeys = allItemKeys.filter((key) => key !== remainingItemName);
+
+			masterItems.push({
+				id,
+				...item,
+				name: sanitizeItemString(item.name),
+				displayName: item.name,
+				clientMetaData: {
+					type,
+					category
+				},
+				apiMetaData
+			});
+		} else {
+			console.log(`[Failed to find Data for "${remainingItemName}", id: ${id}]`);
+		}
+	}
 
 	linkMasterItems();
-
 	writeFile('items', masterItems);
 
 	return masterItems;
@@ -257,18 +317,21 @@ const generateCharacters = () => {
 		({ code, resource, name, radius, uiHeight, levelUpStats, attributes, ...stats }) => {
 			try {
 				let keyName = name;
-				switch (name) {
-					case 'LiDailin':
+				switch (name.toLowerCase()) {
+					case 'lidailin':
 						keyName = 'Li Dailin';
 						break;
 					default:
 						break;
 				}
-				const { description, details, abilities, weapons } = Characters[keyName] || {};
+				const { description, details, abilities, weapons, background } =
+					Characters[keyName] || {};
 
 				characterList.push({
 					id: code,
+					displayName: keyName.replace(' ', ''),
 					name: keyName,
+					background,
 					attributes,
 					description,
 					details: details ? Object.fromEntries(details) : null,
@@ -292,7 +355,14 @@ const generateCharacters = () => {
 		}
 	);
 
-	writeFile('characters', characterList);
+	writeFile(
+		'characters',
+		JSON.parse(
+			JSON.stringify(characterList)
+				.replace(/LiDailin/g, 'Li Dailin')
+				.replace(/criticalStrikeChance/g, 'criticalChance')
+		)
+	);
 
 	return characterList;
 };
@@ -306,7 +376,7 @@ const generateArmorMetaData = () => {
 		};
 
 		const linkedItems = items.map((name) => {
-			const linkedItem = masterItems.find((i) => i.name === name);
+			const linkedItem = masterItems.find((i) => i.name === sanitizeItemString(name));
 
 			return {
 				name,
@@ -341,7 +411,10 @@ const generateWeaponMetaData = () => {
 		};
 
 		const linkedItems = weapons.map((name) => {
-			const linkedItem = masterItems.find((i) => i.name === name);
+			if (name.split(' ').pop() === 'Glove') {
+				name = name.replace('Glove', 'Gloves');
+			}
+			const linkedItem = masterItems.find((i) => i.name === sanitizeItemString(name));
 
 			return {
 				name,
@@ -369,7 +442,7 @@ const generateWeaponMetaData = () => {
 
 const generateLocations = () => {
 	const allLocations = locationSpawns.map(({ name, areaType, areaCode }) => [
-		krTranslations[name],
+		enTranslations[name],
 		{
 			id: areaCode,
 			name: enTranslations[name],

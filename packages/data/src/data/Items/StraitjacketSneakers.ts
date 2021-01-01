@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const StraitjacketSneakers: Item = {
 	"id": 204406,
-	"name": "Straitjacket Sneakers",
+	"name": "StraitjacketSneakers",
 	"buildsFrom": [
 		{
 			"name": "Repaired Slippers",
@@ -27,11 +27,13 @@ export const StraitjacketSneakers: Item = {
 		"increaseSkillDamage": 10
 	},
 	"rarity": "Rare",
+	"code": "풍화륜",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Straitjacket Sneakers",
 	"apiMetaData": {
 		"code": 204406,
 		"category": "Armor",

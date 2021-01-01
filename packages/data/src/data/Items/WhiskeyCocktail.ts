@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const WhiskeyCocktail: Item = {
-	"id": "Whiskey Cocktail",
-	"name": "Whiskey Cocktail",
-	"href": "/Whiskey_Cocktail",
+	"id": 301307,
+	"name": "WhiskeyCocktail",
 	"buildsFrom": [
 		{
 			"name": "Cola",
@@ -11,7 +10,7 @@ export const WhiskeyCocktail: Item = {
 		},
 		{
 			"name": "Whiskey",
-			"id": "Whiskey"
+			"id": 301104
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const WhiskeyCocktail: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 5,
+	"displayName": "Whiskey Cocktail",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301307,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

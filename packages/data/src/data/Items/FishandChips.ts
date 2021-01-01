@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
-export const FishandChips: Item = {
-	"id": "Fish and Chips",
-	"name": "Fish and Chips",
-	"href": "/Fish_and_Chips",
+export const FishAndChips: Item = {
+	"id": 302401,
+	"name": "FishAndChips",
 	"buildsFrom": [
 		{
 			"name": "Fish Cutlet",
-			"id": "Fish Cutlet"
+			"id": 302326
 		},
 		{
 			"name": "French Fries",
-			"id": "French Fries"
+			"id": 302302
 		}
 	],
 	"buildsInto": [],
@@ -30,16 +29,17 @@ export const FishandChips: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Fish and Chips",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302401,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

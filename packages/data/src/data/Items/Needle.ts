@@ -23,7 +23,7 @@ export const Needle: Item = {
 		},
 		{
 			"name": "Acupuncture Needle",
-			"id": "Acupuncture Needle"
+			"id": 302217
 		}
 	],
 	"requirements": {},
@@ -32,6 +32,7 @@ export const Needle: Item = {
 		"criticalStrikeDamage": 0.25
 	},
 	"rarity": "Common",
+	"code": "바늘",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -41,6 +42,7 @@ export const Needle: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "An item with multiple uses; limited only by your imagination.",
+	"displayName": "Needle",
 	"apiMetaData": {
 		"code": 120101,
 		"category": "Weapon",

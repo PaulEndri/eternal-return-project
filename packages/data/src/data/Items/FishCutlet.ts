@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const FishCutlet: Item = {
-	"id": "Fish Cutlet",
-	"name": "Fish Cutlet",
-	"href": "/Fish_Cutlet",
+	"id": 302326,
+	"name": "FishCutlet",
 	"buildsFrom": [
 		{
 			"name": "Cod",
-			"id": "Cod"
+			"id": 302104
 		},
 		{
 			"name": "Heated Oil",
@@ -17,7 +16,7 @@ export const FishCutlet: Item = {
 	"buildsInto": [
 		{
 			"name": "Fish and Chips",
-			"id": "Fish and Chips"
+			"id": 302401
 		}
 	],
 	"requirements": {
@@ -34,16 +33,17 @@ export const FishCutlet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Fish Cutlet",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302326,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

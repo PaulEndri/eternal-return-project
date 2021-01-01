@@ -20,6 +20,7 @@ export const Tights: Item = {
 		"moveSpeed": 0.04
 	},
 	"rarity": "Common",
+	"code": "타이즈",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -29,6 +30,7 @@ export const Tights: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It's thin and tight. You can wear them on your legs or over your head if you're going to rob a bank.",
+	"displayName": "Tights",
 	"apiMetaData": {
 		"code": 204103,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const CommandersArmor: Item = {
 	"id": 202412,
-	"name": "Commander's Armor",
+	"name": "CommandersArmor",
 	"buildsFrom": [
 		{
 			"name": "Chain Armor",
@@ -31,11 +31,13 @@ export const CommandersArmor: Item = {
 		"increaseSkillDamageRatio": 0.16
 	},
 	"rarity": "Epic",
+	"code": "지휘관의갑옷",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's the General's armor, so it gotta be the strongest armor in town.",
+	"displayName": "Commander's Armor",
 	"apiMetaData": {
 		"code": 202412,
 		"category": "Armor",

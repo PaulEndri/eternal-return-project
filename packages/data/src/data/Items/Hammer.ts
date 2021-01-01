@@ -23,6 +23,7 @@ export const Hammer: Item = {
 		"attackPower": 16
 	},
 	"rarity": "Common",
+	"code": "망치",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -32,6 +33,7 @@ export const Hammer: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try not to hammer your finger instead of the nail...",
+	"displayName": "Hammer",
 	"apiMetaData": {
 		"code": 104101,
 		"category": "Weapon",

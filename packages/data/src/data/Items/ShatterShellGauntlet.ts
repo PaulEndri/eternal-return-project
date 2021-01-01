@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ShatterShellGauntlet: Item = {
 	"id": 110402,
-	"name": "Shatter Shell Gauntlet",
+	"name": "ShatterShellGauntlet",
 	"buildsFrom": [
 		{
 			"name": "Gauntlet",
@@ -31,11 +31,13 @@ export const ShatterShellGauntlet: Item = {
 		"increaseBasicAttackDamage": 15
 	},
 	"rarity": "Rare",
+	"code": "벽력귀투",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A glove that adds explosive force behind each punch.",
+	"displayName": "Shatter Shell Gauntlet",
 	"apiMetaData": {
 		"code": 110402,
 		"category": "Weapon",

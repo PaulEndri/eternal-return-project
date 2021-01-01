@@ -1,30 +1,29 @@
 import Item from '../../types/Item';
 
 export const Cod: Item = {
-	"id": "Cod",
+	"id": 302104,
 	"name": "Cod",
-	"href": "/Cod",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Honey cod steak",
-			"id": "Honey cod steak"
+			"id": 302201
 		},
 		{
 			"name": "Canned Cod Liver",
-			"id": "Canned Cod Liver"
+			"id": 302204
 		},
 		{
 			"name": "Fish Fillet With Egg",
-			"id": "Fish Fillet With Egg"
+			"id": 302229
 		},
 		{
 			"name": "Grilled Chilean Sea Bass",
-			"id": "Grilled Chilean Sea Bass"
+			"id": 302306
 		},
 		{
 			"name": "Fish Cutlet",
-			"id": "Fish Cutlet"
+			"id": 302326
 		}
 	],
 	"requirements": {},
@@ -37,16 +36,17 @@ export const Cod: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "",
+	"displayName": "Cod",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302104,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,
-	"collectible": 0
+	"collectible": 4
 }

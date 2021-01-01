@@ -27,11 +27,13 @@ export const Arondight: Item = {
 		"increaseBasicAttackDamage": 23
 	},
 	"rarity": "Epic",
+	"code": "아론다이트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The sword of Sir Lancelot, who was a dragon slayer that cut down the fire drake during the rescue of princess Elaine of Corbenic.",
+	"displayName": "Arondight",
 	"apiMetaData": {
 		"code": 102406,
 		"category": "Weapon",

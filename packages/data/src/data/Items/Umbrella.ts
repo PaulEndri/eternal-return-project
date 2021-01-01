@@ -29,11 +29,13 @@ export const Umbrella: Item = {
 		"increaseSkillDamage": 14
 	},
 	"rarity": "Rare",
+	"code": "우산",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You might wonder how this became a weapon, but it is often used as a murder weapon in mystery stories.",
+	"displayName": "Umbrella",
 	"apiMetaData": {
 		"code": 108401,
 		"category": "Weapon",

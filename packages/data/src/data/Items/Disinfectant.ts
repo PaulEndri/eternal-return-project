@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const Disinfectant: Item = {
-	"id": "Disinfectant",
+	"id": 302213,
 	"name": "Disinfectant",
-	"href": "/Disinfectant",
 	"buildsFrom": [
 		{
 			"name": "Alcohol",
@@ -11,13 +10,13 @@ export const Disinfectant: Item = {
 		},
 		{
 			"name": "Adhesive Bandage",
-			"id": "Adhesive Bandage"
+			"id": 302107
 		}
 	],
 	"buildsInto": [
 		{
 			"name": "First Aid Kit",
-			"id": "First Aid Kit"
+			"id": 302324
 		}
 	],
 	"requirements": {
@@ -33,16 +32,17 @@ export const Disinfectant: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Disinfectant",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302213,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

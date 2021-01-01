@@ -23,18 +23,20 @@ export const XCR: Item = {
 		"Hammer": 1
 	},
 	"stats": {
-		"attackPower": 60,
+		"attackPower": 63,
 		"charges": 3,
-		"maxHp": 420,
+		"maxHp": 350,
 		"sightRange": 1.5,
 		"increaseBasicAttackDamage": 10
 	},
 	"rarity": "Epic",
+	"code": "XCR",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "XCR",
 	"apiMetaData": {
 		"code": 117405,
 		"category": "Weapon",

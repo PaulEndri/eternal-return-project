@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Zahir: Character = {
 	"id": 5,
+	"displayName": "Zahir",
 	"name": "Zahir",
+	"background": "\"I behold the vision of the Almighty.\" - Zahir\nAfter escaping from an orphanage at a young age, Zahir found himself lost and starving. He arrived at a small Sikh temple and miraculously survived. \nHe became a devoted follower, believing that his God had mercifully saved him.\n\nHis morning ritual is to shower and brush his hair with a wooden comb. He sometimes speaks like an angsty teenager, but it's not easily noticed as he seldom speaks.\n",
 	"attributes": [
 		{
 			"mastery": "HighAngleFire",
@@ -272,7 +274,7 @@ export const Zahir: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 25,
 			"defense": 20,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.6,
 			"spRegen": 2.4,
 			"attackSpeed": 0.11,

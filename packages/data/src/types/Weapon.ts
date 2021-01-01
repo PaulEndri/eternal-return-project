@@ -1,4 +1,4 @@
-export interface Weapon {
+export type Weapon = {
 	name: string;
 	abilityDetails: {
 		name?: string;
@@ -12,6 +12,6 @@ export interface Weapon {
 		name: string;
 		category: 'Weapon';
 	};
-}
+};
 
 export default Weapon;

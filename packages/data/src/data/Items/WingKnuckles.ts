@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WingKnuckles: Item = {
 	"id": 110302,
-	"name": "Wing Knuckles",
+	"name": "WingKnuckles",
 	"buildsFrom": [
 		{
 			"name": "Iron Knuckles",
@@ -29,11 +29,13 @@ export const WingKnuckles: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
+	"code": "윙너클",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Free your burdened soul with these masterfully created wings. But there exists no sky for you to spread your wings...",
+	"displayName": "Wing Knuckles",
 	"apiMetaData": {
 		"code": 110302,
 		"category": "Weapon",

@@ -27,12 +27,12 @@ export const Chapel: Location = {
 	],
 	"drops": [
 		{
-			"name": 302110,
+			"name": "Bread",
 			"id": 302110,
 			"quantity": 4
 		},
 		{
-			"name": 301104,
+			"name": "Whiskey",
 			"id": 301104,
 			"quantity": 4
 		},
@@ -42,7 +42,7 @@ export const Chapel: Location = {
 			"quantity": 3
 		},
 		{
-			"name": 301108,
+			"name": "Milk",
 			"id": 301108,
 			"quantity": 3
 		},
@@ -57,17 +57,17 @@ export const Chapel: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Glass Bottle",
+			"name": "GlassBottle",
 			"id": 112104,
 			"quantity": 6
 		},
 		{
-			"name": 114101,
+			"name": "Bow",
 			"id": 114101,
 			"quantity": 4
 		},
 		{
-			"name": 502102,
+			"name": "Snare",
 			"id": 502102,
 			"quantity": 5
 		},
@@ -77,22 +77,22 @@ export const Chapel: Location = {
 			"quantity": 9
 		},
 		{
-			"name": "Rusty Sword",
+			"name": "RustySword",
 			"id": 102101,
 			"quantity": 5
 		},
 		{
-			"name": "Holy Grail",
+			"name": "HolyGrail",
 			"id": 205108,
 			"quantity": 9
 		},
 		{
-			"name": "Piano Wire",
+			"name": "PianoWire",
 			"id": 502104,
 			"quantity": 6
 		},
 		{
-			"name": "Bike Helmet",
+			"name": "BikeHelmet",
 			"id": 201104,
 			"quantity": 6
 		},

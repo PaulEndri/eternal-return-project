@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HalberdAxe: Item = {
 	"id": 107303,
-	"name": "Halberd Axe",
+	"name": "HalberdAxe",
 	"buildsFrom": [
 		{
 			"name": "Hatchet",
@@ -34,11 +34,13 @@ export const HalberdAxe: Item = {
 		"moveSpeed": -0.1
 	},
 	"rarity": "Rare",
+	"code": "도끼창",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "On one end there's an ax blade and on the other end there's a stabbing blade.",
+	"displayName": "Halberd Axe",
 	"apiMetaData": {
 		"code": 107303,
 		"category": "Weapon",

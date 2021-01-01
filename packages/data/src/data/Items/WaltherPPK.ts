@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WaltherPPK: Item = {
 	"id": 116101,
-	"name": "Walther PPK",
+	"name": "WaltherPPK",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -21,6 +21,7 @@ export const WaltherPPK: Item = {
 		"moveSpeed": 0.1
 	},
 	"rarity": "Common",
+	"code": "발터PPK",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -30,6 +31,7 @@ export const WaltherPPK: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Walther PPK",
 	"apiMetaData": {
 		"code": 116101,
 		"category": "Weapon",

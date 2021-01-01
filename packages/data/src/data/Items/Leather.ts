@@ -47,7 +47,7 @@ export const Leather: Item = {
 		},
 		{
 			"name": "Combat Boots",
-			"id": 204405
+			"id": 204404
 		},
 		{
 			"name": "Quiver",
@@ -57,11 +57,13 @@ export const Leather: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "가죽",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Are there any beasts around? Leather is versitile and can be used in tons of different ways.",
+	"displayName": "Leather",
 	"apiMetaData": {
 		"code": 401103,
 		"category": "Misc",

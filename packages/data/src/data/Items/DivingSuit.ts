@@ -2,11 +2,11 @@ import Item from '../../types/Item';
 
 export const DivingSuit: Item = {
 	"id": 202210,
-	"name": "Diving Suit",
+	"name": "DivingSuit",
 	"buildsFrom": [
 		{
-			"name": "Wetsuit",
-			"id": 202105
+			"name": "Full Body Swimsuit",
+			"id": null
 		},
 		{
 			"name": "Rubber",
@@ -24,7 +24,6 @@ export const DivingSuit: Item = {
 		}
 	],
 	"requirements": {
-		"Wetsuit": 1,
 		"Rubber": 1
 	},
 	"stats": {
@@ -32,11 +31,13 @@ export const DivingSuit: Item = {
 		"preventSkillDamagedRatio": 0.1
 	},
 	"rarity": "Uncommon",
+	"code": "잠수복",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A diving suit with filler between the inner and outer skin. It excels at maintaining body temperature and enduring higher pressure.",
+	"displayName": "Diving Suit",
 	"apiMetaData": {
 		"code": 202210,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ThrowingStars: Item = {
 	"id": 113205,
-	"name": "Throwing Stars",
+	"name": "ThrowingStars",
 	"buildsFrom": [
 		{
 			"name": "Razor",
@@ -32,11 +32,13 @@ export const ThrowingStars: Item = {
 		"charges": 50
 	},
 	"rarity": "Uncommon",
+	"code": "표창",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's convenient, but be careful when using it. It doesn't come back to you like a boomerang.",
+	"displayName": "Throwing Stars",
 	"apiMetaData": {
 		"code": 113205,
 		"category": "Weapon",

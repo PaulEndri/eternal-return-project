@@ -30,11 +30,13 @@ export const Volticletto: Item = {
 		"criticalStrikeDamage": 0.25
 	},
 	"rarity": "Epic",
+	"code": "볼틱레토",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The word \"Volticletto\" is a portmanteau of 'voltaic,' meaning related to electric current, and the Italian 'Stiletto knife'. Punctures from this weapon cause double the pain.",
+	"displayName": "Volticletto",
 	"apiMetaData": {
 		"code": 120403,
 		"category": "Weapon",

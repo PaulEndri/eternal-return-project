@@ -29,11 +29,13 @@ export const Muramasa: Item = {
 		"attackPower": 50
 	},
 	"rarity": "Rare",
+	"code": "무라마사",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword cursing the Tokugawa family, who were the founders of Japan's Tokugawa shogunate. Tokugawa Leyasu's grandfather, father, and son were all killed or wounded by this sword, and Leyasu himself also had his finger cut off.",
+	"displayName": "Muramasa",
 	"apiMetaData": {
 		"code": 102402,
 		"category": "Weapon",

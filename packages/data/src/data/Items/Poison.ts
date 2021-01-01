@@ -42,11 +42,13 @@ export const Poison: Item = {
 	},
 	"stats": {},
 	"rarity": "Rare",
+	"code": "독약",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "DO NOT DRINK.",
+	"displayName": "Poison",
 	"apiMetaData": {
 		"code": 401302,
 		"category": "Misc",

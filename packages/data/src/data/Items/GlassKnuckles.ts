@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const GlassKnuckles: Item = {
 	"id": 110403,
-	"name": "Glass Knuckles",
+	"name": "GlassKnuckles",
 	"buildsFrom": [
 		{
 			"name": "Iron Knuckles",
@@ -30,11 +30,13 @@ export const GlassKnuckles: Item = {
 		"criticalStrikeChance": 0.1
 	},
 	"rarity": "Rare",
+	"code": "유리너클",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Knuckles coated with glass fragments. They're not entirely made of glass!",
+	"displayName": "Glass Knuckles",
 	"apiMetaData": {
 		"code": 110403,
 		"category": "Weapon",

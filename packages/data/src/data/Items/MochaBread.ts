@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const MochaBread: Item = {
-	"id": "Mocha Bread",
-	"name": "Mocha Bread",
-	"href": "/Mocha_Bread",
+	"id": 302308,
+	"name": "MochaBread",
 	"buildsFrom": [
 		{
 			"name": "Bread",
-			"id": "Bread"
+			"id": 302110
 		},
 		{
 			"name": "Coffee Liqueur",
-			"id": "Coffee Liqueur"
+			"id": 301208
 		}
 	],
 	"buildsInto": [],
@@ -29,16 +28,17 @@ export const MochaBread: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Bread with a slight coffee flavor. Both the cream and raisin varieties are popular in Korea.",
+	"displayName": "Mocha Bread",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302308,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

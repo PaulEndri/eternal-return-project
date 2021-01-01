@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const ExplosiveTrap: Item = {
-	"id": "Explosive Trap",
-	"name": "Explosive Trap",
-	"href": "/Explosive_Trap",
+	"id": 502306,
+	"name": "ExplosiveTrap",
 	"buildsFrom": [
 		{
 			"name": "Mousetrap",
@@ -17,11 +16,11 @@ export const ExplosiveTrap: Item = {
 	"buildsInto": [
 		{
 			"name": "Fire Trap",
-			"id": "Fire Trap"
+			"id": 502403
 		},
 		{
 			"name": "Claymore",
-			"id": "Claymore"
+			"id": 502406
 		}
 	],
 	"requirements": {
@@ -29,23 +28,24 @@ export const ExplosiveTrap: Item = {
 		"Gunpowder": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Explosive Trap",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502306,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

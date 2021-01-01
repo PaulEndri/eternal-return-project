@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const FrenchFries: Item = {
-	"id": "French Fries",
-	"name": "French Fries",
-	"href": "/French_Fries",
+	"id": 302302,
+	"name": "FrenchFries",
 	"buildsFrom": [
 		{
 			"name": "Potato",
-			"id": "Potato"
+			"id": 302102
 		},
 		{
 			"name": "Heated Oil",
@@ -17,7 +16,7 @@ export const FrenchFries: Item = {
 	"buildsInto": [
 		{
 			"name": "Fish and Chips",
-			"id": "Fish and Chips"
+			"id": 302401
 		}
 	],
 	"requirements": {
@@ -34,16 +33,17 @@ export const FrenchFries: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This is undoubtedly the ultimate form of potato. Don't deny it.",
+	"displayName": "French Fries",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302302,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

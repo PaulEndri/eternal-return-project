@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const EODSuit: Item = {
 	"id": 202417,
-	"name": "EOD Suit",
+	"name": "EODSuit",
 	"buildsFrom": [
 		{
 			"name": "Bulletproof Vest",
@@ -27,14 +27,16 @@ export const EODSuit: Item = {
 		"defense": 15,
 		"hpRegen": 1,
 		"maxHp": 300,
-		"preventBasicAttackDamaged": 10
+		"preventBasicAttackDamaged": 12
 	},
 	"rarity": "Epic",
+	"code": "EOD수트",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Originally developed as a bulletproof vest, often used at bomb disposal sites due to its protection.",
+	"displayName": "EOD Suit",
 	"apiMetaData": {
 		"code": 202417,
 		"category": "Armor",

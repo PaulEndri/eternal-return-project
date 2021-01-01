@@ -35,7 +35,7 @@ export const Branch: Item = {
 		},
 		{
 			"name": "Butter",
-			"id": "Butter"
+			"id": 302206
 		}
 	],
 	"requirements": {},
@@ -43,11 +43,13 @@ export const Branch: Item = {
 		"attackPower": 5
 	},
 	"rarity": "Common",
+	"code": "나뭇가지",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Now's not the time to protect the environment. Now is the time to protect yourself.",
+	"displayName": "Branch",
 	"apiMetaData": {
 		"code": 108101,
 		"category": "Weapon",

@@ -32,22 +32,22 @@ export const Beach: Location = {
 			"quantity": 6
 		},
 		{
-			"name": "Turtle Shell",
+			"name": "TurtleShell",
 			"id": 401104,
 			"quantity": 6
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "StallionMedal",
 			"id": 401109,
 			"quantity": 6
 		},
 		{
-			"name": "Carbonated Water",
+			"name": "CarbonatedWater",
 			"id": 301107,
 			"quantity": 5
 		},
 		{
-			"name": "Bike Helmet",
+			"name": "BikeHelmet",
 			"id": 201104,
 			"quantity": 6
 		},
@@ -62,17 +62,17 @@ export const Beach: Location = {
 			"quantity": 5
 		},
 		{
-			"name": 502102,
+			"name": "Snare",
 			"id": 502102,
 			"quantity": 5
 		},
 		{
-			"name": 202105,
+			"name": "Wetsuit",
 			"id": 202105,
 			"quantity": 6
 		},
 		{
-			"name": "Surveillance Camera",
+			"name": "SurveillanceCamera",
 			"id": 502101,
 			"quantity": 5
 		},
@@ -87,12 +87,12 @@ export const Beach: Location = {
 			"quantity": 5
 		},
 		{
-			"name": "Piano Wire",
+			"name": "PianoWire",
 			"id": 502104,
 			"quantity": 6
 		},
 		{
-			"name": "Walther PPK",
+			"name": "WaltherPPK",
 			"id": 116101,
 			"quantity": 4
 		},
@@ -102,7 +102,7 @@ export const Beach: Location = {
 			"quantity": 7
 		},
 		{
-			"name": "Steel Chain",
+			"name": "SteelChain",
 			"id": 119101,
 			"quantity": 6
 		},

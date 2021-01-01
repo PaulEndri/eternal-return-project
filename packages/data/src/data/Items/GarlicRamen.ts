@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const GarlicRamen: Item = {
-	"id": "Garlic Ramen",
-	"name": "Garlic Ramen",
-	"href": "/Garlic_Ramen",
+	"id": 302402,
+	"name": "GarlicRamen",
 	"buildsFrom": [
 		{
 			"name": "Hot Ramen",
-			"id": "Hot Ramen"
+			"id": 302307
 		},
 		{
 			"name": "Garlic",
-			"id": "Garlic"
+			"id": 302106
 		}
 	],
 	"buildsInto": [],
@@ -30,16 +29,17 @@ export const GarlicRamen: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "You can't compete with expertly cooked ramen.",
+	"displayName": "Garlic Ramen",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302402,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

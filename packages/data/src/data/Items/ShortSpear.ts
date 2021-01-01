@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ShortSpear: Item = {
 	"id": 107101,
-	"name": "Short Spear",
+	"name": "ShortSpear",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -27,6 +27,7 @@ export const ShortSpear: Item = {
 		"attackPower": 15
 	},
 	"rarity": "Common",
+	"code": "단창",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -36,6 +37,7 @@ export const ShortSpear: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A spear with a short shaft - about half the size of a long spear. Learn how to move freely during battle while wielding this weapon and attack with a fearless combat posture.",
+	"displayName": "Short Spear",
 	"apiMetaData": {
 		"code": 107101,
 		"category": "Weapon",

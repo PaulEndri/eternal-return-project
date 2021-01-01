@@ -29,11 +29,13 @@ export const Tiara: Item = {
 		"maxSp": 460
 	},
 	"rarity": "Rare",
+	"code": "티아라",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A crown-like accessory for the head. Worn by both princesses and beauty pagent winners.",
+	"displayName": "Tiara",
 	"apiMetaData": {
 		"code": 201303,
 		"category": "Armor",

@@ -34,12 +34,12 @@ export const Glove: Weapon = {
 			"id": 110101
 		},
 		{
-			"name": "Cotton Glove",
-			"id": "Cotton Glove"
+			"name": "Cotton Gloves",
+			"id": 110102
 		},
 		{
-			"name": "Leather Glove",
-			"id": "Leather Glove"
+			"name": "Leather Gloves",
+			"id": 110201
 		},
 		{
 			"name": "Iron Knuckles",
@@ -98,8 +98,8 @@ export const Glove: Weapon = {
 			"id": 110411
 		},
 		{
-			"name": "Imperial Silk Glove",
-			"id": "Imperial Silk Glove"
+			"name": "Imperial Silk Gloves",
+			"id": 110412
 		}
 	],
 	"apiMetaData": {

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WildHorse: Item = {
 	"id": 121306,
-	"name": "Wild Horse",
+	"name": "WildHorse",
 	"buildsFrom": [
 		{
 			"name": "Single Coil Pickup",
@@ -31,11 +31,13 @@ export const WildHorse: Item = {
 		"increaseBasicAttackDamage": 6
 	},
 	"rarity": "Rare",
+	"code": "야생마",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If it follows in the footsteps of the performance it takes its name from, you can probably expect to be in front of a large audience with this one.",
+	"displayName": "Wild Horse",
 	"apiMetaData": {
 		"code": 121306,
 		"category": "Weapon",

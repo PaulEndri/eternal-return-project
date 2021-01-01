@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const PlasmaTonfa: Item = {
 	"id": 111404,
-	"name": "Plasma Tonfa",
+	"name": "PlasmaTonfa",
 	"buildsFrom": [
 		{
 			"name": "Ryukyu Tonfa",
@@ -27,11 +27,13 @@ export const PlasmaTonfa: Item = {
 		"sightRange": 2.5
 	},
 	"rarity": "Epic",
+	"code": "플라즈마톤파",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A tonfa-shaped weapon made out of plasma. It uses a chip that registers its owner's information, so it won't harm its owner and will be safe to use.",
+	"displayName": "Plasma Tonfa",
 	"apiMetaData": {
 		"code": 111404,
 		"category": "Weapon",

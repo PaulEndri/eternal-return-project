@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const IncendiaryBomb: Item = {
 	"id": 112302,
-	"name": "Incendiary Bomb",
+	"name": "IncendiaryBomb",
 	"buildsFrom": [
 		{
 			"name": "Molotov Cocktail",
@@ -27,11 +27,13 @@ export const IncendiaryBomb: Item = {
 		"charges": 50
 	},
 	"rarity": "Epic",
+	"code": "소이탄",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Inflict damage by quickly spreading fire to an area. It'll be hard to extinguish.",
+	"displayName": "Incendiary Bomb",
 	"apiMetaData": {
 		"code": 112302,
 		"category": "Weapon",

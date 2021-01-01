@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ShortRod: Item = {
 	"id": 108102,
-	"name": "Short Rod",
+	"name": "ShortRod",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -31,6 +31,7 @@ export const ShortRod: Item = {
 		"attackPower": 15
 	},
 	"rarity": "Common",
+	"code": "단봉",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -40,6 +41,7 @@ export const ShortRod: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Fine to carry and suitable for offense.",
+	"displayName": "Short Rod",
 	"apiMetaData": {
 		"code": 108102,
 		"category": "Weapon",

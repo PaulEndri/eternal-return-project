@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const JungleGuillotine: Item = {
-	"id": "Jungle Guillotine",
-	"name": "Jungle Guillotine",
-	"href": "/Jungle_Guillotine",
+	"id": 502303,
+	"name": "JungleGuillotine",
 	"buildsFrom": [
 		{
 			"name": "Mousetrap",
@@ -17,11 +16,11 @@ export const JungleGuillotine: Item = {
 	"buildsInto": [
 		{
 			"name": "Double Guillotine",
-			"id": "Double Guillotine"
+			"id": 502405
 		},
 		{
 			"name": "Hidden Maiden",
-			"id": "Hidden Maiden"
+			"id": 502407
 		}
 	],
 	"requirements": {
@@ -29,23 +28,24 @@ export const JungleGuillotine: Item = {
 		"Kitchen Knife": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Jungle Guillotine",
 	"clientMetaData": {
 		"type": "Summon",
 		"category": "Special"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 502303,
+		"type": "Summon",
+		"category": "Special"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

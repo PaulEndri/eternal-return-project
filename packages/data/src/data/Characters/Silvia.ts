@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Silvia: Character = {
 	"id": 16,
+	"displayName": "Silvia",
 	"name": "Silvia",
+	"background": "\"Whoa, that looks fun!\" - Silvia \nSilvia was raised by her grandfather - her parents were never really around. Her mother is a wandering photographer and there is nothing known about her father. She doesn't value making or maintaining relationships - her focus is on living in the now.\nOne of the biggest motives for her becoming a motorcycle racer was the thrill of the race.\nSilvia excites easily and acts emotionally without thinking ahead. She gained fame among motorcycle racing circuits for riding dangerously and wrecklessly, paying no mind to the consequences.\n",
 	"attributes": [
 		{
 			"mastery": "Pistol",
@@ -407,7 +409,7 @@ export const Silvia: Character = {
 			"maxExtraPoint": 100,
 			"attackPower": 28,
 			"defense": 20,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.4,
 			"spRegen": 2.1,
 			"attackSpeed": 0.05,

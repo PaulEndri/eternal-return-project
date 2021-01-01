@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Adriana: Character = {
 	"id": 17,
+	"displayName": "Adriana",
 	"name": "Adriana",
+	"background": "\"It's kinda chilly... Where'd I put that match?\" - Adriana \nWhere there's smoke, there's fire... and Adriana. She gained infamy after widespread arson cases popped up throughout Mexico, striking fear into the hearts of its citizens.\n\nShe'll engulf empty buildings in flames and turn abandoned factories to ash, all while keeping her pipe comfortably in her mouth.\n\nShe's often heard speaking to the empty sky above or calling someone's name. Who's she talking to? \n",
 	"attributes": [
 		{
 			"mastery": "HighAngleFire",
@@ -241,7 +243,7 @@ export const Adriana: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 31,
 			"defense": 27,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.5,
 			"spRegen": 1,
 			"attackSpeed": 0.04,

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const HumbuckerPickup: Item = {
 	"id": 121302,
-	"name": "Humbucker Pickup",
+	"name": "HumbuckerPickup",
 	"buildsFrom": [
 		{
 			"name": "Golden Bridge",
@@ -32,11 +32,13 @@ export const HumbuckerPickup: Item = {
 		"increaseSkillDamageRatio": 0.15
 	},
 	"rarity": "Rare",
+	"code": "험버커픽업",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A guitar with dual coil pickups. It has a darker output.",
+	"displayName": "Humbucker Pickup",
 	"apiMetaData": {
 		"code": 121302,
 		"category": "Weapon",

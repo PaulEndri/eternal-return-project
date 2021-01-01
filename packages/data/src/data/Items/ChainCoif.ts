@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const ChainCoif: Item = {
 	"id": 201204,
-	"name": "Chain Coif",
+	"name": "ChainCoif",
 	"buildsFrom": [
 		{
 			"name": "Hat",
@@ -32,11 +32,13 @@ export const ChainCoif: Item = {
 		"defense": 14
 	},
 	"rarity": "Uncommon",
+	"code": "사슬코이프",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A piece of defensive equipment that was commonly used in Medieval Europe. It's quite heavy, but has good defensive capabilities.",
+	"displayName": "Chain Coif",
 	"apiMetaData": {
 		"code": 201204,
 		"category": "Armor",

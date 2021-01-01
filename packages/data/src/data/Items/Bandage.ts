@@ -19,7 +19,7 @@ export const Bandage: Item = {
 		},
 		{
 			"name": "First Aid Kit",
-			"id": "First Aid Kit"
+			"id": 302324
 		},
 		{
 			"name": "Oilcloth",
@@ -31,6 +31,7 @@ export const Bandage: Item = {
 		"hpRegen": 0.8
 	},
 	"rarity": "Common",
+	"code": "붕대",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -41,6 +42,7 @@ export const Bandage: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A patch that's pretty stretchy. It's good for covering injuries.",
+	"displayName": "Bandage",
 	"apiMetaData": {
 		"code": 203102,
 		"category": "Armor",

@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const KillerHeels: Item = {
 	"id": 204403,
-	"name": "Killer Heels",
+	"name": "KillerHeels",
 	"buildsFrom": [
 		{
 			"name": "High Heels",
@@ -36,11 +36,13 @@ export const KillerHeels: Item = {
 		"spRegen": 0.8
 	},
 	"rarity": "Rare",
+	"code": "매버릭러너",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Heels sharp enough to be used as weapons themselves.",
+	"displayName": "Killer Heels",
 	"apiMetaData": {
 		"code": 204403,
 		"category": "Armor",

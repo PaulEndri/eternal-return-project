@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const EODBoots: Item = {
 	"id": 204409,
-	"name": "EOD Boots",
+	"name": "EODBoots",
 	"buildsFrom": [
 		{
 			"name": "Boots",
@@ -29,11 +29,13 @@ export const EODBoots: Item = {
 		"moveSpeed": 0.33
 	},
 	"rarity": "Legend",
+	"code": "EOD부츠",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Boots worn by explosives disposal teams. They protect the wearer's legs from shrapnel if something goes wrong.",
+	"displayName": "EOD Boots",
 	"apiMetaData": {
 		"code": 204409,
 		"category": "Armor",

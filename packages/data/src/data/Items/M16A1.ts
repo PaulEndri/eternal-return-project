@@ -31,11 +31,13 @@ export const M16A1: Item = {
 		"increaseBasicAttackDamage": 4
 	},
 	"rarity": "Rare",
+	"code": "M16A1",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "M16A1",
 	"apiMetaData": {
 		"code": 117401,
 		"category": "Weapon",

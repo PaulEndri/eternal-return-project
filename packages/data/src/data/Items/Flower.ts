@@ -23,18 +23,19 @@ export const Flower: Item = {
 		},
 		{
 			"name": "Flower Liquor",
-			"id": "Flower Liquor"
+			"id": 301303
 		},
 		{
 			"name": "Orchid",
-			"id": "Orchid"
+			"id": 302218
 		}
 	],
 	"requirements": {},
 	"stats": {
-		"cooldownReduction": 0.09
+		"cooldownReduction": 0.07
 	},
 	"rarity": "Common",
+	"code": "꽃",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -45,6 +46,7 @@ export const Flower: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Roses are red, violets are blue, this flower makes good items, try crafting them too.",
+	"displayName": "Flower",
 	"apiMetaData": {
 		"code": 205102,
 		"category": "Armor",

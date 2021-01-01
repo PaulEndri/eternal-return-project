@@ -36,11 +36,13 @@ export const Rapier: Item = {
 		"criticalStrikeDamage": 0.25
 	},
 	"rarity": "Uncommon",
+	"code": "레이피어",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A one-handed sword for personal combat with a long, thin blade ideal for stabbing. Used mostly in the 16th and 17th centuries.",
+	"displayName": "Rapier",
 	"apiMetaData": {
 		"code": 120201,
 		"category": "Weapon",

@@ -29,11 +29,13 @@ export const Sharper: Item = {
 		"decreaseRecoveryToSkill": 1
 	},
 	"rarity": "Rare",
+	"code": "샤퍼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Sharper",
 	"apiMetaData": {
 		"code": 119301,
 		"category": "Weapon",

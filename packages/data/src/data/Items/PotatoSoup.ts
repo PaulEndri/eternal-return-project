@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const PotatoSoup: Item = {
-	"id": "Potato Soup",
-	"name": "Potato Soup",
-	"href": "/Potato_Soup",
+	"id": 302228,
+	"name": "PotatoSoup",
 	"buildsFrom": [
 		{
 			"name": "Potato",
-			"id": "Potato"
+			"id": 302102
 		},
 		{
 			"name": "Milk",
-			"id": "Milk"
+			"id": 301108
 		}
 	],
 	"buildsInto": [],
@@ -28,16 +27,17 @@ export const PotatoSoup: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Potato Soup",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302228,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

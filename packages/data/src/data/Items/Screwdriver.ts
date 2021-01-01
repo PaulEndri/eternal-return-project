@@ -1,17 +1,16 @@
 import Item from '../../types/Item';
 
 export const Screwdriver: Item = {
-	"id": "Screwdriver",
+	"id": 301207,
 	"name": "Screwdriver",
-	"href": "/Screwdriver",
 	"buildsFrom": [
 		{
 			"name": "Whiskey",
-			"id": "Whiskey"
+			"id": 301104
 		},
 		{
 			"name": "Lemon",
-			"id": "Lemon"
+			"id": 302105
 		}
 	],
 	"buildsInto": [],
@@ -27,16 +26,17 @@ export const Screwdriver: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 4,
+	"displayName": "Screwdriver",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301207,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

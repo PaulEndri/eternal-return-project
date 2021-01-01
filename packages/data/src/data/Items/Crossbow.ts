@@ -6,7 +6,7 @@ export const Crossbow: Item = {
 	"buildsFrom": [
 		{
 			"name": "Short Crossbow",
-			"id": 115202
+			"id": 115101
 		},
 		{
 			"name": "Bamboo",
@@ -35,11 +35,13 @@ export const Crossbow: Item = {
 		"attackPower": 30
 	},
 	"rarity": "Uncommon",
+	"code": "석궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A mechanical bow that requires little human strength, but reloading takes a little longer than an ordinary bow.",
+	"displayName": "Crossbow",
 	"apiMetaData": {
 		"code": 115101,
 		"category": "Weapon",

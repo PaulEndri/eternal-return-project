@@ -28,11 +28,13 @@ export const Twinbow: Item = {
 		"decreaseRecoveryToBasicAttack": 1
 	},
 	"rarity": "Epic",
+	"code": "트윈보우",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow modified to fire arrows with more power by crossing the bowstrings.",
+	"displayName": "Twinbow",
 	"apiMetaData": {
 		"code": 114405,
 		"category": "Weapon",

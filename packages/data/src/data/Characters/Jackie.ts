@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Jackie: Character = {
 	"id": 1,
+	"displayName": "Jackie",
 	"name": "Jackie",
+	"background": "\"More...more...more!!\" - Jackie\nJackie first discovered the thrill of murder after killing the wife and daughter of the Winslair family - a prominent political family. She went on to become a serial killer with a body count of over 30 people.  \nHer name 'Quilt' comes from her modus operandi of slicing the victims' bodies into small indistinguishable pieces. The resulting pieces are too small to identify, unless stitched together like a quilt.  \nShe gained infamy for her rather inhumane killing methods and meticulous clean-up. \nThe body of Jackie's first victim, Angela Winslair, was never found.\n",
 	"attributes": [
 		{
 			"mastery": "OneHandSword",
@@ -319,7 +321,7 @@ export const Jackie: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 37,
 			"defense": 26,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 0.5,
 			"spRegen": 2.1,
 			"attackSpeed": 0.12,

@@ -18,6 +18,25 @@ export class GenericApi {
 	private itemCache = new WikiCache();
 	private locationCache = new WikiCache();
 
+	private getAllItemLocations = async () => {
+		let itemLocations = {};
+
+		await this.getAllLocationItems();
+		const locationData = await this.locationCache.getAll();
+
+		Object.entries(locationData).forEach(([ location, items ]) => {
+			Object.entries(items).forEach(([ item, count ]) => {
+				if (!itemLocations[item]) {
+					itemLocations[item] = {};
+				}
+
+				itemLocations[item][location] = count;
+			});
+		});
+
+		return itemLocations;
+	};
+
 	private getAllRequirements = (
 		needles: string[],
 		cache: Record<string, IGenericItem>,
@@ -45,35 +64,13 @@ export class GenericApi {
 		return results;
 	};
 
-	/**
-     * Get all items from the getAllItem route with minor processing
-     * 
-     * @param full if true will location Information
-     * @param force if true will bypass cache
-     */
-	public getAllItems = async (full = false, force = false) => {
+	private getItems = async (route: string, full = false, force = false) => {
 		if (this.itemCache.getCount() > 0 && !force) {
 			return await this.itemCache.getAll<Item>();
 		}
 
-		let itemLocations = {};
-
-		if (full) {
-			await this.getAllLocationItems();
-			const locationData = await this.locationCache.getAll();
-
-			Object.entries(locationData).forEach(([ location, items ]) => {
-				Object.entries(items).forEach(([ item, count ]) => {
-					if (!itemLocations[item]) {
-						itemLocations[item] = {};
-					}
-
-					itemLocations[item][location] = count;
-				});
-			});
-		}
-
-		const response = await fetch(`${GenericApi.BASE_URL}${GenericApi.ROUTES.ALL_ITEMS}`);
+		const itemLocations = full ? await this.getAllItemLocations() : {};
+		const response = await fetch(route);
 		const results: IGenericItem[] = await response.json();
 
 		const items = Object.fromEntries(results.map((item) => [ item.Name, item ]));
@@ -89,6 +86,7 @@ export class GenericApi {
 				ItemType,
 				InitialCount,
 				Stackable,
+				Code,
 				...Stats
 			} = item;
 
@@ -115,6 +113,7 @@ export class GenericApi {
 				stats: finalStats,
 				rarity: Grade,
 				type: ItemType,
+				code: Code,
 				category: ItemCategory,
 				stackable: Stackable > 1,
 				maxStacks: Stackable,
@@ -128,6 +127,19 @@ export class GenericApi {
 		}
 
 		return returnedItems as Record<string, Item>;
+	};
+	/**
+     * Get all items from the getAllItem route with minor processing
+     * 
+     * @param full if true will location Information
+     * @param force if true will bypass cache
+     */
+	public getAllItems = async (full = false, force = false) => {
+		return await this.getItems(
+			`${GenericApi.BASE_URL}${GenericApi.ROUTES.ALL_ITEMS}`,
+			full,
+			force
+		);
 	};
 
 	public getItemsForArea = async (areaName: string): Promise<Record<string, number>> => {
@@ -165,5 +177,13 @@ export class GenericApi {
 		}
 
 		return await this.locationCache.getAll();
+	};
+
+	public getItemByName = async (name: string, full = false) => {
+		return await this.getItems(
+			`${GenericApi.BASE_URL}${GenericApi.ROUTES.ALL_ITEMS}`.replace('/all', `?name=${name}`),
+			full,
+			true
+		);
 	};
 }

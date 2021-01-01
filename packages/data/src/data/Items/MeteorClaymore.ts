@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MeteorClaymore: Item = {
 	"id": 120404,
-	"name": "Meteor Claymore",
+	"name": "MeteorClaymore",
 	"buildsFrom": [
 		{
 			"name": "Apricot Sword",
@@ -27,11 +27,13 @@ export const MeteorClaymore: Item = {
 		"criticalStrikeDamage": 0.3
 	},
 	"rarity": "Epic",
+	"code": "유성검",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The silver-grey colored metals found in Meteorsteel can be used to make a great sword with great strength. However, manufacturing it is no easy task.",
+	"displayName": "Meteor Claymore",
 	"apiMetaData": {
 		"code": 120404,
 		"category": "Weapon",

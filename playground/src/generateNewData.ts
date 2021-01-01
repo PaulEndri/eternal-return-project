@@ -32,13 +32,19 @@ Promise.all(methods)
 	.then(async ([ Animals, Locations, Weapons, Armors, Consumables, Materials, Items ]) => {
 		const realCharacters = await characterScraper.getAll(Weapons);
 		const Xiukai = await characterScraper.getCharacter({ name: 'Xiukai', href: '/Xiukai' });
+		const Emma = await characterScraper.getCharacter({ name: 'Emma', href: '/Emma' });
+
 		Xiukai.weapons = Object.entries(Weapons)
+			.filter(([ , type ]: any) => type.usableBy.includes('Xiukai'))
+			.map(([ key ]) => key);
+
+		Emma.weapons = Object.entries(Weapons)
 			.filter(([ , type ]: any) => type.usableBy.includes('Xiukai'))
 			.map(([ key ]) => key);
 
 		delete realCharacters.Xiuaki;
 		realCharacters.Xiukai = Xiukai;
-
+		realCharacters.Emma = Emma;
 		const Categories = {};
 
 		Object.values(Items).forEach((item: any) => {

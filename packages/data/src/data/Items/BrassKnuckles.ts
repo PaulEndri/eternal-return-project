@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const BrassKnuckles: Item = {
 	"id": 110101,
-	"name": "Brass Knuckles",
+	"name": "BrassKnuckles",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -15,6 +15,7 @@ export const BrassKnuckles: Item = {
 		"attackPower": 10
 	},
 	"rarity": "Common",
+	"code": "너클",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -23,6 +24,7 @@ export const BrassKnuckles: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "These are actually illegal in a lot of countries.",
+	"displayName": "Brass Knuckles",
 	"apiMetaData": {
 		"code": 110101,
 		"category": "Weapon",

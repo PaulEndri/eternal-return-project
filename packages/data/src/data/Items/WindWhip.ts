@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WindWhip: Item = {
 	"id": 109301,
-	"name": "Wind Whip",
+	"name": "WindWhip",
 	"buildsFrom": [
 		{
 			"name": "Rope Cuffs",
@@ -29,15 +29,17 @@ export const WindWhip: Item = {
 		"Fan": 1
 	},
 	"stats": {
-		"attackPower": 25,
+		"attackPower": 24,
 		"increaseSkillDamage": 20
 	},
 	"rarity": "Rare",
+	"code": "바람채찍",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Wind Whip",
 	"apiMetaData": {
 		"code": 109301,
 		"category": "Weapon",

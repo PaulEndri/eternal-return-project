@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const Curry: Item = {
-	"id": "Curry",
+	"id": 302313,
 	"name": "Curry",
-	"href": "/Curry",
 	"buildsFrom": [
 		{
 			"name": "Curry Powder",
-			"id": "Curry Powder"
+			"id": 302120
 		},
 		{
 			"name": "Boiling Water",
@@ -29,16 +28,17 @@ export const Curry: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "Curry is a dish made by mixing many different kinds of spices. One of the main ingredients is turmeric, which may help prevent Alzheimer's disease.",
+	"displayName": "Curry",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302313,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

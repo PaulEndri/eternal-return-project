@@ -15,19 +15,19 @@ export const Water: Item = {
 		},
 		{
 			"name": "Water Bottle",
-			"id": "Water Bottle"
+			"id": 301203
 		},
 		{
 			"name": "Soju",
-			"id": "Soju"
+			"id": 301205
 		},
 		{
 			"name": "Honey Water",
-			"id": "Honey Water"
+			"id": 301215
 		},
 		{
 			"name": "Ice Water",
-			"id": "Ice Water"
+			"id": 301216
 		},
 		{
 			"name": "Dead Battery",
@@ -43,10 +43,12 @@ export const Water: Item = {
 		"spRestore": 100
 	},
 	"rarity": "Common",
+	"code": "물",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Water",
 	"apiMetaData": {
 		"code": 301102,
 		"category": "Consume",

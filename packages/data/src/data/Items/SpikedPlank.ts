@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SpikedPlank: Item = {
 	"id": 502201,
-	"name": "Spiked Plank",
+	"name": "SpikedPlank",
 	"buildsFrom": [
 		{
 			"name": "Mousetrap",
@@ -20,11 +20,11 @@ export const SpikedPlank: Item = {
 		},
 		{
 			"name": "Hidden Maiden",
-			"id": "Hidden Maiden"
+			"id": 502407
 		},
 		{
 			"name": "Remote Mine",
-			"id": "Remote Mine"
+			"id": 502501
 		}
 	],
 	"requirements": {
@@ -32,13 +32,15 @@ export const SpikedPlank: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 6
+		"attackPower": "#REF!"
 	},
 	"rarity": "Uncommon",
+	"code": "가시발판",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Spiked Plank",
 	"apiMetaData": {
 		"code": 502201,
 		"category": "Special",

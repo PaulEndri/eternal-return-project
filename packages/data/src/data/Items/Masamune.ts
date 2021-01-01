@@ -30,11 +30,13 @@ export const Masamune: Item = {
 		"attackSpeedRatio": 0.15
 	},
 	"rarity": "Rare",
+	"code": "마사무네",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword made by Masamune, the greatest sword maker in the history of Japan. It stands as one of the strongest and sharpest swords of Japan.",
+	"displayName": "Masamune",
 	"apiMetaData": {
 		"code": 102401,
 		"category": "Weapon",

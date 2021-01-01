@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const TheDeadlyRay: Item = {
 	"id": 118501,
-	"name": "The Deadly Ray",
+	"name": "TheDeadlyRay",
 	"buildsFrom": [
 		{
 			"name": "Moonstone",
@@ -29,11 +29,13 @@ export const TheDeadlyRay: Item = {
 		"increaseSkillDamageRatio": 0.3
 	},
 	"rarity": "Legend",
+	"code": "사사성광",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "The Deadly Ray",
 	"apiMetaData": {
 		"code": 118501,
 		"category": "Weapon",

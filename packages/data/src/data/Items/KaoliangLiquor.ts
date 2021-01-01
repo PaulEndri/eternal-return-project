@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const KaoliangLiquor: Item = {
-	"id": "Kaoliang Liquor",
-	"name": "Kaoliang Liquor",
-	"href": "/Kaoliang_Liquor",
+	"id": 301301,
+	"name": "KaoliangLiquor",
 	"buildsFrom": [
 		{
 			"name": "Baijiu",
-			"id": "Baijiu"
+			"id": 301204
 		},
 		{
 			"name": "Lighter",
@@ -27,16 +26,17 @@ export const KaoliangLiquor: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"displayName": "Kaoliang Liquor",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301301,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

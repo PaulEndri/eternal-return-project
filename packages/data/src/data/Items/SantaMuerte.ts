@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const SantaMuerte: Item = {
 	"id": 105403,
-	"name": "Santa Muerte",
+	"name": "SantaMuerte",
 	"buildsFrom": [
 		{
 			"name": "Reaper's Scythe",
@@ -28,11 +28,13 @@ export const SantaMuerte: Item = {
 		"maxHp": 450
 	},
 	"rarity": "Epic",
+	"code": "산타무에르떼",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Santa Muerte, the Mexican goddess of death, cuts off all negative energies with her long-handled scythe.",
+	"displayName": "Santa Muerte",
 	"apiMetaData": {
 		"code": 105403,
 		"category": "Weapon",

@@ -1,30 +1,29 @@
 import Item from '../../types/Item';
 
 export const Meat: Item = {
-	"id": "Meat",
+	"id": 302111,
 	"name": "Meat",
-	"href": "/Meat",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Tandoori Chicken",
-			"id": "Tandoori Chicken"
+			"id": 302222
 		},
 		{
 			"name": "Bacon and Garlic Sticks",
-			"id": "Bacon and Garlic Sticks"
+			"id": 302224
 		},
 		{
 			"name": "Hamburger",
-			"id": "Hamburger"
+			"id": 302226
 		},
 		{
 			"name": "Fried Chicken",
-			"id": "Fried Chicken"
+			"id": 302316
 		},
 		{
 			"name": "Steak",
-			"id": "Steak"
+			"id": 302323
 		}
 	],
 	"requirements": {},
@@ -37,14 +36,15 @@ export const Meat: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"displayName": "Meat",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302111,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
 	"airSupply": false,

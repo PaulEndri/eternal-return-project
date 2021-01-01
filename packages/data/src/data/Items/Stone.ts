@@ -37,11 +37,13 @@ export const Stone: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "돌멩이",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "A stone that can be thrown or be used to make something.",
+	"displayName": "Stone",
 	"apiMetaData": {
 		"code": 112101,
 		"category": "Misc",

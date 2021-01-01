@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const WhiteCraneFan: Item = {
 	"id": 205201,
-	"name": "White Crane Fan",
+	"name": "WhiteCraneFan",
 	"buildsFrom": [
 		{
 			"name": "Gilded Quill Fan",
@@ -34,11 +34,13 @@ export const WhiteCraneFan: Item = {
 		"increaseSkillDamage": 16
 	},
 	"rarity": "Rare",
+	"code": "백우선",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Though a person may make plans in life, it is the heavens that will bring them to fruition.",
+	"displayName": "White Crane Fan",
 	"apiMetaData": {
 		"code": 205201,
 		"category": "Armor",

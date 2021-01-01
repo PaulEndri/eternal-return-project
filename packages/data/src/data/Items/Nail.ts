@@ -45,6 +45,7 @@ export const Nail: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "못",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
@@ -54,6 +55,7 @@ export const Nail: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try hammering some of these into a baseball bat and take out a monster.",
+	"displayName": "Nail",
 	"apiMetaData": {
 		"code": 401101,
 		"category": "Misc",

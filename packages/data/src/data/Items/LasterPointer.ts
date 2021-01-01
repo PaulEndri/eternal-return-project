@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const LasterPointer: Item = {
 	"id": 401108,
-	"name": "Laster Pointer",
+	"name": "LasterPointer",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -45,10 +45,12 @@ export const LasterPointer: Item = {
 	"requirements": {},
 	"stats": {},
 	"rarity": "Common",
+	"code": "레이저포인트",
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
+	"displayName": "Laster Pointer",
 	"apiMetaData": {
 		"code": 401108,
 		"category": "Misc",

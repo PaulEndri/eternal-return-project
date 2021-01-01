@@ -1,9 +1,8 @@
 import Item from '../../types/Item';
 
 export const IceCoffee: Item = {
-	"id": "Ice Coffee",
-	"name": "Ice Coffee",
-	"href": "/Ice_Coffee",
+	"id": 301206,
+	"name": "IceCoffee",
 	"buildsFrom": [
 		{
 			"name": "Ice",
@@ -11,7 +10,7 @@ export const IceCoffee: Item = {
 		},
 		{
 			"name": "Coffee",
-			"id": "Coffee"
+			"id": 301106
 		}
 	],
 	"buildsInto": [],
@@ -27,16 +26,17 @@ export const IceCoffee: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"displayName": "Ice Coffee",
 	"clientMetaData": {
 		"type": "Beverage",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 301206,
+		"type": "Beverage",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

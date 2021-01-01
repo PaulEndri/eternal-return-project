@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const MonksRobe: Item = {
 	"id": 202103,
-	"name": "Monk's Robe",
+	"name": "MonksRobe",
 	"buildsFrom": [],
 	"buildsInto": [
 		{
@@ -24,6 +24,7 @@ export const MonksRobe: Item = {
 		"defense": 5
 	},
 	"rarity": "Common",
+	"code": "승복",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -32,6 +33,7 @@ export const MonksRobe: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Clothing for monks. The arm of each side is divided into four parts, representing Manjushri, Samantabhadra, Guanyin, and Ksitigarbha",
+	"displayName": "Monk's Robe",
 	"apiMetaData": {
 		"code": 202103,
 		"category": "Armor",

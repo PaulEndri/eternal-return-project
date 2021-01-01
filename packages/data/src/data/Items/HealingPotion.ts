@@ -1,13 +1,12 @@
 import Item from '../../types/Item';
 
 export const HealingPotion: Item = {
-	"id": "Healing Potion",
-	"name": "Healing Potion",
-	"href": "/Healing_Potion",
+	"id": 302317,
+	"name": "HealingPotion",
 	"buildsFrom": [
 		{
 			"name": "Orchid",
-			"id": "Orchid"
+			"id": 302218
 		},
 		{
 			"name": "Glass Bottle",
@@ -29,16 +28,17 @@ export const HealingPotion: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Also known as modern medicine.",
+	"displayName": "Healing Potion",
 	"clientMetaData": {
 		"type": "Food",
 		"category": "Consume"
 	},
 	"apiMetaData": {
-		"code": null,
-		"type": null,
-		"category": null
+		"code": 302317,
+		"type": "Food",
+		"category": "Consume"
 	},
 	"droppedFrom": [],
-	"airSupply": false,
+	"airSupply": true,
 	"collectible": 0
 }

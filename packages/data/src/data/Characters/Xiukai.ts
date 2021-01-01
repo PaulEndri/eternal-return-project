@@ -2,7 +2,9 @@ import Character from '../../types/Character';
 
 export const Xiukai: Character = {
 	"id": 13,
+	"displayName": "Xiukai",
 	"name": "Xiukai",
+	"background": "\"Stop gazing, or I will fill that dumpling with you.\" - Xiukai\nXiukai is a Chinese cook running his own small restaurant in Daegu, South Korea.\nHe used to be a cook for one of the closest associates of a high-ranking government official. His connections, and pockets, ran deep.\nAfter his boss was disposed of overnight, he escaped to South Korea.\n\nHe claims that he was once skinny with an elegant posture... \nHe is good at controlling himself, taking from his experience serving his former boss. \n",
 	"attributes": [
 		{
 			"mastery": "OneHandSword",
@@ -104,13 +106,13 @@ export const Xiukai: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "60/100/140/180/220(+0.4 AP)",
+					"value": "60/100/140/180/220(+0.5 AP)",
 					"tiers": {
 						"1": "60",
 						"2": "100",
 						"3": "140",
 						"4": "180",
-						"5": "220(+0.4"
+						"5": "220(+0.5"
 					}
 				},
 				"Range": {
@@ -155,13 +157,13 @@ export const Xiukai: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "80/110/140/170/190(+0.5 AP) (+ 1.5/2/2.5/3/3.5% of Xiukai's max HP)  Additional Damage: (1.5/2/2.5/3/3.5% of Xiukai's max HP)",
+					"value": "80/110/140/170/190(+0.5 AP) (+ 3.5% of Xiukai's max HP)  Additional Damage: (3.5% of Xiukai's max HP)",
 					"tiers": {
-						"1": "(1.5",
-						"2": "2",
-						"3": "2.5",
-						"4": "3",
-						"5": "3.5%"
+						"1": "80",
+						"2": "110",
+						"3": "140",
+						"4": "170",
+						"5": "190(+0.5"
 					}
 				},
 				"Range": {
@@ -206,11 +208,11 @@ export const Xiukai: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "50/100/150(+0.5 AP)",
+					"value": "30/80/120(+0.5 AP)",
 					"tiers": {
-						"1": "50",
-						"2": "100",
-						"3": "150(+0.5"
+						"1": "30",
+						"2": "80",
+						"3": "120(+0.5"
 					}
 				},
 				"Skill duration": {
@@ -257,7 +259,7 @@ export const Xiukai: Character = {
 			"maxExtraPoint": 0,
 			"attackPower": 40,
 			"defense": 34,
-			"criticalStrikeChance": 0,
+			"criticalChance": 0,
 			"hpRegen": 1,
 			"spRegen": 0.3,
 			"attackSpeed": 0.16,

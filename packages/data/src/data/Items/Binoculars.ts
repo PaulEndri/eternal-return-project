@@ -24,6 +24,7 @@ export const Binoculars: Item = {
 		"sightRange": 1.5
 	},
 	"rarity": "Common",
+	"code": "쌍안경",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
@@ -34,6 +35,7 @@ export const Binoculars: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "These don't seem to zoom in much. Perhaps it's because they're homemade.",
+	"displayName": "Binoculars",
 	"apiMetaData": {
 		"code": 205110,
 		"category": "Armor",

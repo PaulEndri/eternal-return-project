@@ -2,7 +2,7 @@ import Item from '../../types/Item';
 
 export const AmazonessArmor: Item = {
 	"id": 202410,
-	"name": "Amazoness Armor",
+	"name": "AmazonessArmor",
 	"buildsFrom": [
 		{
 			"name": "Sheet Metal Armor",
@@ -18,7 +18,6 @@ export const AmazonessArmor: Item = {
 		"Fabric Armor": 1,
 		"Scrap Metal": 1,
 		"Iron Ore": 1,
-		"Wetsuit": 1,
 		"Scissors": 1
 	},
 	"stats": {
@@ -27,11 +26,13 @@ export const AmazonessArmor: Item = {
 		"preventSkillDamagedRatio": 0.2
 	},
 	"rarity": "Epic",
+	"code": "아마조네스아머",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor bestowed upon female warriors with outstanding archery ability and agility. Allows for flexibilty and protection.",
+	"displayName": "Amazoness Armor",
 	"apiMetaData": {
 		"code": 202410,
 		"category": "Armor",
