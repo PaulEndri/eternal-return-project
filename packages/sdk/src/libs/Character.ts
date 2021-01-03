@@ -7,14 +7,14 @@ import {
 	ICharacterLevelUpStat
 } from '../interfaces';
 import { Characters as CharacterData, Weapons } from 'erbs-data';
-import { CharacterScraper } from 'erbs-wiki-api';
+// import { CharacterScraper } from 'erbs-wiki-api';
 import { ErBsClient } from 'erbs-client';
 import { Item } from './Item';
 
 const WeaponsArray = Object.values(Weapons);
 
 export class Character implements ICharacter {
-	static SCRAPER = new CharacterScraper();
+	// static SCRAPER = new CharacterScraper();
 	static CLIENT = new ErBsClient();
 
 	public background?: string;
@@ -52,17 +52,17 @@ export class Character implements ICharacter {
 		return await this.CLIENT.getCharacters();
 	}
 
-	static async GetAllFromWiki() {
-		return await this.SCRAPER.getAll();
-	}
+	// static async GetAllFromWiki() {
+	// 	return await this.SCRAPER.getAll();
+	// }
 
-	public async fetchDataFromWiki() {
-		if (!this.name) {
-			throw new Error('Invalid Character');
-		}
+	// public async fetchDataFromWiki() {
+	// 	if (!this.name) {
+	// 		throw new Error('Invalid Character');
+	// 	}
 
-		return await Character.SCRAPER.getCharacter({ name: this.name, href: `/${this.name}` });
-	}
+	// 	return await Character.SCRAPER.getCharacter({ name: this.name, href: `/${this.name}` });
+	// }
 
 	public loadWeaponOptions(full = true) {
 		const weaponTypeData = this.weapons.map((wpnLookup) =>
