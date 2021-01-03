@@ -1,18 +1,17 @@
-import { Armors } from 'erbs-sdk';
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Container, Menu } from 'semantic-ui-react';
 import { useHistory, useParams } from 'react-router-dom';
-import { getItemList } from '../../utilities/getList';
-import { ItemSearchComponent } from './ItemSearch';
+import { getMiscList, getMiscListKeys } from '../../../utilities/getList';
+import { ItemSearchComponent } from './ItemSearch.component';
 
-export const ArmorPage = () => {
+export const ItemPage = () => {
 	const history = useHistory();
 	const { id } = useParams() as any;
 
 	return (
 		<Container fluid>
 			<Menu
-				secondary
+				className="attached"
 				color="red"
 				inverted
 				style={{
@@ -21,27 +20,27 @@ export const ArmorPage = () => {
 					justifyContent: 'center'
 				}}
 			>
-				{Object.values(Armors).map((armor) => (
+				{getMiscListKeys().map((type) => (
 					<Menu.Item
-						key={armor}
-						active={id === armor}
+						key={type}
+						active={id === type}
 						onClick={() => {
-							history.push(`/wiki/armors/${armor}`);
+							history.push(`/wiki/items/${type}`);
 						}}
 						color="red"
 						style={{
 							borderRadius: 0
 						}}
 					>
-						{armor}
+						{type}s
 					</Menu.Item>
 				))}
 			</Menu>
 
 			<ItemSearchComponent
-				path={`/wiki/armors`}
-				items={getItemList(id)}
-				title={`${id || 'Armor'} Options`}
+				path={`/wiki/items`}
+				items={getMiscList(id)}
+				title={`${id || 'Item'} Options`}
 			/>
 		</Container>
 	);

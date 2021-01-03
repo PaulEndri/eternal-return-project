@@ -17,13 +17,14 @@ import {
 } from 'semantic-ui-react';
 import { Link, useHistory, useParams } from 'react-router-dom';
 import { Characters, Weapons } from 'erbs-data';
-import CharacterThumbnailComponent from '../../components/characterThumbnail.component';
-import { CharacterStatTable } from './CharacterStatTable';
-import { getImageSrc } from '../../utilities/getImageSrc';
-import { AttributeChartComponent } from '../../components/attributeChart.component';
-import { CharacterPortrait } from '../../components/characterPortrait.component';
-import { ReverseWeaponsLookupKeyed } from '../../utilities/reverseWeaponLookup';
-import { ItemModalButton } from '../../components/itemModalButton.component';
+import CharacterThumbnailComponent from '../../../components/characterThumbnail.component';
+import { CharacterStatTable } from './characterStatTable.component';
+import { getImageSrc } from '../../../utilities/getImageSrc';
+import { AttributeChartComponent } from '../../../components/attributeChart.component';
+import { CharacterPortrait } from '../../../components/characterPortrait.component';
+import { ReverseWeaponsLookupKeyed } from '../../../utilities/reverseWeaponLookup';
+import { ItemModalButton } from '../../../components/itemModalButton.component';
+import { BG_HALF, BG_THIRD } from '../../../utilities/bgImages';
 
 const CharacterAttrStatistic = ({ attr }) => (
 	<Statistic inverted>
@@ -45,13 +46,61 @@ const CharacterAttrStatistic = ({ attr }) => (
 	</Statistic>
 );
 
-export const CharacterPage = () => {
+const CharacterView: React.FC = ({children}) => {
 	const { id } = useParams() as any;
 	const history = useHistory();
 	const [ minimized, setMinimized ] = useState(false);
-	const character = id ? new Character(id) : null;
-
 	const showBar = !minimized || (minimized && !id);
+
+
+	return (
+		<Container fluid>
+			<div>
+				<div
+					style={{
+						backgroundColor: 'rgba(255, 255, 255, 0.11)',
+						display: 'flex',
+						flexFlow: 'row wrap',
+						justifyContent: 'center'
+					}}
+				>
+					<TransitionGroup animation="fade down" duration={60}>
+						{showBar &&
+							Object.keys(Characters).map((character) => (
+								<div key={character} style={{ marginRight: '4px' }}>
+									<CharacterThumbnailComponent
+										width={60}
+										name={character}
+										isActive={id && id === character}
+										onClick={() =>
+											history.push(`/wiki/characters/${character}`)}
+									/>
+								</div>
+							))}
+					</TransitionGroup>
+
+					{id && (
+						<Button
+							style={{ width: '100%', borderRadius: 0, margin: 0 }}
+							compact={!minimized}
+							onClick={() => setMinimized(!minimized)}
+							color="red"
+						>
+							<Icon name={`chevron ${!showBar ? 'down' : 'up'}` as any} />
+							{!showBar ? 'Show Character Selector' : 'Minimize'}
+						</Button>
+					)}
+				</div>
+			</div>
+                      
+            {children}      
+		</Container>
+	);
+};
+
+export const CharacterPage = () => {
+	const { id } = useParams() as any;
+	const character = id ? new Character(id) : null;
 
 	const panes = !character
 		? []
@@ -216,48 +265,10 @@ export const CharacterPage = () => {
 						</Grid>
 					)
 				}
-			];
-	return (
-		<Container fluid>
-			<div>
-				<div
-					style={{
-						backgroundColor: 'rgba(255, 255, 255, 0.11)',
-						display: 'flex',
-						flexFlow: 'row wrap',
-						justifyContent: 'center'
-					}}
-				>
-					<TransitionGroup animation="fade down" duration={60}>
-						{showBar &&
-							Object.keys(Characters).map((character) => (
-								<div key={character} style={{ marginRight: '4px' }}>
-									<CharacterThumbnailComponent
-										width={60}
-										name={character}
-										isActive={id && id === character}
-										onClick={() =>
-											history.push(`/wiki/characters/${character}`)}
-									/>
-								</div>
-							))}
-					</TransitionGroup>
-
-					{id && (
-						<Button
-							style={{ width: '100%', borderRadius: 0, margin: 0 }}
-							compact={!minimized}
-							onClick={() => setMinimized(!minimized)}
-							color="red"
-						>
-							<Icon name={`chevron ${!showBar ? 'down' : 'up'}` as any} />
-							{!showBar ? 'Show Character Selector' : 'Minimize'}
-						</Button>
-					)}
-				</div>
-			</div>
-
-			{id && (
+            ];
+            
+    return (<CharacterView>
+        		
 				<Segment
 					color="black"
 					fluid
@@ -269,10 +280,11 @@ export const CharacterPage = () => {
 						borderRadius: 0
 					}}
 				>
-					<Grid>
+					<Grid style={{backgroundImage: BG_HALF}}>
 						<Grid.Row
 							style={{
-								backgroundColor: 'rgba(76, 70, 70, 1)',
+                                backgroundColor: 'rgba(76, 70, 70, 1)',
+                                backgroundImage: BG_THIRD,
 								borderBottom: '1px groove',
 								borderTop: '1px groove'
 							}}
@@ -333,8 +345,13 @@ export const CharacterPage = () => {
 						</Grid.Row>
 					</Grid>
 				</Segment>
-			)}
-			{!id && (
+    </CharacterView>)
+}
+
+export const CharacterLandingPage = () => {
+    const history = useHistory();
+
+    return (<CharacterView>
 				<Segment style={{ marginTop: 0, borderRadius: 0 }} textAlign="center">
 					<Table selectable striped collapsing style={{ margin: 'auto' }}>
 						<Table.Header>
@@ -357,7 +374,7 @@ export const CharacterPage = () => {
 										<CharacterThumbnailComponent
 											width={60}
 											name={character}
-											isActive={id && id === character}
+											isActive={false}
 										/>
 									</Table.Cell>
 									<Table.Cell>{character}</Table.Cell>
@@ -416,7 +433,5 @@ export const CharacterPage = () => {
 						</Table.Body>
 					</Table>
 				</Segment>
-			)}
-		</Container>
-	);
-};
+    </CharacterView>)
+}

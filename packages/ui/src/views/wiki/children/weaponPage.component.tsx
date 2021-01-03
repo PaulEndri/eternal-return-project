@@ -11,13 +11,14 @@ import {
 	TransitionGroup
 } from 'semantic-ui-react';
 import { Link, useHistory, useParams } from 'react-router-dom';
-import { getImageSrc } from '../../utilities/getImageSrc';
-import CharacterThumbnailComponent from '../../components/characterThumbnail.component';
-import { ItemModalButton } from '../../components/itemModalButton.component';
-import { ItemCardComponent } from '../../components/itemCard.component';
-import { getItemList } from '../../utilities/getList';
-import { Types } from '../../utilities/types';
-import { ItemSearchComponent } from './ItemSearch';
+import { getImageSrc } from '../../../utilities/getImageSrc';
+import CharacterThumbnailComponent from '../../../components/characterThumbnail.component';
+import { ItemModalButton } from '../../../components/itemModalButton.component';
+import { ItemCardComponent } from '../../../components/itemCard.component';
+import { getItemList } from '../../../utilities/getList';
+import { Types } from '../../../utilities/types';
+import { ItemSearchComponent } from './ItemSearch.component';
+import { BG_HALF } from '../../../utilities/bgImages';
 
 export const WeaponPage = () => {
 	const history = useHistory();
@@ -145,7 +146,11 @@ export const WeaponPage = () => {
 							</Grid.Row>
 						)}
 						<Grid.Row
-							style={{ backgroundColor: 'rgba(255, 250, 250, 0.9)', paddingTop: 0 }}
+							style={{
+								backgroundColor: 'rgba(255, 250, 250, 0.9)',
+								paddingTop: 0,
+								backgroundImage: BG_HALF
+							}}
 							centered
 						>
 							<Grid.Column width={16}>
@@ -184,6 +189,7 @@ export const WeaponPage = () => {
 					</Grid>
 				</Segment>
 			)}
+
 			{!id && (
 				<ItemSearchComponent
 					setSelectedItem={(id, item) => {

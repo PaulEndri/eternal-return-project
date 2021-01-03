@@ -392,6 +392,7 @@ const generateArmorMetaData = () => {
 
 		return {
 			name: type,
+			code: apiMetaData.type,
 			items: linkedItems,
 			apiMetaData: categoryApiMetaData
 		};

@@ -8,10 +8,12 @@ import { ItemModalProvider } from './state/itemModal';
 import { ItemModalComponent } from './components/itemModal.component';
 import WikiView from './views/wiki';
 import { LoadoutProvider } from './state/loadout.tsx';
+import { BG_THIRD } from './utilities/bgImages';
+import PlayerView from './views/players';
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App" style={{ backgroundImage: BG_THIRD, minHeight: '100vh' }}>
 			<ItemModalProvider>
 				<LoadoutProvider>
 					<Router>
@@ -25,6 +27,9 @@ function App() {
 								</Route>
 								<Route path="/wiki">
 									<WikiView />
+								</Route>
+								<Route path="/players">
+									<PlayerView />
 								</Route>
 							</Switch>
 						</LayoutComponent>

@@ -7,3 +7,4 @@ dist/
 packages/*/dist/
 
 playground/src/generated
+.env

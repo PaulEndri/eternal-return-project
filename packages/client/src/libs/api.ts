@@ -156,7 +156,7 @@ export class ErBsClient {
 	 * @param mode Solos/Duos/Squads
 	 */
 	public async getTopPlayers(season: number, mode: GameModes) {
-		if (!season || !mode) {
+		if (season === null || season === undefined || !mode) {
 			throw new Error(
 				`Invalid Parameters Passed to getTopPlayers: Season = ${season} and Mode = ${mode}`
 			);
@@ -232,7 +232,7 @@ export class ErBsClient {
 	 * @param season ER:BS Season Number
 	 */
 	public async getPlayerRecord(userId: number, season = 0) {
-		const route = ROUTES.user.games
+		const route = ROUTES.user.stats
 			.replace('{seasonId}', season.toString())
 			.replace('{userNum}', userId.toString());
 

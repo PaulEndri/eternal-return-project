@@ -1,11 +1,12 @@
 import React, { StatelessComponent, ReactNode } from 'react';
 import { Segment, Header } from 'semantic-ui-react';
+import { BG_THIRD } from '../../utilities/bgImages';
 import { SidebarComponent } from '../sidebar';
 
 interface PageProps {
-	sidebarItems: ReactNode;
+	sidebarItems?: ReactNode;
 	title: ReactNode;
-	sidebarTitle: ReactNode;
+	sidebarTitle?: ReactNode;
 }
 
 export const PageComponent: StatelessComponent<PageProps> = ({
@@ -16,7 +17,9 @@ export const PageComponent: StatelessComponent<PageProps> = ({
 }) => {
 	return (
 		<Segment basic style={{ padding: 0 }}>
-			<SidebarComponent title={sidebarTitle}>{sidebarItems}</SidebarComponent>
+			{sidebarTitle && (
+				<SidebarComponent title={sidebarTitle}>{sidebarItems}</SidebarComponent>
+			)}
 			<div style={{ overflow: 'auto' }}>
 				<Segment
 					inverted

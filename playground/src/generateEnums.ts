@@ -9,7 +9,8 @@ const enumTemplate = (
 ) => `// automatically generated file
 
 export enum ${first.toUpperCase()}${rest.join('')}Lookup {
-${values.map((val) => `\t"${val[0]}" = ${getEnumVal(val[1])}`).join(',\n')}
+${values.map((val) => `\t"${val[0]}" = ${getEnumVal(val[1])}`).join(',\n')}\n
+${values.map((val) => `\t${val[1]} = ${getEnumVal(val[0])}`).join(',\n')}
 };
 
 export enum ${first.toUpperCase()}${rest.join('')} {

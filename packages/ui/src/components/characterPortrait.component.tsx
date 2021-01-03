@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import { Image } from 'semantic-ui-react';
+import { BG_FULL } from '../utilities/bgImages';
 import { getImageSrc } from '../utilities/getImageSrc';
 
 type CharacterPortraitProps = {
@@ -19,7 +20,8 @@ export const CharacterPortrait: FunctionComponent<CharacterPortraitProps> = ({
 			margin: 'auto',
 			marginBottom: '10px',
 			width,
-			border: '1px solid rgba(255, 190, 16, 0.45)',
+			border: '2px groove white',
+			backgroundImage: BG_FULL,
 
 			overflow: 'hidden'
 		}}
