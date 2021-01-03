@@ -35,7 +35,7 @@ export const ClientService = {
 		return results.userNum;
 	},
 	getStats: async (id: number, seasonNumber = 0, message: Message): Promise<IUserRecord[]> => {
-		const cachedData: IPlayer = await Players.find({ id });
+		const cachedData = await Players.findOne({ id });
 		let record: IPlayerSeasonRecord;
 
 		if (
@@ -81,7 +81,7 @@ export const ClientService = {
 		return results;
 	},
 	getMatches: async (id: number) => {
-		const cachedData: IPlayer = await Players.find({ id });
+		const cachedData: IPlayer = await Players.findOne({ id });
 
 		if (new Date().valueOf() - cachedData.lastUpdated.valueOf() < ClientService._cacheTime) {
 			return cachedData.matches;
