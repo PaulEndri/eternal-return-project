@@ -9,5 +9,3 @@ packages/*/dist/
 playground/src/generated
 .env
 
-# I don't believe in package-lock files
-package-lock.json
