@@ -16,13 +16,12 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "erbs-client": "file:packages\\client",
-    "erbs-data": "file:packages\\data",
-    "erbs-sdk": "file:packages\\sdk",
-    "erbs-utilities": "file:packages\\utilities",
-    "erbs-wiki-api": "file:packages\\wikidata",
-    "ui": "file:packages\\ui",
-    "wickeline-bot": "file:packages\\wickeline-bot"
+    "erbs-client": "file:packages/client",
+    "erbs-data": "file:packages/data",
+    "erbs-sdk": "file:packages/sdk",
+    "erbs-utilities": "file:packages/utilities",
+    "erbs-wiki-api": "file:packages/wikidata",
+    "wickeline-bot": "file:packages/wickeline-bot"
   },
   "repository": {
     "type": "git",
