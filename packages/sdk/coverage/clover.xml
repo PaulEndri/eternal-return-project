@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1609977198874" clover="3.2.0">
-  <project timestamp="1609977198874" name="All files">
+<coverage generated="1609977448905" clover="3.2.0">
+  <project timestamp="1609977448905" name="All files">
     <metrics statements="52" coveredstatements="26" conditionals="21" coveredconditionals="6" methods="13" coveredmethods="5" elements="86" coveredelements="37" complexity="0" loc="52" ncloc="52" packages="1" files="2" classes="2"/>
     <file name="Entity.ts" path="/home/paulendri/Projects/erbs/packages/sdk/src/libs/Entity.ts">
       <metrics statements="17" coveredstatements="16" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
