@@ -11,17 +11,19 @@ export class Entity implements IElement {
   }
 
   static GetEntity(seed) {
+    const Constructor: any = this.prototype.constructor;
+
     if (!seed) {
       throw new Error('Seed Must Be Provided');
     } else if (typeof seed === 'object') {
       return seed;
     }
 
-    if (this.SOURCES[seed]) {
-      return this.SOURCES[seed];
+    if (Constructor.SOURCES[seed]) {
+      return Constructor.SOURCES[seed];
     }
 
-    return this.SOURCES_ARRAY.find(({ id, name, displayName }: any) =>
+    return Constructor.SOURCES_ARRAY.find(({ id, name, displayName }: any) =>
       [id, name, displayName].includes(seed)
     );
   }
@@ -30,7 +32,9 @@ export class Entity implements IElement {
   public id: string | number = 0;
 
   constructor(seed) {
-    const source = Object.getPrototypeOf(this).constructor.GetEntity(seed);
+    const Constructor: any = this.constructor.prototype;
+
+    const source = Constructor.GetEntity(seed);
 
     if (source) {
       Object.assign(this, source);
