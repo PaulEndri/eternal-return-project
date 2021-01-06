@@ -7,3 +7,4 @@ export * from './constants';
 export * from './interfaces';
 export * from './libs/WeaponType';
 export * from './libs/ArmorType';
+export * from './libs/Animal';
