@@ -264,7 +264,7 @@ export const Yuki: Character = {
 		"perLevel": {
 			"maxHp": 81,
 			"maxSp": 20,
-			"attackPower": 2.2,
+			"attackPower": 2.6,
 			"defense": 2,
 			"criticalChance": 0,
 			"hpRegen": 0.05,

@@ -1,4 +1,4 @@
 export interface IElement<T extends string = any> {
-	name: T;
-	id: string | number;
+  name: T | string;
+  id: string | number;
 }

@@ -1,24 +1,24 @@
-import Animals from "./generated/masterData/animals.json";
-import Armors from "./generated/masterData/armors.json";
-import Weapons from "./generated/masterData/weapons.json";
-import Items from "./generated/masterData/items.json";
-import Characters from "./generated/masterData/characters.json";
-import Locations from "./generated/masterData/locations.json";
-import fs from "fs";
+import Animals from './generated/masterData/animals.json';
+import Armors from './generated/masterData/armors.json';
+import Weapons from './generated/masterData/weapons.json';
+import Items from './generated/masterData/items.json';
+import Characters from './generated/masterData/characters.json';
+import Locations from './generated/masterData/locations.json';
+import fs from 'fs';
 
 export const generateObjects = () => {
   const stripString = (str) =>
     str
-      .replace(/ /g, "")
-      .replace(/-/g, "")
-      .replace(/'/g, "")
-      .replace("(Animal)", "")
-      .replace("&", "");
+      .replace(/ /g, '')
+      .replace(/-/g, '')
+      .replace(/'/g, '')
+      .replace('(Animal)', '')
+      .replace('&', '');
 
   const interfaceTemplate = (name, type, data) =>
     `import ${type} from '../../types/${type}';
 
-export const ${stripString(name)}: ${type} = ${JSON.stringify(data, null, "\t")}
+export const ${stripString(name)}: ${type} = ${JSON.stringify(data, null, '\t')}
 `;
 
   const indexTemplate = (sources) =>
@@ -28,10 +28,10 @@ export const ${stripString(name)}: ${type} = ${JSON.stringify(data, null, "\t")}
 
         return `export * from './${name}';`;
       })
-      .join("\n");
+      .join('\n');
 
   const writeFile = (name: string, dir: string, content) => {
-    const base = "../packages/data/src/data";
+    const base = 'src/generated/data';
 
     if (!fs.existsSync(`${base}/${dir}`)) {
       fs.mkdirSync(`${base}/${dir}`);
@@ -41,31 +41,35 @@ export const ${stripString(name)}: ${type} = ${JSON.stringify(data, null, "\t")}
   };
 
   const generators = [
-    [Animals, "Animal"],
-    [Weapons, "Weapon"],
-    [Armors, "Armor"],
-    [Items, "Item"],
-    [Characters, "Character"],
-    [Locations, "Location"],
+    [Animals, 'Animal'],
+    [Weapons, 'Weapon'],
+    [Armors, 'Armor'],
+    [Items, 'Item'],
+    [Characters, 'Character'],
+    [Locations, 'Location']
   ];
 
   generators.forEach(([source, type]: [any[], string]) => {
     source.forEach((data) =>
-      writeFile(data.name as string, type + "s", interfaceTemplate(data.name as string, type, data))
+      writeFile(
+        data.name as string,
+        type + 's',
+        interfaceTemplate(data.name as string, type, data)
+      )
     );
 
-    writeFile("index", type + "s", indexTemplate(source));
+    writeFile('index', type + 's', indexTemplate(source));
   });
 
   const globalImports = generators
     .map(([, name]) => `import * as ${name}Data from './${name}s';`)
-    .join("\n");
+    .join('\n');
 
   const globalExports = generators
     .map(([, name]) => `export const ${name}s = ${name}Data;`)
-    .join("\n");
+    .join('\n');
 
-  writeFile("index", ".", `${globalImports}\n${globalExports}`);
+  writeFile('index', '.', `${globalImports}\n${globalExports}`);
 
   return Promise.resolve();
 };

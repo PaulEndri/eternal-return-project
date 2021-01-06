@@ -4,6 +4,7 @@ import * as ArmorData from './Armors';
 import * as ItemData from './Items';
 import * as CharacterData from './Characters';
 import * as LocationData from './Locations';
+
 export const Animals = AnimalData;
 export const Weapons = WeaponData;
 export const Armors = ArmorData;

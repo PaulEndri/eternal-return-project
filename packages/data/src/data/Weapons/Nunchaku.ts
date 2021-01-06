@@ -3,8 +3,14 @@ import Weapon from '../../types/Weapon';
 export const Nunchaku: Weapon = {
 	"name": "Nunchaku",
 	"abilityDetails": {
-		"description": "",
-		"info": []
+		"name": "Grappling_Whip",
+		"description": "Snap your whip in front of you, dealing damage to enemies hit and pulling them towards you.",
+		"info": [
+			{
+				"title": "Casting time",
+				"value": "0.26s"
+			}
+		]
 	},
 	"usableBy": [
 		"Li Dailin"

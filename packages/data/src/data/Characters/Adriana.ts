@@ -253,7 +253,7 @@ export const Adriana: Character = {
 		"perLevel": {
 			"maxHp": 65,
 			"maxSp": 9,
-			"attackPower": 2.4,
+			"attackPower": 2.7,
 			"defense": 1.7,
 			"criticalChance": 0,
 			"hpRegen": 0.03,

@@ -257,8 +257,7 @@ export const Emma: Character = {
 		}
 	},
 	"weapons": [
-		"Dagger",
-		"Spear"
+		"Shuriken"
 	],
 	"stats": {
 		"initial": {
@@ -282,7 +281,7 @@ export const Emma: Character = {
 			"defense": 1.6,
 			"criticalChance": 0,
 			"hpRegen": 0.02,
-			"spRegen": 0.02,
+			"spRegen": 0.06,
 			"attackSpeed": 0,
 			"moveSpeed": 0
 		}

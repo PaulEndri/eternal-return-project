@@ -1,97 +1,71 @@
 import { WeaponsLookup, Characters } from '../constants';
 import {
-	IAbility,
-	ICharacter,
-	ICharacterAttribute,
-	ICharacterInitialStat,
-	ICharacterLevelUpStat
+  IAbility,
+  ICharacter,
+  ICharacterAttribute,
+  ICharacterInitialStat,
+  ICharacterLevelUpStat
 } from '../interfaces';
 import { Characters as CharacterData, Weapons } from 'erbs-data';
-// import { CharacterScraper } from 'erbs-wiki-api';
 import { ErBsClient } from 'erbs-client';
 import { Item } from './Item';
+import { Entity } from './Entity';
 
 const WeaponsArray = Object.values(Weapons);
+const CharactersArray = Object.values(CharacterData);
 
-export class Character implements ICharacter {
-	// static SCRAPER = new CharacterScraper();
-	static CLIENT = new ErBsClient();
+export class Character extends Entity implements ICharacter {
+  static CLIENT = new ErBsClient();
+  static SOURCES = CharacterData;
+  static SOURCES_ARRAY = CharactersArray;
 
-	public background?: string;
-	public attributes: ICharacterAttribute[];
-	public description: string;
-	public details: Record<string, string>;
-	public stats: { initial: ICharacterInitialStat; perLevel: ICharacterLevelUpStat };
-	public abilities: Record<string, IAbility>;
-	public weapons: WeaponsLookup[];
-	public name: Characters;
-	public id: string | number;
+  public background?: string;
+  public attributes: ICharacterAttribute[];
+  public description: string;
+  public details: Record<string, string>;
+  public stats: {
+    initial: ICharacterInitialStat;
+    perLevel: ICharacterLevelUpStat;
+  };
+  public abilities: Record<string, IAbility>;
+  public weapons: WeaponsLookup[];
+  public name: Characters;
+  public id: string | number;
 
-	constructor(seed: Characters | ICharacter) {
-		if (!seed) {
-			throw new Error('Character seed must be provided');
-		}
+  static async GetAllFromClient() {
+    return await this.CLIENT.getCharacters();
+  }
 
-		let source = seed;
-		if (seed === Characters.LiDailin) {
-			source = CharacterData.LiDailin;
-		} else if (typeof seed === 'string') {
-			if (!Characters[seed]) {
-				throw new Error(`Invalid seed: ${seed}`);
-			}
+  public loadWeaponOptions(full = true) {
+    const weaponTypeData = this.weapons.map((wpnLookup) =>
+      WeaponsArray.find((wpn) => wpn.apiMetaData.name === wpnLookup)
+    );
 
-			source = CharacterData[seed];
-		}
+    if (full) {
+      return weaponTypeData.map((weaponType) => {
+        const weapons = weaponType.items.map(({ id }) => new Item(id));
 
-		if (source) {
-			Object.assign(this, source);
-		}
-	}
+        return {
+          ...weaponType,
+          weapons
+        };
+      });
+    }
 
-	static async GetAllFromClient() {
-		return await this.CLIENT.getCharacters();
-	}
+    return weaponTypeData;
+  }
 
-	// static async GetAllFromWiki() {
-	// 	return await this.SCRAPER.getAll();
-	// }
+  public getStatsForLevel(level: number) {
+    return Object.fromEntries(
+      Object.entries(this.stats.initial).map(
+        ([stat, initialValue]: [string, number]) => {
+          let name = stat === 'criticalStrikeChance' ? 'criticalChance' : stat;
+          const perLevel = this.stats.perLevel[name] || 0;
+          const levelUpValues = Math.round(perLevel * level);
 
-	// public async fetchDataFromWiki() {
-	// 	if (!this.name) {
-	// 		throw new Error('Invalid Character');
-	// 	}
-
-	// 	return await Character.SCRAPER.getCharacter({ name: this.name, href: `/${this.name}` });
-	// }
-
-	public loadWeaponOptions(full = true) {
-		const weaponTypeData = this.weapons.map((wpnLookup) =>
-			WeaponsArray.find((wpn) => wpn.apiMetaData.name === wpnLookup)
-		);
-
-		if (full) {
-			return weaponTypeData.map((weaponType) => {
-				const weapons = weaponType.items.map(({ id }) => new Item(id));
-
-				return {
-					...weaponType,
-					weapons
-				};
-			});
-		}
-
-		return weaponTypeData;
-	}
-
-	public getStatsForLevel(level: number) {
-		return Object.fromEntries(
-			Object.entries(this.stats.initial).map(([ stat, initialValue ]: [string, number]) => {
-				let name = stat === 'criticalStrikeChance' ? 'criticalChance' : stat;
-				const perLevel = this.stats.perLevel[name] || 0;
-				const levelUpValues = Math.round(perLevel * level);
-
-				return [ name, initialValue + levelUpValues ];
-			})
-		);
-	}
+          return [name, initialValue + levelUpValues];
+        }
+      )
+    );
+  }
 }

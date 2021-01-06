@@ -1,7 +1,12 @@
-import fs from "fs";
-import * as Scrapers from "erbs-wiki-api";
-import { CharacterScraper, LocationScraper, WikiCache, GenericApi } from "erbs-wiki-api";
-import Complete from "./generated/classic/Complete.json";
+import fs from 'fs';
+import * as Scrapers from 'erbs-wiki-api';
+import {
+  CharacterScraper,
+  LocationScraper,
+  WikiCache,
+  GenericApi
+} from 'erbs-wiki-api';
+import Complete from './generated/classic/Complete.json';
 
 export const generateNewData = () => {
   const api = new GenericApi();
@@ -10,8 +15,8 @@ export const generateNewData = () => {
   const characterScraper = new CharacterScraper();
   const itemScraper = new Scrapers.ItemScraper(
     new WikiCache(),
-    locationScraper["cache"],
-    animalScraper["cache"]
+    locationScraper['cache'],
+    animalScraper['cache']
   );
 
   const methods = [
@@ -22,30 +27,42 @@ export const generateNewData = () => {
     itemScraper.getConsumables(false),
     itemScraper.getMaterials(false),
     api.getAllItems(true),
-    characterScraper.getAll(),
+    characterScraper.getAll()
   ];
 
   const writeFile = (name: string, content) => {
-    fs.writeFileSync(`src/generated/newGenerated/${name}.json`, JSON.stringify(content, null, 2));
+    fs.writeFileSync(
+      `src/generated/newGenerated/${name}.json`,
+      JSON.stringify(content, null, 2)
+    );
   };
 
   return Promise.all(methods).then(
-    async ([Animals, Locations, Weapons, Armors, Consumables, Materials, Items]) => {
+    async ([
+      Animals,
+      Locations,
+      Weapons,
+      Armors,
+      Consumables,
+      Materials,
+      Items
+    ]) => {
       const realCharacters = await characterScraper.getAll(Weapons);
-      const Xiukai = await characterScraper.getCharacter({ name: "Xiukai", href: "/Xiukai" });
-      const Emma = await characterScraper.getCharacter({ name: "Emma", href: "/Emma" });
+      const missingCharacters = ['Xiukai', 'Emma', 'Lenox'];
 
-      Xiukai.weapons = Object.entries(Weapons)
-        .filter(([, type]: any) => type.usableBy.includes("Xiukai"))
-        .map(([key]) => key);
+      for (const character of missingCharacters) {
+        const charData: any = await characterScraper.getCharacter({
+          name: character,
+          href: `/${character}`
+        });
 
-      Emma.weapons = Object.entries(Weapons)
-        .filter(([, type]: any) => type.usableBy.includes("Xiukai"))
-        .map(([key]) => key);
+        charData.weapons = Object.entries(Weapons)
+          .filter(([, type]: any) => type.usableBy.includes(character))
+          .map(([key]) => key);
 
+        realCharacters[character] = charData;
+      }
       delete realCharacters.Xiuaki;
-      realCharacters.Xiukai = Xiukai;
-      realCharacters.Emma = Emma;
       const Categories = {};
 
       Object.values(Items).forEach((item: any) => {
@@ -60,11 +77,13 @@ export const generateNewData = () => {
         try {
           item.description = Complete[item.name].description;
         } catch (e) {
-          console.warn("[Missing Description or Error]", e);
+          console.warn('[Missing Description or Error]', e);
         }
 
         try {
-          Object.values(Animals).filter((animal: any) => animal.items[item.name]);
+          Object.values(Animals).filter(
+            (animal: any) => animal.items[item.name]
+          );
         } catch (e) {
           console.log(e);
         }
@@ -79,10 +98,12 @@ export const generateNewData = () => {
         Consumables,
         Materials,
         Items,
-        Categories,
+        Categories
       };
 
-      Object.entries(files).forEach(([name, content]) => writeFile(name, content));
+      Object.entries(files).forEach(([name, content]) =>
+        writeFile(name, content)
+      );
 
       return files;
     }

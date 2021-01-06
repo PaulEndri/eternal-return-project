@@ -17,3 +17,4 @@ export * from './Silvia';
 export * from './Adriana';
 export * from './Shoichi';
 export * from './Emma';
+export * from './Lenox';

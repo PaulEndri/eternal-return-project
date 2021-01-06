@@ -1,4 +1,4 @@
-import { ErBsClient } from './api';
+import { ErBsClient } from '../api';
 // @ts-ignore
 import fetch from 'node-fetch';
 

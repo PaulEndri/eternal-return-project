@@ -2,6 +2,7 @@ import Armor from '../../types/Armor';
 
 export const Chest: Armor = {
 	"name": "Chest",
+	"code": "Chest",
 	"items": [
 		{
 			"name": "Windbreaker",

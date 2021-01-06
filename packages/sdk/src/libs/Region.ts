@@ -2,51 +2,46 @@ import { Locations as LocationsEnum, Items } from '../constants';
 import { Locations as LocationsData } from 'erbs-data';
 import { IElement, ILocation, ILocationEntity } from '../interfaces';
 import { MaterialList } from './MaterialList';
+import { Entity } from './Entity';
 
-export class Region implements ILocation {
-	public materials = new MaterialList();
-	public drops: ILocationEntity[];
-	public animals: ILocationEntity[];
-	public teleport: boolean;
-	public connections: IElement<LocationsEnum>[];
-	public apiMetaData?: { type: string; code: number; name: string };
-	public name: LocationsEnum;
-	public id: string | number;
+export class Region extends Entity implements ILocation {
+  static SOURCES = LocationsData;
+  static SOURCES_ARRAY = Object.values(LocationsData);
 
-	private _materialCount: Record<string, number>;
+  public materials = new MaterialList();
+  public drops: ILocationEntity[];
+  public animals: ILocationEntity[];
+  public teleport: boolean;
+  public connections: IElement<LocationsEnum>[];
+  public apiMetaData?: { type: string; code: number; name: string };
+  public name: LocationsEnum;
+  public id: string | number;
 
-	constructor(seed: LocationsEnum | ILocation) {
-		let source = seed;
-		if (typeof seed === 'string') {
-			if (!LocationsEnum[seed]) {
-				throw new Error(`Invalid seed: ${seed}`);
-			}
+  private _materialCount: Record<string, number>;
 
-			source = LocationsData[seed];
-		}
+  constructor(seed) {
+    super(seed);
 
-		Object.assign(this, source);
+    this.drops.forEach(({ name, quantity }) => {
+      this.materials.add(name as Items, +quantity);
+    });
+  }
 
-		this.drops.forEach(({ name, quantity }) => {
-			this.materials.add(name as Items, +quantity);
-		});
-	}
+  get materialCount() {
+    if (!this._materialCount) {
+      const materialCount = {};
 
-	get materialCount() {
-		if (!this._materialCount) {
-			const materialCount = {};
+      Object.entries(this.materials).forEach(([materialName, info]) => {
+        materialCount[materialName] = +info.quantity;
+      });
 
-			Object.entries(this.materials).forEach(([ materialName, info ]) => {
-				materialCount[materialName] = +info.quantity;
-			});
+      this._materialCount = materialCount;
+    }
 
-			this._materialCount = materialCount;
-		}
+    return this.materialCount;
+  }
 
-		return this.materialCount;
-	}
-
-	public loadConnections() {
-		return this.connections.map((seed) => new Region(seed.name));
-	}
+  public loadConnections() {
+    return this.connections.map((seed) => new Region(seed.name));
+  }
 }
