@@ -1,18 +1,17 @@
-import { IMaterialList } from "../interfaces/IMaterialList";
-import { MaterialList } from "../libs/MaterialList";
-import { Item } from "../libs/Item";
+import { MaterialList } from '../libs/MaterialList';
+import { Item } from '../libs/Item';
 import {
   Armors,
   Locations,
   StarterWeaponsByLookup,
   Weapons,
-  WeaponsLookup,
   Items,
-} from "../constants";
-import { ILocation } from "../interfaces";
-import { Locations as LocationData } from "erbs-data";
-import { LoadoutKeys } from "../constants/LoadoutKeys";
-import { BasicLoadout } from "../types/loadout";
+  WeaponsLookup
+} from '../constants';
+import { CodedMaterialList, ILocation } from '../interfaces';
+import { Locations as LocationData } from 'erbs-data';
+import { LoadoutKeys } from '../constants/LoadoutKeys';
+import { BasicLoadout } from '../types/loadout';
 
 export class Loadout {
   private _totalMaterials: MaterialList;
@@ -44,17 +43,26 @@ export class Loadout {
   }
 
   public get items() {
-    return [this.Chest, this.Arm, this.Leg, this.Head, this.Head, this.Accessory];
+    return [
+      this.Chest,
+      this.Arm,
+      this.Leg,
+      this.Head,
+      this.Head,
+      this.Accessory
+    ];
   }
 
-  public get materials(): IMaterialList {
+  public get materials(): CodedMaterialList {
     if (!this._totalMaterials) {
       const totalMaterials = new MaterialList();
 
       totalMaterials.add(this.starterItem, 1);
 
       totalMaterials.addFromLists(
-        this.items.map((item) => (item ? item.requirements : null)).filter((v) => v)
+        this.items
+          .map((item) => (item ? item.requirements : null))
+          .filter((v) => v)
       );
 
       this._totalMaterials = totalMaterials;
@@ -78,14 +86,15 @@ export class Loadout {
     if (!this._regions) {
       const materials = this.materials;
       const regions: Record<Partial<Locations>, ILocation> = {} as any;
-      const excludedMats: string[] = [Items.Stone, Items.Leather, Items.Branch];
+      const excludedMats: number[] = [Items.Stone, Items.Leather, Items.Branch];
 
       Object.keys(materials)
-        .filter((mat) => mat && Items[mat] && !excludedMats.includes(mat))
+        .filter((mat) => !excludedMats.includes(+mat))
         .forEach((mat) => {
-          const material = Items[mat];
+          const materialName = Items[+mat];
+          const material = Item.Generate(materialName) as Item;
 
-          Object.keys(material.foundLocations).forEach((location) => {
+          Object.keys(material.locations).forEach((location) => {
             if (!regions[location]) {
               regions[location] = LocationData[location];
             }
@@ -108,7 +117,7 @@ export class Loadout {
 
   public setSlot(slot: LoadoutKeys, item: Item, immutable = true) {
     if (!slot) {
-      throw new Error("No Slot Selected");
+      throw new Error('No Slot Selected');
     }
 
     this.clearInternals();
@@ -121,7 +130,7 @@ export class Loadout {
         Arm: this.Arm,
         Accessory: this.Accessory,
         Weapon: this.Weapon,
-        [slot]: item,
+        [slot]: item
       };
 
       return new Loadout(
@@ -133,7 +142,7 @@ export class Loadout {
         newLoadout.Accessory
       );
     } else {
-      throw new Error("Unsupported Action: Non immutable loadout modification");
+      throw new Error('Unsupported Action: Non immutable loadout modification');
     }
   }
   // public get weightedRegions(): Record<LocationsEnum, IWeightedLocation> {
@@ -196,7 +205,7 @@ export class Loadout {
   // 	return this._weightedRegions;
   // }
 
-  public checkCompletedItems(materials: IMaterialList) {
+  public checkCompletedItems(materials: CodedMaterialList) {
     return this.items.filter((item) => item.canComplete(materials));
   }
 
@@ -204,7 +213,11 @@ export class Loadout {
     return +value / this.materials[name];
   }
 
-  public getRegionWeight(baseValue: number, byProductsCompleted: number, canTeleport: boolean) {
+  public getRegionWeight(
+    baseValue: number,
+    byProductsCompleted: number,
+    canTeleport: boolean
+  ) {
     return baseValue * (byProductsCompleted / 10 + 1) * (canTeleport ? 1.1 : 1);
   }
 }

@@ -6,7 +6,10 @@ import {
 } from '../constants';
 import { IElement } from '../interfaces/IElement';
 import { IItem, IItemStats } from '../interfaces/IItem';
-import { IMaterialList } from '../interfaces/IMaterialList';
+import {
+  CodedMaterialList,
+  NamedMaterialList
+} from '../interfaces/IMaterialList';
 import { Items } from 'erbs-data';
 import { Entity } from './Entity';
 
@@ -27,7 +30,7 @@ export class Item<A extends string = any, T extends string = any>
   public displayName: string;
   public collectible: number;
   public stackable: boolean;
-  public requirements: IMaterialList;
+  public requirements: NamedMaterialList;
   public buildsInto: IElement<ItemsEnum>[];
   public buildsFrom: IElement<ItemsEnum>[];
   public locations: Record<Partial<Locations>, number>;
@@ -72,14 +75,19 @@ export class Item<A extends string = any, T extends string = any>
     }
   }
 
-  public get materials(): IMaterialList {
+  public get materials(): CodedMaterialList {
     if (Object.keys(this.requirements).length === 0) {
       return {
-        [this.name]: 1
+        [this.id]: 1
       } as any;
     }
 
-    return this.requirements;
+    return Object.fromEntries(
+      Object.entries(this.requirements).map(([name, quantity]) => [
+        Items[name.replace(' ', '')],
+        quantity
+      ])
+    );
   }
 
   public get totalMaterials() {
@@ -111,9 +119,9 @@ export class Item<A extends string = any, T extends string = any>
     }
   }
 
-  public canComplete(materials: IMaterialList) {
+  public canComplete(materials: CodedMaterialList) {
     return Object.entries(this.materials).every(
-      ([materialName, value]) => materials[materialName] >= value
+      ([id, value]) => materials[id] >= value
     );
   }
 }

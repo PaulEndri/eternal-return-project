@@ -1,3 +1,4 @@
 import { Items } from '../constants';
 
-export type IMaterialList = Record<Partial<Items>, number>;
+export type NamedMaterialList = Record<Partial<keyof typeof Items>, number>;
+export type CodedMaterialList = Record<number, number>;
