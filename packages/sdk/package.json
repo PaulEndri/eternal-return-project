@@ -6,6 +6,7 @@
   "scripts": {
     "start": "tsc && node dist/",
     "start:dev": "ts-node ./src/",
+    "test": "jest --coverage --verbose",
     "build": "tsc"
   },
   "author": "Paul Endri",

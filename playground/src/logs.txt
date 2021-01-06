@@ -89883,3 +89883,694 @@
 [Match][1502104] Mongo Record Is New: Yes
 [Match][1502104] Saved
 [Match][1501336] Mongo Record Is New: Yes
+[Match][1501336] Saved
+[Match][1490741] Mongo Record Is New: Yes
+[Match][1490741] Saved
+[Match][1467038] Mongo Record Is New: Yes
+[Match][1467038] Saved
+[Match][1465842] Mongo Record Is New: No
+[Match][1465842] Saved
+[Match][1464147] Mongo Record Is New: Yes
+[Match][1464147] Saved
+[Update][1098780] Took less than 1500ms to process, waiting
+[Player][Processing] 712096
+[Player][712096] Creating New Mongo Record
+[Player][712096] Failed to Save base Data: E11000 duplicate key error collection: erbs.players index: id_1 dup key: { id: 712096 }
+[Update] Triggering Second Delay
+[712096] Fetched Season 0 and 1 Data
+[Player][712096] Updated Season Records
+[Match][1478483] Mongo Record Is New: No
+[Match][1478483] Saved
+[Match][1476154] Mongo Record Is New: No
+[Match][1476154] Saved
+[Match][1473922] Mongo Record Is New: Yes
+[Match][1473922] Saved
+[Match][1472267] Mongo Record Is New: No
+[Match][1472267] Saved
+[Match][1471127] Mongo Record Is New: Yes
+[Match][1471127] Saved
+[Match][1470160] Mongo Record Is New: No
+[Match][1470160] Saved
+[Match][1469451] Mongo Record Is New: No
+[Match][1469451] Saved
+[Match][1468575] Mongo Record Is New: No
+[Match][1468575] Saved
+[Match][1467158] Mongo Record Is New: No
+[Match][1467158] Saved
+[Match][1466216] Mongo Record Is New: Yes
+[Match][1466216] Saved
+[Update][712096] Took less than 1500ms to process, waiting
+[Player][Processing] 1230498
+[Player][1230498] Updating Existing Mongo Record
+[Player][1230498] Saved Base Data
+[Update] Triggering Second Delay
+[1230498] Fetched Season 0 and 1 Data
+[Player][1230498] Updated Season Records
+[Match][1486254] Mongo Record Is New: Yes
+[Match][1486254] Saved
+[Match][1395020] Mongo Record Is New: Yes
+[Match][1395020] Saved
+[Match][1393789] Mongo Record Is New: Yes
+[Match][1393789] Saved
+[Match][1392650] Mongo Record Is New: Yes
+[Match][1392650] Saved
+[Match][1392088] Mongo Record Is New: Yes
+[Match][1392088] Saved
+[Match][1390448] Mongo Record Is New: Yes
+[Match][1390448] Saved
+[Match][1388299] Mongo Record Is New: No
+[Match][1388299] Saved
+[Match][1386542] Mongo Record Is New: Yes
+[Match][1386542] Saved
+[Match][1385257] Mongo Record Is New: Yes
+[Match][1385257] Saved
+[Match][1384007] Mongo Record Is New: Yes
+[Match][1384007] Saved
+[Update][1230498] Took less than 1500ms to process, waiting
+[Player][Processing] 663585
+[Player][663585] Updating Existing Mongo Record
+[Player][663585] Saved Base Data
+[Update] Triggering Second Delay
+[663585] Fetched Season 0 and 1 Data
+[Player][663585] Updated Season Records
+[Match][1503920] Mongo Record Is New: Yes
+[Match][1503920] Saved
+[Match][1502774] Mongo Record Is New: Yes
+[Match][1502774] Saved
+[Match][1500126] Mongo Record Is New: Yes
+[Match][1500126] Saved
+[Match][1498449] Mongo Record Is New: Yes
+[Match][1498449] Saved
+[Match][1497193] Mongo Record Is New: Yes
+[Match][1497193] Saved
+[Match][1495844] Mongo Record Is New: Yes
+[Match][1495844] Saved
+[Match][1495378] Mongo Record Is New: Yes
+[Match][1495378] Saved
+[Match][1483646] Mongo Record Is New: Yes
+[Match][1483646] Saved
+[Match][1482644] Mongo Record Is New: Yes
+[Match][1482644] Saved
+[Match][1482016] Mongo Record Is New: Yes
+[Match][1482016] Saved
+[Update][663585] Took less than 1500ms to process, waiting
+[Player][Processing] 378438
+[Player][378438] Updating Existing Mongo Record
+[Player][378438] Saved Base Data
+[Update] Triggering Second Delay
+[378438] Fetched Season 0 and 1 Data
+[Player][378438] Updated Season Records
+[Match][1039892] Mongo Record Is New: Yes
+[Match][1039892] Saved
+[Match][1038802] Mongo Record Is New: Yes
+[Match][1038802] Saved
+[Match][1038052] Mongo Record Is New: Yes
+[Match][1038052] Saved
+[Match][1036433] Mongo Record Is New: Yes
+[Match][1036433] Saved
+[Match][1035782] Mongo Record Is New: Yes
+[Match][1035782] Saved
+[Match][1035143] Mongo Record Is New: Yes
+[Match][1035143] Saved
+[Match][1033597] Mongo Record Is New: Yes
+[Match][1033597] Saved
+[Match][1032384] Mongo Record Is New: Yes
+[Match][1032384] Saved
+[Match][1031822] Mongo Record Is New: Yes
+[Match][1031822] Saved
+[Match][1031197] Mongo Record Is New: Yes
+[Match][1031197] Saved
+[Update][378438] Took less than 1500ms to process, waiting
+[Player][Processing] 1385988
+[Player][1385988] Updating Existing Mongo Record
+[Player][1385988] Saved Base Data
+[Update] Triggering Second Delay
+[1385988] Fetched Season 0 and 1 Data
+[Player][1385988] Updated Season Records
+[Match][1453437] Mongo Record Is New: Yes
+[Match][1453437] Saved
+[Match][1451983] Mongo Record Is New: Yes
+[Match][1451983] Saved
+[Match][1451259] Mongo Record Is New: No
+[Match][1451259] Saved
+[Match][1449888] Mongo Record Is New: Yes
+[Match][1449888] Saved
+[Match][1448038] Mongo Record Is New: Yes
+[Match][1448038] Saved
+[Match][1446545] Mongo Record Is New: Yes
+[Match][1446545] Saved
+[Match][1444054] Mongo Record Is New: Yes
+[Match][1444054] Saved
+[Match][1442963] Mongo Record Is New: Yes
+[Match][1442963] Saved
+[Match][1441959] Mongo Record Is New: Yes
+[Match][1441959] Saved
+[Match][1441086] Mongo Record Is New: Yes
+[Match][1441086] Saved
+[Update][1385988] Took less than 1500ms to process, waiting
+[Player][Processing] 659602
+[Player][659602] Updating Existing Mongo Record
+[Player][659602] Saved Base Data
+[Update] Triggering Second Delay
+[659602] Fetched Season 0 and 1 Data
+[Player][659602] Updated Season Records
+[Match][1450014] Mongo Record Is New: Yes
+[Match][1450014] Saved
+[Match][1448571] Mongo Record Is New: Yes
+[Match][1448571] Saved
+[Match][1447132] Mongo Record Is New: Yes
+[Match][1447132] Saved
+[Match][1444825] Mongo Record Is New: Yes
+[Match][1444825] Saved
+[Match][1443623] Mongo Record Is New: Yes
+[Match][1443623] Saved
+[Match][1440519] Mongo Record Is New: Yes
+[Match][1440519] Saved
+[Match][1439956] Mongo Record Is New: Yes
+[Match][1439956] Saved
+[Match][1438480] Mongo Record Is New: Yes
+[Match][1438480] Saved
+[Match][1428623] Mongo Record Is New: Yes
+[Match][1428623] Saved
+[Match][1426924] Mongo Record Is New: Yes
+[Match][1426924] Saved
+[Update][659602] Took less than 1500ms to process, waiting
+[Player][Processing] 467263
+[Player][467263] Updating Existing Mongo Record
+[Player][467263] Saved Base Data
+[Update] Triggering Second Delay
+[467263] Fetched Season 0 and 1 Data
+[Player][467263] Updated Season Records
+[Match][1221127] Mongo Record Is New: Yes
+[Match][1221127] Saved
+[Match][1220675] Mongo Record Is New: Yes
+[Match][1220675] Saved
+[Match][1219653] Mongo Record Is New: Yes
+[Match][1219653] Saved
+[Match][1219073] Mongo Record Is New: Yes
+[Match][1219073] Saved
+[Match][1218216] Mongo Record Is New: Yes
+[Match][1218216] Saved
+[Match][1216889] Mongo Record Is New: Yes
+[Match][1216889] Saved
+[Match][1216255] Mongo Record Is New: Yes
+[Match][1216255] Saved
+[Match][1215843] Mongo Record Is New: Yes
+[Match][1215843] Saved
+[Match][1020348] Mongo Record Is New: Yes
+[Match][1020348] Saved
+[Match][1020076] Mongo Record Is New: Yes
+[Match][1020076] Saved
+[Update][467263] Took less than 1500ms to process, waiting
+[Player][Processing] 1209906
+[Player][1209906] Updating Existing Mongo Record
+[Player][1209906] Saved Base Data
+[Update] Triggering Second Delay
+[1209906] Fetched Season 0 and 1 Data
+[Player][1209906] Updated Season Records
+[Match][1505760] Mongo Record Is New: Yes
+[Match][1505760] Saved
+[Match][1503971] Mongo Record Is New: Yes
+[Match][1503971] Saved
+[Match][1501861] Mongo Record Is New: Yes
+[Match][1501861] Saved
+[Match][1498987] Mongo Record Is New: Yes
+[Match][1498987] Saved
+[Match][1497942] Mongo Record Is New: Yes
+[Match][1497942] Saved
+[Match][1497532] Mongo Record Is New: Yes
+[Match][1497532] Saved
+[Match][1494925] Mongo Record Is New: Yes
+[Match][1494925] Saved
+[Match][1485823] Mongo Record Is New: Yes
+[Match][1485823] Saved
+[Match][1482335] Mongo Record Is New: Yes
+[Match][1482335] Saved
+[Match][1480083] Mongo Record Is New: Yes
+[Match][1480083] Saved
+[Update][1209906] Took less than 1500ms to process, waiting
+[Player][Processing] 784149
+[Player][784149] Updating Existing Mongo Record
+[Player][784149] Saved Base Data
+[Update] Triggering Second Delay
+[784149] Fetched Season 0 and 1 Data
+[Player][784149] Updated Season Records
+[Match][1505906] Mongo Record Is New: Yes
+[Match][1505906] Saved
+[Match][1504756] Mongo Record Is New: Yes
+[Match][1504756] Saved
+[Match][1503135] Mongo Record Is New: Yes
+[Match][1503135] Saved
+[Match][1501352] Mongo Record Is New: Yes
+[Match][1501352] Saved
+[Match][1416842] Mongo Record Is New: Yes
+[Match][1416842] Saved
+[Match][1416182] Mongo Record Is New: No
+[Match][1416182] Saved
+[Match][1415535] Mongo Record Is New: Yes
+[Match][1415535] Saved
+[Match][1415144] Mongo Record Is New: No
+[Match][1415144] Saved
+[Match][1414754] Mongo Record Is New: Yes
+[Match][1414754] Saved
+[Match][1414219] Mongo Record Is New: Yes
+[Match][1414219] Saved
+[Update][784149] Took less than 1500ms to process, waiting
+[Player][Processing] 1191669
+[Player][1191669] Creating New Mongo Record
+[Player][1191669] Failed to Save base Data: E11000 duplicate key error collection: erbs.players index: id_1 dup key: { id: 1191669 }
+[Update] Triggering Second Delay
+[1191669] Fetched Season 0 and 1 Data
+[Player][1191669] Updated Season Records
+[Match][1505772] Mongo Record Is New: Yes
+[Match][1505772] Saved
+[Match][1504627] Mongo Record Is New: Yes
+[Match][1504627] Saved
+[Match][1504242] Mongo Record Is New: Yes
+[Match][1504242] Saved
+[Match][1503485] Mongo Record Is New: Yes
+[Match][1503485] Saved
+[Match][1501602] Mongo Record Is New: No
+[Match][1501602] Saved
+[Match][1500185] Mongo Record Is New: No
+[Match][1500185] Saved
+[Match][1499559] Mongo Record Is New: Yes
+[Match][1499559] Saved
+[Match][1498971] Mongo Record Is New: Yes
+[Match][1498971] Saved
+[Match][1497569] Mongo Record Is New: No
+[Match][1497569] Saved
+[Match][1494338] Mongo Record Is New: No
+[Match][1494338] Saved
+[Update][1191669] Took less than 1500ms to process, waiting
+[Player][Processing] 680351
+[Player][680351] Updating Existing Mongo Record
+[Player][680351] Saved Base Data
+[Update] Triggering Second Delay
+[680351] Fetched Season 0 and 1 Data
+[Player][680351] Updated Season Records
+[Match][1504980] Mongo Record Is New: Yes
+[Match][1504980] Saved
+[Match][1503863] Mongo Record Is New: Yes
+[Match][1503863] Saved
+[Match][1502638] Mongo Record Is New: Yes
+[Match][1502638] Saved
+[Match][1500722] Mongo Record Is New: Yes
+[Match][1500722] Saved
+[Match][1499079] Mongo Record Is New: Yes
+[Match][1499079] Saved
+[Match][1497636] Mongo Record Is New: Yes
+[Match][1497636] Saved
+[Match][1495039] Mongo Record Is New: Yes
+[Match][1495039] Saved
+[Match][1444299] Mongo Record Is New: Yes
+[Match][1444299] Saved
+[Match][1443149] Mongo Record Is New: Yes
+[Match][1443149] Saved
+[Match][1441087] Mongo Record Is New: Yes
+[Match][1441087] Saved
+[Update][680351] Took less than 1500ms to process, waiting
+[Player][Processing] 1419227
+[Player][1419227] Updating Existing Mongo Record
+[Player][1419227] Saved Base Data
+[Update] Triggering Second Delay
+[1419227] Fetched Season 0 and 1 Data
+[Player][1419227] Updated Season Records
+[Match][1345191] Mongo Record Is New: Yes
+[Match][1345191] Saved
+[Match][1343642] Mongo Record Is New: No
+[Match][1343642] Saved
+[Match][1342849] Mongo Record Is New: No
+[Match][1342849] Saved
+[Match][1341894] Mongo Record Is New: Yes
+[Match][1341894] Saved
+[Match][1341384] Mongo Record Is New: Yes
+[Match][1341384] Saved
+[Match][1332706] Mongo Record Is New: Yes
+[Match][1332706] Saved
+[Match][1332435] Mongo Record Is New: Yes
+[Match][1332435] Saved
+[Match][1332005] Mongo Record Is New: Yes
+[Match][1332005] Saved
+[Match][1328466] Mongo Record Is New: Yes
+[Match][1328466] Saved
+[Match][1328080] Mongo Record Is New: Yes
+[Match][1328080] Saved
+[Update][1419227] Took less than 1500ms to process, waiting
+[Player][Processing] 1460231
+[Player][1460231] Updating Existing Mongo Record
+[Player][1460231] Saved Base Data
+[Update] Triggering Second Delay
+[1460231] Fetched Season 0 and 1 Data
+[Player][1460231] Updated Season Records
+[Match][1478407] Mongo Record Is New: Yes
+[Match][1478407] Saved
+[Match][1476867] Mongo Record Is New: Yes
+[Match][1476867] Saved
+[Match][1415690] Mongo Record Is New: Yes
+[Match][1415690] Saved
+[Match][1414784] Mongo Record Is New: Yes
+[Match][1414784] Saved
+[Match][1414272] Mongo Record Is New: Yes
+[Match][1414272] Saved
+[Match][1413137] Mongo Record Is New: Yes
+[Match][1413137] Saved
+[Match][1412062] Mongo Record Is New: Yes
+[Match][1412062] Saved
+[Match][1411114] Mongo Record Is New: Yes
+[Match][1411114] Saved
+[Match][1410535] Mongo Record Is New: Yes
+[Match][1410535] Saved
+[Match][1377788] Mongo Record Is New: Yes
+[Match][1377788] Saved
+[Update][1460231] Took less than 1500ms to process, waiting
+[Player][Processing] 1258978
+[Player][1258978] Updating Existing Mongo Record
+[Player][1258978] Saved Base Data
+[Update] Triggering Second Delay
+[1258978] Fetched Season 0 and 1 Data
+[Player][1258978] Updated Season Records
+[Match][1411072] Mongo Record Is New: Yes
+[Match][1411072] Saved
+[Match][1410221] Mongo Record Is New: Yes
+[Match][1410221] Saved
+[Match][1230670] Mongo Record Is New: Yes
+[Match][1230670] Saved
+[Match][1230311] Mongo Record Is New: Yes
+[Match][1230311] Saved
+[Match][1229630] Mongo Record Is New: Yes
+[Match][1229630] Saved
+[Match][1229039] Mongo Record Is New: Yes
+[Match][1229039] Saved
+[Match][1228473] Mongo Record Is New: Yes
+[Match][1228473] Saved
+[Match][1227913] Mongo Record Is New: Yes
+[Match][1227913] Saved
+[Match][1227494] Mongo Record Is New: Yes
+[Match][1227494] Saved
+[Match][1226972] Mongo Record Is New: Yes
+[Match][1226972] Saved
+[Update][1258978] Took less than 1500ms to process, waiting
+[Player][Processing] 1384531
+[Player][1384531] Updating Existing Mongo Record
+[Player][1384531] Saved Base Data
+[Update] Triggering Second Delay
+[1384531] Fetched Season 0 and 1 Data
+[Player][1384531] Updated Season Records
+[Match][1413209] Mongo Record Is New: Yes
+[Match][1413209] Saved
+[Match][1411511] Mongo Record Is New: Yes
+[Match][1411511] Saved
+[Match][1410788] Mongo Record Is New: Yes
+[Match][1410788] Saved
+[Match][1407204] Mongo Record Is New: Yes
+[Match][1407204] Saved
+[Match][1405468] Mongo Record Is New: Yes
+[Match][1405468] Saved
+[Match][1403782] Mongo Record Is New: Yes
+[Match][1403782] Saved
+[Match][1400895] Mongo Record Is New: Yes
+[Match][1400895] Saved
+[Match][1398570] Mongo Record Is New: Yes
+[Match][1398570] Saved
+[Match][1396399] Mongo Record Is New: Yes
+[Match][1396399] Saved
+[Match][1388107] Mongo Record Is New: Yes
+[Match][1388107] Saved
+[Update][1384531] Took less than 1500ms to process, waiting
+[Player][Processing] 557958
+[Player][557958] Creating New Mongo Record
+[Player][557958] Failed to Save base Data: E11000 duplicate key error collection: erbs.players index: id_1 dup key: { id: 557958 }
+[Update] Triggering Second Delay
+[557958] Fetched Season 0 and 1 Data
+[Player][557958] Updated Season Records
+[Match][1505882] Mongo Record Is New: Yes
+[Match][1505882] Saved
+[Match][1505109] Mongo Record Is New: Yes
+[Match][1505109] Saved
+[Match][1504474] Mongo Record Is New: Yes
+[Match][1504474] Saved
+[Match][1501782] Mongo Record Is New: Yes
+[Match][1501782] Saved
+[Match][1500852] Mongo Record Is New: Yes
+[Match][1500852] Saved
+[Match][1499122] Mongo Record Is New: No
+[Match][1499122] Saved
+[Match][1497837] Mongo Record Is New: Yes
+[Match][1497837] Saved
+[Match][1496320] Mongo Record Is New: Yes
+[Match][1496320] Saved
+[Match][1493262] Mongo Record Is New: No
+[Match][1493262] Saved
+[Match][1491383] Mongo Record Is New: No
+[Match][1491383] Saved
+[Update][557958] Took less than 1500ms to process, waiting
+[Player][Processing] 548772
+[Player][548772] Updating Existing Mongo Record
+[Player][548772] Saved Base Data
+[Update] Triggering Second Delay
+[548772] Fetched Season 0 and 1 Data
+[Player][548772] Updated Season Records
+[Match][1128331] Mongo Record Is New: Yes
+[Match][1128331] Saved
+[Match][1127854] Mongo Record Is New: Yes
+[Match][1127854] Saved
+[Match][1017309] Mongo Record Is New: Yes
+[Match][1017309] Saved
+[Match][1016755] Mongo Record Is New: Yes
+[Match][1016755] Saved
+[Match][1016271] Mongo Record Is New: Yes
+[Match][1016271] Saved
+[Match][1015532] Mongo Record Is New: Yes
+[Match][1015532] Saved
+[Match][1006685] Mongo Record Is New: Yes
+[Match][1006685] Saved
+[Match][1005046] Mongo Record Is New: Yes
+[Match][1005046] Saved
+[Match][1003610] Mongo Record Is New: Yes
+[Match][1003610] Saved
+[Match][1002496] Mongo Record Is New: Yes
+[Match][1002496] Saved
+[Update][548772] Took less than 1500ms to process, waiting
+[Player][Processing] 1372099
+[Player][1372099] Updating Existing Mongo Record
+[Player][1372099] Saved Base Data
+[Update] Triggering Second Delay
+[1372099] Fetched Season 0 and 1 Data
+[Player][1372099] Updated Season Records
+[Match][1460329] Mongo Record Is New: Yes
+[Match][1460329] Saved
+[Match][1458441] Mongo Record Is New: Yes
+[Match][1458441] Saved
+[Match][1456300] Mongo Record Is New: Yes
+[Match][1456300] Saved
+[Match][1421460] Mongo Record Is New: Yes
+[Match][1421460] Saved
+[Match][1421124] Mongo Record Is New: Yes
+[Match][1421124] Saved
+[Match][1420487] Mongo Record Is New: Yes
+[Match][1420487] Saved
+[Match][1419722] Mongo Record Is New: Yes
+[Match][1419722] Saved
+[Match][1413755] Mongo Record Is New: Yes
+[Match][1413755] Saved
+[Match][1412479] Mongo Record Is New: Yes
+[Match][1412479] Saved
+[Match][1411297] Mongo Record Is New: Yes
+[Match][1411297] Saved
+[Update][1372099] Took less than 1500ms to process, waiting
+[Player][Processing] 1402060
+[Player][1402060] Updating Existing Mongo Record
+[Player][1402060] Saved Base Data
+[Update] Triggering Second Delay
+[1402060] Fetched Season 0 and 1 Data
+[Player][1402060] Updated Season Records
+[Match][1423144] Mongo Record Is New: Yes
+[Match][1423144] Saved
+[Match][1422625] Mongo Record Is New: Yes
+[Match][1422625] Saved
+[Match][1422527] Mongo Record Is New: Yes
+[Match][1422527] Saved
+[Match][1422201] Mongo Record Is New: Yes
+[Match][1422201] Saved
+[Match][1421871] Mongo Record Is New: Yes
+[Match][1421871] Saved
+[Match][1421339] Mongo Record Is New: Yes
+[Match][1421339] Saved
+[Match][1415285] Mongo Record Is New: Yes
+[Match][1415285] Saved
+[Match][1414540] Mongo Record Is New: Yes
+[Match][1414540] Saved
+[Match][1413755] Mongo Record Is New: No
+[Match][1413755] Saved
+[Match][1412824] Mongo Record Is New: Yes
+[Match][1412824] Saved
+[Update][1402060] Took less than 1500ms to process, waiting
+[Player][Processing] 1371867
+[Player][1371867] Updating Existing Mongo Record
+[Player][1371867] Saved Base Data
+[Update] Triggering Second Delay
+[1371867] Fetched Season 0 and 1 Data
+[Player][1371867] Updated Season Records
+[Match][1017142] Mongo Record Is New: Yes
+[Match][1017142] Saved
+[Match][1016755] Mongo Record Is New: No
+[Match][1016755] Saved
+[Match][1016443] Mongo Record Is New: Yes
+[Match][1016443] Saved
+[Match][1015764] Mongo Record Is New: Yes
+[Match][1015764] Saved
+[Match][1015222] Mongo Record Is New: Yes
+[Match][1015222] Saved
+[Match][1014850] Mongo Record Is New: Yes
+[Match][1014850] Saved
+[Match][1014490] Mongo Record Is New: Yes
+[Match][1014490] Saved
+[Match][1014062] Mongo Record Is New: Yes
+[Match][1014062] Saved
+[Match][1013406] Mongo Record Is New: Yes
+[Match][1013406] Saved
+[Match][1012727] Mongo Record Is New: Yes
+[Match][1012727] Saved
+[Update][1371867] Took less than 1500ms to process, waiting
+[Player][Processing] 1227421
+[Player][1227421] Updating Existing Mongo Record
+[Player][1227421] Saved Base Data
+[Update] Triggering Second Delay
+[1227421] Fetched Season 0 and 1 Data
+[Player][1227421] Updated Season Records
+[Match][1101399] Mongo Record Is New: Yes
+[Match][1101399] Saved
+[Match][1080966] Mongo Record Is New: Yes
+[Match][1080966] Saved
+[Match][1077452] Mongo Record Is New: Yes
+[Match][1077452] Saved
+[Match][1074407] Mongo Record Is New: Yes
+[Match][1074407] Saved
+[Match][1073030] Mongo Record Is New: Yes
+[Match][1073030] Saved
+[Match][1070285] Mongo Record Is New: Yes
+[Match][1070285] Saved
+[Match][1069279] Mongo Record Is New: Yes
+[Match][1069279] Saved
+[Match][1066477] Mongo Record Is New: Yes
+[Match][1066477] Saved
+[Match][1064945] Mongo Record Is New: Yes
+[Match][1064945] Saved
+[Match][1059067] Mongo Record Is New: Yes
+[Match][1059067] Saved
+[Update][1227421] Took less than 1500ms to process, waiting
+[Player][Processing] 362080
+[Player][362080] Updating Existing Mongo Record
+[Player][362080] Saved Base Data
+[Update] Triggering Second Delay
+[362080] Fetched Season 0 and 1 Data
+[Player][362080] Updated Season Records
+[Match][1419521] Mongo Record Is New: Yes
+[Match][1419521] Saved
+[Match][1419077] Mongo Record Is New: Yes
+[Match][1419077] Saved
+[Match][1418778] Mongo Record Is New: Yes
+[Match][1418778] Saved
+[Match][1418502] Mongo Record Is New: Yes
+[Match][1418502] Saved
+[Match][1417905] Mongo Record Is New: Yes
+[Match][1417905] Saved
+[Match][1417559] Mongo Record Is New: Yes
+[Match][1417559] Saved
+[Match][1416767] Mongo Record Is New: Yes
+[Match][1416767] Saved
+[Match][1415348] Mongo Record Is New: Yes
+[Match][1415348] Saved
+[Match][1414798] Mongo Record Is New: Yes
+[Match][1414798] Saved
+[Match][1413017] Mongo Record Is New: Yes
+[Match][1413017] Saved
+[Update][362080] Took less than 1500ms to process, waiting
+[Player][Processing] 856651
+[Player][856651] Creating New Mongo Record
+[Player][856651] Failed to Save base Data: E11000 duplicate key error collection: erbs.players index: id_1 dup key: { id: 856651 }
+[Update] Triggering Second Delay
+[856651] Fetched Season 0 and 1 Data
+[Player][856651] Updated Season Records
+[Match][1480010] Mongo Record Is New: Yes
+[Match][1480010] Saved
+[Match][1476537] Mongo Record Is New: No
+[Match][1476537] Saved
+[Match][1475256] Mongo Record Is New: Yes
+[Match][1475256] Saved
+[Match][1472570] Mongo Record Is New: No
+[Match][1472570] Saved
+[Match][1467769] Mongo Record Is New: Yes
+[Match][1467769] Saved
+[Match][1464028] Mongo Record Is New: Yes
+[Match][1464028] Saved
+[Match][1462964] Mongo Record Is New: Yes
+[Match][1462964] Saved
+[Match][1419521] Mongo Record Is New: No
+[Match][1419521] Saved
+[Match][1417559] Mongo Record Is New: No
+[Match][1417559] Saved
+[Match][1399282] Mongo Record Is New: Yes
+[Match][1399282] Saved
+[Update][856651] Took less than 1500ms to process, waiting
+[Player][Processing] 1323616
+[Player][1323616] Updating Existing Mongo Record
+[Player][1323616] Saved Base Data
+[Update] Triggering Second Delay
+[1323616] Fetched Season 0 and 1 Data
+[Player][1323616] Updated Season Records
+[Match][1492547] Mongo Record Is New: Yes
+[Match][1492547] Saved
+[Match][1490357] Mongo Record Is New: Yes
+[Match][1490357] Saved
+[Match][1484367] Mongo Record Is New: Yes
+[Match][1484367] Saved
+[Match][1480684] Mongo Record Is New: Yes
+[Match][1480684] Saved
+[Match][1477884] Mongo Record Is New: Yes
+[Match][1477884] Saved
+[Match][1476897] Mongo Record Is New: Yes
+[Match][1476897] Saved
+[Match][1476040] Mongo Record Is New: Yes
+[Match][1476040] Saved
+[Match][1473525] Mongo Record Is New: Yes
+[Match][1473525] Saved
+[Match][1468239] Mongo Record Is New: Yes
+[Match][1468239] Saved
+[Match][1466477] Mongo Record Is New: Yes
+[Match][1466477] Saved
+[Update][1323616] Took less than 1500ms to process, waiting
+[Player][Processing] 374231
+[Player][374231] Updating Existing Mongo Record
+[Player][374231] Saved Base Data
+[Update] Triggering Second Delay
+[374231] Fetched Season 0 and 1 Data
+[Player][374231] Updated Season Records
+[Match][1497191] Mongo Record Is New: Yes
+[Match][1497191] Saved
+[Match][1496119] Mongo Record Is New: Yes
+[Match][1496119] Saved
+[Match][1494815] Mongo Record Is New: No
+[Match][1494815] Saved
+[Match][1491723] Mongo Record Is New: Yes
+[Match][1491723] Saved
+[Match][1488964] Mongo Record Is New: Yes
+[Match][1488964] Saved
+[Match][1486145] Mongo Record Is New: Yes
+[Match][1486145] Saved
+[Match][1485143] Mongo Record Is New: Yes
+[Match][1485143] Saved
+[Match][1484217] Mongo Record Is New: Yes
+[Match][1484217] Saved
+[Match][1481154] Mongo Record Is New: No
+[Match][1481154] Saved
+[Match][1477623] Mongo Record Is New: Yes
+[Match][1477623] Saved
+[Update][374231] Took less than 1500ms to process, waiting
+[Player][Processing] 333373
+[Player][333373] Creating New Mongo Record
+[Player][333373] Failed to Save base Data: E11000 duplicate key error collection: erbs.players index: id_1 dup key: { id: 333373 }
+[Update] Triggering Second Delay
+[333373] Fetched Season 0 and 1 Data
+[Player][333373] Updated Season Records
