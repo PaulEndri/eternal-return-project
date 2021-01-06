@@ -23,7 +23,7 @@ export class Region extends Entity implements ILocation {
     super(seed);
 
     this.drops.forEach(({ name, quantity }) => {
-      this.materials.add(name as Items, +quantity);
+      this.materials.add(Items[name.replace(' ', '')], +quantity);
     });
   }
 
