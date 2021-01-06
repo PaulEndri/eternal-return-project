@@ -1,7 +1,7 @@
 {
-  "name": "erbs-client",
+  "name": "[sample]",
   "version": "1.4.1",
-  "description": "Eternal Return: Black Survival Api Client",
+  "description": "[Sample]",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/",
@@ -11,12 +11,9 @@
   },
   "author": "Paul Endri",
   "license": "ISC",
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/PaulEndri/eternal-return-project",
-    "directory": "packages/client"
+    "directory": "packages/[sample]"
   }
 }

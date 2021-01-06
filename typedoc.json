@@ -1,10 +1,12 @@
 {
     "out": "docs",
+    "mode": "file",
     "entryPoint": "./packages/client/src/index.ts ./packages/wikidata/src/index.ts",
     "exclude": [
         "**/interfaces/*",
         "./src/scrapers/core.ts",
-        "node_modules/*"
+        "node_modules/*",
+        "**tests/*"
     ],
     "excludePrivate": true,
     "excludeProtected": true,
