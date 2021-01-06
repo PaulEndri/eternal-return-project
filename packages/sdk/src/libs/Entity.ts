@@ -5,9 +5,7 @@ export class Entity implements IElement {
   static SOURCES_ARRAY: any[];
 
   static Generate(seed) {
-    const Constructor: any = this.prototype.constructor;
-
-    return new Constructor(this.GetEntity(seed));
+    return new this(this.GetEntity(seed));
   }
 
   static GetEntity(seed) {
@@ -32,7 +30,7 @@ export class Entity implements IElement {
   public id: string | number = 0;
 
   constructor(seed) {
-    const Constructor: any = this.constructor.prototype;
+    const Constructor: any = this.constructor;
 
     const source = Constructor.GetEntity(seed);
 
