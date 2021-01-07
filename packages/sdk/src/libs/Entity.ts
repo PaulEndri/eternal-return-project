@@ -3,7 +3,6 @@ import { IElement } from '../interfaces';
 export class Entity implements IElement {
   static SOURCES: Record<string, any>;
   static SOURCES_ARRAY: any[];
-  static CACHE = {};
 
   static Generate(seed) {
     const constructor: any = this.prototype.constructor;
@@ -35,11 +34,7 @@ export class Entity implements IElement {
     let source;
     const Constructor: any = this.constructor;
 
-    if (Constructor.CACHE[seed]) {
-      source = Constructor.CACHE[seed];
-    } else {
-      source = Constructor.GetEntity(seed);
-    }
+    source = Constructor.GetEntity(seed);
 
     if (source) {
       Constructor.CACHE[source.id] = source;
