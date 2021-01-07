@@ -5,7 +5,8 @@ export class Entity implements IElement {
   static SOURCES_ARRAY: any[];
 
   static Generate(seed) {
-    return new this(this.GetEntity(seed));
+    const constructor: any = this.prototype.constructor;
+    return new constructor(this.GetEntity(seed));
   }
 
   static GetEntity(seed) {
