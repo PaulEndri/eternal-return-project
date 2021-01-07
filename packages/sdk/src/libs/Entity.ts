@@ -3,10 +3,11 @@ import { IElement } from '../interfaces';
 export class Entity implements IElement {
   static SOURCES: Record<string, any>;
   static SOURCES_ARRAY: any[];
+  static CACHE = {};
 
   static Generate(seed) {
     const constructor: any = this.prototype.constructor;
-    return new constructor(this.GetEntity(seed));
+    return new constructor(seed);
   }
 
   static GetEntity(seed) {
@@ -31,11 +32,20 @@ export class Entity implements IElement {
   public id: string | number = 0;
 
   constructor(seed) {
+    let source;
     const Constructor: any = this.constructor;
 
-    const source = Constructor.GetEntity(seed);
+    if (Constructor.CACHE[seed]) {
+      source = Constructor.CACHE[seed];
+    } else {
+      source = Constructor.GetEntity(seed);
+    }
 
     if (source) {
+      Constructor.CACHE[source.id] = source;
+      Constructor.CACHE[seed] = source;
+      Constructor.CACHE[source.name] = source;
+
       Object.assign(this, source);
     }
   }
