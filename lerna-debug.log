@@ -1,0 +1,9 @@
+44 error Error: Command failed: git commit -m v1.5.8
+44 error On branch master
+44 error Your branch is up to date with 'origin/master'.
+44 error
+44 error nothing to commit, working tree clean
+44 error
+44 error     at makeError (/home/paulendri/Projects/erbs/node_modules/execa/index.js:174:9)
+44 error     at /home/paulendri/Projects/erbs/node_modules/execa/index.js:278:16
+44 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)

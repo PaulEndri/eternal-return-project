@@ -1,8 +1,8 @@
-import { Players } from "./models/player.model";
-import { Matches } from "./models/match.model";
-import { ErBsClient } from "erbs-client";
-import mongoose from "mongoose";
-import fs from "fs";
+import { Players } from './models/player.model';
+import { Matches } from './models/match.model';
+import { ErBsClient } from 'erbs-client';
+import mongoose from 'mongoose';
+import fs from 'fs';
 
 const logs = [];
 
@@ -13,11 +13,11 @@ const log = (message, ...args) => {
 };
 
 setInterval(() => {
-  fs.writeFileSync("src/logs.txt", logs.join("\n"));
+  fs.writeFileSync('src/logs.txt', logs.join('\n'));
 }, 1000 * 30);
 
 mongoose.connect(
-  "mongodb+srv://local:test@cluster0.pvbke.mongodb.net/erbs?retryWrites=true&w=majority",
+  'mongodb+srv://local:test@cluster0.pvbke.mongodb.net/erbs?retryWrites=true&w=majority',
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
@@ -55,7 +55,7 @@ const main = async () => {
       try {
         const player = await Players.findOne({
           id: nextPlayerId,
-          name: playerCache[nextPlayerId],
+          name: playerCache[nextPlayerId]
         });
 
         if (player) {
@@ -74,13 +74,21 @@ const main = async () => {
           await Players.create({
             id: nextPlayerId,
             name: playerCache[nextPlayerId],
-            matches: matchIds,
+            matches: matchIds
           });
         }
 
         log(`[Player][${nextPlayerId}] Saved Base Data`);
       } catch (e) {
-        log(`[Player][${nextPlayerId}] Failed to Save base Data: ${e.message}`, e);
+        log(
+          `[Player][${nextPlayerId}] Failed to Save base Data: ${e.message}`,
+          e
+        );
+
+        await Players.deleteMany({ id: nextPlayerId });
+
+        log(`[Player][${nextPlayerId}] Reset in Mongo, adding back to Queue`);
+        playerQueue.add(nextPlayerId);
       }
 
       log(`[Update] Triggering Second Delay`);
@@ -88,7 +96,7 @@ const main = async () => {
 
       const data = [
         Client.getPlayerRecord(nextPlayerId, 0),
-        Client.getPlayerRecord(nextPlayerId, 1),
+        Client.getPlayerRecord(nextPlayerId, 1)
       ];
 
       log(`[${nextPlayerId}] Fetched Season 0 and 1 Data`);
@@ -98,13 +106,13 @@ const main = async () => {
         {
           lastUpdated: new Date(),
           season: 0,
-          info: zeroData,
+          info: zeroData
         },
         {
           lastUpdated: new Date(),
           season: 1,
-          info: oneData,
-        },
+          info: oneData
+        }
       ];
 
       startTime = new Date().valueOf();
@@ -118,7 +126,10 @@ const main = async () => {
 
         log(`[Player][${nextPlayerId}] Updated Season Records`);
       } catch (e) {
-        log(`[Player][${nextPlayerId}] Failed to Update Season Records: ${e.message}`, e);
+        log(
+          `[Player][${nextPlayerId}] Failed to Update Season Records: ${e.message}`,
+          e
+        );
       }
 
       for (const match of matches) {
@@ -133,7 +144,7 @@ const main = async () => {
 
           log(
             `[Match][${match.gameId}] Mongo Record Is New: ${
-              !matchRecord || matchRecord.isNew ? "Yes" : "No"
+              !matchRecord || matchRecord.isNew ? 'Yes' : 'No'
             }`
           );
 
@@ -143,13 +154,15 @@ const main = async () => {
             gameMode: match.matchingTeamMode,
             version: {
               major: match.versionMajor,
-              minor: match.versionMinor,
-            },
+              minor: match.versionMinor
+            }
           };
 
           if (!matchRecord || !matchRecord.data || !matchRecord.data.length) {
             update.data = [match];
-          } else if (!matchRecord.data.some(({ userNum }) => userNum === nextPlayerId)) {
+          } else if (
+            !matchRecord.data.some(({ userNum }) => userNum === nextPlayerId)
+          ) {
             update.data = [...matchRecord.data, match];
           }
 
@@ -162,6 +175,10 @@ const main = async () => {
           log(`[Match][${match.gameId}] Saved`);
         } catch (e) {
           log(`[Match][${match.gameId}] Failed to Save: ${e.message}`, e);
+
+          await Matches.deleteMany({ id: match.gameId });
+
+          log(`[Match][${match.gameId}] Purged from Records`);
         }
       }
     } catch (e) {
@@ -169,12 +186,14 @@ const main = async () => {
     }
 
     if (new Date().valueOf() - startTime < 1500) {
-      log(`[Update][${nextPlayerId}] Took less than 1500ms to process, waiting`);
+      log(
+        `[Update][${nextPlayerId}] Took less than 1500ms to process, waiting`
+      );
       await delay();
     }
   }
 };
 
 main().then(() => {
-  log("[Error] We Shouldnt Be Here");
+  log('[Error] We Shouldnt Be Here');
 });

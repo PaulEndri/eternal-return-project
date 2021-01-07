@@ -8,24 +8,15 @@ import {
   Items,
   WeaponsLookup
 } from '../constants';
-import { CodedMaterialList, ILocation } from '../interfaces';
-import { Locations as LocationData } from 'erbs-data';
+import { CodedMaterialList } from '../interfaces';
 import { LoadoutKeys } from '../constants/LoadoutKeys';
 import { BasicLoadout } from '../types/loadout';
+import { Location } from './Location';
 
 export class Loadout {
   private _totalMaterials: MaterialList;
   private _totalCount: number;
-  private _regions: Record<Partial<Locations>, ILocation>;
-
-  constructor(
-    readonly Chest: Item<Armors.Chest, Armors.Chest>,
-    readonly Arm: Item<Armors.Arm, Armors.Arm>,
-    readonly Leg: Item<Armors.Leg, Armors.Leg>,
-    readonly Head: Item<Armors.Head, Armors.Head>,
-    readonly Weapon: Item<WeaponsLookup, Weapons>,
-    readonly Accessory: Item<Armors.Accessory, Armors.Accessory>
-  ) {}
+  private _regions: Record<Partial<Locations>, Location>;
 
   static GenerateLoadout(data: BasicLoadout) {
     return new Loadout(
@@ -38,6 +29,41 @@ export class Loadout {
     );
   }
 
+  constructor(
+    readonly Chest: Item<Armors.Chest, Armors.Chest>,
+    readonly Arm: Item<Armors.Arm, Armors.Arm>,
+    readonly Leg: Item<Armors.Leg, Armors.Leg>,
+    readonly Head: Item<Armors.Head, Armors.Head>,
+    readonly Weapon: Item<WeaponsLookup, Weapons>,
+    readonly Accessory: Item<Armors.Accessory, Armors.Accessory>
+  ) {
+    this.generateMaterialList();
+  }
+
+  private generateMaterialList() {
+    const totalMaterials = new MaterialList();
+
+    if (this.starterItem) {
+      totalMaterials.add(this.starterItem, 1);
+    }
+
+    const itemMaterials = this.items
+      .filter((v) => v)
+      .map((item) => {
+        return item.materials;
+      });
+
+    totalMaterials.addFromLists(itemMaterials);
+
+    this._totalMaterials = totalMaterials;
+  }
+
+  private clearInternals() {
+    this._totalMaterials = null;
+    this._totalCount = null;
+    this._regions = null;
+  }
+
   public get starterItem() {
     return this.Weapon ? StarterWeaponsByLookup[this.Weapon.apiType] : null;
   }
@@ -47,7 +73,7 @@ export class Loadout {
       this.Chest,
       this.Arm,
       this.Leg,
-      this.Head,
+      this.Weapon,
       this.Head,
       this.Accessory
     ];
@@ -55,17 +81,7 @@ export class Loadout {
 
   public get materials(): CodedMaterialList {
     if (!this._totalMaterials) {
-      const totalMaterials = new MaterialList();
-
-      totalMaterials.add(this.starterItem, 1);
-
-      totalMaterials.addFromLists(
-        this.items
-          .map((item) => (item ? item.requirements : null))
-          .filter((v) => v)
-      );
-
-      this._totalMaterials = totalMaterials;
+      this.generateMaterialList();
     }
 
     return this._totalMaterials.list;
@@ -85,18 +101,17 @@ export class Loadout {
   public get regions() {
     if (!this._regions) {
       const materials = this.materials;
-      const regions: Record<Partial<Locations>, ILocation> = {} as any;
+      const regions: Record<Partial<Locations>, Location> = {} as any;
       const excludedMats: number[] = [Items.Stone, Items.Leather, Items.Branch];
-
       Object.keys(materials)
         .filter((mat) => !excludedMats.includes(+mat))
         .forEach((mat) => {
           const materialName = Items[+mat];
-          const material = Item.Generate(materialName) as Item;
+          const material = Item.Generate(materialName);
 
           Object.keys(material.locations).forEach((location) => {
             if (!regions[location]) {
-              regions[location] = LocationData[location];
+              regions[location] = new Location(location);
             }
           });
         });
@@ -109,10 +124,23 @@ export class Loadout {
     return this._regions;
   }
 
-  private clearInternals() {
-    this._totalMaterials = null;
-    this._totalCount = null;
-    this._regions = null;
+  public getWeights(weights = {}) {
+    const materialWeights = new MaterialList();
+
+    this.items
+      .filter((v) => v)
+      .forEach((item) => {
+        const itemWeight = weights[item.clientMetaData.type] || 1;
+
+        Object.keys(item.materials).forEach((id) => {
+          materialWeights.set(
+            +id,
+            Math.max(materialWeights.get(+id) || itemWeight)
+          );
+        });
+      });
+
+    return materialWeights;
   }
 
   public setSlot(slot: LoadoutKeys, item: Item, immutable = true) {
@@ -209,15 +237,15 @@ export class Loadout {
     return this.items.filter((item) => item.canComplete(materials));
   }
 
-  public getItemWeight(name: string, value) {
-    return +value / this.materials[name];
-  }
+  // public getItemWeight(name: string, value) {
+  //   return +value / this.materials[name];
+  // }
 
-  public getRegionWeight(
-    baseValue: number,
-    byProductsCompleted: number,
-    canTeleport: boolean
-  ) {
-    return baseValue * (byProductsCompleted / 10 + 1) * (canTeleport ? 1.1 : 1);
-  }
+  // public getRegionWeight(
+  //   baseValue: number,
+  //   byProductsCompleted: number,
+  //   canTeleport: boolean
+  // ) {
+  //   return baseValue * (byProductsCompleted / 10 + 1) * (canTeleport ? 1.1 : 1);
+  // }
 }

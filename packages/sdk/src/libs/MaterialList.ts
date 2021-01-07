@@ -1,3 +1,4 @@
+import { Items } from 'erbs-data';
 import { CodedMaterialList } from '../interfaces/IMaterialList';
 
 export class MaterialList {
@@ -5,6 +6,10 @@ export class MaterialList {
 
   public constructor() {
     this.list = {} as any;
+  }
+
+  public get(value: number) {
+    return this.list[value];
   }
 
   public set(value: number, number = 0) {
@@ -33,7 +38,7 @@ export class MaterialList {
 
   public addFromList(list: CodedMaterialList) {
     Object.entries(list).forEach(([key, val]: [any, number]) =>
-      this.add(+key, val)
+      this.add(key, val)
     );
   }
 
@@ -47,5 +52,17 @@ export class MaterialList {
     _list.list = { ...this.list };
 
     return _list;
+  }
+
+  public getAllCraftableItems(idsOnly = false) {
+    const results = Object.values(Items).filter(({ buildsFrom }) =>
+      buildsFrom.every(({ id }) => this.list[id])
+    );
+
+    if (idsOnly) {
+      return results.map(({ id }) => id);
+    }
+
+    return results;
   }
 }

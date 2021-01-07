@@ -83,10 +83,15 @@ export class Item<A extends string = any, T extends string = any>
     }
 
     return Object.fromEntries(
-      Object.entries(this.requirements).map(([name, quantity]) => [
-        Items[name.replace(' ', '')],
-        quantity
-      ])
+      Object.entries(this.requirements).map(([name, quantity]) => {
+        const lookUpName = name
+          .split(' ')
+          .map(([first, ...rest]) => `${first.toUpperCase()}${rest.join('')}`)
+          .join('')
+          .replace("'", '');
+
+        return [Items[lookUpName].id, quantity];
+      })
     );
   }
 
