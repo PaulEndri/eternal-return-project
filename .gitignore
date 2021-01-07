@@ -9,3 +9,4 @@ packages/*/dist/
 playground/src/generated
 .env
 
+playground/src/logs.txt
