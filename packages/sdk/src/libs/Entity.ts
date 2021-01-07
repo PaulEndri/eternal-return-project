@@ -37,10 +37,6 @@ export class Entity implements IElement {
     source = Constructor.GetEntity(seed);
 
     if (source) {
-      Constructor.CACHE[source.id] = source;
-      Constructor.CACHE[seed] = source;
-      Constructor.CACHE[source.name] = source;
-
       Object.assign(this, source);
     }
   }
