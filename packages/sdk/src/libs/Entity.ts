@@ -1,16 +1,23 @@
 import { IElement } from '../interfaces';
+import { DataCache } from './DataCache';
 
 export class Entity implements IElement {
-  static SOURCES: Record<string, any> = {};
-  static SOURCES_ARRAY: any[] = [];
+  static SOURCE_KEY = '';
+
+  static get SOURCES() {
+    const constructor: any = this.prototype.constructor;
+
+    return DataCache[constructor.SOURCE_KEY];
+  }
 
   static Generate(seed) {
     const constructor: any = this.prototype.constructor;
+
     return new constructor(seed);
   }
 
   static GetEntity(seed) {
-    const Constructor: any = this.prototype.constructor;
+    const constructor: any = this.prototype.constructor;
 
     if (!seed) {
       throw new Error('Seed Must Be Provided');
@@ -18,11 +25,13 @@ export class Entity implements IElement {
       return seed;
     }
 
-    if (Constructor.SOURCES[seed]) {
-      return Constructor.SOURCES[seed];
+    if (constructor.SOURCES[seed]) {
+      return constructor.SOURCES[seed];
     }
 
-    return Constructor.SOURCES_ARRAY.find(({ id, name, displayName }: any) =>
+    return Object.values(
+      constructor.SOURCES
+    ).find(({ id, name, displayName }: any) =>
       [id, name, displayName].includes(seed)
     );
   }
@@ -32,9 +41,9 @@ export class Entity implements IElement {
 
   constructor(seed) {
     let source;
-    const Constructor: any = this.constructor;
+    const constructor: any = this.constructor;
 
-    source = Constructor.GetEntity(seed);
+    source = constructor.GetEntity(seed);
 
     if (source) {
       Object.assign(this, source);

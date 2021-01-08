@@ -1,6 +1,11 @@
 import { Loadout } from '../Loadout';
+import { setStaticCache } from '../../utilities/setStaticCache';
 
 describe('[Class] Loadout', () => {
+  beforeAll(() => {
+    setStaticCache();
+  });
+
   describe('[Static]', () => {
     describe('GenerateLoadout', () => {
       it('should generate a new class instance', () => {

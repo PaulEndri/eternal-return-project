@@ -6,18 +6,15 @@ import {
   ICharacterInitialStat,
   ICharacterLevelUpStat
 } from '../interfaces';
-import { Characters as CharacterData, Weapons } from 'erbs-data';
 import { ErBsClient } from 'erbs-client';
 import { Item } from './Item';
 import { Entity } from './Entity';
-
-const WeaponsArray = Object.values(Weapons);
-const CharactersArray = Object.values(CharacterData);
+import { DataCache } from './DataCache';
+import { IWeaponType } from '../interfaces/IWeaponType';
 
 export class Character extends Entity implements ICharacter {
   static CLIENT = new ErBsClient();
-  static SOURCES = CharacterData;
-  static SOURCES_ARRAY = CharactersArray;
+  static SOURCE_KEY = 'Characters';
 
   public background?: string;
   public attributes: ICharacterAttribute[];
@@ -37,8 +34,10 @@ export class Character extends Entity implements ICharacter {
   }
 
   public loadWeaponOptions(full = true) {
-    const weaponTypeData = this.weapons.map((wpnLookup) =>
-      WeaponsArray.find((wpn) => wpn.apiMetaData.name === wpnLookup)
+    const weaponTypeData: IWeaponType[] = this.weapons.map((wpnLookup) =>
+      Object.values<IWeaponType>(DataCache.Weapons).find(
+        (wpn) => wpn.apiMetaData.name === wpnLookup
+      )
     );
 
     if (full) {

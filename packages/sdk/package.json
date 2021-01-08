@@ -16,7 +16,10 @@
     "url": "https://github.com/PaulEndri/eternal-return-project",
     "directory": "packages/sdk"
   },
+  "dependencies": {
+    "erbs-client": "^1.6.0"
+  },
   "peerDependencies": {
-    "erbs-data": "^1.5.0"
+    "erbs-data": "^1.6.0"
   }
 }

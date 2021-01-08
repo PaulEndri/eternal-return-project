@@ -9,3 +9,5 @@ export * from './libs/WeaponType';
 export * from './libs/ArmorType';
 export * from './libs/Animal';
 export * from './libs/Route';
+
+export * from './utilities/setStaticCache';

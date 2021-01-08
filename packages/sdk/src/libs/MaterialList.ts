@@ -1,5 +1,5 @@
-import { Items } from 'erbs-data';
 import { CodedMaterialList } from '../interfaces/IMaterialList';
+import { DataCache } from './DataCache';
 
 export class MaterialList {
   public list: CodedMaterialList;
@@ -55,7 +55,7 @@ export class MaterialList {
   }
 
   public getAllCraftableItems(idsOnly = false) {
-    const results = Object.values(Items).filter(({ buildsFrom }) =>
+    const results = Object.values(DataCache.Items).filter(({ buildsFrom }) =>
       buildsFrom.every(({ id }) => this.list[id])
     );
 

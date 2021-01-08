@@ -2,8 +2,13 @@ import { LoadoutKeys } from '../../constants/LoadoutKeys';
 import { Loadout } from '../Loadout';
 import { Route } from '../Route';
 import fs from 'fs';
+import { setStaticCache } from '../../utilities/setStaticCache';
 
 describe('[Class] Route', () => {
+  beforeAll(() => {
+    setStaticCache();
+  });
+
   describe('[Instance]', () => {
     describe('constructor', () => {
       it('should return a material list equivalent to a passed in loadout, minus global items', () => {

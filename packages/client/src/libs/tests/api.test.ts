@@ -1,6 +1,8 @@
 import { ErBsClient } from '../api';
 // @ts-ignore
 import fetch from 'node-fetch';
+import { MetaTypes } from '../../constants/MetaTypes';
+import { ROUTES } from '../../constants/Routes';
 
 const FORCE_FETCH_FAILURE = 'forceFetchFail';
 
@@ -132,6 +134,12 @@ describe('[Class] ErBsClient', () => {
         instance['call'] = generateMockCall();
       });
 
+      afterEach(() => {
+        jest.resetAllMocks();
+        jest.clearAllMocks();
+        instance.flushCache();
+      });
+
       describe('getCharacters()', () => {
         it('should call getCharacterData(), getCharacterAttributes(), and getCharacterLevelUpStats() once each', async () => {
           instance.getCharacterData = jest.fn(() => Promise.resolve([]));
@@ -145,6 +153,50 @@ describe('[Class] ErBsClient', () => {
           expect(instance.getCharacterLevelUpStats).toHaveBeenCalledTimes(1);
         });
       });
+
+      describe('getMetaData()', () => {
+        it('should make a call to fetch data with the provided meta type', async () => {
+          instance['call'] = jest.fn();
+          const spiedGenerateMethod = jest.spyOn(
+            instance,
+            'generateDataRoute' as any
+          );
+
+          await instance.getMetaData(MetaTypes.AreaSound);
+
+          expect(spiedGenerateMethod).toHaveBeenCalledWith(MetaTypes.AreaSound);
+          expect(instance['call']).toHaveBeenCalledWith(
+            ROUTES.data.default.replace('{metaType}', MetaTypes.AreaSound)
+          );
+        });
+      });
+
+      const metaRoutes = [
+        ['getCharacterData', MetaTypes.Character],
+        ['getCharacterAttributes', MetaTypes.CharacterAttributes],
+        ['getCharacterLevelUpStats', MetaTypes.CharacterLevelUpStat],
+        ['getItemSpawns', MetaTypes.ItemSpawn],
+        ['getArmors', MetaTypes.ItemArmor],
+        ['getWeapons', MetaTypes.ItemWeapon],
+        ['getConsumables', MetaTypes.ItemConsumable],
+        ['getMaterials', MetaTypes.ItemMisc],
+        ['getSpecialItems', MetaTypes.ItemSpecial],
+        ['getItemLocations', MetaTypes.HowToFindItem]
+      ];
+
+      for (const [endpoint, type] of metaRoutes) {
+        describe(`${endpoint}()`, () => {
+          it(`should call getMetaData with ${type}`, (done) => {
+            const mockedCall = (instance['getMetaData'] = jest.fn());
+
+            return instance[endpoint]().then(() => {
+              expect(mockedCall).toHaveBeenCalledWith(type);
+
+              return done();
+            });
+          });
+        });
+      }
     });
   });
 });

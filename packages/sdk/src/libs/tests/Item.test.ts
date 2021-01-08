@@ -1,7 +1,12 @@
 import { Items } from 'erbs-data';
+import { setStaticCache } from '../../utilities/setStaticCache';
 import { Item } from '../Item';
 
 describe('[Class] Item', () => {
+  beforeAll(() => {
+    setStaticCache();
+  });
+
   describe('[Static]', () => {
     describe('Generate()', () => {
       it('should return a new instance of the Item class with the provided seed', () => {

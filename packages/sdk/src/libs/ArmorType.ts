@@ -1,14 +1,10 @@
-import { Armors } from 'erbs-data';
 import { IElement } from '../interfaces';
 import { IArmorType } from '../interfaces/IArmorType';
 import { Entity } from './Entity';
 import { Item } from './Item';
 
-const ArmorTypesArray = Object.values(Armors);
-
 export class ArmorType extends Entity implements IArmorType {
-  static SOURCES = Armors;
-  static SOURCES_ARRAY = ArmorTypesArray;
+  static SOURCE_KEY = 'Armors';
 
   public name: string;
   public items: IElement<any>[];

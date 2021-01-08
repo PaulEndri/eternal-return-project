@@ -9,11 +9,13 @@ import { IElement } from './IElement';
 import { NamedMaterialList } from './IMaterialList';
 
 export interface IItemClientMetaData<T extends string = any> {
+  name?: string;
   type: T;
   category: Categories;
 }
 
 export interface IItemApiMetaData<T extends string = any> {
+  name?: string;
   code?: number;
   category?: CategoriesLookup;
   type?: T;

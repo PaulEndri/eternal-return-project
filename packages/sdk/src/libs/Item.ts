@@ -10,16 +10,13 @@ import {
   CodedMaterialList,
   NamedMaterialList
 } from '../interfaces/IMaterialList';
-import { Items } from 'erbs-data';
 import { Entity } from './Entity';
-
-const ItemsArray = Object.values(Items);
+import { DataCache } from './DataCache';
 
 export class Item<A extends string = any, T extends string = any>
   extends Entity
   implements IItem {
-  static SOURCES = Items;
-  static SOURCES_ARRAY = ItemsArray;
+  static SOURCE_KEY = 'Items';
 
   public rarity: string;
   public stats: IItemStats;
@@ -90,7 +87,7 @@ export class Item<A extends string = any, T extends string = any>
           .join('')
           .replace("'", '');
 
-        return [Items[lookUpName].id, quantity];
+        return [DataCache.Items[lookUpName].id, quantity];
       })
     );
   }

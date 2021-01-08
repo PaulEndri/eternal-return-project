@@ -1,5 +1,4 @@
 import { Locations as LocationsEnum, Items } from '../constants';
-import { Locations as LocationsData } from 'erbs-data';
 import {
   CodedMaterialList,
   IElement,
@@ -19,8 +18,7 @@ type LocationWeight = {
 };
 
 export class Location extends Entity implements ILocation {
-  static SOURCES = LocationsData;
-  static SOURCES_ARRAY = Object.values(LocationsData);
+  static SOURCE_KEY = 'Locations';
 
   public materials = new MaterialList();
   public drops: ILocationEntity[];

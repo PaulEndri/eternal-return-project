@@ -1,14 +1,10 @@
-import { Weapons } from 'erbs-data';
 import { IElement } from '../interfaces';
 import { IWeaponType } from '../interfaces/IWeaponType';
 import { Entity } from './Entity';
 import { Item } from './Item';
 
-const WeaponTypesArray = Object.values(Weapons);
-
 export class WeaponType extends Entity implements IWeaponType {
-  static SOURCES = Weapons;
-  static SOURCES_ARRAY = WeaponTypesArray;
+  static SOURCE_KEY = 'Weapons';
 
   public name: string;
   public abilityDetails: {

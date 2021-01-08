@@ -1,13 +1,9 @@
-import { Animals } from 'erbs-data';
 import { Locations } from '../constants';
 import { IAnimal, IAnimalDrop, IAnimalStats } from '../interfaces';
 import { Entity } from './Entity';
 
-const AnimalTypesArray = Object.values(Animals);
-
 export class Animal extends Entity implements IAnimal {
-  static SOURCES = Animals;
-  static SOURCES_ARRAY = AnimalTypesArray;
+  static SOURCE_KEY = 'Animals';
 
   public name: string;
   public locations: Record<Partial<Locations>, number>;
