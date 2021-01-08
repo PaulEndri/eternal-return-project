@@ -1,8 +1,8 @@
 import { IElement } from '../interfaces';
 
 export class Entity implements IElement {
-  static SOURCES: Record<string, any>;
-  static SOURCES_ARRAY: any[];
+  static SOURCES: Record<string, any> = {};
+  static SOURCES_ARRAY: any[] = [];
 
   static Generate(seed) {
     const constructor: any = this.prototype.constructor;
