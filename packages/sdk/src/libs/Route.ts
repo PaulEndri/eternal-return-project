@@ -4,20 +4,16 @@ import { Loadout } from './Loadout';
 import { MaterialList } from './MaterialList';
 import { Location } from './Location';
 import { LoadoutKeys } from '../constants/LoadoutKeys';
-import { Item } from './Item';
 
-type RouteNode = {
+export type RouteNode = {
   id: number;
   traversed: number[];
-  completed: Item[];
-  materials: MaterialList;
-  next: Record<number, RouteNode>;
+  completed: number[];
+  materials?: MaterialList;
+  next?: Record<number, RouteNode>;
 };
 
 export class Route {
-  static MAXIMUM_LOCATIONS = WEIGHTS.MAXIMUM_LOCATIONS;
-  static MINIMUM_ITEM_THRESHOLD = WEIGHTS.MINIMUM_ITEM_THRESHOLD;
-  static SHORT_ITEM_THRESHOLD = WEIGHTS.SHORT_ITEM_THRESHOLD;
   static UNIVERSAL_ITEMS: number[] = [
     Items.Stone,
     Items.Leather,
@@ -32,6 +28,9 @@ export class Route {
   private locations: Location[];
   private keyedLocations: Record<number, Location>;
   private weightedMaterials: MaterialList;
+
+  private leafRoutes: RouteNode[] = [];
+  private routeNodes: RouteNode;
 
   constructor(
     public loadout: Loadout,
@@ -95,7 +94,7 @@ export class Route {
     };
   }
 
-  private recursiveNode(parentNode: RouteNode, location: Location, index = 0) {
+  private recursiveNode(parentNode: RouteNode, location: Location, index = 1) {
     const newList = parentNode.materials.clone();
     newList.addFromList(location.materials.list);
 
@@ -103,26 +102,60 @@ export class Route {
       id: +location.id,
       traversed: [...parentNode.traversed, +location.id],
       materials: newList,
-      completed: this.loadout.checkCompletedItems(newList.list),
+      completed: this.loadout
+        .checkCompletedItems(newList.list)
+        .map((item) => +item.id),
       next: null
     };
 
-    const nodes =
-      index > 3
-        ? null
-        : location.connections
-            .filter(({ id }) => !node.traversed.includes(+id))
-            .map((loc) => [
-              loc.id,
-              this.recursiveNode(node, this.keyedLocations[loc.id], index + 1)
-            ]);
+    if (index >= 2 && node.completed.length < WEIGHTS.MINIMUM_ITEM_THRESHOLD) {
+      return node;
+    } else if (
+      index === WEIGHTS.MAXIMUM_LOCATIONS &&
+      node.completed.length < WEIGHTS.SHORT_ITEM_THRESHOLD
+    ) {
+      return node;
+    }
 
-    node.next = nodes ? Object.fromEntries(nodes) : null;
+    if (index >= WEIGHTS.MAXIMUM_LOCATIONS) {
+      this.leafRoutes.push(node);
+      return node;
+    }
+
+    if (location.teleport) {
+      node.next = Object.fromEntries(
+        Object.keys(this.keyedLocations)
+          .filter((id) => !node.traversed.includes(+id))
+          .map((id) => [
+            id,
+            this.recursiveNode(node, this.keyedLocations[id], index + 1)
+          ])
+      );
+    } else {
+      node.next = Object.fromEntries(
+        location.connections
+          .filter(({ id }) => !node.traversed.includes(+id))
+          .map((loc) => [
+            loc.id,
+            this.recursiveNode(node, this.keyedLocations[loc.id], index + 1)
+          ])
+      );
+    }
 
     return node;
   }
 
-  public generate(startingPoint?: number) {
+  public generate(startingPoint?: number, startingNodes = 1) {
+    if (
+      this.routeNodes &&
+      (!startingPoint || this.routeNodes.next[startingPoint])
+    ) {
+      return {
+        root: this.routeNodes,
+        routes: this.leafRoutes
+      };
+    }
+
     const results: RouteNode = {
       completed: [],
       id: 0,
@@ -141,7 +174,7 @@ export class Route {
 
     const startingPoints = startingPoint
       ? [startingPoint]
-      : rawNodes.locations.slice(0, 4).map(([id]) => id);
+      : rawNodes.locations.slice(0, startingNodes).map(([id]) => id);
 
     results.next = Object.fromEntries(
       startingPoints.map((id) => [
@@ -150,6 +183,14 @@ export class Route {
       ])
     );
 
-    return results;
+    this.leafRoutes = this.leafRoutes
+      .sort((a, b) => b.completed.length - a.completed.length)
+      .map(({ materials, ...route }) => route);
+    this.routeNodes = results;
+
+    return {
+      root: this.routeNodes,
+      routes: this.leafRoutes
+    };
   }
 }

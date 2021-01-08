@@ -75,7 +75,7 @@ describe('[Class] Route', () => {
     });
 
     describe('generate()', () => {
-      it('should do stuff', () => {
+      it('should generate all possible routes', () => {
         const loadout = Loadout.GenerateLoadout({
           Chest: 'OpticalCamouflageSuit',
           Arm: 'CubeWatch',
@@ -94,7 +94,8 @@ describe('[Class] Route', () => {
         const results = route.generate();
 
         fs.writeFileSync('things.json', JSON.stringify(results, null, 2));
-        expect(results).toEqual(true);
+        expect(results).toHaveProperty('root');
+        expect(results).toHaveProperty('routes');
       });
     });
   });
