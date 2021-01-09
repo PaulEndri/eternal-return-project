@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const CarbonatedWater: Item = {
 	"id": 301107,
 	"name": "CarbonatedWater",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Lemonade",
@@ -36,6 +35,7 @@ export const CarbonatedWater: Item = {
 		"Uptown": 5
 	},
 	"foundQuantity": 1,
+	"buildsFrom": [],
 	"displayName": "Carbonated Water",
 	"apiMetaData": {
 		"code": 301107,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const OpticalCamouflageSuit: Item = {
 	"id": 202405,
 	"name": "OpticalCamouflageSuit",
-	"buildsFrom": [
-		{
-			"name": "Diving Suit",
-			"id": 202210
-		},
-		{
-			"name": "Glass Panel",
-			"id": 401305
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Rubber": 1,
@@ -33,6 +23,16 @@ export const OpticalCamouflageSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "In the right environment, body parts covered by the suit become invisible.",
+	"buildsFrom": [
+		{
+			"name": "Diving Suit",
+			"id": 202210
+		},
+		{
+			"name": "Glass Panel",
+			"id": 401305
+		}
+	],
 	"displayName": "Optical Camouflage Suit",
 	"apiMetaData": {
 		"code": 202405,

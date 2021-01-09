@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FlowerOfFate: Item = {
 	"id": 205203,
 	"name": "FlowerOfFate",
-	"buildsFrom": [
-		{
-			"name": "Flower",
-			"id": 205102
-		},
-		{
-			"name": "Playing Cards",
-			"id": 113102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Apricot Sword",
@@ -38,6 +28,16 @@ export const FlowerOfFate: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Flower",
+			"id": 205102
+		},
+		{
+			"name": "Playing Cards",
+			"id": 113102
+		}
+	],
 	"displayName": "Flower of Fate",
 	"apiMetaData": {
 		"code": 205203,

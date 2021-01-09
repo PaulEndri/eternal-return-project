@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ElectronicParts: Item = {
 	"id": 401211,
 	"name": "ElectronicParts",
-	"buildsFrom": [
-		{
-			"name": "Battery",
-			"id": 401110
-		},
-		{
-			"name": "Piano Wire",
-			"id": 502104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Railgun",
@@ -51,6 +41,16 @@ export const ElectronicParts: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can likely craft something out of this.",
+	"buildsFrom": [
+		{
+			"name": "Battery",
+			"id": 401110
+		},
+		{
+			"name": "Piano Wire",
+			"id": 502104
+		}
+	],
 	"displayName": "Electronic Parts",
 	"apiMetaData": {
 		"code": 401211,

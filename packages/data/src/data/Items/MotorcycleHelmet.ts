@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MotorcycleHelmet: Item = {
 	"id": 201405,
 	"name": "MotorcycleHelmet",
-	"buildsFrom": [
-		{
-			"name": "Fire Helmet",
-			"id": 201302
-		},
-		{
-			"name": "Binoculars",
-			"id": 205110
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bike Helmet": 1,
@@ -32,6 +22,16 @@ export const MotorcycleHelmet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Fire Helmet",
+			"id": 201302
+		},
+		{
+			"name": "Binoculars",
+			"id": 205110
+		}
+	],
 	"displayName": "Motorcycle Helmet",
 	"apiMetaData": {
 		"code": 201405,

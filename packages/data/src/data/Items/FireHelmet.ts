@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FireHelmet: Item = {
 	"id": 201302,
 	"name": "FireHelmet",
-	"buildsFrom": [
-		{
-			"name": "Safety Helmet",
-			"id": 201205
-		},
-		{
-			"name": "Water",
-			"id": 301102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Motorcycle Helmet",
@@ -34,6 +24,16 @@ export const FireHelmet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Head protection for firefighters. Strong resistance to flames and heat. Also equipped with a flashlight!",
+	"buildsFrom": [
+		{
+			"name": "Safety Helmet",
+			"id": 201205
+		},
+		{
+			"name": "Water",
+			"id": 301102
+		}
+	],
 	"displayName": "Fire Helmet",
 	"apiMetaData": {
 		"code": 201302,

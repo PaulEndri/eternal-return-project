@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Longbow: Item = {
 	"id": 114202,
 	"name": "Longbow",
-	"buildsFrom": [
-		{
-			"name": "Bow",
-			"id": 114101
-		},
-		{
-			"name": "Rubber",
-			"id": 401105
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Composite Bow",
@@ -41,6 +31,16 @@ export const Longbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A unique Korean bow incorporating a horn in its designs. Anyone can use the bow, as it will adapt to the user.",
+	"buildsFrom": [
+		{
+			"name": "Bow",
+			"id": 114101
+		},
+		{
+			"name": "Rubber",
+			"id": 401105
+		}
+	],
 	"displayName": "Longbow",
 	"apiMetaData": {
 		"code": 114202,

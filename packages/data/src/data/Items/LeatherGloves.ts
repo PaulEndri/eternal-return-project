@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LeatherGloves: Item = {
 	"id": 110201,
 	"name": "LeatherGloves",
-	"buildsFrom": [
-		{
-			"name": "Cotton Gloves",
-			"id": 110102
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Phoenix Gloves",
@@ -36,6 +26,16 @@ export const LeatherGloves: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "Cotton Gloves",
+			"id": 110102
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Leather Gloves",
 	"apiMetaData": {
 		"code": 110201,

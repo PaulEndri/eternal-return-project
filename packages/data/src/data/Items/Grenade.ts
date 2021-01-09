@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Grenade: Item = {
 	"id": 112202,
 	"name": "Grenade",
-	"buildsFrom": [
-		{
-			"name": "Iron Ball",
-			"id": 112103
-		},
-		{
-			"name": "Gunpowder",
-			"id": 401121
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "High Explosive Grenade",
@@ -35,6 +25,16 @@ export const Grenade: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Be careful! The moment you relax and forget you're carrying a grenade is the moment that you become a victim. Boom.",
+	"buildsFrom": [
+		{
+			"name": "Iron Ball",
+			"id": 112103
+		},
+		{
+			"name": "Gunpowder",
+			"id": 401121
+		}
+	],
 	"displayName": "Grenade",
 	"apiMetaData": {
 		"code": 112202,

@@ -9,8 +9,8 @@ const SWITCHES = {
   DATA: false,
   NEW_DATA: false,
   CLIENT_DATA: false,
-  MASTER_DATA: false,
-  OBJECTS: false,
+  MASTER_DATA: true,
+  OBJECTS: true,
   ENUMS: true
 };
 

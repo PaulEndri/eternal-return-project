@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Honey: Item = {
 	"id": 301101,
 	"name": "Honey",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Cola",
@@ -48,6 +47,7 @@ export const Honey: Item = {
 		"Forest": 6
 	},
 	"foundQuantity": 2,
+	"buildsFrom": [],
 	"displayName": "Honey",
 	"apiMetaData": {
 		"code": 301101,

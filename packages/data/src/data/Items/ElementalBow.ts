@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ElementalBow: Item = {
 	"id": 114501,
 	"name": "ElementalBow",
-	"buildsFrom": [
-		{
-			"name": "Scorchbow",
-			"id": 114402
-		},
-		{
-			"name": "White Crane Fan",
-			"id": 205201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bow": 1,
@@ -35,6 +25,16 @@ export const ElementalBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow with the elemental powers of nature, such as fire or electricity. Similar to the four elements of Aristotle.",
+	"buildsFrom": [
+		{
+			"name": "Scorchbow",
+			"id": 114402
+		},
+		{
+			"name": "White Crane Fan",
+			"id": 205201
+		}
+	],
 	"displayName": "Elemental Bow",
 	"apiMetaData": {
 		"code": 114501,

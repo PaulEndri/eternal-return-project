@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Radar: Item = {
 	"id": 203502,
 	"name": "Radar",
-	"buildsFrom": [
-		{
-			"name": "Vital Sign Sensor",
-			"id": 203405
-		},
-		{
-			"name": "Glass Panel",
-			"id": 401305
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Watch": 1,
@@ -36,6 +26,16 @@ export const Radar: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you can get it working properly, it might help you find the location of anyone in the world.",
+	"buildsFrom": [
+		{
+			"name": "Vital Sign Sensor",
+			"id": 203405
+		},
+		{
+			"name": "Glass Panel",
+			"id": 401305
+		}
+	],
 	"displayName": "Radar",
 	"apiMetaData": {
 		"code": 203502,

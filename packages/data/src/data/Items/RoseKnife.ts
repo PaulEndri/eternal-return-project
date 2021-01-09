@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RoseKnife: Item = {
 	"id": 101301,
 	"name": "RoseKnife",
-	"buildsFrom": [
-		{
-			"name": "Army Knife",
-			"id": 101201
-		},
-		{
-			"name": "Flower",
-			"id": 205102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Carnwennan",
@@ -41,6 +31,16 @@ export const RoseKnife: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Army Knife",
+			"id": 101201
+		},
+		{
+			"name": "Flower",
+			"id": 205102
+		}
+	],
 	"displayName": "Rose Knife",
 	"apiMetaData": {
 		"code": 101301,

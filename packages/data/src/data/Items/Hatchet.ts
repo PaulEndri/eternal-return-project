@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Hatchet: Item = {
 	"id": 105103,
 	"name": "Hatchet",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Battle Axe",
@@ -33,6 +32,7 @@ export const Hatchet: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It looks heavy, so attack with it by slicing downward.",
+	"buildsFrom": [],
 	"displayName": "Hatchet",
 	"apiMetaData": {
 		"code": 105103,

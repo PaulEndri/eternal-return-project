@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PetalTorrent: Item = {
 	"id": 113502,
 	"name": "PetalTorrent",
-	"buildsFrom": [
-		{
-			"name": "Frost Venom Dart",
-			"id": 113408
-		},
-		{
-			"name": "Stingburst",
-			"id": 502402
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -40,6 +30,16 @@ export const PetalTorrent: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Frost Venom Dart",
+			"id": 113408
+		},
+		{
+			"name": "Stingburst",
+			"id": 502402
+		}
+	],
 	"displayName": "Petal Torrent",
 	"apiMetaData": {
 		"code": 113502,

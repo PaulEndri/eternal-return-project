@@ -24,9 +24,9 @@ export class Location extends Entity implements ILocation {
   public drops: ILocationEntity[];
   public animals: ILocationEntity[];
   public teleport: boolean;
-  public connections: IElement<LocationsEnum>[];
+  public connections: IElement<keyof typeof LocationsEnum>[];
   public apiMetaData?: { type: string; code: number; name: string };
-  public name: LocationsEnum;
+  public name: keyof typeof LocationsEnum;
   public id: string | number;
 
   public weight: LocationWeight;
@@ -35,7 +35,7 @@ export class Location extends Entity implements ILocation {
     super(seed);
 
     this.drops.forEach(({ name, quantity }) => {
-      this.materials.add(Items[name.replace(' ', '')], +quantity);
+      this.materials.add(Items[name.replace(' ', '')] as any, +quantity);
     });
   }
 

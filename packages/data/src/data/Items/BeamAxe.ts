@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BeamAxe: Item = {
 	"id": 105402,
 	"name": "BeamAxe",
-	"buildsFrom": [
-		{
-			"name": "Gigantic Axe",
-			"id": 105401
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hatchet": 1,
@@ -33,6 +23,16 @@ export const BeamAxe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Widely used since the Old Stone Age, it became a masterpiece when fused with modern technology.",
+	"buildsFrom": [
+		{
+			"name": "Gigantic Axe",
+			"id": 105401
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "Beam Axe",
 	"apiMetaData": {
 		"code": 105402,

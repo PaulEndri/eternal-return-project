@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const EveningStar: Item = {
 	"id": 104404,
 	"name": "EveningStar",
-	"buildsFrom": [
-		{
-			"name": "Moonstone",
-			"id": 401301
-		},
-		{
-			"name": "Morning Star",
-			"id": 104301
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Meteorite": 1,
@@ -31,6 +21,16 @@ export const EveningStar: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Moonstone",
+			"id": 401301
+		},
+		{
+			"name": "Morning Star",
+			"id": 104301
+		}
+	],
 	"displayName": "Evening Star",
 	"apiMetaData": {
 		"code": 104404,

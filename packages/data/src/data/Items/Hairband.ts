@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Hairband: Item = {
 	"id": 201101,
 	"name": "Hairband",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Mask",
@@ -30,6 +29,7 @@ export const Hairband: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "If you use a cheap one, the glue might stick to your hair or ears.",
+	"buildsFrom": [],
 	"displayName": "Hairband",
 	"apiMetaData": {
 		"code": 201101,

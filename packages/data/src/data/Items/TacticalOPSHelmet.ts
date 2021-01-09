@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TacticalOPSHelmet: Item = {
 	"id": 201406,
 	"name": "TacticalOPSHelmet",
-	"buildsFrom": [
-		{
-			"name": "Ballistic Helmet",
-			"id": 201301
-		},
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hat": 1,
@@ -34,6 +24,16 @@ export const TacticalOPSHelmet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A tactical helmet used by special forces. Military grade communication technology is built-in.",
+	"buildsFrom": [
+		{
+			"name": "Ballistic Helmet",
+			"id": 201301
+		},
+		{
+			"name": "Electronic Parts",
+			"id": 401211
+		}
+	],
 	"displayName": "Tactical OPS Helmet",
 	"apiMetaData": {
 		"code": 201406,

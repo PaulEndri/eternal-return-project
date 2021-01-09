@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Bohemian: Item = {
 	"id": 121401,
 	"name": "Bohemian",
-	"buildsFrom": [
-		{
-			"name": "Ruby Special",
-			"id": 121301
-		},
-		{
-			"name": "Playing Cards",
-			"id": 113102
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -36,6 +26,16 @@ export const Bohemian: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "\"Bohemian\" was first used to describe a part of the Czech population, but it is now used to represent free spirits.",
+	"buildsFrom": [
+		{
+			"name": "Ruby Special",
+			"id": 121301
+		},
+		{
+			"name": "Playing Cards",
+			"id": 113102
+		}
+	],
 	"displayName": "Bohemian",
 	"apiMetaData": {
 		"code": 121401,

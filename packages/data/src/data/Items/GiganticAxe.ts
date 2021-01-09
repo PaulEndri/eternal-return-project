@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GiganticAxe: Item = {
 	"id": 105401,
 	"name": "GiganticAxe",
-	"buildsFrom": [
-		{
-			"name": "Battle Axe",
-			"id": 105202
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Beam Axe",
@@ -36,6 +26,16 @@ export const GiganticAxe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Battle Axe",
+			"id": 105202
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Gigantic Axe",
 	"apiMetaData": {
 		"code": 105401,

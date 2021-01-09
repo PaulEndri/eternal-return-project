@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RedShoes: Item = {
 	"id": 204502,
 	"name": "RedShoes",
-	"buildsFrom": [
-		{
-			"name": "Killer Heels",
-			"id": 204405
-		},
-		{
-			"name": "VF Blood Sample",
-			"id": 401401
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Slippers": 1,
@@ -35,6 +25,16 @@ export const RedShoes: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Killer Heels",
+			"id": 204405
+		},
+		{
+			"name": "VF Blood Sample",
+			"id": 401401
+		}
+	],
 	"displayName": "Red Shoes",
 	"apiMetaData": {
 		"code": 204502,

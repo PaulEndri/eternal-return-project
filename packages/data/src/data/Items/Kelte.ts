@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Kelte: Item = {
 	"id": 116501,
 	"name": "Kelte",
-	"buildsFrom": [
-		{
-			"name": "Force Core",
-			"id": 401403
-		},
-		{
-			"name": "Beretta M92F",
-			"id": 116202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -33,6 +23,16 @@ export const Kelte: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The gun of Manas, a hero of Kyrgyzstan. The gun’s barrel was formed from Damascus steel and fires death in bullet form.",
+	"buildsFrom": [
+		{
+			"name": "Force Core",
+			"id": 401403
+		},
+		{
+			"name": "Beretta M92F",
+			"id": 116202
+		}
+	],
 	"displayName": "Kelte",
 	"apiMetaData": {
 		"code": 116501,

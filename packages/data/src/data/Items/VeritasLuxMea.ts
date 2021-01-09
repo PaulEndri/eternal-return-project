@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const VeritasLuxMea: Item = {
 	"id": 205405,
 	"name": "VeritasLuxMea",
-	"buildsFrom": [
-		{
-			"name": "Buddha Sarira",
-			"id": 205207
-		},
-		{
-			"name": "Saint's Relic",
-			"id": 205202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Buddhist Scripture": 1,
@@ -33,6 +23,16 @@ export const VeritasLuxMea: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Truth is my light.",
+	"buildsFrom": [
+		{
+			"name": "Buddha Sarira",
+			"id": 205207
+		},
+		{
+			"name": "Saint's Relic",
+			"id": 205202
+		}
+	],
 	"displayName": "Veritas Lux Mea",
 	"apiMetaData": {
 		"code": 205405,

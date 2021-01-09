@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Tac50: Item = {
 	"id": 118403,
 	"name": "Tac50",
-	"buildsFrom": [
-		{
-			"name": "Harpoon Gun",
-			"id": 118301
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Long Rifle": 1,
@@ -34,6 +24,16 @@ export const Tac50: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Harpoon Gun",
+			"id": 118301
+		},
+		{
+			"name": "Blueprint",
+			"id": 401212
+		}
+	],
 	"displayName": "Tac-50",
 	"apiMetaData": {
 		"code": 118403,

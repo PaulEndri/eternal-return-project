@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Mistilteinn: Item = {
 	"id": 120402,
 	"name": "Mistilteinn",
-	"buildsFrom": [
-		{
-			"name": "Sword of Justice",
-			"id": 120302
-		},
-		{
-			"name": "Branch",
-			"id": 108101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -38,6 +28,16 @@ export const Mistilteinn: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Sword of Justice",
+			"id": 120302
+		},
+		{
+			"name": "Branch",
+			"id": 108101
+		}
+	],
 	"displayName": "Mistilteinn",
 	"apiMetaData": {
 		"code": 120402,

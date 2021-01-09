@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RevengeOfGoujian: Item = {
 	"id": 205305,
 	"name": "RevengeOfGoujian",
-	"buildsFrom": [
-		{
-			"name": "Shaman's Bronze",
-			"id": 205211
-		},
-		{
-			"name": "Blueprints",
-			"id": null
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -29,6 +19,16 @@ export const RevengeOfGoujian: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "King Goujian of Yue swore revenge against his rival and used this sword to see it through.",
+	"buildsFrom": [
+		{
+			"name": "Shaman's Bronze",
+			"id": 205211
+		},
+		{
+			"name": "Blueprint",
+			"id": 401212
+		}
+	],
 	"displayName": "Revenge of Goujian",
 	"apiMetaData": {
 		"code": 205305,

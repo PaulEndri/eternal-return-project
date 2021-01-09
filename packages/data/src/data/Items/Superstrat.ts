@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Superstrat: Item = {
 	"id": 121305,
 	"name": "Superstrat",
-	"buildsFrom": [
-		{
-			"name": "Single Coil Pickup",
-			"id": 121202
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Wonderful Tonight",
@@ -41,6 +31,16 @@ export const Superstrat: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Collectively refers to the most famous types of guitars in the world.",
+	"buildsFrom": [
+		{
+			"name": "Single Coil Pickup",
+			"id": 121202
+		},
+		{
+			"name": "Bamboo",
+			"id": 108103
+		}
+	],
 	"displayName": "Superstrat",
 	"apiMetaData": {
 		"code": 121305,

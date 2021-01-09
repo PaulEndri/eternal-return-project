@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PlasmaSword: Item = {
 	"id": 102408,
 	"name": "PlasmaSword",
-	"buildsFrom": [
-		{
-			"name": "Bastard Sword",
-			"id": 102403
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -31,6 +21,16 @@ export const PlasmaSword: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword made from the combination of ion nuclei and free electrons kept at an ultra-high temperature, also known as plasma. Due to its explosive nature, it's hard to handle, but it could be the start of an era of future weaponry. The plasma sword is the first of its kind.",
+	"buildsFrom": [
+		{
+			"name": "Bastard Sword",
+			"id": 102403
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "Plasma Sword",
 	"apiMetaData": {
 		"code": 102408,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Masamune: Item = {
 	"id": 102401,
 	"name": "Masamune",
-	"buildsFrom": [
-		{
-			"name": "Katana",
-			"id": 102301
-		},
-		{
-			"name": "Oil",
-			"id": 401112
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Arondight",
@@ -36,6 +26,16 @@ export const Masamune: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword made by Masamune, the greatest sword maker in the history of Japan. It stands as one of the strongest and sharpest swords of Japan.",
+	"buildsFrom": [
+		{
+			"name": "Katana",
+			"id": 102301
+		},
+		{
+			"name": "Oil",
+			"id": 401112
+		}
+	],
 	"displayName": "Masamune",
 	"apiMetaData": {
 		"code": 102401,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const StraitjacketSneakers: Item = {
 	"id": 204406,
 	"name": "StraitjacketSneakers",
-	"buildsFrom": [
-		{
-			"name": "Repaired Slippers",
-			"id": 204301
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Slippers": 1,
@@ -33,6 +23,16 @@ export const StraitjacketSneakers: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Repaired Slippers",
+			"id": 204301
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "Straitjacket Sneakers",
 	"apiMetaData": {
 		"code": 204406,

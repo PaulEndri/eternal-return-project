@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Bow: Item = {
 	"id": 114101,
 	"name": "Bow",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Longbow",
@@ -24,6 +23,7 @@ export const Bow: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try not to cry if the bowstring hits your face.",
+	"buildsFrom": [],
 	"displayName": "Bow",
 	"apiMetaData": {
 		"code": 114101,

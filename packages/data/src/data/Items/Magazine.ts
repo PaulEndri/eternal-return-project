@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Magazine: Item = {
 	"id": 205303,
 	"name": "Magazine",
-	"buildsFrom": [
-		{
-			"name": "Box",
-			"id": 205107
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "XCR",
@@ -35,6 +25,16 @@ export const Magazine: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can't fire a gun with nothing in the magazine.",
+	"buildsFrom": [
+		{
+			"name": "Box",
+			"id": 205107
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "Magazine",
 	"apiMetaData": {
 		"code": 205303,

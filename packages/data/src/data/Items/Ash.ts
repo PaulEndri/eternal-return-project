@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Ash: Item = {
 	"id": 401210,
 	"name": "Ash",
-	"buildsFrom": [
-		{
-			"name": "Paper",
-			"id": 401117
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Mount Slicer",
@@ -59,6 +49,16 @@ export const Ash: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The remains of something burning.",
+	"buildsFrom": [
+		{
+			"name": "Paper",
+			"id": 401117
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "Ash",
 	"apiMetaData": {
 		"code": 401210,

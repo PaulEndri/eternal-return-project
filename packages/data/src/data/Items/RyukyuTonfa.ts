@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RyukyuTonfa: Item = {
 	"id": 111401,
 	"name": "RyukyuTonfa",
-	"buildsFrom": [
-		{
-			"name": "Tonfa",
-			"id": 111201
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Mai Sok",
@@ -40,6 +30,16 @@ export const RyukyuTonfa: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Tonfa",
+			"id": 111201
+		},
+		{
+			"name": "White Powder",
+			"id": 401206
+		}
+	],
 	"displayName": "Ryukyu Tonfa",
 	"apiMetaData": {
 		"code": 111401,

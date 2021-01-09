@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TacticalTonfa: Item = {
 	"id": 111402,
 	"name": "TacticalTonfa",
-	"buildsFrom": [
-		{
-			"name": "Police Baton",
-			"id": 111301
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bamboo": 1,
@@ -33,6 +23,16 @@ export const TacticalTonfa: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Police Baton",
+			"id": 111301
+		},
+		{
+			"name": "Blueprint",
+			"id": 401212
+		}
+	],
 	"displayName": "Tactical Tonfa",
 	"apiMetaData": {
 		"code": 111402,

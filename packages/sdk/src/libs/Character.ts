@@ -26,7 +26,7 @@ export class Character extends Entity implements ICharacter {
   };
   public abilities: Record<string, IAbility>;
   public weapons: WeaponsLookup[];
-  public name: Characters;
+  public name: keyof typeof Characters;
   public id: string | number;
 
   static async GetAllFromClient() {

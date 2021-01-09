@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Glue: Item = {
 	"id": 401116,
 	"name": "Glue",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Glass Panel",
@@ -27,6 +26,7 @@ export const Glue: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Why doesn't it stick to itself in the bottle?",
+	"buildsFrom": [],
 	"displayName": "Glue",
 	"apiMetaData": {
 		"code": 401116,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BattleAxe: Item = {
 	"id": 105202,
 	"name": "BattleAxe",
-	"buildsFrom": [
-		{
-			"name": "Hatchet",
-			"id": 105103
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Light Hatchet",
@@ -37,6 +27,16 @@ export const BattleAxe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Although it started as a tool for men, it proved itself useful in the battlefield. It's designed to rip flesh and cut bones, so it has a thinner and lighter blade than a usual ax.",
+	"buildsFrom": [
+		{
+			"name": "Hatchet",
+			"id": 105103
+		},
+		{
+			"name": "Bamboo",
+			"id": 108103
+		}
+	],
 	"displayName": "Battle Axe",
 	"apiMetaData": {
 		"code": 105202,

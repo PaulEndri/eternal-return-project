@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const AK12: Item = {
 	"id": 117404,
 	"name": "AK12",
-	"buildsFrom": [
-		{
-			"name": "AK-47",
-			"id": 117301
-		},
-		{
-			"name": "Glass Panel",
-			"id": 401305
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Fedorova": 1,
@@ -35,6 +25,16 @@ export const AK12: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "AK-47",
+			"id": 117301
+		},
+		{
+			"name": "Glass Panel",
+			"id": 401305
+		}
+	],
 	"displayName": "AK-12",
 	"apiMetaData": {
 		"code": 117404,

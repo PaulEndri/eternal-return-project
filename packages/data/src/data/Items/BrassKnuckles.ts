@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const BrassKnuckles: Item = {
 	"id": 110101,
 	"name": "BrassKnuckles",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Iron Knuckles",
@@ -24,6 +23,7 @@ export const BrassKnuckles: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "These are actually illegal in a lot of countries.",
+	"buildsFrom": [],
 	"displayName": "Brass Knuckles",
 	"apiMetaData": {
 		"code": 110101,

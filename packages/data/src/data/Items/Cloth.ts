@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Cloth: Item = {
 	"id": 401113,
 	"name": "Cloth",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Dress",
@@ -31,6 +30,7 @@ export const Cloth: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Made by weaving fibers. Different thread types make different fabrics.",
+	"buildsFrom": [],
 	"displayName": "Cloth",
 	"apiMetaData": {
 		"code": 401113,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DragonGuandao: Item = {
 	"id": 107408,
 	"name": "DragonGuandao",
-	"buildsFrom": [
-		{
-			"name": "Halberd Axe",
-			"id": 107303
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hatchet": 1,
@@ -32,6 +22,16 @@ export const DragonGuandao: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made of 49 kg of iron during the Three Kingdoms period. It was thought to be used by Guan Yu.",
+	"buildsFrom": [
+		{
+			"name": "Halberd Axe",
+			"id": 107303
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "Dragon Guandao",
 	"apiMetaData": {
 		"code": 107408,

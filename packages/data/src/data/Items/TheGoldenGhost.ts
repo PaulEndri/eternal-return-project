@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TheGoldenGhost: Item = {
 	"id": 115405,
 	"name": "TheGoldenGhost",
-	"buildsFrom": [
-		{
-			"name": "Power Crossbow",
-			"id": 115301
-		},
-		{
-			"name": "RDX",
-			"id": 502307
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -33,6 +23,16 @@ export const TheGoldenGhost: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Power Crossbow",
+			"id": 115301
+		},
+		{
+			"name": "RDX",
+			"id": 502307
+		}
+	],
 	"displayName": "The Golden Ghost",
 	"apiMetaData": {
 		"code": 115405,

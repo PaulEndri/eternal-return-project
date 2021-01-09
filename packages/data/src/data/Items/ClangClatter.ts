@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ClangClatter: Item = {
 	"id": 502206,
 	"name": "ClangClatter",
-	"buildsFrom": [
-		{
-			"name": "Can",
-			"id": 401120
-		},
-		{
-			"name": "Iron Ball",
-			"id": 112103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Rocker's Jacket",
@@ -32,6 +22,16 @@ export const ClangClatter: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 5,
+	"buildsFrom": [
+		{
+			"name": "Can",
+			"id": 401120
+		},
+		{
+			"name": "Iron Ball",
+			"id": 112103
+		}
+	],
 	"displayName": "Clang Clatter",
 	"apiMetaData": {
 		"code": 502206,

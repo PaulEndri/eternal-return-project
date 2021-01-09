@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Windbreaker: Item = {
 	"id": 202101,
 	"name": "Windbreaker",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Leather Jacket",
@@ -30,6 +29,7 @@ export const Windbreaker: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A jumper that keeps you warm by blocking out the wind. It works best when it blocks the wind completely, so make sure to wear it properly!",
+	"buildsFrom": [],
 	"displayName": "Windbreaker",
 	"apiMetaData": {
 		"code": 202101,

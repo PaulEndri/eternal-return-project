@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HeatedOil: Item = {
 	"id": 401203,
 	"name": "HeatedOil",
-	"buildsFrom": [
-		{
-			"name": "Oil",
-			"id": 401112
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "French Fries",
@@ -51,6 +41,16 @@ export const HeatedOil: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "Heated oil. It was sometimes used as a thermal weapon in the past, but now mostly used for cooking.",
+	"buildsFrom": [
+		{
+			"name": "Oil",
+			"id": 401112
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "Heated Oil",
 	"apiMetaData": {
 		"code": 401203,

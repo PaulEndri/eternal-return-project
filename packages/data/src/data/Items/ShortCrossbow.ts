@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const ShortCrossbow: Item = {
 	"id": 115202,
 	"name": "ShortCrossbow",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Long Crossbow",
@@ -28,6 +27,7 @@ export const ShortCrossbow: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "This is a mechanical bow, so take aim and shoot at will.",
+	"buildsFrom": [],
 	"displayName": "Short Crossbow",
 	"apiMetaData": {
 		"code": 115202,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Muramasa: Item = {
 	"id": 102402,
 	"name": "Muramasa",
-	"buildsFrom": [
-		{
-			"name": "Katana",
-			"id": 102301
-		},
-		{
-			"name": "Gemstone",
-			"id": 401114
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Monohoshizao",
@@ -35,6 +25,16 @@ export const Muramasa: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword cursing the Tokugawa family, who were the founders of Japan's Tokugawa shogunate. Tokugawa Leyasu's grandfather, father, and son were all killed or wounded by this sword, and Leyasu himself also had his finger cut off.",
+	"buildsFrom": [
+		{
+			"name": "Katana",
+			"id": 102301
+		},
+		{
+			"name": "Gemstone",
+			"id": 401114
+		}
+	],
 	"displayName": "Muramasa",
 	"apiMetaData": {
 		"code": 102402,

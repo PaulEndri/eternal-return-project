@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Crown: Item = {
 	"id": 201401,
 	"name": "Crown",
-	"buildsFrom": [
-		{
-			"name": "Circlet",
-			"id": 201202
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Imperial Crown",
@@ -37,6 +27,16 @@ export const Crown: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The one  to wear the crown must bear its weight.",
+	"buildsFrom": [
+		{
+			"name": "Circlet",
+			"id": 201202
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Crown",
 	"apiMetaData": {
 		"code": 201401,

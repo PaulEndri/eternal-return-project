@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const StairwayToHeaven: Item = {
 	"id": 121402,
 	"name": "StairwayToHeaven",
-	"buildsFrom": [
-		{
-			"name": "Humbucker Pickup",
-			"id": 121302
-		},
-		{
-			"name": "Holy Grail",
-			"id": 205108
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -35,6 +25,16 @@ export const StairwayToHeaven: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Heaven might be all bright and shiny, but we can't say the same for the stairway leading up to it. It might be covered in lead...",
+	"buildsFrom": [
+		{
+			"name": "Humbucker Pickup",
+			"id": 121302
+		},
+		{
+			"name": "Holy Grail",
+			"id": 205108
+		}
+	],
 	"displayName": "Stairway to Heaven",
 	"apiMetaData": {
 		"code": 121402,

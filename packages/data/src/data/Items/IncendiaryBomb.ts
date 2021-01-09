@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const IncendiaryBomb: Item = {
 	"id": 112302,
 	"name": "IncendiaryBomb",
-	"buildsFrom": [
-		{
-			"name": "Molotov Cocktail",
-			"id": 112203
-		},
-		{
-			"name": "Ball Lightning",
-			"id": 112303
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Glass Bottle": 1,
@@ -33,6 +23,16 @@ export const IncendiaryBomb: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Inflict damage by quickly spreading fire to an area. It'll be hard to extinguish.",
+	"buildsFrom": [
+		{
+			"name": "Molotov Cocktail",
+			"id": 112203
+		},
+		{
+			"name": "Ball Lightning",
+			"id": 112303
+		}
+	],
 	"displayName": "Incendiary Bomb",
 	"apiMetaData": {
 		"code": 112302,

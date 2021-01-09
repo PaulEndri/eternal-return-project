@@ -216,7 +216,7 @@ export const Silvia: Character = {
 			"name": "Shift Gears",
 			"slot": "R",
 			"type": "Attack/Buff (Ultimate)",
-			"description": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills. She can use Shift Gears when her fuel is above 30. Silvia cannot use normal attacks or weapon skills while riding her motorcycle. \nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\nHer defense increases by 10/17/24 while on the bike.\nMoving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%. Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.",
+			"description": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills. She can use Shift Gears when her fuel is above 30. Silvia cannot use normal attacks or weapon skills while riding her motorcycle. \nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\nHer defense increases by 2/16/30 while on the bike.\nMoving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%. Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.",
 			"stats": {
 				"Move. speed": {
 					"title": "Move. speed",

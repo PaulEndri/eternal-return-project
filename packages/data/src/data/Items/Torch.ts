@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Torch: Item = {
 	"id": 108402,
 	"name": "Torch",
-	"buildsFrom": [
-		{
-			"name": "Feather Duster",
-			"id": 205209
-		},
-		{
-			"name": "Oilcloth",
-			"id": 401202
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Statue of Soteria",
@@ -38,6 +28,16 @@ export const Torch: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The torch that lights your way might help you keep your own life from being extinguished. If you see an enemy, don't hesitate to swing.",
+	"buildsFrom": [
+		{
+			"name": "Feather Duster",
+			"id": 205209
+		},
+		{
+			"name": "Oilcloth",
+			"id": 401202
+		}
+	],
 	"displayName": "Torch",
 	"apiMetaData": {
 		"code": 108402,

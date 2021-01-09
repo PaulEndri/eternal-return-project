@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Rapier: Item = {
 	"id": 120201,
 	"name": "Rapier",
-	"buildsFrom": [
-		{
-			"name": "Needle",
-			"id": 120101
-		},
-		{
-			"name": "Iron Ore",
-			"id": 401118
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Apricot Sword",
@@ -42,6 +32,16 @@ export const Rapier: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A one-handed sword for personal combat with a long, thin blade ideal for stabbing. Used mostly in the 16th and 17th centuries.",
+	"buildsFrom": [
+		{
+			"name": "Needle",
+			"id": 120101
+		},
+		{
+			"name": "Iron Ore",
+			"id": 401118
+		}
+	],
 	"displayName": "Rapier",
 	"apiMetaData": {
 		"code": 120201,

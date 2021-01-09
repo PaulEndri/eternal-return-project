@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Sling: Item = {
 	"id": 112204,
 	"name": "Sling",
-	"buildsFrom": [
-		{
-			"name": "Signed Ball",
-			"id": 112205
-		},
-		{
-			"name": "Rubber",
-			"id": 401105
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "David's Sling",
@@ -35,6 +25,16 @@ export const Sling: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Signed Ball",
+			"id": 112205
+		},
+		{
+			"name": "Rubber",
+			"id": 401105
+		}
+	],
 	"displayName": "Sling",
 	"apiMetaData": {
 		"code": 112204,

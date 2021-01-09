@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DurendalMk2: Item = {
 	"id": 120401,
 	"name": "DurendalMk2",
-	"buildsFrom": [
-		{
-			"name": "Apricot Sword",
-			"id": 120301
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -34,6 +24,16 @@ export const DurendalMk2: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "Apricot Sword",
+			"id": 120301
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "Durendal Mk2",
 	"apiMetaData": {
 		"code": 120401,

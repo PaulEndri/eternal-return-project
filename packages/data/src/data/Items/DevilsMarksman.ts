@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DevilsMarksman: Item = {
 	"id": 116403,
 	"name": "DevilsMarksman",
-	"buildsFrom": [
-		{
-			"name": "Double Revolver SP",
-			"id": 116401
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Walther PPK": 2,
@@ -35,6 +25,16 @@ export const DevilsMarksman: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can perfect your marksmanship by selling your soul to the devil. What could possibly go wrong?",
+	"buildsFrom": [
+		{
+			"name": "Double Revolver SP",
+			"id": 116401
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "Devil's Marksman",
 	"apiMetaData": {
 		"code": 116403,

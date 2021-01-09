@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const OneInchPunch: Item = {
 	"id": 110405,
 	"name": "OneInchPunch",
-	"buildsFrom": [
-		{
-			"name": "Bone Gauntlet",
-			"id": 110401
-		},
-		{
-			"name": "Doll",
-			"id": 205205
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -35,6 +25,16 @@ export const OneInchPunch: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Bone Gauntlet",
+			"id": 110401
+		},
+		{
+			"name": "Doll",
+			"id": 205205
+		}
+	],
 	"displayName": "One Inch Punch",
 	"apiMetaData": {
 		"code": 110405,

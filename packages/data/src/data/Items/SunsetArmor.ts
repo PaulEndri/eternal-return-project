@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SunsetArmor: Item = {
 	"id": 202402,
 	"name": "SunsetArmor",
-	"buildsFrom": [
-		{
-			"name": "Leather Armor",
-			"id": 202201
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Fabric Armor": 1,
@@ -31,6 +21,16 @@ export const SunsetArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made of leather, it features a ruby that shines like a bright, red sun",
+	"buildsFrom": [
+		{
+			"name": "Leather Armor",
+			"id": 202201
+		},
+		{
+			"name": "Ruby",
+			"id": 401204
+		}
+	],
 	"displayName": "Sunset Armor",
 	"apiMetaData": {
 		"code": 202402,

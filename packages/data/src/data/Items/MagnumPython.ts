@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MagnumPython: Item = {
 	"id": 116201,
 	"name": "MagnumPython",
-	"buildsFrom": [
-		{
-			"name": "Walther PPK",
-			"id": 116101
-		},
-		{
-			"name": "Oil",
-			"id": 401112
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Double Revolver SP",
@@ -40,6 +30,16 @@ export const MagnumPython: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you research revolvers that use Magnum cartridges, you'll find that some of them use scientific names for snakes. This one is the  Pythonidae, also known as Python.",
+	"buildsFrom": [
+		{
+			"name": "Walther PPK",
+			"id": 116101
+		},
+		{
+			"name": "Oil",
+			"id": 401112
+		}
+	],
 	"displayName": "Magnum-Python",
 	"apiMetaData": {
 		"code": 116201,

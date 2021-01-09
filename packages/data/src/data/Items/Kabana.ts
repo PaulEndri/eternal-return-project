@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Kabana: Item = {
 	"id": 202501,
 	"name": "Kabana",
-	"buildsFrom": [
-		{
-			"name": "Meteorite",
-			"id": 401209
-		},
-		{
-			"name": "Commander's Armor",
-			"id": 202412
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Meteorite": 1,
@@ -33,6 +23,16 @@ export const Kabana: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The armor of Karna, hero of the epic, Mahabharata. The armor becomes one with the body.",
+	"buildsFrom": [
+		{
+			"name": "Meteorite",
+			"id": 401209
+		},
+		{
+			"name": "Commander's Armor",
+			"id": 202412
+		}
+	],
 	"displayName": "Kabana",
 	"apiMetaData": {
 		"code": 202501,

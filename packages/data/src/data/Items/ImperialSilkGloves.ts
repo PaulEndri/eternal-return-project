@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ImperialSilkGloves: Item = {
 	"id": 110412,
 	"name": "ImperialSilkGloves",
-	"buildsFrom": [
-		{
-			"name": "Mithril String",
-			"id": 502401
-		},
-		{
-			"name": "Leather Gloves",
-			"id": 110201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Mithril": 1,
@@ -30,6 +20,16 @@ export const ImperialSilkGloves: Item = {
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "Mithril String",
+			"id": 502401
+		},
+		{
+			"name": "Leather Gloves",
+			"id": 110201
+		}
+	],
 	"displayName": "Imperial Silk Gloves",
 	"apiMetaData": {
 		"code": 110412,

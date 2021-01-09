@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Gleipnir: Item = {
 	"id": 109403,
 	"name": "Gleipnir",
-	"buildsFrom": [
-		{
-			"name": "Wind Whip",
-			"id": 109301
-		},
-		{
-			"name": "Honey cod steak",
-			"id": 302201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Whip": 1,
@@ -32,6 +22,16 @@ export const Gleipnir: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Wind Whip",
+			"id": 109301
+		},
+		{
+			"name": "Honey cod steak",
+			"id": 302201
+		}
+	],
 	"displayName": "Gleipnir",
 	"apiMetaData": {
 		"code": 109403,

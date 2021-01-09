@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const IronKnuckles: Item = {
 	"id": 110202,
 	"name": "IronKnuckles",
-	"buildsFrom": [
-		{
-			"name": "Brass Knuckles",
-			"id": 110101
-		},
-		{
-			"name": "Iron Ore",
-			"id": 401118
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Wing Knuckles",
@@ -37,6 +27,16 @@ export const IronKnuckles: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Though it may look like ordinary knuckles, but it's made with a much sturdier iron, so it hits much harder.",
+	"buildsFrom": [
+		{
+			"name": "Brass Knuckles",
+			"id": 110101
+		},
+		{
+			"name": "Iron Ore",
+			"id": 401118
+		}
+	],
 	"displayName": "Iron Knuckles",
 	"apiMetaData": {
 		"code": 110202,

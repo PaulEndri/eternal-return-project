@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ChainScythe: Item = {
 	"id": 105201,
 	"name": "ChainScythe",
-	"buildsFrom": [
-		{
-			"name": "Pickaxe",
-			"id": 105102
-		},
-		{
-			"name": "Steel Chain",
-			"id": 119101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Reaper's Scythe",
@@ -34,6 +24,16 @@ export const ChainScythe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon of the Grim Reaper that has a sharp scythe at one end of a steel chain.",
+	"buildsFrom": [
+		{
+			"name": "Pickaxe",
+			"id": 105102
+		},
+		{
+			"name": "Steel Chain",
+			"id": 119101
+		}
+	],
 	"displayName": "Chain Scythe",
 	"apiMetaData": {
 		"code": 105201,

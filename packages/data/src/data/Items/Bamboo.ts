@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Bamboo: Item = {
 	"id": 108103,
 	"name": "Bamboo",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Battle Axe",
@@ -63,6 +62,7 @@ export const Bamboo: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It doesn't thicken as it grows, and dies after blooming. We make baskets out of it because of its flexibility.",
+	"buildsFrom": [],
 	"displayName": "Bamboo",
 	"apiMetaData": {
 		"code": 108103,

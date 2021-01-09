@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PoliceBaton: Item = {
 	"id": 111301,
 	"name": "PoliceBaton",
-	"buildsFrom": [
-		{
-			"name": "Tonfa",
-			"id": 111201
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Tactical Tonfa",
@@ -35,6 +25,16 @@ export const PoliceBaton: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Tonfa",
+			"id": 111201
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Police Baton",
 	"apiMetaData": {
 		"code": 111301,

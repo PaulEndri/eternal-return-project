@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PurpleHaze: Item = {
 	"id": 121403,
 	"name": "PurpleHaze",
-	"buildsFrom": [
-		{
-			"name": "King-V",
-			"id": 121303
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -33,6 +23,16 @@ export const PurpleHaze: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Whether tomorrow is waiting for you, or if it's really the end of time... this island doesn't have the answer.",
+	"buildsFrom": [
+		{
+			"name": "King-V",
+			"id": 121303
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "Purple Haze",
 	"apiMetaData": {
 		"code": 121403,

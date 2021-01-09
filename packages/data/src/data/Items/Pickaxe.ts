@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Pickaxe: Item = {
 	"id": 105102,
 	"name": "Pickaxe",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Chain Scythe",
@@ -30,6 +29,7 @@ export const Pickaxe: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Can we consider it a blade attack if you swing the pickaxe and attack your opponent..?",
+	"buildsFrom": [],
 	"displayName": "Pickaxe",
 	"apiMetaData": {
 		"code": 105102,

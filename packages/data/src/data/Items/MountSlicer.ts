@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MountSlicer: Item = {
 	"id": 101402,
 	"name": "MountSlicer",
-	"buildsFrom": [
-		{
-			"name": "Rose Knife",
-			"id": 101301
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -35,6 +25,16 @@ export const MountSlicer: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Rose Knife",
+			"id": 101301
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "Mount Slicer",
 	"apiMetaData": {
 		"code": 101402,

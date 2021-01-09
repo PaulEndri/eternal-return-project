@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Railgun: Item = {
 	"id": 118402,
 	"name": "Railgun",
-	"buildsFrom": [
-		{
-			"name": "Springfield",
-			"id": 118201
-		},
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Polaris",
@@ -38,6 +28,16 @@ export const Railgun: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Uses electromagnets to rapidly accelerate and launch a metal projectile.",
+	"buildsFrom": [
+		{
+			"name": "Springfield",
+			"id": 118201
+		},
+		{
+			"name": "Electronic Parts",
+			"id": 401211
+		}
+	],
 	"displayName": "Railgun",
 	"apiMetaData": {
 		"code": 118402,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Failnaught: Item = {
 	"id": 114502,
 	"name": "Failnaught",
-	"buildsFrom": [
-		{
-			"name": "VF Blood Sample",
-			"id": 401401
-		},
-		{
-			"name": "Strong Bow",
-			"id": 114301
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"VF Blood Sample": 1,
@@ -32,6 +22,16 @@ export const Failnaught: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The arrows of Tristan, one of the Knights of the Round Table. Known as the arrows that never miss, so it will fail you not.",
+	"buildsFrom": [
+		{
+			"name": "VF Blood Sample",
+			"id": 401401
+		},
+		{
+			"name": "Strong Bow",
+			"id": 114301
+		}
+	],
 	"displayName": "Failnaught",
 	"apiMetaData": {
 		"code": 114502,

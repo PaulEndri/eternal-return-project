@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const ScrapMetal: Item = {
 	"id": 401106,
 	"name": "ScrapMetal",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Nunchaku",
@@ -44,6 +43,7 @@ export const ScrapMetal: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Very old, beat up metal. Can you craft a weapon out of this?",
+	"buildsFrom": [],
 	"displayName": "Scrap Metal",
 	"apiMetaData": {
 		"code": 401106,

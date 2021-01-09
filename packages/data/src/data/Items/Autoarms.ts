@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Autoarms: Item = {
 	"id": 203503,
 	"name": "Autoarms",
-	"buildsFrom": [
-		{
-			"name": "Bracer",
-			"id": 203203
-		},
-		{
-			"name": "Force Core",
-			"id": 401403
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bandage": 1,
@@ -33,6 +23,16 @@ export const Autoarms: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Bracer",
+			"id": 203203
+		},
+		{
+			"name": "Force Core",
+			"id": 401403
+		}
+	],
 	"displayName": "Auto-arms",
 	"apiMetaData": {
 		"code": 203503,

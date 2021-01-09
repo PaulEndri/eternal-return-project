@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TheDeadlyRay: Item = {
 	"id": 118501,
 	"name": "TheDeadlyRay",
-	"buildsFrom": [
-		{
-			"name": "Moonstone",
-			"id": 401301
-		},
-		{
-			"name": "Golden Rifle",
-			"id": 118401
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Meteorite": 1,
@@ -35,6 +25,16 @@ export const TheDeadlyRay: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Moonstone",
+			"id": 401301
+		},
+		{
+			"name": "Golden Rifle",
+			"id": 118401
+		}
+	],
 	"displayName": "The Deadly Ray",
 	"apiMetaData": {
 		"code": 118501,

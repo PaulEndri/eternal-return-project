@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SwordStopper: Item = {
 	"id": 203402,
 	"name": "SwordStopper",
-	"buildsFrom": [
-		{
-			"name": "Bazuband",
-			"id": 203303
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bandage": 1,
@@ -33,6 +23,16 @@ export const SwordStopper: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It is, quite literally, armor that protects from swords. The hooks on it catch and entangle blades",
+	"buildsFrom": [
+		{
+			"name": "Bazuband",
+			"id": 203303
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Sword Stopper",
 	"apiMetaData": {
 		"code": 203402,

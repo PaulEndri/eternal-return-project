@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TheWall: Item = {
 	"id": 121406,
 	"name": "TheWall",
-	"buildsFrom": [
-		{
-			"name": "Superstrat",
-			"id": 121305
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -34,6 +24,16 @@ export const TheWall: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The test subjects on this island might as well just be, all in all, bricks in a wall.",
+	"buildsFrom": [
+		{
+			"name": "Superstrat",
+			"id": 121305
+		},
+		{
+			"name": "White Powder",
+			"id": 401206
+		}
+	],
 	"displayName": "The Wall",
 	"apiMetaData": {
 		"code": 121406,

@@ -1,10 +1,4 @@
-import {
-  Animals,
-  Categories,
-  CategoriesLookup,
-  Locations,
-  Items
-} from '../constants';
+import { Animals, Categories, CategoriesLookup, Locations } from '../constants';
 import { IElement } from './IElement';
 import { NamedMaterialList } from './IMaterialList';
 
@@ -51,7 +45,7 @@ export interface IItemStats {
   heal?: number;
 }
 
-export interface IItem extends IElement<Items> {
+export interface IItem extends IElement {
   rarity: string;
   stats: IItemStats;
   displayName?: string;
@@ -62,10 +56,10 @@ export interface IItem extends IElement<Items> {
   airSupply: boolean;
   collectible: number;
   requirements?: NamedMaterialList;
-  buildsInto?: IElement<Items>[];
-  buildsFrom?: IElement<Items>[];
+  buildsInto?: IElement[];
+  buildsFrom?: IElement[];
   locations?: Record<Partial<Locations>, number>;
-  droppedFrom?: IElement<Animals>[];
+  droppedFrom?: IElement<keyof typeof Animals>[];
 }
 
 export interface IRawItem<A extends string = any, T extends string = any>

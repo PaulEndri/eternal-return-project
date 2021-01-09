@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DivineDualSwords: Item = {
 	"id": 103401,
 	"name": "DivineDualSwords",
-	"buildsFrom": [
-		{
-			"name": "Florentine",
-			"id": 103301
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -34,6 +24,16 @@ export const DivineDualSwords: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A swordsmanship technique created and refined by Miyamoto Musashi. It involves using two swords, a shortsword in one hand and a longsword in the other.",
+	"buildsFrom": [
+		{
+			"name": "Florentine",
+			"id": 103301
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Divine Dual Swords",
 	"apiMetaData": {
 		"code": 103401,

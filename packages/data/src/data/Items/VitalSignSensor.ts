@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const VitalSignSensor: Item = {
 	"id": 203405,
 	"name": "VitalSignSensor",
-	"buildsFrom": [
-		{
-			"name": "Watch",
-			"id": 203101
-		},
-		{
-			"name": "Cell Phone",
-			"id": 501401
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Radar",
@@ -37,6 +27,16 @@ export const VitalSignSensor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Watch",
+			"id": 203101
+		},
+		{
+			"name": "Cell Phone",
+			"id": 501401
+		}
+	],
 	"displayName": "Vital Sign Sensor",
 	"apiMetaData": {
 		"code": 203405,

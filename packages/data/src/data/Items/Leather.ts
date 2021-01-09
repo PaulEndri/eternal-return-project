@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Leather: Item = {
 	"id": 401103,
 	"name": "Leather",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Black Stag Hammer",
@@ -63,6 +62,7 @@ export const Leather: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Are there any beasts around? Leather is versitile and can be used in tons of different ways.",
+	"buildsFrom": [],
 	"displayName": "Leather",
 	"apiMetaData": {
 		"code": 401103,

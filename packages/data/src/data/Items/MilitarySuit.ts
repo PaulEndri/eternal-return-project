@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MilitarySuit: Item = {
 	"id": 202205,
 	"name": "MilitarySuit",
-	"buildsFrom": [
-		{
-			"name": "Windbreaker",
-			"id": 202101
-		},
-		{
-			"name": "Branch",
-			"id": 108101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Suit",
@@ -38,6 +28,16 @@ export const MilitarySuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Like a school uniform, these military uniforms get some people excited! But when you actually see them out in the street...meh.",
+	"buildsFrom": [
+		{
+			"name": "Windbreaker",
+			"id": 202101
+		},
+		{
+			"name": "Branch",
+			"id": 108101
+		}
+	],
 	"displayName": "Military Suit",
 	"apiMetaData": {
 		"code": 202205,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WindWhip: Item = {
 	"id": 109301,
 	"name": "WindWhip",
-	"buildsFrom": [
-		{
-			"name": "Rope Cuffs",
-			"id": 109201
-		},
-		{
-			"name": "Fan",
-			"id": 205105
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Gleipnir",
@@ -39,6 +29,16 @@ export const WindWhip: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Rope Cuffs",
+			"id": 109201
+		},
+		{
+			"name": "Fan",
+			"id": 205105
+		}
+	],
 	"displayName": "Wind Whip",
 	"apiMetaData": {
 		"code": 109301,

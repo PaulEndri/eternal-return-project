@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ImperialBurgonet: Item = {
 	"id": 201410,
 	"name": "ImperialBurgonet",
-	"buildsFrom": [
-		{
-			"name": "Close Helm",
-			"id": 201402
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hat": 1,
@@ -36,6 +26,16 @@ export const ImperialBurgonet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "An extravagant burgonet used by the imperial family. Unlike a basic helmet, it is lavishly decorated",
+	"buildsFrom": [
+		{
+			"name": "Close Helm",
+			"id": 201402
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Imperial Burgonet",
 	"apiMetaData": {
 		"code": 201410,

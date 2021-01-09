@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const StatueOfSoteria: Item = {
 	"id": 108403,
 	"name": "StatueOfSoteria",
-	"buildsFrom": [
-		{
-			"name": "Torch",
-			"id": 108402
-		},
-		{
-			"name": "Doll",
-			"id": 205205
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Rod": 1,
@@ -37,6 +27,16 @@ export const StatueOfSoteria: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me. I lift my lamp beside the golden door.",
+	"buildsFrom": [
+		{
+			"name": "Torch",
+			"id": 108402
+		},
+		{
+			"name": "Doll",
+			"id": 205205
+		}
+	],
 	"displayName": "Statue of Soteria",
 	"apiMetaData": {
 		"code": 108403,

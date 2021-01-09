@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GlacialIce: Item = {
 	"id": 205402,
 	"name": "GlacialIce",
-	"buildsFrom": [
-		{
-			"name": "Powder of Life",
-			"id": 205301
-		},
-		{
-			"name": "Ice",
-			"id": 301103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bracelet of Skadi",
@@ -40,6 +30,16 @@ export const GlacialIce: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It seems different from normal ice. It practically burns me to the bone by just looking at it. Keep it out of your lemonade.",
+	"buildsFrom": [
+		{
+			"name": "Powder of Life",
+			"id": 205301
+		},
+		{
+			"name": "Ice",
+			"id": 301103
+		}
+	],
 	"displayName": "Glacial Ice",
 	"apiMetaData": {
 		"code": 205402,

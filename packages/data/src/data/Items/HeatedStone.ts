@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HeatedStone: Item = {
 	"id": 401215,
 	"name": "HeatedStone",
-	"buildsFrom": [
-		{
-			"name": "Stone",
-			"id": 112101
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Fang Mace",
@@ -51,6 +41,16 @@ export const HeatedStone: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Stone",
+			"id": 112101
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "Heated Stone",
 	"apiMetaData": {
 		"code": 401215,

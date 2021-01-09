@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ArmyKnife: Item = {
 	"id": 101201,
 	"name": "ArmyKnife",
-	"buildsFrom": [
-		{
-			"name": "Kitchen Knife",
-			"id": 101104
-		},
-		{
-			"name": "Branch",
-			"id": 108101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Rose Knife",
@@ -43,6 +33,16 @@ export const ArmyKnife: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Very threatening yet easy to carry. It faithfully performs its duties, such as cutting and stabbing.",
+	"buildsFrom": [
+		{
+			"name": "Kitchen Knife",
+			"id": 101104
+		},
+		{
+			"name": "Branch",
+			"id": 108101
+		}
+	],
 	"displayName": "Army Knife",
 	"apiMetaData": {
 		"code": 101201,

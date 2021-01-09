@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const EODSuit: Item = {
 	"id": 202417,
 	"name": "EODSuit",
-	"buildsFrom": [
-		{
-			"name": "Bulletproof Vest",
-			"id": 202401
-		},
-		{
-			"name": "Patched Robe",
-			"id": 202206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Windbreaker": 1,
@@ -36,6 +26,16 @@ export const EODSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Originally developed as a bulletproof vest, often used at bomb disposal sites due to its protection.",
+	"buildsFrom": [
+		{
+			"name": "Bulletproof Vest",
+			"id": 202401
+		},
+		{
+			"name": "Patched Robe",
+			"id": 202206
+		}
+	],
 	"displayName": "EOD Suit",
 	"apiMetaData": {
 		"code": 202417,

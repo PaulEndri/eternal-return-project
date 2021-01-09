@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Scythe: Item = {
 	"id": 105404,
 	"name": "Scythe",
-	"buildsFrom": [
-		{
-			"name": "Reaper's Scythe",
-			"id": 105302
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Pickaxe": 2,
@@ -32,6 +22,16 @@ export const Scythe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Reaper's Scythe",
+			"id": 105302
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Scythe",
 	"apiMetaData": {
 		"code": 105404,

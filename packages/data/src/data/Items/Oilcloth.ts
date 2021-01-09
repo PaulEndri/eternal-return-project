@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Oilcloth: Item = {
 	"id": 401202,
 	"name": "Oilcloth",
-	"buildsFrom": [
-		{
-			"name": "Oil",
-			"id": 401112
-		},
-		{
-			"name": "Bandage",
-			"id": 203102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Torch",
@@ -47,6 +37,16 @@ export const Oilcloth: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Oiled cloth. May be needed for something involving fire.",
+	"buildsFrom": [
+		{
+			"name": "Oil",
+			"id": 401112
+		},
+		{
+			"name": "Bandage",
+			"id": 203102
+		}
+	],
 	"displayName": "Oilcloth",
 	"apiMetaData": {
 		"code": 401202,

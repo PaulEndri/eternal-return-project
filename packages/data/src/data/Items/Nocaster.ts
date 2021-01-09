@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Nocaster: Item = {
 	"id": 121304,
 	"name": "Nocaster",
-	"buildsFrom": [
-		{
-			"name": "Single Coil Pickup",
-			"id": 121202
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Satisfaction",
@@ -39,6 +29,16 @@ export const Nocaster: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The most used title in art is \"Untitled\". Isn't there an unsaid rule that says not to do that with guitar names?",
+	"buildsFrom": [
+		{
+			"name": "Single Coil Pickup",
+			"id": 121202
+		},
+		{
+			"name": "Blueprint",
+			"id": 401212
+		}
+	],
 	"displayName": "Nocaster",
 	"apiMetaData": {
 		"code": 121304,

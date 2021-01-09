@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Sharanga: Item = {
 	"id": 115501,
 	"name": "Sharanga",
-	"buildsFrom": [
-		{
-			"name": "Force Core",
-			"id": 401403
-		},
-		{
-			"name": "Crossbow",
-			"id": 115202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -32,6 +22,16 @@ export const Sharanga: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Force Core",
+			"id": 401403
+		},
+		{
+			"name": "Crossbow",
+			"id": 115202
+		}
+	],
 	"displayName": "Sharanga",
 	"apiMetaData": {
 		"code": 115501,

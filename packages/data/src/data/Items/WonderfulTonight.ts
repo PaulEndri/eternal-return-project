@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WonderfulTonight: Item = {
 	"id": 121405,
 	"name": "WonderfulTonight",
-	"buildsFrom": [
-		{
-			"name": "Superstrat",
-			"id": 121305
-		},
-		{
-			"name": "Meteorite",
-			"id": 401209
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -33,6 +23,16 @@ export const WonderfulTonight: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If it's late in the evening, and you're wondering what item to craft, try this one!",
+	"buildsFrom": [
+		{
+			"name": "Superstrat",
+			"id": 121305
+		},
+		{
+			"name": "Meteorite",
+			"id": 401209
+		}
+	],
 	"displayName": "Wonderful Tonight",
 	"apiMetaData": {
 		"code": 121405,

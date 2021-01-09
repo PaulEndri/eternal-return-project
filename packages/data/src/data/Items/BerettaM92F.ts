@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BerettaM92F: Item = {
 	"id": 116202,
 	"name": "BerettaM92F",
-	"buildsFrom": [
-		{
-			"name": "Walther PPK",
-			"id": 116101
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "FN57",
@@ -47,6 +37,16 @@ export const BerettaM92F: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Walther PPK",
+			"id": 116101
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Beretta M92F",
 	"apiMetaData": {
 		"code": 116202,

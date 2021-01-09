@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const IronSheet: Item = {
 	"id": 401213,
 	"name": "IronSheet",
-	"buildsFrom": [
-		{
-			"name": "Scrap Metal",
-			"id": 401106
-		},
-		{
-			"name": "Hammer",
-			"id": 104101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Katana",
@@ -59,6 +49,16 @@ export const IronSheet: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "This will give you goosebumps if you scrape your fingernails across it.",
+	"buildsFrom": [
+		{
+			"name": "Scrap Metal",
+			"id": 401106
+		},
+		{
+			"name": "Hammer",
+			"id": 104101
+		}
+	],
 	"displayName": "Iron Sheet",
 	"apiMetaData": {
 		"code": 401213,

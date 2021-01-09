@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Baseball: Item = {
 	"id": 112105,
 	"name": "Baseball",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Signed Ball",
@@ -22,6 +21,7 @@ export const Baseball: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Baseball",
 	"apiMetaData": {
 		"code": 112105,

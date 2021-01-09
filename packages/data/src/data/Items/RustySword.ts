@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const RustySword: Item = {
 	"id": 102101,
 	"name": "RustySword",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Shamshir",
@@ -41,6 +40,7 @@ export const RustySword: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Every swordsman must train with this common longsword.",
+	"buildsFrom": [],
 	"displayName": "Rusty Sword",
 	"apiMetaData": {
 		"code": 102101,

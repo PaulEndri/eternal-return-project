@@ -1,6 +1,6 @@
 // automatically generated file
 
-export enum CharactersLookup {
+export enum Characters {
   'Jackie' = 1,
   'Aya' = 2,
   'Fiora' = 3,
@@ -22,27 +22,4 @@ export enum CharactersLookup {
   'Shoichi' = 18,
   'Emma' = 19,
   'Lenox' = 20
-}
-
-export enum Characters {
-  'Jackie' = 'Jackie',
-  'Aya' = 'Aya',
-  'Fiora' = 'Fiora',
-  'Magnus' = 'Magnus',
-  'Zahir' = 'Zahir',
-  'Nadine' = 'Nadine',
-  'Hyunwoo' = 'Hyunwoo',
-  'Hart' = 'Hart',
-  'Isol' = 'Isol',
-  'Li Dailin' = 'Li Dailin',
-  'Yuki' = 'Yuki',
-  'Hyejin' = 'Hyejin',
-  'Xiukai' = 'Xiukai',
-  'Chiara' = 'Chiara',
-  'Sissela' = 'Sissela',
-  'Silvia' = 'Silvia',
-  'Adriana' = 'Adriana',
-  'Shoichi' = 'Shoichi',
-  'Emma' = 'Emma',
-  'Lenox' = 'Lenox'
 }

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const NTW20: Item = {
 	"id": 118405,
 	"name": "NTW20",
-	"buildsFrom": [
-		{
-			"name": "Golden Rifle",
-			"id": 118401
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Long Rifle": 1,
@@ -35,6 +25,16 @@ export const NTW20: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Golden Rifle",
+			"id": 118401
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "NTW-20",
 	"apiMetaData": {
 		"code": 118405,

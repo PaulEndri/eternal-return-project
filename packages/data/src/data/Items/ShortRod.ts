@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const ShortRod: Item = {
 	"id": 108102,
 	"name": "ShortRod",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Warhammer",
@@ -41,6 +40,7 @@ export const ShortRod: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Fine to carry and suitable for offense.",
+	"buildsFrom": [],
 	"displayName": "Short Rod",
 	"apiMetaData": {
 		"code": 108102,

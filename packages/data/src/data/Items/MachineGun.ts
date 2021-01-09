@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MachineGun: Item = {
 	"id": 117402,
 	"name": "MachineGun",
-	"buildsFrom": [
-		{
-			"name": "STG-44",
-			"id": 117201
-		},
-		{
-			"name": "Motor",
-			"id": 401303
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Gatling Gun",
@@ -40,6 +30,16 @@ export const MachineGun: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A gun that continuously fires bullets when the trigger is held down.",
+	"buildsFrom": [
+		{
+			"name": "STG-44",
+			"id": 117201
+		},
+		{
+			"name": "Motor",
+			"id": 401303
+		}
+	],
 	"displayName": "Machine Gun",
 	"apiMetaData": {
 		"code": 117402,

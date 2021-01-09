@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SquadLeaderArmband: Item = {
 	"id": 203202,
 	"name": "SquadLeaderArmband",
-	"buildsFrom": [
-		{
-			"name": "Bandage",
-			"id": 203102
-		},
-		{
-			"name": "Needle",
-			"id": 120101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Creed of the Knight",
@@ -34,6 +24,16 @@ export const SquadLeaderArmband: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "An armband normally worn by a squad commander. How did you get this?!",
+	"buildsFrom": [
+		{
+			"name": "Bandage",
+			"id": 203102
+		},
+		{
+			"name": "Needle",
+			"id": 120101
+		}
+	],
 	"displayName": "Squad Leader Armband",
 	"apiMetaData": {
 		"code": 203202,

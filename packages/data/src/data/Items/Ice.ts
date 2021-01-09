@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Ice: Item = {
 	"id": 301103,
 	"name": "Ice",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Frost Petal Hand",
@@ -52,6 +51,7 @@ export const Ice: Item = {
 		"Hotel": 7
 	},
 	"foundQuantity": 2,
+	"buildsFrom": [],
 	"displayName": "Ice",
 	"apiMetaData": {
 		"code": 301103,

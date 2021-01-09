@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CrimsonBracelet: Item = {
 	"id": 203304,
 	"name": "CrimsonBracelet",
-	"buildsFrom": [
-		{
-			"name": "Bracelet",
-			"id": 203104
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bracelet of Skadi",
@@ -35,6 +25,16 @@ export const CrimsonBracelet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bracelet lavish with white and red gemstones. However, the large size of the beads may be somewhat annoying the wearer.",
+	"buildsFrom": [
+		{
+			"name": "Bracelet",
+			"id": 203104
+		},
+		{
+			"name": "Ruby",
+			"id": 401204
+		}
+	],
 	"displayName": "Crimson Bracelet",
 	"apiMetaData": {
 		"code": 203304,

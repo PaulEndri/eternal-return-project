@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const LasterPointer: Item = {
 	"id": 401108,
 	"name": "LasterPointer",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Plasma Sword",
@@ -50,6 +49,7 @@ export const LasterPointer: Item = {
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [],
 	"displayName": "Laster Pointer",
 	"apiMetaData": {
 		"code": 401108,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Box: Item = {
 	"id": 205107,
 	"name": "Box",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Magazine",
@@ -33,6 +32,7 @@ export const Box: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "...It's an empty box.",
+	"buildsFrom": [],
 	"displayName": "Box",
 	"apiMetaData": {
 		"code": 205107,

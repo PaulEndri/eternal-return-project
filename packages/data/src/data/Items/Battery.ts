@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Battery: Item = {
 	"id": 401110,
 	"name": "Battery",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Dead Battery",
@@ -27,6 +26,7 @@ export const Battery: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Would be good for a flashlight, remote control, or your beeping smoke detector.",
+	"buildsFrom": [],
 	"displayName": "Battery",
 	"apiMetaData": {
 		"code": 401110,

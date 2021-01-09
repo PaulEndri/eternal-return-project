@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SteelKneePads: Item = {
 	"id": 204401,
 	"name": "SteelKneePads",
-	"buildsFrom": [
-		{
-			"name": "Knee Pads",
-			"id": 204201
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "EOD Boots",
@@ -36,6 +26,16 @@ export const SteelKneePads: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A kick to the shin is a favorite among angry girlfriends. Keep your shins protected.",
+	"buildsFrom": [
+		{
+			"name": "Knee Pads",
+			"id": 204201
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Steel Knee Pads",
 	"apiMetaData": {
 		"code": 204401,

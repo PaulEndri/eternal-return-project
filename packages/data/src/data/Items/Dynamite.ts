@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Dynamite: Item = {
 	"id": 502203,
 	"name": "Dynamite",
-	"buildsFrom": [
-		{
-			"name": "Piano Wire",
-			"id": 502104
-		},
-		{
-			"name": "Gunpowder",
-			"id": 401121
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "RDX",
@@ -32,6 +22,16 @@ export const Dynamite: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "Piano Wire",
+			"id": 502104
+		},
+		{
+			"name": "Gunpowder",
+			"id": 401121
+		}
+	],
 	"displayName": "Dynamite",
 	"apiMetaData": {
 		"code": 502203,

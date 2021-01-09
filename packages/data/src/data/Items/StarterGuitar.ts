@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const StarterGuitar: Item = {
 	"id": 121101,
 	"name": "StarterGuitar",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Golden Bridge",
@@ -25,6 +24,7 @@ export const StarterGuitar: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Starter Guitar",
 	"apiMetaData": {
 		"code": 121101,

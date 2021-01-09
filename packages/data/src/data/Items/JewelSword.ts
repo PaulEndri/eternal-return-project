@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const JewelSword: Item = {
 	"id": 102404,
 	"name": "JewelSword",
-	"buildsFrom": [
-		{
-			"name": "Shamshir",
-			"id": 102201
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Excalibur",
@@ -40,6 +30,16 @@ export const JewelSword: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Valuable by its very existence. Often is the case of such swords that were made with precious materials or used by a famous hero.",
+	"buildsFrom": [
+		{
+			"name": "Shamshir",
+			"id": 102201
+		},
+		{
+			"name": "Ruby",
+			"id": 401204
+		}
+	],
 	"displayName": "Jewel Sword",
 	"apiMetaData": {
 		"code": 102404,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ShatterShellGauntlet: Item = {
 	"id": 110402,
 	"name": "ShatterShellGauntlet",
-	"buildsFrom": [
-		{
-			"name": "Gauntlet",
-			"id": 110301
-		},
-		{
-			"name": "Gunpowder",
-			"id": 401121
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Divine Fist",
@@ -37,6 +27,16 @@ export const ShatterShellGauntlet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A glove that adds explosive force behind each punch.",
+	"buildsFrom": [
+		{
+			"name": "Gauntlet",
+			"id": 110301
+		},
+		{
+			"name": "Gunpowder",
+			"id": 401121
+		}
+	],
 	"displayName": "Shatter Shell Gauntlet",
 	"apiMetaData": {
 		"code": 110402,

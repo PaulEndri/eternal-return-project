@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Hanbok: Item = {
 	"id": 202306,
 	"name": "Hanbok",
-	"buildsFrom": [
-		{
-			"name": "Patched Robe",
-			"id": 202206
-		},
-		{
-			"name": "Flower",
-			"id": 205102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Covert Agent Uniform",
@@ -40,6 +30,16 @@ export const Hanbok: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A traditional Korean dress. The diverse range of colors and elegant embroidery enhances the harmony of curves and straight lines.",
+	"buildsFrom": [
+		{
+			"name": "Patched Robe",
+			"id": 202206
+		},
+		{
+			"name": "Flower",
+			"id": 205102
+		}
+	],
 	"displayName": "Hanbok",
 	"apiMetaData": {
 		"code": 202306,

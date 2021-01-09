@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PatchedRobe: Item = {
 	"id": 202206,
 	"name": "PatchedRobe",
-	"buildsFrom": [
-		{
-			"name": "Monk's Robe",
-			"id": 202103
-		},
-		{
-			"name": "Bandage",
-			"id": 203102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Hanbok",
@@ -39,6 +29,16 @@ export const PatchedRobe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made by patching together various robes. Might be more reliable than a regular robe.",
+	"buildsFrom": [
+		{
+			"name": "Monk's Robe",
+			"id": 202103
+		},
+		{
+			"name": "Bandage",
+			"id": 203102
+		}
+	],
 	"displayName": "Patched Robe",
 	"apiMetaData": {
 		"code": 202206,

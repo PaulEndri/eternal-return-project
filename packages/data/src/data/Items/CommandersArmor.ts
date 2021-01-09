@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CommandersArmor: Item = {
 	"id": 202412,
 	"name": "CommandersArmor",
-	"buildsFrom": [
-		{
-			"name": "Chain Armor",
-			"id": 202302
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Kabana",
@@ -37,6 +27,16 @@ export const CommandersArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's the General's armor, so it gotta be the strongest armor in town.",
+	"buildsFrom": [
+		{
+			"name": "Chain Armor",
+			"id": 202302
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Commander's Armor",
 	"apiMetaData": {
 		"code": 202412,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GentianSilverGun: Item = {
 	"id": 107402,
 	"name": "GentianSilverGun",
-	"buildsFrom": [
-		{
-			"name": "Sharpened Spear",
-			"id": 107401
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Spear": 1,
@@ -32,6 +22,16 @@ export const GentianSilverGun: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Sharpened Spear",
+			"id": 107401
+		},
+		{
+			"name": "White Powder",
+			"id": 401206
+		}
+	],
 	"displayName": "Gentian Silver Gun",
 	"apiMetaData": {
 		"code": 107402,

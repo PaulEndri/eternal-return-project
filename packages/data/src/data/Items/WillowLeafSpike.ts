@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WillowLeafSpike: Item = {
 	"id": 113207,
 	"name": "WillowLeafSpike",
-	"buildsFrom": [
-		{
-			"name": "Onyx Dagger",
-			"id": 113206
-		},
-		{
-			"name": "Branch",
-			"id": 108101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Apricot Flower Tag",
@@ -36,6 +26,16 @@ export const WillowLeafSpike: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Onyx Dagger",
+			"id": 113206
+		},
+		{
+			"name": "Branch",
+			"id": 108101
+		}
+	],
 	"displayName": "Willow Leaf Spike",
 	"apiMetaData": {
 		"code": 113207,

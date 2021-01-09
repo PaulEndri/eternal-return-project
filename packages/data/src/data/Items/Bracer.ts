@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Bracer: Item = {
 	"id": 203203,
 	"name": "Bracer",
-	"buildsFrom": [
-		{
-			"name": "Bandage",
-			"id": 203102
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bazuband",
@@ -42,6 +32,16 @@ export const Bracer: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Throw this on your wrist to protect you from the bow string.",
+	"buildsFrom": [
+		{
+			"name": "Bandage",
+			"id": 203102
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Bracer",
 	"apiMetaData": {
 		"code": 203203,

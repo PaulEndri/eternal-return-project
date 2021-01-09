@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HammerOfDagda: Item = {
 	"id": 104402,
 	"name": "HammerOfDagda",
-	"buildsFrom": [
-		{
-			"name": "Black Stag Hammer",
-			"id": 104302
-		},
-		{
-			"name": "Saint's Relic",
-			"id": 205202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hammer": 1,
@@ -32,6 +22,16 @@ export const HammerOfDagda: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Black Stag Hammer",
+			"id": 104302
+		},
+		{
+			"name": "Saint's Relic",
+			"id": 205202
+		}
+	],
 	"displayName": "Hammer of Dagda",
 	"apiMetaData": {
 		"code": 104402,

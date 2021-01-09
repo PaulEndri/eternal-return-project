@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const MonksRobe: Item = {
 	"id": 202103,
 	"name": "MonksRobe",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Turtle Dobok",
@@ -33,6 +32,7 @@ export const MonksRobe: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Clothing for monks. The arm of each side is divided into four parts, representing Manjushri, Samantabhadra, Guanyin, and Ksitigarbha",
+	"buildsFrom": [],
 	"displayName": "Monk's Robe",
 	"apiMetaData": {
 		"code": 202103,

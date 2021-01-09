@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LightHatchet: Item = {
 	"id": 105301,
 	"name": "LightHatchet",
-	"buildsFrom": [
-		{
-			"name": "Battle Axe",
-			"id": 105202
-		},
-		{
-			"name": "Feather",
-			"id": 205101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Parashu",
@@ -35,6 +25,16 @@ export const LightHatchet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Battle Axe",
+			"id": 105202
+		},
+		{
+			"name": "Feather",
+			"id": 205101
+		}
+	],
 	"displayName": "Light Hatchet",
 	"apiMetaData": {
 		"code": 105301,

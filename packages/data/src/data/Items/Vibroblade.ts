@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Vibroblade: Item = {
 	"id": 101404,
 	"name": "Vibroblade",
-	"buildsFrom": [
-		{
-			"name": "Army Knife",
-			"id": 101201
-		},
-		{
-			"name": "Motor",
-			"id": 401303
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -34,6 +24,16 @@ export const Vibroblade: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This high-frequency vibrating blade will cleave the matter of its target at a molecular level. The knife vibrates at a frequency beyond human imagination.",
+	"buildsFrom": [
+		{
+			"name": "Army Knife",
+			"id": 101201
+		},
+		{
+			"name": "Motor",
+			"id": 401303
+		}
+	],
 	"displayName": "Vibroblade",
 	"apiMetaData": {
 		"code": 101404,

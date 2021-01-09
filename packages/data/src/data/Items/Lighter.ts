@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Lighter: Item = {
 	"id": 401107,
 	"name": "Lighter",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Shamshir",
@@ -56,6 +55,7 @@ export const Lighter: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "The ability to make fire is key.",
+	"buildsFrom": [],
 	"displayName": "Lighter",
 	"apiMetaData": {
 		"code": 401107,

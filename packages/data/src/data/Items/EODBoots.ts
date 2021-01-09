@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const EODBoots: Item = {
 	"id": 204409,
 	"name": "EODBoots",
-	"buildsFrom": [
-		{
-			"name": "Boots",
-			"id": 204302
-		},
-		{
-			"name": "Steel Knee Pads",
-			"id": 204401
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Running Shoes": 1,
@@ -35,6 +25,16 @@ export const EODBoots: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Boots worn by explosives disposal teams. They protect the wearer's legs from shrapnel if something goes wrong.",
+	"buildsFrom": [
+		{
+			"name": "Boots",
+			"id": 204302
+		},
+		{
+			"name": "Steel Knee Pads",
+			"id": 204401
+		}
+	],
 	"displayName": "EOD Boots",
 	"apiMetaData": {
 		"code": 204409,

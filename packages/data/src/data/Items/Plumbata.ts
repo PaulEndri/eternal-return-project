@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Plumbata: Item = {
 	"id": 113404,
 	"name": "Plumbata",
-	"buildsFrom": [
-		{
-			"name": "Dart",
-			"id": 113201
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Flechette",
@@ -38,6 +28,16 @@ export const Plumbata: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Dart",
+			"id": 113201
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Plumbata",
 	"apiMetaData": {
 		"code": 113404,

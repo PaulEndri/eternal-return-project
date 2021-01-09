@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Satisfaction: Item = {
 	"id": 121404,
 	"name": "Satisfaction",
-	"buildsFrom": [
-		{
-			"name": "Nocaster",
-			"id": 121304
-		},
-		{
-			"name": "Stone",
-			"id": 112101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -35,6 +25,16 @@ export const Satisfaction: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The human nature of not being satisfied is what drives development. Humanity always blindly trusts evolution.",
+	"buildsFrom": [
+		{
+			"name": "Nocaster",
+			"id": 121304
+		},
+		{
+			"name": "Stone",
+			"id": 112101
+		}
+	],
 	"displayName": "Satisfaction",
 	"apiMetaData": {
 		"code": 121404,

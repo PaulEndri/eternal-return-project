@@ -33,7 +33,7 @@ export const generateNewData = () => {
   const writeFile = (name: string, content) => {
     fs.writeFileSync(
       `src/generated/newGenerated/${name}.json`,
-      JSON.stringify(content, null, 2)
+      JSON.stringify(content, null, 2).replace(/Full Body Swimsuit/g, 'Wetsuit')
     );
   };
 
@@ -89,6 +89,18 @@ export const generateNewData = () => {
         }
       });
 
+      Weapons.Whip.weapons = Weapons.Whip.weapons.filter(
+        (x) => x !== 'Bloody Nine Tails'
+      );
+
+      Weapons.Whip.weapons.push('Whip of Nine Bloody Tails');
+
+      Weapons.Nunchaku.weapons = Weapons.Nunchaku.weapons.filter(
+        (x) =>
+          x !== 'Bloody Nine Tails' ||
+          !Weapons.Whip.weapons.some((y) => y === x)
+      );
+
       const files = {
         Animals,
         Locations,
@@ -101,9 +113,14 @@ export const generateNewData = () => {
         Categories
       };
 
-      Object.entries(files).forEach(([name, content]) =>
-        writeFile(name, content)
-      );
+      Object.entries(files).forEach(([name, content]) => {
+        if (name === 'Weapons') {
+          // Bloody Nine Tails
+          writeFile(name, content);
+        } else {
+          writeFile(name, content);
+        }
+      });
 
       return files;
     }

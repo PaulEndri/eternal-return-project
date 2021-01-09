@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const BikeHelmet: Item = {
 	"id": 201104,
 	"name": "BikeHelmet",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Safety Helmet",
@@ -29,6 +28,7 @@ export const BikeHelmet: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A shabby and cheap looking helmet for when you take your bike for a spin.",
+	"buildsFrom": [],
 	"displayName": "Bike Helmet",
 	"apiMetaData": {
 		"code": 201104,

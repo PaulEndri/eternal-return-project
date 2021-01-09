@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MagnumBoa: Item = {
 	"id": 116406,
 	"name": "MagnumBoa",
-	"buildsFrom": [
-		{
-			"name": "Magnum-Anaconda",
-			"id": 116402
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Walther PPK": 1,
@@ -37,6 +27,16 @@ export const MagnumBoa: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Magnum-Anaconda",
+			"id": 116402
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Magnum-Boa",
 	"apiMetaData": {
 		"code": 116406,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Dart: Item = {
 	"id": 113201,
 	"name": "Dart",
-	"buildsFrom": [
-		{
-			"name": "Needle",
-			"id": 120101
-		},
-		{
-			"name": "Feather",
-			"id": 205101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Plumbata",
@@ -36,6 +26,16 @@ export const Dart: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's cute, but it can be deadly if it hits the right spot.",
+	"buildsFrom": [
+		{
+			"name": "Needle",
+			"id": 120101
+		},
+		{
+			"name": "Feather",
+			"id": 205101
+		}
+	],
 	"displayName": "Dart",
 	"apiMetaData": {
 		"code": 113201,

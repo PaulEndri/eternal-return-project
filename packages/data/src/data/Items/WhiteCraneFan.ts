@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WhiteCraneFan: Item = {
 	"id": 205201,
 	"name": "WhiteCraneFan",
-	"buildsFrom": [
-		{
-			"name": "Gilded Quill Fan",
-			"id": 205210
-		},
-		{
-			"name": "Feather",
-			"id": 205101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Harpe",
@@ -40,6 +30,16 @@ export const WhiteCraneFan: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Though a person may make plans in life, it is the heavens that will bring them to fruition.",
+	"buildsFrom": [
+		{
+			"name": "Gilded Quill Fan",
+			"id": 205210
+		},
+		{
+			"name": "Feather",
+			"id": 205101
+		}
+	],
 	"displayName": "White Crane Fan",
 	"apiMetaData": {
 		"code": 205201,

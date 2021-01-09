@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Polaris: Item = {
 	"id": 118406,
 	"name": "Polaris",
-	"buildsFrom": [
-		{
-			"name": "Railgun",
-			"id": 118402
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Long Rifle": 1,
@@ -35,6 +25,16 @@ export const Polaris: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "When a person dies, their soul will heads to the afterlife world. However, dying from this weapon appears to banish their soul even further. Perhaps to the North Star?",
+	"buildsFrom": [
+		{
+			"name": "Railgun",
+			"id": 118402
+		},
+		{
+			"name": "White Powder",
+			"id": 401206
+		}
+	],
 	"displayName": "Polaris",
 	"apiMetaData": {
 		"code": 118406,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HelmOfBanneret: Item = {
 	"id": 201407,
 	"name": "HelmOfBanneret",
-	"buildsFrom": [
-		{
-			"name": "Close Helm",
-			"id": 201402
-		},
-		{
-			"name": "Rubber",
-			"id": 401105
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hat": 1,
@@ -35,6 +25,16 @@ export const HelmOfBanneret: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The war has begun and the righteous knight stands at the vanguard. May the blessings of victory be upon him.",
+	"buildsFrom": [
+		{
+			"name": "Close Helm",
+			"id": 201402
+		},
+		{
+			"name": "Rubber",
+			"id": 401105
+		}
+	],
 	"displayName": "Helm of Banneret",
 	"apiMetaData": {
 		"code": 201407,

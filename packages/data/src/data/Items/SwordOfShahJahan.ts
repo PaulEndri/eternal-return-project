@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SwordOfShahJahan: Item = {
 	"id": 203407,
 	"name": "SwordOfShahJahan",
-	"buildsFrom": [
-		{
-			"name": "Sheath",
-			"id": 203301
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Leather": 1,
@@ -32,6 +22,16 @@ export const SwordOfShahJahan: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword used by the emperor of India's great Mughal Empire. Due to the jewels around the sword, historians doubt its use in battle.",
+	"buildsFrom": [
+		{
+			"name": "Sheath",
+			"id": 203301
+		},
+		{
+			"name": "Ruby",
+			"id": 401204
+		}
+	],
 	"displayName": "Sword of Shah Jahan",
 	"apiMetaData": {
 		"code": 203407,

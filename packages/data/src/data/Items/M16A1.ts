@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const M16A1: Item = {
 	"id": 117401,
 	"name": "M16A1",
-	"buildsFrom": [
-		{
-			"name": "STG-44",
-			"id": 117201
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "XCR",
@@ -37,6 +27,16 @@ export const M16A1: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "STG-44",
+			"id": 117201
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "M16A1",
 	"apiMetaData": {
 		"code": 117401,

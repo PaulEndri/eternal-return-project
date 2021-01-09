@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FangtianHuaji: Item = {
 	"id": 107407,
 	"name": "FangtianHuaji",
-	"buildsFrom": [
-		{
-			"name": "Halberd Axe",
-			"id": 107303
-		},
-		{
-			"name": "Gilded Quill Fan",
-			"id": 205210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hatchet": 1,
@@ -35,6 +25,16 @@ export const FangtianHuaji: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Halberd Axe",
+			"id": 107303
+		},
+		{
+			"name": "Gilded Quill Fan",
+			"id": 205210
+		}
+	],
 	"displayName": "Fangtian Huaji",
 	"apiMetaData": {
 		"code": 107407,

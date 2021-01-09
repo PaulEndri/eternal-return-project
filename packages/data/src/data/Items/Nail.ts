@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Nail: Item = {
 	"id": 401101,
 	"name": "Nail",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Divine Dual Swords",
@@ -55,6 +54,7 @@ export const Nail: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try hammering some of these into a baseball bat and take out a monster.",
+	"buildsFrom": [],
 	"displayName": "Nail",
 	"apiMetaData": {
 		"code": 401101,

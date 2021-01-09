@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WhitePowder: Item = {
 	"id": 401206,
 	"name": "WhitePowder",
-	"buildsFrom": [
-		{
-			"name": "Chalk",
-			"id": 113104
-		},
-		{
-			"name": "Stone",
-			"id": 112101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Gentian Silver Gun",
@@ -59,6 +49,16 @@ export const WhitePowder: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Unidentifiable white powder. Probably from chalk...",
+	"buildsFrom": [
+		{
+			"name": "Chalk",
+			"id": 113104
+		},
+		{
+			"name": "Stone",
+			"id": 112101
+		}
+	],
 	"displayName": "White Powder",
 	"apiMetaData": {
 		"code": 401206,

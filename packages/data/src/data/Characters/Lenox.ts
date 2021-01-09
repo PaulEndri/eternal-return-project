@@ -32,16 +32,16 @@ export const Lenox: Character = {
 			"stats": {
 				"Skill duration": {
 					"title": "Skill duration",
-					"value": "2s (Tackle)",
+					"value": "6s (Tackle)",
 					"tiers": {}
 				},
 				"Cooldown": {
 					"title": "Cooldown",
-					"value": "16/13/10s (Tackle)",
+					"value": "20/16/12s (Tackle)",
 					"tiers": {
-						"1": "16",
-						"2": "13",
-						"3": "10s"
+						"1": "20",
+						"2": "16",
+						"3": "12s"
 					}
 				}
 			}
@@ -54,13 +54,13 @@ export const Lenox: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "40/60/90/120/150 (+AP 30%)",
+					"value": "40/70/100/130/160 (+AP 30%)",
 					"tiers": {
 						"1": "40",
-						"2": "60",
-						"3": "90",
-						"4": "120",
-						"5": "150"
+						"2": "70",
+						"3": "100",
+						"4": "130",
+						"5": "160"
 					}
 				},
 				"Skill duration": {
@@ -97,6 +97,17 @@ export const Lenox: Character = {
 			"type": "Debuff",
 			"description": "Lenox snaps her whip twice, once in a circle around her, dealing damage and slowing enemies for 1.5 seconds. Following that, she will attack in a straight line, dealing damage and silencing enemies for 0.5 seconds. Hitting an enemy with the second part of her skill increases her movement speed by 20% for 3 seconds.",
 			"stats": {
+				"Skill damage": {
+					"title": "Skill damage",
+					"value": "30/40/50/60/70(+AP 30%) + 40/75/110/145/180(+AP 60%)",
+					"tiers": {
+						"1": "40",
+						"2": "75",
+						"3": "110",
+						"4": "145",
+						"5": "180(+AP"
+					}
+				},
 				"Slow": {
 					"title": "Slow",
 					"value": "20%",
@@ -149,13 +160,13 @@ export const Lenox: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "30/40/50/60/70(+AP 30%)",
+					"value": "60/110/160/210/260(+AP 30%)",
 					"tiers": {
-						"1": "30",
-						"2": "40",
-						"3": "50",
-						"4": "60",
-						"5": "70(+AP"
+						"1": "60",
+						"2": "110",
+						"3": "160",
+						"4": "210",
+						"5": "260(+AP"
 					}
 				},
 				"Slow": {
@@ -206,15 +217,24 @@ export const Lenox: Character = {
 			"name": "Blue Viper",
 			"slot": "R",
 			"type": "Debuff",
-			"description": "Lenox quickly attacks twice in an X shape, dealing damage and applying Blue Viper a few seconds.\n\nBlue Viper: Enemies take damage for every 1m they move. Hitting an enemy with both attacks deals damage for every 1m they move.",
+			"description": "Lenox quickly attacks twice in an X shape, dealing damage and applying Blue Viper a few seconds.\n\nBlue Viper: Enemies take 10/15/20 damage for every 1m they move. Hitting an enemy with both attacks deals 20/30/40 damage for every 1m they move.",
 			"stats": {
+				"Skill damage": {
+					"title": "Skill damage",
+					"value": "75/150/225(+AP 80%)",
+					"tiers": {
+						"1": "75",
+						"2": "150",
+						"3": "225(+AP"
+					}
+				},
 				"Skill duration": {
 					"title": "Skill duration",
-					"value": "5/7/9s",
+					"value": "4/5/6s",
 					"tiers": {
-						"1": "5",
-						"2": "7",
-						"3": "9s"
+						"1": "4",
+						"2": "5",
+						"3": "6s"
 					}
 				},
 				"Range": {

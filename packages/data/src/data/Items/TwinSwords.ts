@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TwinSwords: Item = {
 	"id": 103201,
 	"name": "TwinSwords",
-	"buildsFrom": [
-		{
-			"name": "Kitchen Knife",
-			"id": 101104
-		},
-		{
-			"name": "Rusty Sword",
-			"id": 102101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Florentine",
@@ -46,6 +36,16 @@ export const TwinSwords: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Double the sword, double the offense!",
+	"buildsFrom": [
+		{
+			"name": "Kitchen Knife",
+			"id": 101104
+		},
+		{
+			"name": "Rusty Sword",
+			"id": 102101
+		}
+	],
 	"displayName": "Twin Swords",
 	"apiMetaData": {
 		"code": 103201,

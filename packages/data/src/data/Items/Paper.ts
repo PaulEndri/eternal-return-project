@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Paper: Item = {
 	"id": 401117,
 	"name": "Paper",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Ash",
@@ -27,6 +26,7 @@ export const Paper: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Paper",
 	"apiMetaData": {
 		"code": 401117,

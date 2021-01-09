@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Warhammer: Item = {
 	"id": 104201,
 	"name": "Warhammer",
-	"buildsFrom": [
-		{
-			"name": "Hammer",
-			"id": 104101
-		},
-		{
-			"name": "Short Rod",
-			"id": 108102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Morning Star",
@@ -41,6 +31,16 @@ export const Warhammer: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's like a gift set of close combat weapons! Includes a hammer for striking, a spear for piercing, and a sword for slashing.",
+	"buildsFrom": [
+		{
+			"name": "Hammer",
+			"id": 104101
+		},
+		{
+			"name": "Short Rod",
+			"id": 108102
+		}
+	],
 	"displayName": "Warhammer",
 	"apiMetaData": {
 		"code": 104201,

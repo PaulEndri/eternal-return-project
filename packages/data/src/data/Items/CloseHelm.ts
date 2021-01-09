@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CloseHelm: Item = {
 	"id": 201402,
 	"name": "CloseHelm",
-	"buildsFrom": [
-		{
-			"name": "Chain Coif",
-			"id": 201204
-		},
-		{
-			"name": "Mask",
-			"id": 201201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Helm of Banneret",
@@ -42,6 +32,16 @@ export const CloseHelm: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A helmet made out of steel to protect the head of its wearer. It's heavy, but it makes you feel safe.",
+	"buildsFrom": [
+		{
+			"name": "Chain Coif",
+			"id": 201204
+		},
+		{
+			"name": "Mask",
+			"id": 201201
+		}
+	],
 	"displayName": "Close Helm",
 	"apiMetaData": {
 		"code": 201402,

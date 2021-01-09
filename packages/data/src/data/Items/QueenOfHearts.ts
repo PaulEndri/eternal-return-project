@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const QueenOfHearts: Item = {
 	"id": 202502,
 	"name": "QueenOfHearts",
-	"buildsFrom": [
-		{
-			"name": "VF Blood Sample",
-			"id": 401401
-		},
-		{
-			"name": "Hanbok",
-			"id": 202306
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"VF Blood Sample": 1,
@@ -32,6 +22,16 @@ export const QueenOfHearts: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A magical cloak that only a true queen can wear. The magic from the cloak protected the Queen, but its power hasn't been used for a while...",
+	"buildsFrom": [
+		{
+			"name": "VF Blood Sample",
+			"id": 401401
+		},
+		{
+			"name": "Hanbok",
+			"id": 202306
+		}
+	],
 	"displayName": "Queen of Hearts",
 	"apiMetaData": {
 		"code": 202502,

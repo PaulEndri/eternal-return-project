@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BulletproofVest: Item = {
 	"id": 202401,
 	"name": "BulletproofVest",
-	"buildsFrom": [
-		{
-			"name": "Military Suit",
-			"id": 202205
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Battle Suit",
@@ -41,6 +31,16 @@ export const BulletproofVest: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A vest used to protect your torso from bullets. The rest of the body is still vulnerable, though",
+	"buildsFrom": [
+		{
+			"name": "Military Suit",
+			"id": 202205
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "Bulletproof Vest",
 	"apiMetaData": {
 		"code": 202401,

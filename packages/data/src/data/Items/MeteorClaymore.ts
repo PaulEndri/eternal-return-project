@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MeteorClaymore: Item = {
 	"id": 120404,
 	"name": "MeteorClaymore",
-	"buildsFrom": [
-		{
-			"name": "Apricot Sword",
-			"id": 120301
-		},
-		{
-			"name": "Meteorite",
-			"id": 401209
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -33,6 +23,16 @@ export const MeteorClaymore: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The silver-grey colored metals found in Meteorsteel can be used to make a great sword with great strength. However, manufacturing it is no easy task.",
+	"buildsFrom": [
+		{
+			"name": "Apricot Sword",
+			"id": 120301
+		},
+		{
+			"name": "Meteorite",
+			"id": 401209
+		}
+	],
 	"displayName": "Meteor Claymore",
 	"apiMetaData": {
 		"code": 120404,

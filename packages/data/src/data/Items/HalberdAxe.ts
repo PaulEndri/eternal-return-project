@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HalberdAxe: Item = {
 	"id": 107303,
 	"name": "HalberdAxe",
-	"buildsFrom": [
-		{
-			"name": "Hatchet",
-			"id": 105103
-		},
-		{
-			"name": "Pike",
-			"id": 107302
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Fangtian Huaji",
@@ -40,6 +30,16 @@ export const HalberdAxe: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "On one end there's an ax blade and on the other end there's a stabbing blade.",
+	"buildsFrom": [
+		{
+			"name": "Hatchet",
+			"id": 105103
+		},
+		{
+			"name": "Pike",
+			"id": 107302
+		}
+	],
 	"displayName": "Halberd Axe",
 	"apiMetaData": {
 		"code": 107303,

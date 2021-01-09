@@ -6,7 +6,7 @@ export const Bear: Animal = {
 	"locations": {
 		"Beach": 3,
 		"Uptown": 2,
-		"Dock": 2,
+		"Dock": 3,
 		"Pond": 2,
 		"Temple": 2,
 		"Alley": 3

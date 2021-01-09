@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Motor: Item = {
 	"id": 401303,
 	"name": "Motor",
-	"buildsFrom": [
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		},
-		{
-			"name": "Scrap Metal",
-			"id": 401106
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Vibroblade",
@@ -44,6 +34,16 @@ export const Motor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A motor itself is useless, but you can probably turn it into something great.",
+	"buildsFrom": [
+		{
+			"name": "Electronic Parts",
+			"id": 401211
+		},
+		{
+			"name": "Scrap Metal",
+			"id": 401106
+		}
+	],
 	"displayName": "Motor",
 	"apiMetaData": {
 		"code": 401303,

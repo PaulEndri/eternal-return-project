@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const ShortSpear: Item = {
 	"id": 107101,
 	"name": "ShortSpear",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Bamboo Spear",
@@ -37,6 +36,7 @@ export const ShortSpear: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A spear with a short shaft - about half the size of a long spear. Learn how to move freely during battle while wielding this weapon and attack with a fearless combat posture.",
+	"buildsFrom": [],
 	"displayName": "Short Spear",
 	"apiMetaData": {
 		"code": 107101,

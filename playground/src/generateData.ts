@@ -29,7 +29,10 @@ export const generateData = () => {
   const writeFile = (name: string, content) => {
     fs.writeFileSync(
       `src/generated/classic/${name}.json`,
-      JSON.stringify(content, null, 2)
+      JSON.stringify(content, null, 2).replace(
+        /Bloody Nine Tails/g,
+        'Whip of Nine Bloody Tails'
+      )
     );
   };
 
@@ -56,6 +59,12 @@ export const generateData = () => {
       characters.Emma = Emma;
       characters.Lenox = Lenox;
 
+      Object.keys(items.Weapons.Nunchaku.weapons).forEach(([key]) => {
+        if (items.Weapons.Whips.weapons[key]) {
+          delete items.Weapons.Nunchaku.weapons[key];
+        }
+      });
+
       const files = {
         Animals: animals,
         Locations: locations,
@@ -63,7 +72,7 @@ export const generateData = () => {
         Armor: items.armors,
         Material: items.materials,
         Consumable: items.consumables,
-        Weapons: items.weapons,
+        Weapons: items.weapons.map(),
         Items: items,
         Complete: allItems
       };

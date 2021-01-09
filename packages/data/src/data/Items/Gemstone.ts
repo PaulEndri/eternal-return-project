@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Gemstone: Item = {
 	"id": 401114,
 	"name": "Gemstone",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Muramasa",
@@ -32,6 +31,7 @@ export const Gemstone: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "An unrefined gemstone. Could be worth something in the right hands.",
+	"buildsFrom": [],
 	"displayName": "Gemstone",
 	"apiMetaData": {
 		"code": 401114,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WhipOfNineBloodyTails: Item = {
 	"id": 109501,
 	"name": "WhipOfNineBloodyTails",
-	"buildsFrom": [
-		{
-			"name": "VF Blood Sample",
-			"id": 401401
-		},
-		{
-			"name": "Wind Whip",
-			"id": 109301
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"VF Blood Sample": 1,
@@ -32,6 +22,16 @@ export const WhipOfNineBloodyTails: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "VF Blood Sample",
+			"id": 401401
+		},
+		{
+			"name": "Wind Whip",
+			"id": 109301
+		}
+	],
 	"displayName": "Whip of Nine Bloody Tails",
 	"apiMetaData": {
 		"code": 109501,

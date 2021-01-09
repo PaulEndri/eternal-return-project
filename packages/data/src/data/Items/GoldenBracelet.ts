@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GoldenBracelet: Item = {
 	"id": 203302,
 	"name": "GoldenBracelet",
-	"buildsFrom": [
-		{
-			"name": "Bracelet",
-			"id": 203104
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Draupnir",
@@ -35,6 +25,16 @@ export const GoldenBracelet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Most gold accessories are actually gold alloys. True gold is too soft. This golden bracelet would have been worth far more if it were 100% gold.",
+	"buildsFrom": [
+		{
+			"name": "Bracelet",
+			"id": 203104
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Golden Bracelet",
 	"apiMetaData": {
 		"code": 203302,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Slippers: Item = {
 	"id": 204101,
 	"name": "Slippers",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "High Heels",
@@ -30,6 +29,7 @@ export const Slippers: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A slipper soaked in sweat. The stench alone makes it a serious contender as a lethal weapon.",
+	"buildsFrom": [],
 	"displayName": "Slippers",
 	"apiMetaData": {
 		"code": 204101,

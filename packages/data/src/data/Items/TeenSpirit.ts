@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TeenSpirit: Item = {
 	"id": 121407,
 	"name": "TeenSpirit",
-	"buildsFrom": [
-		{
-			"name": "Wild Horse",
-			"id": 121306
-		},
-		{
-			"name": "Buddha Sarira",
-			"id": 205207
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -34,6 +24,16 @@ export const TeenSpirit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Humans shine the most as teens. This shining aura fades slowly, but inevitably, as times passes by.",
+	"buildsFrom": [
+		{
+			"name": "Wild Horse",
+			"id": 121306
+		},
+		{
+			"name": "Buddha Sarira",
+			"id": 205207
+		}
+	],
 	"displayName": "Teen Spirit",
 	"apiMetaData": {
 		"code": 121407,

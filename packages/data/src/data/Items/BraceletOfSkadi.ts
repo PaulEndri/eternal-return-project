@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BraceletOfSkadi: Item = {
 	"id": 203501,
 	"name": "BraceletOfSkadi",
-	"buildsFrom": [
-		{
-			"name": "Glacial Ice",
-			"id": 205402
-		},
-		{
-			"name": "Crimson Bracelet",
-			"id": 203304
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -36,6 +26,16 @@ export const BraceletOfSkadi: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bracelet worn by Skadi, a Norse Goddess associated with winter. Do you feel a chill?",
+	"buildsFrom": [
+		{
+			"name": "Glacial Ice",
+			"id": 205402
+		},
+		{
+			"name": "Crimson Bracelet",
+			"id": 203304
+		}
+	],
 	"displayName": "Bracelet of Skadi",
 	"apiMetaData": {
 		"code": 203501,

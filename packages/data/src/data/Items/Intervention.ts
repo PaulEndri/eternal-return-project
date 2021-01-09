@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Intervention: Item = {
 	"id": 118404,
 	"name": "Intervention",
-	"buildsFrom": [
-		{
-			"name": "Harpoon Gun",
-			"id": 118301
-		},
-		{
-			"name": "Telephoto Camera",
-			"id": 502207
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Long Rifle": 1,
@@ -33,6 +23,16 @@ export const Intervention: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Harpoon Gun",
+			"id": 118301
+		},
+		{
+			"name": "Telephoto Camera",
+			"id": 502207
+		}
+	],
 	"displayName": "Intervention",
 	"apiMetaData": {
 		"code": 118404,

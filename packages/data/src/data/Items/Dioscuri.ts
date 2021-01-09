@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Dioscuri: Item = {
 	"id": 103501,
 	"name": "Dioscuri",
-	"buildsFrom": [
-		{
-			"name": "Twin Swords",
-			"id": 103201
-		},
-		{
-			"name": "Ion Battery",
-			"id": 401306
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -32,6 +22,16 @@ export const Dioscuri: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Named after the Greek mythological twin brothers, Castor and Pollux. Twins but with different dads!",
+	"buildsFrom": [
+		{
+			"name": "Twin Swords",
+			"id": 103201
+		},
+		{
+			"name": "Ion Battery",
+			"id": 401306
+		}
+	],
 	"displayName": "Dioscuri",
 	"apiMetaData": {
 		"code": 103501,

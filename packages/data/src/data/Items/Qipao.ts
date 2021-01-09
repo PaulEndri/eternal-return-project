@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Qipao: Item = {
 	"id": 202304,
 	"name": "Qipao",
-	"buildsFrom": [
-		{
-			"name": "Dress",
-			"id": 202207
-		},
-		{
-			"name": "Razor",
-			"id": 113101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Dragon Dobok",
@@ -36,6 +26,16 @@ export const Qipao: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A traditional Chinese dress. They vary in style from simple cotton dresses to silk ones with elaborate fine details.",
+	"buildsFrom": [
+		{
+			"name": "Dress",
+			"id": 202207
+		},
+		{
+			"name": "Razor",
+			"id": 113101
+		}
+	],
 	"displayName": "Qipao",
 	"apiMetaData": {
 		"code": 202304,

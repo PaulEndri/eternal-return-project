@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Katana: Item = {
 	"id": 102301,
 	"name": "Katana",
-	"buildsFrom": [
-		{
-			"name": "Rusty Sword",
-			"id": 102101
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Masamune",
@@ -42,6 +32,16 @@ export const Katana: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "I can't believe that I'm actually holding a Japanese sword that I saw in the movies!",
+	"buildsFrom": [
+		{
+			"name": "Rusty Sword",
+			"id": 102101
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "Katana",
 	"apiMetaData": {
 		"code": 102301,

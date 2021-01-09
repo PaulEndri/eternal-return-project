@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HeavyCrossbow: Item = {
 	"id": 115303,
 	"name": "HeavyCrossbow",
-	"buildsFrom": [
-		{
-			"name": "Long Crossbow",
-			"id": 115201
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Ballista",
@@ -37,6 +27,16 @@ export const HeavyCrossbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Heavier than a standard crossbow, but also that much stronger. It was a popular weapon in Medieval Europe as it was easy to learn and use.",
+	"buildsFrom": [
+		{
+			"name": "Long Crossbow",
+			"id": 115201
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Heavy Crossbow",
 	"apiMetaData": {
 		"code": 115303,

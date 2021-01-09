@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FrostVenomDart: Item = {
 	"id": 113408,
 	"name": "FrostVenomDart",
-	"buildsFrom": [
-		{
-			"name": "Venom Dart",
-			"id": 113402
-		},
-		{
-			"name": "Ice",
-			"id": 301103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Petal Torrent",
@@ -39,6 +29,16 @@ export const FrostVenomDart: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Venom Dart",
+			"id": 113402
+		},
+		{
+			"name": "Ice",
+			"id": 301103
+		}
+	],
 	"displayName": "Frost Venom Dart",
 	"apiMetaData": {
 		"code": 113408,

@@ -130,7 +130,7 @@ export class Loadout {
     this.items
       .filter((v) => v)
       .forEach((item) => {
-        const itemWeight = weights[item.clientMetaData.type] || 1;
+        const itemWeight = weights[item.clientMetaData.category] || 1;
 
         Object.keys(item.materials).forEach((id) => {
           materialWeights.set(

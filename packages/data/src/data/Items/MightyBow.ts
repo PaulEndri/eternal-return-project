@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MightyBow: Item = {
 	"id": 114303,
 	"name": "MightyBow",
-	"buildsFrom": [
-		{
-			"name": "Longbow",
-			"id": 114202
-		},
-		{
-			"name": "Gunpowder",
-			"id": 401121
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Stallion Bow",
@@ -35,6 +25,16 @@ export const MightyBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow that can be made by combining a bow and gunpowder. While hiding in darkness, you must draw the bow quietly, but quickly.",
+	"buildsFrom": [
+		{
+			"name": "Longbow",
+			"id": 114202
+		},
+		{
+			"name": "Gunpowder",
+			"id": 401121
+		}
+	],
 	"displayName": "Mighty Bow",
 	"apiMetaData": {
 		"code": 114303,

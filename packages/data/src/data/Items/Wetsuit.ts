@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Wetsuit: Item = {
 	"id": 202105,
 	"name": "Wetsuit",
-	"buildsFrom": [],
 	"buildsInto": [],
 	"requirements": {},
 	"stats": {
@@ -17,6 +16,7 @@ export const Wetsuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A kind of swimsuit that covers parts of the legs and arms or the whole body from neck down. Aka a wet suit!",
+	"buildsFrom": [],
 	"displayName": "Wetsuit",
 	"apiMetaData": {
 		"code": 202105,

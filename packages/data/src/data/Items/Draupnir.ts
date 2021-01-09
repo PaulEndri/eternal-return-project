@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Draupnir: Item = {
 	"id": 203403,
 	"name": "Draupnir",
-	"buildsFrom": [
-		{
-			"name": "Golden Bracelet",
-			"id": 203302
-		},
-		{
-			"name": "Bracer",
-			"id": 203203
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bracelet": 1,
@@ -34,6 +24,16 @@ export const Draupnir: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The magical golden bracelet of the Norse God, Odin. It has the power to provide unthinkable riches... and a full stomach",
+	"buildsFrom": [
+		{
+			"name": "Golden Bracelet",
+			"id": 203302
+		},
+		{
+			"name": "Bracer",
+			"id": 203203
+		}
+	],
 	"displayName": "Draupnir",
 	"apiMetaData": {
 		"code": 203403,

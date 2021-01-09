@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BambooSpear: Item = {
 	"id": 107201,
 	"name": "BambooSpear",
-	"buildsFrom": [
-		{
-			"name": "Short Spear",
-			"id": 107101
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bident",
@@ -41,6 +31,16 @@ export const BambooSpear: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A spear made out of bamboo. Yup.",
+	"buildsFrom": [
+		{
+			"name": "Short Spear",
+			"id": 107101
+		},
+		{
+			"name": "Bamboo",
+			"id": 108103
+		}
+	],
 	"displayName": "Bamboo Spear",
 	"apiMetaData": {
 		"code": 107201,

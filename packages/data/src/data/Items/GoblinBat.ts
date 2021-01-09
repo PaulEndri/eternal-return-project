@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GoblinBat: Item = {
 	"id": 108301,
 	"name": "GoblinBat",
-	"buildsFrom": [
-		{
-			"name": "Long Rod",
-			"id": 108202
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Mallet",
@@ -35,6 +25,16 @@ export const GoblinBat: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A supernatural demon from the East that is said to be playful with humans. Westerns may identify them as an \"Imp.\"",
+	"buildsFrom": [
+		{
+			"name": "Long Rod",
+			"id": 108202
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Goblin Bat",
 	"apiMetaData": {
 		"code": 108301,

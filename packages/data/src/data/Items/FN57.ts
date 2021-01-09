@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FN57: Item = {
 	"id": 116301,
 	"name": "FN57",
-	"buildsFrom": [
-		{
-			"name": "Beretta M92F",
-			"id": 116202
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Elegance",
@@ -37,6 +27,16 @@ export const FN57: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Beretta M92F",
+			"id": 116202
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "FN57",
 	"apiMetaData": {
 		"code": 116301,

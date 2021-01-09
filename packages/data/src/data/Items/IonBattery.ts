@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const IonBattery: Item = {
 	"id": 401306,
 	"name": "IonBattery",
-	"buildsFrom": [
-		{
-			"name": "Dead Battery",
-			"id": 401205
-		},
-		{
-			"name": "Carbonated Water",
-			"id": 301107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Dioscuri",
@@ -48,6 +38,16 @@ export const IonBattery: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "A high capacity battery made of lithium ion that can be recharged many times.",
+	"buildsFrom": [
+		{
+			"name": "Dead Battery",
+			"id": 401205
+		},
+		{
+			"name": "Carbonated Water",
+			"id": 301107
+		}
+	],
 	"displayName": "Ion Battery",
 	"apiMetaData": {
 		"code": 401306,

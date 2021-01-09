@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const AzureDagger: Item = {
 	"id": 113409,
 	"name": "AzureDagger",
-	"buildsFrom": [
-		{
-			"name": "Onyx Dagger",
-			"id": 113206
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Razor": 1,
@@ -34,6 +24,16 @@ export const AzureDagger: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Blue weapons aren't always associated with ice or water...",
+	"buildsFrom": [
+		{
+			"name": "Onyx Dagger",
+			"id": 113206
+		},
+		{
+			"name": "Poison",
+			"id": 401302
+		}
+	],
 	"displayName": "Azure Dagger",
 	"apiMetaData": {
 		"code": 113409,

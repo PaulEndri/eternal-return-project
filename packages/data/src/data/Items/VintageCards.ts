@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const VintageCards: Item = {
 	"id": 113203,
 	"name": "VintageCards",
-	"buildsFrom": [
-		{
-			"name": "Playing Cards",
-			"id": 113102
-		},
-		{
-			"name": "Fountain Pen",
-			"id": 101102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Charm",
@@ -39,6 +29,16 @@ export const VintageCards: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A shabby looking deck of cards. Probably used to gamble in a sketchy alley.",
+	"buildsFrom": [
+		{
+			"name": "Playing Cards",
+			"id": 113102
+		},
+		{
+			"name": "Fountain Pen",
+			"id": 101102
+		}
+	],
 	"displayName": "Vintage Cards",
 	"apiMetaData": {
 		"code": 113203,

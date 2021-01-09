@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MithrilBoots: Item = {
 	"id": 204407,
 	"name": "MithrilBoots",
-	"buildsFrom": [
-		{
-			"name": "Mithril",
-			"id": 401304
-		},
-		{
-			"name": "Chain Leggings",
-			"id": 204202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Mithril": 1,
@@ -31,6 +21,16 @@ export const MithrilBoots: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Boots made out of mithril. Stronger than steel and fireproof, too!",
+	"buildsFrom": [
+		{
+			"name": "Mithril",
+			"id": 401304
+		},
+		{
+			"name": "Chain Leggings",
+			"id": 204202
+		}
+	],
 	"displayName": "Mithril Boots",
 	"apiMetaData": {
 		"code": 204407,

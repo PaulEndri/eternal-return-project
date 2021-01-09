@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Branch: Item = {
 	"id": 108101,
 	"name": "Branch",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Army Knife",
@@ -49,6 +48,7 @@ export const Branch: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Now's not the time to protect the environment. Now is the time to protect yourself.",
+	"buildsFrom": [],
 	"displayName": "Branch",
 	"apiMetaData": {
 		"code": 108101,

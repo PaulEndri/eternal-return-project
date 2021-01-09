@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Boots: Item = {
 	"id": 204302,
 	"name": "Boots",
-	"buildsFrom": [
-		{
-			"name": "Running Shoes",
-			"id": 204102
-		},
-		{
-			"name": "Oilcloth",
-			"id": 401202
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Combat Boots",
@@ -40,6 +30,16 @@ export const Boots: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Protects your feet and calves. Don't wear them too tight -- it might restrict your bloodflow.",
+	"buildsFrom": [
+		{
+			"name": "Running Shoes",
+			"id": 204102
+		},
+		{
+			"name": "Oilcloth",
+			"id": 401202
+		}
+	],
 	"displayName": "Boots",
 	"apiMetaData": {
 		"code": 204302,

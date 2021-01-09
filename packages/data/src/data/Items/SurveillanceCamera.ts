@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const SurveillanceCamera: Item = {
 	"id": 502101,
 	"name": "SurveillanceCamera",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Telephoto Camera",
@@ -27,6 +26,7 @@ export const SurveillanceCamera: Item = {
 		"Dock": 6
 	},
 	"foundQuantity": 1,
+	"buildsFrom": [],
 	"displayName": "Surveillance Camera",
 	"apiMetaData": {
 		"code": 502101,

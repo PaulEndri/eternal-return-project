@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RockersJacket: Item = {
 	"id": 202406,
 	"name": "RockersJacket",
-	"buildsFrom": [
-		{
-			"name": "Rider Jacket",
-			"id": 202301
-		},
-		{
-			"name": "Clang Clatter",
-			"id": 502206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Windbreaker": 1,
@@ -35,6 +25,16 @@ export const RockersJacket: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "There's something burning in my HEART. Today, I can do anything.",
+	"buildsFrom": [
+		{
+			"name": "Rider Jacket",
+			"id": 202301
+		},
+		{
+			"name": "Clang Clatter",
+			"id": 502206
+		}
+	],
 	"displayName": "Rocker's Jacket",
 	"apiMetaData": {
 		"code": 202406,

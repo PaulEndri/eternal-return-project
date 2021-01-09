@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const VFBloodSample: Item = {
 	"id": 401401,
 	"name": "VFBloodSample",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Dáinsleif",
@@ -43,6 +42,7 @@ export const VFBloodSample: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Only the strongest can get this blood sample.",
+	"buildsFrom": [],
 	"displayName": "VF Blood Sample",
 	"apiMetaData": {
 		"code": 401401,

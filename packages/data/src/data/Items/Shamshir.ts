@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Shamshir: Item = {
 	"id": 102201,
 	"name": "Shamshir",
-	"buildsFrom": [
-		{
-			"name": "Rusty Sword",
-			"id": 102101
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Jewel Sword",
@@ -37,6 +27,16 @@ export const Shamshir: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The name translates into \"The Tail of the Lion.\" A symbolic sword of Persia, it's also known to be the origin of the sabre.",
+	"buildsFrom": [
+		{
+			"name": "Rusty Sword",
+			"id": 102101
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "Shamshir",
 	"apiMetaData": {
 		"code": 102201,

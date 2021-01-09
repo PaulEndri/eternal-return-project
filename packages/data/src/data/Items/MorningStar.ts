@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MorningStar: Item = {
 	"id": 104301,
 	"name": "MorningStar",
-	"buildsFrom": [
-		{
-			"name": "Warhammer",
-			"id": 104201
-		},
-		{
-			"name": "Iron Ball",
-			"id": 112103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Fang Mace",
@@ -38,6 +28,16 @@ export const MorningStar: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A blunt weapon you use with both hands. It was used by infantry against knights on horseback. The head of the weapon can be changed according to the user's style.",
+	"buildsFrom": [
+		{
+			"name": "Warhammer",
+			"id": 104201
+		},
+		{
+			"name": "Iron Ball",
+			"id": 112103
+		}
+	],
 	"displayName": "Morning Star",
 	"apiMetaData": {
 		"code": 104301,

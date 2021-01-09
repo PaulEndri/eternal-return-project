@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const AK47: Item = {
 	"id": 117301,
 	"name": "AK47",
-	"buildsFrom": [
-		{
-			"name": "STG-44",
-			"id": 117201
-		},
-		{
-			"name": "Piano Wire",
-			"id": 502104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "AK-12",
@@ -37,6 +27,16 @@ export const AK47: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "STG-44",
+			"id": 117201
+		},
+		{
+			"name": "Piano Wire",
+			"id": 502104
+		}
+	],
 	"displayName": "AK-47",
 	"apiMetaData": {
 		"code": 117301,

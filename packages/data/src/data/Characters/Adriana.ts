@@ -151,7 +151,7 @@ export const Adriana: Character = {
 			"name": "Fire Escape",
 			"slot": "E",
 			"type": "Movement",
-			"description": "Adriana dashes in the targeted direction, leaving behind a trail of fire. The flames create fire and remain for 2 seconds.",
+			"description": "Adriana dashes in the targeted direction, leaving behind a trail of fire. The flames create fire and remain for 5 seconds.",
 			"stats": {
 				"Range": {
 					"title": "Range",

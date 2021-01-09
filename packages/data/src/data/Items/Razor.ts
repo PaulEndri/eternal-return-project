@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Razor: Item = {
 	"id": 113101,
 	"name": "Razor",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Bullwhip",
@@ -42,6 +41,7 @@ export const Razor: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Check for these in your Halloween candy before you eat it!",
+	"buildsFrom": [],
 	"displayName": "Razor",
 	"apiMetaData": {
 		"code": 113101,

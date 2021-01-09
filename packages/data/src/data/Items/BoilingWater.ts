@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BoilingWater: Item = {
 	"id": 301201,
 	"name": "BoilingWater",
-	"buildsFrom": [
-		{
-			"name": "Water",
-			"id": 301102
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Flubber",
@@ -68,6 +58,16 @@ export const BoilingWater: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"buildsFrom": [
+		{
+			"name": "Water",
+			"id": 301102
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "Boiling Water",
 	"apiMetaData": {
 		"code": 301201,

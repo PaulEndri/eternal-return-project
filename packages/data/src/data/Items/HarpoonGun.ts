@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HarpoonGun: Item = {
 	"id": 118301,
 	"name": "HarpoonGun",
-	"buildsFrom": [
-		{
-			"name": "Springfield",
-			"id": 118201
-		},
-		{
-			"name": "Short Spear",
-			"id": 107101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Tac-50",
@@ -40,6 +30,16 @@ export const HarpoonGun: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A powerful gun that fires harpoons. Thar she blows!",
+	"buildsFrom": [
+		{
+			"name": "Springfield",
+			"id": 118201
+		},
+		{
+			"name": "Short Spear",
+			"id": 107101
+		}
+	],
 	"displayName": "Harpoon Gun",
 	"apiMetaData": {
 		"code": 118301,

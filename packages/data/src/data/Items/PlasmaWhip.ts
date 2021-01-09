@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PlasmaWhip: Item = {
 	"id": 109404,
 	"name": "PlasmaWhip",
-	"buildsFrom": [
-		{
-			"name": "Lightning Whip",
-			"id": 109402
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Whip": 1,
@@ -33,6 +23,16 @@ export const PlasmaWhip: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Lightning Whip",
+			"id": 109402
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "Plasma Whip",
 	"apiMetaData": {
 		"code": 109404,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Gauntlet: Item = {
 	"id": 110301,
 	"name": "Gauntlet",
-	"buildsFrom": [
-		{
-			"name": "Cotton Gloves",
-			"id": 110102
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bone Gauntlet",
@@ -39,6 +29,16 @@ export const Gauntlet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Gloves that knights wore to protect their hands.",
+	"buildsFrom": [
+		{
+			"name": "Cotton Gloves",
+			"id": 110102
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Gauntlet",
 	"apiMetaData": {
 		"code": 110301,

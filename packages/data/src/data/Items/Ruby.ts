@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Ruby: Item = {
 	"id": 401204,
 	"name": "Ruby",
-	"buildsFrom": [
-		{
-			"name": "Hammer",
-			"id": 104101
-		},
-		{
-			"name": "Gemstone",
-			"id": 401114
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Jewel Sword",
@@ -59,6 +49,16 @@ export const Ruby: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Rubies and sapphires actually have the same chemical composition and mineral structure! However, rubies have a small amount of chromium that makes them appear red.",
+	"buildsFrom": [
+		{
+			"name": "Hammer",
+			"id": 104101
+		},
+		{
+			"name": "Gemstone",
+			"id": 401114
+		}
+	],
 	"displayName": "Ruby",
 	"apiMetaData": {
 		"code": 401204,

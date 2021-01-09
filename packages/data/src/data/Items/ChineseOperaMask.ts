@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ChineseOperaMask: Item = {
 	"id": 201411,
 	"name": "ChineseOperaMask",
-	"buildsFrom": [
-		{
-			"name": "Mask",
-			"id": 201201
-		},
-		{
-			"name": "VF Blood Sample",
-			"id": 401401
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hairband": 1,
@@ -33,6 +23,16 @@ export const ChineseOperaMask: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Mask",
+			"id": 201201
+		},
+		{
+			"name": "VF Blood Sample",
+			"id": 401401
+		}
+	],
 	"displayName": "Chinese Opera Mask",
 	"apiMetaData": {
 		"code": 201411,

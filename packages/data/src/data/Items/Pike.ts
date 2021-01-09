@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Pike: Item = {
 	"id": 107302,
 	"name": "Pike",
-	"buildsFrom": [
-		{
-			"name": "Short Spear",
-			"id": 107101
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Halberd Axe",
@@ -43,6 +33,16 @@ export const Pike: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Short Spear",
+			"id": 107101
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Pike",
 	"apiMetaData": {
 		"code": 107302,

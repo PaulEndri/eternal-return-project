@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CovertAgentUniform: Item = {
 	"id": 202404,
 	"name": "CovertAgentUniform",
-	"buildsFrom": [
-		{
-			"name": "Hanbok",
-			"id": 202306
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Sword of Justice",
@@ -37,6 +27,16 @@ export const CovertAgentUniform: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The uniform worn by agents that performed special missions for the King. Secretly.",
+	"buildsFrom": [
+		{
+			"name": "Hanbok",
+			"id": 202306
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Covert Agent Uniform",
 	"apiMetaData": {
 		"code": 202404,

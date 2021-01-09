@@ -112,7 +112,7 @@ export const Beach: Location = {
 			"quantity": 7
 		}
 	],
-	"teleport": true,
+	"teleport": false,
 	"connections": [
 		{
 			"name": "Hotel",

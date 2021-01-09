@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RopeCuffs: Item = {
 	"id": 109201,
 	"name": "RopeCuffs",
-	"buildsFrom": [
-		{
-			"name": "Whip",
-			"id": 109101
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Wind Whip",
@@ -34,6 +24,16 @@ export const RopeCuffs: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Whip",
+			"id": 109101
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Rope Cuffs",
 	"apiMetaData": {
 		"code": 109201,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Can: Item = {
 	"id": 401120,
 	"name": "Can",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Can of Cola",
@@ -31,6 +30,7 @@ export const Can: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "You can throw the can.",
+	"buildsFrom": [],
 	"displayName": "Can",
 	"apiMetaData": {
 		"code": 401120,

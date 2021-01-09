@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SteelBow: Item = {
 	"id": 115401,
 	"name": "SteelBow",
-	"buildsFrom": [
-		{
-			"name": "Crossbow",
-			"id": 115202
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "The Legend of The General",
@@ -36,6 +26,16 @@ export const SteelBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow made out of steel. It might be heavy to some.",
+	"buildsFrom": [
+		{
+			"name": "Crossbow",
+			"id": 115202
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "Steel Bow",
 	"apiMetaData": {
 		"code": 115401,

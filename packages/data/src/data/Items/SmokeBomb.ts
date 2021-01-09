@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SmokeBomb: Item = {
 	"id": 112402,
 	"name": "SmokeBomb",
-	"buildsFrom": [
-		{
-			"name": "Flour Bomb",
-			"id": 112301
-		},
-		{
-			"name": "Cola",
-			"id": 301209
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Chalk": 1,
@@ -34,6 +24,16 @@ export const SmokeBomb: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Inflicts immense damage by emitting a poisonous gas. It is made from gunpowder and a special barrel.",
+	"buildsFrom": [
+		{
+			"name": "Flour Bomb",
+			"id": 112301
+		},
+		{
+			"name": "Cola",
+			"id": 301209
+		}
+	],
 	"displayName": "Smoke Bomb",
 	"apiMetaData": {
 		"code": 112402,

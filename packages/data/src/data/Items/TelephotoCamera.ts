@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TelephotoCamera: Item = {
 	"id": 502207,
 	"name": "TelephotoCamera",
-	"buildsFrom": [
-		{
-			"name": "Surveillance Camera",
-			"id": 502101
-		},
-		{
-			"name": "Binoculars",
-			"id": 205110
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Intervention",
@@ -30,6 +20,16 @@ export const TelephotoCamera: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"buildsFrom": [
+		{
+			"name": "Surveillance Camera",
+			"id": 502101
+		},
+		{
+			"name": "Binoculars",
+			"id": 205110
+		}
+	],
 	"displayName": "Telephoto Camera",
 	"apiMetaData": {
 		"code": 502207,

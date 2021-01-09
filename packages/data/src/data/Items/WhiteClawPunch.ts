@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WhiteClawPunch: Item = {
 	"id": 110411,
 	"name": "WhiteClawPunch",
-	"buildsFrom": [
-		{
-			"name": "Glass Knuckles",
-			"id": 110403
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Brass Knuckles": 1,
@@ -32,6 +22,16 @@ export const WhiteClawPunch: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Glass Knuckles",
+			"id": 110403
+		},
+		{
+			"name": "White Powder",
+			"id": 401206
+		}
+	],
 	"displayName": "White Claw Punch",
 	"apiMetaData": {
 		"code": 110411,

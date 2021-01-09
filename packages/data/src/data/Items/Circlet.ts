@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Circlet: Item = {
 	"id": 201202,
 	"name": "Circlet",
-	"buildsFrom": [
-		{
-			"name": "Hairband",
-			"id": 201101
-		},
-		{
-			"name": "Branch",
-			"id": 108101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Tiara",
@@ -42,6 +32,16 @@ export const Circlet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A simple accessory worn on the head. It looks rather plain.",
+	"buildsFrom": [
+		{
+			"name": "Hairband",
+			"id": 201101
+		},
+		{
+			"name": "Branch",
+			"id": 108101
+		}
+	],
 	"displayName": "Circlet",
 	"apiMetaData": {
 		"code": 201202,

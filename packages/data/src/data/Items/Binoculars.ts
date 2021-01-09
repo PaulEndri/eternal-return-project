@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Binoculars: Item = {
 	"id": 205110,
 	"name": "Binoculars",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Motorcycle Helmet",
@@ -35,6 +34,7 @@ export const Binoculars: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "These don't seem to zoom in much. Perhaps it's because they're homemade.",
+	"buildsFrom": [],
 	"displayName": "Binoculars",
 	"apiMetaData": {
 		"code": 205110,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Springfield: Item = {
 	"id": 118201,
 	"name": "Springfield",
-	"buildsFrom": [
-		{
-			"name": "Long Rifle",
-			"id": 118101
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Harpoon Gun",
@@ -43,6 +33,16 @@ export const Springfield: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Long Rifle",
+			"id": 118101
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "Springfield",
 	"apiMetaData": {
 		"code": 118201,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SwordOfJustice: Item = {
 	"id": 120302,
 	"name": "SwordOfJustice",
-	"buildsFrom": [
-		{
-			"name": "Rapier",
-			"id": 120201
-		},
-		{
-			"name": "Covert Agent Uniform",
-			"id": 202404
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Mistilteinn",
@@ -41,6 +31,16 @@ export const SwordOfJustice: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Historical texts state that Hong Gil-dong, the Robin Hood of ancient Korea, used it.",
+	"buildsFrom": [
+		{
+			"name": "Rapier",
+			"id": 120201
+		},
+		{
+			"name": "Covert Agent Uniform",
+			"id": 202404
+		}
+	],
 	"displayName": "Sword of Justice",
 	"apiMetaData": {
 		"code": 120302,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Feather: Item = {
 	"id": 205101,
 	"name": "Feather",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Light Hatchet",
@@ -53,6 +52,7 @@ export const Feather: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Great for heat preservation or just for decoration!",
+	"buildsFrom": [],
 	"displayName": "Feather",
 	"apiMetaData": {
 		"code": 205101,

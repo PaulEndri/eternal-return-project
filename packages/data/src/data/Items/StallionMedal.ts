@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const StallionMedal: Item = {
 	"id": 401109,
 	"name": "StallionMedal",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Rope Cuffs",
@@ -47,6 +46,7 @@ export const StallionMedal: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A form of identification that verifies the recognition of the royal order. There have been many cases where royalty have used this for inspection purposes.",
+	"buildsFrom": [],
 	"displayName": "Stallion Medal",
 	"apiMetaData": {
 		"code": 401109,

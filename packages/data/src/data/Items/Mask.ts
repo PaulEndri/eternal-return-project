@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Mask: Item = {
 	"id": 201201,
 	"name": "Mask",
-	"buildsFrom": [
-		{
-			"name": "Hairband",
-			"id": 201101
-		},
-		{
-			"name": "Feather",
-			"id": 205101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Close Helm",
@@ -39,6 +29,16 @@ export const Mask: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you can escape from Lumia Island, try visiting the Carnival of Venice. It's one of the most popular festivals in the world, but you can visit only if you manage to get out of here alive.",
+	"buildsFrom": [
+		{
+			"name": "Hairband",
+			"id": 201101
+		},
+		{
+			"name": "Feather",
+			"id": 205101
+		}
+	],
 	"displayName": "Mask",
 	"apiMetaData": {
 		"code": 201201,

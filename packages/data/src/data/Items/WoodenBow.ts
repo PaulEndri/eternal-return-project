@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WoodenBow: Item = {
 	"id": 114201,
 	"name": "WoodenBow",
-	"buildsFrom": [
-		{
-			"name": "Branch",
-			"id": 108101
-		},
-		{
-			"name": "Piano Wire",
-			"id": 502104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Strong Bow",
@@ -37,6 +27,16 @@ export const WoodenBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A wooden bow. As plain as it seems, you need choice timber to make a usable wooden bow. Plywood is a no go.",
+	"buildsFrom": [
+		{
+			"name": "Branch",
+			"id": 108101
+		},
+		{
+			"name": "Piano Wire",
+			"id": 502104
+		}
+	],
 	"displayName": "Wooden Bow",
 	"apiMetaData": {
 		"code": 114201,

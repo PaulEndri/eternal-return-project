@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LeatherArmor: Item = {
 	"id": 202201,
 	"name": "LeatherArmor",
-	"buildsFrom": [
-		{
-			"name": "Fabric Armor",
-			"id": 202106
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Chain Armor",
@@ -41,6 +31,16 @@ export const LeatherArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor made from leather. Stronger than armor made from just fabric!",
+	"buildsFrom": [
+		{
+			"name": "Fabric Armor",
+			"id": 202106
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Leather Armor",
 	"apiMetaData": {
 		"code": 202201,

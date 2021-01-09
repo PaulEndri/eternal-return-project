@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BlackStagHammer: Item = {
 	"id": 104302,
 	"name": "BlackStagHammer",
-	"buildsFrom": [
-		{
-			"name": "Warhammer",
-			"id": 104201
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Hammer of Dagda",
@@ -38,6 +28,16 @@ export const BlackStagHammer: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Warhammer",
+			"id": 104201
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Black Stag Hammer",
 	"apiMetaData": {
 		"code": 104302,

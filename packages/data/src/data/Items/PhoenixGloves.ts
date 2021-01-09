@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PhoenixGloves: Item = {
 	"id": 110404,
 	"name": "PhoenixGloves",
-	"buildsFrom": [
-		{
-			"name": "Leather Gloves",
-			"id": 110201
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Frost Petal Hand",
@@ -40,6 +30,16 @@ export const PhoenixGloves: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You cannot reach the point of Nirvana to separate your body and soul, but you can remove others' souls from their bodies with this glove.",
+	"buildsFrom": [
+		{
+			"name": "Leather Gloves",
+			"id": 110201
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "Phoenix Gloves",
 	"apiMetaData": {
 		"code": 110404,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DeathRune: Item = {
 	"id": 113412,
 	"name": "DeathRune",
-	"buildsFrom": [
-		{
-			"name": "Charm",
-			"id": 113202
-		},
-		{
-			"name": "Tree of Life",
-			"id": 401208
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Playing Cards": 1,
@@ -32,6 +22,16 @@ export const DeathRune: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Charm",
+			"id": 113202
+		},
+		{
+			"name": "Tree of Life",
+			"id": 401208
+		}
+	],
 	"displayName": "Death Rune",
 	"apiMetaData": {
 		"code": 113412,

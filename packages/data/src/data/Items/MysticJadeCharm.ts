@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MysticJadeCharm: Item = {
 	"id": 113405,
 	"name": "MysticJadeCharm",
-	"buildsFrom": [
-		{
-			"name": "Charm",
-			"id": 113202
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Playing Cards": 1,
@@ -34,6 +24,16 @@ export const MysticJadeCharm: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Charm",
+			"id": 113202
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "Mystic Jade Charm",
 	"apiMetaData": {
 		"code": 113405,

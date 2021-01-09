@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ThrowingStars: Item = {
 	"id": 113205,
 	"name": "ThrowingStars",
-	"buildsFrom": [
-		{
-			"name": "Razor",
-			"id": 113101
-		},
-		{
-			"name": "Piano Wire",
-			"id": 502104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Chakram",
@@ -38,6 +28,16 @@ export const ThrowingStars: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's convenient, but be careful when using it. It doesn't come back to you like a boomerang.",
+	"buildsFrom": [
+		{
+			"name": "Razor",
+			"id": 113101
+		},
+		{
+			"name": "Piano Wire",
+			"id": 502104
+		}
+	],
 	"displayName": "Throwing Stars",
 	"apiMetaData": {
 		"code": 113205,

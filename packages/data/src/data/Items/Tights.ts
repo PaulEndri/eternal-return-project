@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Tights: Item = {
 	"id": 204103,
 	"name": "Tights",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Knee Pads",
@@ -30,6 +29,7 @@ export const Tights: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It's thin and tight. You can wear them on your legs or over your head if you're going to rob a bank.",
+	"buildsFrom": [],
 	"displayName": "Tights",
 	"apiMetaData": {
 		"code": 204103,

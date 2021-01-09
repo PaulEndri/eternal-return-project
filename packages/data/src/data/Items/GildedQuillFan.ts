@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GildedQuillFan: Item = {
 	"id": 205210,
 	"name": "GildedQuillFan",
-	"buildsFrom": [
-		{
-			"name": "Fan",
-			"id": 205105
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Fangtian Huaji",
@@ -38,6 +28,16 @@ export const GildedQuillFan: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If you fan your face with this, try not to scratch yourself.",
+	"buildsFrom": [
+		{
+			"name": "Fan",
+			"id": 205105
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Gilded Quill Fan",
 	"apiMetaData": {
 		"code": 205210,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CardsOfTyranny: Item = {
 	"id": 113401,
 	"name": "CardsOfTyranny",
-	"buildsFrom": [
-		{
-			"name": "Vintage Cards",
-			"id": 113203
-		},
-		{
-			"name": "Ion Battery",
-			"id": 401306
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Playing Cards": 1,
@@ -34,6 +24,16 @@ export const CardsOfTyranny: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
+	"buildsFrom": [
+		{
+			"name": "Vintage Cards",
+			"id": 113203
+		},
+		{
+			"name": "Ion Battery",
+			"id": 401306
+		}
+	],
 	"displayName": "Cards of Tyranny",
 	"apiMetaData": {
 		"code": 113401,

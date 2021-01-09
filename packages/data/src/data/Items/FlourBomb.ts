@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FlourBomb: Item = {
 	"id": 112301,
 	"name": "FlourBomb",
-	"buildsFrom": [
-		{
-			"name": "White Powder",
-			"id": 401206
-		},
-		{
-			"name": "Molotov Cocktail",
-			"id": 112203
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Smoke Bomb",
@@ -37,6 +27,16 @@ export const FlourBomb: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "By combining a flour bomb and some gunpowder, you can make a smoke bomb. Let's see if there's any gunpowder around here...",
+	"buildsFrom": [
+		{
+			"name": "White Powder",
+			"id": 401206
+		},
+		{
+			"name": "Molotov Cocktail",
+			"id": 112203
+		}
+	],
 	"displayName": "Flour Bomb",
 	"apiMetaData": {
 		"code": 112301,

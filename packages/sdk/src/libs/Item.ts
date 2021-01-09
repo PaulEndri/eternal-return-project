@@ -28,10 +28,10 @@ export class Item<A extends string = any, T extends string = any>
   public collectible: number;
   public stackable: boolean;
   public requirements: NamedMaterialList;
-  public buildsInto: IElement<ItemsEnum>[];
-  public buildsFrom: IElement<ItemsEnum>[];
+  public buildsInto: IElement[];
+  public buildsFrom: IElement[];
   public locations: Record<Partial<Locations>, number>;
-  public droppedFrom: IElement<Animals>[];
+  public droppedFrom: IElement<keyof typeof Animals>[];
   public id: string | number;
   public name: ItemsEnum;
   public apiMetaData: { type: string; name: string; category: string };

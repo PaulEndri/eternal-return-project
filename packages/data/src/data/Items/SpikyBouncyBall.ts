@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SpikyBouncyBall: Item = {
 	"id": 112403,
 	"name": "SpikyBouncyBall",
-	"buildsFrom": [
-		{
-			"name": "Flubber",
-			"id": 112304
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Ruthenium Marble",
@@ -37,6 +27,16 @@ export const SpikyBouncyBall: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A rubber ball with sharp fragments on the surface. It hurts. Also, don't underestimate its bouncing capability!",
+	"buildsFrom": [
+		{
+			"name": "Flubber",
+			"id": 112304
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Spiky Bouncy Ball",
 	"apiMetaData": {
 		"code": 112403,

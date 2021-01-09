@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ApricotSword: Item = {
 	"id": 120301,
 	"name": "ApricotSword",
-	"buildsFrom": [
-		{
-			"name": "Rapier",
-			"id": 120201
-		},
-		{
-			"name": "Flower of Fate",
-			"id": 205203
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Durendal Mk2",
@@ -46,6 +36,16 @@ export const ApricotSword: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Rapier",
+			"id": 120201
+		},
+		{
+			"name": "Flower of Fate",
+			"id": 205203
+		}
+	],
 	"displayName": "Apricot Sword",
 	"apiMetaData": {
 		"code": 120301,

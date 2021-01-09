@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Water: Item = {
 	"id": 301102,
 	"name": "Water",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Fire Helmet",
@@ -48,6 +47,7 @@ export const Water: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"buildsFrom": [],
 	"displayName": "Water",
 	"apiMetaData": {
 		"code": 301102,

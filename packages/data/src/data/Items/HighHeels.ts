@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HighHeels: Item = {
 	"id": 204203,
 	"name": "HighHeels",
-	"buildsFrom": [
-		{
-			"name": "Slippers",
-			"id": 204101
-		},
-		{
-			"name": "Scrap Metal",
-			"id": 401106
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Killer Heels",
@@ -34,6 +24,16 @@ export const HighHeels: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Makes you a bit taller. Maybe the air is fresher up there.",
+	"buildsFrom": [
+		{
+			"name": "Slippers",
+			"id": 204101
+		},
+		{
+			"name": "Scrap Metal",
+			"id": 401106
+		}
+	],
 	"displayName": "High Heels",
 	"apiMetaData": {
 		"code": 204203,

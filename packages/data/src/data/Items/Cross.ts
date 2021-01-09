@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Cross: Item = {
 	"id": 205109,
 	"name": "Cross",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Arondight",
@@ -40,6 +39,7 @@ export const Cross: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Feeling...holy?",
+	"buildsFrom": [],
 	"displayName": "Cross",
 	"apiMetaData": {
 		"code": 205109,

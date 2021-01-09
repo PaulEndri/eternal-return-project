@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GoldenBridge: Item = {
 	"id": 121201,
 	"name": "GoldenBridge",
-	"buildsFrom": [
-		{
-			"name": "Starter Guitar",
-			"id": 121101
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Humbucker Pickup",
@@ -39,6 +29,16 @@ export const GoldenBridge: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Some people think that the more expensive it is, the better it sounds.",
+	"buildsFrom": [
+		{
+			"name": "Starter Guitar",
+			"id": 121101
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Golden Bridge",
 	"apiMetaData": {
 		"code": 121201,

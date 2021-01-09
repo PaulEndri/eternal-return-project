@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const HammerOfThor: Item = {
 	"id": 104403,
 	"name": "HammerOfThor",
-	"buildsFrom": [
-		{
-			"name": "Black Stag Hammer",
-			"id": 104302
-		},
-		{
-			"name": "Ion Battery",
-			"id": 401306
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hammer": 1,
@@ -33,6 +23,16 @@ export const HammerOfThor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The hammer that Thor, the God of Thunder, used. Also called Mjolnir, meaning \"The Destroyer.\"",
+	"buildsFrom": [
+		{
+			"name": "Black Stag Hammer",
+			"id": 104302
+		},
+		{
+			"name": "Ion Battery",
+			"id": 401306
+		}
+	],
 	"displayName": "Hammer of Thor",
 	"apiMetaData": {
 		"code": 104403,

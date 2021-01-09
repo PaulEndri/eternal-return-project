@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BloodwingKnuckles: Item = {
 	"id": 110407,
 	"name": "BloodwingKnuckles",
-	"buildsFrom": [
-		{
-			"name": "Wing Knuckles",
-			"id": 110302
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Brass Knuckles": 1,
@@ -33,6 +23,16 @@ export const BloodwingKnuckles: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Knuckles that seemingly fit the Dark Angel. How can you return when your wings are covered in crimson blood..?",
+	"buildsFrom": [
+		{
+			"name": "Wing Knuckles",
+			"id": 110302
+		},
+		{
+			"name": "Ruby",
+			"id": 401204
+		}
+	],
 	"displayName": "Bloodwing Knuckles",
 	"apiMetaData": {
 		"code": 110407,

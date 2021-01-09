@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Twinbow: Item = {
 	"id": 114405,
 	"name": "Twinbow",
-	"buildsFrom": [
-		{
-			"name": "Strong Bow",
-			"id": 114301
-		},
-		{
-			"name": "Composite Bow",
-			"id": 114203
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Branch": 1,
@@ -34,6 +24,16 @@ export const Twinbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow modified to fire arrows with more power by crossing the bowstrings.",
+	"buildsFrom": [
+		{
+			"name": "Strong Bow",
+			"id": 114301
+		},
+		{
+			"name": "Composite Bow",
+			"id": 114203
+		}
+	],
 	"displayName": "Twinbow",
 	"apiMetaData": {
 		"code": 114405,

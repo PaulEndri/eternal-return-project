@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Flechette: Item = {
 	"id": 113410,
 	"name": "Flechette",
-	"buildsFrom": [
-		{
-			"name": "Plumbata",
-			"id": 113404
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -35,6 +25,16 @@ export const Flechette: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Plumbata",
+			"id": 113404
+		},
+		{
+			"name": "White Powder",
+			"id": 401206
+		}
+	],
 	"displayName": "Flechette",
 	"apiMetaData": {
 		"code": 113410,

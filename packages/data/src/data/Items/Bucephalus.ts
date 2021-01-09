@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Bucephalus: Item = {
 	"id": 204408,
 	"name": "Bucephalus",
-	"buildsFrom": [
-		{
-			"name": "Killer Heels",
-			"id": 204405
-		},
-		{
-			"name": "Chain Leggings",
-			"id": 204202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Slippers": 1,
@@ -36,6 +26,16 @@ export const Bucephalus: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Killer Heels",
+			"id": 204405
+		},
+		{
+			"name": "Chain Leggings",
+			"id": 204202
+		}
+	],
 	"displayName": "Bucephalus",
 	"apiMetaData": {
 		"code": 204408,

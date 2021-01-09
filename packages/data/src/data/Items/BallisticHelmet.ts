@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BallisticHelmet: Item = {
 	"id": 201301,
 	"name": "BallisticHelmet",
-	"buildsFrom": [
-		{
-			"name": "Beret",
-			"id": 201203
-		},
-		{
-			"name": "Bike Helmet",
-			"id": 201104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Tactical OPS Helmet",
@@ -36,6 +26,16 @@ export const BallisticHelmet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Battered and tattered Ballistic Helmet. Initials marked inside the helmet scratched out and written over. Seems it's been passed around plenty of times.",
+	"buildsFrom": [
+		{
+			"name": "Beret",
+			"id": 201203
+		},
+		{
+			"name": "Bike Helmet",
+			"id": 201104
+		}
+	],
 	"displayName": "Ballistic Helmet",
 	"apiMetaData": {
 		"code": 201301,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FuhmaShuriken: Item = {
 	"id": 113406,
 	"name": "FuhmaShuriken",
-	"buildsFrom": [
-		{
-			"name": "Apricot Flower Tag",
-			"id": 113302
-		},
-		{
-			"name": "Alcohol",
-			"id": 401111
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Razor": 1,
@@ -34,6 +24,16 @@ export const FuhmaShuriken: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A ninja star originally used by Humma, a band of ninja that were active during the Sengoku period.",
+	"buildsFrom": [
+		{
+			"name": "Apricot Flower Tag",
+			"id": 113302
+		},
+		{
+			"name": "Alcohol",
+			"id": 401111
+		}
+	],
 	"displayName": "Fuhma Shuriken",
 	"apiMetaData": {
 		"code": 113406,

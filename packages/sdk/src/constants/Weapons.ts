@@ -1,6 +1,6 @@
 // automatically generated file
 
-export enum WeaponsLookup {
+export enum Weapons {
   'Dagger' = 'OneHandSword',
   'Two-Handed Sword' = 'TwoHandSword',
   'Axe' = 'Axe',
@@ -23,11 +23,11 @@ export enum WeaponsLookup {
   'Whip' = 'Whip'
 }
 
-export enum Weapons {
+export enum WeaponsLookup {
   'OneHandSword' = 'Dagger',
   'TwoHandSword' = 'Two-Handed Sword',
   'Axe' = 'Axe',
-  'DualSwords' = 'Dual Swords',
+  'DualSword' = 'Dual Swords',
   'Pistol' = 'Pistol',
   'AssaultRifle' = 'Assault Rifle',
   'SniperRifle' = 'Sniper Rifle',
@@ -38,7 +38,7 @@ export enum Weapons {
   'HighAngleFire' = 'Throw',
   'DirectFire' = 'Shuriken',
   'Bow' = 'Bow',
-  'Crossbow' = 'Crossbow',
+  'CrossBow' = 'Crossbow',
   'Glove' = 'Glove',
   'Tonfa' = 'Tonfa',
   'Guitar' = 'Guitar',

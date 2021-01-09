@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DivingSuit: Item = {
 	"id": 202210,
 	"name": "DivingSuit",
-	"buildsFrom": [
-		{
-			"name": "Full Body Swimsuit",
-			"id": null
-		},
-		{
-			"name": "Rubber",
-			"id": 401105
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Optical Camouflage Suit",
@@ -37,6 +27,16 @@ export const DivingSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A diving suit with filler between the inner and outer skin. It excels at maintaining body temperature and enduring higher pressure.",
+	"buildsFrom": [
+		{
+			"name": "Wetsuit",
+			"id": 202105
+		},
+		{
+			"name": "Rubber",
+			"id": 401105
+		}
+	],
 	"displayName": "Diving Suit",
 	"apiMetaData": {
 		"code": 202210,

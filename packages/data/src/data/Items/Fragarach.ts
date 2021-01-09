@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Fragarach: Item = {
 	"id": 101405,
 	"name": "Fragarach",
-	"buildsFrom": [
-		{
-			"name": "Army Knife",
-			"id": 101201
-		},
-		{
-			"name": "Force Core",
-			"id": 401403
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -33,6 +23,16 @@ export const Fragarach: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Army Knife",
+			"id": 101201
+		},
+		{
+			"name": "Force Core",
+			"id": 401403
+		}
+	],
 	"displayName": "Fragarach",
 	"apiMetaData": {
 		"code": 101405,

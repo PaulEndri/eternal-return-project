@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Nunchaku: Item = {
 	"id": 119201,
 	"name": "Nunchaku",
-	"buildsFrom": [
-		{
-			"name": "Steel Chain",
-			"id": 119101
-		},
-		{
-			"name": "Scrap Metal",
-			"id": 401106
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Sharper",
@@ -37,6 +27,16 @@ export const Nunchaku: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Steel Chain",
+			"id": 119101
+		},
+		{
+			"name": "Scrap Metal",
+			"id": 401106
+		}
+	],
 	"displayName": "Nunchaku",
 	"apiMetaData": {
 		"code": 119201,

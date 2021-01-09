@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LacedQuiver: Item = {
 	"id": 205304,
 	"name": "LacedQuiver",
-	"buildsFrom": [
-		{
-			"name": "Quiver",
-			"id": 205208
-		},
-		{
-			"name": "Feather Duster",
-			"id": 205209
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Leather": 1,
@@ -32,6 +22,16 @@ export const LacedQuiver: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Quiver",
+			"id": 205208
+		},
+		{
+			"name": "Feather Duster",
+			"id": 205209
+		}
+	],
 	"displayName": "Laced Quiver",
 	"apiMetaData": {
 		"code": 205304,

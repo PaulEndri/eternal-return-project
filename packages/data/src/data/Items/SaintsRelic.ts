@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SaintsRelic: Item = {
 	"id": 205202,
 	"name": "SaintsRelic",
-	"buildsFrom": [
-		{
-			"name": "Cross",
-			"id": 205109
-		},
-		{
-			"name": "Holy Grail",
-			"id": 205108
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Carnwennan",
@@ -50,6 +40,16 @@ export const SaintsRelic: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The last relic of one who fought to save those who have fallen, despite being betrayed, tortured, and crucified.",
+	"buildsFrom": [
+		{
+			"name": "Cross",
+			"id": 205109
+		},
+		{
+			"name": "Holy Grail",
+			"id": 205108
+		}
+	],
 	"displayName": "Saint's Relic",
 	"apiMetaData": {
 		"code": 205202,

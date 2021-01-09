@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GatlingGun: Item = {
 	"id": 117403,
 	"name": "GatlingGun",
-	"buildsFrom": [
-		{
-			"name": "Machine Gun",
-			"id": 117402
-		},
-		{
-			"name": "Oil",
-			"id": 401112
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Fedorova": 1,
@@ -36,6 +26,16 @@ export const GatlingGun: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The world's first machine gun, it fires through several barrels joined together. Can cause catastrophic damage to the enemy in a short period of time.",
+	"buildsFrom": [
+		{
+			"name": "Machine Gun",
+			"id": 117402
+		},
+		{
+			"name": "Oil",
+			"id": 401112
+		}
+	],
 	"displayName": "Gatling Gun",
 	"apiMetaData": {
 		"code": 117403,

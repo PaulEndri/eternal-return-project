@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Carnwennan: Item = {
 	"id": 101401,
 	"name": "Carnwennan",
-	"buildsFrom": [
-		{
-			"name": "Rose Knife",
-			"id": 101301
-		},
-		{
-			"name": "Saint's Relic",
-			"id": 205202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -36,6 +26,16 @@ export const Carnwennan: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Rose Knife",
+			"id": 101301
+		},
+		{
+			"name": "Saint's Relic",
+			"id": 205202
+		}
+	],
 	"displayName": "Carnwennan",
 	"apiMetaData": {
 		"code": 101401,

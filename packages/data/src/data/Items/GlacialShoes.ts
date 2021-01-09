@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GlacialShoes: Item = {
 	"id": 204410,
 	"name": "GlacialShoes",
-	"buildsFrom": [
-		{
-			"name": "Repaired Slippers",
-			"id": 204301
-		},
-		{
-			"name": "Glacial Ice",
-			"id": 205402
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Slippers": 1,
@@ -36,6 +26,16 @@ export const GlacialShoes: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Repaired Slippers",
+			"id": 204301
+		},
+		{
+			"name": "Glacial Ice",
+			"id": 205402
+		}
+	],
 	"displayName": "Glacial Shoes",
 	"apiMetaData": {
 		"code": 204410,

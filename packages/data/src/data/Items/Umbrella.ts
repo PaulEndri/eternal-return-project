@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Umbrella: Item = {
 	"id": 108401,
 	"name": "Umbrella",
-	"buildsFrom": [
-		{
-			"name": "Long Rod",
-			"id": 108202
-		},
-		{
-			"name": "Fan",
-			"id": 205105
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Spy Umbrella",
@@ -35,6 +25,16 @@ export const Umbrella: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You might wonder how this became a weapon, but it is often used as a murder weapon in mystery stories.",
+	"buildsFrom": [
+		{
+			"name": "Long Rod",
+			"id": 108202
+		},
+		{
+			"name": "Fan",
+			"id": 205105
+		}
+	],
 	"displayName": "Umbrella",
 	"apiMetaData": {
 		"code": 108401,

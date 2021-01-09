@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RDX: Item = {
 	"id": 502307,
 	"name": "RDX",
-	"buildsFrom": [
-		{
-			"name": "Dynamite",
-			"id": 502203
-		},
-		{
-			"name": "Scrap Metal",
-			"id": 401106
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "High Explosive Grenade",
@@ -49,6 +39,16 @@ export const RDX: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "Dynamite",
+			"id": 502203
+		},
+		{
+			"name": "Scrap Metal",
+			"id": 401106
+		}
+	],
 	"displayName": "RDX",
 	"apiMetaData": {
 		"code": 502307,

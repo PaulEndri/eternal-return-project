@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LanceOfPoseidon: Item = {
 	"id": 107405,
 	"name": "LanceOfPoseidon",
-	"buildsFrom": [
-		{
-			"name": "Bident",
-			"id": 107301
-		},
-		{
-			"name": "Pike",
-			"id": 107302
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Spear": 2,
@@ -32,6 +22,16 @@ export const LanceOfPoseidon: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A powerful spear that can bring forth waves. It's said to have once been used by Poseidon.",
+	"buildsFrom": [
+		{
+			"name": "Bident",
+			"id": 107301
+		},
+		{
+			"name": "Pike",
+			"id": 107302
+		}
+	],
 	"displayName": "Lance of Poseidon",
 	"apiMetaData": {
 		"code": 107405,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MolotovCocktail: Item = {
 	"id": 112203,
 	"name": "MolotovCocktail",
-	"buildsFrom": [
-		{
-			"name": "Glass Bottle",
-			"id": 112104
-		},
-		{
-			"name": "Oil",
-			"id": 401112
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Flour Bomb",
@@ -39,6 +29,16 @@ export const MolotovCocktail: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Make a mistake and drop it, you'll become your own worst enemy.",
+	"buildsFrom": [
+		{
+			"name": "Glass Bottle",
+			"id": 112104
+		},
+		{
+			"name": "Oil",
+			"id": 401112
+		}
+	],
 	"displayName": "Molotov Cocktail",
 	"apiMetaData": {
 		"code": 112203,

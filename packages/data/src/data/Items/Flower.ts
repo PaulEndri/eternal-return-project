@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Flower: Item = {
 	"id": 205102,
 	"name": "Flower",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Rose Knife",
@@ -46,6 +45,7 @@ export const Flower: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Roses are red, violets are blue, this flower makes good items, try crafting them too.",
+	"buildsFrom": [],
 	"displayName": "Flower",
 	"apiMetaData": {
 		"code": 205102,

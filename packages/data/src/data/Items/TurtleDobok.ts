@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TurtleDobok: Item = {
 	"id": 202203,
 	"name": "TurtleDobok",
-	"buildsFrom": [
-		{
-			"name": "Monk's Robe",
-			"id": 202103
-		},
-		{
-			"name": "Turtle Shell",
-			"id": 401104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Dragon Dobok",
@@ -34,6 +24,16 @@ export const TurtleDobok: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A martial arts uniform worn by ninja turtles. They're obviously giant turtles, why do they need masks?",
+	"buildsFrom": [
+		{
+			"name": "Monk's Robe",
+			"id": 202103
+		},
+		{
+			"name": "Turtle Shell",
+			"id": 401104
+		}
+	],
 	"displayName": "Turtle Dobok",
 	"apiMetaData": {
 		"code": 202203,

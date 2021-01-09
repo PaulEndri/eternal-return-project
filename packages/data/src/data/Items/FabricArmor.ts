@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const FabricArmor: Item = {
 	"id": 202106,
 	"name": "FabricArmor",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Leather Armor",
@@ -29,6 +28,7 @@ export const FabricArmor: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Armor made from fabric. It doesn't seem to protect you from much. Good luck.",
+	"buildsFrom": [],
 	"displayName": "Fabric Armor",
 	"apiMetaData": {
 		"code": 202106,

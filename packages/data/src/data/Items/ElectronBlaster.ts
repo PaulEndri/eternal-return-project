@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ElectronBlaster: Item = {
 	"id": 116405,
 	"name": "ElectronBlaster",
-	"buildsFrom": [
-		{
-			"name": "Beretta M92F",
-			"id": 116202
-		},
-		{
-			"name": "Ion Battery",
-			"id": 401306
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Walther PPK": 1,
@@ -35,6 +25,16 @@ export const ElectronBlaster: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's not as strong as the laser guns used on the other side of the cosmos, but it's still pretty powerful.",
+	"buildsFrom": [
+		{
+			"name": "Beretta M92F",
+			"id": 116202
+		},
+		{
+			"name": "Ion Battery",
+			"id": 401306
+		}
+	],
 	"displayName": "Electron Blaster",
 	"apiMetaData": {
 		"code": 116405,

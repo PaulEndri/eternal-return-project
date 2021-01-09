@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SpearOfLonginus: Item = {
 	"id": 107501,
 	"name": "SpearOfLonginus",
-	"buildsFrom": [
-		{
-			"name": "VF Blood Sample",
-			"id": 401401
-		},
-		{
-			"name": "Pike",
-			"id": 107302
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"VF Blood Sample": 1,
@@ -31,6 +21,16 @@ export const SpearOfLonginus: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Though its origins may be unclear, this spear is said to have been involved in mythical holiness. Texts say that this spear has the ability to heal its owner under certain conditions.",
+	"buildsFrom": [
+		{
+			"name": "VF Blood Sample",
+			"id": 401401
+		},
+		{
+			"name": "Pike",
+			"id": 107302
+		}
+	],
 	"displayName": "Spear of Longinus",
 	"apiMetaData": {
 		"code": 107501,

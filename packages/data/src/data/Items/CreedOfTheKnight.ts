@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CreedOfTheKnight: Item = {
 	"id": 203406,
 	"name": "CreedOfTheKnight",
-	"buildsFrom": [
-		{
-			"name": "Steel Shield",
-			"id": 203401
-		},
-		{
-			"name": "Squad Leader Armband",
-			"id": 203202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Turtle Shell": 1,
@@ -36,6 +26,16 @@ export const CreedOfTheKnight: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Shielding is not just a skill that must be mastered by a knight, but also symbolizes a knight's creed to protect the weak.",
+	"buildsFrom": [
+		{
+			"name": "Steel Shield",
+			"id": 203401
+		},
+		{
+			"name": "Squad Leader Armband",
+			"id": 203202
+		}
+	],
 	"displayName": "Creed of the Knight",
 	"apiMetaData": {
 		"code": 203406,

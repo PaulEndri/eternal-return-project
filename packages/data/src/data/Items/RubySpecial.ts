@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RubySpecial: Item = {
 	"id": 121301,
 	"name": "RubySpecial",
-	"buildsFrom": [
-		{
-			"name": "Single Coil Pickup",
-			"id": 121202
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bohemian",
@@ -39,6 +29,16 @@ export const RubySpecial: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A unique guitar that is as red as a ruby.",
+	"buildsFrom": [
+		{
+			"name": "Single Coil Pickup",
+			"id": 121202
+		},
+		{
+			"name": "Ruby",
+			"id": 401204
+		}
+	],
 	"displayName": "Ruby Special",
 	"apiMetaData": {
 		"code": 121301,

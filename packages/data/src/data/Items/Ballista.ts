@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Ballista: Item = {
 	"id": 115403,
 	"name": "Ballista",
-	"buildsFrom": [
-		{
-			"name": "Heavy Crossbow",
-			"id": 115303
-		},
-		{
-			"name": "Short Spear",
-			"id": 107101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -33,6 +23,16 @@ export const Ballista: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A smaller bow originally designed for siege warfare. It boasts incredible power.",
+	"buildsFrom": [
+		{
+			"name": "Heavy Crossbow",
+			"id": 115303
+		},
+		{
+			"name": "Short Spear",
+			"id": 107101
+		}
+	],
 	"displayName": "Ballista",
 	"apiMetaData": {
 		"code": 115403,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const WaltherPPK: Item = {
 	"id": 116101,
 	"name": "WaltherPPK",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Magnum-Python",
@@ -31,6 +30,7 @@ export const WaltherPPK: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Walther PPK",
 	"apiMetaData": {
 		"code": 116101,

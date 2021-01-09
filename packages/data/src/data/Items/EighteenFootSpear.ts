@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const EighteenFootSpear: Item = {
 	"id": 107403,
 	"name": "EighteenFootSpear",
-	"buildsFrom": [
-		{
-			"name": "Sharpened Spear",
-			"id": 107401
-		},
-		{
-			"name": "Ion Battery",
-			"id": 401306
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Spear": 1,
@@ -33,6 +23,16 @@ export const EighteenFootSpear: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Sharpened Spear",
+			"id": 107401
+		},
+		{
+			"name": "Ion Battery",
+			"id": 401306
+		}
+	],
 	"displayName": "Eighteen Foot Spear",
 	"apiMetaData": {
 		"code": 107403,

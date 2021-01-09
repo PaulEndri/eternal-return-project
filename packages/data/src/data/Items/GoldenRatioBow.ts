@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GoldenRatioBow: Item = {
 	"id": 114403,
 	"name": "GoldenRatioBow",
-	"buildsFrom": [
-		{
-			"name": "Pellet Bow",
-			"id": 114304
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Branch": 1,
@@ -33,6 +23,16 @@ export const GoldenRatioBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A composite bow and arrow designed according to the golden ratio. It boasts extraordinary precision.",
+	"buildsFrom": [
+		{
+			"name": "Pellet Bow",
+			"id": 114304
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Golden-Ratio Bow",
 	"apiMetaData": {
 		"code": 114403,

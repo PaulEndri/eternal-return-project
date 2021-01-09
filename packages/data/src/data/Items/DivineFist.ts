@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DivineFist: Item = {
 	"id": 110406,
 	"name": "DivineFist",
-	"buildsFrom": [
-		{
-			"name": "Shatter Shell Gauntlet",
-			"id": 110402
-		},
-		{
-			"name": "Cross",
-			"id": 205109
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -33,6 +23,16 @@ export const DivineFist: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Shatter Shell Gauntlet",
+			"id": 110402
+		},
+		{
+			"name": "Cross",
+			"id": 205109
+		}
+	],
 	"displayName": "Divine Fist",
 	"apiMetaData": {
 		"code": 110406,

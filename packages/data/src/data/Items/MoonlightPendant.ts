@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MoonlightPendant: Item = {
 	"id": 205401,
 	"name": "MoonlightPendant",
-	"buildsFrom": [
-		{
-			"name": "Ribbon",
-			"id": 205103
-		},
-		{
-			"name": "Moonstone",
-			"id": 401301
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Magic Stick",
@@ -35,6 +25,16 @@ export const MoonlightPendant: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It is not just a simple pendant. Magical powers are unleashed when shining a particular light through it.",
+	"buildsFrom": [
+		{
+			"name": "Ribbon",
+			"id": 205103
+		},
+		{
+			"name": "Moonstone",
+			"id": 401301
+		}
+	],
 	"displayName": "Moonlight Pendant",
 	"apiMetaData": {
 		"code": 205401,

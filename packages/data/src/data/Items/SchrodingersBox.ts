@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SchrodingersBox: Item = {
 	"id": 205404,
 	"name": "SchrodingersBox",
-	"buildsFrom": [
-		{
-			"name": "Box",
-			"id": 205107
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Box": 1,
@@ -31,6 +21,16 @@ export const SchrodingersBox: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The cat inside the box is both alive and dead at the same time. Use it to show off your knowledge of quantum physics.",
+	"buildsFrom": [
+		{
+			"name": "Box",
+			"id": 205107
+		},
+		{
+			"name": "Poison",
+			"id": 401302
+		}
+	],
 	"displayName": "Schrodinger's Box",
 	"apiMetaData": {
 		"code": 205404,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MithrilShield: Item = {
 	"id": 203404,
 	"name": "MithrilShield",
-	"buildsFrom": [
-		{
-			"name": "Mithril",
-			"id": 401304
-		},
-		{
-			"name": "Leather Shield",
-			"id": 203201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Mithril": 1,
@@ -32,6 +22,16 @@ export const MithrilShield: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A shield made with Mithril. It's light, but the strength is beyond imagination.",
+	"buildsFrom": [
+		{
+			"name": "Mithril",
+			"id": 401304
+		},
+		{
+			"name": "Leather Shield",
+			"id": 203201
+		}
+	],
 	"displayName": "Mithril Shield",
 	"apiMetaData": {
 		"code": 203404,

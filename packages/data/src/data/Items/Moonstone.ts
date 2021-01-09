@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Moonstone: Item = {
 	"id": 401301,
 	"name": "Moonstone",
-	"buildsFrom": [
-		{
-			"name": "Meteorite",
-			"id": 401209
-		},
-		{
-			"name": "Stone",
-			"id": 112101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Starsteel Twin Swords",
@@ -50,6 +40,16 @@ export const Moonstone: Item = {
 	"maxStacks": 3,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "Meteorite",
+			"id": 401209
+		},
+		{
+			"name": "Stone",
+			"id": 112101
+		}
+	],
 	"displayName": "Moonstone",
 	"apiMetaData": {
 		"code": 401301,

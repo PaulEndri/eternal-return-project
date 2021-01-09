@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const FountainPen: Item = {
 	"id": 101102,
 	"name": "FountainPen",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Signed Ball",
@@ -33,6 +32,7 @@ export const FountainPen: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A kind of pen for writing. The ink inside the pen holder flows out through the nib, allowing it to be used for a long time - though your hand will be covered in ink if not used correctly. Or if you are a lefty.",
+	"buildsFrom": [],
 	"displayName": "Fountain Pen",
 	"apiMetaData": {
 		"code": 101102,

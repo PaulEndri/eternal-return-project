@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Flubber: Item = {
 	"id": 112304,
 	"name": "Flubber",
-	"buildsFrom": [
-		{
-			"name": "Rubber",
-			"id": 401105
-		},
-		{
-			"name": "Boiling Water",
-			"id": 301201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Spiky Bouncy Ball",
@@ -35,6 +25,16 @@ export const Flubber: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It feels like the innocence of childhood. If you drop it, it'll lose its viscosity and become stiff, so take care of it.",
+	"buildsFrom": [
+		{
+			"name": "Rubber",
+			"id": 401105
+		},
+		{
+			"name": "Boiling Water",
+			"id": 301201
+		}
+	],
 	"displayName": "Flubber",
 	"apiMetaData": {
 		"code": 112304,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const IronOre: Item = {
 	"id": 401118,
 	"name": "IronOre",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Iron Knuckles",
@@ -35,6 +34,7 @@ export const IronOre: Item = {
 	},
 	"foundQuantity": 3,
 	"description": "Just the ore. Extract the iron to make it useful!",
+	"buildsFrom": [],
 	"displayName": "Iron Ore",
 	"apiMetaData": {
 		"code": 401118,

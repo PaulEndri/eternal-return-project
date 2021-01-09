@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PowerCrossbow: Item = {
 	"id": 115301,
 	"name": "PowerCrossbow",
-	"buildsFrom": [
-		{
-			"name": "Long Crossbow",
-			"id": 115201
-		},
-		{
-			"name": "Rubber",
-			"id": 401105
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "The Golden Ghost",
@@ -35,6 +25,16 @@ export const PowerCrossbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A good weapon, but it's paramount that you keep good track of your arrows.",
+	"buildsFrom": [
+		{
+			"name": "Long Crossbow",
+			"id": 115201
+		},
+		{
+			"name": "Rubber",
+			"id": 401105
+		}
+	],
 	"displayName": "Power Crossbow",
 	"apiMetaData": {
 		"code": 115301,

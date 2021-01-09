@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SpyUmbrella: Item = {
 	"id": 108501,
 	"name": "SpyUmbrella",
-	"buildsFrom": [
-		{
-			"name": "Umbrella",
-			"id": 108401
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Rod": 1,
@@ -33,6 +23,16 @@ export const SpyUmbrella: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "There is a poisoned needle concealed at the tip of the umbrella. You can make use of it when the timing is right. Pretend to accidentally stab your target's foot with the tip while carrying it on a rainy day.",
+	"buildsFrom": [
+		{
+			"name": "Umbrella",
+			"id": 108401
+		},
+		{
+			"name": "Poison",
+			"id": 401302
+		}
+	],
 	"displayName": "Spy Umbrella",
 	"apiMetaData": {
 		"code": 108501,

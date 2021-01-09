@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Rubber: Item = {
 	"id": 401105,
 	"name": "Rubber",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Sling",
@@ -43,6 +42,7 @@ export const Rubber: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A material that is always elastic. Unlike your cheeks, which lose elasticity day by day.",
+	"buildsFrom": [],
 	"displayName": "Rubber",
 	"apiMetaData": {
 		"code": 401105,

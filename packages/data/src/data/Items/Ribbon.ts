@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Ribbon: Item = {
 	"id": 205103,
 	"name": "Ribbon",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Suit",
@@ -33,6 +32,7 @@ export const Ribbon: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It'll be pretty if you put it in your hair.",
+	"buildsFrom": [],
 	"displayName": "Ribbon",
 	"apiMetaData": {
 		"code": 205103,

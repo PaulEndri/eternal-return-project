@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Hammer: Item = {
 	"id": 104101,
 	"name": "Hammer",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Warhammer",
@@ -33,6 +32,7 @@ export const Hammer: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Try not to hammer your finger instead of the nail...",
+	"buildsFrom": [],
 	"displayName": "Hammer",
 	"apiMetaData": {
 		"code": 104101,

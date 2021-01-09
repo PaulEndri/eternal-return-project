@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Scorchbow: Item = {
 	"id": 114402,
 	"name": "Scorchbow",
-	"buildsFrom": [
-		{
-			"name": "Longbow",
-			"id": 114202
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Elemental Bow",
@@ -35,6 +25,16 @@ export const Scorchbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A fiery arrow will burn your enemy.",
+	"buildsFrom": [
+		{
+			"name": "Longbow",
+			"id": 114202
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "Scorchbow",
 	"apiMetaData": {
 		"code": 114402,

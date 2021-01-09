@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DavidsSling: Item = {
 	"id": 112401,
 	"name": "DavidsSling",
-	"buildsFrom": [
-		{
-			"name": "Sling",
-			"id": 112204
-		},
-		{
-			"name": "Saint's Relic",
-			"id": 205202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Baseball": 1,
@@ -34,6 +24,16 @@ export const DavidsSling: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "David's legendary stone that killed Goliath, the giant of Philistine.",
+	"buildsFrom": [
+		{
+			"name": "Sling",
+			"id": 112204
+		},
+		{
+			"name": "Saint's Relic",
+			"id": 205202
+		}
+	],
 	"displayName": "David's Sling",
 	"apiMetaData": {
 		"code": 112401,

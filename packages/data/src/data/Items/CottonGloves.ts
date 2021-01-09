@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const CottonGloves: Item = {
 	"id": 110102,
 	"name": "CottonGloves",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Leather Gloves",
@@ -27,6 +26,7 @@ export const CottonGloves: Item = {
 		"Hotel": 4
 	},
 	"foundQuantity": 1,
+	"buildsFrom": [],
 	"displayName": "Cotton Gloves",
 	"apiMetaData": {
 		"code": 110102,

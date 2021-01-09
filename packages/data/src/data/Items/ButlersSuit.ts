@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ButlersSuit: Item = {
 	"id": 202413,
 	"name": "ButlersSuit",
-	"buildsFrom": [
-		{
-			"name": "Suit",
-			"id": 202303
-		},
-		{
-			"name": "Feather Duster",
-			"id": 205209
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Windbreaker": 1,
@@ -34,6 +24,16 @@ export const ButlersSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A graceful and courteous attitude, a soft tone, and a swallow-tailed black coat are the essentials of a butler. We can get a taste of high society by looking at them.",
+	"buildsFrom": [
+		{
+			"name": "Suit",
+			"id": 202303
+		},
+		{
+			"name": "Feather Duster",
+			"id": 205209
+		}
+	],
 	"displayName": "Butler's Suit",
 	"apiMetaData": {
 		"code": 202413,

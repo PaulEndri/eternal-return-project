@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ForceCore: Item = {
 	"id": 401403,
 	"name": "ForceCore",
-	"buildsFrom": [
-		{
-			"name": "Powder of Life",
-			"id": 205301
-		},
-		{
-			"name": "Meteorite",
-			"id": 401209
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Fragarach",
@@ -64,6 +54,16 @@ export const ForceCore: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This seems to hold untapped power.",
+	"buildsFrom": [
+		{
+			"name": "Powder of Life",
+			"id": 205301
+		},
+		{
+			"name": "Meteorite",
+			"id": 401209
+		}
+	],
 	"displayName": "Force Core",
 	"apiMetaData": {
 		"code": 401403,

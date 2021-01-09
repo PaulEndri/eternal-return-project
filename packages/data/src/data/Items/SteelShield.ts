@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SteelShield: Item = {
 	"id": 203401,
 	"name": "SteelShield",
-	"buildsFrom": [
-		{
-			"name": "Leather Shield",
-			"id": 203201
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Creed of the Knight",
@@ -37,6 +27,16 @@ export const SteelShield: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A durable shield made of metal and leather.",
+	"buildsFrom": [
+		{
+			"name": "Leather Shield",
+			"id": 203201
+		},
+		{
+			"name": "Steel",
+			"id": 401201
+		}
+	],
 	"displayName": "Steel Shield",
 	"apiMetaData": {
 		"code": 203401,

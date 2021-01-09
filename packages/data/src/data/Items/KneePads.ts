@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const KneePads: Item = {
 	"id": 204201,
 	"name": "KneePads",
-	"buildsFrom": [
-		{
-			"name": "Tights",
-			"id": 204103
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Steel Knee Pads",
@@ -34,6 +24,16 @@ export const KneePads: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Learning to ride a bike? Put these on.",
+	"buildsFrom": [
+		{
+			"name": "Tights",
+			"id": 204103
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Knee Pads",
 	"apiMetaData": {
 		"code": 204201,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WildHorse: Item = {
 	"id": 121306,
 	"name": "WildHorse",
-	"buildsFrom": [
-		{
-			"name": "Single Coil Pickup",
-			"id": 121202
-		},
-		{
-			"name": "Oil",
-			"id": 401112
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Teen Spirit",
@@ -37,6 +27,16 @@ export const WildHorse: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "If it follows in the footsteps of the performance it takes its name from, you can probably expect to be in front of a large audience with this one.",
+	"buildsFrom": [
+		{
+			"name": "Single Coil Pickup",
+			"id": 121202
+		},
+		{
+			"name": "Oil",
+			"id": 401112
+		}
+	],
 	"displayName": "Wild Horse",
 	"apiMetaData": {
 		"code": 121306,

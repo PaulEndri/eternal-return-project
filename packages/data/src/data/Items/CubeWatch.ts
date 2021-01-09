@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CubeWatch: Item = {
 	"id": 203408,
 	"name": "CubeWatch",
-	"buildsFrom": [
-		{
-			"name": "Watch",
-			"id": 203101
-		},
-		{
-			"name": "Moonstone",
-			"id": 401301
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Watch": 1,
@@ -30,6 +20,16 @@ export const CubeWatch: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Watch",
+			"id": 203101
+		},
+		{
+			"name": "Moonstone",
+			"id": 401301
+		}
+	],
 	"displayName": "Cube Watch",
 	"apiMetaData": {
 		"code": 203408,

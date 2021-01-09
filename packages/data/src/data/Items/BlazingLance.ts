@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BlazingLance: Item = {
 	"id": 107406,
 	"name": "BlazingLance",
-	"buildsFrom": [
-		{
-			"name": "True Samadhi Fire",
-			"id": 205403
-		},
-		{
-			"name": "Bamboo Spear",
-			"id": 107201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -34,6 +24,16 @@ export const BlazingLance: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The length stretches freely, and flames spurt from the end of the spear; a treasure that appeared in \"Fengshen Yanyi.\"",
+	"buildsFrom": [
+		{
+			"name": "True Samadhi Fire",
+			"id": 205403
+		},
+		{
+			"name": "Bamboo Spear",
+			"id": 107201
+		}
+	],
 	"displayName": "Blazing Lance",
 	"apiMetaData": {
 		"code": 107406,

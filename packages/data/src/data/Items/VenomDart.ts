@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const VenomDart: Item = {
 	"id": 113402,
 	"name": "VenomDart",
-	"buildsFrom": [
-		{
-			"name": "Needle",
-			"id": 120101
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Frost Venom Dart",
@@ -38,6 +28,16 @@ export const VenomDart: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This deadly poison can kill an elephant within 3 seconds. Use it carefully.",
+	"buildsFrom": [
+		{
+			"name": "Needle",
+			"id": 120101
+		},
+		{
+			"name": "Poison",
+			"id": 401302
+		}
+	],
 	"displayName": "Venom Dart",
 	"apiMetaData": {
 		"code": 113402,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Watch: Item = {
 	"id": 203101,
 	"name": "Watch",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Vital Sign Sensor",
@@ -29,6 +28,7 @@ export const Watch: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It's right twice a day.",
+	"buildsFrom": [],
 	"displayName": "Watch",
 	"apiMetaData": {
 		"code": 203101,

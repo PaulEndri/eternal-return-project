@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MithrilString: Item = {
 	"id": 502401,
 	"name": "MithrilString",
-	"buildsFrom": [
-		{
-			"name": "Mithril",
-			"id": 401304
-		},
-		{
-			"name": "Piano Wire",
-			"id": 502104
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Imperial Silk Gloves",
@@ -32,6 +22,16 @@ export const MithrilString: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"buildsFrom": [
+		{
+			"name": "Mithril",
+			"id": 401304
+		},
+		{
+			"name": "Piano Wire",
+			"id": 502104
+		}
+	],
 	"displayName": "Mithril String",
 	"apiMetaData": {
 		"code": 502401,

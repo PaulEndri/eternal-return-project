@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Volticletto: Item = {
 	"id": 120403,
 	"name": "Volticletto",
-	"buildsFrom": [
-		{
-			"name": "Apricot Sword",
-			"id": 120301
-		},
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -36,6 +26,16 @@ export const Volticletto: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The word \"Volticletto\" is a portmanteau of 'voltaic,' meaning related to electric current, and the Italian 'Stiletto knife'. Punctures from this weapon cause double the pain.",
+	"buildsFrom": [
+		{
+			"name": "Apricot Sword",
+			"id": 120301
+		},
+		{
+			"name": "Electronic Parts",
+			"id": 401211
+		}
+	],
 	"displayName": "Volticletto",
 	"apiMetaData": {
 		"code": 120403,

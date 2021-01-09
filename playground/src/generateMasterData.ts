@@ -1,23 +1,27 @@
-import Animals from "./generated/newGenerated/Animals.json";
-import animals from "./generated/clientData/animals.json";
-import Items from "./generated/newGenerated/Items.json";
-import weapons from "./generated/clientData/weapons.json";
-import armors from "./generated/clientData/armors.json";
-import misc from "./generated/clientData/misc.json";
-import special from "./generated/clientData/special.json";
-import consumables from "./generated/clientData/consumables.json";
-import { enTranslations, krTranslations, rawTranslations } from "./krTranslations";
-import Characters from "./generated/newGenerated/Characters.json";
-import characters from "./generated/clientData/characters.json";
-import Armors from "./generated/newGenerated/Armors.json";
-import Weapons from "./generated/newGenerated/Weapons.json";
-import lootLogic from "./generated/clientData/howToFind.json";
-import Locations from "./generated/newGenerated/Locations.json";
-import locationSpawns from "./generated/clientData/spawns.json";
+import Animals from './generated/newGenerated/Animals.json';
+import animals from './generated/clientData/animals.json';
+import Items from './generated/newGenerated/Items.json';
+import weapons from './generated/clientData/weapons.json';
+import armors from './generated/clientData/armors.json';
+import misc from './generated/clientData/misc.json';
+import special from './generated/clientData/special.json';
+import consumables from './generated/clientData/consumables.json';
+import {
+  enTranslations,
+  krTranslations,
+  rawTranslations
+} from './krTranslations';
+import Characters from './generated/newGenerated/Characters.json';
+import characters from './generated/clientData/characters.json';
+import Armors from './generated/newGenerated/Armors.json';
+import Weapons from './generated/newGenerated/Weapons.json';
+import lootLogic from './generated/clientData/howToFind.json';
+import Locations from './generated/newGenerated/Locations.json';
+import locationSpawns from './generated/clientData/spawns.json';
 // import ClassicItemData from './generated/classic/Complete.json';
 
-import fs from "fs";
-import { sanitizeItemString } from "erbs-utilities";
+import fs from 'fs';
+import { sanitizeItemString } from 'erbs-utilities';
 
 export const generateMasterData = () => {
   const masterAnimals = [];
@@ -40,8 +44,23 @@ export const generateMasterData = () => {
     );
   });
   const ItemKeyLookups = Object.fromEntries(ItemKeyLookupArray);
-  const writeFile = (name: string, content) => {
-    fs.writeFileSync(`src/generated/masterData/${name}.json`, JSON.stringify(content, null, 2));
+
+  const replacers = (replace = false, stringifiedData: string) => {
+    if (!replace) {
+      return stringifiedData;
+    }
+
+    return stringifiedData
+      .replace(/Full Body Swimsuit/g, 'Wetsuit')
+      .replace(/Wild Dog/g, 'Dog')
+      .replace(/Bloody Nine Tails/g, 'Whip of the Nine Bloody Tails');
+  };
+
+  const writeFile = (name: string, content, replace = false) => {
+    fs.writeFileSync(
+      `src/generated/masterData/${name}.json`,
+      replacers(replace, JSON.stringify(content, null, 2))
+    );
   };
 
   const generateAnimals = () => {
@@ -49,23 +68,28 @@ export const generateMasterData = () => {
       let title;
 
       switch (animal.name) {
-        case "Bat (Animal)":
-          title = "Bat";
+        case 'Bat (Animal)':
+          title = 'Bat';
           break;
-        case "Dog":
-          title = "WildDog";
+        case 'Dog':
+          title = 'WildDog';
           break;
-        case "Wickeline":
-          title = "Wickline";
+        case 'Wickeline':
+          title = 'Wickline';
           break;
         default:
           title = animal.name;
           break;
       }
 
-      const { resource, dropGroup, grade, monster, code, ...clientAnimal } = Object.values(
-        animals
-      ).find(({ monster }) => monster === title);
+      const {
+        resource,
+        dropGroup,
+        grade,
+        monster,
+        code,
+        ...clientAnimal
+      } = Object.values(animals).find(({ monster }) => monster === title);
 
       if (animal.locations) {
         Object.keys(animal.locations).forEach(
@@ -76,11 +100,13 @@ export const generateMasterData = () => {
       let items;
 
       if (animal.items) {
-        items = Object.values(animal.items).map(({ name, percentage, rarity }) => ({
-          name,
-          percentage: +percentage,
-          rarity,
-        }));
+        items = Object.values(animal.items).map(
+          ({ name, percentage, rarity }) => ({
+            name,
+            percentage: +percentage,
+            rarity
+          })
+        );
       }
 
       if (items) {
@@ -95,19 +121,24 @@ export const generateMasterData = () => {
             dropGroup,
             grade,
             name: title,
-            code,
+            code
           },
-          items,
+          items
         });
       }
     });
 
-    writeFile("animals", masterAnimals);
+    writeFile('animals', masterAnimals);
 
     return masterAnimals;
   };
 
-  const getItemData = (itemArr: any[], apiTypeKey = "type", apiCode = "code", apiName = "name") => {
+  const getItemData = (
+    itemArr: any[],
+    apiTypeKey = 'type',
+    apiCode = 'code',
+    apiName = 'name'
+  ) => {
     itemArr.forEach((item) => {
       const name = item[apiName];
       const enName = enTranslations[name];
@@ -115,30 +146,42 @@ export const generateMasterData = () => {
       const id = item[apiCode];
       let data = enName ? Items[enName] : Items[name];
 
+      if ([name, enName].includes('Full Body Swimsuit')) {
+        data = Items.Wetsuit;
+      }
       if (!data && id) {
         data = ItemIdLookup[id];
       }
 
       if (data) {
-        allItemKeys = allItemKeys.filter((key) => key !== enName && key !== name);
+        allItemKeys = allItemKeys.filter(
+          (key) => key !== enName && key !== name
+        );
 
-        const { href, type, category, ...rest } = data;
+        const { href, type, category, buildsFrom, ...rest } = data;
 
         masterItems.push({
           id,
           ...rest,
           code: item.name,
+          buildsFrom: buildsFrom.map((item) =>
+            item === 'Blueprints'
+              ? 'Blueprint'
+              : item === 'Full Body Swimsuit'
+              ? 'Wetsuit'
+              : item
+          ),
           name: sanitizeItemString(rest.name),
           displayName: rest.name,
           apiMetaData: {
             code: id,
             category: item.itemType,
-            type: apiType,
+            type: apiType
           },
           clientMetaData: {
             type,
-            category,
-          },
+            category
+          }
         });
 
         return;
@@ -147,7 +190,7 @@ export const generateMasterData = () => {
       missingTranslations[name] = {
         ...item,
         code: id,
-        type: apiType,
+        type: apiType
       };
     });
   };
@@ -162,18 +205,20 @@ export const generateMasterData = () => {
         let foundItem = ItemKeyLookups[itemName];
 
         if (!foundItem) {
-          foundItem = masterItems.find(({ name }) => sanitizeItemString(itemName) === name);
+          foundItem = masterItems.find(
+            ({ name }) => sanitizeItemString(itemName) === name
+          );
         } else {
           foundItem = masterItems.find(({ id }) => id === foundItem);
         }
 
-        if (!foundItem || typeof foundItem.id === "string") {
+        if (!foundItem || typeof foundItem.id === 'string') {
           missingItems.add(itemName);
         }
 
         return {
           name: itemName,
-          id: foundItem ? foundItem.id : null,
+          id: foundItem ? foundItem.id : null
         };
       });
 
@@ -186,14 +231,15 @@ export const generateMasterData = () => {
           foundItem = masterItems.find(
             ({ name, displayName }) =>
               sanitizeItemString(itemName) === name ||
-              sanitizeItemString(itemName).toLowerCase() === name.toLowerCase() ||
+              sanitizeItemString(itemName).toLowerCase() ===
+                name.toLowerCase() ||
               displayName === itemName ||
               sanitizeItemString(itemName).toLowerCase() ===
                 sanitizeItemString(displayName).toLowerCase()
           );
 
-          if (!foundItem || typeof foundItem.id === "string") {
-            console.log("[Failed to find BuildInto]", { itemName });
+          if (!foundItem || typeof foundItem.id === 'string') {
+            console.log('[Failed to find BuildInto]', { itemName });
 
             missingItems.add(itemName);
           } else {
@@ -205,25 +251,27 @@ export const generateMasterData = () => {
 
         return {
           name,
-          id,
+          id
         };
       });
 
-      const canBeLooted = lootLogic.find(({ itemCode }) => itemCode === item.id);
+      const canBeLooted = lootLogic.find(
+        ({ itemCode }) => itemCode === item.id
+      );
 
       if (canBeLooted) {
         Object.entries(canBeLooted).forEach(([key, val]) => {
-          if (key.indexOf("hunt") >= 0 && val === 1) {
-            const animalName = key.replace("hunt", "");
+          if (key.indexOf('hunt') >= 0 && val === 1) {
+            const animalName = key.replace('hunt', '');
             const animalData = masterAnimals.find(
               ({ apiMetaData }) => apiMetaData.name === animalName
             );
             const id = animalData ? animalData.id : animalName;
 
             item.droppedFrom.push({ name: animalName, id });
-          } else if (key === "collectibleCode") {
+          } else if (key === 'collectibleCode') {
             item.collectible = val;
-          } else if (key === "airSupply") {
+          } else if (key === 'airSupply') {
             item.airSupply = !!val;
           }
         });
@@ -232,15 +280,15 @@ export const generateMasterData = () => {
   };
 
   const generateItems = () => {
-    getItemData(weapons, "weaponType");
-    getItemData(armors, "armorType");
-    getItemData(consumables, "consumableType");
-    getItemData(misc, "miscItemType");
-    getItemData(special, "specialItemType");
+    getItemData(weapons, 'weaponType');
+    getItemData(armors, 'armorType');
+    getItemData(consumables, 'consumableType');
+    getItemData(misc, 'miscItemType');
+    getItemData(special, 'specialItemType');
 
-    writeFile("generatedEnTranslations", enTranslations);
-    writeFile("generatedRawTranslations", rawTranslations);
-    writeFile("generatedKrTranslations", krTranslations);
+    writeFile('generatedEnTranslations', enTranslations);
+    writeFile('generatedRawTranslations', rawTranslations);
+    writeFile('generatedKrTranslations', krTranslations);
 
     // while (allItemKeys.length > 0) {
     // 	const remainingItemName = allItemKeys.pop();
@@ -250,12 +298,13 @@ export const generateMasterData = () => {
 
       const { type, category, href, code, ...item } = Items[remainingItemName];
       const krName =
-        krTranslations[remainingItemName] || krTranslations[remainingItemName.toLowerCase()];
+        krTranslations[remainingItemName] ||
+        krTranslations[remainingItemName.toLowerCase()];
 
       let apiMetaData = {
         code: null,
         type: null,
-        category: null,
+        category: null
       };
 
       let krData;
@@ -271,7 +320,9 @@ export const generateMasterData = () => {
 
       if (!krData && ItemKeyLookups[id]) {
         // console.log(`[Found id for ${remainingItemName}: ${id}]`);
-        krData = Object.values(missingTranslations).find(({ code }) => code === id);
+        krData = Object.values(missingTranslations).find(
+          ({ code }) => code === id
+        );
       } else if (!krData) {
         // console.log(`[Failed to find obejct by ID for "${remainingItemName}"]`);
       }
@@ -283,7 +334,7 @@ export const generateMasterData = () => {
         apiMetaData = {
           code: krData.code,
           type: krData.type,
-          category: krData.itemType,
+          category: krData.itemType
         };
 
         delete missingTranslations[krData.name];
@@ -296,17 +347,19 @@ export const generateMasterData = () => {
           displayName: item.name,
           clientMetaData: {
             type,
-            category,
+            category
           },
-          apiMetaData,
+          apiMetaData
         });
       } else {
-        console.log(`[Failed to find Data for "${remainingItemName}", id: ${id}]`);
+        console.log(
+          `[Failed to find Data for "${remainingItemName}", id: ${id}]`
+        );
       }
     }
 
     linkMasterItems();
-    writeFile("items", masterItems);
+    writeFile('items', masterItems);
 
     return masterItems;
   };
@@ -315,12 +368,21 @@ export const generateMasterData = () => {
     const characterList = [];
 
     characters.forEach(
-      ({ code, resource, name, radius, uiHeight, levelUpStats, attributes, ...stats }) => {
+      ({
+        code,
+        resource,
+        name,
+        radius,
+        uiHeight,
+        levelUpStats,
+        attributes,
+        ...stats
+      }) => {
         try {
           let keyName = name;
           switch (name.toLowerCase()) {
-            case "lidailin":
-              keyName = "Li Dailin";
+            case 'lidailin':
+              keyName = 'Li Dailin';
               break;
             default:
               break;
@@ -330,7 +392,7 @@ export const generateMasterData = () => {
 
           characterList.push({
             id: code,
-            displayName: keyName.replace(" ", ""),
+            displayName: keyName.replace(' ', ''),
             name: keyName,
             background,
             attributes,
@@ -340,28 +402,28 @@ export const generateMasterData = () => {
             weapons,
             stats: {
               initial: stats,
-              perLevel: levelUpStats[0],
+              perLevel: levelUpStats[0]
             },
             apiMetaData: {
               name,
               code,
               radius,
               uiHeight,
-              resource,
-            },
+              resource
+            }
           });
         } catch (e) {
-          console.error("[Failed w/ Character]", { name, e });
+          console.error('[Failed w/ Character]', { name, e });
         }
       }
     );
 
     writeFile(
-      "characters",
+      'characters',
       JSON.parse(
         JSON.stringify(characterList)
-          .replace(/LiDailin/g, "Li Dailin")
-          .replace(/criticalStrikeChance/g, "criticalChance")
+          .replace(/LiDailin/g, 'Li Dailin')
+          .replace(/criticalStrikeChance/g, 'criticalChance')
       )
     );
 
@@ -373,19 +435,23 @@ export const generateMasterData = () => {
       const categoryApiMetaData = {
         type: null,
         name: type,
-        category: null,
+        category: null
       };
 
       const linkedItems = items.map((name) => {
-        const linkedItem = masterItems.find((i) => i.name === sanitizeItemString(name));
+        const linkedItem = masterItems.find(
+          (i) => i.name === sanitizeItemString(name)
+        );
 
         return {
           name,
-          id: linkedItem ? linkedItem.id : name,
+          id: linkedItem ? linkedItem.id : name
         };
       });
 
-      const apiLinkedItem = linkedItems.find(({ id }) => typeof id === "number");
+      const apiLinkedItem = linkedItems.find(
+        ({ id }) => typeof id === 'number'
+      );
       const { apiMetaData } = keyedItems[apiLinkedItem.id];
 
       categoryApiMetaData.category = apiMetaData.category;
@@ -395,49 +461,55 @@ export const generateMasterData = () => {
         name: type,
         code: apiMetaData.type,
         items: linkedItems,
-        apiMetaData: categoryApiMetaData,
+        apiMetaData: categoryApiMetaData
       };
     });
 
-    writeFile("armors", data);
+    writeFile('armors', data);
 
     return data;
   };
 
   const generateWeaponMetaData = () => {
-    const data = Object.entries(Weapons).map(([type, { weapons, ...weapon }]) => {
-      const categoryApiMetaData = {
-        type: null,
-        name: type,
-        category: null,
-      };
+    const data = Object.entries(Weapons).map(
+      ([type, { weapons, ...weapon }]) => {
+        const categoryApiMetaData = {
+          type: null,
+          name: type,
+          category: null
+        };
 
-      const linkedItems = weapons.map((name) => {
-        if (name.split(" ").pop() === "Glove") {
-          name = name.replace("Glove", "Gloves");
-        }
-        const linkedItem = masterItems.find((i) => i.name === sanitizeItemString(name));
+        const linkedItems = weapons.map((name) => {
+          if (name.split(' ').pop() === 'Glove') {
+            name = name.replace('Glove', 'Gloves');
+          }
+          const linkedItem = masterItems.find(
+            (i) => i.name === sanitizeItemString(name)
+          );
+
+          return {
+            name,
+            id: linkedItem ? linkedItem.id : name
+          };
+        });
+
+        const apiLinkedItem = linkedItems.find(
+          ({ id }) => typeof id === 'number'
+        );
+        const { apiMetaData } = keyedItems[apiLinkedItem.id];
+
+        categoryApiMetaData.category = apiMetaData.category;
+        categoryApiMetaData.type = apiMetaData.type;
 
         return {
-          name,
-          id: linkedItem ? linkedItem.id : name,
+          ...weapon,
+          items: linkedItems,
+          apiMetaData: categoryApiMetaData
         };
-      });
+      }
+    );
 
-      const apiLinkedItem = linkedItems.find(({ id }) => typeof id === "number");
-      const { apiMetaData } = keyedItems[apiLinkedItem.id];
-
-      categoryApiMetaData.category = apiMetaData.category;
-      categoryApiMetaData.type = apiMetaData.type;
-
-      return {
-        ...weapon,
-        items: linkedItems,
-        apiMetaData: categoryApiMetaData,
-      };
-    });
-
-    writeFile("weapons", data);
+    writeFile('weapons', data);
 
     return data;
   };
@@ -448,8 +520,8 @@ export const generateMasterData = () => {
       {
         id: areaCode,
         name: enTranslations[name],
-        apiMetaData: { type: areaType, code: areaCode, name },
-      },
+        apiMetaData: { type: areaType, code: areaCode, name }
+      }
     ]);
     const rawLocationObject = Object.fromEntries(allLocations);
     const locationsArr = [];
@@ -464,28 +536,34 @@ export const generateMasterData = () => {
           return {
             name: item ? item.name : itemCode,
             id: itemCode,
-            quantity: dropCount,
+            quantity: dropCount
           };
         });
 
       if (!locationData) {
-        console.error("Woops Dawg", { loc });
+        console.error('Woops Dawg', { loc });
       }
       const wikiItems = Object.entries(locationData.materials)
         .filter(([name]) => {
           return !apiItems.some((i) => i.name !== name);
         })
-        .map(([name, { quantity }]: any) => ({ name, id: name, quantity: +quantity }));
-
-      const locAnimals = Object.values(locationData.animals || {}).map(({ name, quantity }) => {
-        const clientAnimal = masterAnimals.find((an) => an.name === name);
-
-        return {
+        .map(([name, { quantity }]: any) => ({
           name,
-          id: clientAnimal ? clientAnimal.id : name,
-          quantity: +quantity,
-        };
-      });
+          id: name,
+          quantity: +quantity
+        }));
+
+      const locAnimals = Object.values(locationData.animals || {}).map(
+        ({ name, quantity }) => {
+          const clientAnimal = masterAnimals.find((an) => an.name === name);
+
+          return {
+            name,
+            id: clientAnimal ? clientAnimal.id : name,
+            quantity: +quantity
+          };
+        }
+      );
 
       locationsArr.push({
         ...loc,
@@ -496,13 +574,13 @@ export const generateMasterData = () => {
           const locationObj: any = rawLocationObject[locName];
           return {
             name: locName,
-            id: locationObj ? locationObj.id : locName,
+            id: locationObj ? locationObj.id : locName
           };
-        }),
+        })
       });
     });
 
-    writeFile("locations", locationsArr);
+    writeFile('locations', locationsArr);
 
     return locationsArr;
   };
@@ -518,14 +596,17 @@ export const generateMasterData = () => {
 
   const locationData = generateLocations();
 
-  writeFile("missing", { missingItems: [...missingItems], missingTranslations });
-  writeFile("master", {
+  writeFile('missing', {
+    missingItems: [...missingItems],
+    missingTranslations
+  });
+  writeFile('master', {
     animals: animalData,
     items: itemsData,
     characters: characterData,
     armor: armorData,
     weapon: weaponData,
-    locations: locationData,
+    locations: locationData
   });
 
   return Promise.resolve();

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const PianoWire: Item = {
 	"id": 502104,
 	"name": "PianoWire",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Throwing Stars",
@@ -49,6 +48,7 @@ export const PianoWire: Item = {
 		"Uptown": 7
 	},
 	"foundQuantity": 1,
+	"buildsFrom": [],
 	"displayName": "Piano Wire",
 	"apiMetaData": {
 		"code": 502104,

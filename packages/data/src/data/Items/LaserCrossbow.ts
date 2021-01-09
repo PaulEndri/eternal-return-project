@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LaserCrossbow: Item = {
 	"id": 115302,
 	"name": "LaserCrossbow",
-	"buildsFrom": [
-		{
-			"name": "Crossbow",
-			"id": 115202
-		},
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Sniper Crossbow",
@@ -36,6 +26,16 @@ export const LaserCrossbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow specialized for sniping. As always, aim is important.",
+	"buildsFrom": [
+		{
+			"name": "Crossbow",
+			"id": 115202
+		},
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		}
+	],
 	"displayName": "Laser Crossbow",
 	"apiMetaData": {
 		"code": 115302,

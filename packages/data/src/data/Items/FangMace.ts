@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FangMace: Item = {
 	"id": 104401,
 	"name": "FangMace",
-	"buildsFrom": [
-		{
-			"name": "Morning Star",
-			"id": 104301
-		},
-		{
-			"name": "Heated Stone",
-			"id": 401215
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hammer": 1,
@@ -32,6 +22,16 @@ export const FangMace: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Morning Star",
+			"id": 104301
+		},
+		{
+			"name": "Heated Stone",
+			"id": 401215
+		}
+	],
 	"displayName": "Fang Mace",
 	"apiMetaData": {
 		"code": 104401,

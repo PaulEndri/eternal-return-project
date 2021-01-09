@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GlassPieces: Item = {
 	"id": 205204,
 	"name": "GlassPieces",
-	"buildsFrom": [
-		{
-			"name": "Glass Bottle",
-			"id": 112104
-		},
-		{
-			"name": "Stone",
-			"id": 112101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Hovud",
@@ -49,6 +39,16 @@ export const GlassPieces: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Be careful not to cut yourself on the sharp edges.",
+	"buildsFrom": [
+		{
+			"name": "Glass Bottle",
+			"id": 112104
+		},
+		{
+			"name": "Stone",
+			"id": 112101
+		}
+	],
 	"displayName": "Glass Pieces",
 	"apiMetaData": {
 		"code": 205204,

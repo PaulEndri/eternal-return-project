@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LloigorZahr: Item = {
 	"id": 103502,
 	"name": "LloigorZahr",
-	"buildsFrom": [
-		{
-			"name": "Twin Swords",
-			"id": 103201
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -33,6 +23,16 @@ export const LloigorZahr: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You'll love crafting these twin swords, just be careful if you feel wind but the weather isn't windy. Lloigor might be watching.",
+	"buildsFrom": [
+		{
+			"name": "Twin Swords",
+			"id": 103201
+		},
+		{
+			"name": "Poison",
+			"id": 401302
+		}
+	],
 	"displayName": "Lloigor & Zahr",
 	"apiMetaData": {
 		"code": 103502,

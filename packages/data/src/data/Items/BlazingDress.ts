@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BlazingDress: Item = {
 	"id": 202416,
 	"name": "BlazingDress",
-	"buildsFrom": [
-		{
-			"name": "True Samadhi Fire",
-			"id": 205403
-		},
-		{
-			"name": "Dress",
-			"id": 202207
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -35,6 +25,16 @@ export const BlazingDress: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "True Samadhi Fire",
+			"id": 205403
+		},
+		{
+			"name": "Dress",
+			"id": 202207
+		}
+	],
 	"displayName": "Blazing Dress",
 	"apiMetaData": {
 		"code": 202416,

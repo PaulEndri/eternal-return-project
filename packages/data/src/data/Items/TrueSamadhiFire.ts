@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TrueSamadhiFire: Item = {
 	"id": 205403,
 	"name": "TrueSamadhiFire",
-	"buildsFrom": [
-		{
-			"name": "Powder of Life",
-			"id": 205301
-		},
-		{
-			"name": "Lighter",
-			"id": 401107
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Laevateinn",
@@ -48,6 +38,16 @@ export const TrueSamadhiFire: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Flames captured in a delicate glass sphere. Ascetics used it to escape.",
+	"buildsFrom": [
+		{
+			"name": "Powder of Life",
+			"id": 205301
+		},
+		{
+			"name": "Lighter",
+			"id": 401107
+		}
+	],
 	"displayName": "True Samadhi Fire",
 	"apiMetaData": {
 		"code": 205403,

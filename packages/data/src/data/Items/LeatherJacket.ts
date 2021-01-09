@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LeatherJacket: Item = {
 	"id": 202202,
 	"name": "LeatherJacket",
-	"buildsFrom": [
-		{
-			"name": "Windbreaker",
-			"id": 202101
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Rider Jacket",
@@ -35,6 +25,16 @@ export const LeatherJacket: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A reliable jacket that doesn't tear easily. Useful in most weather conditions.",
+	"buildsFrom": [
+		{
+			"name": "Windbreaker",
+			"id": 202101
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Leather Jacket",
 	"apiMetaData": {
 		"code": 202202,

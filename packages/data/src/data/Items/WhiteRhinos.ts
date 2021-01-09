@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WhiteRhinos: Item = {
 	"id": 204411,
 	"name": "WhiteRhinos",
-	"buildsFrom": [
-		{
-			"name": "Combat Boots",
-			"id": 204404
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Running Shoes": 1,
@@ -34,6 +24,16 @@ export const WhiteRhinos: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "What kind of rhino wears boots..?",
+	"buildsFrom": [
+		{
+			"name": "Combat Boots",
+			"id": 204404
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "White Rhinos",
 	"apiMetaData": {
 		"code": 204411,

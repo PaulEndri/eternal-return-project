@@ -6,7 +6,7 @@ export class Animal extends Entity implements IAnimal {
   static SOURCE_KEY = 'Animals';
 
   public name: string;
-  public locations: Record<Partial<Locations>, number>;
+  public locations: Record<Partial<keyof typeof Locations>, number>;
   public items: IAnimalDrop[];
   public stats: IAnimalStats;
   public displayName: string;

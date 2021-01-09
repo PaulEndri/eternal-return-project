@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Sudarsana: Item = {
 	"id": 113501,
 	"name": "Sudarsana",
-	"buildsFrom": [
-		{
-			"name": "Force Core",
-			"id": 401403
-		},
-		{
-			"name": "Throwing Stars",
-			"id": 113205
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -32,6 +22,16 @@ export const Sudarsana: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A weapon of Vishnu, one of the three main Hindu Gods. It was used to destroy air fortresses.",
+	"buildsFrom": [
+		{
+			"name": "Force Core",
+			"id": 401403
+		},
+		{
+			"name": "Throwing Stars",
+			"id": 113205
+		}
+	],
 	"displayName": "Sudarsana",
 	"apiMetaData": {
 		"code": 113501,

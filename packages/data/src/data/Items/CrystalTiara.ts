@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CrystalTiara: Item = {
 	"id": 201404,
 	"name": "CrystalTiara",
-	"buildsFrom": [
-		{
-			"name": "Tiara",
-			"id": 201303
-		},
-		{
-			"name": "Glass Pieces",
-			"id": 205204
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hairband": 1,
@@ -33,6 +23,16 @@ export const CrystalTiara: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A tiara made of crystals. The intricacies are impressive.",
+	"buildsFrom": [
+		{
+			"name": "Tiara",
+			"id": 201303
+		},
+		{
+			"name": "Glass Pieces",
+			"id": 205204
+		}
+	],
 	"displayName": "Crystal Tiara",
 	"apiMetaData": {
 		"code": 201404,

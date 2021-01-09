@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Doll: Item = {
 	"id": 205205,
 	"name": "Doll",
-	"buildsFrom": [
-		{
-			"name": "Ribbon",
-			"id": 205103
-		},
-		{
-			"name": "Cloth",
-			"id": 401113
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Statue of Soteria",
@@ -42,6 +32,16 @@ export const Doll: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Aren't you a little old to be playing with dolls?",
+	"buildsFrom": [
+		{
+			"name": "Ribbon",
+			"id": 205103
+		},
+		{
+			"name": "Cloth",
+			"id": 401113
+		}
+	],
 	"displayName": "Doll",
 	"apiMetaData": {
 		"code": 205205,

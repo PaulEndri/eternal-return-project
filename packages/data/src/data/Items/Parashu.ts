@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Parashu: Item = {
 	"id": 105405,
 	"name": "Parashu",
-	"buildsFrom": [
-		{
-			"name": "Light Hatchet",
-			"id": 105301
-		},
-		{
-			"name": "Buddha Sarira",
-			"id": 205207
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Hatchet": 1,
@@ -33,6 +23,16 @@ export const Parashu: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Light Hatchet",
+			"id": 105301
+		},
+		{
+			"name": "Buddha Sarira",
+			"id": 205207
+		}
+	],
 	"displayName": "Parashu",
 	"apiMetaData": {
 		"code": 105405,

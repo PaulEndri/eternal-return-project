@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ApricotFlowerTag: Item = {
 	"id": 113302,
 	"name": "ApricotFlowerTag",
-	"buildsFrom": [
-		{
-			"name": "Willow Leaf Spike",
-			"id": 113207
-		},
-		{
-			"name": "Flower",
-			"id": 205102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Fuhma Shuriken",
@@ -38,6 +28,16 @@ export const ApricotFlowerTag: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
+	"buildsFrom": [
+		{
+			"name": "Willow Leaf Spike",
+			"id": 113207
+		},
+		{
+			"name": "Flower",
+			"id": 205102
+		}
+	],
 	"displayName": "Apricot Flower Tag",
 	"apiMetaData": {
 		"code": 113302,

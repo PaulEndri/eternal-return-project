@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Charm: Item = {
 	"id": 113202,
 	"name": "Charm",
-	"buildsFrom": [
-		{
-			"name": "Vintage Cards",
-			"id": 113203
-		},
-		{
-			"name": "Buddhist Scripture",
-			"id": 205106
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Mystic Jade Charm",
@@ -40,6 +30,16 @@ export const Charm: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Vintage Cards",
+			"id": 113203
+		},
+		{
+			"name": "Buddhist Scripture",
+			"id": 205106
+		}
+	],
 	"displayName": "Charm",
 	"apiMetaData": {
 		"code": 113202,

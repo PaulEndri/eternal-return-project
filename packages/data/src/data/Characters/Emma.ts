@@ -60,13 +60,13 @@ export const Emma: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "80/115/150/145/185 (+AP 45%)",
+					"value": "40/80/120/160/200 (+AP 45%)",
 					"tiers": {
-						"1": "80",
-						"2": "115",
-						"3": "150",
-						"4": "145",
-						"5": "185"
+						"1": "40",
+						"2": "80",
+						"3": "120",
+						"4": "160",
+						"5": "200"
 					}
 				},
 				"Skill duration": {
@@ -86,13 +86,13 @@ export const Emma: Character = {
 				},
 				"Cost": {
 					"title": "Cost",
-					"value": "70/80/90/100/110 SP",
+					"value": "60/70/80/90/100 SP",
 					"tiers": {
-						"1": "70",
-						"2": "80",
-						"3": "90",
-						"4": "100",
-						"5": "110"
+						"1": "60",
+						"2": "70",
+						"3": "80",
+						"4": "90",
+						"5": "100"
 					}
 				},
 				"Cooldown": {
@@ -136,13 +136,13 @@ export const Emma: Character = {
 				},
 				"Cost": {
 					"title": "Cost",
-					"value": "70/80/90/100/110 SP",
+					"value": "60/70/80/90/100 SP",
 					"tiers": {
-						"1": "70",
-						"2": "80",
-						"3": "90",
-						"4": "100",
-						"5": "110"
+						"1": "60",
+						"2": "70",
+						"3": "80",
+						"4": "90",
+						"5": "100"
 					}
 				},
 				"Cooldown": {
@@ -164,17 +164,6 @@ export const Emma: Character = {
 			"type": "CC",
 			"description": "Passive: Every time Emma consumes SP, she recovers HP equal to 8/11/14/17/20% of her consumed SP.\nActive: Emma casts magic at a targeted enemy, polymorphing them into a rabbit. Enemies turned into rabbits are slowed. The skill cannot be used on downed enemies.",
 			"stats": {
-				"Skill damage": {
-					"title": "Skill damage",
-					"value": "80/100/120/140/160(+AP 60%) to 154/187/220/253/286(+AP 132%)",
-					"tiers": {
-						"1": "154",
-						"2": "187",
-						"3": "220",
-						"4": "253",
-						"5": "286(+AP"
-					}
-				},
 				"Slow": {
 					"title": "Slow",
 					"value": "- 0.6",
@@ -182,12 +171,12 @@ export const Emma: Character = {
 				},
 				"Skill duration": {
 					"title": "Skill duration",
-					"value": "2s",
+					"value": "1.5s",
 					"tiers": {}
 				},
 				"Range": {
 					"title": "Range",
-					"value": "4m",
+					"value": "5.5m",
 					"tiers": {}
 				},
 				"Casting time": {

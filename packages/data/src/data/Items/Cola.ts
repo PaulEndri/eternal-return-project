@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Cola: Item = {
 	"id": 301209,
 	"name": "Cola",
-	"buildsFrom": [
-		{
-			"name": "Carbonated Water",
-			"id": 301107
-		},
-		{
-			"name": "Honey",
-			"id": 301101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Smoke Bomb",
@@ -40,6 +30,16 @@ export const Cola: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 3,
+	"buildsFrom": [
+		{
+			"name": "Carbonated Water",
+			"id": 301107
+		},
+		{
+			"name": "Honey",
+			"id": 301101
+		}
+	],
 	"displayName": "Cola",
 	"apiMetaData": {
 		"code": 301209,

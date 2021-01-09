@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GoldenRifle: Item = {
 	"id": 118401,
 	"name": "GoldenRifle",
-	"buildsFrom": [
-		{
-			"name": "Springfield",
-			"id": 118201
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "NTW-20",
@@ -42,6 +32,16 @@ export const GoldenRifle: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A rifle accented with gold. High in both accuracy, destructive power, and flashiness.",
+	"buildsFrom": [
+		{
+			"name": "Springfield",
+			"id": 118201
+		},
+		{
+			"name": "Gold",
+			"id": 401214
+		}
+	],
 	"displayName": "Golden Rifle",
 	"apiMetaData": {
 		"code": 118401,

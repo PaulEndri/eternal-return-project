@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LightningWhip: Item = {
 	"id": 109402,
 	"name": "LightningWhip",
-	"buildsFrom": [
-		{
-			"name": "Bullwhip",
-			"id": 109202
-		},
-		{
-			"name": "Dead Battery",
-			"id": 401205
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Plasma Whip",
@@ -36,6 +26,16 @@ export const LightningWhip: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Bullwhip",
+			"id": 109202
+		},
+		{
+			"name": "Dead Battery",
+			"id": 401205
+		}
+	],
 	"displayName": "Lightning Whip",
 	"apiMetaData": {
 		"code": 109402,

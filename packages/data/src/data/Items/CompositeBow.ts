@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CompositeBow: Item = {
 	"id": 114203,
 	"name": "CompositeBow",
-	"buildsFrom": [
-		{
-			"name": "Longbow",
-			"id": 114202
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Twinbow",
@@ -35,6 +25,16 @@ export const CompositeBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A high quality composite bow that was used in the East. There is a record of a man shooting over 440 meters during the England Archery Competition of 1795.",
+	"buildsFrom": [
+		{
+			"name": "Longbow",
+			"id": 114202
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Composite Bow",
 	"apiMetaData": {
 		"code": 114203,

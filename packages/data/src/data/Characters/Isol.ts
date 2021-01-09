@@ -56,7 +56,7 @@ export const Isol: Character = {
 			"name": "Semtex Bomb",
 			"slot": "Q",
 			"type": "Attack",
-			"description": "Isol throws a bomb to the target location that sticks to an enemy or on the ground. If the bomb is thrown on the ground or sticks to an enemy, it explodes after 5 seconds, dealing 50/75/100/125/150 (+0.5 AP) damage and rooting enemies caught in the blast. If the bomb is stuck to an enemy, each attack reduces its timer by 0.5 seconds and increases the damage of the explosion by 8/12/16/20/24 (+0.3 AP).",
+			"description": "Isol throws a bomb to the target location that sticks to an enemy or on the ground. If the bomb is thrown on the ground or sticks to an enemy, it explodes after 5 seconds, dealing 50/75/100/125/150 (+0.5 AP) damage and rooting enemies caught in the blast for 0.5s. If the bomb is stuck to an enemy, each attack reduces its timer by 0.5 seconds and increases the damage of the explosion by 8/12/16/20/24 (+0.3 AP) and time rooted by 0.1s (Max 1s)",
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",

@@ -105,7 +105,7 @@ export const Yuki: Character = {
 			"name": "Button Up",
 			"slot": "W",
 			"type": "Passive/Buff",
-			"description": "Passive: reduces cooldown of Button Up by 0.5 seconds each time Yuki takes damage. \nYuki straightens up his outfit and reduces the cooldown for Dashing Gentleman by 6/6.5/7/7.5/8. While using Button Up, his defense is increased by 50%. When Button Up is complete, he refills his cufflinks.",
+			"description": "Passive: reduces cooldown of Button Up by 0.5 seconds each time Yuki deals damage. \nYuki straightens up his outfit and reduces the cooldown for Dashing Gentleman by 6/6.5/7/7.5/8. While using Button Up, his defense is increased by 50%. When Button Up is complete, he refills his cufflinks.",
 			"stats": {
 				"Skill duration": {
 					"title": "Skill duration",
@@ -124,13 +124,13 @@ export const Yuki: Character = {
 				},
 				"Cooldown": {
 					"title": "Cooldown",
-					"value": "20/18/16/14/12 Seconds",
+					"value": "18/16/14/12/10 Seconds",
 					"tiers": {
-						"1": "20",
-						"2": "18",
-						"3": "16",
-						"4": "14",
-						"5": "12"
+						"1": "18",
+						"2": "16",
+						"3": "14",
+						"4": "12",
+						"5": "10"
 					}
 				}
 			}

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Sharper: Item = {
 	"id": 119301,
 	"name": "Sharper",
-	"buildsFrom": [
-		{
-			"name": "Nunchaku",
-			"id": 119201
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "The Smiting Dragon",
@@ -35,6 +25,16 @@ export const Sharper: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Nunchaku",
+			"id": 119201
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Sharper",
 	"apiMetaData": {
 		"code": 119301,

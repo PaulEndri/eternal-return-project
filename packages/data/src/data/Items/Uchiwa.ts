@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Uchiwa: Item = {
 	"id": 205302,
 	"name": "Uchiwa",
-	"buildsFrom": [
-		{
-			"name": "Doll",
-			"id": 205205
-		},
-		{
-			"name": "Fan",
-			"id": 205105
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Ribbon": 1,
@@ -31,6 +21,16 @@ export const Uchiwa: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A fan with your favorite celebrity's face printed on it. It might block the view of the person behind you, so keep it at home during the concert.",
+	"buildsFrom": [
+		{
+			"name": "Doll",
+			"id": 205205
+		},
+		{
+			"name": "Fan",
+			"id": 205105
+		}
+	],
 	"displayName": "Uchiwa",
 	"apiMetaData": {
 		"code": 205302,

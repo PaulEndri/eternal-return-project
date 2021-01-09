@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const PlayingCards: Item = {
 	"id": 113102,
 	"name": "PlayingCards",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Vintage Cards",
@@ -34,6 +33,7 @@ export const PlayingCards: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "It's exhilarating to have a lucky win streak.",
+	"buildsFrom": [],
 	"displayName": "Playing Cards",
 	"apiMetaData": {
 		"code": 113102,

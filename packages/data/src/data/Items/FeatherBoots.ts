@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FeatherBoots: Item = {
 	"id": 204402,
 	"name": "FeatherBoots",
-	"buildsFrom": [
-		{
-			"name": "Combat Boots",
-			"id": 204404
-		},
-		{
-			"name": "Feather",
-			"id": 205101
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Running Shoes": 1,
@@ -33,6 +23,16 @@ export const FeatherBoots: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "They feel as light as a feather! Maybe because that's what they're made of!",
+	"buildsFrom": [
+		{
+			"name": "Combat Boots",
+			"id": 204404
+		},
+		{
+			"name": "Feather",
+			"id": 205101
+		}
+	],
 	"displayName": "Feather Boots",
 	"apiMetaData": {
 		"code": 204402,

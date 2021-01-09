@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Suit: Item = {
 	"id": 202303,
 	"name": "Suit",
-	"buildsFrom": [
-		{
-			"name": "Military Suit",
-			"id": 202205
-		},
-		{
-			"name": "Ribbon",
-			"id": 205103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Butler's Suit",
@@ -35,6 +25,16 @@ export const Suit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sharp outfit that can be worn for any special event! Or if your office has a dress code!",
+	"buildsFrom": [
+		{
+			"name": "Military Suit",
+			"id": 202205
+		},
+		{
+			"name": "Ribbon",
+			"id": 205103
+		}
+	],
 	"displayName": "Suit",
 	"apiMetaData": {
 		"code": 202303,

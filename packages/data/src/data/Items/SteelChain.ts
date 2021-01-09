@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const SteelChain: Item = {
 	"id": 119101,
 	"name": "SteelChain",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Chain Scythe",
@@ -45,6 +44,7 @@ export const SteelChain: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Steel Chain",
 	"apiMetaData": {
 		"code": 119101,

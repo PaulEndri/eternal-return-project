@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SpikedPlank: Item = {
 	"id": 502201,
 	"name": "SpikedPlank",
-	"buildsFrom": [
-		{
-			"name": "Mousetrap",
-			"id": 502103
-		},
-		{
-			"name": "Nail",
-			"id": 401101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Stingburst",
@@ -40,6 +30,16 @@ export const SpikedPlank: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 2,
+	"buildsFrom": [
+		{
+			"name": "Mousetrap",
+			"id": 502103
+		},
+		{
+			"name": "Nail",
+			"id": 401101
+		}
+	],
 	"displayName": "Spiked Plank",
 	"apiMetaData": {
 		"code": 502201,

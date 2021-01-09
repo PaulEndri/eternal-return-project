@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const EmeraldTablet: Item = {
 	"id": 205501,
 	"name": "EmeraldTablet",
-	"buildsFrom": [
-		{
-			"name": "Force Core",
-			"id": 401403
-		},
-		{
-			"name": "Flower of Fate",
-			"id": 205203
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -34,6 +24,16 @@ export const EmeraldTablet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Force Core",
+			"id": 401403
+		},
+		{
+			"name": "Flower of Fate",
+			"id": 205203
+		}
+	],
 	"displayName": "Emerald Tablet",
 	"apiMetaData": {
 		"code": 205501,

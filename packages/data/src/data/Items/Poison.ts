@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Poison: Item = {
 	"id": 401302,
 	"name": "Poison",
-	"buildsFrom": [
-		{
-			"name": "Ash",
-			"id": 401210
-		},
-		{
-			"name": "Water",
-			"id": 301102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Lloigor & Zahr",
@@ -48,6 +38,16 @@ export const Poison: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "DO NOT DRINK.",
+	"buildsFrom": [
+		{
+			"name": "Ash",
+			"id": 401210
+		},
+		{
+			"name": "Water",
+			"id": 301102
+		}
+	],
 	"displayName": "Poison",
 	"apiMetaData": {
 		"code": 401302,

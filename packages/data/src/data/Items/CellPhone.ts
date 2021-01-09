@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const CellPhone: Item = {
 	"id": 501401,
 	"name": "CellPhone",
-	"buildsFrom": [
-		{
-			"name": "Blueprint",
-			"id": 401212
-		},
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Vital Sign Sensor",
@@ -37,6 +27,16 @@ export const CellPhone: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "I'm not getting any bars here...",
+	"buildsFrom": [
+		{
+			"name": "Blueprint",
+			"id": 401212
+		},
+		{
+			"name": "Electronic Parts",
+			"id": 401211
+		}
+	],
 	"displayName": "Cell Phone",
 	"apiMetaData": {
 		"code": 501401,

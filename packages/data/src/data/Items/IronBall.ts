@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const IronBall: Item = {
 	"id": 112103,
 	"name": "IronBall",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Morning Star",
@@ -42,6 +41,7 @@ export const IronBall: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Iron Ball",
 	"apiMetaData": {
 		"code": 112103,

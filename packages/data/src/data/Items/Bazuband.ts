@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Bazuband: Item = {
 	"id": 203303,
 	"name": "Bazuband",
-	"buildsFrom": [
-		{
-			"name": "Bracer",
-			"id": 203203
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Sword Stopper",
@@ -36,6 +26,16 @@ export const Bazuband: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Older styled forearm protectors to protect your, well, forearms.",
+	"buildsFrom": [
+		{
+			"name": "Bracer",
+			"id": 203203
+		},
+		{
+			"name": "Iron Sheet",
+			"id": 401213
+		}
+	],
 	"displayName": "Bazuband",
 	"apiMetaData": {
 		"code": 203303,

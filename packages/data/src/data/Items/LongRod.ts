@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LongRod: Item = {
 	"id": 108202,
 	"name": "LongRod",
-	"buildsFrom": [
-		{
-			"name": "Short Rod",
-			"id": 108102
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Goblin Bat",
@@ -41,6 +31,16 @@ export const LongRod: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can keep more distance than when using a short rod, but you still have to be careful.",
+	"buildsFrom": [
+		{
+			"name": "Short Rod",
+			"id": 108102
+		},
+		{
+			"name": "Bamboo",
+			"id": 108103
+		}
+	],
 	"displayName": "Long Rod",
 	"apiMetaData": {
 		"code": 108202,

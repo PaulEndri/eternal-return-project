@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Meteorite: Item = {
 	"id": 401209,
 	"name": "Meteorite",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Meteor Claymore",
@@ -35,6 +34,7 @@ export const Meteorite: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A stone containing traces of alien vital force. It has mystical effects.",
+	"buildsFrom": [],
 	"displayName": "Meteorite",
 	"apiMetaData": {
 		"code": 401209,

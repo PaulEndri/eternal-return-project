@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SnipingScope: Item = {
 	"id": 205206,
 	"name": "SnipingScope",
-	"buildsFrom": [
-		{
-			"name": "Laster Pointer",
-			"id": 401108
-		},
-		{
-			"name": "Binoculars",
-			"id": 205110
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Sniper Crossbow",
@@ -38,6 +28,16 @@ export const SnipingScope: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You might be able to improve your accuracy with this on a rifle or other firearm.",
+	"buildsFrom": [
+		{
+			"name": "Laster Pointer",
+			"id": 401108
+		},
+		{
+			"name": "Binoculars",
+			"id": 205110
+		}
+	],
 	"displayName": "Sniping Scope",
 	"apiMetaData": {
 		"code": 205206,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Bleeder: Item = {
 	"id": 119302,
 	"name": "Bleeder",
-	"buildsFrom": [
-		{
-			"name": "Nunchaku",
-			"id": 119201
-		},
-		{
-			"name": "Razor",
-			"id": 113101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Vibro Nunchaku",
@@ -34,6 +24,16 @@ export const Bleeder: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Nunchaku",
+			"id": 119201
+		},
+		{
+			"name": "Razor",
+			"id": 113101
+		}
+	],
 	"displayName": "Bleeder",
 	"apiMetaData": {
 		"code": 119302,

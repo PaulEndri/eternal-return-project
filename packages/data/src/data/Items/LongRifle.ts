@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const LongRifle: Item = {
 	"id": 118101,
 	"name": "LongRifle",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Springfield",
@@ -26,6 +25,7 @@ export const LongRifle: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "An old type of gun that isn't frequently used these days. Requires lighting a fuse to shoot.",
+	"buildsFrom": [],
 	"displayName": "Long Rifle",
 	"apiMetaData": {
 		"code": 118101,

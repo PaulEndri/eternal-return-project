@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Chakram: Item = {
 	"id": 113301,
 	"name": "Chakram",
-	"buildsFrom": [
-		{
-			"name": "Throwing Stars",
-			"id": 113205
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Dharma Chakram",
@@ -35,6 +25,16 @@ export const Chakram: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The chakram is basically a throwing weapon, but in some cases, it also can be used to slash enemies like a melee weapon. Its circular shape has sharp blades around it, making it even more deadly.",
+	"buildsFrom": [
+		{
+			"name": "Throwing Stars",
+			"id": 113205
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Chakram",
 	"apiMetaData": {
 		"code": 113301,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Stingburst: Item = {
 	"id": 502402,
 	"name": "Stingburst",
-	"buildsFrom": [
-		{
-			"name": "RDX",
-			"id": 502307
-		},
-		{
-			"name": "Spiked Plank",
-			"id": 502201
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Petal Torrent",
@@ -35,6 +25,16 @@ export const Stingburst: Item = {
 	"maxStacks": 5,
 	"locations": {},
 	"foundQuantity": 1,
+	"buildsFrom": [
+		{
+			"name": "RDX",
+			"id": 502307
+		},
+		{
+			"name": "Spiked Plank",
+			"id": 502201
+		}
+	],
 	"displayName": "Stingburst",
 	"apiMetaData": {
 		"code": 502402,

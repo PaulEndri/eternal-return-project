@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const VibroNunchaku: Item = {
 	"id": 119402,
 	"name": "VibroNunchaku",
-	"buildsFrom": [
-		{
-			"name": "Bleeder",
-			"id": 119302
-		},
-		{
-			"name": "Motor",
-			"id": 401303
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Steel Chain": 1,
@@ -32,6 +22,16 @@ export const VibroNunchaku: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Bleeder",
+			"id": 119302
+		},
+		{
+			"name": "Motor",
+			"id": 401303
+		}
+	],
 	"displayName": "Vibro Nunchaku",
 	"apiMetaData": {
 		"code": 119402,

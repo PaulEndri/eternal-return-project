@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Mallet: Item = {
 	"id": 108404,
 	"name": "Mallet",
-	"buildsFrom": [
-		{
-			"name": "Goblin Bat",
-			"id": 108301
-		},
-		{
-			"name": "Motor",
-			"id": 401303
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Short Rod": 1,
@@ -34,6 +24,16 @@ export const Mallet: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Goblin Bat",
+			"id": 108301
+		},
+		{
+			"name": "Motor",
+			"id": 401303
+		}
+	],
 	"displayName": "Mallet",
 	"apiMetaData": {
 		"code": 108404,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DoubleRevolverSP: Item = {
 	"id": 116401,
 	"name": "DoubleRevolverSP",
-	"buildsFrom": [
-		{
-			"name": "Magnum-Python",
-			"id": 116201
-		},
-		{
-			"name": "Beretta M92F",
-			"id": 116202
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Devil's Marksman",
@@ -37,6 +27,16 @@ export const DoubleRevolverSP: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This isn't two revolvers -- it's one double revolver.",
+	"buildsFrom": [
+		{
+			"name": "Magnum-Python",
+			"id": 116201
+		},
+		{
+			"name": "Beretta M92F",
+			"id": 116202
+		}
+	],
 	"displayName": "Double Revolver SP",
 	"apiMetaData": {
 		"code": 116401,

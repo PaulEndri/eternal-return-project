@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PelletBow: Item = {
 	"id": 114304,
 	"name": "PelletBow",
-	"buildsFrom": [
-		{
-			"name": "Wooden Bow",
-			"id": 114201
-		},
-		{
-			"name": "Heated Stone",
-			"id": 401215
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Golden-Ratio Bow",
@@ -35,6 +25,16 @@ export const PelletBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Can fire bullets instead of arrows. It'd be a good idea to check to see if there are more bullets around.",
+	"buildsFrom": [
+		{
+			"name": "Wooden Bow",
+			"id": 114201
+		},
+		{
+			"name": "Heated Stone",
+			"id": 401215
+		}
+	],
 	"displayName": "Pellet Bow",
 	"apiMetaData": {
 		"code": 114304,

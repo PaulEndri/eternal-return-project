@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ChainArmor: Item = {
 	"id": 202302,
 	"name": "ChainArmor",
-	"buildsFrom": [
-		{
-			"name": "Leather Armor",
-			"id": 202201
-		},
-		{
-			"name": "Steel Chain",
-			"id": 119101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Commander's Armor",
@@ -34,6 +24,16 @@ export const ChainArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Armor used in both Asia and Europe in the past. Made out of interconnecting metal links.",
+	"buildsFrom": [
+		{
+			"name": "Leather Armor",
+			"id": 202201
+		},
+		{
+			"name": "Steel Chain",
+			"id": 119101
+		}
+	],
 	"displayName": "Chain Armor",
 	"apiMetaData": {
 		"code": 202302,

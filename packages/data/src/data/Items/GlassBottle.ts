@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const GlassBottle: Item = {
 	"id": 112104,
 	"name": "GlassBottle",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Molotov Cocktail",
@@ -35,6 +34,7 @@ export const GlassBottle: Item = {
 	},
 	"foundQuantity": 2,
 	"description": "A glass bottle that is good for throwing.",
+	"buildsFrom": [],
 	"displayName": "Glass Bottle",
 	"apiMetaData": {
 		"code": 112104,

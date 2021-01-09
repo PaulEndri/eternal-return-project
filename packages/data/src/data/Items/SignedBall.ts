@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const SignedBall: Item = {
 	"id": 112205,
 	"name": "SignedBall",
-	"buildsFrom": [
-		{
-			"name": "Baseball",
-			"id": 112105
-		},
-		{
-			"name": "Fountain Pen",
-			"id": 101102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Sling",
@@ -34,6 +24,16 @@ export const SignedBall: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Baseball",
+			"id": 112105
+		},
+		{
+			"name": "Fountain Pen",
+			"id": 101102
+		}
+	],
 	"displayName": "Signed Ball",
 	"apiMetaData": {
 		"code": 112205,

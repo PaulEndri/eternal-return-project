@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Alcohol: Item = {
 	"id": 401111,
 	"name": "Alcohol",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Fuhma Shuriken",
@@ -43,6 +42,7 @@ export const Alcohol: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Whenever you smell this, either a laboratory or a hospital might come to mind.",
+	"buildsFrom": [],
 	"displayName": "Alcohol",
 	"apiMetaData": {
 		"code": 401111,

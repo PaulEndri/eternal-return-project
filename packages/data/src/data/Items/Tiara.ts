@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Tiara: Item = {
 	"id": 201303,
 	"name": "Tiara",
-	"buildsFrom": [
-		{
-			"name": "Circlet",
-			"id": 201202
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Crystal Tiara",
@@ -35,6 +25,16 @@ export const Tiara: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A crown-like accessory for the head. Worn by both princesses and beauty pagent winners.",
+	"buildsFrom": [
+		{
+			"name": "Circlet",
+			"id": 201202
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Tiara",
 	"apiMetaData": {
 		"code": 201303,

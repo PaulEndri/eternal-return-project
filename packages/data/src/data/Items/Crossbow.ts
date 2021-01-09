@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Crossbow: Item = {
 	"id": 115101,
 	"name": "Crossbow",
-	"buildsFrom": [
-		{
-			"name": "Short Crossbow",
-			"id": 115101
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Laser Crossbow",
@@ -41,6 +31,16 @@ export const Crossbow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A mechanical bow that requires little human strength, but reloading takes a little longer than an ordinary bow.",
+	"buildsFrom": [
+		{
+			"name": "Short Crossbow",
+			"id": 115101
+		},
+		{
+			"name": "Bamboo",
+			"id": 108103
+		}
+	],
 	"displayName": "Crossbow",
 	"apiMetaData": {
 		"code": 115101,

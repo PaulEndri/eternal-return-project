@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LaurelWreath: Item = {
 	"id": 201408,
 	"name": "LaurelWreath",
-	"buildsFrom": [
-		{
-			"name": "True Samadhi Fire",
-			"id": 205403
-		},
-		{
-			"name": "Circlet",
-			"id": 201202
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -35,6 +25,16 @@ export const LaurelWreath: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A crown made of branches of a laurel tree, which is a symbol of Apollo. Crowns symbolize wealth, but a laurel crown symbolizes honor.",
+	"buildsFrom": [
+		{
+			"name": "True Samadhi Fire",
+			"id": 205403
+		},
+		{
+			"name": "Circlet",
+			"id": 201202
+		}
+	],
 	"displayName": "Laurel Wreath",
 	"apiMetaData": {
 		"code": 201408,

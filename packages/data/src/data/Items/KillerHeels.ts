@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const KillerHeels: Item = {
 	"id": 204403,
 	"name": "KillerHeels",
-	"buildsFrom": [
-		{
-			"name": "High Heels",
-			"id": 204203
-		},
-		{
-			"name": "Glass Pieces",
-			"id": 205204
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bucephalus",
@@ -42,6 +32,16 @@ export const KillerHeels: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Heels sharp enough to be used as weapons themselves.",
+	"buildsFrom": [
+		{
+			"name": "High Heels",
+			"id": 204203
+		},
+		{
+			"name": "Glass Pieces",
+			"id": 205204
+		}
+	],
 	"displayName": "Killer Heels",
 	"apiMetaData": {
 		"code": 204403,

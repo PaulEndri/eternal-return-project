@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Laevateinn: Item = {
 	"id": 102409,
 	"name": "Laevateinn",
-	"buildsFrom": [
-		{
-			"name": "True Samadhi Fire",
-			"id": 205403
-		},
-		{
-			"name": "Shamshir",
-			"id": 102201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Tree of Life": 1,
@@ -33,6 +23,16 @@ export const Laevateinn: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "In Norse mythology, Laevateinn is a sword that was made by Loki by carving runes into it. In mythology, it is used to kill the invincible rooster, Vidofnir.",
+	"buildsFrom": [
+		{
+			"name": "True Samadhi Fire",
+			"id": 205403
+		},
+		{
+			"name": "Shamshir",
+			"id": 102201
+		}
+	],
 	"displayName": "Laevateinn",
 	"apiMetaData": {
 		"code": 102409,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const TheSmitingDragon: Item = {
 	"id": 119401,
 	"name": "TheSmitingDragon",
-	"buildsFrom": [
-		{
-			"name": "Sharper",
-			"id": 119301
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Steel Chain": 1,
@@ -33,6 +23,16 @@ export const TheSmitingDragon: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Sharper",
+			"id": 119301
+		},
+		{
+			"name": "Ash",
+			"id": 401210
+		}
+	],
 	"displayName": "The Smiting Dragon",
 	"apiMetaData": {
 		"code": 119401,

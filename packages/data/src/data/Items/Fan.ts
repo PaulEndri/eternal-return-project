@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Fan: Item = {
 	"id": 205105,
 	"name": "Fan",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Umbrella",
@@ -37,6 +36,7 @@ export const Fan: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Sure, it's a bit old, but the wind from this fan isn't.",
+	"buildsFrom": [],
 	"displayName": "Fan",
 	"apiMetaData": {
 		"code": 205105,

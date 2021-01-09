@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Gold: Item = {
 	"id": 401214,
 	"name": "Gold",
-	"buildsFrom": [
-		{
-			"name": "Pickaxe",
-			"id": 105102
-		},
-		{
-			"name": "Gemstone",
-			"id": 401114
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Scythe",
@@ -67,6 +57,16 @@ export const Gold: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Soft, valuable, and gorgeous. A must have for any piece of jewelery.",
+	"buildsFrom": [
+		{
+			"name": "Pickaxe",
+			"id": 105102
+		},
+		{
+			"name": "Gemstone",
+			"id": 401114
+		}
+	],
 	"displayName": "Gold",
 	"apiMetaData": {
 		"code": 401214,

@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const BuddhistScripture: Item = {
 	"id": 205106,
 	"name": "BuddhistScripture",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Charm",
@@ -31,6 +30,7 @@ export const BuddhistScripture: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Smells like incense. No idea what it says, though.",
+	"buildsFrom": [],
 	"displayName": "Buddhist Scripture",
 	"apiMetaData": {
 		"code": 205106,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Blueprint: Item = {
 	"id": 401212,
 	"name": "Blueprint",
-	"buildsFrom": [
-		{
-			"name": "Fountain Pen",
-			"id": 101102
-		},
-		{
-			"name": "Paper",
-			"id": 401117
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Monohoshizao",
@@ -55,6 +45,16 @@ export const Blueprint: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "An elaborate blueprint. What on earth do all the lines and numbers mean?",
+	"buildsFrom": [
+		{
+			"name": "Fountain Pen",
+			"id": 101102
+		},
+		{
+			"name": "Paper",
+			"id": 401117
+		}
+	],
 	"displayName": "Blueprint",
 	"apiMetaData": {
 		"code": 401212,

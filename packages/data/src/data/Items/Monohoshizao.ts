@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Monohoshizao: Item = {
 	"id": 102410,
 	"name": "Monohoshizao",
-	"buildsFrom": [
-		{
-			"name": "Muramasa",
-			"id": 102402
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -33,6 +23,16 @@ export const Monohoshizao: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A sword with a long blade. Legend says Kojiro Sasaki cut a flying swallow with this sword. A technique known as \"Upward Cutting\" is commonly used after an opponent dodges the first attack.",
+	"buildsFrom": [
+		{
+			"name": "Muramasa",
+			"id": 102402
+		},
+		{
+			"name": "Blueprint",
+			"id": 401212
+		}
+	],
 	"displayName": "Monohoshizao",
 	"apiMetaData": {
 		"code": 102410,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MaiSok: Item = {
 	"id": 111403,
 	"name": "MaiSok",
-	"buildsFrom": [
-		{
-			"name": "Ryukyu Tonfa",
-			"id": 111401
-		},
-		{
-			"name": "Short Rod",
-			"id": 108102
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Bamboo": 1,
@@ -33,6 +23,16 @@ export const MaiSok: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Ryukyu Tonfa",
+			"id": 111401
+		},
+		{
+			"name": "Short Rod",
+			"id": 108102
+		}
+	],
 	"displayName": "Mai Sok",
 	"apiMetaData": {
 		"code": 111403,

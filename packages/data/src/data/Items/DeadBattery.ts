@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DeadBattery: Item = {
 	"id": 401205,
 	"name": "DeadBattery",
-	"buildsFrom": [
-		{
-			"name": "Battery",
-			"id": 401110
-		},
-		{
-			"name": "Water",
-			"id": 301102
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Lightning Whip",
@@ -43,6 +33,16 @@ export const DeadBattery: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Is a dead battery still a battery? Just throw it at someone!",
+	"buildsFrom": [
+		{
+			"name": "Battery",
+			"id": 401110
+		},
+		{
+			"name": "Water",
+			"id": 301102
+		}
+	],
 	"displayName": "Dead Battery",
 	"apiMetaData": {
 		"code": 401205,

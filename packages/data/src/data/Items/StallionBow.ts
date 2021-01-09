@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const StallionBow: Item = {
 	"id": 114302,
 	"name": "StallionBow",
-	"buildsFrom": [
-		{
-			"name": "Mighty Bow",
-			"id": 114303
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Ancient bolt",
@@ -36,6 +26,16 @@ export const StallionBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A traditional Korean bow that can kill a tiger with a single arrow.",
+	"buildsFrom": [
+		{
+			"name": "Mighty Bow",
+			"id": 114303
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Stallion Bow",
 	"apiMetaData": {
 		"code": 114302,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const RiderJacket: Item = {
 	"id": 202301,
 	"name": "RiderJacket",
-	"buildsFrom": [
-		{
-			"name": "Leather Jacket",
-			"id": 202202
-		},
-		{
-			"name": "Steel Chain",
-			"id": 119101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Rocker's Jacket",
@@ -36,6 +26,16 @@ export const RiderJacket: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Worn more often as a fashion statement than for actual riding.",
+	"buildsFrom": [
+		{
+			"name": "Leather Jacket",
+			"id": 202202
+		},
+		{
+			"name": "Steel Chain",
+			"id": 119101
+		}
+	],
 	"displayName": "Rider Jacket",
 	"apiMetaData": {
 		"code": 202301,

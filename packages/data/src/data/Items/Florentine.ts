@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Florentine: Item = {
 	"id": 103301,
 	"name": "Florentine",
-	"buildsFrom": [
-		{
-			"name": "Twin Swords",
-			"id": 103201
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Divine Dual Swords",
@@ -37,6 +27,16 @@ export const Florentine: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "The master of these swords from Florence says you can't use them seperately. One in each hand at all times.",
+	"buildsFrom": [
+		{
+			"name": "Twin Swords",
+			"id": 103201
+		},
+		{
+			"name": "Blueprint",
+			"id": 401212
+		}
+	],
 	"displayName": "Florentine",
 	"apiMetaData": {
 		"code": 103301,

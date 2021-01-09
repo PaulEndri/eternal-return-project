@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Bandage: Item = {
 	"id": 203102,
 	"name": "Bandage",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Patched Robe",
@@ -42,6 +41,7 @@ export const Bandage: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A patch that's pretty stretchy. It's good for covering injuries.",
+	"buildsFrom": [],
 	"displayName": "Bandage",
 	"apiMetaData": {
 		"code": 203102,

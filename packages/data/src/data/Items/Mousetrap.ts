@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Mousetrap: Item = {
 	"id": 502103,
 	"name": "Mousetrap",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Spiked Plank",
@@ -36,6 +35,7 @@ export const Mousetrap: Item = {
 		"Beach": 5
 	},
 	"foundQuantity": 2,
+	"buildsFrom": [],
 	"displayName": "Mousetrap",
 	"apiMetaData": {
 		"code": 502103,

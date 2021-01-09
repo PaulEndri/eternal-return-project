@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const MithrilArmor: Item = {
 	"id": 202407,
 	"name": "MithrilArmor",
-	"buildsFrom": [
-		{
-			"name": "Mithril",
-			"id": 401304
-		},
-		{
-			"name": "Leather Armor",
-			"id": 202201
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Mithril": 1,
@@ -31,6 +21,16 @@ export const MithrilArmor: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Normal chain armor cannot completely protect its wearer from external impact, but the Mithril material on this armor defies the normality of chain armor.",
+	"buildsFrom": [
+		{
+			"name": "Mithril",
+			"id": 401304
+		},
+		{
+			"name": "Leather Armor",
+			"id": 202201
+		}
+	],
 	"displayName": "Mithril Armor",
 	"apiMetaData": {
 		"code": 202407,

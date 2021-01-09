@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Heelys: Item = {
 	"id": 204204,
 	"name": "Heelys",
-	"buildsFrom": [
-		{
-			"name": "Running Shoes",
-			"id": 204102
-		},
-		{
-			"name": "Iron Ball",
-			"id": 112103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Maverick Runner",
@@ -38,6 +28,16 @@ export const Heelys: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "They look like regular shoes, but you can ride them like rollerblades because of the wheels mounted in the heels. That's just the way I roll.",
+	"buildsFrom": [
+		{
+			"name": "Running Shoes",
+			"id": 204102
+		},
+		{
+			"name": "Iron Ball",
+			"id": 112103
+		}
+	],
 	"displayName": "Heelys",
 	"apiMetaData": {
 		"code": 204204,

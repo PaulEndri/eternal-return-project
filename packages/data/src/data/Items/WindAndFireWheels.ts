@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const WindAndFireWheels: Item = {
 	"id": 113411,
 	"name": "WindAndFireWheels",
-	"buildsFrom": [
-		{
-			"name": "Dharma Chakram",
-			"id": 113403
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Razor": 1,
@@ -33,6 +23,16 @@ export const WindAndFireWheels: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Dharma Chakram",
+			"id": 113403
+		},
+		{
+			"name": "Bamboo",
+			"id": 108103
+		}
+	],
 	"displayName": "Wind and Fire Wheels",
 	"apiMetaData": {
 		"code": 113411,

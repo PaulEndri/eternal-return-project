@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const TurtleShell: Item = {
 	"id": 401104,
 	"name": "TurtleShell",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Thuận Thiên",
@@ -39,6 +38,7 @@ export const TurtleShell: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Reminds me of a sandbox I had as a kid.",
+	"buildsFrom": [],
 	"displayName": "Turtle Shell",
 	"apiMetaData": {
 		"code": 401104,

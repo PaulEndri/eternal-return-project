@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Bracelet: Item = {
 	"id": 203104,
 	"name": "Bracelet",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Golden Bracelet",
@@ -29,6 +28,7 @@ export const Bracelet: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A metal bracelet. It feels tight. Maybe you're just nervous.",
+	"buildsFrom": [],
 	"displayName": "Bracelet",
 	"apiMetaData": {
 		"code": 203104,

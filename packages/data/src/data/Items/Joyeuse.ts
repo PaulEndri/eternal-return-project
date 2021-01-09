@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Joyeuse: Item = {
 	"id": 120405,
 	"name": "Joyeuse",
-	"buildsFrom": [
-		{
-			"name": "Rapier",
-			"id": 120201
-		},
-		{
-			"name": "Mithril",
-			"id": 401304
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Needle": 1,
@@ -31,6 +21,16 @@ export const Joyeuse: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "Rapier",
+			"id": 120201
+		},
+		{
+			"name": "Mithril",
+			"id": 401304
+		}
+	],
 	"displayName": "Joyeuse",
 	"apiMetaData": {
 		"code": 120405,

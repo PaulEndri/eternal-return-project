@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const KitchenKnife: Item = {
 	"id": 101104,
 	"name": "KitchenKnife",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Army Knife",
@@ -39,6 +38,7 @@ export const KitchenKnife: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A knife used in the kitchen. It can be a deadly weapon in the hands of an expert.",
+	"buildsFrom": [],
 	"displayName": "Kitchen Knife",
 	"apiMetaData": {
 		"code": 101104,

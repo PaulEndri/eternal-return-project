@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DharmaChakram: Item = {
 	"id": 113403,
 	"name": "DharmaChakram",
-	"buildsFrom": [
-		{
-			"name": "Chakram",
-			"id": 113301
-		},
-		{
-			"name": "Buddhist Scripture",
-			"id": 205106
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Wind and Fire Wheels",
@@ -37,6 +27,16 @@ export const DharmaChakram: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A legendary weapon Buddha used to exorcise a demon. It causes damage with the sharp blades that rotate around its perimeter.",
+	"buildsFrom": [
+		{
+			"name": "Chakram",
+			"id": 113301
+		},
+		{
+			"name": "Buddhist Scripture",
+			"id": 205106
+		}
+	],
 	"displayName": "Dharma Chakram",
 	"apiMetaData": {
 		"code": 113403,

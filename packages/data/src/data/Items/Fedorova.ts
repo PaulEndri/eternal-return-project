@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Fedorova: Item = {
 	"id": 117101,
 	"name": "Fedorova",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "STG-44",
@@ -25,6 +24,7 @@ export const Fedorova: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Fedorova",
 	"apiMetaData": {
 		"code": 117101,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Excalibur: Item = {
 	"id": 102407,
 	"name": "Excalibur",
-	"buildsFrom": [
-		{
-			"name": "Jewel Sword",
-			"id": 102404
-		},
-		{
-			"name": "Holy Grail",
-			"id": 205108
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -33,6 +23,16 @@ export const Excalibur: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A noted sword produced in Avalon, the nation of fairies. King  Arthur received this sword from the beautiful Lady of the Lake and returned it after the final battle against Prince Mordred.",
+	"buildsFrom": [
+		{
+			"name": "Jewel Sword",
+			"id": 102404
+		},
+		{
+			"name": "Holy Grail",
+			"id": 205108
+		}
+	],
 	"displayName": "Excalibur",
 	"apiMetaData": {
 		"code": 102407,

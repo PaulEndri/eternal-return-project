@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const GlassPanel: Item = {
 	"id": 401305,
 	"name": "GlassPanel",
-	"buildsFrom": [
-		{
-			"name": "Glass Pieces",
-			"id": 205204
-		},
-		{
-			"name": "Glue",
-			"id": 401116
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "AK-12",
@@ -40,6 +30,16 @@ export const GlassPanel: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A glass panel used for a display. If you break the one on your TV, you gotta replace it with a new panel. At that point, you might as well just get a new TV.",
+	"buildsFrom": [
+		{
+			"name": "Glass Pieces",
+			"id": 205204
+		},
+		{
+			"name": "Glue",
+			"id": 401116
+		}
+	],
 	"displayName": "Glass Panel",
 	"apiMetaData": {
 		"code": 401305,

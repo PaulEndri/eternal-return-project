@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BallLightning: Item = {
 	"id": 112303,
 	"name": "BallLightning",
-	"buildsFrom": [
-		{
-			"name": "Iron Ball",
-			"id": 112103
-		},
-		{
-			"name": "Dead Battery",
-			"id": 401205
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Incendiary Bomb",
@@ -36,6 +26,16 @@ export const BallLightning: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "You can knock out your enemies by throwing the hammer, but it's your choice to run or keep fighting.",
+	"buildsFrom": [
+		{
+			"name": "Iron Ball",
+			"id": 112103
+		},
+		{
+			"name": "Dead Battery",
+			"id": 401205
+		}
+	],
 	"displayName": "Ball Lightning",
 	"apiMetaData": {
 		"code": 112303,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const XCR: Item = {
 	"id": 117405,
 	"name": "XCR",
-	"buildsFrom": [
-		{
-			"name": "M16A1",
-			"id": 117401
-		},
-		{
-			"name": "Magazine",
-			"id": 205303
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Fedorova": 1,
@@ -36,6 +26,16 @@ export const XCR: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [
+		{
+			"name": "M16A1",
+			"id": 117401
+		},
+		{
+			"name": "Magazine",
+			"id": 205303
+		}
+	],
 	"displayName": "XCR",
 	"apiMetaData": {
 		"code": 117405,

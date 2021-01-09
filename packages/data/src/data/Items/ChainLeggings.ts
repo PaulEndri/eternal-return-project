@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ChainLeggings: Item = {
 	"id": 204202,
 	"name": "ChainLeggings",
-	"buildsFrom": [
-		{
-			"name": "Tights",
-			"id": 204103
-		},
-		{
-			"name": "Steel Chain",
-			"id": 119101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Mithril Boots",
@@ -38,6 +28,16 @@ export const ChainLeggings: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Protective leg equipment. Very effective and easily made.",
+	"buildsFrom": [
+		{
+			"name": "Tights",
+			"id": 204103
+		},
+		{
+			"name": "Steel Chain",
+			"id": 119101
+		}
+	],
 	"displayName": "Chain Leggings",
 	"apiMetaData": {
 		"code": 204202,

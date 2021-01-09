@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const BattleSuit: Item = {
 	"id": 202415,
 	"name": "BattleSuit",
-	"buildsFrom": [
-		{
-			"name": "Bulletproof Vest",
-			"id": 202401
-		},
-		{
-			"name": "Diving Suit",
-			"id": 202210
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Windbreaker": 1,
@@ -34,6 +24,16 @@ export const BattleSuit: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A futuristic combat suit. It's made with bulletproof material that makes it great armor. However, when worn in hot areas, you might die of dehydration before encountering a single foe.",
+	"buildsFrom": [
+		{
+			"name": "Bulletproof Vest",
+			"id": 202401
+		},
+		{
+			"name": "Diving Suit",
+			"id": 202210
+		}
+	],
 	"displayName": "Battle Suit",
 	"apiMetaData": {
 		"code": 202415,

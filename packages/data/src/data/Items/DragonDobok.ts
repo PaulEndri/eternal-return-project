@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const DragonDobok: Item = {
 	"id": 202411,
 	"name": "DragonDobok",
-	"buildsFrom": [
-		{
-			"name": "Qipao",
-			"id": 202304
-		},
-		{
-			"name": "Turtle Dobok",
-			"id": 202203
-		}
-	],
 	"buildsInto": [],
 	"requirements": {
 		"Cloth": 1,
@@ -35,6 +25,16 @@ export const DragonDobok: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A martial arts uniform designed for mental and physical training. You only qualify to wear this if you fulfill a particular set of prerequisites.",
+	"buildsFrom": [
+		{
+			"name": "Qipao",
+			"id": 202304
+		},
+		{
+			"name": "Turtle Dobok",
+			"id": 202203
+		}
+	],
 	"displayName": "Dragon Dobok",
 	"apiMetaData": {
 		"code": 202411,

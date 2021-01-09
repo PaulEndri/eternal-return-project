@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Mithril: Item = {
 	"id": 401304,
 	"name": "Mithril",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Joyeuse",
@@ -39,6 +38,7 @@ export const Mithril: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "This silver metal has the best reaction to vital force. It was strengthened due to its long exposure to VF. Light as a feather, but stronger than steel.",
+	"buildsFrom": [],
 	"displayName": "Mithril",
 	"apiMetaData": {
 		"code": 401304,

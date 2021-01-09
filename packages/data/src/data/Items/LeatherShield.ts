@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const LeatherShield: Item = {
 	"id": 203201,
 	"name": "LeatherShield",
-	"buildsFrom": [
-		{
-			"name": "Turtle Shell",
-			"id": 401104
-		},
-		{
-			"name": "Leather",
-			"id": 401103
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Steel Shield",
@@ -38,6 +28,16 @@ export const LeatherShield: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Strong, but flexible. Not the best for blocking sharp attacks, but it's better than nothing.",
+	"buildsFrom": [
+		{
+			"name": "Turtle Shell",
+			"id": 401104
+		},
+		{
+			"name": "Leather",
+			"id": 401103
+		}
+	],
 	"displayName": "Leather Shield",
 	"apiMetaData": {
 		"code": 203201,

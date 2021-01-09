@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const ShamansBronze: Item = {
 	"id": 205211,
 	"name": "ShamansBronze",
-	"buildsFrom": [
-		{
-			"name": "Rusty Sword",
-			"id": 102101
-		},
-		{
-			"name": "Stallion Medal",
-			"id": 401109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Revenge of Goujian",
@@ -34,6 +24,16 @@ export const ShamansBronze: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A ritual tool that is less practical but has a strong symbolic meaning.",
+	"buildsFrom": [
+		{
+			"name": "Rusty Sword",
+			"id": 102101
+		},
+		{
+			"name": "Stallion Medal",
+			"id": 401109
+		}
+	],
 	"displayName": "Shaman's Bronze",
 	"apiMetaData": {
 		"code": 205211,

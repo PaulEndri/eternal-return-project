@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Gunpowder: Item = {
 	"id": 401121,
 	"name": "Gunpowder",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Shatter Shell Gauntlet",
@@ -47,6 +46,7 @@ export const Gunpowder: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "Explosive powder. It goes in guns. Boom.",
+	"buildsFrom": [],
 	"displayName": "Gunpowder",
 	"apiMetaData": {
 		"code": 401121,

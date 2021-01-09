@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const StrongBow: Item = {
 	"id": 114301,
 	"name": "StrongBow",
-	"buildsFrom": [
-		{
-			"name": "Wooden Bow",
-			"id": 114201
-		},
-		{
-			"name": "Oil",
-			"id": 401112
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Twinbow",
@@ -39,6 +29,16 @@ export const StrongBow: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A bow with strong elasticity, the bow string is made of 240 strands of three-ply thread.",
+	"buildsFrom": [
+		{
+			"name": "Wooden Bow",
+			"id": 114201
+		},
+		{
+			"name": "Oil",
+			"id": 401112
+		}
+	],
 	"displayName": "Strong Bow",
 	"apiMetaData": {
 		"code": 114301,

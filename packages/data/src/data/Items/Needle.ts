@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Needle: Item = {
 	"id": 120101,
 	"name": "Needle",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Dart",
@@ -42,6 +41,7 @@ export const Needle: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "An item with multiple uses; limited only by your imagination.",
+	"buildsFrom": [],
 	"displayName": "Needle",
 	"apiMetaData": {
 		"code": 120101,

@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Steel: Item = {
 	"id": 401201,
 	"name": "Steel",
-	"buildsFrom": [
-		{
-			"name": "Scrap Metal",
-			"id": 401106
-		},
-		{
-			"name": "Iron Ore",
-			"id": 401118
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Bastard Sword",
@@ -67,6 +57,16 @@ export const Steel: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"description": "Just some strong steel. They could name a football team after this.",
+	"buildsFrom": [
+		{
+			"name": "Scrap Metal",
+			"id": 401106
+		},
+		{
+			"name": "Iron Ore",
+			"id": 401118
+		}
+	],
 	"displayName": "Steel",
 	"apiMetaData": {
 		"code": 401201,

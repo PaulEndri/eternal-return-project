@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Whip: Item = {
 	"id": 109101,
 	"name": "Whip",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Rope Cuffs",
@@ -28,6 +27,7 @@ export const Whip: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "",
+	"buildsFrom": [],
 	"displayName": "Whip",
 	"apiMetaData": {
 		"code": 109101,

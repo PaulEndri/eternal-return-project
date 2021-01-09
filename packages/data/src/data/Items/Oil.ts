@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const Oil: Item = {
 	"id": 401112,
 	"name": "Oil",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Masamune",
@@ -52,6 +51,7 @@ export const Oil: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "At room temperature, this fatty component exists in liquid form.",
+	"buildsFrom": [],
 	"displayName": "Oil",
 	"apiMetaData": {
 		"code": 401112,

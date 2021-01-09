@@ -3,7 +3,6 @@ import Item from '../../types/Item';
 export const HolyGrail: Item = {
 	"id": 205108,
 	"name": "HolyGrail",
-	"buildsFrom": [],
 	"buildsInto": [
 		{
 			"name": "Excalibur",
@@ -31,6 +30,7 @@ export const HolyGrail: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "A relic that has materializes through various trials and adventures in Medieval myths. Many knights endured the trials, yet none ended up with a happy ending.",
+	"buildsFrom": [],
 	"displayName": "Holy Grail",
 	"apiMetaData": {
 		"code": 205108,

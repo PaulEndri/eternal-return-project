@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const Bikini: Item = {
 	"id": 202209,
 	"name": "Bikini",
-	"buildsFrom": [
-		{
-			"name": "Full Body Swimsuit",
-			"id": null
-		},
-		{
-			"name": "Scissors",
-			"id": 101101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Amazoness Armor",
@@ -33,6 +23,16 @@ export const Bikini: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "It's a bikini made of a thin fabric. You might wanna suck in your stomach when you're wearing it. It's so versatile, men can wear it, too.",
+	"buildsFrom": [
+		{
+			"name": "Wetsuit",
+			"id": 202105
+		},
+		{
+			"name": "Scissors",
+			"id": 101101
+		}
+	],
 	"displayName": "Bikini",
 	"apiMetaData": {
 		"code": 202209,

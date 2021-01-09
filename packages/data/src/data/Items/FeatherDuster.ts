@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const FeatherDuster: Item = {
 	"id": 205209,
 	"name": "FeatherDuster",
-	"buildsFrom": [
-		{
-			"name": "Short Rod",
-			"id": 108102
-		},
-		{
-			"name": "Feather",
-			"id": 205101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Torch",
@@ -46,6 +36,16 @@ export const FeatherDuster: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Dust sticks to this thing like iron to a magnet. Feather dusters...how do they work?",
+	"buildsFrom": [
+		{
+			"name": "Short Rod",
+			"id": 108102
+		},
+		{
+			"name": "Feather",
+			"id": 205101
+		}
+	],
 	"displayName": "Feather Duster",
 	"apiMetaData": {
 		"code": 205209,

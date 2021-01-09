@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const PowderOfLife: Item = {
 	"id": 205301,
 	"name": "PowderOfLife",
-	"buildsFrom": [
-		{
-			"name": "Tree of Life",
-			"id": 401208
-		},
-		{
-			"name": "Stone",
-			"id": 112101
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Glacial Ice",
@@ -42,6 +32,16 @@ export const PowderOfLife: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A powder that summons the spirits. Better combined with other items to make something mystical.",
+	"buildsFrom": [
+		{
+			"name": "Tree of Life",
+			"id": 401208
+		},
+		{
+			"name": "Stone",
+			"id": 112101
+		}
+	],
 	"displayName": "Powder of Life",
 	"apiMetaData": {
 		"code": 205301,

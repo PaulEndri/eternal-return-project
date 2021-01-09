@@ -3,16 +3,6 @@ import Item from '../../types/Item';
 export const OnyxDagger: Item = {
 	"id": 113206,
 	"name": "OnyxDagger",
-	"buildsFrom": [
-		{
-			"name": "Razor",
-			"id": 113101
-		},
-		{
-			"name": "Cross",
-			"id": 205109
-		}
-	],
 	"buildsInto": [
 		{
 			"name": "Willow Leaf Spike",
@@ -39,6 +29,16 @@ export const OnyxDagger: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "Made out of a throwing dagger and a cross. It practically jumps from the tips of your fingers to fly into the heart of your enemy",
+	"buildsFrom": [
+		{
+			"name": "Razor",
+			"id": 113101
+		},
+		{
+			"name": "Cross",
+			"id": 205109
+		}
+	],
 	"displayName": "Onyx Dagger",
 	"apiMetaData": {
 		"code": 113206,
