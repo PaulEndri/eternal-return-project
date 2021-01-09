@@ -128,7 +128,9 @@ export class Route {
     if (location.teleport) {
       node.next = Object.fromEntries(
         Object.keys(this.keyedLocations)
-          .filter((id) => !node.traversed.includes(+id))
+          .filter(
+            (id) => !node.traversed.includes(+id) && this.keyedLocations[+id]
+          )
           .map((id) => [
             id,
             this.recursiveNode(node, this.keyedLocations[+id], index + 1)
@@ -137,7 +139,10 @@ export class Route {
     } else {
       node.next = Object.fromEntries(
         location.connections
-          .filter(({ id }) => !node.traversed.includes(+id))
+          .filter(
+            ({ id }) =>
+              !node.traversed.includes(+id) && this.keyedLocations[+id]
+          )
           .map((loc) => [
             loc.id,
             this.recursiveNode(node, this.keyedLocations[loc.id], index + 1)
