@@ -18,6 +18,9 @@ export class Route {
     Items.Stone,
     Items.Leather,
     Items.VFBloodSample,
+    Items.ForceCore,
+    Items.Moonstone,
+    Items.Water,
     Items.Meteorite,
     Items.Mithril,
     Items.Branch
@@ -128,7 +131,7 @@ export class Route {
           .filter((id) => !node.traversed.includes(+id))
           .map((id) => [
             id,
-            this.recursiveNode(node, this.keyedLocations[id], index + 1)
+            this.recursiveNode(node, this.keyedLocations[+id], index + 1)
           ])
       );
     } else {

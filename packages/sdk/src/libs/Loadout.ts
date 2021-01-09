@@ -234,7 +234,9 @@ export class Loadout {
   // }
 
   public checkCompletedItems(materials: CodedMaterialList) {
-    return this.items.filter((item) => item.canComplete(materials));
+    return this.items
+      .filter((item) => item)
+      .filter((item) => item.canComplete(materials));
   }
 
   // public getItemWeight(name: string, value) {
