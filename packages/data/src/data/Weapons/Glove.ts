@@ -25,7 +25,7 @@ export const Glove: Weapon = {
       }
     ]
   },
-  usableBy: ['HyunWoo', 'Li Dailin'],
+  usableBy: ['Hyunwoo', 'Li Dailin'],
   items: [
     {
       name: 'Brass Knuckles',
