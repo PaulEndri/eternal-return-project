@@ -53,10 +53,12 @@ export const generateMasterData = () => {
     return stringifiedData
       .replace(/Full Body Swimsuit/g, 'Wetsuit')
       .replace(/Wild Dog/g, 'Dog')
-      .replace(/Bloody Nine Tails/g, 'Whip of the Nine Bloody Tails');
+      .replace(/Bloody Nine Tails/g, 'Whip of the Nine Bloody Tails')
+      .replace(/Laster/g, 'Laser')
+      .replace(/Screwdriver/g, 'Cocktail');
   };
 
-  const writeFile = (name: string, content, replace = false) => {
+  const writeFile = (name: string, content, replace = true) => {
     fs.writeFileSync(
       `src/generated/masterData/${name}.json`,
       replacers(replace, JSON.stringify(content, null, 2))
@@ -169,6 +171,9 @@ export const generateMasterData = () => {
               ? 'Blueprint'
               : item === 'Full Body Swimsuit'
               ? 'Wetsuit'
+              : [enName, name].includes('Gleipnir') &&
+                item === 'Honey cod steak'
+              ? 'Spiked Plank'
               : item
           ),
           name: sanitizeItemString(rest.name),
@@ -479,7 +484,7 @@ export const generateMasterData = () => {
           category: null
         };
 
-        const linkedItems = weapons.map((name) => {
+        let linkedItems = weapons.map((name) => {
           if (name.split(' ').pop() === 'Glove') {
             name = name.replace('Glove', 'Gloves');
           }
@@ -501,6 +506,11 @@ export const generateMasterData = () => {
         categoryApiMetaData.category = apiMetaData.category;
         categoryApiMetaData.type = apiMetaData.type;
 
+        if (weapon.name === 'Nunchaku') {
+          linkedItems = linkedItems.filter(
+            ({ name }) => !Weapons.Whip.weapons.includes(name)
+          );
+        }
         return {
           ...weapon,
           items: linkedItems,
