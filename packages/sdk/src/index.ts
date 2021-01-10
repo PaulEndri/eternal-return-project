@@ -9,5 +9,5 @@ export * from './libs/WeaponType';
 export * from './libs/ArmorType';
 export * from './libs/Animal';
 export * from './libs/Route';
-
+export * from './libs/MaterialList';
 export * from './utilities/setStaticCache';

@@ -1,5 +1,6 @@
 import { CodedMaterialList } from '../interfaces/IMaterialList';
 import { DataCache } from './DataCache';
+import { Item } from './Item';
 
 export class MaterialList {
   public list: CodedMaterialList;
@@ -40,10 +41,14 @@ export class MaterialList {
     Object.entries(list).forEach(([key, val]: [any, number]) =>
       this.add(key, val)
     );
+
+    return this;
   }
 
   public addFromLists(lists: CodedMaterialList[]) {
     lists.forEach((list) => this.addFromList(list));
+
+    return this;
   }
 
   public clone() {
@@ -54,7 +59,7 @@ export class MaterialList {
     return _list;
   }
 
-  public getAllCraftableItems(idsOnly = false) {
+  public getAllCraftableItems(idsOnly = false): Item[] {
     const results = Object.values(DataCache.Items).filter(({ buildsFrom }) =>
       buildsFrom.every(({ id }) => this.list[id])
     );
@@ -63,6 +68,6 @@ export class MaterialList {
       return results.map(({ id }) => id);
     }
 
-    return results;
+    return results.map(({ id }) => new Item(id));
   }
 }
