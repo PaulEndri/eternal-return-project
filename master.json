@@ -4720,7 +4720,7 @@
           "id": 109301
         },
         {
-          "name": "Honey cod steak",
+          "name": "Honey Cod Steak",
           "id": 302201
         }
       ],
@@ -18837,7 +18837,7 @@
           "id": 301302
         },
         {
-          "name": "Honey cod steak",
+          "name": "Honey Cod Steak",
           "id": 302201
         },
         {
@@ -19607,7 +19607,7 @@
     },
     {
       "id": 401108,
-      "name": "LasterPointer",
+      "name": "LaserPointer",
       "buildsInto": [
         {
           "name": "Plasma Sword",
@@ -24080,7 +24080,7 @@
       "buildsFrom": [],
       "buildsInto": [
         {
-          "name": "Honey cod steak",
+          "name": "Honey Cod Steak",
           "id": 302201
         },
         {
@@ -24726,7 +24726,7 @@
       "maxStacks": 5,
       "locations": {},
       "foundQuantity": 1,
-      "displayName": "Honey cod steak",
+      "displayName": "Honey Cod Steak",
       "clientMetaData": {
         "type": "Food",
         "category": "Consume"
@@ -36325,7 +36325,7 @@
           "quantity": 7
         },
         {
-          "name": "LasterPointer",
+          "name": "LaserPointer",
           "id": 401108,
           "quantity": 6
         }
@@ -36782,7 +36782,7 @@
           "quantity": 6
         },
         {
-          "name": "LasterPointer",
+          "name": "LaserPointer",
           "id": 401108,
           "quantity": 6
         },
@@ -37701,7 +37701,7 @@
           "quantity": 7
         },
         {
-          "name": "LasterPointer",
+          "name": "LaserPointer",
           "id": 401108,
           "quantity": 6
         },

@@ -484,7 +484,7 @@ enum Material {
   'Rubber' = 401105,
   'ScrapMetal' = 401106,
   'Lighter' = 401107,
-  'LasterPointer' = 401108,
+  'LaserPointer' = 401108,
   'StallionMedal' = 401109,
   'Battery' = 401110,
   'Alcohol' = 401111,

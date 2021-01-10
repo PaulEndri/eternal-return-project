@@ -370,7 +370,7 @@ export * from './TurtleShell';
 export * from './Rubber';
 export * from './ScrapMetal';
 export * from './Lighter';
-export * from './LasterPointer';
+export * from './LaserPointer';
 export * from './StallionMedal';
 export * from './Battery';
 export * from './Alcohol';
