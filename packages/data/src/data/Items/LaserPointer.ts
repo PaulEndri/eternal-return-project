@@ -50,7 +50,7 @@ export const LaserPointer: Item = {
   locations: {},
   foundQuantity: 1,
   buildsFrom: [],
-  displayName: 'Laster Pointer',
+  displayName: 'Laser Pointer',
   apiMetaData: {
     code: 401108,
     category: 'Misc',

@@ -37,66 +37,80 @@ const playerCleanup = async () => {
   for (const player of players) {
     log(`[Player][${player.id}] Clean Up Commence`);
 
-    const playerData = await Client.getPlayerRecord(player.id);
-    const playerDataSeasonOne = await Client.getPlayerRecord(player.id, 1);
+    try {
+      const playerData = await Client.getPlayerRecord(player.id);
+      const playerDataSeasonOne = await Client.getPlayerRecord(player.id, 1);
 
-    await delay();
-    player.name = playerData[0].nickname;
-    player.seasonRecords = [
-      {
-        lastUpdated: new Date(),
-        info: playerData,
-        season: 0
-      },
-      {
-        lastUpdated: new Date(),
-        info: playerDataSeasonOne,
-        season: 1
+      await delay();
+
+      if (!playerData) {
+        continue;
       }
-    ];
-
-    const matchHistory = await Client.getGamesForPlayer(player.id);
-
-    const totalMatchHistory = new Set(player.matches || []);
-
-    for (const match of matchHistory) {
-      log(`[Player][${player.id}][Match][${match.gameId}] Processing`);
-
-      totalMatchHistory.add(match.gameId);
-
-      if (match.killerUserNum) {
-        log(
-          `[Player][${player.id}][Match][${match.gameId}] Has Killer: ${match.killerUserNum}`
-        );
-
-        const matchKiller = await Players.findOne({ id: match.killerUserNum });
-
-        if (matchKiller) {
-          matchKiller.matches = [...new Set(matchKiller.matches), match.gameId];
-
-          await matchKiller.save();
-          log(
-            `[Player][${player.id}][Match][${match.gameId}][Killer][${match.killerUserNum}] Updated`
-          );
-        } else {
-          const newPlayer = {
-            name: match.killDetail,
-            id: match.killerUserNum,
-            matches: [match.gameId],
-            seasonRecords: []
-          };
-
-          await Players.create(newPlayer);
-          `[Player][${player.id}][Match][${match.gameId}][Killer][${match.killerUserNum}] Created`;
+      player.name = playerData[0].nickname;
+      player.seasonRecords = [
+        {
+          lastUpdated: new Date(),
+          info: playerData,
+          season: 0
+        },
+        {
+          lastUpdated: new Date(),
+          info: playerDataSeasonOne,
+          season: 1
         }
+      ];
+
+      const matchHistory = await Client.getGamesForPlayer(player.id);
+
+      const totalMatchHistory = new Set(player.matches || []);
+
+      for (const match of matchHistory) {
+        log(`[Player][${player.id}][Match][${match.gameId}] Processing`);
+
+        totalMatchHistory.add(match.gameId);
+
+        if (match.killerUserNum) {
+          log(
+            `[Player][${player.id}][Match][${match.gameId}] Has Killer: ${match.killerUserNum}`
+          );
+
+          const matchKiller = await Players.findOne({
+            id: match.killerUserNum
+          });
+
+          if (matchKiller) {
+            matchKiller.matches = [
+              ...new Set(matchKiller.matches),
+              match.gameId
+            ];
+
+            await matchKiller.save();
+            log(
+              `[Player][${player.id}][Match][${match.gameId}][Killer][${match.killerUserNum}] Updated`
+            );
+          } else {
+            const newPlayer = {
+              name: match.killDetail,
+              id: match.killerUserNum,
+              matches: [match.gameId],
+              seasonRecords: []
+            };
+
+            await Players.create(newPlayer);
+            `[Player][${player.id}][Match][${match.gameId}][Killer][${match.killerUserNum}] Created`;
+          }
+        }
+
+        player.matches = [...matchHistory];
+
+        log(`[Player][${player.id}][Match][${match.gameId}] Processed`);
       }
 
-      player.matches = [...matchHistory];
+      await player.save();
+      log(`[Player][${player.id}] Clean Up Finished`);
+    } catch (e) {
+      log('[Fatal Error]', e);
     }
-
-    await player.save();
-    console.log(`[Player][${player.id}] Clean Up Finished`);
-    await delay();
   }
 };
 

@@ -60,13 +60,22 @@ export class MaterialList {
   }
 
   public getAllCraftableItems(idsOnly = false): Item[] {
-    const results = Object.values(DataCache.Items).filter(
+    let results = Object.values(DataCache.Items).filter(
       ({ buildsFrom }) =>
         buildsFrom &&
         buildsFrom.length > 0 &&
         buildsFrom.every(({ id }) => this.list[id])
     );
+    let changed = true;
+    while (changed === true) {
+      const originalLength = results.length;
 
+      results = Object.values(DataCache.Items).filter(({ buildsFrom }) =>
+        buildsFrom.every(({ id }) => this.list[id])
+      );
+
+      changed = originalLength !== results.length;
+    }
     if (idsOnly) {
       return results.map(({ id }) => id);
     }

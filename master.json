@@ -1672,7 +1672,7 @@
         "Rusty Sword": 1,
         "Scrap Metal": 1,
         "Iron Ore": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 75,
@@ -1691,7 +1691,7 @@
           "id": 102403
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -2955,7 +2955,7 @@
         "Bamboo": 1,
         "Scrap Metal": 1,
         "Iron Ore": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 137,
@@ -2975,7 +2975,7 @@
           "id": 105401
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -4747,7 +4747,7 @@
         "Razor": 1,
         "Battery": 1,
         "Water": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 54,
@@ -4767,7 +4767,7 @@
           "id": 109402
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -6041,7 +6041,7 @@
         "Branch": 1,
         "Chalk": 1,
         "Stone": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 65,
@@ -6061,7 +6061,7 @@
           "id": 111401
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -8922,7 +8922,7 @@
       "requirements": {
         "Short Crossbow": 1,
         "Bamboo": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 30,
@@ -8942,7 +8942,7 @@
           "id": 115202
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -9115,7 +9115,7 @@
       "requirements": {
         "Short Crossbow": 1,
         "Bamboo": 1,
-        "Laster Pointer": 2,
+        "Laser Pointer": 2,
         "Binoculars": 1
       },
       "stats": {
@@ -9420,7 +9420,7 @@
       "requirements": {
         "Walther PPK": 1,
         "Leather": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 29,
@@ -9441,7 +9441,7 @@
           "id": 116202
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -9619,7 +9619,7 @@
       "requirements": {
         "Walther PPK": 1,
         "Leather": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Short Rod": 1,
         "Feather": 1
       },
@@ -10210,7 +10210,7 @@
       ],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 50,
@@ -10230,7 +10230,7 @@
           "id": 118101
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -10263,7 +10263,7 @@
       ],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Short Spear": 1
       },
       "stats": {
@@ -10317,7 +10317,7 @@
       ],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Pickaxe": 1,
         "Gemstone": 1
       },
@@ -10369,7 +10369,7 @@
       ],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Battery": 1,
         "Piano Wire": 1
       },
@@ -10416,7 +10416,7 @@
       "buildsInto": [],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Short Spear": 1,
         "Fountain Pen": 1,
         "Paper": 1
@@ -10464,7 +10464,7 @@
       "buildsInto": [],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Short Spear": 1,
         "Surveillance Camera": 1,
         "Binoculars": 1
@@ -10511,7 +10511,7 @@
       "buildsInto": [],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Pickaxe": 1,
         "Gemstone": 1,
         "Scrap Metal": 1,
@@ -10560,7 +10560,7 @@
       "buildsInto": [],
       "requirements": {
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Battery": 1,
         "Piano Wire": 1,
         "Chalk": 1,
@@ -10611,7 +10611,7 @@
         "Meteorite": 1,
         "Stone": 1,
         "Long Rifle": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Pickaxe": 1,
         "Gemstone": 1
       },
@@ -11198,7 +11198,7 @@
         "Iron Ore": 1,
         "Flower": 1,
         "Playing Cards": 1,
-        "Laster Pointer": 1
+        "Laser Pointer": 1
       },
       "stats": {
         "attackPower": 51,
@@ -11219,7 +11219,7 @@
           "id": 120301
         },
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         }
       ],
@@ -11651,7 +11651,7 @@
         "Starter Guitar": 1,
         "Pickaxe": 1,
         "Gemstone": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Binoculars": 1
       },
       "stats": {
@@ -11957,7 +11957,7 @@
         "Starter Guitar": 1,
         "Pickaxe": 1,
         "Gemstone": 1,
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Binoculars": 1,
         "Holy Grail": 1
       },
@@ -17899,7 +17899,7 @@
         }
       ],
       "requirements": {
-        "Laster Pointer": 1,
+        "Laser Pointer": 1,
         "Binoculars": 1
       },
       "stats": {
@@ -17915,7 +17915,7 @@
       "description": "You might be able to improve your accuracy with this on a rifle or other firearm.",
       "buildsFrom": [
         {
-          "name": "Laster Pointer",
+          "name": "Laser Pointer",
           "id": 401108
         },
         {
@@ -19655,7 +19655,7 @@
       "locations": {},
       "foundQuantity": 1,
       "buildsFrom": [],
-      "displayName": "Laster Pointer",
+      "displayName": "Laser Pointer",
       "apiMetaData": {
         "code": 401108,
         "category": "Misc",

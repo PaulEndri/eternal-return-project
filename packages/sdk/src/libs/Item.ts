@@ -87,7 +87,12 @@ export class Item<A extends string = any, T extends string = any>
           .join('')
           .replace("'", '');
 
-        return [DataCache.Items[lookUpName].id, quantity];
+        try {
+          return [DataCache.Items[lookUpName].id, quantity];
+        } catch (e) {
+          console.log('Herp Derp', { item: this, lookUpName, quantity });
+          return [lookUpName, quantity];
+        }
       })
     );
   }
