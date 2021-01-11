@@ -10,3 +10,4 @@ playground/src/generated
 .env
 
 playground/src/logs.txt
+things.json
