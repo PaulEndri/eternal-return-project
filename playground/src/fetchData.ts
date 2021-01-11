@@ -101,10 +101,10 @@ const playerCleanup = async () => {
           }
         }
 
-        player.matches = [...matchHistory];
-
         log(`[Player][${player.id}][Match][${match.gameId}] Processed`);
       }
+
+      player.matches = [...totalMatchHistory];
 
       await player.save();
       log(`[Player][${player.id}] Clean Up Finished`);
