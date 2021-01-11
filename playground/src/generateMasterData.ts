@@ -51,11 +51,12 @@ export const generateMasterData = () => {
     }
 
     return stringifiedData
-      .replace(/Full Body Swimsuit/g, 'Wetsuit')
+      .replace(/Full Body Swimsuit/gi, 'Wetsuit')
       .replace(/Wild Dog/g, 'Dog')
       .replace(/Bloody Nine Tails/g, 'Whip of the Nine Bloody Tails')
       .replace(/Laster/g, 'Laser')
-      .replace(/Screwdriver/g, 'Cocktail');
+      .replace(/Screwdriver/gi, 'Cocktail')
+      .replace(/Moon Stone/gi, 'Moonstone');
   };
 
   const writeFile = (name: string, content, replace = true) => {
@@ -575,10 +576,27 @@ export const generateMasterData = () => {
         }
       );
 
+      const fishingItems = [];
+      if ([3, 4, 1].includes(loc.id)) {
+        fishingItems.push({
+          name: 'Cod',
+          quantity: 4,
+          id: 302104
+        });
+      }
+
+      if ([2, 12, 11].includes(loc.id)) {
+        fishingItems.push({
+          name: 'Carp',
+          quantity: 4,
+          id: 302109
+        });
+      }
+
       locationsArr.push({
         ...loc,
         animals: locAnimals,
-        drops: [...wikiItems, ...apiItems],
+        drops: [...wikiItems, ...apiItems, ...fishingItems],
         teleport: locationData.teleport,
         connections: locationData.connections.map((locName) => {
           const locationObj: any = rawLocationObject[locName];
@@ -595,11 +613,32 @@ export const generateMasterData = () => {
     return locationsArr;
   };
 
-  const animalData = generateAnimals();
+  let animalData = generateAnimals();
   const itemsData = generateItems();
   const characterData = generateCharacters();
 
   masterItems.forEach((item) => (keyedItems[item.id] = item));
+
+  animalData = animalData.map((animal) => {
+    animal.items = animal.items.map((aniItem) => {
+      const item = masterItems.find(({ name, displayName }) =>
+        [name, displayName].includes(aniItem.name)
+      );
+
+      if (item) {
+        return {
+          id: item.id,
+          ...aniItem
+        };
+      } else {
+        console.log('[Didnt Find]', { item, aniItem });
+      }
+
+      return aniItem;
+    });
+
+    return animal;
+  });
 
   const armorData = generateArmorMetaData();
   const weaponData = generateWeaponMetaData();

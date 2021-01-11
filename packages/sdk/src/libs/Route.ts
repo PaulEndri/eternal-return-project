@@ -23,7 +23,9 @@ export class Route {
     Items.Water,
     Items.Meteorite,
     Items.Mithril,
-    Items.Branch
+    Items.Branch,
+    Items.Bread,
+    Items.Water
   ];
 
   public materials = new MaterialList();

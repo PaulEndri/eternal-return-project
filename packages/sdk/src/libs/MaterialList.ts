@@ -66,11 +66,12 @@ export class MaterialList {
         buildsFrom.length > 0 &&
         buildsFrom.every(({ id }) => this.list[id])
     );
+
     let changed = true;
     while (changed === true) {
       const originalLength = results.length;
 
-      results = Object.values(DataCache.Items).filter(({ buildsFrom }) =>
+      results = results.filter(({ buildsFrom }) =>
         buildsFrom.every(({ id }) => this.list[id])
       );
 
