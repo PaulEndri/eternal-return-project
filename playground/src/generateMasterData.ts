@@ -21,7 +21,7 @@ import locationSpawns from './generated/clientData/spawns.json';
 // import ClassicItemData from './generated/classic/Complete.json';
 
 import fs from 'fs';
-import { sanitizeItemString } from 'erbs-utilities';
+import { sanitizeItemString } from './sanitizeItemName';
 
 export const generateMasterData = () => {
   const masterAnimals = [];

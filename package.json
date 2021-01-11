@@ -26,7 +26,6 @@
     "erbs-client": "file:packages/client",
     "erbs-data": "file:packages/data",
     "erbs-sdk": "file:packages/sdk",
-    "erbs-utilities": "file:packages/utilities",
     "erbs-wiki-api": "file:packages/wikidata",
     "wickeline-bot": "file:packages/wickeline-bot"
   },
