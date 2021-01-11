@@ -65,10 +65,12 @@ export class Item<A extends string = any, T extends string = any>
 
         newArray.push(item);
 
-        if (loadChildren[prop]) {
+        if (loadChildren) {
           item.loadAll(loadChildren);
         }
       }
+
+      this[prop] = newArray;
     }
   }
 

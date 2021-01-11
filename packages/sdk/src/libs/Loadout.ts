@@ -80,10 +80,6 @@ export class Loadout {
   }
 
   public get materials(): CodedMaterialList {
-    if (!this._totalMaterials) {
-      this.generateMaterialList();
-    }
-
     return this._totalMaterials.list;
   }
 

@@ -61,5 +61,20 @@ describe('[Class] Item', () => {
         });
       });
     });
+
+    describe('loadAll()', () => {
+      it('should load all entries in buildsFrom and buildsInto as Items', () => {
+        const item = new Item(Items.WindWhip);
+        item.loadAll();
+
+        item.buildsFrom.forEach((i) => {
+          expect(i).toBeInstanceOf(Item);
+        });
+
+        item.buildsInto.forEach((i) => {
+          expect(i).toBeInstanceOf(Item);
+        });
+      });
+    });
   });
 });
