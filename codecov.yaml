@@ -1,0 +1,29 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+      client:
+        target: 80%
+       flags:
+          - client
+      sdk:
+        target: 50%
+        flags:
+          - sdk
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: false  
+  require_base: yes
+  require_head: yes       
+  branches: null
+flags:
+  client:
+    paths:
+      - packages/client/src
+    carryforward: false
+  sdk:
+    paths:
+      - packages/sdk/src
+    carryforward: true
