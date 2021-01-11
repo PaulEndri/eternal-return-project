@@ -13,3 +13,4 @@ playground/src/logs.txt
 things.json
 /coverage
 /output
+packages/*/output

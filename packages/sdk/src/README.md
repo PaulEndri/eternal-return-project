@@ -1,1 +1,0 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/PaulEndri/eternal-return-project/badge.svg?targetFile=packages/sdk/package.json)](https://snyk.io/test/github/PaulEndri/eternal-return-project?targetFile=packages/sdk/package.json) [![Node version](https://img.shields.io/node/v/erbs-sdk.svg?style=flat)](http://nodejs.org/download/)
