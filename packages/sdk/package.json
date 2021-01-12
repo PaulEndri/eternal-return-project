@@ -1,6 +1,6 @@
 {
   "name": "erbs-sdk",
-  "version": "1.6.11",
+  "version": "1.6.12",
   "description": "Eternal Return: Black Survival SDK",
   "main": "dist/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "directory": "packages/sdk"
   },
   "dependencies": {
-    "erbs-client": "^1.6.11"
+    "erbs-client": "^1.6.12"
   },
   "peerDependencies": {
     "erbs-data": "^1.6.0"
