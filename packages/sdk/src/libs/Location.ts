@@ -7,6 +7,7 @@ import {
 } from '../interfaces';
 import { MaterialList } from './MaterialList';
 import { Entity } from './Entity';
+import { Loadout } from './Loadout';
 
 type LocationWeight = {
   value: number;
@@ -39,7 +40,11 @@ export class Location extends Entity implements ILocation {
     });
   }
 
-  public weigh(list: CodedMaterialList, materialList: MaterialList) {
+  public weigh(
+    list: CodedMaterialList,
+    materialList: MaterialList,
+    loadout: Loadout
+  ) {
     // Weight dict. of IDs to quantity needed / quantity available
     const results: Record<number, number> = {};
     // count of all items available in the region
@@ -66,8 +71,12 @@ export class Location extends Entity implements ILocation {
       totalMaterials += value;
     });
 
+    const completed = loadout.checkCompletedItems(this.materials.list).length;
+
     this.weight = {
-      value: 1 / (materialValue * (searchedForMaterials / totalMaterials)),
+      value:
+        (1 / (materialValue * (searchedForMaterials / totalMaterials))) *
+        completed,
       total: {
         available: totalMaterials,
         needed: searchedForMaterials

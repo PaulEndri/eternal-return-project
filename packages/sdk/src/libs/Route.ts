@@ -14,18 +14,35 @@ export type RouteNode = {
 };
 
 export class Route {
+  static UNIVERSAL_BASE_ITEMS = [
+    Items.Stone,
+    Items.Leather,
+
+    Items.Water,
+
+    Items.Branch,
+
+    Items.Bread
+  ];
+  static UNIVERSAL_UNLOCK_ITEMS = [
+    Items.Moonstone,
+    Items.TreeOfLife,
+    Items.Meteorite,
+    Items.Mithril
+  ];
+  static UNIVERSAL_BOSS_ITEMS = [Items.VFBloodSample, Items.ForceCore];
   static UNIVERSAL_ITEMS: number[] = [
     Items.Stone,
     Items.Leather,
+    Items.Moonstone,
     Items.VFBloodSample,
     Items.ForceCore,
-    Items.Moonstone,
     Items.Water,
     Items.Meteorite,
     Items.Mithril,
     Items.Branch,
     Items.Bread,
-    Items.Water
+    Items.TreeOfLife
   ];
 
   public materials = new MaterialList();
@@ -63,7 +80,7 @@ export class Route {
     this.weightedMaterials = this.loadout.getWeights(this.itemWeights);
 
     this.locations.forEach((loc) =>
-      loc.weigh(this.materials.list, this.weightedMaterials)
+      loc.weigh(this.materials.list, this.weightedMaterials, this.loadout)
     );
   }
 
@@ -76,7 +93,7 @@ export class Route {
       })
       .sort(
         (a: [string, Location], b: [string, Location]) =>
-          a[1].weight.value - b[1].weight.value
+          b[1].weight.value - a[1].weight.value
       );
 
     const locationMap = Object.fromEntries(orderedLocations);
@@ -95,13 +112,21 @@ export class Route {
             .map(({ id }) => [id, locationMap[id].weight.value])
             .sort((a, b) => +a[1] - +b[1])
         ])
-        .sort((a, b) => +a[1] - +b[1])
+        .sort((a, b) => +b[1] - +a[1])
     };
   }
 
   private recursiveNode(parentNode: RouteNode, location: Location, index = 1) {
     const newList = parentNode.materials.clone();
     newList.addFromList(location.materials.list);
+
+    if (index === 2) {
+      Route.UNIVERSAL_UNLOCK_ITEMS.forEach((item) => {
+        newList.add(item, 3);
+      });
+    } else if (index === 3) {
+      Route.UNIVERSAL_BOSS_ITEMS.forEach((item) => newList.add(item, 1));
+    }
 
     const node: RouteNode = {
       id: +location.id,
@@ -155,10 +180,10 @@ export class Route {
     return node;
   }
 
-  public generate(startingPoint?: number, startingNodes = 1) {
+  public generate(startingPoint?: number, startingNodes = 2) {
     if (
       this.routeNodes &&
-      (!startingPoint || this.routeNodes.next[startingPoint])
+      (!startingPoint || !this.routeNodes.next[startingPoint])
     ) {
       return {
         root: this.routeNodes,
@@ -175,7 +200,7 @@ export class Route {
     };
 
     // inject universal items to base list
-    Route.UNIVERSAL_ITEMS.forEach((id) => results.materials.set(id, 10));
+    Route.UNIVERSAL_BASE_ITEMS.forEach((id) => results.materials.set(id, 10));
 
     const rawNodes = this.getRawNodes();
 
@@ -193,12 +218,11 @@ export class Route {
       ])
     );
 
-    this.leafRoutes = this.leafRoutes
-      .sort((a, b) => b.completed.length - a.completed.length)
-      .map(({ materials, ...route }) => route);
+    this.leafRoutes = this.leafRoutes.map(({ materials, ...route }) => route);
     this.routeNodes = results;
 
     return {
+      nodes: rawNodes,
       root: this.routeNodes,
       routes: this.leafRoutes
     };

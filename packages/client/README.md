@@ -1,4 +1,4 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/PaulEndri/eternal-return-project/badge.svg?targetFile=packages/client/package.json)](https://snyk.io/test/github/PaulEndri/eternal-return-project?targetFile=packages/client/package.json) [![Node version](https://img.shields.io/node/v/erbs-client.svg?style=flat)](http://nodejs.org/download/) [![codecov](https://codecov.io/gh/PaulEndri/eternal-return-project/branch/master/graph/badge.svg?token=11E4G2GMXZ)](https://codecov.io/gh/PaulEndri/eternal-return-project)
+[![Known Vulnerabilities](https://snyk.io/test/github/PaulEndri/eternal-return-project/badge.svg?targetFile=packages/client/package.json)](https://snyk.io/test/github/PaulEndri/eternal-return-project?targetFile=packages/client/package.json) [![codecov](https://codecov.io/gh/PaulEndri/eternal-return-project/branch/master/graph/badge.svg?token=11E4G2GMXZ)](https://codecov.io/gh/PaulEndri/eternal-return-project)
 
 # Eternal Return Black Survival Api Client
 

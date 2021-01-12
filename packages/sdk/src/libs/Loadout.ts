@@ -230,20 +230,14 @@ export class Loadout {
   // }
 
   public checkCompletedItems(materials: CodedMaterialList) {
+    const localList = { ...materials };
+
+    if (this.starterItem) {
+      localList[this.starterItem] = 1;
+    }
+
     return this.items
       .filter((item) => item)
-      .filter((item) => item.canComplete(materials));
+      .filter((item) => item.canComplete(localList));
   }
-
-  // public getItemWeight(name: string, value) {
-  //   return +value / this.materials[name];
-  // }
-
-  // public getRegionWeight(
-  //   baseValue: number,
-  //   byProductsCompleted: number,
-  //   canTeleport: boolean
-  // ) {
-  //   return baseValue * (byProductsCompleted / 10 + 1) * (canTeleport ? 1.1 : 1);
-  // }
 }

@@ -170,7 +170,7 @@ const main = async () => {
           e
         );
 
-        await Players.deleteMany({ id: nextPlayerId });
+        // await Players.deleteMany({ id: nextPlayerId });
 
         log(`[Player][${nextPlayerId}] Reset in Mongo, adding back to Queue`);
         playerQueue.add(nextPlayerId);
@@ -261,7 +261,7 @@ const main = async () => {
         } catch (e) {
           log(`[Match][${match.gameId}] Failed to Save: ${e.message}`, e);
 
-          await Matches.deleteMany({ id: match.gameId });
+          // await Matches.deleteMany({ id: match.gameId });
 
           log(`[Match][${match.gameId}] Purged from Records`);
         }

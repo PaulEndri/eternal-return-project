@@ -102,6 +102,25 @@ describe('[Class] Route', () => {
         expect(results).toHaveProperty('root');
         expect(results).toHaveProperty('routes');
       });
+
+      it('[edge case] should generate a loadout for The Smiting Dragon, Dragon Dobok, Chain Coif, Draupnir, Red Shoes, and Revenge of Goujian', () => {
+        const loadout = Loadout.GenerateLoadout({
+          Chest: 'DragonDobok',
+          Arm: 'Draupnir',
+          Leg: 'RedShoes',
+          Head: 'ChainCoif',
+          Weapon: 'TheSmitingDragon',
+          Accessory: 'RevengeOfGoujian'
+        });
+
+        const route = new Route(loadout);
+
+        const results = route.generate();
+
+        fs.writeFileSync('things.json', JSON.stringify(results, null, 2));
+        expect(results).toHaveProperty('root');
+        expect(results).toHaveProperty('routes');
+      });
     });
   });
 });
