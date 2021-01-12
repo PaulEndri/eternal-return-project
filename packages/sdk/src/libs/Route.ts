@@ -5,6 +5,15 @@ import { MaterialList } from './MaterialList';
 import { Location } from './Location';
 import { LoadoutKeys } from '../constants/LoadoutKeys';
 
+const DefaultItemWeights = {
+  Arm: 1,
+  Leg: 1,
+  Chest: 2,
+  Head: 1,
+  Weapon: 3,
+  Accessory: 1
+};
+
 export type RouteNode = {
   id: number;
   traversed: number[];
@@ -56,7 +65,7 @@ export class Route {
 
   constructor(
     public loadout: Loadout,
-    private itemWeights?: Record<keyof typeof LoadoutKeys, number>
+    private itemWeights: Record<LoadoutKeys, number> = DefaultItemWeights
   ) {
     this.addMaterialsFromLoadout(this.materials, loadout);
     this.locations = Object.values(loadout.regions);
@@ -218,7 +227,9 @@ export class Route {
       ])
     );
 
-    this.leafRoutes = this.leafRoutes.map(({ materials, ...route }) => route);
+    this.leafRoutes = this.leafRoutes
+      .map(({ materials, ...route }) => route)
+      .sort((a, b) => b.completed.length - a.completed.length);
     this.routeNodes = results;
 
     return {
