@@ -20,7 +20,6 @@ export * from './PlasmaSword';
 export * from './Laevateinn';
 export * from './Monohoshizao';
 export * from './Hovud';
-export * from './TwinSwords';
 export * from './Florentine';
 export * from './DivineDualSwords';
 export * from './StarsteelTwinSwords';
