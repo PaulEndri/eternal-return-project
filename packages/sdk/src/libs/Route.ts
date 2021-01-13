@@ -150,17 +150,14 @@ export class Route {
     };
 
     if (index >= 2 && node.completed.length < WEIGHTS.MINIMUM_ITEM_THRESHOLD) {
-      console.log('[skipping cuz bad]', newList.list);
       return node;
     } else if (
       index === max &&
       node.completed.length < WEIGHTS.SHORT_ITEM_THRESHOLD
     ) {
-      console.log('[skipping cuz late]');
       return node;
     }
 
-    console.log('[Testing]', max, index);
     if (index >= max) {
       if (max >= WEIGHTS.MAXIMUM_LOCATIONS) {
         this.leafRoutes.push(node);

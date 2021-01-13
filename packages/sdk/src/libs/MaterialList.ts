@@ -60,11 +60,7 @@ export class MaterialList {
   }
 
   public clone() {
-    const _list = new MaterialList();
-
-    _list.list = { ...this.list };
-
-    return _list;
+    return new MaterialList().addFromList(this.list);
   }
 
   public getAllCraftableItems(idsOnly = false): Item[] {

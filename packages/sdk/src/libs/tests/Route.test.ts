@@ -115,6 +115,26 @@ describe('[Class] Route', () => {
         expect(results).toHaveProperty('routes');
         expect(results.routes.length).toBeGreaterThan(1);
       });
+
+      it('[edge case] things', () => {
+        const loadout = Loadout.GenerateLoadout({
+          Chest: 'OpticalCamouflageSuit',
+          Arm: 'CubeWatch',
+          Leg: 'RunningShoes',
+          Head: 'CrystalTiara',
+          Weapon: 'Twinbow',
+          Accessory: 'Quiver'
+        });
+
+        const route = new Route(loadout);
+
+        const results = route.generate();
+
+        fs.writeFileSync('things.json', JSON.stringify(results, null, 2));
+        expect(results).toHaveProperty('root');
+        expect(results).toHaveProperty('routes');
+        expect(results.routes.length).toBeGreaterThan(1);
+      });
     });
   });
 });
