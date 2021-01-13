@@ -25,11 +25,11 @@ export const GoldenRatioBow: Item = {
 	"description": "A composite bow and arrow designed according to the golden ratio. It boasts extraordinary precision.",
 	"buildsFrom": [
 		{
-			"name": "Pellet Bow",
+			"name": "Scissors",
 			"id": 114304
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

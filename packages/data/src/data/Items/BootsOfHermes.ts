@@ -25,11 +25,11 @@ export const BootsOfHermes: Item = {
 	"description": "Shoes worn by Hermes, the Greek God of Travellers. Try them on, you'll feel like you're floating.",
 	"buildsFrom": [
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		},
 		{
-			"name": "Heelys",
+			"name": "Scissors",
 			"id": 204204
 		}
 	],

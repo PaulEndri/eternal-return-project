@@ -22,11 +22,11 @@ export const TelephotoCamera: Item = {
 	"foundQuantity": 3,
 	"buildsFrom": [
 		{
-			"name": "Surveillance Camera",
+			"name": "Scissors",
 			"id": 502101
 		},
 		{
-			"name": "Binoculars",
+			"name": "Scissors",
 			"id": 205110
 		}
 	],

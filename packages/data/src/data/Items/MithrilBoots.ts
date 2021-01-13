@@ -23,11 +23,11 @@ export const MithrilBoots: Item = {
 	"description": "Boots made out of mithril. Stronger than steel and fireproof, too!",
 	"buildsFrom": [
 		{
-			"name": "Mithril",
+			"name": "Scissors",
 			"id": 401304
 		},
 		{
-			"name": "Chain Leggings",
+			"name": "Scissors",
 			"id": 204202
 		}
 	],

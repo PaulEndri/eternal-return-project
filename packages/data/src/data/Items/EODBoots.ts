@@ -27,11 +27,11 @@ export const EODBoots: Item = {
 	"description": "Boots worn by explosives disposal teams. They protect the wearer's legs from shrapnel if something goes wrong.",
 	"buildsFrom": [
 		{
-			"name": "Boots",
+			"name": "Scissors",
 			"id": 204302
 		},
 		{
-			"name": "Steel Knee Pads",
+			"name": "Scissors",
 			"id": 204401
 		}
 	],

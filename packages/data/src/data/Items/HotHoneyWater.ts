@@ -5,12 +5,12 @@ export const HotHoneyWater: Item = {
 	"name": "HotHoneyWater",
 	"buildsFrom": [
 		{
-			"name": "Boiling Water",
-			"id": 301201
+			"name": "Scissors",
+			"id": "Boiling Water"
 		},
 		{
-			"name": "Honey",
-			"id": 301101
+			"name": "Scissors",
+			"id": "Honey"
 		}
 	],
 	"buildsInto": [],

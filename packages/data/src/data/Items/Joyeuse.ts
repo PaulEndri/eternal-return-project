@@ -23,11 +23,11 @@ export const Joyeuse: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Rapier",
+			"name": "Scissors",
 			"id": 120201
 		},
 		{
-			"name": "Mithril",
+			"name": "Scissors",
 			"id": 401304
 		}
 	],

@@ -29,11 +29,11 @@ export const Florentine: Item = {
 	"description": "The master of these swords from Florence says you can't use them seperately. One in each hand at all times.",
 	"buildsFrom": [
 		{
-			"name": "Twin Swords",
+			"name": "Scissors",
 			"id": 103201
 		},
 		{
-			"name": "Blueprint",
+			"name": "Scissors",
 			"id": 401212
 		}
 	],

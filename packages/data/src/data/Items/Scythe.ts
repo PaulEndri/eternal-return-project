@@ -24,11 +24,11 @@ export const Scythe: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Reaper's Scythe",
+			"name": "Scissors",
 			"id": 105302
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

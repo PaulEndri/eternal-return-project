@@ -5,12 +5,12 @@ export const CannedCodLiver: Item = {
 	"name": "CannedCodLiver",
 	"buildsFrom": [
 		{
-			"name": "Cod",
-			"id": 302104
+			"name": "Scissors",
+			"id": "Cod"
 		},
 		{
-			"name": "Can",
-			"id": 401120
+			"name": "Scissors",
+			"id": "Can"
 		}
 	],
 	"buildsInto": [],

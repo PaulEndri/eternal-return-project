@@ -5,12 +5,12 @@ export const C4: Item = {
 	"name": "C4",
 	"buildsFrom": [
 		{
-			"name": "RDX",
-			"id": 502307
+			"name": "Scissors",
+			"id": "RDX"
 		},
 		{
-			"name": "White Powder",
-			"id": 401206
+			"name": "Scissors",
+			"id": "White Powder"
 		}
 	],
 	"buildsInto": [],

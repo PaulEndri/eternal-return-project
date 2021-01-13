@@ -27,11 +27,11 @@ export const LeatherJacket: Item = {
 	"description": "A reliable jacket that doesn't tear easily. Useful in most weather conditions.",
 	"buildsFrom": [
 		{
-			"name": "Windbreaker",
+			"name": "Scissors",
 			"id": 202101
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

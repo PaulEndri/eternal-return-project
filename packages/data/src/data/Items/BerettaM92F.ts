@@ -39,11 +39,11 @@ export const BerettaM92F: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Walther PPK",
+			"name": "Scissors",
 			"id": 116101
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

@@ -30,11 +30,11 @@ export const Plumbata: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Dart",
+			"name": "Scissors",
 			"id": 113201
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

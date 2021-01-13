@@ -33,11 +33,11 @@ export const RoseKnife: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Army Knife",
+			"name": "Scissors",
 			"id": 101201
 		},
 		{
-			"name": "Flower",
+			"name": "Scissors",
 			"id": 205102
 		}
 	],

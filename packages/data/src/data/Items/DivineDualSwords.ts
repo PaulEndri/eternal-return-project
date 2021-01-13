@@ -26,11 +26,11 @@ export const DivineDualSwords: Item = {
 	"description": "A swordsmanship technique created and refined by Miyamoto Musashi. It involves using two swords, a shortsword in one hand and a longsword in the other.",
 	"buildsFrom": [
 		{
-			"name": "Florentine",
+			"name": "Scissors",
 			"id": 103301
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

@@ -26,11 +26,11 @@ export const SignedBall: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Baseball",
+			"name": "Scissors",
 			"id": 112105
 		},
 		{
-			"name": "Fountain Pen",
+			"name": "Scissors",
 			"id": 101102
 		}
 	],

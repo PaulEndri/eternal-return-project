@@ -24,11 +24,11 @@ export const MithrilHelm: Item = {
 	"description": "A helm made of mithril that's been reforged through generations. Delicate reliefs carved into the surface hint at the craftsmanship invested into it.",
 	"buildsFrom": [
 		{
-			"name": "Mithril",
+			"name": "Scissors",
 			"id": 401304
 		},
 		{
-			"name": "Chain Coif",
+			"name": "Scissors",
 			"id": 201204
 		}
 	],

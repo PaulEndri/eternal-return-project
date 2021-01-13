@@ -24,11 +24,11 @@ export const Dynamite: Item = {
 	"foundQuantity": 1,
 	"buildsFrom": [
 		{
-			"name": "Piano Wire",
+			"name": "Scissors",
 			"id": 502104
 		},
 		{
-			"name": "Gunpowder",
+			"name": "Scissors",
 			"id": 401121
 		}
 	],

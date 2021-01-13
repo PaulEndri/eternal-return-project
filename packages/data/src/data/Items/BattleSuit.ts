@@ -26,11 +26,11 @@ export const BattleSuit: Item = {
 	"description": "A futuristic combat suit. It's made with bulletproof material that makes it great armor. However, when worn in hot areas, you might die of dehydration before encountering a single foe.",
 	"buildsFrom": [
 		{
-			"name": "Bulletproof Vest",
+			"name": "Scissors",
 			"id": 202401
 		},
 		{
-			"name": "Diving Suit",
+			"name": "Scissors",
 			"id": 202210
 		}
 	],

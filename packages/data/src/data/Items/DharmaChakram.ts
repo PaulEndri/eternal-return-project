@@ -29,11 +29,11 @@ export const DharmaChakram: Item = {
 	"description": "A legendary weapon Buddha used to exorcise a demon. It causes damage with the sharp blades that rotate around its perimeter.",
 	"buildsFrom": [
 		{
-			"name": "Chakram",
+			"name": "Scissors",
 			"id": 113301
 		},
 		{
-			"name": "Buddhist Scripture",
+			"name": "Scissors",
 			"id": 205106
 		}
 	],

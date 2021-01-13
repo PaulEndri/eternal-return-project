@@ -27,11 +27,11 @@ export const Flechette: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Plumbata",
+			"name": "Scissors",
 			"id": 113404
 		},
 		{
-			"name": "White Powder",
+			"name": "Scissors",
 			"id": 401206
 		}
 	],

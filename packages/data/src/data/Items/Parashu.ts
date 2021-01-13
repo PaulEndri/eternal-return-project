@@ -25,11 +25,11 @@ export const Parashu: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Light Hatchet",
+			"name": "Scissors",
 			"id": 105301
 		},
 		{
-			"name": "Buddha Sarira",
+			"name": "Scissors",
 			"id": 205207
 		}
 	],

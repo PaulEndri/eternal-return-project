@@ -24,11 +24,11 @@ export const SwordOfShahJahan: Item = {
 	"description": "A sword used by the emperor of India's great Mughal Empire. Due to the jewels around the sword, historians doubt its use in battle.",
 	"buildsFrom": [
 		{
-			"name": "Sheath",
+			"name": "Scissors",
 			"id": 203301
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

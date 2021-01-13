@@ -28,11 +28,11 @@ export const GiganticAxe: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Battle Axe",
+			"name": "Scissors",
 			"id": 105202
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

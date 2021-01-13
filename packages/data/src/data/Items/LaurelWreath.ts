@@ -27,11 +27,11 @@ export const LaurelWreath: Item = {
 	"description": "A crown made of branches of a laurel tree, which is a symbol of Apollo. Crowns symbolize wealth, but a laurel crown symbolizes honor.",
 	"buildsFrom": [
 		{
-			"name": "True Samadhi Fire",
+			"name": "Scissors",
 			"id": 205403
 		},
 		{
-			"name": "Circlet",
+			"name": "Scissors",
 			"id": 201202
 		}
 	],

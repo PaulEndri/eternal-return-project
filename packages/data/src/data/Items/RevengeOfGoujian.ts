@@ -22,11 +22,11 @@ export const RevengeOfGoujian: Item = {
     'King Goujian of Yue swore revenge against his rival and used this sword to see it through.',
   buildsFrom: [
     {
-      name: "Shaman's Bronze",
+      name: 'Scissors',
       id: 205211
     },
     {
-      name: 'Blueprint',
+      name: 'Scissors',
       id: 401212
     }
   ],

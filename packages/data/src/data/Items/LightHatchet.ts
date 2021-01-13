@@ -27,11 +27,11 @@ export const LightHatchet: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Battle Axe",
+			"name": "Scissors",
 			"id": 105202
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

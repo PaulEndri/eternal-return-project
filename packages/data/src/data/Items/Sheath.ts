@@ -27,11 +27,11 @@ export const Sheath: Item = {
 	"description": "Used to keep your blade sharp. Often decorated with jewels.",
 	"buildsFrom": [
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

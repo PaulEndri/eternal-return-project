@@ -25,11 +25,11 @@ export const Autoarms: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Bracer",
+			"name": "Scissors",
 			"id": 203203
 		},
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		}
 	],

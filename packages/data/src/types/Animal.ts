@@ -18,9 +18,9 @@ export type AnimalStats = {
 
 export type AnimalDrop = {
   id?: number;
-  name: string;
-  percentage: number;
-  rarity: string;
+  name?: string;
+  percentage?: number;
+  rarity?: string;
 };
 
 export type Animal = {

@@ -5,12 +5,12 @@ export const STG44: Item = {
 	"name": "STG44",
 	"buildsFrom": [
 		{
-			"name": "Fedorova",
-			"id": 117101
+			"name": "Scissors",
+			"id": "Fedorova"
 		},
 		{
-			"name": "Gunpowder",
-			"id": 401121
+			"name": "Scissors",
+			"id": "Gunpowder"
 		}
 	],
 	"buildsInto": [

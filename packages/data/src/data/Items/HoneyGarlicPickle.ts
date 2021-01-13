@@ -5,12 +5,12 @@ export const HoneyGarlicPickle: Item = {
 	"name": "HoneyGarlicPickle",
 	"buildsFrom": [
 		{
-			"name": "Garlic",
-			"id": 302106
+			"name": "Scissors",
+			"id": "Garlic"
 		},
 		{
-			"name": "Honey",
-			"id": 301101
+			"name": "Scissors",
+			"id": "Honey"
 		}
 	],
 	"buildsInto": [],

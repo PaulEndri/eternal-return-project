@@ -22,11 +22,11 @@ export const CubeWatch: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Watch",
+			"name": "Scissors",
 			"id": 203101
 		},
 		{
-			"name": "Moonstone",
+			"name": "Scissors",
 			"id": 401301
 		}
 	],

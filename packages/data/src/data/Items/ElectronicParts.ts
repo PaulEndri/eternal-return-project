@@ -43,11 +43,11 @@ export const ElectronicParts: Item = {
 	"description": "You can likely craft something out of this.",
 	"buildsFrom": [
 		{
-			"name": "Battery",
+			"name": "Scissors",
 			"id": 401110
 		},
 		{
-			"name": "Piano Wire",
+			"name": "Scissors",
 			"id": 502104
 		}
 	],

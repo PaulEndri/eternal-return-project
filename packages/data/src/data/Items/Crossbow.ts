@@ -24,23 +24,14 @@ export const Crossbow: Item = {
 	"stats": {
 		"attackPower": 30
 	},
-	"rarity": "Uncommon",
+	"rarity": "Common",
 	"code": "석궁",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "A mechanical bow that requires little human strength, but reloading takes a little longer than an ordinary bow.",
-	"buildsFrom": [
-		{
-			"name": "Short Crossbow",
-			"id": 115101
-		},
-		{
-			"name": "Bamboo",
-			"id": 108103
-		}
-	],
+	"buildsFrom": [],
 	"displayName": "Crossbow",
 	"apiMetaData": {
 		"code": 115101,

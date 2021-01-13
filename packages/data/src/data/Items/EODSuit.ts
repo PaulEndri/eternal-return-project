@@ -28,11 +28,11 @@ export const EODSuit: Item = {
 	"description": "Originally developed as a bulletproof vest, often used at bomb disposal sites due to its protection.",
 	"buildsFrom": [
 		{
-			"name": "Bulletproof Vest",
+			"name": "Scissors",
 			"id": 202401
 		},
 		{
-			"name": "Patched Robe",
+			"name": "Scissors",
 			"id": 202206
 		}
 	],

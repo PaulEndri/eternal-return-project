@@ -5,12 +5,12 @@ export const Poundcake: Item = {
 	"name": "Poundcake",
 	"buildsFrom": [
 		{
-			"name": "Butter",
-			"id": 302206
+			"name": "Scissors",
+			"id": "Butter"
 		},
 		{
-			"name": "Bread",
-			"id": 302110
+			"name": "Scissors",
+			"id": "Bread"
 		}
 	],
 	"buildsInto": [],

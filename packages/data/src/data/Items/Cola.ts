@@ -32,11 +32,11 @@ export const Cola: Item = {
 	"foundQuantity": 3,
 	"buildsFrom": [
 		{
-			"name": "Carbonated Water",
+			"name": "Scissors",
 			"id": 301107
 		},
 		{
-			"name": "Honey",
+			"name": "Scissors",
 			"id": 301101
 		}
 	],

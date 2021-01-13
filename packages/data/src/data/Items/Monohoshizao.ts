@@ -25,11 +25,11 @@ export const Monohoshizao: Item = {
 	"description": "A sword with a long blade. Legend says Kojiro Sasaki cut a flying swallow with this sword. A technique known as \"Upward Cutting\" is commonly used after an opponent dodges the first attack.",
 	"buildsFrom": [
 		{
-			"name": "Muramasa",
+			"name": "Scissors",
 			"id": 102402
 		},
 		{
-			"name": "Blueprint",
+			"name": "Scissors",
 			"id": 401212
 		}
 	],

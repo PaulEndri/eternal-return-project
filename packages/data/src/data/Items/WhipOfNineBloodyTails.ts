@@ -24,11 +24,11 @@ export const WhipOfNineBloodyTails: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "VF Blood Sample",
+			"name": "Scissors",
 			"id": 401401
 		},
 		{
-			"name": "Wind Whip",
+			"name": "Scissors",
 			"id": 109301
 		}
 	],

@@ -17,7 +17,7 @@ export const ShortCrossbow: Item = {
 	"stats": {
 		"attackPower": 12
 	},
-	"rarity": "Common",
+	"rarity": "Uncommon",
 	"code": "크로스보우",
 	"stackable": false,
 	"maxStacks": 1,
@@ -27,7 +27,16 @@ export const ShortCrossbow: Item = {
 	},
 	"foundQuantity": 1,
 	"description": "This is a mechanical bow, so take aim and shoot at will.",
-	"buildsFrom": [],
+	"buildsFrom": [
+		{
+			"name": "Scissors",
+			"id": 115101
+		},
+		{
+			"name": "Scissors",
+			"id": 108103
+		}
+	],
 	"displayName": "Short Crossbow",
 	"apiMetaData": {
 		"code": 115202,

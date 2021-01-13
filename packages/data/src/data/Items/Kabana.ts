@@ -25,11 +25,11 @@ export const Kabana: Item = {
 	"description": "The armor of Karna, hero of the epic, Mahabharata. The armor becomes one with the body.",
 	"buildsFrom": [
 		{
-			"name": "Meteorite",
+			"name": "Scissors",
 			"id": 401209
 		},
 		{
-			"name": "Commander's Armor",
+			"name": "Scissors",
 			"id": 202412
 		}
 	],

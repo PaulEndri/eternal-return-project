@@ -27,11 +27,11 @@ export const RutheniumMarble: Item = {
 	"description": "Made out of Ruthenium, which is the hardest element among the platinum metals. It also has applications as a superconductor.",
 	"buildsFrom": [
 		{
-			"name": "Spiky Bouncy Ball",
+			"name": "Scissors",
 			"id": 112403
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

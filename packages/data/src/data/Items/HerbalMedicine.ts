@@ -5,12 +5,12 @@ export const HerbalMedicine: Item = {
 	"name": "HerbalMedicine",
 	"buildsFrom": [
 		{
-			"name": "Oriental Herb",
-			"id": 302116
+			"name": "Scissors",
+			"id": "Oriental Herb"
 		},
 		{
-			"name": "Turtle Shell",
-			"id": 401104
+			"name": "Scissors",
+			"id": "Turtle Shell"
 		}
 	],
 	"buildsInto": [

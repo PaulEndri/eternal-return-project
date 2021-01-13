@@ -24,7 +24,16 @@ export const StarterGuitar: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"description": "",
-	"buildsFrom": [],
+	"buildsFrom": [
+		{
+			"name": "Scissors",
+			"id": 108103
+		},
+		{
+			"name": "Scissors",
+			"id": 502104
+		}
+	],
 	"displayName": "Starter Guitar",
 	"apiMetaData": {
 		"code": 121101,

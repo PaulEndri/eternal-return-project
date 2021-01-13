@@ -5,12 +5,12 @@ export const FishFilletWithEgg: Item = {
 	"name": "FishFilletWithEgg",
 	"buildsFrom": [
 		{
-			"name": "Cod",
-			"id": 302104
+			"name": "Scissors",
+			"id": "Cod"
 		},
 		{
-			"name": "Egg",
-			"id": 302112
+			"name": "Scissors",
+			"id": "Egg"
 		}
 	],
 	"buildsInto": [],

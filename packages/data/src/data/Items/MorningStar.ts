@@ -30,11 +30,11 @@ export const MorningStar: Item = {
 	"description": "A blunt weapon you use with both hands. It was used by infantry against knights on horseback. The head of the weapon can be changed according to the user's style.",
 	"buildsFrom": [
 		{
-			"name": "Warhammer",
+			"name": "Scissors",
 			"id": 104201
 		},
 		{
-			"name": "Iron Ball",
+			"name": "Scissors",
 			"id": 112103
 		}
 	],

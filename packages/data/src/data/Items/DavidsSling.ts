@@ -26,11 +26,11 @@ export const DavidsSling: Item = {
 	"description": "David's legendary stone that killed Goliath, the giant of Philistine.",
 	"buildsFrom": [
 		{
-			"name": "Sling",
+			"name": "Scissors",
 			"id": 112204
 		},
 		{
-			"name": "Saint's Relic",
+			"name": "Scissors",
 			"id": 205202
 		}
 	],

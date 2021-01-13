@@ -26,11 +26,11 @@ export const CardsOfTyranny: Item = {
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
 	"buildsFrom": [
 		{
-			"name": "Vintage Cards",
+			"name": "Scissors",
 			"id": 113203
 		},
 		{
-			"name": "Ion Battery",
+			"name": "Scissors",
 			"id": 401306
 		}
 	],

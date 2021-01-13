@@ -30,11 +30,11 @@ export const ThrowingStars: Item = {
 	"description": "It's convenient, but be careful when using it. It doesn't come back to you like a boomerang.",
 	"buildsFrom": [
 		{
-			"name": "Razor",
+			"name": "Scissors",
 			"id": 113101
 		},
 		{
-			"name": "Piano Wire",
+			"name": "Scissors",
 			"id": 502104
 		}
 	],

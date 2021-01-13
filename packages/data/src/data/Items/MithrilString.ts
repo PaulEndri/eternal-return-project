@@ -24,11 +24,11 @@ export const MithrilString: Item = {
 	"foundQuantity": 3,
 	"buildsFrom": [
 		{
-			"name": "Mithril",
+			"name": "Scissors",
 			"id": 401304
 		},
 		{
-			"name": "Piano Wire",
+			"name": "Scissors",
 			"id": 502104
 		}
 	],

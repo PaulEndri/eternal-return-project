@@ -25,11 +25,11 @@ export const CrystalTiara: Item = {
 	"description": "A tiara made of crystals. The intricacies are impressive.",
 	"buildsFrom": [
 		{
-			"name": "Tiara",
+			"name": "Scissors",
 			"id": 201303
 		},
 		{
-			"name": "Glass Pieces",
+			"name": "Scissors",
 			"id": 205204
 		}
 	],

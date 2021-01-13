@@ -31,11 +31,11 @@ export const MagnumAnaconda: Item = {
 	"description": "Named after the Anaconda, which is larger than a Python, it uses a larger caliber Magnum cartridge.",
 	"buildsFrom": [
 		{
-			"name": "Magnum-Python",
+			"name": "Scissors",
 			"id": 116201
 		},
 		{
-			"name": "Blueprint",
+			"name": "Scissors",
 			"id": 401212
 		}
 	],

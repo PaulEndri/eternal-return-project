@@ -5,12 +5,12 @@ export const HealingPotion: Item = {
 	"name": "HealingPotion",
 	"buildsFrom": [
 		{
-			"name": "Orchid",
-			"id": 302218
+			"name": "Scissors",
+			"id": "Orchid"
 		},
 		{
-			"name": "Glass Bottle",
-			"id": 112104
+			"name": "Scissors",
+			"id": "Glass Bottle"
 		}
 	],
 	"buildsInto": [],

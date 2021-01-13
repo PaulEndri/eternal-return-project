@@ -5,12 +5,12 @@ export const BambooTrap: Item = {
 	"name": "BambooTrap",
 	"buildsFrom": [
 		{
-			"name": "Snare",
-			"id": 502102
+			"name": "Scissors",
+			"id": "Snare"
 		},
 		{
-			"name": "Bamboo",
-			"id": 108103
+			"name": "Scissors",
+			"id": "Bamboo"
 		}
 	],
 	"buildsInto": [

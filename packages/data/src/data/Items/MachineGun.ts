@@ -32,11 +32,11 @@ export const MachineGun: Item = {
 	"description": "A gun that continuously fires bullets when the trigger is held down.",
 	"buildsFrom": [
 		{
-			"name": "STG-44",
+			"name": "Scissors",
 			"id": 117201
 		},
 		{
-			"name": "Motor",
+			"name": "Scissors",
 			"id": 401303
 		}
 	],

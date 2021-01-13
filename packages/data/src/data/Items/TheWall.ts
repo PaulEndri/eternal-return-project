@@ -26,11 +26,11 @@ export const TheWall: Item = {
 	"description": "The test subjects on this island might as well just be, all in all, bricks in a wall.",
 	"buildsFrom": [
 		{
-			"name": "Superstrat",
+			"name": "Scissors",
 			"id": 121305
 		},
 		{
-			"name": "White Powder",
+			"name": "Scissors",
 			"id": 401206
 		}
 	],

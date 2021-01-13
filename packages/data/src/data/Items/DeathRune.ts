@@ -24,11 +24,11 @@ export const DeathRune: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Charm",
+			"name": "Scissors",
 			"id": 113202
 		},
 		{
-			"name": "Tree of Life",
+			"name": "Scissors",
 			"id": 401208
 		}
 	],

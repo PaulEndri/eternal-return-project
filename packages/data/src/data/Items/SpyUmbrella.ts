@@ -25,11 +25,11 @@ export const SpyUmbrella: Item = {
 	"description": "There is a poisoned needle concealed at the tip of the umbrella. You can make use of it when the timing is right. Pretend to accidentally stab your target's foot with the tip while carrying it on a rainy day.",
 	"buildsFrom": [
 		{
-			"name": "Umbrella",
+			"name": "Scissors",
 			"id": 108401
 		},
 		{
-			"name": "Poison",
+			"name": "Scissors",
 			"id": 401302
 		}
 	],

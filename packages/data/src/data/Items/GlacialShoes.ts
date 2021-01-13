@@ -28,11 +28,11 @@ export const GlacialShoes: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Repaired Slippers",
+			"name": "Scissors",
 			"id": 204301
 		},
 		{
-			"name": "Glacial Ice",
+			"name": "Scissors",
 			"id": 205402
 		}
 	],

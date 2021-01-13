@@ -5,12 +5,12 @@ export const OnTheRocks: Item = {
 	"name": "OnTheRocks",
 	"buildsFrom": [
 		{
-			"name": "Ice",
-			"id": 301103
+			"name": "Scissors",
+			"id": "Ice"
 		},
 		{
-			"name": "Whiskey",
-			"id": 301104
+			"name": "Scissors",
+			"id": "Whiskey"
 		}
 	],
 	"buildsInto": [],

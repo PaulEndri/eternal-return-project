@@ -25,11 +25,11 @@ export const WonderfulTonight: Item = {
 	"description": "If it's late in the evening, and you're wondering what item to craft, try this one!",
 	"buildsFrom": [
 		{
-			"name": "Superstrat",
+			"name": "Scissors",
 			"id": 121305
 		},
 		{
-			"name": "Meteorite",
+			"name": "Scissors",
 			"id": 401209
 		}
 	],

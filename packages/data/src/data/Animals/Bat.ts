@@ -13,7 +13,128 @@ export const Bat: Animal = {
 		"Pond": 3,
 		"Temple": 3
 	},
-	"items": [],
+	"items": [
+		{
+			"id": 401103,
+			"percentage": 30,
+			"rarity": ""
+		},
+		{
+			"id": 401101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401104,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401105,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 205107,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 105102,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 120101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 201101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 101101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 201102,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401112,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 113104,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401116,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401117,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 204101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 203102,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 113101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 502101,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 205110,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 205108,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 205106,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401106,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401108,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 108103,
+			"percentage": 3,
+			"rarity": ""
+		}
+	],
 	"stats": {
 		"createTime": 60,
 		"regenTime": 135,

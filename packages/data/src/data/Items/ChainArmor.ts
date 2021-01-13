@@ -26,11 +26,11 @@ export const ChainArmor: Item = {
 	"description": "Armor used in both Asia and Europe in the past. Made out of interconnecting metal links.",
 	"buildsFrom": [
 		{
-			"name": "Leather Armor",
+			"name": "Scissors",
 			"id": 202201
 		},
 		{
-			"name": "Steel Chain",
+			"name": "Scissors",
 			"id": 119101
 		}
 	],

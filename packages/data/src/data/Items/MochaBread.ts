@@ -5,12 +5,12 @@ export const MochaBread: Item = {
 	"name": "MochaBread",
 	"buildsFrom": [
 		{
-			"name": "Bread",
-			"id": 302110
+			"name": "Scissors",
+			"id": "Bread"
 		},
 		{
-			"name": "Coffee Liqueur",
-			"id": 301208
+			"name": "Scissors",
+			"id": "Coffee Liqueur"
 		}
 	],
 	"buildsInto": [],

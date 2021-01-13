@@ -5,12 +5,12 @@ export const Claymore: Item = {
 	"name": "Claymore",
 	"buildsFrom": [
 		{
-			"name": "Mine",
-			"id": 502304
+			"name": "Scissors",
+			"id": "Mine"
 		},
 		{
-			"name": "Explosive Trap",
-			"id": 502306
+			"name": "Scissors",
+			"id": "Explosive Trap"
 		}
 	],
 	"buildsInto": [],

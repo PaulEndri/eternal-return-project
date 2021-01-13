@@ -32,11 +32,11 @@ export const Boots: Item = {
 	"description": "Protects your feet and calves. Don't wear them too tight -- it might restrict your bloodflow.",
 	"buildsFrom": [
 		{
-			"name": "Running Shoes",
+			"name": "Scissors",
 			"id": 204102
 		},
 		{
-			"name": "Oilcloth",
+			"name": "Scissors",
 			"id": 401202
 		}
 	],

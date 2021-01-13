@@ -29,11 +29,11 @@ export const M16A1: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "STG-44",
+			"name": "Scissors",
 			"id": 117201
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

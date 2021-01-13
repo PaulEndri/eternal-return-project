@@ -27,11 +27,11 @@ export const DragonDobok: Item = {
 	"description": "A martial arts uniform designed for mental and physical training. You only qualify to wear this if you fulfill a particular set of prerequisites.",
 	"buildsFrom": [
 		{
-			"name": "Qipao",
+			"name": "Scissors",
 			"id": 202304
 		},
 		{
-			"name": "Turtle Dobok",
+			"name": "Scissors",
 			"id": 202203
 		}
 	],

@@ -27,11 +27,11 @@ export const Tiara: Item = {
 	"description": "A crown-like accessory for the head. Worn by both princesses and beauty pagent winners.",
 	"buildsFrom": [
 		{
-			"name": "Circlet",
+			"name": "Scissors",
 			"id": 201202
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

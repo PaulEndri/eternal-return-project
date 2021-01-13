@@ -28,11 +28,11 @@ export const Masamune: Item = {
 	"description": "A sword made by Masamune, the greatest sword maker in the history of Japan. It stands as one of the strongest and sharpest swords of Japan.",
 	"buildsFrom": [
 		{
-			"name": "Katana",
+			"name": "Scissors",
 			"id": 102301
 		},
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		}
 	],

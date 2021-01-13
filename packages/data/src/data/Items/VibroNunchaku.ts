@@ -24,11 +24,11 @@ export const VibroNunchaku: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Bleeder",
+			"name": "Scissors",
 			"id": 119302
 		},
 		{
-			"name": "Motor",
+			"name": "Scissors",
 			"id": 401303
 		}
 	],

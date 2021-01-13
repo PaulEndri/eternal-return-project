@@ -25,11 +25,11 @@ export const SafetyHelmet: Item = {
 	"description": "Please wear your personal protective equipment in all construction areas.",
 	"buildsFrom": [
 		{
-			"name": "Bike Helmet",
+			"name": "Scissors",
 			"id": 201104
 		},
 		{
-			"name": "Stone",
+			"name": "Scissors",
 			"id": 112101
 		}
 	],

@@ -35,11 +35,11 @@ export const DeadBattery: Item = {
 	"description": "Is a dead battery still a battery? Just throw it at someone!",
 	"buildsFrom": [
 		{
-			"name": "Battery",
+			"name": "Scissors",
 			"id": 401110
 		},
 		{
-			"name": "Water",
+			"name": "Scissors",
 			"id": 301102
 		}
 	],

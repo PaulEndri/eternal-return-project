@@ -30,11 +30,11 @@ export const ApricotFlowerTag: Item = {
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
 	"buildsFrom": [
 		{
-			"name": "Willow Leaf Spike",
+			"name": "Scissors",
 			"id": 113207
 		},
 		{
-			"name": "Flower",
+			"name": "Scissors",
 			"id": 205102
 		}
 	],

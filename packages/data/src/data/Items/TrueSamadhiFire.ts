@@ -40,11 +40,11 @@ export const TrueSamadhiFire: Item = {
 	"description": "Flames captured in a delicate glass sphere. Ascetics used it to escape.",
 	"buildsFrom": [
 		{
-			"name": "Powder of Life",
+			"name": "Scissors",
 			"id": 205301
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

@@ -38,11 +38,11 @@ export const BuddhaSarira: Item = {
 	"description": "A relic found in the ashes from the body of Buddha. It smells vaguely of incense.",
 	"buildsFrom": [
 		{
-			"name": "Buddhist Scripture",
+			"name": "Scissors",
 			"id": 205106
 		},
 		{
-			"name": "Monk's Robe",
+			"name": "Scissors",
 			"id": 202103
 		}
 	],

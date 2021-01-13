@@ -26,11 +26,11 @@ export const Twinbow: Item = {
 	"description": "A bow modified to fire arrows with more power by crossing the bowstrings.",
 	"buildsFrom": [
 		{
-			"name": "Strong Bow",
+			"name": "Scissors",
 			"id": 114301
 		},
 		{
-			"name": "Composite Bow",
+			"name": "Scissors",
 			"id": 114203
 		}
 	],

@@ -34,11 +34,11 @@ export const Rapier: Item = {
 	"description": "A one-handed sword for personal combat with a long, thin blade ideal for stabbing. Used mostly in the 16th and 17th centuries.",
 	"buildsFrom": [
 		{
-			"name": "Needle",
+			"name": "Scissors",
 			"id": 120101
 		},
 		{
-			"name": "Iron Ore",
+			"name": "Scissors",
 			"id": 401118
 		}
 	],

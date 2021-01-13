@@ -5,12 +5,12 @@ export const Bun: Item = {
 	"name": "Bun",
 	"buildsFrom": [
 		{
-			"name": "Bread",
-			"id": 302110
+			"name": "Scissors",
+			"id": "Bread"
 		},
 		{
-			"name": "Coffee",
-			"id": 301106
+			"name": "Scissors",
+			"id": "Coffee"
 		}
 	],
 	"buildsInto": [],

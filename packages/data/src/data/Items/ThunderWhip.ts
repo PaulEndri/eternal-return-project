@@ -23,11 +23,11 @@ export const ThunderWhip: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Bullwhip",
+			"name": "Scissors",
 			"id": 109202
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

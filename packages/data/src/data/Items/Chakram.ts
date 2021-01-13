@@ -27,11 +27,11 @@ export const Chakram: Item = {
 	"description": "The chakram is basically a throwing weapon, but in some cases, it also can be used to slash enemies like a melee weapon. Its circular shape has sharp blades around it, making it even more deadly.",
 	"buildsFrom": [
 		{
-			"name": "Throwing Stars",
+			"name": "Scissors",
 			"id": 113205
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

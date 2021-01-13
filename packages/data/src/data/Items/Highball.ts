@@ -5,12 +5,12 @@ export const Highball: Item = {
 	"name": "Highball",
 	"buildsFrom": [
 		{
-			"name": "Whiskey",
-			"id": 301104
+			"name": "Scissors",
+			"id": "Whiskey"
 		},
 		{
-			"name": "Carbonated Water",
-			"id": 301107
+			"name": "Scissors",
+			"id": "Carbonated Water"
 		}
 	],
 	"buildsInto": [],

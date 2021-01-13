@@ -27,11 +27,11 @@ export const Sling: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Signed Ball",
+			"name": "Scissors",
 			"id": 112205
 		},
 		{
-			"name": "Rubber",
+			"name": "Scissors",
 			"id": 401105
 		}
 	],

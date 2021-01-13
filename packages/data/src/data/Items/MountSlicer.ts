@@ -27,11 +27,11 @@ export const MountSlicer: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Rose Knife",
+			"name": "Scissors",
 			"id": 101301
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],

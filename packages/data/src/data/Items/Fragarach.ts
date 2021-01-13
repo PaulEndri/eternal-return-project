@@ -25,11 +25,11 @@ export const Fragarach: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Army Knife",
+			"name": "Scissors",
 			"id": 101201
 		},
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		}
 	],

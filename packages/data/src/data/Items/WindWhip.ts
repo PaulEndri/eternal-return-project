@@ -31,11 +31,11 @@ export const WindWhip: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Rope Cuffs",
+			"name": "Scissors",
 			"id": 109201
 		},
 		{
-			"name": "Fan",
+			"name": "Scissors",
 			"id": 205105
 		}
 	],

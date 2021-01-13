@@ -27,11 +27,11 @@ export const AK12: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "AK-47",
+			"name": "Scissors",
 			"id": 117301
 		},
 		{
-			"name": "Glass Panel",
+			"name": "Scissors",
 			"id": 401305
 		}
 	],

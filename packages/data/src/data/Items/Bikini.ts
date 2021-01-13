@@ -25,7 +25,7 @@ export const Bikini: Item = {
 	"description": "It's a bikini made of a thin fabric. You might wanna suck in your stomach when you're wearing it. It's so versatile, men can wear it, too.",
 	"buildsFrom": [
 		{
-			"name": "Wetsuit",
+			"name": "Scissors",
 			"id": 202105
 		},
 		{

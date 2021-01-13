@@ -5,12 +5,12 @@ export const IceCoffee: Item = {
 	"name": "IceCoffee",
 	"buildsFrom": [
 		{
-			"name": "Ice",
-			"id": 301103
+			"name": "Scissors",
+			"id": "Ice"
 		},
 		{
-			"name": "Coffee",
-			"id": 301106
+			"name": "Scissors",
+			"id": "Coffee"
 		}
 	],
 	"buildsInto": [],

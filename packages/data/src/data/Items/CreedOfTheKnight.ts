@@ -28,11 +28,11 @@ export const CreedOfTheKnight: Item = {
 	"description": "Shielding is not just a skill that must be mastered by a knight, but also symbolizes a knight's creed to protect the weak.",
 	"buildsFrom": [
 		{
-			"name": "Steel Shield",
+			"name": "Scissors",
 			"id": 203401
 		},
 		{
-			"name": "Squad Leader Armband",
+			"name": "Scissors",
 			"id": 203202
 		}
 	],

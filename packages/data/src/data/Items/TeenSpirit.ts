@@ -26,11 +26,11 @@ export const TeenSpirit: Item = {
 	"description": "Humans shine the most as teens. This shining aura fades slowly, but inevitably, as times passes by.",
 	"buildsFrom": [
 		{
-			"name": "Wild Horse",
+			"name": "Scissors",
 			"id": 121306
 		},
 		{
-			"name": "Buddha Sarira",
+			"name": "Scissors",
 			"id": 205207
 		}
 	],

@@ -25,11 +25,11 @@ export const MagicStick: Item = {
 	"description": "The stick often carried by the main characters of Shoujo comics. The moral of the Shoujo genre is that peace must be maintained through greater power.",
 	"buildsFrom": [
 		{
-			"name": "Warhammer",
+			"name": "Scissors",
 			"id": 104201
 		},
 		{
-			"name": "Moonlight Pendant",
+			"name": "Scissors",
 			"id": 205401
 		}
 	],

@@ -25,11 +25,11 @@ export const SwordStopper: Item = {
 	"description": "It is, quite literally, armor that protects from swords. The hooks on it catch and entangle blades",
 	"buildsFrom": [
 		{
-			"name": "Bazuband",
+			"name": "Scissors",
 			"id": 203303
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

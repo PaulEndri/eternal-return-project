@@ -30,11 +30,11 @@ export const FlowerOfFate: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Flower",
+			"name": "Scissors",
 			"id": 205102
 		},
 		{
-			"name": "Playing Cards",
+			"name": "Scissors",
 			"id": 113102
 		}
 	],

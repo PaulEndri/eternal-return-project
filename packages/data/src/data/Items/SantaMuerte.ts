@@ -26,11 +26,11 @@ export const SantaMuerte: Item = {
 	"description": "Santa Muerte, the Mexican goddess of death, cuts off all negative energies with her long-handled scythe.",
 	"buildsFrom": [
 		{
-			"name": "Reaper's Scythe",
+			"name": "Scissors",
 			"id": 105302
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

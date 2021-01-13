@@ -25,11 +25,11 @@ export const TacticalTonfa: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Police Baton",
+			"name": "Scissors",
 			"id": 111301
 		},
 		{
-			"name": "Blueprint",
+			"name": "Scissors",
 			"id": 401212
 		}
 	],

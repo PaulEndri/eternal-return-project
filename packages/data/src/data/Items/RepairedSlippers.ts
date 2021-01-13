@@ -31,11 +31,11 @@ export const RepairedSlippers: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Slippers",
+			"name": "Scissors",
 			"id": 204101
 		},
 		{
-			"name": "Cloth",
+			"name": "Scissors",
 			"id": 401113
 		}
 	],

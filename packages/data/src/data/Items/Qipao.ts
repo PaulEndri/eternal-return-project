@@ -28,11 +28,11 @@ export const Qipao: Item = {
 	"description": "A traditional Chinese dress. They vary in style from simple cotton dresses to silk ones with elaborate fine details.",
 	"buildsFrom": [
 		{
-			"name": "Dress",
+			"name": "Scissors",
 			"id": 202207
 		},
 		{
-			"name": "Razor",
+			"name": "Scissors",
 			"id": 113101
 		}
 	],

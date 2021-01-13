@@ -25,11 +25,11 @@ export const Excalibur: Item = {
 	"description": "A noted sword produced in Avalon, the nation of fairies. King  Arthur received this sword from the beautiful Lady of the Lake and returned it after the final battle against Prince Mordred.",
 	"buildsFrom": [
 		{
-			"name": "Jewel Sword",
+			"name": "Scissors",
 			"id": 102404
 		},
 		{
-			"name": "Holy Grail",
+			"name": "Scissors",
 			"id": 205108
 		}
 	],

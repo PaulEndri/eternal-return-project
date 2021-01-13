@@ -27,11 +27,11 @@ export const PelletBow: Item = {
 	"description": "Can fire bullets instead of arrows. It'd be a good idea to check to see if there are more bullets around.",
 	"buildsFrom": [
 		{
-			"name": "Wooden Bow",
+			"name": "Scissors",
 			"id": 114201
 		},
 		{
-			"name": "Heated Stone",
+			"name": "Scissors",
 			"id": 401215
 		}
 	],

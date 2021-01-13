@@ -5,12 +5,12 @@ export const EnhancedMousetrap: Item = {
 	"name": "EnhancedMousetrap",
 	"buildsFrom": [
 		{
-			"name": "Mousetrap",
-			"id": 502103
+			"name": "Scissors",
+			"id": "Mousetrap"
 		},
 		{
-			"name": "Iron Ore",
-			"id": 401118
+			"name": "Scissors",
+			"id": "Iron Ore"
 		}
 	],
 	"buildsInto": [],

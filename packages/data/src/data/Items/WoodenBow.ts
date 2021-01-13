@@ -29,11 +29,11 @@ export const WoodenBow: Item = {
 	"description": "A wooden bow. As plain as it seems, you need choice timber to make a usable wooden bow. Plywood is a no go.",
 	"buildsFrom": [
 		{
-			"name": "Branch",
+			"name": "Scissors",
 			"id": 108101
 		},
 		{
-			"name": "Piano Wire",
+			"name": "Scissors",
 			"id": 502104
 		}
 	],

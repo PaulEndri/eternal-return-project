@@ -27,11 +27,11 @@ export const BlazingDress: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "True Samadhi Fire",
+			"name": "Scissors",
 			"id": 205403
 		},
 		{
-			"name": "Dress",
+			"name": "Scissors",
 			"id": 202207
 		}
 	],

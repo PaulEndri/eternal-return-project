@@ -59,11 +59,11 @@ export const Steel: Item = {
 	"description": "Just some strong steel. They could name a football team after this.",
 	"buildsFrom": [
 		{
-			"name": "Scrap Metal",
+			"name": "Scissors",
 			"id": 401106
 		},
 		{
-			"name": "Iron Ore",
+			"name": "Scissors",
 			"id": 401118
 		}
 	],

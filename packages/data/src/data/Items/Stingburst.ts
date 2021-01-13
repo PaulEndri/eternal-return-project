@@ -27,11 +27,11 @@ export const Stingburst: Item = {
 	"foundQuantity": 1,
 	"buildsFrom": [
 		{
-			"name": "RDX",
+			"name": "Scissors",
 			"id": 502307
 		},
 		{
-			"name": "Spiked Plank",
+			"name": "Scissors",
 			"id": 502201
 		}
 	],

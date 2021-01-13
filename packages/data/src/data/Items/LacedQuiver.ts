@@ -24,11 +24,11 @@ export const LacedQuiver: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Quiver",
+			"name": "Scissors",
 			"id": 205208
 		},
 		{
-			"name": "Feather Duster",
+			"name": "Scissors",
 			"id": 205209
 		}
 	],

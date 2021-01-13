@@ -27,11 +27,11 @@ export const RedShoes: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Killer Heels",
+			"name": "Scissors",
 			"id": 204405
 		},
 		{
-			"name": "VF Blood Sample",
+			"name": "Scissors",
 			"id": 401401
 		}
 	],

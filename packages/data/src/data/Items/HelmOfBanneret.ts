@@ -27,11 +27,11 @@ export const HelmOfBanneret: Item = {
 	"description": "The war has begun and the righteous knight stands at the vanguard. May the blessings of victory be upon him.",
 	"buildsFrom": [
 		{
-			"name": "Close Helm",
+			"name": "Scissors",
 			"id": 201402
 		},
 		{
-			"name": "Rubber",
+			"name": "Scissors",
 			"id": 401105
 		}
 	],

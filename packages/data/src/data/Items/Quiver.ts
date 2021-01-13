@@ -25,11 +25,11 @@ export const Quiver: Item = {
 	"description": "Rather pointless by itself. On the otherhand, if you stash some arrows in it...",
 	"buildsFrom": [
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		},
 		{
-			"name": "Bamboo",
+			"name": "Scissors",
 			"id": 108103
 		}
 	],

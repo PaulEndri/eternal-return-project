@@ -35,11 +35,11 @@ export const ReapersScythe: Item = {
 	"description": "A weapon that the Grim Reaper carries. If the scythe claims someone, that soul will vanish.",
 	"buildsFrom": [
 		{
-			"name": "Chain Scythe",
+			"name": "Scissors",
 			"id": 105201
 		},
 		{
-			"name": "Short Rod",
+			"name": "Scissors",
 			"id": 108102
 		}
 	],

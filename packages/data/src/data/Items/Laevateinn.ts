@@ -25,11 +25,11 @@ export const Laevateinn: Item = {
 	"description": "In Norse mythology, Laevateinn is a sword that was made by Loki by carving runes into it. In mythology, it is used to kill the invincible rooster, Vidofnir.",
 	"buildsFrom": [
 		{
-			"name": "True Samadhi Fire",
+			"name": "Scissors",
 			"id": 205403
 		},
 		{
-			"name": "Shamshir",
+			"name": "Scissors",
 			"id": 102201
 		}
 	],

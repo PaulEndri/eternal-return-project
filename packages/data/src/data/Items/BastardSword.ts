@@ -31,11 +31,11 @@ export const BastardSword: Item = {
 	"description": "In the Middle Ages, the Bastard Sword was the only weapon with the characteristics of both a double-handed sword and a single-handed sword, so it was named Bastard, meaning mixed breed.",
 	"buildsFrom": [
 		{
-			"name": "Rusty Sword",
+			"name": "Scissors",
 			"id": 102101
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

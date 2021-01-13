@@ -5,12 +5,12 @@ export const FirstAidKit: Item = {
 	"name": "FirstAidKit",
 	"buildsFrom": [
 		{
-			"name": "Disinfectant",
-			"id": 302213
+			"name": "Scissors",
+			"id": "Disinfectant"
 		},
 		{
-			"name": "Bandage",
-			"id": 203102
+			"name": "Scissors",
+			"id": "Bandage"
 		}
 	],
 	"buildsInto": [],

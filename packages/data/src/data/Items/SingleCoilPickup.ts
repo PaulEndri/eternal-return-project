@@ -40,11 +40,11 @@ export const SingleCoilPickup: Item = {
 	"description": "Single coil guitars generally have a brighter, crisper output, and sound clearer.",
 	"buildsFrom": [
 		{
-			"name": "Starter Guitar",
+			"name": "Scissors",
 			"id": 121101
 		},
 		{
-			"name": "Dead Battery",
+			"name": "Scissors",
 			"id": 401205
 		}
 	],

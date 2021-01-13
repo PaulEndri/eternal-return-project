@@ -29,11 +29,11 @@ export const Nunchaku: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Steel Chain",
+			"name": "Scissors",
 			"id": 119101
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "Scissors",
 			"id": 401106
 		}
 	],

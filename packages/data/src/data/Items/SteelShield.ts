@@ -29,11 +29,11 @@ export const SteelShield: Item = {
 	"description": "A durable shield made of metal and leather.",
 	"buildsFrom": [
 		{
-			"name": "Leather Shield",
+			"name": "Scissors",
 			"id": 203201
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

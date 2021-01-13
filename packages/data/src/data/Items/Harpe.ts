@@ -28,11 +28,11 @@ export const Harpe: Item = {
 	"description": "The sword given to Perseus by Hermes, the God of Thieves. He used this to cut off Medusa's head and to rescue Andromeda from a sea monster.",
 	"buildsFrom": [
 		{
-			"name": "Reaper's Scythe",
+			"name": "Scissors",
 			"id": 105302
 		},
 		{
-			"name": "White Crane Fan",
+			"name": "Scissors",
 			"id": 205201
 		}
 	],

@@ -24,11 +24,11 @@ export const Sudarsana: Item = {
 	"description": "A weapon of Vishnu, one of the three main Hindu Gods. It was used to destroy air fortresses.",
 	"buildsFrom": [
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		},
 		{
-			"name": "Throwing Stars",
+			"name": "Scissors",
 			"id": 113205
 		}
 	],

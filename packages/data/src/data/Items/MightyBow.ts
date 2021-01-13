@@ -27,11 +27,11 @@ export const MightyBow: Item = {
 	"description": "A bow that can be made by combining a bow and gunpowder. While hiding in darkness, you must draw the bow quietly, but quickly.",
 	"buildsFrom": [
 		{
-			"name": "Longbow",
+			"name": "Scissors",
 			"id": 114202
 		},
 		{
-			"name": "Gunpowder",
+			"name": "Scissors",
 			"id": 401121
 		}
 	],

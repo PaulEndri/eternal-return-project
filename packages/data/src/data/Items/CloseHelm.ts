@@ -34,11 +34,11 @@ export const CloseHelm: Item = {
 	"description": "A helmet made out of steel to protect the head of its wearer. It's heavy, but it makes you feel safe.",
 	"buildsFrom": [
 		{
-			"name": "Chain Coif",
+			"name": "Scissors",
 			"id": 201204
 		},
 		{
-			"name": "Mask",
+			"name": "Scissors",
 			"id": 201201
 		}
 	],

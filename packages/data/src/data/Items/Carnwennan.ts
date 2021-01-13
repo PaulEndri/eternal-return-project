@@ -28,11 +28,11 @@ export const Carnwennan: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Rose Knife",
+			"name": "Scissors",
 			"id": 101301
 		},
 		{
-			"name": "Saint's Relic",
+			"name": "Scissors",
 			"id": 205202
 		}
 	],

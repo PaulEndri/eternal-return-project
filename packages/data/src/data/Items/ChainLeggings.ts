@@ -30,11 +30,11 @@ export const ChainLeggings: Item = {
 	"description": "Protective leg equipment. Very effective and easily made.",
 	"buildsFrom": [
 		{
-			"name": "Tights",
+			"name": "Scissors",
 			"id": 204103
 		},
 		{
-			"name": "Steel Chain",
+			"name": "Scissors",
 			"id": 119101
 		}
 	],

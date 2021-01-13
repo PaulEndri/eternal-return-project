@@ -29,11 +29,11 @@ export const CovertAgentUniform: Item = {
 	"description": "The uniform worn by agents that performed special missions for the King. Secretly.",
 	"buildsFrom": [
 		{
-			"name": "Hanbok",
+			"name": "Scissors",
 			"id": 202306
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

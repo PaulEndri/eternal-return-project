@@ -25,11 +25,11 @@ export const GrenadeOfAntioch: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "High Explosive Grenade",
+			"name": "Scissors",
 			"id": 112404
 		},
 		{
-			"name": "Cross",
+			"name": "Scissors",
 			"id": 205109
 		}
 	],

@@ -24,11 +24,11 @@ export const LanceOfPoseidon: Item = {
 	"description": "A powerful spear that can bring forth waves. It's said to have once been used by Poseidon.",
 	"buildsFrom": [
 		{
-			"name": "Bident",
+			"name": "Scissors",
 			"id": 107301
 		},
 		{
-			"name": "Pike",
+			"name": "Scissors",
 			"id": 107302
 		}
 	],

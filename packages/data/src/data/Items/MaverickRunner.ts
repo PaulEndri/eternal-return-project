@@ -24,12 +24,12 @@ export const MaverickRunner: Item = {
 	"description": "Heelys designed using futuristic concepts by the world renowned fashion company, Soberef. The parts are even certified by the Federal Aviation Administration. They are driven by linear motors that can get propulsion even when stopped, and there are eight compressed gas injection devices on the front allowing for limited three-dimensional operation. Also, they're LOUD.",
 	"buildsFrom": [
 		{
-			"name": "Heelys",
-			"id": 204204
+			"name": "Scissors",
+			"id": 204302
 		},
 		{
-			"name": "Electronic Parts",
-			"id": 401211
+			"name": "Scissors",
+			"id": 401103
 		}
 	],
 	"displayName": "Maverick Runner",

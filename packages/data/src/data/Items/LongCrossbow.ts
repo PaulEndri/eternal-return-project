@@ -29,11 +29,11 @@ export const LongCrossbow: Item = {
 	"description": "A long range weapon that can shoot further than a standard bow. During the Chosun Period, there are records of shots landing from as far as 600 steps away.",
 	"buildsFrom": [
 		{
-			"name": "Short Crossbow",
+			"name": "Scissors",
 			"id": 115101
 		},
 		{
-			"name": "Piano Wire",
+			"name": "Scissors",
 			"id": 502104
 		}
 	],

@@ -27,11 +27,11 @@ export const CompositeBow: Item = {
 	"description": "A high quality composite bow that was used in the East. There is a record of a man shooting over 440 meters during the England Archery Competition of 1795.",
 	"buildsFrom": [
 		{
-			"name": "Longbow",
+			"name": "Scissors",
 			"id": 114202
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

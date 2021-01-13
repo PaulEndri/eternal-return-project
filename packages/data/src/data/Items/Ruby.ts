@@ -51,11 +51,11 @@ export const Ruby: Item = {
 	"description": "Rubies and sapphires actually have the same chemical composition and mineral structure! However, rubies have a small amount of chromium that makes them appear red.",
 	"buildsFrom": [
 		{
-			"name": "Hammer",
+			"name": "Scissors",
 			"id": 104101
 		},
 		{
-			"name": "Gemstone",
+			"name": "Scissors",
 			"id": 401114
 		}
 	],

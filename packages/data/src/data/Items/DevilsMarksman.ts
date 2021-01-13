@@ -27,11 +27,11 @@ export const DevilsMarksman: Item = {
 	"description": "You can perfect your marksmanship by selling your soul to the devil. What could possibly go wrong?",
 	"buildsFrom": [
 		{
-			"name": "Double Revolver SP",
+			"name": "Scissors",
 			"id": 116401
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],

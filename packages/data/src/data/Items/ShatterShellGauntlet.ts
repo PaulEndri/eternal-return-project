@@ -29,11 +29,11 @@ export const ShatterShellGauntlet: Item = {
 	"description": "A glove that adds explosive force behind each punch.",
 	"buildsFrom": [
 		{
-			"name": "Gauntlet",
+			"name": "Scissors",
 			"id": 110301
 		},
 		{
-			"name": "Gunpowder",
+			"name": "Scissors",
 			"id": 401121
 		}
 	],

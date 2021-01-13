@@ -32,11 +32,11 @@ export const JewelSword: Item = {
 	"description": "Valuable by its very existence. Often is the case of such swords that were made with precious materials or used by a famous hero.",
 	"buildsFrom": [
 		{
-			"name": "Shamshir",
+			"name": "Scissors",
 			"id": 102201
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

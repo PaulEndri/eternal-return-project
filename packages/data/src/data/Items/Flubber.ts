@@ -27,11 +27,11 @@ export const Flubber: Item = {
 	"description": "It feels like the innocence of childhood. If you drop it, it'll lose its viscosity and become stiff, so take care of it.",
 	"buildsFrom": [
 		{
-			"name": "Rubber",
+			"name": "Scissors",
 			"id": 401105
 		},
 		{
-			"name": "Boiling Water",
+			"name": "Scissors",
 			"id": 301201
 		}
 	],

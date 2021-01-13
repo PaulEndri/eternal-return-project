@@ -26,11 +26,11 @@ export const FireHelmet: Item = {
 	"description": "Head protection for firefighters. Strong resistance to flames and heat. Also equipped with a flashlight!",
 	"buildsFrom": [
 		{
-			"name": "Safety Helmet",
+			"name": "Scissors",
 			"id": 201205
 		},
 		{
-			"name": "Water",
+			"name": "Scissors",
 			"id": 301102
 		}
 	],

@@ -32,11 +32,11 @@ export const GlacialIce: Item = {
 	"description": "It seems different from normal ice. It practically burns me to the bone by just looking at it. Keep it out of your lemonade.",
 	"buildsFrom": [
 		{
-			"name": "Powder of Life",
+			"name": "Scissors",
 			"id": 205301
 		},
 		{
-			"name": "Ice",
+			"name": "Scissors",
 			"id": 301103
 		}
 	],

@@ -33,11 +33,11 @@ export const BulletproofVest: Item = {
 	"description": "A vest used to protect your torso from bullets. The rest of the body is still vulnerable, though",
 	"buildsFrom": [
 		{
-			"name": "Military Suit",
+			"name": "Scissors",
 			"id": 202205
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

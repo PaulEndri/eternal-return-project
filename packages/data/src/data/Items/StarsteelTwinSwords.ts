@@ -23,11 +23,11 @@ export const StarsteelTwinSwords: Item = {
 	"description": "A pair of swords that Liu Bei used in \"Romance of the Three Kingdoms\".",
 	"buildsFrom": [
 		{
-			"name": "Twin Swords",
+			"name": "Scissors",
 			"id": 103201
 		},
 		{
-			"name": "Moonstone",
+			"name": "Scissors",
 			"id": 401301
 		}
 	],

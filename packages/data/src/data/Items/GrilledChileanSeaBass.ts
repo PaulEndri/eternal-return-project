@@ -5,12 +5,12 @@ export const GrilledChileanSeaBass: Item = {
 	"name": "GrilledChileanSeaBass",
 	"buildsFrom": [
 		{
-			"name": "Cod",
-			"id": 302104
+			"name": "Scissors",
+			"id": "Cod"
 		},
 		{
-			"name": "Heated Stone",
-			"id": 401215
+			"name": "Scissors",
+			"id": "Heated Stone"
 		}
 	],
 	"buildsInto": [],

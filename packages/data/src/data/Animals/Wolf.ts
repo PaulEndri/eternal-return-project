@@ -14,109 +14,109 @@ export const Wolf: Animal = {
 	},
 	"items": [
 		{
-			"name": "Meat",
-			"percentage": 100,
-			"rarity": "Always"
+			"id": 302111,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Leather",
-			"percentage": 100,
-			"rarity": "Always"
+			"id": 401103,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Steel",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401201,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Oilcloth",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401202,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Heated Oil",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401203,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Ruby",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401204,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Dead Battery",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401205,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "White Powder",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401206,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Meteorite",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401209,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Ash",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401210,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Electronic Parts",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401211,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Blueprint",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401212,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Iron Sheet",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401213,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Gold",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401214,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Feather Duster",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 205209,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Moon Stone",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401301,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Poison",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401302,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Motor",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401303,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Mithril",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401304,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Glass Panel",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401305,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Ion Battery",
-			"percentage": 5.3,
-			"rarity": "Rarely"
+			"id": 401306,
+			"percentage": 1,
+			"rarity": ""
 		}
 	],
 	"stats": {

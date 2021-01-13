@@ -5,12 +5,12 @@ export const TandooriChicken: Item = {
 	"name": "TandooriChicken",
 	"buildsFrom": [
 		{
-			"name": "Curry Powder",
-			"id": 302120
+			"name": "Scissors",
+			"id": "Curry Powder"
 		},
 		{
-			"name": "Meat",
-			"id": 302111
+			"name": "Scissors",
+			"id": "Meat"
 		}
 	],
 	"buildsInto": [],

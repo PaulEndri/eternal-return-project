@@ -32,11 +32,11 @@ export const GlassPanel: Item = {
 	"description": "A glass panel used for a display. If you break the one on your TV, you gotta replace it with a new panel. At that point, you might as well just get a new TV.",
 	"buildsFrom": [
 		{
-			"name": "Glass Pieces",
+			"name": "Scissors",
 			"id": 205204
 		},
 		{
-			"name": "Glue",
+			"name": "Scissors",
 			"id": 401116
 		}
 	],

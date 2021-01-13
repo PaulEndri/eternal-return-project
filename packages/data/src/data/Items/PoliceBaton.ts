@@ -27,11 +27,11 @@ export const PoliceBaton: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Tonfa",
+			"name": "Scissors",
 			"id": 111201
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

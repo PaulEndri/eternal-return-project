@@ -26,11 +26,11 @@ export const ChainScythe: Item = {
 	"description": "A weapon of the Grim Reaper that has a sharp scythe at one end of a steel chain.",
 	"buildsFrom": [
 		{
-			"name": "Pickaxe",
+			"name": "Scissors",
 			"id": 105102
 		},
 		{
-			"name": "Steel Chain",
+			"name": "Scissors",
 			"id": 119101
 		}
 	],

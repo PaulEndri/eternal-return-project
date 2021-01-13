@@ -31,11 +31,11 @@ export const OnyxDagger: Item = {
 	"description": "Made out of a throwing dagger and a cross. It practically jumps from the tips of your fingers to fly into the heart of your enemy",
 	"buildsFrom": [
 		{
-			"name": "Razor",
+			"name": "Scissors",
 			"id": 113101
 		},
 		{
-			"name": "Cross",
+			"name": "Scissors",
 			"id": 205109
 		}
 	],

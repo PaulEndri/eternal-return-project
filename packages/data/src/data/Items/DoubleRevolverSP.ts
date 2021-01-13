@@ -29,11 +29,11 @@ export const DoubleRevolverSP: Item = {
 	"description": "This isn't two revolvers -- it's one double revolver.",
 	"buildsFrom": [
 		{
-			"name": "Magnum-Python",
+			"name": "Scissors",
 			"id": 116201
 		},
 		{
-			"name": "Beretta M92F",
+			"name": "Scissors",
 			"id": 116202
 		}
 	],

@@ -27,7 +27,7 @@ export const Beret: Item = {
 	"description": "The trademark hat of painters and soldiers. It gets sweaty inside easily and it doesn't block the sun, but at least it looks cool.",
 	"buildsFrom": [
 		{
-			"name": "Hat",
+			"name": "Scissors",
 			"id": 201102
 		},
 		{

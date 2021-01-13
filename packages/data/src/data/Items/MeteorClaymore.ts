@@ -25,11 +25,11 @@ export const MeteorClaymore: Item = {
 	"description": "The silver-grey colored metals found in Meteorsteel can be used to make a great sword with great strength. However, manufacturing it is no easy task.",
 	"buildsFrom": [
 		{
-			"name": "Apricot Sword",
+			"name": "Scissors",
 			"id": 120301
 		},
 		{
-			"name": "Meteorite",
+			"name": "Scissors",
 			"id": 401209
 		}
 	],

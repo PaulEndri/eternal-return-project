@@ -26,11 +26,11 @@ export const Mallet: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Goblin Bat",
+			"name": "Scissors",
 			"id": 108301
 		},
 		{
-			"name": "Motor",
+			"name": "Scissors",
 			"id": 401303
 		}
 	],

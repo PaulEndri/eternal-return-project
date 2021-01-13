@@ -34,11 +34,11 @@ export const PowderOfLife: Item = {
 	"description": "A powder that summons the spirits. Better combined with other items to make something mystical.",
 	"buildsFrom": [
 		{
-			"name": "Tree of Life",
+			"name": "Scissors",
 			"id": 401208
 		},
 		{
-			"name": "Stone",
+			"name": "Scissors",
 			"id": 112101
 		}
 	],

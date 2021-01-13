@@ -279,7 +279,7 @@ export const Emma: Character = {
 		"name": "Emma",
 		"code": 19,
 		"radius": 0.4,
-		"uiHeight": 2.3,
+		"uiHeight": 2.5,
 		"resource": "Emma"
 	}
 }

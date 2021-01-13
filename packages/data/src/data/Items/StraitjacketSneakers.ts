@@ -25,11 +25,11 @@ export const StraitjacketSneakers: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Repaired Slippers",
+			"name": "Scissors",
 			"id": 204301
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],

@@ -28,11 +28,11 @@ export const ImperialBurgonet: Item = {
 	"description": "An extravagant burgonet used by the imperial family. Unlike a basic helmet, it is lavishly decorated",
 	"buildsFrom": [
 		{
-			"name": "Close Helm",
+			"name": "Scissors",
 			"id": 201402
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

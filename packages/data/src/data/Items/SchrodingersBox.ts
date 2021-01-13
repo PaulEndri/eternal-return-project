@@ -23,11 +23,11 @@ export const SchrodingersBox: Item = {
 	"description": "The cat inside the box is both alive and dead at the same time. Use it to show off your knowledge of quantum physics.",
 	"buildsFrom": [
 		{
-			"name": "Box",
+			"name": "Scissors",
 			"id": 205107
 		},
 		{
-			"name": "Poison",
+			"name": "Scissors",
 			"id": 401302
 		}
 	],

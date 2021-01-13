@@ -29,11 +29,11 @@ export const VitalSignSensor: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Watch",
+			"name": "Scissors",
 			"id": 203101
 		},
 		{
-			"name": "Cell Phone",
+			"name": "Scissors",
 			"id": 501401
 		}
 	],

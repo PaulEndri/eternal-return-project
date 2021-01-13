@@ -5,12 +5,12 @@ export const HiddenMaiden: Item = {
 	"name": "HiddenMaiden",
 	"buildsFrom": [
 		{
-			"name": "Spiked Plank",
-			"id": 502201
+			"name": "Scissors",
+			"id": "Spiked Plank"
 		},
 		{
-			"name": "Jungle Guillotine",
-			"id": 502303
+			"name": "Scissors",
+			"id": "Jungle Guillotine"
 		}
 	],
 	"buildsInto": [],

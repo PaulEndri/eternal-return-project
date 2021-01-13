@@ -41,11 +41,11 @@ export const RDX: Item = {
 	"foundQuantity": 1,
 	"buildsFrom": [
 		{
-			"name": "Dynamite",
+			"name": "Scissors",
 			"id": 502203
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "Scissors",
 			"id": 401106
 		}
 	],

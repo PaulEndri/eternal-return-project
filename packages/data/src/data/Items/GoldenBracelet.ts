@@ -27,11 +27,11 @@ export const GoldenBracelet: Item = {
 	"description": "Most gold accessories are actually gold alloys. True gold is too soft. This golden bracelet would have been worth far more if it were 100% gold.",
 	"buildsFrom": [
 		{
-			"name": "Bracelet",
+			"name": "Scissors",
 			"id": 203104
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

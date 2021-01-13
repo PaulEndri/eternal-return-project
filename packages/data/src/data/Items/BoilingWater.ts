@@ -60,11 +60,11 @@ export const BoilingWater: Item = {
 	"foundQuantity": 3,
 	"buildsFrom": [
 		{
-			"name": "Water",
+			"name": "Scissors",
 			"id": 301102
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

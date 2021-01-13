@@ -29,11 +29,11 @@ export const Crown: Item = {
 	"description": "The one  to wear the crown must bear its weight.",
 	"buildsFrom": [
 		{
-			"name": "Circlet",
+			"name": "Scissors",
 			"id": 201202
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

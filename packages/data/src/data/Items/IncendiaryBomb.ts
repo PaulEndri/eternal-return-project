@@ -25,11 +25,11 @@ export const IncendiaryBomb: Item = {
 	"description": "Inflict damage by quickly spreading fire to an area. It'll be hard to extinguish.",
 	"buildsFrom": [
 		{
-			"name": "Molotov Cocktail",
+			"name": "Scissors",
 			"id": 112203
 		},
 		{
-			"name": "Ball Lightning",
+			"name": "Scissors",
 			"id": 112303
 		}
 	],

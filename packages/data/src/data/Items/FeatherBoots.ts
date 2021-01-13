@@ -25,11 +25,11 @@ export const FeatherBoots: Item = {
 	"description": "They feel as light as a feather! Maybe because that's what they're made of!",
 	"buildsFrom": [
 		{
-			"name": "Combat Boots",
+			"name": "Scissors",
 			"id": 204404
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

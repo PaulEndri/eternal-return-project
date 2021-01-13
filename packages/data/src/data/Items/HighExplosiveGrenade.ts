@@ -29,11 +29,11 @@ export const HighExplosiveGrenade: Item = {
 	"description": "It hurts when you touch it, but it even hurts more when it explodes next to you.",
 	"buildsFrom": [
 		{
-			"name": "Grenade",
+			"name": "Scissors",
 			"id": 112202
 		},
 		{
-			"name": "RDX",
+			"name": "Scissors",
 			"id": 502307
 		}
 	],

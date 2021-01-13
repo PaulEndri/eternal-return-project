@@ -32,11 +32,11 @@ export const RyukyuTonfa: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Tonfa",
+			"name": "Scissors",
 			"id": 111201
 		},
 		{
-			"name": "White Powder",
+			"name": "Scissors",
 			"id": 401206
 		}
 	],

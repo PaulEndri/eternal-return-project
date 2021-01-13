@@ -25,11 +25,11 @@ export const Ballista: Item = {
 	"description": "A smaller bow originally designed for siege warfare. It boasts incredible power.",
 	"buildsFrom": [
 		{
-			"name": "Heavy Crossbow",
+			"name": "Scissors",
 			"id": 115303
 		},
 		{
-			"name": "Short Spear",
+			"name": "Scissors",
 			"id": 107101
 		}
 	],

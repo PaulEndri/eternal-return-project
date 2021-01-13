@@ -32,11 +32,11 @@ export const PhoenixGloves: Item = {
 	"description": "You cannot reach the point of Nirvana to separate your body and soul, but you can remove others' souls from their bodies with this glove.",
 	"buildsFrom": [
 		{
-			"name": "Leather Gloves",
+			"name": "Scissors",
 			"id": 110201
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],

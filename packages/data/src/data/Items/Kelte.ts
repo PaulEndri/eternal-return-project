@@ -25,11 +25,11 @@ export const Kelte: Item = {
 	"description": "The gun of Manas, a hero of Kyrgyzstan. The gun’s barrel was formed from Damascus steel and fires death in bullet form.",
 	"buildsFrom": [
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		},
 		{
-			"name": "Beretta M92F",
+			"name": "Scissors",
 			"id": 116202
 		}
 	],

@@ -27,11 +27,11 @@ export const Magazine: Item = {
 	"description": "You can't fire a gun with nothing in the magazine.",
 	"buildsFrom": [
 		{
-			"name": "Box",
+			"name": "Scissors",
 			"id": 205107
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

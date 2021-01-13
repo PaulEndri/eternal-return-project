@@ -25,11 +25,11 @@ export const LloigorZahr: Item = {
 	"description": "You'll love crafting these twin swords, just be careful if you feel wind but the weather isn't windy. Lloigor might be watching.",
 	"buildsFrom": [
 		{
-			"name": "Twin Swords",
+			"name": "Scissors",
 			"id": 103201
 		},
 		{
-			"name": "Poison",
+			"name": "Scissors",
 			"id": 401302
 		}
 	],

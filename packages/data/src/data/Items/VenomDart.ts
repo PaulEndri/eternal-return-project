@@ -30,11 +30,11 @@ export const VenomDart: Item = {
 	"description": "This deadly poison can kill an elephant within 3 seconds. Use it carefully.",
 	"buildsFrom": [
 		{
-			"name": "Needle",
+			"name": "Scissors",
 			"id": 120101
 		},
 		{
-			"name": "Poison",
+			"name": "Scissors",
 			"id": 401302
 		}
 	],

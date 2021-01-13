@@ -25,11 +25,11 @@ export const ChineseOperaMask: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Mask",
+			"name": "Scissors",
 			"id": 201201
 		},
 		{
-			"name": "VF Blood Sample",
+			"name": "Scissors",
 			"id": 401401
 		}
 	],

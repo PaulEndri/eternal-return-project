@@ -28,11 +28,11 @@ export const Dart: Item = {
 	"description": "It's cute, but it can be deadly if it hits the right spot.",
 	"buildsFrom": [
 		{
-			"name": "Needle",
+			"name": "Scissors",
 			"id": 120101
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

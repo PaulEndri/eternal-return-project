@@ -33,11 +33,11 @@ export const Superstrat: Item = {
 	"description": "Collectively refers to the most famous types of guitars in the world.",
 	"buildsFrom": [
 		{
-			"name": "Single Coil Pickup",
+			"name": "Scissors",
 			"id": 121202
 		},
 		{
-			"name": "Bamboo",
+			"name": "Scissors",
 			"id": 108103
 		}
 	],

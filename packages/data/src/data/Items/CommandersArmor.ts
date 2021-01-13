@@ -29,11 +29,11 @@ export const CommandersArmor: Item = {
 	"description": "It's the General's armor, so it gotta be the strongest armor in town.",
 	"buildsFrom": [
 		{
-			"name": "Chain Armor",
+			"name": "Scissors",
 			"id": 202302
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

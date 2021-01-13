@@ -40,11 +40,11 @@ export const Poison: Item = {
 	"description": "DO NOT DRINK.",
 	"buildsFrom": [
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		},
 		{
-			"name": "Water",
+			"name": "Scissors",
 			"id": 301102
 		}
 	],

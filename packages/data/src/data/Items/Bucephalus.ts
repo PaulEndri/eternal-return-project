@@ -28,11 +28,11 @@ export const Bucephalus: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Killer Heels",
+			"name": "Scissors",
 			"id": 204405
 		},
 		{
-			"name": "Chain Leggings",
+			"name": "Scissors",
 			"id": 204202
 		}
 	],

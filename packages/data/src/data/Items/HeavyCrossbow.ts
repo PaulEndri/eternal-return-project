@@ -29,11 +29,11 @@ export const HeavyCrossbow: Item = {
 	"description": "Heavier than a standard crossbow, but also that much stronger. It was a popular weapon in Medieval Europe as it was easy to learn and use.",
 	"buildsFrom": [
 		{
-			"name": "Long Crossbow",
+			"name": "Scissors",
 			"id": 115201
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

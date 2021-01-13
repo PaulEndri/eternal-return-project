@@ -244,7 +244,7 @@ export const LiDailin: Character = {
 			"sightRange": 8
 		},
 		"perLevel": {
-			"maxHp": 89,
+			"maxHp": 84,
 			"maxSp": 16,
 			"attackPower": 1.9,
 			"defense": 2.5,
@@ -256,10 +256,10 @@ export const LiDailin: Character = {
 		}
 	},
 	"apiMetaData": {
-		"name": "LIDailin",
+		"name": "Li Dailin",
 		"code": 10,
 		"radius": 0.4,
 		"uiHeight": 2.1,
-		"resource": "LIDailin"
+		"resource": "Li Dailin"
 	}
 }

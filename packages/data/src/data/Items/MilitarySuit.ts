@@ -30,11 +30,11 @@ export const MilitarySuit: Item = {
 	"description": "Like a school uniform, these military uniforms get some people excited! But when you actually see them out in the street...meh.",
 	"buildsFrom": [
 		{
-			"name": "Windbreaker",
+			"name": "Scissors",
 			"id": 202101
 		},
 		{
-			"name": "Branch",
+			"name": "Scissors",
 			"id": 108101
 		}
 	],

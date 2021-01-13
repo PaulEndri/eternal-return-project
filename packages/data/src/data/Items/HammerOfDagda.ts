@@ -24,11 +24,11 @@ export const HammerOfDagda: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Black Stag Hammer",
+			"name": "Scissors",
 			"id": 104302
 		},
 		{
-			"name": "Saint's Relic",
+			"name": "Scissors",
 			"id": 205202
 		}
 	],

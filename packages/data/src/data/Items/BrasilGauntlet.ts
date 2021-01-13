@@ -28,11 +28,11 @@ export const BrasilGauntlet: Item = {
 	"description": "A combat glove used on the mystical island Brasil, which is located  west side of Ireland. This island can only be seen once every seven years. (Not to be confused with the country Brazil)",
 	"buildsFrom": [
 		{
-			"name": "Bone Gauntlet",
+			"name": "Scissors",
 			"id": 110401
 		},
 		{
-			"name": "Oilcloth",
+			"name": "Scissors",
 			"id": 401202
 		}
 	],

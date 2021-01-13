@@ -5,12 +5,12 @@ export const SmartBomb: Item = {
 	"name": "SmartBomb",
 	"buildsFrom": [
 		{
-			"name": "RDX",
-			"id": 502307
+			"name": "Scissors",
+			"id": "RDX"
 		},
 		{
-			"name": "Cell Phone",
-			"id": 501401
+			"name": "Scissors",
+			"id": "Cell Phone"
 		}
 	],
 	"buildsInto": [],

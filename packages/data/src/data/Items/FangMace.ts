@@ -24,11 +24,11 @@ export const FangMace: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Morning Star",
+			"name": "Scissors",
 			"id": 104301
 		},
 		{
-			"name": "Heated Stone",
+			"name": "Scissors",
 			"id": 401215
 		}
 	],

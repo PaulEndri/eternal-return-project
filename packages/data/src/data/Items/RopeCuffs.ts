@@ -26,11 +26,11 @@ export const RopeCuffs: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Whip",
+			"name": "Scissors",
 			"id": 109101
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

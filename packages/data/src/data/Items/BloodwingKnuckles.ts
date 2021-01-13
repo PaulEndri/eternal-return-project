@@ -25,11 +25,11 @@ export const BloodwingKnuckles: Item = {
 	"description": "Knuckles that seemingly fit the Dark Angel. How can you return when your wings are covered in crimson blood..?",
 	"buildsFrom": [
 		{
-			"name": "Wing Knuckles",
+			"name": "Scissors",
 			"id": 110302
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

@@ -51,11 +51,11 @@ export const IronSheet: Item = {
 	"description": "This will give you goosebumps if you scrape your fingernails across it.",
 	"buildsFrom": [
 		{
-			"name": "Scrap Metal",
+			"name": "Scissors",
 			"id": 401106
 		},
 		{
-			"name": "Hammer",
+			"name": "Scissors",
 			"id": 104101
 		}
 	],

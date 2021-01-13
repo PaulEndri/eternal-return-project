@@ -15,124 +15,124 @@ export const Boar: Animal = {
 	},
 	"items": [
 		{
-			"name": "Meat",
-			"percentage": 0,
-			"rarity": "Always"
+			"id": 302111,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Fountain Pen",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 101102,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Surveillance Camera",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 502101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Snare",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 502102,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Mousetrap",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 502103,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Piano Wire",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 502104,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Tights",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 204103,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Short Spear",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 107101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Stallion Medal",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 401109,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Monk's Robe",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 202103,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Alcohol",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 401111,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Bike Helmet",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 201104,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Cloth",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 401113,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Flower",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 205102,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Holy Grail",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 205108,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Kitchen Knife",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 101104,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Iron Ore",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 401118,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Can",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 401120,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Iron Ball",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 119101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Glass Bottle",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 112103,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Hammer",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 112104,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Playing Cards",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 104101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Feather",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 113102,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Steel Chain",
-			"percentage": 0,
-			"rarity": "Rarely"
+			"id": 205101,
+			"percentage": 2,
+			"rarity": ""
 		}
 	],
 	"stats": {

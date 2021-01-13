@@ -31,11 +31,11 @@ export const Nocaster: Item = {
 	"description": "The most used title in art is \"Untitled\". Isn't there an unsaid rule that says not to do that with guitar names?",
 	"buildsFrom": [
 		{
-			"name": "Single Coil Pickup",
+			"name": "Scissors",
 			"id": 121202
 		},
 		{
-			"name": "Blueprint",
+			"name": "Scissors",
 			"id": 401212
 		}
 	],

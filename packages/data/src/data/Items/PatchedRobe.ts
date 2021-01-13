@@ -31,11 +31,11 @@ export const PatchedRobe: Item = {
 	"description": "Made by patching together various robes. Might be more reliable than a regular robe.",
 	"buildsFrom": [
 		{
-			"name": "Monk's Robe",
+			"name": "Scissors",
 			"id": 202103
 		},
 		{
-			"name": "Bandage",
+			"name": "Scissors",
 			"id": 203102
 		}
 	],

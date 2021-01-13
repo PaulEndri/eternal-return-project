@@ -6,7 +6,7 @@ export const Whiskey: Item = {
 	"buildsFrom": [],
 	"buildsInto": [
 		{
-			"name": "Screwdriver",
+			"name": "Cocktail",
 			"id": 301207
 		},
 		{

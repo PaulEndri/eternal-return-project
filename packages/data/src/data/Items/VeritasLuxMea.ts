@@ -25,11 +25,11 @@ export const VeritasLuxMea: Item = {
 	"description": "Truth is my light.",
 	"buildsFrom": [
 		{
-			"name": "Buddha Sarira",
+			"name": "Scissors",
 			"id": 205207
 		},
 		{
-			"name": "Saint's Relic",
+			"name": "Scissors",
 			"id": 205202
 		}
 	],

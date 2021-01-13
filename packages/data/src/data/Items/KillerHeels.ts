@@ -34,12 +34,12 @@ export const KillerHeels: Item = {
 	"description": "Heels sharp enough to be used as weapons themselves.",
 	"buildsFrom": [
 		{
-			"name": "High Heels",
-			"id": 204203
+			"name": "Scissors",
+			"id": 204204
 		},
 		{
-			"name": "Glass Pieces",
-			"id": 205204
+			"name": "Scissors",
+			"id": 401211
 		}
 	],
 	"displayName": "Killer Heels",

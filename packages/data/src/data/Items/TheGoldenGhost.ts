@@ -25,11 +25,11 @@ export const TheGoldenGhost: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Power Crossbow",
+			"name": "Scissors",
 			"id": 115301
 		},
 		{
-			"name": "RDX",
+			"name": "Scissors",
 			"id": 502307
 		}
 	],

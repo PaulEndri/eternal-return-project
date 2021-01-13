@@ -26,11 +26,11 @@ export const BuddhasPalm: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Phoenix Gloves",
+			"name": "Scissors",
 			"id": 110404
 		},
 		{
-			"name": "Buddha Sarira",
+			"name": "Scissors",
 			"id": 205207
 		}
 	],

@@ -24,11 +24,11 @@ export const ClangClatter: Item = {
 	"foundQuantity": 5,
 	"buildsFrom": [
 		{
-			"name": "Can",
+			"name": "Scissors",
 			"id": 401120
 		},
 		{
-			"name": "Iron Ball",
+			"name": "Scissors",
 			"id": 112103
 		}
 	],

@@ -38,11 +38,11 @@ export const TwinSwords: Item = {
 	"description": "Double the sword, double the offense!",
 	"buildsFrom": [
 		{
-			"name": "Kitchen Knife",
+			"name": "Scissors",
 			"id": 101104
 		},
 		{
-			"name": "Rusty Sword",
+			"name": "Scissors",
 			"id": 102101
 		}
 	],

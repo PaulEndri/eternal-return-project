@@ -26,11 +26,11 @@ export const SquadLeaderArmband: Item = {
 	"description": "An armband normally worn by a squad commander. How did you get this?!",
 	"buildsFrom": [
 		{
-			"name": "Bandage",
+			"name": "Scissors",
 			"id": 203102
 		},
 		{
-			"name": "Needle",
+			"name": "Scissors",
 			"id": 120101
 		}
 	],

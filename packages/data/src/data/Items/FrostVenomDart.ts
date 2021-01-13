@@ -31,11 +31,11 @@ export const FrostVenomDart: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Venom Dart",
+			"name": "Scissors",
 			"id": 113402
 		},
 		{
-			"name": "Ice",
+			"name": "Scissors",
 			"id": 301103
 		}
 	],

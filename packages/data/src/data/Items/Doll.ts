@@ -34,11 +34,11 @@ export const Doll: Item = {
 	"description": "Aren't you a little old to be playing with dolls?",
 	"buildsFrom": [
 		{
-			"name": "Ribbon",
+			"name": "Scissors",
 			"id": 205103
 		},
 		{
-			"name": "Cloth",
+			"name": "Scissors",
 			"id": 401113
 		}
 	],

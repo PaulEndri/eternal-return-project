@@ -33,11 +33,11 @@ export const LongRod: Item = {
 	"description": "You can keep more distance than when using a short rod, but you still have to be careful.",
 	"buildsFrom": [
 		{
-			"name": "Short Rod",
+			"name": "Scissors",
 			"id": 108102
 		},
 		{
-			"name": "Bamboo",
+			"name": "Scissors",
 			"id": 108103
 		}
 	],

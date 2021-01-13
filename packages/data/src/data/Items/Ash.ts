@@ -51,11 +51,11 @@ export const Ash: Item = {
 	"description": "The remains of something burning.",
 	"buildsFrom": [
 		{
-			"name": "Paper",
+			"name": "Scissors",
 			"id": 401117
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

@@ -27,11 +27,11 @@ export const OneInchPunch: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Bone Gauntlet",
+			"name": "Scissors",
 			"id": 110401
 		},
 		{
-			"name": "Doll",
+			"name": "Scissors",
 			"id": 205205
 		}
 	],

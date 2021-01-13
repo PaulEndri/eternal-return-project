@@ -34,11 +34,11 @@ export const Katana: Item = {
 	"description": "I can't believe that I'm actually holding a Japanese sword that I saw in the movies!",
 	"buildsFrom": [
 		{
-			"name": "Rusty Sword",
+			"name": "Scissors",
 			"id": 102101
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

@@ -26,11 +26,11 @@ export const ButlersSuit: Item = {
 	"description": "A graceful and courteous attitude, a soft tone, and a swallow-tailed black coat are the essentials of a butler. We can get a taste of high society by looking at them.",
 	"buildsFrom": [
 		{
-			"name": "Suit",
+			"name": "Scissors",
 			"id": 202303
 		},
 		{
-			"name": "Feather Duster",
+			"name": "Scissors",
 			"id": 205209
 		}
 	],

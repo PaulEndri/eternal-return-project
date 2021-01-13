@@ -13,7 +13,18 @@ export const Chicken: Animal = {
 		"Hotel": 3,
 		"Chapel": 3
 	},
-	"items": [],
+	"items": [
+		{
+			"id": 302111,
+			"percentage": 1,
+			"rarity": ""
+		},
+		{
+			"id": 401103,
+			"percentage": 1,
+			"rarity": ""
+		}
+	],
 	"stats": {
 		"createTime": 0,
 		"regenTime": 90,

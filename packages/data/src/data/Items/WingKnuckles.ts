@@ -27,11 +27,11 @@ export const WingKnuckles: Item = {
 	"description": "Free your burdened soul with these masterfully created wings. But there exists no sky for you to spread your wings...",
 	"buildsFrom": [
 		{
-			"name": "Iron Knuckles",
+			"name": "Scissors",
 			"id": 110202
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

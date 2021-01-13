@@ -33,11 +33,11 @@ export const Warhammer: Item = {
 	"description": "It's like a gift set of close combat weapons! Includes a hammer for striking, a spear for piercing, and a sword for slashing.",
 	"buildsFrom": [
 		{
-			"name": "Hammer",
+			"name": "Scissors",
 			"id": 104101
 		},
 		{
-			"name": "Short Rod",
+			"name": "Scissors",
 			"id": 108102
 		}
 	],

@@ -26,11 +26,11 @@ export const EmeraldTablet: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		},
 		{
-			"name": "Flower of Fate",
+			"name": "Scissors",
 			"id": 205203
 		}
 	],

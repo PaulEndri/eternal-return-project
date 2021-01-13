@@ -27,11 +27,11 @@ export const ElectronBlaster: Item = {
 	"description": "It's not as strong as the laser guns used on the other side of the cosmos, but it's still pretty powerful.",
 	"buildsFrom": [
 		{
-			"name": "Beretta M92F",
+			"name": "Scissors",
 			"id": 116202
 		},
 		{
-			"name": "Ion Battery",
+			"name": "Scissors",
 			"id": 401306
 		}
 	],

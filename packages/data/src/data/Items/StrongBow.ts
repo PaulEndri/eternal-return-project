@@ -31,11 +31,11 @@ export const StrongBow: Item = {
 	"description": "A bow with strong elasticity, the bow string is made of 240 strands of three-ply thread.",
 	"buildsFrom": [
 		{
-			"name": "Wooden Bow",
+			"name": "Scissors",
 			"id": 114201
 		},
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		}
 	],

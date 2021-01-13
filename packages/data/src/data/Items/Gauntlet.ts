@@ -31,11 +31,11 @@ export const Gauntlet: Item = {
 	"description": "Gloves that knights wore to protect their hands.",
 	"buildsFrom": [
 		{
-			"name": "Cotton Gloves",
+			"name": "Scissors",
 			"id": 110102
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

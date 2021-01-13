@@ -32,11 +32,11 @@ export const HalberdAxe: Item = {
 	"description": "On one end there's an ax blade and on the other end there's a stabbing blade.",
 	"buildsFrom": [
 		{
-			"name": "Hatchet",
+			"name": "Scissors",
 			"id": 105103
 		},
 		{
-			"name": "Pike",
+			"name": "Scissors",
 			"id": 107302
 		}
 	],

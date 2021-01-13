@@ -29,11 +29,11 @@ export const MagnumBoa: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Magnum-Anaconda",
+			"name": "Scissors",
 			"id": 116402
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

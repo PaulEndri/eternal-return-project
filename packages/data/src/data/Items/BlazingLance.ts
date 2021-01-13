@@ -26,11 +26,11 @@ export const BlazingLance: Item = {
 	"description": "The length stretches freely, and flames spurt from the end of the spear; a treasure that appeared in \"Fengshen Yanyi.\"",
 	"buildsFrom": [
 		{
-			"name": "True Samadhi Fire",
+			"name": "Scissors",
 			"id": 205403
 		},
 		{
-			"name": "Bamboo Spear",
+			"name": "Scissors",
 			"id": 107201
 		}
 	],

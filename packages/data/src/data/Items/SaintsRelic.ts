@@ -42,11 +42,11 @@ export const SaintsRelic: Item = {
 	"description": "The last relic of one who fought to save those who have fallen, despite being betrayed, tortured, and crucified.",
 	"buildsFrom": [
 		{
-			"name": "Cross",
+			"name": "Scissors",
 			"id": 205109
 		},
 		{
-			"name": "Holy Grail",
+			"name": "Scissors",
 			"id": 205108
 		}
 	],

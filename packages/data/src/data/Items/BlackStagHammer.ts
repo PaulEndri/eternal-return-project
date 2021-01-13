@@ -30,11 +30,11 @@ export const BlackStagHammer: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Warhammer",
+			"name": "Scissors",
 			"id": 104201
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

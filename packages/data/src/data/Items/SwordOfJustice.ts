@@ -33,11 +33,11 @@ export const SwordOfJustice: Item = {
 	"description": "Historical texts state that Hong Gil-dong, the Robin Hood of ancient Korea, used it.",
 	"buildsFrom": [
 		{
-			"name": "Rapier",
+			"name": "Scissors",
 			"id": 120201
 		},
 		{
-			"name": "Covert Agent Uniform",
+			"name": "Scissors",
 			"id": 202404
 		}
 	],

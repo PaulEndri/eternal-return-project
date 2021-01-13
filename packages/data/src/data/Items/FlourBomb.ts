@@ -29,11 +29,11 @@ export const FlourBomb: Item = {
 	"description": "By combining a flour bomb and some gunpowder, you can make a smoke bomb. Let's see if there's any gunpowder around here...",
 	"buildsFrom": [
 		{
-			"name": "White Powder",
+			"name": "Scissors",
 			"id": 401206
 		},
 		{
-			"name": "Molotov Cocktail",
+			"name": "Scissors",
 			"id": 112203
 		}
 	],

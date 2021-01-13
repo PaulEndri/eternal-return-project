@@ -28,7 +28,7 @@ export const KingV: Item = {
 	"description": "This guitar has an unconventional V shape. Although it was sensational at release, it didn't see huge popularity.",
 	"buildsFrom": [
 		{
-			"name": "Golden Bridge",
+			"name": "Scissors",
 			"id": 121201
 		},
 		{

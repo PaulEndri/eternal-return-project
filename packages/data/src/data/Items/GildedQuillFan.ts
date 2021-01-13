@@ -30,11 +30,11 @@ export const GildedQuillFan: Item = {
 	"description": "If you fan your face with this, try not to scratch yourself.",
 	"buildsFrom": [
 		{
-			"name": "Fan",
+			"name": "Scissors",
 			"id": 205105
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

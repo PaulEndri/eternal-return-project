@@ -5,12 +5,12 @@ export const Mine: Item = {
 	"name": "Mine",
 	"buildsFrom": [
 		{
-			"name": "Booby Trap",
-			"id": 502205
+			"name": "Scissors",
+			"id": "Booby Trap"
 		},
 		{
-			"name": "Gunpowder",
-			"id": 401121
+			"name": "Scissors",
+			"id": "Gunpowder"
 		}
 	],
 	"buildsInto": [

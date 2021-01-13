@@ -33,11 +33,11 @@ export const Longbow: Item = {
 	"description": "A unique Korean bow incorporating a horn in its designs. Anyone can use the bow, as it will adapt to the user.",
 	"buildsFrom": [
 		{
-			"name": "Bow",
+			"name": "Scissors",
 			"id": 114101
 		},
 		{
-			"name": "Rubber",
+			"name": "Scissors",
 			"id": 401105
 		}
 	],

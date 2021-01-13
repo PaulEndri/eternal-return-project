@@ -25,11 +25,11 @@ export const Arondight: Item = {
 	"description": "The sword of Sir Lancelot, who was a dragon slayer that cut down the fire drake during the rescue of princess Elaine of Corbenic.",
 	"buildsFrom": [
 		{
-			"name": "Masamune",
+			"name": "Scissors",
 			"id": 102401
 		},
 		{
-			"name": "Cross",
+			"name": "Scissors",
 			"id": 205109
 		}
 	],

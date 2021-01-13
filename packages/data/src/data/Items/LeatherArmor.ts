@@ -33,11 +33,11 @@ export const LeatherArmor: Item = {
 	"description": "Armor made from leather. Stronger than armor made from just fabric!",
 	"buildsFrom": [
 		{
-			"name": "Fabric Armor",
+			"name": "Scissors",
 			"id": 202106
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

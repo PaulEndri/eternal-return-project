@@ -30,11 +30,11 @@ export const Bident: Item = {
 	"description": "The weapon of Hades, the Greek god of the underworld.  It's a two-pronged spear and one of the known treasures of Hades, along with his cornucopia and helmet.",
 	"buildsFrom": [
 		{
-			"name": "Bamboo Spear",
+			"name": "Scissors",
 			"id": 107201
 		},
 		{
-			"name": "Kitchen Knife",
+			"name": "Scissors",
 			"id": 101104
 		}
 	],

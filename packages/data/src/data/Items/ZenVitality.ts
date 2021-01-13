@@ -5,12 +5,12 @@ export const ZenVitality: Item = {
 	"name": "ZenVitality",
 	"buildsFrom": [
 		{
-			"name": "Acupuncture Needle",
-			"id": 302217
+			"name": "Scissors",
+			"id": "Acupuncture Needle"
 		},
 		{
-			"name": "Herbal Medicine",
-			"id": 302207
+			"name": "Scissors",
+			"id": "Herbal Medicine"
 		}
 	],
 	"buildsInto": [],

@@ -30,11 +30,11 @@ export const Tonfa: Item = {
 	"description": "A weapon that is modified and widely used in Okinawa. Tonfa-based martial arts shares many similarities with bare-handed martial arts.",
 	"buildsFrom": [
 		{
-			"name": "Bamboo",
+			"name": "Scissors",
 			"id": 108103
 		},
 		{
-			"name": "Branch",
+			"name": "Scissors",
 			"id": 108101
 		}
 	],

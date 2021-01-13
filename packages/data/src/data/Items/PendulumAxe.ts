@@ -5,12 +5,12 @@ export const PendulumAxe: Item = {
 	"name": "PendulumAxe",
 	"buildsFrom": [
 		{
-			"name": "Bamboo Trap",
-			"id": 502204
+			"name": "Scissors",
+			"id": "Bamboo Trap"
 		},
 		{
-			"name": "Hatchet",
-			"id": 105103
+			"name": "Scissors",
+			"id": "Hatchet"
 		}
 	],
 	"buildsInto": [

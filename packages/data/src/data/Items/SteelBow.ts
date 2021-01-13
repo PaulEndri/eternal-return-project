@@ -28,11 +28,11 @@ export const SteelBow: Item = {
 	"description": "A bow made out of steel. It might be heavy to some.",
 	"buildsFrom": [
 		{
-			"name": "Crossbow",
+			"name": "Scissors",
 			"id": 115202
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

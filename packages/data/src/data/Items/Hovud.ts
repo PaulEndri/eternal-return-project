@@ -26,11 +26,11 @@ export const Hovud: Item = {
 	"description": "It is said that this blade, as mentioned briefly in \"Prose Edda\", was used by the Nordic mythical god Heimdallr and was made out of broken pieces of the rainbow bridge, Bifröst. The entire blade emits a dark blue aura, which makes the sword difficult to approach. Some people believe this blade's name means \"head\".",
 	"buildsFrom": [
 		{
-			"name": "Jewel Sword",
+			"name": "Scissors",
 			"id": 102404
 		},
 		{
-			"name": "Glass Pieces",
+			"name": "Scissors",
 			"id": 205204
 		}
 	],

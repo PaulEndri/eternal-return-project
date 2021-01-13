@@ -35,11 +35,11 @@ export const Pike: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Short Spear",
+			"name": "Scissors",
 			"id": 107101
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

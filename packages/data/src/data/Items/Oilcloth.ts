@@ -39,11 +39,11 @@ export const Oilcloth: Item = {
 	"description": "Oiled cloth. May be needed for something involving fire.",
 	"buildsFrom": [
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		},
 		{
-			"name": "Bandage",
+			"name": "Scissors",
 			"id": 203102
 		}
 	],

@@ -26,11 +26,11 @@ export const Draupnir: Item = {
 	"description": "The magical golden bracelet of the Norse God, Odin. It has the power to provide unthinkable riches... and a full stomach",
 	"buildsFrom": [
 		{
-			"name": "Golden Bracelet",
+			"name": "Scissors",
 			"id": 203302
 		},
 		{
-			"name": "Bracer",
+			"name": "Scissors",
 			"id": 203203
 		}
 	],

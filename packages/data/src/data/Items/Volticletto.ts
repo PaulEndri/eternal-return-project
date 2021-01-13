@@ -28,11 +28,11 @@ export const Volticletto: Item = {
 	"description": "The word \"Volticletto\" is a portmanteau of 'voltaic,' meaning related to electric current, and the Italian 'Stiletto knife'. Punctures from this weapon cause double the pain.",
 	"buildsFrom": [
 		{
-			"name": "Apricot Sword",
+			"name": "Scissors",
 			"id": 120301
 		},
 		{
-			"name": "Electronic Parts",
+			"name": "Scissors",
 			"id": 401211
 		}
 	],

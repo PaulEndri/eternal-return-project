@@ -5,12 +5,12 @@ export const RemoteMine: Item = {
 	"name": "RemoteMine",
 	"buildsFrom": [
 		{
-			"name": "Force Core",
-			"id": 401403
+			"name": "Scissors",
+			"id": "Force Core"
 		},
 		{
-			"name": "Spiked Plank",
-			"id": 502201
+			"name": "Scissors",
+			"id": "Spiked Plank"
 		}
 	],
 	"buildsInto": [],

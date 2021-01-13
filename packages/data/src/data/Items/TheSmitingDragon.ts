@@ -25,11 +25,11 @@ export const TheSmitingDragon: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Sharper",
+			"name": "Scissors",
 			"id": 119301
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],

@@ -28,11 +28,11 @@ export const LeatherGloves: Item = {
 	"foundQuantity": 1,
 	"buildsFrom": [
 		{
-			"name": "Cotton Gloves",
+			"name": "Scissors",
 			"id": 110102
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

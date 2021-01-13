@@ -25,11 +25,11 @@ export const HammerOfThor: Item = {
 	"description": "The hammer that Thor, the God of Thunder, used. Also called Mjolnir, meaning \"The Destroyer.\"",
 	"buildsFrom": [
 		{
-			"name": "Black Stag Hammer",
+			"name": "Scissors",
 			"id": 104302
 		},
 		{
-			"name": "Ion Battery",
+			"name": "Scissors",
 			"id": 401306
 		}
 	],

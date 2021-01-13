@@ -31,11 +31,11 @@ export const RubySpecial: Item = {
 	"description": "A unique guitar that is as red as a ruby.",
 	"buildsFrom": [
 		{
-			"name": "Single Coil Pickup",
+			"name": "Scissors",
 			"id": 121202
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

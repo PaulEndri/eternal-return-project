@@ -1,11 +1,14 @@
-import fs from "fs";
-import { ErBsClient, MetaTypes } from "erbs-client";
+import fs from 'fs';
+import { ErBsClient, MetaTypes } from 'erbs-client';
 
 export const getClientData = () => {
   const client = new ErBsClient();
 
   const writeFile = (name: string, content) => {
-    fs.writeFileSync(`src/generated/clientData/${name}.json`, JSON.stringify(content, null, 2));
+    fs.writeFileSync(
+      `src/generated/clientData/${name}.json`,
+      JSON.stringify(content, null, 2)
+    );
   };
 
   const wait3 = () => {
@@ -36,6 +39,8 @@ export const getClientData = () => {
     const howToFind = await client.getMetaData(MetaTypes.HowToFindItem);
     await wait3();
     const characters = await client.getCharacters();
+    await wait3();
+    const dropGroups = await client.getMetaData(MetaTypes.DropGroup);
 
     return {
       weapons,
@@ -44,17 +49,18 @@ export const getClientData = () => {
       misc,
       special,
       spawns,
+      dropGroups,
       locations,
       connections,
       animals,
       howToFind,
-      characters,
+      characters
     };
   };
 
   return getClientData().then((data) => {
     Object.entries(data).forEach(([name, content]) => writeFile(name, content));
 
-    return "ok";
+    return 'ok';
   });
 };

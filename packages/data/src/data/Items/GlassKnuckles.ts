@@ -28,11 +28,11 @@ export const GlassKnuckles: Item = {
 	"description": "Knuckles coated with glass fragments. They're not entirely made of glass!",
 	"buildsFrom": [
 		{
-			"name": "Iron Knuckles",
+			"name": "Scissors",
 			"id": 110202
 		},
 		{
-			"name": "Glass Pieces",
+			"name": "Scissors",
 			"id": 205204
 		}
 	],

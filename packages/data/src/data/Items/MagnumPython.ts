@@ -32,11 +32,11 @@ export const MagnumPython: Item = {
 	"description": "If you research revolvers that use Magnum cartridges, you'll find that some of them use scientific names for snakes. This one is the  Pythonidae, also known as Python.",
 	"buildsFrom": [
 		{
-			"name": "Walther PPK",
+			"name": "Scissors",
 			"id": 116101
 		},
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		}
 	],

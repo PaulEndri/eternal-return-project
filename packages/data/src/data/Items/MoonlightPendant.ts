@@ -27,11 +27,11 @@ export const MoonlightPendant: Item = {
 	"description": "It is not just a simple pendant. Magical powers are unleashed when shining a particular light through it.",
 	"buildsFrom": [
 		{
-			"name": "Ribbon",
+			"name": "Scissors",
 			"id": 205103
 		},
 		{
-			"name": "Moonstone",
+			"name": "Scissors",
 			"id": 401301
 		}
 	],

@@ -35,11 +35,11 @@ export const ArmyKnife: Item = {
 	"description": "Very threatening yet easy to carry. It faithfully performs its duties, such as cutting and stabbing.",
 	"buildsFrom": [
 		{
-			"name": "Kitchen Knife",
+			"name": "Scissors",
 			"id": 101104
 		},
 		{
-			"name": "Branch",
+			"name": "Scissors",
 			"id": 108101
 		}
 	],

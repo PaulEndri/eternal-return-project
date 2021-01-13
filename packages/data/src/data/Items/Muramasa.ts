@@ -27,11 +27,11 @@ export const Muramasa: Item = {
 	"description": "A sword cursing the Tokugawa family, who were the founders of Japan's Tokugawa shogunate. Tokugawa Leyasu's grandfather, father, and son were all killed or wounded by this sword, and Leyasu himself also had his finger cut off.",
 	"buildsFrom": [
 		{
-			"name": "Katana",
+			"name": "Scissors",
 			"id": 102301
 		},
 		{
-			"name": "Gemstone",
+			"name": "Scissors",
 			"id": 401114
 		}
 	],

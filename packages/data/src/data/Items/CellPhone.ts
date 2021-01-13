@@ -29,11 +29,11 @@ export const CellPhone: Item = {
 	"description": "I'm not getting any bars here...",
 	"buildsFrom": [
 		{
-			"name": "Blueprint",
+			"name": "Scissors",
 			"id": 401212
 		},
 		{
-			"name": "Electronic Parts",
+			"name": "Scissors",
 			"id": 401211
 		}
 	],

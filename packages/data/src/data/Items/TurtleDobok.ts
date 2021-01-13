@@ -26,11 +26,11 @@ export const TurtleDobok: Item = {
 	"description": "A martial arts uniform worn by ninja turtles. They're obviously giant turtles, why do they need masks?",
 	"buildsFrom": [
 		{
-			"name": "Monk's Robe",
+			"name": "Scissors",
 			"id": 202103
 		},
 		{
-			"name": "Turtle Shell",
+			"name": "Scissors",
 			"id": 401104
 		}
 	],

@@ -26,11 +26,11 @@ export const HighHeels: Item = {
 	"description": "Makes you a bit taller. Maybe the air is fresher up there.",
 	"buildsFrom": [
 		{
-			"name": "Slippers",
+			"name": "Scissors",
 			"id": 204101
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "Scissors",
 			"id": 401106
 		}
 	],

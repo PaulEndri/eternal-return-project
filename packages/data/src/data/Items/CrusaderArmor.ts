@@ -26,11 +26,11 @@ export const CrusaderArmor: Item = {
 	"description": "Some say that this armor provides special protection from the undead. It's a shame there's no zombies around here.",
 	"buildsFrom": [
 		{
-			"name": "Sheet Metal Armor",
+			"name": "Scissors",
 			"id": 202305
 		},
 		{
-			"name": "Saint's Relic",
+			"name": "Scissors",
 			"id": 205202
 		}
 	],

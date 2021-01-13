@@ -23,11 +23,11 @@ export const EveningStar: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Moonstone",
+			"name": "Scissors",
 			"id": 401301
 		},
 		{
-			"name": "Morning Star",
+			"name": "Scissors",
 			"id": 104301
 		}
 	],

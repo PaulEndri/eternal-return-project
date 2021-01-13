@@ -273,17 +273,17 @@ export const Lenox: Character = {
 	],
 	"stats": {
 		"initial": {
-			"maxHp": 550,
-			"maxSp": 430,
+			"maxHp": 500,
+			"maxSp": 350,
 			"initExtraPoint": 0,
 			"maxExtraPoint": 0,
-			"attackPower": 40,
-			"defense": 28,
+			"attackPower": 36,
+			"defense": 26,
 			"criticalChance": 0,
 			"hpRegen": 0.8,
-			"spRegen": 2.2,
-			"attackSpeed": 0.22,
-			"moveSpeed": 3.1,
+			"spRegen": 1.8,
+			"attackSpeed": 0.12,
+			"moveSpeed": 3.2,
 			"sightRange": 8
 		},
 		"perLevel": {

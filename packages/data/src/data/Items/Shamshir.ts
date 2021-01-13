@@ -29,11 +29,11 @@ export const Shamshir: Item = {
 	"description": "The name translates into \"The Tail of the Lion.\" A symbolic sword of Persia, it's also known to be the origin of the sabre.",
 	"buildsFrom": [
 		{
-			"name": "Rusty Sword",
+			"name": "Scissors",
 			"id": 102101
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

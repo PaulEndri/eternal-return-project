@@ -32,11 +32,11 @@ export const Hanbok: Item = {
 	"description": "A traditional Korean dress. The diverse range of colors and elegant embroidery enhances the harmony of curves and straight lines.",
 	"buildsFrom": [
 		{
-			"name": "Patched Robe",
+			"name": "Scissors",
 			"id": 202206
 		},
 		{
-			"name": "Flower",
+			"name": "Scissors",
 			"id": 205102
 		}
 	],

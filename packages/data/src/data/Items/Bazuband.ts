@@ -28,11 +28,11 @@ export const Bazuband: Item = {
 	"description": "Older styled forearm protectors to protect your, well, forearms.",
 	"buildsFrom": [
 		{
-			"name": "Bracer",
+			"name": "Scissors",
 			"id": 203203
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

@@ -59,11 +59,11 @@ export const Gold: Item = {
 	"description": "Soft, valuable, and gorgeous. A must have for any piece of jewelery.",
 	"buildsFrom": [
 		{
-			"name": "Pickaxe",
+			"name": "Scissors",
 			"id": 105102
 		},
 		{
-			"name": "Gemstone",
+			"name": "Scissors",
 			"id": 401114
 		}
 	],

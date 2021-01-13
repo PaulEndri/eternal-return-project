@@ -20,11 +20,13 @@ import Locations from './generated/newGenerated/Locations.json';
 import locationSpawns from './generated/clientData/spawns.json';
 // import ClassicItemData from './generated/classic/Complete.json';
 
+import DropGroups from './generated/clientData/dropGroups.json';
+
 import fs from 'fs';
 import { sanitizeItemString } from './sanitizeItemName';
 
 export const generateMasterData = () => {
-  const masterAnimals = [];
+  let masterAnimals = [];
   const masterItems = [];
   const keyedItems = {};
 
@@ -100,17 +102,23 @@ export const generateMasterData = () => {
         );
       }
 
-      let items;
-
-      if (animal.items) {
-        items = Object.values(animal.items).map(
-          ({ name, percentage, rarity }) => ({
-            name,
-            percentage: +percentage,
-            rarity
-          })
-        );
-      }
+      const items = DropGroups.filter(
+        ({ groupCode }) => groupCode === dropGroup
+      ).map((group) => {
+        const id = group.itemCode;
+        const percentage = group.probability;
+        const masterItem = masterItems.find(({ id }) => group.itemCode === id);
+        let name;
+        if (masterItem) {
+          name = masterItem.displayName;
+        }
+        return {
+          id,
+          percentage,
+          name,
+          rarity: ''
+        };
+      });
 
       if (items) {
         masterAnimals.push({
@@ -166,16 +174,10 @@ export const generateMasterData = () => {
         masterItems.push({
           id,
           ...rest,
+          rarity: item.itemGrade,
           code: item.name,
-          buildsFrom: buildsFrom.map((item) =>
-            item === 'Blueprints'
-              ? 'Blueprint'
-              : item === 'Full Body Swimsuit'
-              ? 'Wetsuit'
-              : [enName, name].includes('Gleipnir') &&
-                item === 'Honey cod steak'
-              ? 'Spiked Plank'
-              : item
+          buildsFrom: [item.makeMaterial1, item.makeMaterial2].filter(
+            (x) => x && x !== 0
           ),
           name: sanitizeItemString(rest.name),
           displayName: rest.name,
@@ -207,24 +209,16 @@ export const generateMasterData = () => {
       item.airSupply = false;
       item.collectible = 0;
 
-      item.buildsFrom = item.buildsFrom.map((itemName) => {
-        let foundItem = ItemKeyLookups[itemName];
-
-        if (!foundItem) {
-          foundItem = masterItems.find(
-            ({ name }) => sanitizeItemString(itemName) === name
-          );
-        } else {
-          foundItem = masterItems.find(({ id }) => id === foundItem);
-        }
+      item.buildsFrom = item.buildsFrom.map((id) => {
+        let foundItem = masterItems.find(({ id }) => id === id);
 
         if (!foundItem || typeof foundItem.id === 'string') {
-          missingItems.add(itemName);
+          missingItems.add(id);
         }
 
         return {
-          name: itemName,
-          id: foundItem ? foundItem.id : null
+          name: foundItem.displayName,
+          id
         };
       });
 
@@ -617,6 +611,8 @@ export const generateMasterData = () => {
   const itemsData = generateItems();
   const characterData = generateCharacters();
 
+  masterAnimals = [];
+  animalData = generateAnimals();
   masterItems.forEach((item) => (keyedItems[item.id] = item));
 
   animalData = animalData.map((animal) => {

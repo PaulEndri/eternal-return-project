@@ -28,11 +28,11 @@ export const Bohemian: Item = {
 	"description": "\"Bohemian\" was first used to describe a part of the Czech population, but it is now used to represent free spirits.",
 	"buildsFrom": [
 		{
-			"name": "Ruby Special",
+			"name": "Scissors",
 			"id": 121301
 		},
 		{
-			"name": "Playing Cards",
+			"name": "Scissors",
 			"id": 113102
 		}
 	],

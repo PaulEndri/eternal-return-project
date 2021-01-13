@@ -29,11 +29,11 @@ export const DivingSuit: Item = {
 	"description": "A diving suit with filler between the inner and outer skin. It excels at maintaining body temperature and enduring higher pressure.",
 	"buildsFrom": [
 		{
-			"name": "Wetsuit",
+			"name": "Scissors",
 			"id": 202105
 		},
 		{
-			"name": "Rubber",
+			"name": "Scissors",
 			"id": 401105
 		}
 	],

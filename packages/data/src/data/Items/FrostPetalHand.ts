@@ -25,11 +25,11 @@ export const FrostPetalHand: Item = {
 	"description": "A guardian spirit that was passed down through generations of the North Polar Sea kingdom's bloodline. Petal-shaped ice flakes form along its surface to protect its user from harm.",
 	"buildsFrom": [
 		{
-			"name": "Phoenix Gloves",
+			"name": "Scissors",
 			"id": 110404
 		},
 		{
-			"name": "Ice",
+			"name": "Scissors",
 			"id": 301103
 		}
 	],

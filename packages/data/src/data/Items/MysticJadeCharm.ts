@@ -26,11 +26,11 @@ export const MysticJadeCharm: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Charm",
+			"name": "Scissors",
 			"id": 113202
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],

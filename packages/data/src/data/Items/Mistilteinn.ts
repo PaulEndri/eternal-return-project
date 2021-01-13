@@ -30,11 +30,11 @@ export const Mistilteinn: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Sword of Justice",
+			"name": "Scissors",
 			"id": 120302
 		},
 		{
-			"name": "Branch",
+			"name": "Scissors",
 			"id": 108101
 		}
 	],

@@ -30,11 +30,11 @@ export const Torch: Item = {
 	"description": "The torch that lights your way might help you keep your own life from being extinguished. If you see an enemy, don't hesitate to swing.",
 	"buildsFrom": [
 		{
-			"name": "Feather Duster",
+			"name": "Scissors",
 			"id": 205209
 		},
 		{
-			"name": "Oilcloth",
+			"name": "Scissors",
 			"id": 401202
 		}
 	],

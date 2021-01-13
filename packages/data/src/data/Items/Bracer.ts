@@ -34,11 +34,11 @@ export const Bracer: Item = {
 	"description": "Throw this on your wrist to protect you from the bow string.",
 	"buildsFrom": [
 		{
-			"name": "Bandage",
+			"name": "Scissors",
 			"id": 203102
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

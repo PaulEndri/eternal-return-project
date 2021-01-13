@@ -31,11 +31,11 @@ export const Mask: Item = {
 	"description": "If you can escape from Lumia Island, try visiting the Carnival of Venice. It's one of the most popular festivals in the world, but you can visit only if you manage to get out of here alive.",
 	"buildsFrom": [
 		{
-			"name": "Hairband",
+			"name": "Scissors",
 			"id": 201101
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

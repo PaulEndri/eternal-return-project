@@ -28,11 +28,11 @@ export const XCR: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "M16A1",
+			"name": "Scissors",
 			"id": 117401
 		},
 		{
-			"name": "Magazine",
+			"name": "Scissors",
 			"id": 205303
 		}
 	],

@@ -5,12 +5,12 @@ export const Dainsleif: Item = {
 	"name": "Dainsleif",
 	"buildsFrom": [
 		{
-			"name": "VF Blood Sample",
-			"id": 401401
+			"name": "Scissors",
+			"id": "VF Blood Sample"
 		},
 		{
-			"name": "Katana",
-			"id": 102301
+			"name": "Scissors",
+			"id": "Katana"
 		}
 	],
 	"buildsInto": [],

@@ -27,11 +27,11 @@ export const Grenade: Item = {
 	"description": "Be careful! The moment you relax and forget you're carrying a grenade is the moment that you become a victim. Boom.",
 	"buildsFrom": [
 		{
-			"name": "Iron Ball",
+			"name": "Scissors",
 			"id": 112103
 		},
 		{
-			"name": "Gunpowder",
+			"name": "Scissors",
 			"id": 401121
 		}
 	],

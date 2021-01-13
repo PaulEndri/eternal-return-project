@@ -25,11 +25,11 @@ export const DivineFist: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Shatter Shell Gauntlet",
+			"name": "Scissors",
 			"id": 110402
 		},
 		{
-			"name": "Cross",
+			"name": "Scissors",
 			"id": 205109
 		}
 	],

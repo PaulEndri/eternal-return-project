@@ -27,11 +27,11 @@ export const PowerCrossbow: Item = {
 	"description": "A good weapon, but it's paramount that you keep good track of your arrows.",
 	"buildsFrom": [
 		{
-			"name": "Long Crossbow",
+			"name": "Scissors",
 			"id": 115201
 		},
 		{
-			"name": "Rubber",
+			"name": "Scissors",
 			"id": 401105
 		}
 	],

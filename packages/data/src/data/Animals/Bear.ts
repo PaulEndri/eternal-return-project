@@ -13,124 +13,129 @@ export const Bear: Animal = {
 	},
 	"items": [
 		{
-			"name": "Leather",
-			"percentage": 100,
-			"rarity": "Always"
+			"id": 302111,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Meat",
-			"percentage": 100,
-			"rarity": "Always"
+			"id": 401103,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Steel",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Oilcloth",
-			"percentage": 6,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Heated Oil",
-			"percentage": 6,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Ruby",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Dead Battery",
-			"percentage": 6,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "White Powder",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Tree of Life",
+			"id": 401201,
 			"percentage": 2,
-			"rarity": "Rarely"
+			"rarity": ""
 		},
 		{
-			"name": "Meteorite",
-			"percentage": 6,
-			"rarity": "Rarely"
+			"id": 401202,
+			"percentage": 3,
+			"rarity": ""
 		},
 		{
-			"name": "Ash",
-			"percentage": 4,
-			"rarity": "Rarely"
+			"id": 401203,
+			"percentage": 3,
+			"rarity": ""
 		},
 		{
-			"name": "Electronic Parts",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Blueprint",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Iron Sheet",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Gold",
-			"percentage": 6,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Moon Stone",
-			"percentage": 6,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Poison",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Motor",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Mithril",
-			"percentage": 6,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Glass Panel",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "Ion Battery",
-			"percentage": 4,
-			"rarity": "Rarely"
-		},
-		{
-			"name": "VF Blood Sample",
+			"id": 401204,
 			"percentage": 2,
-			"rarity": "Rarely"
+			"rarity": ""
 		},
 		{
-			"name": "Cell Phone",
-			"percentage": 4,
-			"rarity": "Rarely"
+			"id": 401205,
+			"percentage": 3,
+			"rarity": ""
 		},
 		{
-			"name": "Force Core",
-			"percentage": 6,
-			"rarity": "Rarely"
+			"id": 401206,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 205301,
+			"percentage": 1,
+			"rarity": ""
+		},
+		{
+			"id": 401209,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401210,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401211,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401212,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401213,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401214,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401215,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401301,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401302,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401303,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401304,
+			"percentage": 3,
+			"rarity": ""
+		},
+		{
+			"id": 401305,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401306,
+			"percentage": 2,
+			"rarity": ""
+		},
+		{
+			"id": 401401,
+			"percentage": 1,
+			"rarity": ""
+		},
+		{
+			"id": 501401,
+			"percentage": 1,
+			"rarity": ""
+		},
+		{
+			"id": 401403,
+			"percentage": 3,
+			"rarity": ""
 		}
 	],
 	"stats": {

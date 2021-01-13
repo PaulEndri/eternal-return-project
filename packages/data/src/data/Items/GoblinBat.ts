@@ -27,11 +27,11 @@ export const GoblinBat: Item = {
 	"description": "A supernatural demon from the East that is said to be playful with humans. Westerns may identify them as an \"Imp.\"",
 	"buildsFrom": [
 		{
-			"name": "Long Rod",
+			"name": "Scissors",
 			"id": 108202
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

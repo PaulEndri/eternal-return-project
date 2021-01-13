@@ -5,12 +5,12 @@ export const GarlicBread: Item = {
 	"name": "GarlicBread",
 	"buildsFrom": [
 		{
-			"name": "Bread",
-			"id": 302110
+			"name": "Scissors",
+			"id": "Bread"
 		},
 		{
-			"name": "Garlic",
-			"id": 302106
+			"name": "Scissors",
+			"id": "Garlic"
 		}
 	],
 	"buildsInto": [],

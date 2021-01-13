@@ -26,11 +26,11 @@ export const FuhmaShuriken: Item = {
 	"description": "A ninja star originally used by Humma, a band of ninja that were active during the Sengoku period.",
 	"buildsFrom": [
 		{
-			"name": "Apricot Flower Tag",
+			"name": "Scissors",
 			"id": 113302
 		},
 		{
-			"name": "Alcohol",
+			"name": "Scissors",
 			"id": 401111
 		}
 	],

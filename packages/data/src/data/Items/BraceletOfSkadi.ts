@@ -28,11 +28,11 @@ export const BraceletOfSkadi: Item = {
 	"description": "A bracelet worn by Skadi, a Norse Goddess associated with winter. Do you feel a chill?",
 	"buildsFrom": [
 		{
-			"name": "Glacial Ice",
+			"name": "Scissors",
 			"id": 205402
 		},
 		{
-			"name": "Crimson Bracelet",
+			"name": "Scissors",
 			"id": 203304
 		}
 	],

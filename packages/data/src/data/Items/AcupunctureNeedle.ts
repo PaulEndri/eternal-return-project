@@ -5,12 +5,12 @@ export const AcupunctureNeedle: Item = {
 	"name": "AcupunctureNeedle",
 	"buildsFrom": [
 		{
-			"name": "Alcohol",
-			"id": 401111
+			"name": "Scissors",
+			"id": "Alcohol"
 		},
 		{
-			"name": "Needle",
-			"id": 120101
+			"name": "Scissors",
+			"id": "Needle"
 		}
 	],
 	"buildsInto": [

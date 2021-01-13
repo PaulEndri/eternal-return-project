@@ -28,11 +28,11 @@ export const RiderJacket: Item = {
 	"description": "Worn more often as a fashion statement than for actual riding.",
 	"buildsFrom": [
 		{
-			"name": "Leather Jacket",
+			"name": "Scissors",
 			"id": 202202
 		},
 		{
-			"name": "Steel Chain",
+			"name": "Scissors",
 			"id": 119101
 		}
 	],

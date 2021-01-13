@@ -38,11 +38,11 @@ export const ApricotSword: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Rapier",
+			"name": "Scissors",
 			"id": 120201
 		},
 		{
-			"name": "Flower of Fate",
+			"name": "Scissors",
 			"id": 205203
 		}
 	],

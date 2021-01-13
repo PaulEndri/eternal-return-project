@@ -30,11 +30,11 @@ export const Heelys: Item = {
 	"description": "They look like regular shoes, but you can ride them like rollerblades because of the wheels mounted in the heels. That's just the way I roll.",
 	"buildsFrom": [
 		{
-			"name": "Running Shoes",
+			"name": "Scissors",
 			"id": 204102
 		},
 		{
-			"name": "Iron Ball",
+			"name": "Scissors",
 			"id": 112103
 		}
 	],

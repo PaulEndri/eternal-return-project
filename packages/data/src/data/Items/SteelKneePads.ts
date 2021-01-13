@@ -28,11 +28,11 @@ export const SteelKneePads: Item = {
 	"description": "A kick to the shin is a favorite among angry girlfriends. Keep your shins protected.",
 	"buildsFrom": [
 		{
-			"name": "Knee Pads",
+			"name": "Scissors",
 			"id": 204201
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

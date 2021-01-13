@@ -25,11 +25,11 @@ export const MaiSok: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Ryukyu Tonfa",
+			"name": "Scissors",
 			"id": 111401
 		},
 		{
-			"name": "Short Rod",
+			"name": "Scissors",
 			"id": 108102
 		}
 	],

@@ -40,11 +40,11 @@ export const IonBattery: Item = {
 	"description": "A high capacity battery made of lithium ion that can be recharged many times.",
 	"buildsFrom": [
 		{
-			"name": "Dead Battery",
+			"name": "Scissors",
 			"id": 401205
 		},
 		{
-			"name": "Carbonated Water",
+			"name": "Scissors",
 			"id": 301107
 		}
 	],

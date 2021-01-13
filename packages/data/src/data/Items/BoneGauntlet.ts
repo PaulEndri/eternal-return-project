@@ -33,11 +33,11 @@ export const BoneGauntlet: Item = {
 	"description": "Armored gloves made from a turtle shell.",
 	"buildsFrom": [
 		{
-			"name": "Gauntlet",
+			"name": "Scissors",
 			"id": 110301
 		},
 		{
-			"name": "Turtle Shell",
+			"name": "Scissors",
 			"id": 401104
 		}
 	],

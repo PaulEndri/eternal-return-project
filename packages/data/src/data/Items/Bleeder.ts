@@ -26,11 +26,11 @@ export const Bleeder: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Nunchaku",
+			"name": "Scissors",
 			"id": 119201
 		},
 		{
-			"name": "Razor",
+			"name": "Scissors",
 			"id": 113101
 		}
 	],

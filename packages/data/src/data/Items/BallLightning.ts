@@ -28,11 +28,11 @@ export const BallLightning: Item = {
 	"description": "You can knock out your enemies by throwing the hammer, but it's your choice to run or keep fighting.",
 	"buildsFrom": [
 		{
-			"name": "Iron Ball",
+			"name": "Scissors",
 			"id": 112103
 		},
 		{
-			"name": "Dead Battery",
+			"name": "Scissors",
 			"id": 401205
 		}
 	],

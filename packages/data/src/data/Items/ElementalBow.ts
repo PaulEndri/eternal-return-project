@@ -27,11 +27,11 @@ export const ElementalBow: Item = {
 	"description": "A bow with the elemental powers of nature, such as fire or electricity. Similar to the four elements of Aristotle.",
 	"buildsFrom": [
 		{
-			"name": "Scorchbow",
+			"name": "Scissors",
 			"id": 114402
 		},
 		{
-			"name": "White Crane Fan",
+			"name": "Scissors",
 			"id": 205201
 		}
 	],

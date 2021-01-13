@@ -32,11 +32,11 @@ export const Charm: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Vintage Cards",
+			"name": "Scissors",
 			"id": 113203
 		},
 		{
-			"name": "Buddhist Scripture",
+			"name": "Scissors",
 			"id": 205106
 		}
 	],

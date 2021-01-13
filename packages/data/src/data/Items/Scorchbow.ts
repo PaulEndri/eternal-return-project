@@ -27,11 +27,11 @@ export const Scorchbow: Item = {
 	"description": "A fiery arrow will burn your enemy.",
 	"buildsFrom": [
 		{
-			"name": "Longbow",
+			"name": "Scissors",
 			"id": 114202
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

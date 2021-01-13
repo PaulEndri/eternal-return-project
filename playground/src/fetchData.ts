@@ -3,6 +3,9 @@ import { Matches } from './models/match.model';
 import { ErBsClient } from 'erbs-client';
 import mongoose from 'mongoose';
 import fs from 'fs';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const logs = [];
 
@@ -16,10 +19,10 @@ setInterval(() => {
   fs.writeFileSync('src/logs.txt', logs.join('\n'));
 }, 1000 * 30);
 
-mongoose.connect(
-  'mongodb+srv://local:test@cluster0.pvbke.mongodb.net/erbs?retryWrites=true&w=majority',
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+mongoose.connect(process.env.MONGO_CONNECTION, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 const Client = new ErBsClient();
 

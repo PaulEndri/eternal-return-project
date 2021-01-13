@@ -29,11 +29,11 @@ export const IronKnuckles: Item = {
 	"description": "Though it may look like ordinary knuckles, but it's made with a much sturdier iron, so it hits much harder.",
 	"buildsFrom": [
 		{
-			"name": "Brass Knuckles",
+			"name": "Scissors",
 			"id": 110101
 		},
 		{
-			"name": "Iron Ore",
+			"name": "Scissors",
 			"id": 401118
 		}
 	],

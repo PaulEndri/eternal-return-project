@@ -24,11 +24,11 @@ export const AmazonessArmor: Item = {
 	"description": "Armor bestowed upon female warriors with outstanding archery ability and agility. Allows for flexibilty and protection.",
 	"buildsFrom": [
 		{
-			"name": "Sheet Metal Armor",
+			"name": "Scissors",
 			"id": 202305
 		},
 		{
-			"name": "Bikini",
+			"name": "Scissors",
 			"id": 202209
 		}
 	],

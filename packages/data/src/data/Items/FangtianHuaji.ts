@@ -27,11 +27,11 @@ export const FangtianHuaji: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Halberd Axe",
+			"name": "Scissors",
 			"id": 107303
 		},
 		{
-			"name": "Gilded Quill Fan",
+			"name": "Scissors",
 			"id": 205210
 		}
 	],

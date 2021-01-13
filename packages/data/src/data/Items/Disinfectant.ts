@@ -5,12 +5,12 @@ export const Disinfectant: Item = {
 	"name": "Disinfectant",
 	"buildsFrom": [
 		{
-			"name": "Alcohol",
-			"id": 401111
+			"name": "Scissors",
+			"id": "Alcohol"
 		},
 		{
-			"name": "Adhesive Bandage",
-			"id": 302107
+			"name": "Scissors",
+			"id": "Adhesive Bandage"
 		}
 	],
 	"buildsInto": [

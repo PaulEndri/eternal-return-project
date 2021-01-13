@@ -26,11 +26,11 @@ export const SmokeBomb: Item = {
 	"description": "Inflicts immense damage by emitting a poisonous gas. It is made from gunpowder and a special barrel.",
 	"buildsFrom": [
 		{
-			"name": "Flour Bomb",
+			"name": "Scissors",
 			"id": 112301
 		},
 		{
-			"name": "Cola",
+			"name": "Scissors",
 			"id": 301209
 		}
 	],

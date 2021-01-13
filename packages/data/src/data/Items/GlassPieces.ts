@@ -41,11 +41,11 @@ export const GlassPieces: Item = {
 	"description": "Be careful not to cut yourself on the sharp edges.",
 	"buildsFrom": [
 		{
-			"name": "Glass Bottle",
+			"name": "Scissors",
 			"id": 112104
 		},
 		{
-			"name": "Stone",
+			"name": "Scissors",
 			"id": 112101
 		}
 	],

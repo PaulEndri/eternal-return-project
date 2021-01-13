@@ -47,11 +47,11 @@ export const Blueprint: Item = {
 	"description": "An elaborate blueprint. What on earth do all the lines and numbers mean?",
 	"buildsFrom": [
 		{
-			"name": "Fountain Pen",
+			"name": "Scissors",
 			"id": 101102
 		},
 		{
-			"name": "Paper",
+			"name": "Scissors",
 			"id": 401117
 		}
 	],

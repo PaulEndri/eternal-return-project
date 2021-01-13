@@ -24,11 +24,11 @@ export const DragonGuandao: Item = {
 	"description": "Made of 49 kg of iron during the Three Kingdoms period. It was thought to be used by Guan Yu.",
 	"buildsFrom": [
 		{
-			"name": "Halberd Axe",
+			"name": "Scissors",
 			"id": 107303
 		},
 		{
-			"name": "Iron Sheet",
+			"name": "Scissors",
 			"id": 401213
 		}
 	],

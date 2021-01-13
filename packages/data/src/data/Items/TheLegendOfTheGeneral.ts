@@ -5,12 +5,12 @@ export const TheLegendOfTheGeneral: Item = {
 	"name": "TheLegendOfTheGeneral",
 	"buildsFrom": [
 		{
-			"name": "Steel Bow",
-			"id": 115401
+			"name": "Scissors",
+			"id": "Steel Bow"
 		},
 		{
-			"name": "Oilcloth",
-			"id": 401202
+			"name": "Scissors",
+			"id": "Oilcloth"
 		}
 	],
 	"buildsInto": [],

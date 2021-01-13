@@ -29,11 +29,11 @@ export const SpikyBouncyBall: Item = {
 	"description": "A rubber ball with sharp fragments on the surface. It hurts. Also, don't underestimate its bouncing capability!",
 	"buildsFrom": [
 		{
-			"name": "Flubber",
+			"name": "Scissors",
 			"id": 112304
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

@@ -32,11 +32,11 @@ export const PetalTorrent: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Frost Venom Dart",
+			"name": "Scissors",
 			"id": 113408
 		},
 		{
-			"name": "Stingburst",
+			"name": "Scissors",
 			"id": 502402
 		}
 	],

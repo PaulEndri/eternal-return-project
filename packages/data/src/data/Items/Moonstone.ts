@@ -42,11 +42,11 @@ export const Moonstone: Item = {
 	"foundQuantity": 1,
 	"buildsFrom": [
 		{
-			"name": "Meteorite",
+			"name": "Scissors",
 			"id": 401209
 		},
 		{
-			"name": "Stone",
+			"name": "Scissors",
 			"id": 112101
 		}
 	],

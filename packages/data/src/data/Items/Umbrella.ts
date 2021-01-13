@@ -27,11 +27,11 @@ export const Umbrella: Item = {
 	"description": "You might wonder how this became a weapon, but it is often used as a murder weapon in mystery stories.",
 	"buildsFrom": [
 		{
-			"name": "Long Rod",
+			"name": "Scissors",
 			"id": 108202
 		},
 		{
-			"name": "Fan",
+			"name": "Scissors",
 			"id": 205105
 		}
 	],

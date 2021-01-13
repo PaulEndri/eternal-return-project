@@ -32,11 +32,11 @@ export const SheetMetalArmor: Item = {
 	"description": "Armor comprised of several layers of metal plates. Sheet Metal Armor is effective at withstanding slashing and striking attacks, but is weaker against long-range weapons.",
 	"buildsFrom": [
 		{
-			"name": "Fabric Armor",
+			"name": "Scissors",
 			"id": 202106
 		},
 		{
-			"name": "Steel",
+			"name": "Scissors",
 			"id": 401201
 		}
 	],

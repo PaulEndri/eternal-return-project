@@ -30,11 +30,11 @@ export const ChainCoif: Item = {
 	"description": "A piece of defensive equipment that was commonly used in Medieval Europe. It's quite heavy, but has good defensive capabilities.",
 	"buildsFrom": [
 		{
-			"name": "Hat",
+			"name": "Scissors",
 			"id": 201102
 		},
 		{
-			"name": "Steel Chain",
+			"name": "Scissors",
 			"id": 119101
 		}
 	],

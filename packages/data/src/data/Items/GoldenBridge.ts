@@ -31,11 +31,11 @@ export const GoldenBridge: Item = {
 	"description": "Some people think that the more expensive it is, the better it sounds.",
 	"buildsFrom": [
 		{
-			"name": "Starter Guitar",
+			"name": "Scissors",
 			"id": 121101
 		},
 		{
-			"name": "Gold",
+			"name": "Scissors",
 			"id": 401214
 		}
 	],

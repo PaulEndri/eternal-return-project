@@ -22,11 +22,11 @@ export const ImperialSilkGloves: Item = {
 	"foundQuantity": 1,
 	"buildsFrom": [
 		{
-			"name": "Mithril String",
+			"name": "Scissors",
 			"id": 502401
 		},
 		{
-			"name": "Leather Gloves",
+			"name": "Scissors",
 			"id": 110201
 		}
 	],

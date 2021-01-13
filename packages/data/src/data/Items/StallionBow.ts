@@ -28,11 +28,11 @@ export const StallionBow: Item = {
 	"description": "A traditional Korean bow that can kill a tiger with a single arrow.",
 	"buildsFrom": [
 		{
-			"name": "Mighty Bow",
+			"name": "Scissors",
 			"id": 114303
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

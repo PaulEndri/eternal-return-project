@@ -43,11 +43,11 @@ export const HeatedOil: Item = {
 	"description": "Heated oil. It was sometimes used as a thermal weapon in the past, but now mostly used for cooking.",
 	"buildsFrom": [
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

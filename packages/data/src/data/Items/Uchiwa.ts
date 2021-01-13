@@ -23,11 +23,11 @@ export const Uchiwa: Item = {
 	"description": "A fan with your favorite celebrity's face printed on it. It might block the view of the person behind you, so keep it at home during the concert.",
 	"buildsFrom": [
 		{
-			"name": "Doll",
+			"name": "Scissors",
 			"id": 205205
 		},
 		{
-			"name": "Fan",
+			"name": "Scissors",
 			"id": 205105
 		}
 	],

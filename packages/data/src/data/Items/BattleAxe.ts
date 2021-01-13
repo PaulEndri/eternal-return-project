@@ -29,11 +29,11 @@ export const BattleAxe: Item = {
 	"description": "Although it started as a tool for men, it proved itself useful in the battlefield. It's designed to rip flesh and cut bones, so it has a thinner and lighter blade than a usual ax.",
 	"buildsFrom": [
 		{
-			"name": "Hatchet",
+			"name": "Scissors",
 			"id": 105103
 		},
 		{
-			"name": "Bamboo",
+			"name": "Scissors",
 			"id": 108103
 		}
 	],

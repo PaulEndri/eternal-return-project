@@ -33,12 +33,12 @@ export const CombatBoots: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Boots",
-			"id": 204302
+			"name": "Scissors",
+			"id": 204203
 		},
 		{
-			"name": "Leather",
-			"id": 401103
+			"name": "Scissors",
+			"id": 205204
 		}
 	],
 	"displayName": "Combat Boots",

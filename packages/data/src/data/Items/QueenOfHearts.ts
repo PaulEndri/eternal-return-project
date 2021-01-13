@@ -24,11 +24,11 @@ export const QueenOfHearts: Item = {
 	"description": "A magical cloak that only a true queen can wear. The magic from the cloak protected the Queen, but its power hasn't been used for a while...",
 	"buildsFrom": [
 		{
-			"name": "VF Blood Sample",
+			"name": "Scissors",
 			"id": 401401
 		},
 		{
-			"name": "Hanbok",
+			"name": "Scissors",
 			"id": 202306
 		}
 	],

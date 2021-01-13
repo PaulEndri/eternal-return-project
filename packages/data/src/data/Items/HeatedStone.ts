@@ -43,11 +43,11 @@ export const HeatedStone: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Stone",
+			"name": "Scissors",
 			"id": 112101
 		},
 		{
-			"name": "Lighter",
+			"name": "Scissors",
 			"id": 401107
 		}
 	],

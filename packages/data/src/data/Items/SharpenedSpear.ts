@@ -31,11 +31,11 @@ export const SharpenedSpear: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Bamboo Spear",
+			"name": "Scissors",
 			"id": 107201
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

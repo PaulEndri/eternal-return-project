@@ -26,11 +26,11 @@ export const ImperialCrown: Item = {
 	"description": "A crown built for the first and only monarch of the Kingdom of Finland, Friedrich Karl. However, due to the adoption of the republican constitution before the coronation, the crown has never been used since.",
 	"buildsFrom": [
 		{
-			"name": "Crown",
+			"name": "Scissors",
 			"id": 201401
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

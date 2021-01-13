@@ -30,11 +30,11 @@ export const LeatherShield: Item = {
 	"description": "Strong, but flexible. Not the best for blocking sharp attacks, but it's better than nothing.",
 	"buildsFrom": [
 		{
-			"name": "Turtle Shell",
+			"name": "Scissors",
 			"id": 401104
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

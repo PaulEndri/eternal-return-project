@@ -27,11 +27,11 @@ export const Suit: Item = {
 	"description": "A sharp outfit that can be worn for any special event! Or if your office has a dress code!",
 	"buildsFrom": [
 		{
-			"name": "Military Suit",
+			"name": "Scissors",
 			"id": 202205
 		},
 		{
-			"name": "Ribbon",
+			"name": "Scissors",
 			"id": 205103
 		}
 	],

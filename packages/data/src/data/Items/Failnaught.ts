@@ -24,11 +24,11 @@ export const Failnaught: Item = {
 	"description": "The arrows of Tristan, one of the Knights of the Round Table. Known as the arrows that never miss, so it will fail you not.",
 	"buildsFrom": [
 		{
-			"name": "VF Blood Sample",
+			"name": "Scissors",
 			"id": 401401
 		},
 		{
-			"name": "Strong Bow",
+			"name": "Scissors",
 			"id": 114301
 		}
 	],

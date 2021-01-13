@@ -24,11 +24,11 @@ export const MithrilShield: Item = {
 	"description": "A shield made with Mithril. It's light, but the strength is beyond imagination.",
 	"buildsFrom": [
 		{
-			"name": "Mithril",
+			"name": "Scissors",
 			"id": 401304
 		},
 		{
-			"name": "Leather Shield",
+			"name": "Scissors",
 			"id": 203201
 		}
 	],

@@ -5,12 +5,12 @@ export const FireTrap: Item = {
 	"name": "FireTrap",
 	"buildsFrom": [
 		{
-			"name": "Explosive Trap",
-			"id": 502306
+			"name": "Scissors",
+			"id": "Explosive Trap"
 		},
 		{
-			"name": "Oilcloth",
-			"id": 401202
+			"name": "Scissors",
+			"id": "Oilcloth"
 		}
 	],
 	"buildsInto": [],

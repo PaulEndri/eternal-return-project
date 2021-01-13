@@ -26,11 +26,11 @@ export const Vibroblade: Item = {
 	"description": "This high-frequency vibrating blade will cleave the matter of its target at a molecular level. The knife vibrates at a frequency beyond human imagination.",
 	"buildsFrom": [
 		{
-			"name": "Army Knife",
+			"name": "Scissors",
 			"id": 101201
 		},
 		{
-			"name": "Motor",
+			"name": "Scissors",
 			"id": 401303
 		}
 	],

@@ -23,11 +23,11 @@ export const SunsetArmor: Item = {
 	"description": "Made of leather, it features a ruby that shines like a bright, red sun",
 	"buildsFrom": [
 		{
-			"name": "Leather Armor",
+			"name": "Scissors",
 			"id": 202201
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

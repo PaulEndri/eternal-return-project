@@ -33,11 +33,11 @@ export const BambooSpear: Item = {
 	"description": "A spear made out of bamboo. Yup.",
 	"buildsFrom": [
 		{
-			"name": "Short Spear",
+			"name": "Scissors",
 			"id": 107101
 		},
 		{
-			"name": "Bamboo",
+			"name": "Scissors",
 			"id": 108103
 		}
 	],

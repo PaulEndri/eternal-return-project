@@ -56,11 +56,11 @@ export const ForceCore: Item = {
 	"description": "This seems to hold untapped power.",
 	"buildsFrom": [
 		{
-			"name": "Powder of Life",
+			"name": "Scissors",
 			"id": 205301
 		},
 		{
-			"name": "Meteorite",
+			"name": "Scissors",
 			"id": 401209
 		}
 	],

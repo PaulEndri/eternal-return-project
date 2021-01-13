@@ -28,11 +28,11 @@ export const BallisticHelmet: Item = {
 	"description": "Battered and tattered Ballistic Helmet. Initials marked inside the helmet scratched out and written over. Seems it's been passed around plenty of times.",
 	"buildsFrom": [
 		{
-			"name": "Beret",
+			"name": "Scissors",
 			"id": 201203
 		},
 		{
-			"name": "Bike Helmet",
+			"name": "Scissors",
 			"id": 201104
 		}
 	],

@@ -24,11 +24,11 @@ export const GentianSilverGun: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Sharpened Spear",
+			"name": "Scissors",
 			"id": 107401
 		},
 		{
-			"name": "White Powder",
+			"name": "Scissors",
 			"id": 401206
 		}
 	],

@@ -24,11 +24,11 @@ export const Sharanga: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Force Core",
+			"name": "Scissors",
 			"id": 401403
 		},
 		{
-			"name": "Crossbow",
+			"name": "Scissors",
 			"id": 115202
 		}
 	],

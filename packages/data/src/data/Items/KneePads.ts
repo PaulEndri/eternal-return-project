@@ -26,11 +26,11 @@ export const KneePads: Item = {
 	"description": "Learning to ride a bike? Put these on.",
 	"buildsFrom": [
 		{
-			"name": "Tights",
+			"name": "Scissors",
 			"id": 204103
 		},
 		{
-			"name": "Leather",
+			"name": "Scissors",
 			"id": 401103
 		}
 	],

@@ -27,11 +27,11 @@ export const RockersJacket: Item = {
 	"description": "There's something burning in my HEART. Today, I can do anything.",
 	"buildsFrom": [
 		{
-			"name": "Rider Jacket",
+			"name": "Scissors",
 			"id": 202301
 		},
 		{
-			"name": "Clang Clatter",
+			"name": "Scissors",
 			"id": 502206
 		}
 	],

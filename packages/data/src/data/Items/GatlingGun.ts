@@ -28,11 +28,11 @@ export const GatlingGun: Item = {
 	"description": "The world's first machine gun, it fires through several barrels joined together. Can cause catastrophic damage to the enemy in a short period of time.",
 	"buildsFrom": [
 		{
-			"name": "Machine Gun",
+			"name": "Scissors",
 			"id": 117402
 		},
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		}
 	],

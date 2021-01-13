@@ -25,11 +25,11 @@ export const OpticalCamouflageSuit: Item = {
 	"description": "In the right environment, body parts covered by the suit become invisible.",
 	"buildsFrom": [
 		{
-			"name": "Diving Suit",
+			"name": "Scissors",
 			"id": 202210
 		},
 		{
-			"name": "Glass Panel",
+			"name": "Scissors",
 			"id": 401305
 		}
 	],

@@ -29,11 +29,11 @@ export const StatueOfSoteria: Item = {
 	"description": "Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me. I lift my lamp beside the golden door.",
 	"buildsFrom": [
 		{
-			"name": "Torch",
+			"name": "Scissors",
 			"id": 108402
 		},
 		{
-			"name": "Doll",
+			"name": "Scissors",
 			"id": 205205
 		}
 	],

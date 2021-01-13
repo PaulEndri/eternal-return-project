@@ -25,11 +25,11 @@ export const EighteenFootSpear: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Sharpened Spear",
+			"name": "Scissors",
 			"id": 107401
 		},
 		{
-			"name": "Ion Battery",
+			"name": "Scissors",
 			"id": 401306
 		}
 	],

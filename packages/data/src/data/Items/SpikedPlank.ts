@@ -32,11 +32,11 @@ export const SpikedPlank: Item = {
 	"foundQuantity": 2,
 	"buildsFrom": [
 		{
-			"name": "Mousetrap",
+			"name": "Scissors",
 			"id": 502103
 		},
 		{
-			"name": "Nail",
+			"name": "Scissors",
 			"id": 401101
 		}
 	],

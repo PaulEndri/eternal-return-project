@@ -32,11 +32,11 @@ export const WhiteCraneFan: Item = {
 	"description": "Though a person may make plans in life, it is the heavens that will bring them to fruition.",
 	"buildsFrom": [
 		{
-			"name": "Gilded Quill Fan",
+			"name": "Scissors",
 			"id": 205210
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

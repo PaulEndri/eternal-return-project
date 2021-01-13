@@ -31,11 +31,11 @@ export const VintageCards: Item = {
 	"description": "A shabby looking deck of cards. Probably used to gamble in a sketchy alley.",
 	"buildsFrom": [
 		{
-			"name": "Playing Cards",
+			"name": "Scissors",
 			"id": 113102
 		},
 		{
-			"name": "Fountain Pen",
+			"name": "Scissors",
 			"id": 101102
 		}
 	],

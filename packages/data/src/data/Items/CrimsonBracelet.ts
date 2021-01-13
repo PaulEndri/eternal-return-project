@@ -27,11 +27,11 @@ export const CrimsonBracelet: Item = {
 	"description": "A bracelet lavish with white and red gemstones. However, the large size of the beads may be somewhat annoying the wearer.",
 	"buildsFrom": [
 		{
-			"name": "Bracelet",
+			"name": "Scissors",
 			"id": 203104
 		},
 		{
-			"name": "Ruby",
+			"name": "Scissors",
 			"id": 401204
 		}
 	],

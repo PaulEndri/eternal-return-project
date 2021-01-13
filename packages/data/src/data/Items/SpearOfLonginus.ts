@@ -23,11 +23,11 @@ export const SpearOfLonginus: Item = {
 	"description": "Though its origins may be unclear, this spear is said to have been involved in mythical holiness. Texts say that this spear has the ability to heal its owner under certain conditions.",
 	"buildsFrom": [
 		{
-			"name": "VF Blood Sample",
+			"name": "Scissors",
 			"id": 401401
 		},
 		{
-			"name": "Pike",
+			"name": "Scissors",
 			"id": 107302
 		}
 	],

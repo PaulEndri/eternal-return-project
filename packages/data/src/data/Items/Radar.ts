@@ -28,11 +28,11 @@ export const Radar: Item = {
 	"description": "If you can get it working properly, it might help you find the location of anyone in the world.",
 	"buildsFrom": [
 		{
-			"name": "Vital Sign Sensor",
+			"name": "Scissors",
 			"id": 203405
 		},
 		{
-			"name": "Glass Panel",
+			"name": "Scissors",
 			"id": 401305
 		}
 	],

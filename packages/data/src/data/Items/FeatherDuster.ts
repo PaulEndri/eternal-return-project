@@ -38,11 +38,11 @@ export const FeatherDuster: Item = {
 	"description": "Dust sticks to this thing like iron to a magnet. Feather dusters...how do they work?",
 	"buildsFrom": [
 		{
-			"name": "Short Rod",
+			"name": "Scissors",
 			"id": 108102
 		},
 		{
-			"name": "Feather",
+			"name": "Scissors",
 			"id": 205101
 		}
 	],

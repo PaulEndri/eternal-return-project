@@ -36,11 +36,11 @@ export const Motor: Item = {
 	"description": "A motor itself is useless, but you can probably turn it into something great.",
 	"buildsFrom": [
 		{
-			"name": "Electronic Parts",
+			"name": "Scissors",
 			"id": 401211
 		},
 		{
-			"name": "Scrap Metal",
+			"name": "Scissors",
 			"id": 401106
 		}
 	],

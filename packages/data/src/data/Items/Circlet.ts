@@ -34,11 +34,11 @@ export const Circlet: Item = {
 	"description": "A simple accessory worn on the head. It looks rather plain.",
 	"buildsFrom": [
 		{
-			"name": "Hairband",
+			"name": "Scissors",
 			"id": 201101
 		},
 		{
-			"name": "Branch",
+			"name": "Scissors",
 			"id": 108101
 		}
 	],

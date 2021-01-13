@@ -26,11 +26,11 @@ export const ShamansBronze: Item = {
 	"description": "A ritual tool that is less practical but has a strong symbolic meaning.",
 	"buildsFrom": [
 		{
-			"name": "Rusty Sword",
+			"name": "Scissors",
 			"id": 102101
 		},
 		{
-			"name": "Stallion Medal",
+			"name": "Scissors",
 			"id": 401109
 		}
 	],

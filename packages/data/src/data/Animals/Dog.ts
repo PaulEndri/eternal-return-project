@@ -14,109 +14,109 @@ export const Dog: Animal = {
 	},
 	"items": [
 		{
-			"name": "Leather",
-			"percentage": 100,
-			"rarity": "Always"
+			"id": 401103,
+			"percentage": 1,
+			"rarity": ""
 		},
 		{
-			"name": "Hatchet",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 105103,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Laser Pointer",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 401108,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Surveillance Camera",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 502101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Short Rod",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 108102,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Windbreaker",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 202101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Battery",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 401110,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Fabric Armor",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 202106,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Full Body Swimsuit",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 202105,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Watch",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 203101,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Gunpowder",
-			"percentage": 9.1,
-			"rarity": "Uncommon"
+			"id": 401121,
+			"percentage": 4,
+			"rarity": ""
 		},
 		{
-			"name": "Bracelet",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 203104,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Running Shoes",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 204102,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Lighter",
-			"percentage": 9.1,
-			"rarity": "Uncommon"
+			"id": 401107,
+			"percentage": 4,
+			"rarity": ""
 		},
 		{
-			"name": "Gemstone",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 401114,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Ribbon",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 205103,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Fan",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 205105,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Buddhist Scripture",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 205106,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Scrap Metal",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 401106,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Cross",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 205109,
+			"percentage": 2,
+			"rarity": ""
 		},
 		{
-			"name": "Binoculars",
-			"percentage": 4.5,
-			"rarity": "Rarely"
+			"id": 205110,
+			"percentage": 2,
+			"rarity": ""
 		}
 	],
 	"stats": {

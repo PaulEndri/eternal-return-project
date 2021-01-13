@@ -5,12 +5,12 @@ export const KaoliangLiquor: Item = {
 	"name": "KaoliangLiquor",
 	"buildsFrom": [
 		{
-			"name": "Baijiu",
-			"id": 301204
+			"name": "Scissors",
+			"id": "Baijiu"
 		},
 		{
-			"name": "Lighter",
-			"id": 401107
+			"name": "Scissors",
+			"id": "Lighter"
 		}
 	],
 	"buildsInto": [],

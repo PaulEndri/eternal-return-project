@@ -31,7 +31,7 @@ export const Dress: Item = {
 	"description": "Historically, not only women wore dresses as casual attire. In fact, it's only been about 600 years since men started wearing pants.",
 	"buildsFrom": [
 		{
-			"name": "Cloth",
+			"name": "Scissors",
 			"id": 401113
 		},
 		{

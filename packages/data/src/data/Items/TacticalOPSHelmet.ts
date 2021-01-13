@@ -26,11 +26,11 @@ export const TacticalOPSHelmet: Item = {
 	"description": "A tactical helmet used by special forces. Military grade communication technology is built-in.",
 	"buildsFrom": [
 		{
-			"name": "Ballistic Helmet",
+			"name": "Scissors",
 			"id": 201301
 		},
 		{
-			"name": "Electronic Parts",
+			"name": "Scissors",
 			"id": 401211
 		}
 	],

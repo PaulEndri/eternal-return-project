@@ -24,11 +24,11 @@ export const Dioscuri: Item = {
 	"description": "Named after the Greek mythological twin brothers, Castor and Pollux. Twins but with different dads!",
 	"buildsFrom": [
 		{
-			"name": "Twin Swords",
+			"name": "Scissors",
 			"id": 103201
 		},
 		{
-			"name": "Ion Battery",
+			"name": "Scissors",
 			"id": 401306
 		}
 	],

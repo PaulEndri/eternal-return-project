@@ -5,12 +5,12 @@ export const JungleGuillotine: Item = {
 	"name": "JungleGuillotine",
 	"buildsFrom": [
 		{
-			"name": "Mousetrap",
-			"id": 502103
+			"name": "Scissors",
+			"id": "Mousetrap"
 		},
 		{
-			"name": "Kitchen Knife",
-			"id": 101104
+			"name": "Scissors",
+			"id": "Kitchen Knife"
 		}
 	],
 	"buildsInto": [

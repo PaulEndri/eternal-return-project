@@ -27,11 +27,11 @@ export const Satisfaction: Item = {
 	"description": "The human nature of not being satisfied is what drives development. Humanity always blindly trusts evolution.",
 	"buildsFrom": [
 		{
-			"name": "Nocaster",
+			"name": "Scissors",
 			"id": 121304
 		},
 		{
-			"name": "Stone",
+			"name": "Scissors",
 			"id": 112101
 		}
 	],

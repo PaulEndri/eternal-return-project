@@ -24,11 +24,11 @@ export const MotorcycleHelmet: Item = {
 	"description": "",
 	"buildsFrom": [
 		{
-			"name": "Fire Helmet",
+			"name": "Scissors",
 			"id": 201302
 		},
 		{
-			"name": "Binoculars",
+			"name": "Scissors",
 			"id": 205110
 		}
 	],

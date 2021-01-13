@@ -26,11 +26,11 @@ export const AzureDagger: Item = {
 	"description": "Blue weapons aren't always associated with ice or water...",
 	"buildsFrom": [
 		{
-			"name": "Onyx Dagger",
+			"name": "Scissors",
 			"id": 113206
 		},
 		{
-			"name": "Poison",
+			"name": "Scissors",
 			"id": 401302
 		}
 	],

@@ -5,12 +5,12 @@ export const EggBun: Item = {
 	"name": "EggBun",
 	"buildsFrom": [
 		{
-			"name": "Egg",
-			"id": 302112
+			"name": "Scissors",
+			"id": "Egg"
 		},
 		{
-			"name": "Bread",
-			"id": 302110
+			"name": "Scissors",
+			"id": "Bread"
 		}
 	],
 	"buildsInto": [],

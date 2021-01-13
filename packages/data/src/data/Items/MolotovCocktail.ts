@@ -31,11 +31,11 @@ export const MolotovCocktail: Item = {
 	"description": "Make a mistake and drop it, you'll become your own worst enemy.",
 	"buildsFrom": [
 		{
-			"name": "Glass Bottle",
+			"name": "Scissors",
 			"id": 112104
 		},
 		{
-			"name": "Oil",
+			"name": "Scissors",
 			"id": 401112
 		}
 	],

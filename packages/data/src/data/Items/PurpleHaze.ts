@@ -25,11 +25,11 @@ export const PurpleHaze: Item = {
 	"description": "Whether tomorrow is waiting for you, or if it's really the end of time... this island doesn't have the answer.",
 	"buildsFrom": [
 		{
-			"name": "King-V",
+			"name": "Scissors",
 			"id": 121303
 		},
 		{
-			"name": "Ash",
+			"name": "Scissors",
 			"id": 401210
 		}
 	],
