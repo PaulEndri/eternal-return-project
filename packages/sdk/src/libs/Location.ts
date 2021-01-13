@@ -72,11 +72,15 @@ export class Location extends Entity implements ILocation {
     });
 
     const completed = loadout.checkCompletedItems(this.materials.list).length;
+    const inFlightItems = loadout.checkCompletedInFlightItems(
+      this.materials.list
+    ).length;
 
     this.weight = {
       value:
         (1 / (materialValue * (searchedForMaterials / totalMaterials))) *
-        completed,
+        completed *
+        (1 / inFlightItems + 1),
       total: {
         available: totalMaterials,
         needed: searchedForMaterials

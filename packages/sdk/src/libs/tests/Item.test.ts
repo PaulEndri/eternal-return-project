@@ -49,6 +49,9 @@ describe('[Class] Item', () => {
             const materials = instance.materials;
             const materialKeys = Object.keys(materials);
 
+            if (materialKeys.length !== Object.keys(item.requirements).length) {
+              console.log(instance, item.id);
+            }
             expect(materialKeys.length).toEqual(
               Object.keys(item.requirements).length
             );

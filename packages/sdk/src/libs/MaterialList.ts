@@ -37,6 +37,14 @@ export class MaterialList {
     return this.list[value];
   }
 
+  public subtractFromList(list: CodedMaterialList) {
+    Object.entries(list).forEach(([key, val]: [any, number]) =>
+      this.subtract(key, val)
+    );
+
+    return this;
+  }
+
   public addFromList(list: CodedMaterialList) {
     Object.entries(list).forEach(([key, val]: [any, number]) =>
       this.add(key, val)

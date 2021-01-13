@@ -17,6 +17,7 @@ export class Loadout {
   private _totalMaterials: MaterialList;
   private _totalCount: number;
   private _regions: Record<Partial<Locations>, Location>;
+  private _inFlightItems: Item[];
 
   static GenerateLoadout(data: BasicLoadout) {
     return new Loadout(
@@ -169,65 +170,21 @@ export class Loadout {
       throw new Error('Unsupported Action: Non immutable loadout modification');
     }
   }
-  // public get weightedRegions(): Record<LocationsEnum, IWeightedLocation> {
-  // 	const regions = this.regions;
 
-  // 	if (!this._weightedRegions) {
-  // 		const weightedRegions = Object.fromEntries(
-  // 			Object.entries(regions).map(([ regionName, region ]) => {
-  // 				const materialList = new MaterialList();
-  // 				const regionMaterials = Object.entries(region.materials).filter(
-  // 					([ materialName ]) => this.materials[materialName] > 0
-  // 				);
-  // 				const baseRegionCount = regionMaterials.reduce(
-  // 					(previous: number, [ material, value ]) => {
-  // 						materialList.add(material, +value.quantity);
+  public getInFlightItems() {
+    if (!this._inFlightItems) {
+      this.items.forEach((item) => item.loadAll());
+      const buildFroms: Item[] = this.items
+        .map((item) => item.buildsFrom)
+        .flat() as any;
 
-  // 						return previous + this.getRegionItemWeight(material, +value.quantity);
-  // 					},
-  // 					0
-  // 				);
+      this._inFlightItems = buildFroms.filter((item) => {
+        return item.buildsFrom && item.buildsFrom.length > 0;
+      });
+    }
 
-  // 				const byProductsBuilt = Object.entries(this.byProducts)
-  // 					.filter(([ name ]) => {
-  // 						const item = new Item(name);
-
-  // 						return item.canComplete(materialList.list);
-  // 					})
-  // 					.concat(
-  // 						this.checkCompletedItems(materialList.list).map((item) => [
-  // 							item.name,
-  // 							item
-  // 						])
-  // 					);
-
-  // 				return [
-  // 					regionName as LocationsEnum,
-  // 					{
-  // 						name: regionName,
-  // 						byProductsBuilt: Object.fromEntries(byProductsBuilt),
-  // 						value: this.getRegionWeight(
-  // 							baseRegionCount,
-  // 							byProductsBuilt.length,
-  // 							region.teleport
-  // 						),
-  // 						materials: Object.fromEntries(regionMaterials),
-  // 						connections: region.connections,
-  // 						teleport: region.teleport,
-  // 						simplifiedMaterials: regionMaterials.map(([ name, drop ]) => [
-  // 							name,
-  // 							drop.quantity
-  // 						])
-  // 					} as IWeightedLocation
-  // 				];
-  // 			})
-  // 		);
-
-  // 		this._weightedRegions = weightedRegions as Record<LocationsEnum, IWeightedLocation>;
-  // 	}
-
-  // 	return this._weightedRegions;
-  // }
+    return this._inFlightItems;
+  }
 
   public checkCompletedItems(materials: CodedMaterialList) {
     const localList = { ...materials };
@@ -239,5 +196,11 @@ export class Loadout {
     return this.items
       .filter((item) => item)
       .filter((item) => item.canComplete(localList));
+  }
+
+  public checkCompletedInFlightItems(materials: CodedMaterialList) {
+    return this.getInFlightItems().filter((item) =>
+      item.canComplete(materials)
+    );
   }
 }

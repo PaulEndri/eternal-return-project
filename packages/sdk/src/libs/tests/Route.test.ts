@@ -120,6 +120,7 @@ describe('[Class] Route', () => {
         fs.writeFileSync('things.json', JSON.stringify(results, null, 2));
         expect(results).toHaveProperty('root');
         expect(results).toHaveProperty('routes');
+        expect(results.routes.length).toBeGreaterThan(1);
       });
     });
   });

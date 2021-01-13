@@ -17,6 +17,7 @@ const DefaultItemWeights = {
 export type RouteNode = {
   id: number;
   traversed: number[];
+  location?: Location;
   completed: number[];
   materials?: MaterialList;
   next?: Record<number, RouteNode>;
@@ -26,11 +27,8 @@ export class Route {
   static UNIVERSAL_BASE_ITEMS = [
     Items.Stone,
     Items.Leather,
-
     Items.Water,
-
     Items.Branch,
-
     Items.Bread
   ];
   static UNIVERSAL_UNLOCK_ITEMS = [
@@ -59,9 +57,9 @@ export class Route {
   private locations: Location[];
   private keyedLocations: Record<number, Location>;
   private weightedMaterials: MaterialList;
-
   private leafRoutes: RouteNode[] = [];
   private routeNodes: RouteNode;
+  private filterNodes: RouteNode[] = [];
 
   constructor(
     public loadout: Loadout,
@@ -125,7 +123,12 @@ export class Route {
     };
   }
 
-  private recursiveNode(parentNode: RouteNode, location: Location, index = 1) {
+  private recursiveNode(
+    parentNode: RouteNode,
+    location: Location,
+    index = 1,
+    max = WEIGHTS.MAXIMUM_LOCATIONS
+  ) {
     const newList = parentNode.materials.clone();
     newList.addFromList(location.materials.list);
 
@@ -150,56 +153,72 @@ export class Route {
     if (index >= 2 && node.completed.length < WEIGHTS.MINIMUM_ITEM_THRESHOLD) {
       return node;
     } else if (
-      index === WEIGHTS.MAXIMUM_LOCATIONS &&
+      index === max &&
       node.completed.length < WEIGHTS.SHORT_ITEM_THRESHOLD
     ) {
       return node;
     }
 
-    if (index >= WEIGHTS.MAXIMUM_LOCATIONS) {
-      this.leafRoutes.push(node);
+    if (index >= max) {
+      if (max >= WEIGHTS.MAXIMUM_LOCATIONS) {
+        this.leafRoutes.push(node);
+      } else {
+        this.filterNodes.push(node);
+      }
       return node;
     }
 
-    if (location.teleport) {
-      node.next = Object.fromEntries(
-        Object.keys(this.keyedLocations)
-          .filter(
-            (id) => !node.traversed.includes(+id) && this.keyedLocations[+id]
-          )
-          .map((id) => [
-            id,
-            this.recursiveNode(node, this.keyedLocations[+id], index + 1)
-          ])
-      );
-    } else {
-      node.next = Object.fromEntries(
-        location.connections
-          .filter(
-            ({ id }) =>
-              !node.traversed.includes(+id) && this.keyedLocations[+id]
-          )
-          .map((loc) => [
-            loc.id,
-            this.recursiveNode(node, this.keyedLocations[loc.id], index + 1)
-          ])
-      );
-    }
+    this.generateNextNodes(node, index + 1);
 
     return node;
   }
 
-  public generate(startingPoint?: number, startingNodes = 2) {
-    if (
-      this.routeNodes &&
-      (!startingPoint || !this.routeNodes.next[startingPoint])
-    ) {
-      return {
-        root: this.routeNodes,
-        routes: this.leafRoutes
-      };
-    }
+  private generateNextNodes(node: RouteNode, next: number) {
+    let connections: any[] = this.keyedLocations[node.id].teleport
+      ? Object.keys(this.keyedLocations)
+      : this.keyedLocations[node.id].connections;
 
+    connections = connections
+      .filter((item) => {
+        const id = typeof item === 'number' ? item : item.id;
+
+        return !node.traversed.includes(id) && this.keyedLocations[id];
+      })
+      .map((item) => {
+        const id = typeof item === 'number' ? item : item.id;
+
+        return [id, this.recursiveNode(node, this.keyedLocations[+id], next)];
+      });
+  }
+
+  public weighNode(node: RouteNode) {
+    const loadoutList = this.loadout.materials;
+    const list = new MaterialList()
+      .addFromList(loadoutList)
+      .subtractFromList(this.loadout.materials);
+
+    const items = Object.entries(list).reduce(
+      (total, [, val]) => (total += val),
+      0
+    );
+    const total = this.loadout.totalMaterials;
+    const inFlightCompleted = this.loadout.checkCompletedInFlightItems(
+      list.list
+    ).length;
+
+    const weaponCompleted = this.loadout.Weapon
+      ? node.completed.includes(+this.loadout.Weapon.id)
+        ? 5
+        : 1
+      : 1;
+
+    return (
+      (node.completed.length * weaponCompleted * (inFlightCompleted / 10 + 1)) /
+      (items / total)
+    );
+  }
+
+  public generate(startingPoint?: number) {
     const results: RouteNode = {
       completed: [],
       id: 0,
@@ -218,22 +237,34 @@ export class Route {
 
     const startingPoints = startingPoint
       ? [startingPoint]
-      : rawNodes.locations.slice(0, startingNodes).map(([id]) => id);
+      : rawNodes.locations.map(([id]) => id);
 
+    const startingIndex = 1;
+    const max = startingPoint ? WEIGHTS.MAXIMUM_LOCATIONS : 2;
+
+    // breadth first if startPoints > 1
     results.next = Object.fromEntries(
       startingPoints.map((id) => [
         id,
-        this.recursiveNode(results, this.keyedLocations[id])
+        this.recursiveNode(results, this.keyedLocations[id], startingIndex, max)
       ])
     );
 
+    if (max === 2) {
+      this.filterNodes
+        .sort((a, b) => b.completed.length - a.completed.length)
+
+        .slice(0, 3)
+        .forEach((node) => this.generateNextNodes(node, 3));
+    }
+
     this.leafRoutes = this.leafRoutes
-      .map(({ materials, ...route }) => route)
+      .map(({ materials, location, ...route }) => route)
       .sort((a, b) => b.completed.length - a.completed.length);
+
     this.routeNodes = results;
 
     return {
-      nodes: rawNodes,
       root: this.routeNodes,
       routes: this.leafRoutes
     };
