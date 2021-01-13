@@ -1,6 +1,6 @@
 {
   "name": "erbs-sdk",
-  "version": "1.6.15",
+  "version": "1.6.16",
   "description": "Eternal Return: Black Survival SDK",
   "main": "dist/index.js",
   "scripts": {
