@@ -130,7 +130,7 @@ export class Item<A extends string = any, T extends string = any>
 
   public canComplete(materials: CodedMaterialList) {
     return Object.entries(this.materials).every(
-      ([id, value]) => materials[id] >= value
+      ([id, value]) => materials[+id] >= value
     );
   }
 }

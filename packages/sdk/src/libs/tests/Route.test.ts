@@ -25,8 +25,8 @@ describe('[Class] Route', () => {
           101101: 1,
           108102: 1,
           108103: 1,
-          112101: 0,
-          108101: 0,
+          112101: 2,
+          108101: 1,
           112104: 1,
           114101: 3,
           201102: 1,
@@ -36,25 +36,18 @@ describe('[Class] Route', () => {
           204102: 1,
           205101: 2,
           401101: 1,
-          401103: 0,
+          401103: 2,
           401105: 2,
           401110: 1,
           401112: 2,
           401116: 1,
-          401209: 0,
+          401209: 1,
           502104: 2
         };
 
         const route = new Route(loadout);
 
         expect(route.materials.list).toEqual(expectedResults);
-
-        // make sure all expected items with a value of 0 are in fact "universal items"
-        Object.entries(expectedResults).forEach(([key, val]) => {
-          if (val === 0) {
-            expect(Route.UNIVERSAL_ITEMS).toContain(+key);
-          }
-        });
       });
     });
 

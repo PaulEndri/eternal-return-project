@@ -18,23 +18,23 @@ export class MaterialList {
   }
 
   public add(value: number, number = 1) {
-    if (!this.list[value]) {
-      this.list[value] = 0;
+    if (!this.list[+value]) {
+      this.list[+value] = 0;
     }
 
-    this.list[value] = this.list[value] + number;
+    this.list[+value] = this.list[+value] + number;
 
-    return this.list[value];
+    return this.list[+value];
   }
 
   public subtract(value: number, number = 1) {
-    if (!this.list[value]) {
-      this.list[value] = 0;
+    if (!this.list[+value]) {
+      this.list[+value] = 0;
     } else {
-      this.list[value] = this.list[value] - number;
+      this.list[+value] = this.list[+value] - number;
     }
 
-    return this.list[value];
+    return this.list[+value];
   }
 
   public subtractFromList(list: CodedMaterialList) {
@@ -47,7 +47,7 @@ export class MaterialList {
 
   public addFromList(list: CodedMaterialList) {
     Object.entries(list).forEach(([key, val]: [any, number]) =>
-      this.add(key, val)
+      this.add(+key, +val)
     );
 
     return this;

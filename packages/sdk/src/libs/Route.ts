@@ -75,12 +75,6 @@ export class Route {
     Object.entries(loadout.materials).forEach(([mat, val]: [string, number]) =>
       materialList.add(+mat, val)
     );
-
-    Route.UNIVERSAL_ITEMS.forEach((id) => {
-      if (this.materials.list[id]) {
-        this.materials.subtract(id, this.materials.list[id]);
-      }
-    });
   }
 
   public generateWeights() {
@@ -129,10 +123,15 @@ export class Route {
     index = 1,
     max = WEIGHTS.MAXIMUM_LOCATIONS
   ) {
-    const newList = parentNode.materials.clone();
-    newList.addFromList(location.materials.list);
+    const newList = parentNode.materials
+      .clone()
+      .addFromList(location.materials.list);
 
-    if (index === 2) {
+    if (index === 1) {
+      Route.UNIVERSAL_BASE_ITEMS.forEach((item) => {
+        newList.add(item, 5);
+      });
+    } else if (index === 2) {
       Route.UNIVERSAL_UNLOCK_ITEMS.forEach((item) => {
         newList.add(item, 3);
       });
@@ -151,14 +150,17 @@ export class Route {
     };
 
     if (index >= 2 && node.completed.length < WEIGHTS.MINIMUM_ITEM_THRESHOLD) {
+      console.log('[skipping cuz bad]', newList.list);
       return node;
     } else if (
       index === max &&
       node.completed.length < WEIGHTS.SHORT_ITEM_THRESHOLD
     ) {
+      console.log('[skipping cuz late]');
       return node;
     }
 
+    console.log('[Testing]', max, index);
     if (index >= max) {
       if (max >= WEIGHTS.MAXIMUM_LOCATIONS) {
         this.leafRoutes.push(node);
@@ -174,21 +176,24 @@ export class Route {
   }
 
   private generateNextNodes(node: RouteNode, next: number) {
-    let connections: any[] = this.keyedLocations[node.id].teleport
+    let connections: any[] = this.keyedLocations[+node.id].teleport
       ? Object.keys(this.keyedLocations)
-      : this.keyedLocations[node.id].connections;
+      : this.keyedLocations[+node.id].connections;
 
-    connections = connections
-      .filter((item) => {
-        const id = typeof item === 'number' ? item : item.id;
+    node.next = Object.fromEntries(
+      connections
+        .filter((item) => {
+          const id = typeof item === 'number' ? item : item.id;
 
-        return !node.traversed.includes(id) && this.keyedLocations[id];
-      })
-      .map((item) => {
-        const id = typeof item === 'number' ? item : item.id;
+          return !node.traversed.includes(id) && this.keyedLocations[+id];
+        })
+        .map((item) => {
+          console.log('[Generating Next]', item);
+          const id = typeof item === 'number' ? item : item.id;
 
-        return [id, this.recursiveNode(node, this.keyedLocations[+id], next)];
-      });
+          return [id, this.recursiveNode(node, this.keyedLocations[+id], next)];
+        })
+    );
   }
 
   public weighNode(node: RouteNode) {
@@ -245,17 +250,28 @@ export class Route {
     // breadth first if startPoints > 1
     results.next = Object.fromEntries(
       startingPoints.map((id) => [
-        id,
-        this.recursiveNode(results, this.keyedLocations[id], startingIndex, max)
+        +id,
+        this.recursiveNode(
+          results,
+          this.keyedLocations[+id],
+          startingIndex,
+          max
+        )
       ])
     );
 
     if (max === 2) {
-      this.filterNodes
-        .sort((a, b) => b.completed.length - a.completed.length)
+      let index = 0;
+      console.log('[test]', this.filterNodes.length);
+      while (this.leafRoutes.length === 0 && index < this.filterNodes.length) {
+        this.filterNodes
+          .sort((a, b) => b.completed.length - a.completed.length)
 
-        .slice(0, 3)
-        .forEach((node) => this.generateNextNodes(node, 3));
+          .slice(index, index + 10)
+          .forEach((node) => this.generateNextNodes(node, 3));
+
+        index += 10;
+      }
     }
 
     this.leafRoutes = this.leafRoutes

@@ -19,6 +19,7 @@ type LocationWeight = {
 };
 
 export class Location extends Entity implements ILocation {
+  static WORLD_ITEMS = [Items.Stone, Items.Leather, Items.Branch];
   static SOURCE_KEY = 'Locations';
 
   public materials = new MaterialList();
@@ -37,6 +38,10 @@ export class Location extends Entity implements ILocation {
 
     this.drops.forEach(({ name, quantity }) => {
       this.materials.add(Items[name.replace(' ', '')] as any, +quantity);
+    });
+
+    Location.WORLD_ITEMS.forEach((mat) => {
+      this.materials.add(mat, 5);
     });
   }
 
