@@ -1,6 +1,6 @@
 {
   "name": "erbs-data",
-  "version": "1.6.15",
+  "version": "1.6.17",
   "description": "Eternal Return: Black Survival Data Objects",
   "main": "dist/index.js",
   "scripts": {
