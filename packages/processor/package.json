@@ -1,6 +1,6 @@
 {
   "name": "erbs-lsg-processor",
-  "version": "1.6.19",
+  "version": "1.7.0",
   "private": true,
   "description": "processor",
   "main": "dist/index.js",

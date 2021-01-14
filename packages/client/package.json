@@ -1,6 +1,6 @@
 {
   "name": "erbs-client",
-  "version": "1.6.12",
+  "version": "1.7.0",
   "description": "Eternal Return: Black Survival Api Client",
   "main": "dist/index.js",
   "scripts": {
