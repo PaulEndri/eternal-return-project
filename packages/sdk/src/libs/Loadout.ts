@@ -77,7 +77,7 @@ export class Loadout {
       this.Weapon,
       this.Head,
       this.Accessory
-    ];
+    ].filter((i) => i);
   }
 
   public get materials(): CodedMaterialList {
