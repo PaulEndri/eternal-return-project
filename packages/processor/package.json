@@ -1,0 +1,26 @@
+{
+  "name": "processor",
+  "version": "1.4.1",
+  "description": "processor",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/",
+    "start:dev": "ts-node ./src/",
+    "build": "tsc",
+    "test": "jest --verbose --coverage"
+  },
+  "author": "Paul Endri",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulEndri/eternal-return-project",
+    "directory": "packages/[sample]"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.10.3",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.11",
+    "redis": "^3.0.2"
+  }
+}

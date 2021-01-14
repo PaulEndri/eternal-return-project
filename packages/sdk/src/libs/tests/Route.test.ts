@@ -116,14 +116,14 @@ describe('[Class] Route', () => {
         expect(results.routes.length).toBeGreaterThan(1);
       });
 
-      it('[edge case] things', () => {
+      it('[edge case] Intervention, optical camo suit, crystal tiara, radar, bucephalus, laced quiver should have at least one route', () => {
         const loadout = Loadout.GenerateLoadout({
           Chest: 'OpticalCamouflageSuit',
-          Arm: 'CubeWatch',
-          Leg: 'RunningShoes',
+          Arm: 'Radar',
+          Leg: 'Bucephalus',
           Head: 'CrystalTiara',
-          Weapon: 'Twinbow',
-          Accessory: 'Quiver'
+          Weapon: 'Intervention',
+          Accessory: 'LacedQuiver'
         });
 
         const route = new Route(loadout);
