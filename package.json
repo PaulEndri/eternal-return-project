@@ -25,6 +25,7 @@
   "dependencies": {
     "erbs-client": "file:packages/client",
     "erbs-data": "file:packages/data",
+    "erbs-lsg-processor": "file:packages/processor",
     "erbs-sdk": "file:packages/sdk",
     "erbs-wiki-api": "file:packages/wikidata",
     "wickeline-bot": "file:packages/wickeline-bot"

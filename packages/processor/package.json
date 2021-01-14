@@ -1,6 +1,7 @@
 {
-  "name": "processor",
+  "name": "erbs-lsg-processor",
   "version": "1.6.19",
+  "private": true,
   "description": "processor",
   "main": "dist/index.js",
   "scripts": {
@@ -22,5 +23,6 @@
     "dotenv": "^8.2.0",
     "mongoose": "^5.11.11",
     "redis": "^3.0.2"
-  }
+  },
+  "gitHead": "70c6016ca210e27e0e51a85877bdde508ee1c51c"
 }

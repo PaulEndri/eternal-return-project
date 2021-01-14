@@ -17,9 +17,10 @@
     "directory": "packages/sdk"
   },
   "dependencies": {
-    "erbs-client": "^1.6.12"
+    "erbs-client": "file:../client"
   },
   "peerDependencies": {
     "erbs-data": "^1.6.0"
-  }
+  },
+  "gitHead": "70c6016ca210e27e0e51a85877bdde508ee1c51c"
 }

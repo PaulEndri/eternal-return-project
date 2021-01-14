@@ -66,10 +66,20 @@ export class Route {
 
   constructor(
     public loadout: Loadout,
-    private itemWeights: Record<LoadoutKeys, number> = DefaultItemWeights
+    private itemWeights: Record<LoadoutKeys, number> = DefaultItemWeights,
+    private max = 20
   ) {
     this.addMaterialsFromLoadout(this.materials, loadout);
     this.locations = Object.values(loadout.regions);
+
+    this.minimumItemThreshold = Math.min(
+      WEIGHTS.MINIMUM_ITEM_THRESHOLD,
+      loadout.items.length
+    );
+    this.minimumCompletionThreshold = Math.min(
+      WEIGHTS.MINIMUM_ITEM_THRESHOLD,
+      loadout.items.length
+    );
   }
 
   public addMaterialsFromLoadout(materialList: MaterialList, loadout: Loadout) {
@@ -170,7 +180,12 @@ export class Route {
       return node;
     }
 
-    this.generateNextNodes(node, index + 1);
+    if (
+      this.leafRoutes.length < this.max &&
+      node.completed.length !== this.loadout.items.length
+    ) {
+      this.generateNextNodes(node, index + 1);
+    }
 
     return node;
   }
