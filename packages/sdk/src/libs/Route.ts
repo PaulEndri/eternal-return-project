@@ -54,6 +54,9 @@ export class Route {
 
   public materials = new MaterialList();
 
+  private maximumLocations = WEIGHTS.MAXIMUM_LOCATIONS;
+  private minimumItemThreshold = WEIGHTS.MINIMUM_ITEM_THRESHOLD;
+  private minimumCompletionThreshold = WEIGHTS.SHORT_ITEM_THRESHOLD;
   private locations: Location[];
   private keyedLocations: Record<number, Location>;
   private weightedMaterials: MaterialList;
@@ -117,7 +120,7 @@ export class Route {
     };
   }
 
-  private recursiveNode(
+  private recursiveBranch(
     parentNode: RouteNode,
     location: Location,
     index = 1,
@@ -149,17 +152,17 @@ export class Route {
       next: null
     };
 
-    if (index >= 2 && node.completed.length < WEIGHTS.MINIMUM_ITEM_THRESHOLD) {
+    if (index >= 2 && node.completed.length < this.minimumItemThreshold) {
       return node;
     } else if (
-      index === max &&
-      node.completed.length < WEIGHTS.SHORT_ITEM_THRESHOLD
+      index === this.maximumLocations &&
+      node.completed.length < this.minimumCompletionThreshold
     ) {
       return node;
     }
 
     if (index >= max) {
-      if (max >= WEIGHTS.MAXIMUM_LOCATIONS) {
+      if (max >= this.maximumLocations) {
         this.leafRoutes.push(node);
       } else {
         this.filterNodes.push(node);
@@ -188,7 +191,10 @@ export class Route {
           console.log('[Generating Next]', item);
           const id = typeof item === 'number' ? item : item.id;
 
-          return [id, this.recursiveNode(node, this.keyedLocations[+id], next)];
+          return [
+            id,
+            this.recursiveBranch(node, this.keyedLocations[+id], next)
+          ];
         })
     );
   }
@@ -237,29 +243,24 @@ export class Route {
     this.keyedLocations = Object.fromEntries(rawNodes.locations);
     this.locations = rawNodes.locations.map(([, loc]) => loc);
 
-    const startingPoints = startingPoint
-      ? [startingPoint]
-      : rawNodes.locations.map(([id]) => id);
+    let max = 2;
+    let startingPoints = rawNodes.locations.map(([id]) => id);
 
-    const startingIndex = 1;
-    const max = startingPoint ? WEIGHTS.MAXIMUM_LOCATIONS : 2;
+    if (startingPoint) {
+      startingPoints = [startingPoint];
+      max = this.maximumLocations;
+    }
 
     // breadth first if startPoints > 1
     results.next = Object.fromEntries(
       startingPoints.map((id) => [
         +id,
-        this.recursiveNode(
-          results,
-          this.keyedLocations[+id],
-          startingIndex,
-          max
-        )
+        this.recursiveBranch(results, this.keyedLocations[+id], 1, max)
       ])
     );
 
     if (max === 2) {
       let index = 0;
-      console.log('[test]', this.filterNodes.length);
       while (this.leafRoutes.length === 0 && index < this.filterNodes.length) {
         this.filterNodes
           .sort((a, b) => b.completed.length - a.completed.length)
@@ -276,6 +277,13 @@ export class Route {
       .sort((a, b) => b.completed.length - a.completed.length);
 
     this.routeNodes = results;
+
+    if (this.leafRoutes.length < 0) {
+      this.minimumItemThreshold = 0;
+      this.minimumCompletionThreshold = 3;
+
+      return this.generate(startingPoint);
+    }
 
     return {
       root: this.routeNodes,
