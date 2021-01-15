@@ -33,7 +33,7 @@ const readDirectory = () => {
 
 const writeFile = (data, part) => {
   fs.writeFileSync(
-    `src/generated/organizedMasterList-partial-${part}.json`,
+    `src/generated/sweetjesus/organizedMasterList-partial-${part}.json`,
     JSON.stringify(data, null, 2)
   );
 };
@@ -47,17 +47,18 @@ const main = async () => {
   const matchHistory = await readDirectory();
   const data = Object.entries(matchHistory);
 
+  const shit = data.pop();
   const slices = [];
-  const size = Math.ceil(data.length / 10);
+  const size = Math.ceil(data.length / 100);
   let index = 0;
   for (let i = 0; i < data.length; i += size) {
     let chunk = data.slice(i, i + size);
-    slices.push;
 
     writeFile(Object.fromEntries(chunk), index);
     index++;
   }
 
+  writeFile(shit[1], 6666);
   return slices;
 };
 

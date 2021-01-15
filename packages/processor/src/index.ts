@@ -10,6 +10,7 @@ import fs from 'fs';
 
 dotenv.config();
 
+const FREE_SYNC = false;
 mongoose.connect(process.env.MONGO_CONNECTION, {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -76,7 +77,7 @@ class App extends Core {
     this.log.info('Beginning Next Cycle');
     const redisVal = await this.getNextFromRedis();
 
-    if (!redisVal) {
+    if (!redisVal && FREE_SYNC) {
       this.log.info('No Redis Value found, pulling from player queue');
       const nextPlayer = this.players.pop();
       this.log.info(`[Player][${nextPlayer.id}] Is Next`);
