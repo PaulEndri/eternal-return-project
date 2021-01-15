@@ -59,7 +59,7 @@ class App extends Core {
             `[Process][${processingOrder[i + 1]}] Queueing ${nextValue}`
           );
 
-          await this.redis.queuePlayer(processingOrder[i + 1], nextValue);
+          await this.redis.queuePlayer(processingOrder[i + 1], +nextValue);
         }
 
         return valueToProcess;
