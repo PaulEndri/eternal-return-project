@@ -14,4 +14,7 @@ const DataNodeSchema: Schema<DataNode> = new Schema({
   point: Schema.Types.Number
 });
 
-export const Nodes: Model<DataNode> = model<DataNode>('node', DataNodeSchema);
+export const Nodes: Model<DataNode> = model<DataNode>(
+  'processedNodes',
+  DataNodeSchema
+);

@@ -135,10 +135,10 @@ export class Route {
     };
   }
 
-  private recursiveBranch(
+  public generateNewNode(
     parentNode: RouteNode,
     location: Location,
-    index = 1
+    index: number
   ) {
     const newList = parentNode.materials
       .clone()
@@ -156,7 +156,7 @@ export class Route {
       Route.UNIVERSAL_BOSS_ITEMS.forEach((item) => newList.add(item, 1));
     }
 
-    const node: RouteNode = {
+    return {
       id: +location.id,
       traversed: [...parentNode.traversed, +location.id],
       materials: newList,
@@ -164,7 +164,15 @@ export class Route {
         .checkCompletedItems(newList.list)
         .map((item) => +item.id),
       next: null
-    };
+    } as RouteNode;
+  }
+
+  private recursiveBranch(
+    parentNode: RouteNode,
+    location: Location,
+    index = 1
+  ) {
+    const node = this.generateNewNode(parentNode, location, index);
 
     if (index >= 2 && node.completed.length < this.minimumItemThreshold) {
       return node;
