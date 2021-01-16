@@ -11,6 +11,7 @@ import { Loadout } from './Loadout';
 
 type LocationWeight = {
   value: number;
+  relativeValue: number;
   total: {
     available: number;
     needed: number;
@@ -59,6 +60,8 @@ export class Location extends Entity implements ILocation {
     // total value of found materials
     let materialValue = 0;
 
+    const totalItemCount = Object.entries(this.materials.list).length;
+    let itemCount = 0;
     Object.entries(this.materials.list).forEach(([id, value]) => {
       let weight = 1;
 
@@ -74,6 +77,8 @@ export class Location extends Entity implements ILocation {
       }
 
       totalMaterials += value;
+
+      itemCount += 1;
     });
 
     const completed = loadout.checkCompletedItems(this.materials.list).length;
@@ -81,11 +86,17 @@ export class Location extends Entity implements ILocation {
       this.materials.list
     ).length;
 
+    const relativeValue =
+      materialValue *
+      (searchedForMaterials / totalMaterials) *
+      (completed + 1) *
+      (1 / (inFlightItems + 1));
+
+    const absoluteValue = itemCount / totalItemCount;
+
     this.weight = {
-      value:
-        (1 / (materialValue * (searchedForMaterials / totalMaterials))) *
-        completed *
-        (1 / inFlightItems + 1),
+      value: absoluteValue,
+      relativeValue: relativeValue,
       total: {
         available: totalMaterials,
         needed: searchedForMaterials

@@ -14,6 +14,10 @@ const DefaultItemWeights = {
   Accessory: 1
 };
 
+export type RouteOptions = {
+  weights: Record<LoadoutKeys, number>;
+  materialMode: 'qualitative' | 'quantitative';
+};
 export type RouteNode = {
   id: number;
   traversed: number[];
@@ -62,12 +66,10 @@ export class Route {
   private weightedMaterials: MaterialList;
   private leafRoutes: RouteNode[] = [];
   private routeNodes: RouteNode;
-  private filterNodes: RouteNode[] = [];
 
   constructor(
     public loadout: Loadout,
-    private itemWeights: Record<LoadoutKeys, number> = DefaultItemWeights,
-    private max = 20
+    private itemWeights: Record<LoadoutKeys, number> = DefaultItemWeights
   ) {
     this.addMaterialsFromLoadout(this.materials, loadout);
     this.locations = Object.values(loadout.regions);
@@ -82,6 +84,9 @@ export class Route {
     );
   }
 
+  public overrideLocations(newLocations: Location[]) {
+    this.locations = newLocations;
+  }
   public addMaterialsFromLoadout(materialList: MaterialList, loadout: Loadout) {
     this.materials.add(loadout.starterItem, 1);
 
@@ -133,8 +138,7 @@ export class Route {
   private recursiveBranch(
     parentNode: RouteNode,
     location: Location,
-    index = 1,
-    max = WEIGHTS.MAXIMUM_LOCATIONS
+    index = 1
   ) {
     const newList = parentNode.materials
       .clone()
@@ -171,19 +175,13 @@ export class Route {
       return node;
     }
 
-    if (index >= max) {
-      if (max >= this.maximumLocations) {
-        this.leafRoutes.push(node);
-      } else {
-        this.filterNodes.push(node);
-      }
+    if (index >= this.maximumLocations) {
+      this.leafRoutes.push(node);
+
       return node;
     }
 
-    if (
-      this.leafRoutes.length < this.max &&
-      node.completed.length !== this.loadout.items.length
-    ) {
+    if (node.completed.length !== this.loadout.items.length) {
       this.generateNextNodes(node, index + 1);
     }
 
@@ -203,7 +201,6 @@ export class Route {
           return !node.traversed.includes(id) && this.keyedLocations[+id];
         })
         .map((item) => {
-          console.log('[Generating Next]', item);
           const id = typeof item === 'number' ? item : item.id;
 
           return [
@@ -211,33 +208,6 @@ export class Route {
             this.recursiveBranch(node, this.keyedLocations[+id], next)
           ];
         })
-    );
-  }
-
-  public weighNode(node: RouteNode) {
-    const loadoutList = this.loadout.materials;
-    const list = new MaterialList()
-      .addFromList(loadoutList)
-      .subtractFromList(this.loadout.materials);
-
-    const items = Object.entries(list).reduce(
-      (total, [, val]) => (total += val),
-      0
-    );
-    const total = this.loadout.totalMaterials;
-    const inFlightCompleted = this.loadout.checkCompletedInFlightItems(
-      list.list
-    ).length;
-
-    const weaponCompleted = this.loadout.Weapon
-      ? node.completed.includes(+this.loadout.Weapon.id)
-        ? 5
-        : 1
-      : 1;
-
-    return (
-      (node.completed.length * weaponCompleted * (inFlightCompleted / 10 + 1)) /
-      (items / total)
     );
   }
 
@@ -258,34 +228,18 @@ export class Route {
     this.keyedLocations = Object.fromEntries(rawNodes.locations);
     this.locations = rawNodes.locations.map(([, loc]) => loc);
 
-    let max = 2;
     let startingPoints = rawNodes.locations.map(([id]) => id);
 
     if (startingPoint) {
       startingPoints = [startingPoint];
-      max = this.maximumLocations;
     }
 
-    // breadth first if startPoints > 1
     results.next = Object.fromEntries(
       startingPoints.map((id) => [
         +id,
-        this.recursiveBranch(results, this.keyedLocations[+id], 1, max)
+        this.recursiveBranch(results, this.keyedLocations[+id], 1)
       ])
     );
-
-    if (max === 2) {
-      let index = 0;
-      while (this.leafRoutes.length === 0 && index < this.filterNodes.length) {
-        this.filterNodes
-          .sort((a, b) => b.completed.length - a.completed.length)
-
-          .slice(index, index + 10)
-          .forEach((node) => this.generateNextNodes(node, 3));
-
-        index += 10;
-      }
-    }
 
     this.leafRoutes = this.leafRoutes
       .map(({ materials, location, ...route }) => route)
