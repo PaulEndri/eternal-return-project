@@ -1,6 +1,7 @@
 import { Command } from 'aidyn';
 import { Items } from 'erbs-data';
 import { Message } from 'discord.js';
+import { Item, Items as ItemsLookup } from 'erbs-sdk';
 
 const ItemKeysArr = Object.entries(Items).map(([key, obj]) => [
   obj.displayName,
@@ -31,37 +32,49 @@ export class ItemCommand extends Command {
       return message.channel.send(`[Error] Item Name Must be Provided`);
     }
 
-    let itemData = Items[name];
+    let itemData;
 
-    if (!itemData) {
-      itemData = ReverseItemLookup[name];
+    try {
+      itemData = Item.Generate(name);
+    } catch (e) {
+      console.log('[Nope]', name);
     }
 
     if (!itemData) {
-      const foundItems = ItemKeysArr.filter(
-        ([val, key]) => `${val}`.includes(name) || `${key}`.includes(name)
-      );
+      itemData = Items[name];
 
-      if (foundItems) {
-        const displayVal = [...new Set(foundItems.flat())].join(', ');
-
-        if (displayVal.length > 1000) {
-          return message.channel.send(
-            '[Error] Found too many results matching the provided string'
-          );
-        }
-
-        return message.channel.send(
-          `[Results] Found the following possible items, please try again with one of these: ${displayVal}`
-        );
+      if (!itemData) {
+        itemData = Items[ReverseItemLookup[name]];
       }
 
+      if (!itemData) {
+        const foundItems = ItemKeysArr.filter(
+          ([val, key]) => `${val}`.includes(name) || `${key}`.includes(name)
+        );
+
+        if (foundItems && foundItems.length) {
+          const displayVal = [...new Set(foundItems.flat())].join(', ');
+
+          if (displayVal.length > 1000) {
+            return message.channel.send(
+              '[Error] Found too many results matching the provided string'
+            );
+          }
+
+          return message.channel.send(
+            `[Results] Found the following possible items, please try again with one of these: ${displayVal}`
+          );
+        }
+      }
+    }
+
+    if (!itemData) {
       return message.channel.send(`[Error] No Items Found matching ${name}`);
     }
 
     const embedBase = {
       title: itemData.displayName,
-      url: `https://eternalreturn.gamepedia.com/${name}`,
+      url: `https://eternalreturn.gamepedia.com/${encodeURI(name)}`,
       timestamp: new Date(),
 
       footer: {
@@ -95,7 +108,9 @@ export class ItemCommand extends Command {
         }
       ],
       image: {
-        url: `https://erbs-wickeline-imgs.s3.amazonaws.com/images/${name}.png`
+        url: `https://erbs-wickeline-imgs.s3.amazonaws.com/images/${encodeURI(
+          name
+        )}.png`
       }
     };
 
@@ -103,7 +118,11 @@ export class ItemCommand extends Command {
       detailsEmbed.fields.push({
         name: 'Builds From',
         inline: false,
-        value: itemData.buildsFrom.map((item) => item.name).join(', ')
+        value: itemData.buildsFrom
+          .map((item) => ItemsLookup[item.id])
+          .join(', ')
+          .replace(/([A-Z])/g, ' $1')
+          .trim()
       });
     }
 
@@ -111,7 +130,11 @@ export class ItemCommand extends Command {
       detailsEmbed.fields.push({
         name: 'Builds Into',
         inline: false,
-        value: itemData.buildsInto.map((item) => item.name).join(', ')
+        value: itemData.buildsInto
+          .map((item) => ItemsLookup[item.id])
+          .join(', ')
+          .replace(/([A-Z])/g, ' $1')
+          .trim()
       });
     }
 

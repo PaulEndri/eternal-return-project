@@ -28,7 +28,7 @@ Object.entries(LocationsEnum).forEach(
 );
 
 const keys = Object.keys(LocationsEnum).filter((x) => isNaN(x));
-const test = new Permutation(keys, 5);
+const test = new Permutation(keys, 3);
 const threePtCombos = [];
 const fivePointCombos = [...test];
 console.log('[test]', test.length);
@@ -65,20 +65,24 @@ console.log('[test]', test.length);
 const generateData = (locations) => {
   const totalMaterials = new MaterialList();
 
-  Route.UNIVERSAL_ITEMS.forEach((item) => totalMaterials.set(item, 10));
+  Route.UNIVERSAL_ITEMS.forEach((item) => totalMaterials.add(+item, 20));
 
   let index = 0;
   for (const locationId of locations) {
     const location = new Location(locationId);
-
+    const nextLocation = locations[index + 1]
+      ? new Location(locations[index + 1])
+      : null;
     if (
-      locations[index + 1] &&
-      !location.teleport &&
-      !location.connections.some((x) => x.name === locations[index + 1])
+      !nextLocation ||
+      location.teleport ||
+      location.connections.some((x) => x.id === nextLocation.id)
     ) {
-      return null;
+      totalMaterials.addFromList(location.materials.list);
+    } else {
+      return;
     }
-    totalMaterials.addFromList(location.materials.list);
+
     index++;
   }
 
@@ -87,7 +91,7 @@ const generateData = (locations) => {
   return {
     locations: locations.map((i) => LocationsEnum[i]),
     materials: totalMaterials.list,
-    itemsCompleted: totalItems,
+    itemsCompleted: [],
     point: locations.length
   };
 };

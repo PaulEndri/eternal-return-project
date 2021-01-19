@@ -12,6 +12,7 @@ import { CodedMaterialList } from '../interfaces';
 import { LoadoutKeys } from '../constants/LoadoutKeys';
 import { BasicLoadout } from '../types/loadout';
 import { Location } from './Location';
+import { Route } from './Route';
 
 export class Loadout {
   private _totalMaterials: MaterialList;
@@ -59,11 +60,11 @@ export class Loadout {
     this._totalMaterials = totalMaterials;
   }
 
-  private clearInternals() {
-    this._totalMaterials = null;
-    this._totalCount = null;
-    this._regions = null;
-  }
+  // private clearInternals() {
+  //   this._totalMaterials = null;
+  //   this._totalCount = null;
+  //   this._regions = null;
+  // }
 
   public get starterItem() {
     return this.Weapon ? StarterWeaponsByLookup[this.Weapon.apiType] : null;
@@ -99,7 +100,7 @@ export class Loadout {
     if (!this._regions) {
       const materials = this.materials;
       const regions: Record<Partial<Locations>, Location> = {} as any;
-      const excludedMats: number[] = [Items.Stone, Items.Leather, Items.Branch];
+      const excludedMats: number[] = Route.UNIVERSAL_ITEMS;
       Object.keys(materials)
         .filter((mat) => !excludedMats.includes(+mat))
         .forEach((mat) => {
@@ -145,8 +146,6 @@ export class Loadout {
       throw new Error('No Slot Selected');
     }
 
-    this.clearInternals();
-
     if (immutable) {
       const newLoadout = {
         Chest: this.Chest,
@@ -187,15 +186,15 @@ export class Loadout {
   }
 
   public checkCompletedItems(materials: CodedMaterialList) {
-    const localList = { ...materials };
+    const localList = new MaterialList().addFromList(materials);
 
     if (this.starterItem) {
-      localList[this.starterItem] = 1;
+      localList.add(+this.starterItem, 1);
     }
 
     return this.items
       .filter((item) => item)
-      .filter((item) => item.canComplete(localList));
+      .filter((item) => item.canComplete(localList.list));
   }
 
   public checkCompletedInFlightItems(materials: CodedMaterialList) {

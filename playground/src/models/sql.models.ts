@@ -1,0 +1,211 @@
+import { Model } from 'objection';
+import dotenv from 'dotenv';
+import Knex from 'knex';
+
+dotenv.config();
+
+const knex = Knex({
+  client: 'mysql2',
+  useNullAsDefault: true,
+  connection: {
+    host: process.env.SQL_HOST,
+    database: 'erbs',
+    user: 'erbs',
+    password: process.env.SQL_PASSWORD
+  }
+});
+
+Model.knex(knex);
+
+export class Player extends Model {
+  private updatedAt;
+
+  $beforeInsert() {
+    this.updatedAt = new Date().toISOString();
+  }
+
+  static get tableName() {
+    return 'players';
+  }
+
+  static get relationMappings() {
+    return {
+      games: {
+        relation: Model.HasManyRelation,
+        modelClass: GamePlayers,
+        join: {
+          to: 'game_player_records.userNum',
+          from: 'players.id'
+        }
+      },
+      seasonRecords: {
+        relation: Model.HasManyRelation,
+        modelClass: PlayerSeasons,
+        join: {
+          to: 'player_season_records.playerId',
+          from: 'players.id'
+        }
+      },
+      seasonCharacters: {
+        relation: Model.HasManyRelation,
+        modelClass: PlayerSeasonCharacters,
+        join: {
+          to: 'player_season_character_records.playerId',
+          from: 'players.id'
+        }
+      }
+    };
+  }
+}
+
+export class Games extends Model {
+  public updatedAt;
+
+  static get tableName() {
+    return 'games';
+  }
+
+  $beforeInsert() {
+    this.updatedAt = new Date().toISOString();
+  }
+
+  static get relationMappings() {
+    return {
+      players: {
+        relation: Model.HasManyRelation,
+        modelClass: GamePlayers,
+        join: {
+          from: 'games.id',
+          to: 'game_player_records.gameId'
+        }
+      }
+    };
+  }
+}
+
+export class GamePlayers extends Model {
+  static get tableName() {
+    return 'game_player_records';
+  }
+
+  static get relationMappings() {
+    return {
+      game: {
+        relation: Model.HasOneRelation,
+        modelClass: Games,
+        join: {
+          from: 'game_player_records.gameId',
+          to: 'games.id'
+        }
+      },
+      skills: {
+        relation: Model.HasManyRelation,
+        modelClass: GamePlayerSkills,
+        join: {
+          to: 'game_skill_player_records.gamePlayerRecordId',
+          from: 'game_player_records.id'
+        }
+      },
+      equipment: {
+        relation: Model.HasManyRelation,
+        modelClass: GamePlayerEquipments,
+        join: {
+          to: 'game_equipment_player_records.gamePlayerRecordId',
+          from: 'game_player_records.id'
+        }
+      }
+    };
+  }
+}
+
+export class GamePlayerEquipments extends Model {
+  static get tableName() {
+    return 'game_equipment_player_records';
+  }
+
+  static get relationMappings() {
+    return {
+      game: {
+        relation: Model.HasOneRelation,
+        modelClass: Games,
+        join: {
+          from: 'game_equipment_player_records.gameId',
+          to: 'games.id'
+        }
+      },
+      player: {
+        relation: Model.HasOneRelation,
+        modelClass: GamePlayers,
+        join: {
+          from: 'game_equipment_player_records.gamePlayerRecordId',
+          to: 'game_player_records.id'
+        }
+      }
+    };
+  }
+}
+
+export class GamePlayerSkills extends Model {
+  static get tableName() {
+    return 'game_skill_player_records';
+  }
+
+  static get relationMappings() {
+    return {
+      game: {
+        relation: Model.HasOneRelation,
+        modelClass: Games,
+        join: {
+          from: 'game_skill_player_records.gameId',
+          to: 'games.id'
+        }
+      },
+      player: {
+        relation: Model.HasOneRelation,
+        modelClass: GamePlayers,
+        join: {
+          from: 'game_skill_player_records.gamePlayerRecordId',
+          to: 'game_player_records.id'
+        }
+      }
+    };
+  }
+}
+
+export class PlayerSeasons extends Model {
+  static get tableName() {
+    return 'player_season_records';
+  }
+
+  static get relationMappings() {
+    return {
+      player: {
+        relation: Model.HasOneRelation,
+        modelClass: Player,
+        join: {
+          from: 'player_season_records.playerId',
+          to: 'player.id'
+        }
+      }
+    };
+  }
+}
+
+export class PlayerSeasonCharacters extends Model {
+  static get tableName() {
+    return 'player_season_character_records';
+  }
+
+  static get relationMappings() {
+    return {
+      player: {
+        relation: Model.HasOneRelation,
+        modelClass: Player,
+        join: {
+          from: 'player_season_character_records.playerId',
+          to: 'player.id'
+        }
+      }
+    };
+  }
+}

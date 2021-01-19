@@ -11,7 +11,7 @@ import {
   NamedMaterialList
 } from '../interfaces/IMaterialList';
 import { Entity } from './Entity';
-import { DataCache } from './DataCache';
+import { MaterialList } from './MaterialList';
 
 export class Item<A extends string = any, T extends string = any>
   extends Entity
@@ -65,7 +65,7 @@ export class Item<A extends string = any, T extends string = any>
 
         newArray.push(item);
 
-        if (loadChildren) {
+        if (loadChildren && item && item[prop] && item[prop].length) {
           item.loadAll(loadChildren);
         }
       }
@@ -75,28 +75,31 @@ export class Item<A extends string = any, T extends string = any>
   }
 
   public get materials(): CodedMaterialList {
-    if (Object.keys(this.requirements).length === 0) {
+    if (this.buildsFrom.length === 0) {
       return {
         [this.id]: 1
       } as any;
     }
 
-    return Object.fromEntries(
-      Object.entries(this.requirements).map(([name, quantity]) => {
-        const lookUpName = name
-          .split(' ')
-          .map(([first, ...rest]) => `${first.toUpperCase()}${rest.join('')}`)
-          .join('')
-          .replace("'", '');
+    const list = new MaterialList();
 
-        try {
-          return [DataCache.Items[lookUpName].id, quantity];
-        } catch (e) {
-          console.log('Herp Derp', { item: this, lookUpName, quantity });
-          return [lookUpName, quantity];
+    const checkForReqs = (item) => {
+      if (item instanceof Item) {
+        if (item.buildsFrom && item.buildsFrom.length) {
+          item.buildsFrom.forEach((i) => checkForReqs(i));
+        } else {
+          list.add(+item.id, 1);
         }
-      })
-    );
+      } else if (item && item.id) {
+        const itemObj = new Item(item.id);
+
+        checkForReqs(itemObj);
+      }
+    };
+
+    this.buildsFrom.forEach(checkForReqs);
+
+    return list.list;
   }
 
   public get totalMaterials() {
@@ -130,7 +133,7 @@ export class Item<A extends string = any, T extends string = any>
 
   public canComplete(materials: CodedMaterialList) {
     return Object.entries(this.materials).every(
-      ([id, value]) => materials[+id] >= value
+      ([id, value]) => materials[+id] >= +value
     );
   }
 }
