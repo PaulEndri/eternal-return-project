@@ -18,6 +18,9 @@ const knex = Knex({
 Model.knex(knex);
 
 export class Player extends Model {
+  public name: string;
+  public previousNames: string;
+
   static get tableName() {
     return 'players';
   }

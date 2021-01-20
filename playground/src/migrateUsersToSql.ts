@@ -1,7 +1,7 @@
 import { Players } from './models/player.model';
-import { Matches } from './models/match.model';
 import { Player, Games } from './models/sql.models';
 import mongoose from 'mongoose';
+import { MatchData } from './models/matchData.model';
 
 const OPS = {
   PLAYERS: false,
@@ -47,11 +47,15 @@ const syncPlayers = async () => {
 };
 
 const syncMatches = async () => {
-  for await (const match of Matches.find({}, [], { lean: true })) {
+  for await (const match of MatchData.find({}, [], { lean: true })) {
     const { id, gameMode, seasonId, averageMMR, version, data } = match;
     try {
       console.log('Syncing Match', id);
+      const existing: any = await Games.query().findById(id);
 
+      if (existing && existing.id) {
+        continue;
+      }
       await Games.query().insertGraph({
         id,
         averageMmr: averageMMR,
@@ -65,6 +69,7 @@ const syncMatches = async () => {
             masteryLevel,
             equipment,
             skillLevelInfo,
+            criticalStrikeChance,
             skillOrderInfo,
             ...rec
           }) => {
@@ -83,6 +88,7 @@ const syncMatches = async () => {
             return {
               gameId,
               userNum,
+              criticalChance: criticalStrikeChance,
               skills,
               equipment: insertEquipment,
               ...rec

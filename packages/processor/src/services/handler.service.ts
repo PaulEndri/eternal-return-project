@@ -5,9 +5,11 @@ import { IUserRecord } from 'erbs-client/dist/interfaces/IUserRecord';
 import { IPlayer, IPlayerDocument, IPlayerSeasonRecord } from '../types/player';
 import { Matches } from '../models/match.model';
 import { Core } from '../libs/core';
+import { SqlService } from './sql.service';
 
 export class HandlerService extends Core {
   private client = new ErBsClient();
+  private sqlService = new SqlService();
   private limiter = new Bottleneck({
     minTime: 1000 / (+process.env.RATE_LIMIT || 1),
     maxConcurrent: 1
@@ -113,6 +115,8 @@ export class HandlerService extends Core {
       return;
     }
 
+    let result;
+
     const cachedData: IPlayerDocument = await Players.findOne({ id }, [], {
       upsert: true,
       new: true
@@ -137,9 +141,13 @@ export class HandlerService extends Core {
     });
 
     if (cachedData && cachedData.save) {
-      await cachedData.save();
+      result = await cachedData.save();
     } else {
-      await Players.create(cachedData);
+      result = await Players.create(cachedData);
+    }
+
+    if (result.toObject) {
+      this.sqlService.processPlayer(result.toObject({ versionKey: false }));
     }
 
     this.log.info(`[Player][${id}][Matches] Finished`);
@@ -149,6 +157,7 @@ export class HandlerService extends Core {
     for (const match of matches) {
       this.log.info(`[Match][${match.gameId}] Processing`);
       this.log.info(`[Match][${match.gameId}] Fetching`);
+      let result;
 
       const matchRecord = await Matches.find({ id: match.gameId }, [], {
         upsert: true,
@@ -168,11 +177,14 @@ export class HandlerService extends Core {
       }
 
       if (matchRecord.save) {
-        await matchRecord.save();
+        result = await matchRecord.save();
       } else {
-        await Matches.create(matchRecord);
+        result = await Matches.create(matchRecord);
       }
 
+      if (result.toObject) {
+        this.sqlService.processMatch(result.toObject({ versionKey: false }));
+      }
       this.log.info(`[Match][${match.gameId}] Saved`);
 
       if (match.killerUserNum) {
@@ -189,22 +201,26 @@ export class HandlerService extends Core {
       new: true
     });
 
+    let result;
     if (player) {
       player.matches = [...new Set([...(player.matches || []), matchId])];
 
       if (player.save) {
-        await player.save();
+        result = await player.save();
       } else {
-        await Players.create(player);
+        result = await Players.create(player);
       }
     } else {
-      await Players.create({
+      result = await Players.create({
         id: userId,
         name: '',
         matches: [matchId]
       });
     }
 
+    if (result.toObject) {
+      this.sqlService.processPlayer(result.toObject({ versionKey: false }));
+    }
     this.log.info(`[Match][${matchId}][Killer][${userId}] Match Injected`);
   };
 }

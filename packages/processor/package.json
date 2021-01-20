@@ -21,7 +21,10 @@
     "@types/mongoose": "^5.10.3",
     "bottleneck": "^2.19.5",
     "dotenv": "^8.2.0",
+    "knex": "^0.21.16",
     "mongoose": "^5.11.11",
+    "mysql2": "^2.2.5",
+    "objection": "^2.2.7",
     "redis": "^3.0.2"
   },
   "gitHead": "70c6016ca210e27e0e51a85877bdde508ee1c51c"
