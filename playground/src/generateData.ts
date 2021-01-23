@@ -23,7 +23,8 @@ export const generateData = () => {
     characterScraper.getAll(),
     characterScraper.getCharacter({ name: 'Xiukai', href: '/Xiukai' }),
     characterScraper.getCharacter({ name: 'Emma', href: '/Emma' }),
-    characterScraper.getCharacter({ name: 'Lenox', href: '/Lenox' })
+    characterScraper.getCharacter({ name: 'Lenox', href: '/Lenox' }),
+    characterScraper.getCharacter({ name: 'Rozzi', href: '/Rozzi' })
   ];
 
   const writeFile = (name: string, content) => {
@@ -37,7 +38,7 @@ export const generateData = () => {
   };
 
   return Promise.all(methods).then(
-    async ([animals, locations, characters, Xiukai, Emma, Lenox]) => {
+    async ([animals, locations, characters, Xiukai, Emma, Lenox, Rozzi]) => {
       const items = (await itemScraper.getAll(true)) as any;
       const allItems = {
         ...items.materials,
@@ -58,10 +59,11 @@ export const generateData = () => {
       characters.Xiukai = Xiukai;
       characters.Emma = Emma;
       characters.Lenox = Lenox;
+      characters.Rozzi = Rozzi;
 
-      Object.keys(items.Weapons.Nunchaku.weapons).forEach(([key]) => {
-        if (items.Weapons.Whips.weapons[key]) {
-          delete items.Weapons.Nunchaku.weapons[key];
+      Object.keys(items.weapons.Nunchaku.weapons).forEach(([key]) => {
+        if (items.weapons.Whip.weapons[key]) {
+          delete items.weapons.Nunchaku.weapons[key];
         }
       });
 
@@ -72,7 +74,7 @@ export const generateData = () => {
         Armor: items.armors,
         Material: items.materials,
         Consumable: items.consumables,
-        Weapons: items.weapons.map(),
+        Weapons: items.weapons,
         Items: items,
         Complete: allItems
       };

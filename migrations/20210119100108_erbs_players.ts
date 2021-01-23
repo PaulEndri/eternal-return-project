@@ -22,16 +22,16 @@ export async function up(knex: Knex): Promise<void> {
       table.bigInteger('rankSize');
       table.bigInteger('totalGames');
       table.bigInteger('totalWins');
-      table.bigInteger('rankPercent');
+      table.decimal('rankPercent');
       table.decimal('averageRank');
       table.decimal('averageKills');
       table.decimal('averageAssistants');
       table.decimal('averageHunts');
-      table.bigInteger('top1');
-      table.bigInteger('top2');
-      table.bigInteger('top3');
-      table.bigInteger('top5');
-      table.bigInteger('top7');
+      table.decimal('top1');
+      table.decimal('top2');
+      table.decimal('top3');
+      table.decimal('top5');
+      table.decimal('top7');
     })
     .createTable('player_season_character_records', function (table) {
       table.bigIncrements('id').primary();
@@ -42,7 +42,7 @@ export async function up(knex: Knex): Promise<void> {
       table.integer('usages');
       table.integer('maxKillings');
       table.integer('top3');
-      table.integer('top3Rate');
+      table.decimal('top3Rate');
       table.decimal('averageRank');
       table.integer('wins');
     });

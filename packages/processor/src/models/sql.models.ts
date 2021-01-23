@@ -1,6 +1,15 @@
 import { Model } from 'objection';
 import dotenv from 'dotenv';
 import Knex from 'knex';
+import { IUserGameHistory, IUserRecord } from 'erbs-client';
+
+export enum SQL_VIEWS {
+  EQUIP_STATS = 'equipment_statistics',
+  SKILL_STATS = 'skill_statistics',
+  CHARACTER_RATES = 'character_winrates',
+  CHARACTER_RATES_BY_MODE = 'character_winrates_by_mode',
+  CHARACTER_RATES_BY_MODE_AND_VERSION = 'character_winrates_by_mode_and_version'
+}
 
 dotenv.config();
 
@@ -19,7 +28,10 @@ Model.knex(knex);
 
 export class Player extends Model {
   public name: string;
-  public previousNames: string;
+  public id: number;
+  public seasonRecords?: IUserRecord[];
+  public games?: IUserGameHistory[];
+  public lastUpdated?: Date;
 
   static get tableName() {
     return 'players';
@@ -40,14 +52,6 @@ export class Player extends Model {
         modelClass: PlayerSeasons,
         join: {
           to: 'player_season_records.playerId',
-          from: 'players.id'
-        }
-      },
-      seasonCharacters: {
-        relation: Model.HasManyRelation,
-        modelClass: PlayerSeasonCharacters,
-        join: {
-          to: 'player_season_character_records.playerId',
           from: 'players.id'
         }
       }
@@ -75,6 +79,8 @@ export class Games extends Model {
 }
 
 export class GamePlayers extends Model {
+  public matchingTeamMode: number;
+
   static get tableName() {
     return 'game_player_records';
   }
@@ -177,6 +183,14 @@ export class PlayerSeasons extends Model {
           from: 'player_season_records.playerId',
           to: 'player.id'
         }
+      },
+      characterStats: {
+        relation: Model.HasManyRelation,
+        modelClass: PlayerSeasonCharacters,
+        join: {
+          to: 'player_season_character_records.playerSeasonRecordId',
+          from: 'player_season_records.id'
+        }
       }
     };
   }
@@ -196,7 +210,51 @@ export class PlayerSeasonCharacters extends Model {
           from: 'player_season_character_records.playerId',
           to: 'player.id'
         }
+      },
+      season: {
+        relation: Model.HasOneRelation,
+        modelClass: PlayerSeasons,
+        join: {
+          from: ['player_season_character_records.playerSeasonRecordId'],
+          to: ['player_season_records.id']
+        }
       }
     };
+  }
+}
+
+export class CharacterRates extends Model {
+  static get tableName() {
+    return SQL_VIEWS.CHARACTER_RATES;
+  }
+}
+
+export class CharacterModeRates extends Model {
+  static get tableName() {
+    return SQL_VIEWS.CHARACTER_RATES_BY_MODE;
+  }
+}
+
+export class CharacterModeVersionRates extends Model {
+  static get tableName() {
+    return SQL_VIEWS.CHARACTER_RATES_BY_MODE_AND_VERSION;
+  }
+}
+export class EquipmentRates extends Model {
+  public itemId: number;
+  public type: string;
+
+  static get tableName() {
+    return SQL_VIEWS.EQUIP_STATS;
+  }
+}
+
+export class SkillLevelRates extends Model {
+  public level: number;
+  public count: number;
+  public skillId: number;
+
+  static get tableName() {
+    return SQL_VIEWS.SKILL_STATS;
   }
 }

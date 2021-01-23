@@ -48,7 +48,7 @@ export const generateNewData = () => {
       Items
     ]) => {
       const realCharacters = await characterScraper.getAll(Weapons);
-      const missingCharacters = ['Xiukai', 'Emma', 'Lenox'];
+      const missingCharacters = ['Xiukai', 'Emma', 'Lenox', 'Rozzi'];
 
       for (const character of missingCharacters) {
         const charData: any = await characterScraper.getCharacter({

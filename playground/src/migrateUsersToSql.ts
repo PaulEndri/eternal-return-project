@@ -1,5 +1,5 @@
 import { Players } from './models/player.model';
-import { Player, Games } from './models/sql.models';
+import { PlayerSeasons, Games } from './models/sql.models';
 import mongoose from 'mongoose';
 import { MatchData } from './models/matchData.model';
 
@@ -13,33 +13,53 @@ mongoose.connect(process.env.MONGO_CONNECTION, {
 });
 
 const syncPlayers = async () => {
-  for await (const player of Players.find({}, [], { lean: true })) {
-    const { id, name, seasonRecords } = player;
+  const players = await Players.find({}, [], { lean: true });
+  for (const player of players) {
+    const { id, seasonRecords } = player;
     console.log('Syncing Player', id);
     try {
-      await Player.query().insertGraph({
-        id,
-        name,
-        seasonRecords: seasonRecords
-          .map((rec) => rec.info)
-          .flat()
-          .map(({ userNum, characterStats, ...season }) => ({
-            ...season,
-            playerId: userNum
-          })),
-        seasonCharacters: seasonRecords
-          .map((rec) => rec.info)
-          .flat()
-          .filter((season) => season.characterStats)
-          .map(({ userNum, characterStats, seasonId }) =>
-            (characterStats || []).map(({ ...stats }) => ({
-              playerId: userNum,
-              seasonId,
-              ...stats
-            }))
-          )
-          .flat()
-      } as any);
+      for (const { season, info, userNum } of seasonRecords) {
+        console.log('[test]', userNum);
+        try {
+          for (const { characterStats, userNum, ...record } of info) {
+            await PlayerSeasons.query().insertGraph({
+              ...record,
+              playerId: +id,
+              seasonId: +season,
+              characterStats: characterStats.map((stat) => ({
+                ...stat,
+                playerId: +id,
+                seasonId: +season
+              }))
+            } as any);
+          }
+        } catch (e) {
+          console.warn(e);
+        }
+      }
+      // await Player.query().insertGraph({
+      //   id,
+      //   name,
+      //   seasonRecords: seasonRecords
+      //     .map((rec) => rec.info)
+      //     .flat()
+      //     .map(({ userNum, characterStats, ...season }) => ({
+      //       ...season,
+      //       playerId: userNum
+      //     })),
+      //   seasonCharacters: seasonRecords
+      //     .map((rec) => rec.info)
+      //     .flat()
+      //     .filter((season) => season.characterStats)
+      //     .map(({ userNum, characterStats, seasonId }) =>
+      //       (characterStats || []).map(({ ...stats }) => ({
+      //         playerId: userNum,
+      //         seasonId,
+      //         ...stats
+      //       }))
+      //     )
+      //     .flat()
+      // } as any);
     } catch (e) {
       console.error(e);
     }
@@ -47,7 +67,15 @@ const syncPlayers = async () => {
 };
 
 const syncMatches = async () => {
-  for await (const match of MatchData.find({}, [], { lean: true })) {
+  const matches = await MatchData.find(
+    { 'data.1': { $exists: true }, version: { $exists: false } } as any,
+    [],
+    {
+      lean: true
+    }
+  );
+
+  for (const match of matches) {
     const { id, gameMode, seasonId, averageMMR, version, data } = match;
     try {
       console.log('Syncing Match', id);
@@ -61,7 +89,7 @@ const syncMatches = async () => {
         averageMmr: averageMMR,
         seasonId,
         gameMode,
-        version: `0.${version.major}.${version.minor}`,
+        version: version ? `0.${version.major}.${version.minor}` : '0.22.0',
         players: (data || []).map(
           ({
             userNum,
@@ -73,17 +101,19 @@ const syncMatches = async () => {
             skillOrderInfo,
             ...rec
           }) => {
-            const skills = Object.entries(skillOrderInfo).map(
-              ([level, skill]) => ({
-                gameId,
-                skillId: +skill,
-                level: +level
-              })
-            );
-            const insertEquipment = Object.values(equipment).map((item) => ({
-              itemId: +item,
-              gameId
-            }));
+            const skills = skillOrderInfo
+              ? Object.entries(skillOrderInfo).map(([level, skill]) => ({
+                  gameId,
+                  skillId: +skill,
+                  level: +level
+                }))
+              : [];
+            const insertEquipment = equipment
+              ? Object.values(equipment).map((item) => ({
+                  itemId: +item,
+                  gameId
+                }))
+              : [];
 
             return {
               gameId,

@@ -71,6 +71,7 @@ export const rawTranslations = {
   Polaris: '폴라리스',
   'The Deadly Ray': '사사성광',
   'Fencing Rapier': '레이피어',
+  Aegis: '아이기스',
   'Apricot Sword': '매화검',
   'Sword of Justice': '활빈검',
   'Durendal Mk2': '듀랜달 Mk2',
@@ -505,7 +506,8 @@ const enArray = Object.keys(rawTranslations);
 const enTranslationsArray = [
   ['눈차크', 'Nunchaku'],
   ['비파단도', "Shaman's Bronze"],
-  ['월왕구천', 'Revenge of Goujian']
+  ['월왕구천', 'Revenge of Goujian'],
+  ['아이기스', 'Aegis']
 ];
 
 enArray.forEach((en) => {
@@ -531,5 +533,6 @@ export const krTranslations = Object.fromEntries([
   ['Dáinsleif', '다인슬라이프'],
   ['STG-44', 'STG44'],
   ['Cotton Gloves', '목장갑'],
-  ['Leather Gloves', '글러브']
+  ['Leather Gloves', '글러브'],
+  ['Aegis', '아이기스']
 ]);

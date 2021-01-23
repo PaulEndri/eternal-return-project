@@ -6,10 +6,10 @@ import { generateObjects } from './generateObjects';
 import { getClientData } from './getClientData';
 
 const SWITCHES = {
-  DATA: false,
-  NEW_DATA: false,
-  CLIENT_DATA: false,
-  MASTER_DATA: false,
+  DATA: true,
+  NEW_DATA: true,
+  CLIENT_DATA: true,
+  MASTER_DATA: true,
   OBJECTS: true,
   ENUMS: true
 };

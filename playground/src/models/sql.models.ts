@@ -1,6 +1,7 @@
 import { Model } from 'objection';
 import dotenv from 'dotenv';
 import Knex from 'knex';
+import { IUserGameHistory, IUserRecord } from 'erbs-client';
 
 dotenv.config();
 
@@ -18,6 +19,12 @@ const knex = Knex({
 Model.knex(knex);
 
 export class Player extends Model {
+  public name: string;
+  public id: number;
+  public seasonRecords?: IUserRecord[];
+  public games?: IUserGameHistory[];
+  public lastUpdated?: Date;
+
   static get tableName() {
     return 'players';
   }
@@ -37,14 +44,6 @@ export class Player extends Model {
         modelClass: PlayerSeasons,
         join: {
           to: 'player_season_records.playerId',
-          from: 'players.id'
-        }
-      },
-      seasonCharacters: {
-        relation: Model.HasManyRelation,
-        modelClass: PlayerSeasonCharacters,
-        join: {
-          to: 'player_season_character_records.playerId',
           from: 'players.id'
         }
       }
@@ -174,6 +173,14 @@ export class PlayerSeasons extends Model {
           from: 'player_season_records.playerId',
           to: 'player.id'
         }
+      },
+      characterStats: {
+        relation: Model.HasManyRelation,
+        modelClass: PlayerSeasonCharacters,
+        join: {
+          to: 'player_season_character_records.playerSeasonRecordId',
+          from: 'player_season_records.id'
+        }
       }
     };
   }
@@ -193,7 +200,21 @@ export class PlayerSeasonCharacters extends Model {
           from: 'player_season_character_records.playerId',
           to: 'player.id'
         }
+      },
+      season: {
+        relation: Model.HasOneRelation,
+        modelClass: PlayerSeasons,
+        join: {
+          from: ['player_season_character_records.playerSeasonRecordId'],
+          to: ['player_season_records.id']
+        }
       }
     };
+  }
+}
+
+export class Items extends Model {
+  static get tableName() {
+    return 'items';
   }
 }

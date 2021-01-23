@@ -148,7 +148,7 @@ export class SqlService {
   }
 
   private async upsertPlayer(player) {
-    const sqlRecord = await Player.query().findOne({ id: player.id });
+    const sqlRecord: any = await Player.query().findOne({ id: player.id });
 
     if (sqlRecord.name !== player.name) {
       try {
@@ -157,7 +157,7 @@ export class SqlService {
           .patch({
             name: player.name,
             previousNames: `${sqlRecord.previousNames} ${sqlRecord.name}`.trim()
-          });
+          } as any);
       } catch (e) {
         console.warn(e);
       }
