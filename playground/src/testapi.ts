@@ -1,13 +1,10 @@
-import fetch from 'node-fetch';
+import { ErBsClient } from 'erbs-client';
+import dotenv from 'dotenv';
 
-const base = 'https://open-api.bser.io';
+dotenv.config();
 
-const stuff = 'v1/data/hash';
+const test = new ErBsClient();
 
-const Headers = {
-	'x-api-key': process.env.API_KEY
-};
-
-fetch(`${base}/${stuff}`, { Headers }).then((res) => res.json()).then((data) => {
-	console.log(JSON.stringify(data, null, 2));
+test.getPlayerNumber('ParadoxZeroe').then((x) => {
+  console.log('[test]', x);
 });

@@ -2,11 +2,10 @@ import { HandlerService } from './services/handler.service';
 import { RedisService } from './services/redis.service';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import { Players } from './models/player.model';
 import { QueueTypes } from './types/queueTypes';
 import { Core } from './libs/core';
-import { IPlayer } from './types/player';
 import fs from 'fs';
+import { IUserRank } from 'erbs-client/dist/interfaces/IUserRank';
 
 dotenv.config();
 
@@ -17,10 +16,38 @@ mongoose.connect(process.env.MONGO_CONNECTION, {
 });
 
 class App extends Core {
-  private players: Pick<IPlayer, 'id'>[];
+  private players: IUserRank[];
   private handler = new HandlerService();
   private redis = new RedisService();
 
+  populateLocal = async () => {
+    const wait3 = () => {
+      return new Promise((resolve) => {
+        setTimeout(resolve, 1000);
+      });
+    };
+    console.log('[Main] Fetching Ranked Duos');
+    const res = await this.handler['client'].getTopDuos(1);
+    await wait3();
+    console.log('[Main] Fetching Ranked Solos');
+    const res2 = await this.handler['client'].getTopSolos(1);
+    await wait3();
+    console.log('[Main] Fetching Ranked Squads');
+    const res3 = await this.handler['client'].getTopSquads(1);
+    await wait3();
+    console.log('[Main] Fetching Unranked Duos');
+    const res4 = await this.handler['client'].getTopDuos(1);
+    await wait3();
+    console.log('[Main] Fetching Unranked Solos');
+    const res5 = await this.handler['client'].getTopSolos(1);
+    await wait3();
+    console.log('[Main] Fetching Unranked Squads');
+    const res6 = await this.handler['client'].getTopSquads(1);
+    await wait3();
+
+    console.log('[Main] Fetched All');
+    return [res, res2, res3, res4, res5, res6].flat();
+  };
   getNextFromRedis = async () => {
     const processingOrder: (keyof typeof QueueTypes)[] = [
       'names',
@@ -69,7 +96,7 @@ class App extends Core {
 
   start = async () => {
     this.log.info('Started');
-    this.players = await Players.find({}, 'id', { lean: true });
+    this.players = await this.populateLocal();
     this.log.info('Built Player Queue');
   };
 
@@ -80,10 +107,9 @@ class App extends Core {
     if (!redisVal && FREE_SYNC) {
       this.log.info('No Redis Value found, pulling from player queue');
       const nextPlayer = this.players.pop();
-      this.log.info(`[Player][${nextPlayer.id}] Is Next`);
-      await this.handler.getSeasonalStatsForPlayer(nextPlayer.id);
-      nextPlayer;
-      await this.redis.queuePlayer('games', nextPlayer.id);
+      this.log.info(`[Player][${nextPlayer.userNum}] Is Next`);
+      await this.handler.getSeasonalStatsForPlayer(nextPlayer.userNum);
+      await this.redis.queuePlayer('games', nextPlayer.userNum);
     }
   };
 }
@@ -93,7 +119,7 @@ const app = new App();
 app
   .start()
   .then(() => {
-    setInterval(() => app.next(), 1100);
+    setInterval(() => app.next(), 2100);
   })
   .catch((e) => {
     fs.writeFile(`logs-${new Date().toTimeString()}`, e, () => {

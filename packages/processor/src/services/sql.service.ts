@@ -168,20 +168,22 @@ export class SqlService {
           name: player.name
         });
 
-        for (const { season, info } of player?.seasonRecords) {
-          if (info) {
-            for (const { characterStats, userNum, ...record } of player
-              .seasonRecords.info) {
-              await PlayerSeasons.query().insertGraph({
-                ...record,
-                playerId: +userNum,
-                seasonId: +season,
-                characterStats: characterStats.map((stat) => ({
-                  ...stat,
+        if (player.seasonRecords && player.seasonRecords.length) {
+          for (const { season, info } of player.seasonRecords) {
+            if (info) {
+              for (const { characterStats, userNum, ...record } of player
+                .seasonRecords.info) {
+                await PlayerSeasons.query().insertGraph({
+                  ...record,
                   playerId: +userNum,
-                  seasonId: +season
-                }))
-              } as any);
+                  seasonId: +season,
+                  characterStats: characterStats.map((stat) => ({
+                    ...stat,
+                    playerId: +userNum,
+                    seasonId: +season
+                  }))
+                } as any);
+              }
             }
           }
         }
@@ -205,8 +207,7 @@ export class SqlService {
             .where('playerId', '=', +player.id)
             .delete();
 
-          for (const { characterStats, userNum, ...record } of player
-            .seasonRecords.info) {
+          for (const { characterStats, userNum, ...record } of info) {
             try {
               await PlayerSeasons.query().insertGraph({
                 ...record,

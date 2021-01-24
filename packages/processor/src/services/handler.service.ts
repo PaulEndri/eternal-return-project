@@ -54,6 +54,7 @@ export class HandlerService extends Core {
       this.log.warn('[GetSeasonStatsForPlayer] Received No Id');
       return;
     }
+
     this.log.info(`[Player][${id}][Season][${seasonNumber}] Fetching`);
     const cachedData = await Players.findOne({ id }, [], { upsert: true });
     let record: IPlayerSeasonRecord;
@@ -98,11 +99,13 @@ export class HandlerService extends Core {
       });
     }
 
-    await Players.findOneAndUpdate(
+    const data = await Players.findOneAndUpdate(
       { id },
       { seasonRecords: cachedData.seasonRecords },
-      { upsert: true, useFindAndModify: true }
+      { upsert: true, useFindAndModify: true, new: true }
     );
+
+    this.sqlService.processPlayer(data.toObject());
 
     this.log.info(`[Player][${id}][Season][${seasonNumber}] Processed`);
 
