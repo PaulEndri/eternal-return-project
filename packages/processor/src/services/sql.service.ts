@@ -163,29 +163,28 @@ export class SqlService {
       }
     } else if (!sqlRecord) {
       try {
-        await Player.query().insertGraph({
+        await Player.query().insert({
           id: player.id,
-          name: player.name,
-          seasonRecords: player?.seasonRecords
-            .map((rec) => rec.info)
-            .flat()
-            .map(({ userNum, characterStats, ...season }) => ({
-              ...season,
-              playerId: userNum
-            })),
-          seasonCharacters: player?.seasonRecords
-            .map((rec) => rec.info)
-            .flat()
-            .filter((season) => season.characterStats)
-            .map(({ userNum, characterStats, seasonId }) =>
-              (characterStats || []).map(({ ...stats }) => ({
-                playerId: userNum,
-                seasonId,
-                ...stats
-              }))
-            )
-            .flat()
-        } as any);
+          name: player.name
+        });
+
+        for (const { season, info } of player?.seasonRecords) {
+          if (info) {
+            for (const { characterStats, userNum, ...record } of player
+              .seasonRecords.info) {
+              await PlayerSeasons.query().insertGraph({
+                ...record,
+                playerId: +userNum,
+                seasonId: +season,
+                characterStats: characterStats.map((stat) => ({
+                  ...stat,
+                  playerId: +userNum,
+                  seasonId: +season
+                }))
+              } as any);
+            }
+          }
+        }
       } catch (e) {
         console.warn(e);
       } finally {
@@ -194,28 +193,31 @@ export class SqlService {
     }
 
     try {
-      for (const { info } of player.seasonRecords) {
-        for (const { seasonId, userNum, characterStats, ...stats } of info) {
-          try {
-            await PlayerSeasons.query()
-              .where({
-                seasonId: +seasonId,
-                playerId: +userNum
-              })
-              .patch({
-                ...stats
-              });
-          } catch (e) {
-            console.warn(e);
-          }
-          for (const charStats of characterStats) {
+      for (const { info, season } of player?.seasonRecords) {
+        if (info) {
+          await PlayerSeasonCharacters.query()
+            .where('seasonId', '=', +season)
+            .where('playerId', '=', +player.id)
+            .delete();
+
+          await PlayerSeasons.query()
+            .where('seasonId', '=', +season)
+            .where('playerId', '=', +player.id)
+            .delete();
+
+          for (const { characterStats, userNum, ...record } of player
+            .seasonRecords.info) {
             try {
-              await PlayerSeasonCharacters.query()
-                .where({
-                  seasonId: +seasonId,
-                  playerId: +userNum
-                })
-                .patch({ ...charStats });
+              await PlayerSeasons.query().insertGraph({
+                ...record,
+                playerId: +userNum,
+                seasonId: +season,
+                characterStats: characterStats.map((stat) => ({
+                  ...stat,
+                  playerId: +userNum,
+                  seasonId: +season
+                }))
+              } as any);
             } catch (e) {
               console.warn(e);
             }

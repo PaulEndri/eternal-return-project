@@ -4,8 +4,8 @@ import mongoose from 'mongoose';
 import { MatchData } from './models/matchData.model';
 
 const OPS = {
-  PLAYERS: false,
-  MATCHES: true
+  PLAYERS: true,
+  MATCHES: false
 };
 mongoose.connect(process.env.MONGO_CONNECTION, {
   useNewUrlParser: true,
