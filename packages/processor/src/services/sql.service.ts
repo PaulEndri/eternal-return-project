@@ -2,6 +2,7 @@ import { IUserGameHistory } from 'erbs-client';
 import { EventEmitter } from 'events';
 import { Players } from '../models/player.model';
 import {
+  GamePlayers,
   Games,
   Player,
   PlayerSeasonCharacters,
@@ -55,13 +56,9 @@ export class SqlService {
     } = game;
     try {
       console.log('Syncing Match', gameId);
-      const existing: any = await Games.query()
-        .where('playerId', '=', userNum)
-        .findById(gameId);
-
-      if (existing && existing.id) {
-        await Games.query().deleteById(existing.id);
-      }
+      const existingPlayer = await GamePlayers.query()
+        .where('gameId', '=', gameId)
+        .findOne('playerId', '=', userNum);
 
       const {
         masteryLevel,
@@ -81,25 +78,31 @@ export class SqlService {
         itemId: +item,
         gameId
       }));
-      await Games.query().insertGraph({
-        id: +gameId,
-        averageMmr: 0,
-        seasonId,
-        gameMode: matchingTeamMode,
-        version: `0.${versionMajor}.${versionMinor}`,
-        players: [
-          {
-            gameId,
-            userNum,
-            criticalChance: criticalStrikeChance,
-            skills,
-            equipment: insertEquipment,
-            ...rec,
-            matchingTeamMode,
-            seasonId
-          }
-        ]
-      } as any);
+
+      const playerGraph = {
+        gameId,
+        userNum,
+        criticalChance: criticalStrikeChance,
+        skills,
+        equipment: insertEquipment,
+        ...rec,
+        matchingTeamMode,
+        seasonId
+      };
+      if (existingPlayer && existingPlayer) {
+        await GamePlayers.query().deleteById(existingPlayer.id);
+
+        await GamePlayers.query().insertGraph(playerGraph);
+      } else {
+        await Games.query().insertGraph({
+          id: +gameId,
+          averageMmr: 0,
+          seasonId,
+          gameMode: matchingTeamMode,
+          version: `0.${versionMajor}.${versionMinor}`,
+          players: [playerGraph]
+        } as any);
+      }
     } catch (e) {
       console.error(e);
     }
