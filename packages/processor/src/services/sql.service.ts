@@ -93,9 +93,10 @@ export class SqlService {
             userNum,
             criticalChance: criticalStrikeChance,
             skills,
-            matchingTeamMode,
             equipment: insertEquipment,
-            ...rec
+            ...rec,
+            matchingTeamMode,
+            seasonId
           }
         ]
       } as any);
