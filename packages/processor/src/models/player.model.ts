@@ -15,7 +15,7 @@ const PlayerSchema: Schema<IPlayerDocument> = new Schema(
         info: Schema.Types.Array
       }
     ],
-    matches: Schema.Types.Array,
+    games: Schema.Types.Array,
     lastUpdated: Schema.Types.Date
   },
   {
