@@ -219,16 +219,18 @@ export class SqlService {
     if (results) {
       const basicObject = results.toJSON();
       const seasonRecords = {};
-      basicObject?.seasonRecords?.map((record) => {
-        if (seasonRecords[record?.seasonId]) {
-          seasonRecords[record.seasonId].info.push(record);
+      basicObject?.seasonRecords?.forEach((record) => {
+        if (seasonRecords[+record.seasonId]) {
+          seasonRecords[+record.seasonId].info.push(record);
         } else {
-          seasonRecords[record?.seasonId] = {
-            season: record?.seasonId,
+          seasonRecords[+record.seasonId] = {
+            season: +record.seasonId,
             info: [record]
           };
         }
       });
+
+      basicObject.seasonRecords = seasonRecords as any;
 
       await Players.findOneAndUpdate({ id: playerId }, basicObject as any, {
         new: true,
