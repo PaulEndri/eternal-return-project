@@ -56,7 +56,7 @@ export class SqlService {
     try {
       console.log('Syncing Match', gameId);
       const existing: any = await Games.query()
-        .where('userNum', '=', userNum)
+        .where('playerId', '=', userNum)
         .findById(gameId);
 
       if (existing && existing.id) {
