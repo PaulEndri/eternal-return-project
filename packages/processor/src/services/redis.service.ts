@@ -125,12 +125,14 @@ export class RedisService extends Core {
       `[GetNextPlayer][${key}] Fetching Player from Redis Queue, expecting: ${value} at ${queueString}`
     );
 
-    return await this.json(
-      queueString >= 0 ? queueString : null,
-      key,
-      RedisJsonActions.ARRPOP,
-      RedisService.DEFAULT_DOCUMENT_NAME,
-      false
+    return JSON.parse(
+      await this.json(
+        queueString >= 0 ? queueString : null,
+        key,
+        RedisJsonActions.ARRPOP,
+        RedisService.DEFAULT_DOCUMENT_NAME,
+        false
+      )
     );
   };
 
