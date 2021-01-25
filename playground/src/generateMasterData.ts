@@ -193,6 +193,48 @@ export const generateMasterData = () => {
         });
 
         return;
+      } else if (enName) {
+        const {
+          itemGrade,
+          makeMaterial1,
+          makeMaterial2,
+          itemType,
+          armorType,
+          stackable,
+          craftAnimTrigger,
+          initialCount,
+          code,
+          name,
+          ...rest
+        } = item;
+
+        masterItems.push({
+          id,
+          stats: Object.fromEntries(Object.entries(rest).filter(([, v]) => v)),
+          rarity: itemGrade,
+          code: name,
+          buildsFrom: [makeMaterial1, makeMaterial2].filter(
+            (x) => x && x !== 0
+          ),
+          name: sanitizeItemString(enName),
+          displayName: enName,
+          category: itemType,
+          buildsInto: [],
+          stackable: stackable === 1,
+          maxStacks: 1,
+          foundQuantity: initialCount,
+          description: '',
+          locations: {},
+          apiMetaData: {
+            code: id,
+            category: itemType,
+            type: apiType
+          },
+          clientMetaData: {
+            type: apiType,
+            category: item.itemType
+          }
+        });
       }
 
       missingTranslations[name] = {

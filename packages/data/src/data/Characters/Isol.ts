@@ -111,13 +111,13 @@ export const Isol: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "(20/30/40/50/60 +0.5 AP) *4",
+					"value": "(18/27/36/45/54 +0.5 AP) *4",
 					"tiers": {
-						"1": "(20",
-						"2": "30",
-						"3": "40",
-						"4": "50",
-						"5": "60"
+						"1": "(18",
+						"2": "27",
+						"3": "36",
+						"4": "45",
+						"5": "54"
 					}
 				},
 				"Skill duration": {

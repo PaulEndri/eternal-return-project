@@ -31,10 +31,18 @@ export class Player extends Model {
   public id: number;
   public seasonRecords?: IUserRecord[];
   public games?: IUserGameHistory[];
-  public lastUpdated?: Date;
+  public lastUpdated?: Date | string;
 
   static get tableName() {
     return 'players';
+  }
+
+  $beforeUpdate() {
+    this.lastUpdated = new Date().toISOString();
+  }
+
+  $beforeInsert() {
+    this.lastUpdated = new Date().toISOString();
   }
 
   static get relationMappings() {

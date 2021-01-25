@@ -59,12 +59,12 @@ export const Beach: Location = {
 		{
 			"name": "Mousetrap",
 			"id": 502103,
-			"quantity": 3
+			"quantity": 5
 		},
 		{
 			"name": "Snare",
 			"id": 502102,
-			"quantity": 5
+			"quantity": 3
 		},
 		{
 			"name": "Wetsuit",

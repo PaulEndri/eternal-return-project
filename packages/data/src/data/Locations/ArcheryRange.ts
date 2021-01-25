@@ -54,7 +54,7 @@ export const ArcheryRange: Location = {
 		{
 			"name": "Paper",
 			"id": 401117,
-			"quantity": 5
+			"quantity": 6
 		},
 		{
 			"name": "Bow",
@@ -104,7 +104,7 @@ export const ArcheryRange: Location = {
 		{
 			"name": "Bamboo",
 			"id": 108103,
-			"quantity": 6
+			"quantity": 5
 		},
 		{
 			"name": "RustySword",

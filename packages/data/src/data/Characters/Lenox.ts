@@ -50,17 +50,17 @@ export const Lenox: Character = {
 			"name": "Recoil",
 			"slot": "Q",
 			"type": "Buff",
-			"description": "Lenox whips a circle area around her, dealing damage to enemies. She deals extra damage equal to 6/6.5/7/7.5/8% of her max HP to enemies hit by the edge. Hitting an enemy grants her 1 stack, reducing the cooldown of Recoil by 1 second per stack. (Max 2 stacks)",
+			"description": "Lenox whips a circle area around her, dealing damage to enemies. She deals extra damage equal to 5/5.5/6/6.5/7% of her max HP to enemies hit by the edge. Hitting an enemy grants her 1 stack, reducing the cooldown of Recoil by 1 second per stack. (Max 2 stacks)",
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "40/70/100/130/160 (+AP 30%)",
+					"value": "30/60/90/120/150 (+AP 30%)",
 					"tiers": {
-						"1": "40",
-						"2": "70",
-						"3": "100",
-						"4": "130",
-						"5": "160"
+						"1": "30",
+						"2": "60",
+						"3": "90",
+						"4": "120",
+						"5": "150"
 					}
 				},
 				"Skill duration": {
@@ -75,13 +75,13 @@ export const Lenox: Character = {
 				},
 				"Cost": {
 					"title": "Cost",
-					"value": "30/50/70/90/110 SP",
+					"value": "50/60/70/80/90 SP",
 					"tiers": {
-						"1": "30",
-						"2": "50",
+						"1": "50",
+						"2": "60",
 						"3": "70",
-						"4": "90",
-						"5": "110"
+						"4": "80",
+						"5": "90"
 					}
 				},
 				"Cooldown": {
@@ -160,12 +160,12 @@ export const Lenox: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "60/110/160/210/260(+AP 30%)",
+					"value": "20/80/140/200/260(+AP 30%)",
 					"tiers": {
-						"1": "60",
-						"2": "110",
-						"3": "160",
-						"4": "210",
+						"1": "20",
+						"2": "80",
+						"3": "140",
+						"4": "200",
 						"5": "260(+AP"
 					}
 				},
@@ -221,20 +221,20 @@ export const Lenox: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "75/150/225(+AP 80%)",
+					"value": "50/100/150(+AP 80%)",
 					"tiers": {
-						"1": "75",
-						"2": "150",
-						"3": "225(+AP"
+						"1": "50",
+						"2": "100",
+						"3": "150(+AP"
 					}
 				},
 				"Skill duration": {
 					"title": "Skill duration",
-					"value": "4/5/6s",
+					"value": "3/4/5s",
 					"tiers": {
-						"1": "4",
-						"2": "5",
-						"3": "6s"
+						"1": "3",
+						"2": "4",
+						"3": "5s"
 					}
 				},
 				"Range": {

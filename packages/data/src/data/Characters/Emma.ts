@@ -126,7 +126,7 @@ export const Emma: Character = {
 				},
 				"Range": {
 					"title": "Range",
-					"value": "7m (Diameter 1.8m)",
+					"value": "7m (Diameter 1.7m)",
 					"tiers": {}
 				},
 				"Casting time": {
@@ -212,7 +212,7 @@ export const Emma: Character = {
 			"name": "Change★",
 			"slot": "R",
 			"type": "Ultimate",
-			"description": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n\nDove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds.\nHat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6",
+			"description": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target.\n\nDove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds.\nHat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6",
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
@@ -235,11 +235,11 @@ export const Emma: Character = {
 				},
 				"Cooldown": {
 					"title": "Cooldown",
-					"value": "16/13/10s",
+					"value": "3s (Recharge 18/15/12)",
 					"tiers": {
-						"1": "16",
-						"2": "13",
-						"3": "10s"
+						"1": "18",
+						"2": "15",
+						"3": "12)"
 					}
 				}
 			}

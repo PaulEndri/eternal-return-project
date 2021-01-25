@@ -204,7 +204,7 @@ export const LiDailin: Character = {
 				},
 				"Casting time": {
 					"title": "Casting time",
-					"value": "Instant",
+					"value": "0.2s",
 					"tiers": {}
 				},
 				"Cost": {

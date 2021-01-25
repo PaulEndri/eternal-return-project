@@ -1,4 +1,6 @@
+import { IUserGameHistory } from 'erbs-client';
 import { EventEmitter } from 'events';
+import { Players } from '../models/player.model';
 import {
   GamePlayers,
   Games,
@@ -30,124 +32,122 @@ export class SqlService {
           console.error('[Sql][Failed to process Player]', data.id, e);
         });
     });
+
+    this.emitter.on('mongo', (data) => {
+      this.syncToMongo(data)
+        .then(() => {
+          console.log('[Mongo][Syncd Mongo]', data);
+        })
+        .catch((e) => {
+          console.error('[Mongo][Failed To Sync to Mongo]', data, e);
+        });
+    });
   }
 
-  private async upsertGame(game) {
-    const { id, gameMode, seasonId, averageMMR, version, data } = game;
+  public async upsertGame(game: IUserGameHistory) {
+    const {
+      userNum,
+      gameId,
+      seasonId,
+      matchingTeamMode,
+      versionMajor,
+      versionMinor,
+      ...rest
+    } = game;
     try {
-      console.log('Syncing Match', id);
-      const existing: any = await Games.query().findById(id);
+      console.log('Syncing Match', gameId);
+      const existing: any = await Games.query().findById(gameId);
 
       if (existing && existing.id) {
         try {
           await Games.query()
-            .findById(id)
+            .findById(gameId)
             .patch({
-              gameMode,
+              gameMode: matchingTeamMode,
               seasonId,
-              averageMmr: averageMMR,
-              version: `0.${version.major}.${version.minor}`
+              averageMmr: 0,
+              version: `0.${versionMajor}.${versionMinor}`
             } as any);
         } catch (e) {
           console.warn(e);
         }
 
-        if (!data || !data.length) {
-          return;
-        }
-        for (const record of data) {
-          const {
+        const {
+          masteryLevel,
+          equipment,
+          skillLevelInfo,
+          criticalStrikeChance,
+          skillOrderInfo,
+          ...rec
+        } = rest as any;
+
+        const skills = Object.entries(skillOrderInfo).map(([level, skill]) => ({
+          gameId,
+          skillId: +skill,
+          level: +level
+        }));
+        const insertEquipment = Object.values(equipment).map((item) => ({
+          itemId: +item,
+          gameId
+        }));
+
+        try {
+          await GamePlayers.query().insertGraph({
+            gameId,
             userNum,
-            gameId,
-            masteryLevel,
-            equipment,
-            skillLevelInfo,
-            criticalStrikeChance,
-            skillOrderInfo,
+            criticalChance: criticalStrikeChance,
+            skills,
+            equipment: insertEquipment,
             ...rec
-          } = record;
-
-          const foundEntry = await GamePlayers.query().where({
-            gameId,
-            playerId: +userNum
           });
+        } catch (e) {
+          console.warn(e);
+        }
+      } else {
+        const {
+          masteryLevel,
+          equipment,
+          skillLevelInfo,
+          criticalStrikeChance,
+          skillOrderInfo,
+          ...rec
+        } = rest as any;
 
-          if (foundEntry && foundEntry.length) {
-            continue;
-          }
-          const skills = Object.entries(skillOrderInfo).map(
-            ([level, skill]) => ({
-              gameId,
-              skillId: +skill,
-              level: +level
-            })
-          );
-          const insertEquipment = Object.values(equipment).map((item) => ({
-            itemId: +item,
-            gameId
-          }));
-
-          try {
-            await GamePlayers.query().insertGraph({
+        const skills = Object.entries(skillOrderInfo).map(([level, skill]) => ({
+          gameId,
+          skillId: +skill,
+          level: +level
+        }));
+        const insertEquipment = Object.values(equipment).map((item) => ({
+          itemId: +item,
+          gameId
+        }));
+        await Games.query().insertGraph({
+          id: +gameId,
+          averageMmr: 0,
+          seasonId,
+          gameMode: matchingTeamMode,
+          version: `0.${versionMajor}.${versionMinor}`,
+          players: [
+            {
               gameId,
               userNum,
               criticalChance: criticalStrikeChance,
               skills,
               equipment: insertEquipment,
               ...rec
-            });
-          } catch (e) {
-            console.warn(e);
-          }
-        }
-      } else {
-        await Games.query().insertGraph({
-          id,
-          averageMmr: averageMMR,
-          seasonId,
-          gameMode,
-          version: `0.${version.major}.${version.minor}`,
-          players: (data || []).map(
-            ({
-              userNum,
-              gameId,
-              masteryLevel,
-              equipment,
-              skillLevelInfo,
-              criticalStrikeChance,
-              skillOrderInfo,
-              ...rec
-            }) => {
-              const skills = Object.entries(skillOrderInfo).map(
-                ([level, skill]) => ({
-                  gameId,
-                  skillId: +skill,
-                  level: +level
-                })
-              );
-              const insertEquipment = Object.values(equipment).map((item) => ({
-                itemId: +item,
-                gameId
-              }));
-
-              return {
-                gameId,
-                userNum,
-                criticalChance: criticalStrikeChance,
-                skills,
-                equipment: insertEquipment,
-                ...rec
-              };
             }
-          )
+          ]
         } as any);
       }
     } catch (e) {
       console.error(e);
+    } finally {
+      this.emitter.emit('mongo', userNum);
     }
   }
 
-  private async upsertPlayer(player) {
+  public async upsertPlayer(player: Player) {
     const sqlRecord: any = await Player.query().findOne({ id: player.id });
 
     if (sqlRecord.name !== player.name) {
@@ -169,64 +169,71 @@ export class SqlService {
         });
 
         if (player.seasonRecords && player.seasonRecords.length) {
-          for (const { season, info } of player.seasonRecords) {
-            if (info) {
-              for (const { characterStats, userNum, ...record } of player
-                .seasonRecords.info) {
-                await PlayerSeasons.query().insertGraph({
-                  ...record,
-                  playerId: +userNum,
-                  seasonId: +season,
-                  characterStats: characterStats.map((stat) => ({
-                    ...stat,
-                    playerId: +userNum,
-                    seasonId: +season
-                  }))
-                } as any);
-              }
-            }
+          for (const {
+            characterStats,
+            seasonId,
+            userNum,
+            ...record
+          } of player.seasonRecords) {
+            await PlayerSeasons.query().insertGraph({
+              ...record,
+              playerId: +userNum,
+              seasonId: +seasonId,
+              characterStats: characterStats.map((stat) => ({
+                ...stat,
+                playerId: +userNum,
+                seasonId: +seasonId
+              }))
+            } as any);
           }
         }
       } catch (e) {
         console.warn(e);
       } finally {
+        this.emitter.emit('mongo', player.id);
         return;
       }
     }
 
     try {
-      for (const { info, season } of player?.seasonRecords) {
-        if (info) {
-          await PlayerSeasonCharacters.query()
-            .where('seasonId', '=', +season)
-            .where('playerId', '=', +player.id)
-            .delete();
+      const updatingSeasons = [
+        ...new Set(player.seasonRecords.map((record) => record.seasonId))
+      ];
 
-          await PlayerSeasons.query()
-            .where('seasonId', '=', +season)
-            .where('playerId', '=', +player.id)
-            .delete();
+      for (const season of updatingSeasons) {
+        await PlayerSeasonCharacters.query()
+          .where('seasonId', '=', +season)
+          .where('playerId', '=', +player.id)
+          .delete();
 
-          for (const { characterStats, userNum, ...record } of info) {
-            try {
-              await PlayerSeasons.query().insertGraph({
-                ...record,
-                playerId: +userNum,
-                seasonId: +season,
-                characterStats: characterStats.map((stat) => ({
-                  ...stat,
-                  playerId: +userNum,
-                  seasonId: +season
-                }))
-              } as any);
-            } catch (e) {
-              console.warn(e);
-            }
-          }
+        await PlayerSeasons.query()
+          .where('seasonId', '=', +season)
+          .where('playerId', '=', +player.id)
+          .delete();
+      }
+
+      for (const {
+        characterStats,
+        userNum,
+        ...record
+      } of player.seasonRecords) {
+        try {
+          await PlayerSeasons.query().insertGraph({
+            ...record,
+            playerId: +userNum,
+            characterStats: characterStats.map((stat) => ({
+              ...stat,
+              playerId: +userNum
+            }))
+          } as any);
+        } catch (e) {
+          console.warn(e);
         }
       }
     } catch (e) {
       console.warn(e);
+    } finally {
+      this.emitter.emit('mongo', player.id);
     }
   }
 
@@ -236,5 +243,33 @@ export class SqlService {
 
   public processPlayer(player) {
     this.emitter.emit('player', player);
+  }
+
+  public async syncToMongo(playerId: number) {
+    const results = await Player.query()
+      .withGraphFetched(
+        '[games.[skills, equipment], seasonRecords.[characterStats]]'
+      )
+      .findById(playerId);
+
+    if (results) {
+      const basicObject = results.toJSON();
+      const seasonRecords = {};
+      basicObject?.seasonRecords?.map((record) => {
+        if (seasonRecords[record?.seasonId]) {
+          seasonRecords[record.seasonId].info.push(record);
+        } else {
+          seasonRecords[record?.seasonId] = {
+            season: record?.seasonId,
+            info: [record]
+          };
+        }
+      });
+
+      await Players.findOneAndUpdate({ id: playerId }, basicObject as any, {
+        new: true,
+        upsert: true
+      });
+    }
   }
 }

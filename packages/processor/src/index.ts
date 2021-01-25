@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import { QueueTypes } from './types/queueTypes';
 import { Core } from './libs/core';
 import fs from 'fs';
-import { IUserRank } from 'erbs-client/dist/interfaces/IUserRank';
+import { Player } from './models/sql.models';
 
 dotenv.config();
 
@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_CONNECTION, {
 });
 
 class App extends Core {
-  private players: IUserRank[];
+  private players: number[];
   private handler = new HandlerService();
   private redis = new RedisService();
 
@@ -45,9 +45,17 @@ class App extends Core {
     const res6 = await this.handler['client'].getTopSquads(1);
     await wait3();
 
-    console.log('[Main] Fetched All');
-    return [res, res2, res3, res4, res5, res6].flat();
+    console.log('[Main] Fetched All Top');
+    const topIds = [res, res2, res3, res4, res5, res6]
+      .flat()
+      .map(({ userNum }) => userNum);
+
+    const players = await Player.query().select('id');
+    console.log('[Main] Fetched All Players');
+
+    return [...new Set(topIds.concat(players.map((p) => p.id)))];
   };
+
   getNextFromRedis = async () => {
     const processingOrder: (keyof typeof QueueTypes)[] = [
       'names',
@@ -107,9 +115,9 @@ class App extends Core {
     if (!redisVal && FREE_SYNC) {
       this.log.info('No Redis Value found, pulling from player queue');
       const nextPlayer = this.players.pop();
-      this.log.info(`[Player][${nextPlayer.userNum}] Is Next`);
-      await this.handler.getSeasonalStatsForPlayer(nextPlayer.userNum);
-      await this.redis.queuePlayer('games', nextPlayer.userNum);
+      this.log.info(`[Player][${nextPlayer}] Is Next`);
+      await this.handler.getSeasonalStatsForPlayer(nextPlayer);
+      await this.redis.queuePlayer('games', nextPlayer);
     }
   };
 }

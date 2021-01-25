@@ -32,7 +32,7 @@ export const CrimsonBracelet: Item = {
 		},
 		{
 			"name": "Scissors",
-			"id": 401204
+			"id": 502201
 		}
 	],
 	"displayName": "Crimson Bracelet",

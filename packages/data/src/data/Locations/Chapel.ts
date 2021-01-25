@@ -54,7 +54,7 @@ export const Chapel: Location = {
 		{
 			"name": "Paper",
 			"id": 401117,
-			"quantity": 6
+			"quantity": 7
 		},
 		{
 			"name": "GlassBottle",
@@ -69,7 +69,7 @@ export const Chapel: Location = {
 		{
 			"name": "Snare",
 			"id": 502102,
-			"quantity": 5
+			"quantity": 4
 		},
 		{
 			"name": "Cross",

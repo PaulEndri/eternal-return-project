@@ -18,3 +18,4 @@ export * from './Adriana';
 export * from './Shoichi';
 export * from './Emma';
 export * from './Lenox';
+export * from './Rozzi';

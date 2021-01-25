@@ -38,7 +38,7 @@ export const Xiukai: Character = {
 			"name": "Juggernaut Chef",
 			"slot": "Passive",
 			"type": "Buff",
-			"description": "Food and beverages made by Xiukai have 30% bonus recovery. When crafting a food item of Uncommon or higher rarity, he earns a stack of Juggernaut Chef, increasing his max HP by 8 for each stack. \nStacks given per food: 1/2/3 for all rarities",
+			"description": "Food and beverages made by Xiukai have 30% bonus recovery. When crafting a food item of Uncommon or higher rarity, he earns a stack of Juggernaut Chef, increasing his max HP by 7 for each stack. \nStacks given per food: 1/2/3 for all rarities",
 			"stats": {
 				"Casting time": {
 					"title": "Casting time",
@@ -208,11 +208,11 @@ export const Xiukai: Character = {
 			"stats": {
 				"Skill damage": {
 					"title": "Skill damage",
-					"value": "30/80/120(+0.5 AP)",
+					"value": "20/65/110(+0.5 AP)",
 					"tiers": {
-						"1": "30",
-						"2": "80",
-						"3": "120(+0.5"
+						"1": "20",
+						"2": "65",
+						"3": "110(+0.5"
 					}
 				},
 				"Skill duration": {

@@ -51,6 +51,7 @@ describe('[Class] Loadout', () => {
           205101: 2,
           401101: 1,
           401103: 2,
+          202105: 1,
           401105: 2,
           401110: 1,
           401112: 2,
@@ -125,7 +126,9 @@ describe('[Class] Loadout', () => {
           502104: 2
         };
 
-        expect(loadout.checkCompletedItems(mats)).toEqual(loadout.items);
+        expect(loadout.checkCompletedItems(mats).length).toEqual(
+          loadout.items.length - 1
+        );
       });
     });
   });

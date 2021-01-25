@@ -27,7 +27,7 @@ export const FeatherBoots: Item = {
   buildsFrom: [
     {
       name: 'Scissors',
-      id: 204405
+      id: 204404
     },
     {
       name: 'Scissors',

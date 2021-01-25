@@ -43,18 +43,14 @@ describe('[Class] Item', () => {
         Object.values(Items).forEach((item) => {
           const instance = new Item(item.id);
 
+          if (!item.buildsFrom) {
+            console.log('[test]', item);
+          }
           if (item.buildsFrom.length === 0) {
             expect(instance.materials).toEqual({ [item.id]: 1 });
           } else {
             const materials = instance.materials;
             const materialKeys = Object.keys(materials);
-
-            if (materialKeys.length !== Object.keys(item.requirements).length) {
-              console.log(instance, item.id);
-            }
-            expect(materialKeys.length).toEqual(
-              Object.keys(item.requirements).length
-            );
 
             materialKeys.forEach((key) => {
               expect(isNaN(key as any)).toEqual(false);

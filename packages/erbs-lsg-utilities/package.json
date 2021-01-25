@@ -1,0 +1,29 @@
+{
+  "name": "erbs-lsg-utilities",
+  "version": "1.4.1",
+  "private": true,
+  "description": "[Sample]",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/",
+    "start:dev": "ts-node ./src/",
+    "build": "tsc",
+    "test": "jest --verbose --coverage"
+  },
+  "author": "Paul Endri",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulEndri/eternal-return-project",
+    "directory": "packages/[sample]"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.10.3",
+    "@types/redis": "^2.8.28",
+    "js-combinatorics": "^1.4.5",
+    "knex": "^0.21.16",
+    "mongoose": "^5.11.13",
+    "objection": "^2.2.8",
+    "redis": "^3.0.2"
+  }
+}
