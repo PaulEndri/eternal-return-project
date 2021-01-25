@@ -2,7 +2,6 @@ import { IUserGameHistory } from 'erbs-client';
 import { EventEmitter } from 'events';
 import { Players } from '../models/player.model';
 import {
-  GamePlayers,
   Games,
   Player,
   PlayerSeasonCharacters,
