@@ -58,7 +58,7 @@ export class SqlService {
       console.log('Syncing Match', gameId);
       const existingPlayer = await GamePlayers.query()
         .where('gameId', '=', gameId)
-        .findOne('playerId', '=', userNum);
+        .findOne('userNum', '=', userNum);
 
       const {
         masteryLevel,
