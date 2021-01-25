@@ -88,6 +88,7 @@ export class Games extends Model {
 
 export class GamePlayers extends Model {
   public matchingTeamMode: number;
+  public gameId: number;
 
   static get tableName() {
     return 'game_player_records';

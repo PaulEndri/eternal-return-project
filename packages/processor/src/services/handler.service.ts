@@ -92,15 +92,18 @@ export class HandlerService extends Core {
   };
 
   saveMatches = async (matches: IUserGameHistory[]) => {
+    const records = await GamePlayers.query()
+      .whereIn(
+        'gameId',
+        matches.map((match) => match.gameId)
+      )
+      .where('userNum', '=', matches[0].userNum);
+
     for (const match of matches) {
       this.log.info(`[Match][${match.gameId}] Processing`);
       this.log.info(`[Match][${match.gameId}] Fetching`);
 
-      const record = await GamePlayers.query()
-        .where('gameId', '=', match.gameId)
-        .findOne('userNum', '=', match.userNum);
-
-      if (record) {
+      if (records.find((r) => r.gameId === match.gameId)) {
         continue;
       } else {
         this.sqlService.upsertGame(match);
