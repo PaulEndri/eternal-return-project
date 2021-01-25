@@ -35,7 +35,7 @@ export const MaverickRunner: Item = {
   ],
   displayName: 'Maverick Runner',
   apiMetaData: {
-    code: 204404,
+    code: 204403,
     category: 'Armor',
     type: 'Leg'
   },
