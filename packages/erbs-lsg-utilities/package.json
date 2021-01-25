@@ -1,6 +1,6 @@
 {
   "name": "erbs-lsg-utilities",
-  "version": "1.4.1",
+  "version": "1.7.4",
   "private": true,
   "description": "[Sample]",
   "main": "dist/index.js",
