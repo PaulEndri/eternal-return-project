@@ -3,7 +3,7 @@ import { ErBsClient, IUserGameHistory } from 'erbs-client';
 import { IUserRecord } from 'erbs-client/dist/interfaces/IUserRecord';
 import { Core } from '../libs/core';
 import { SqlService } from './sql.service';
-import { Games, Player } from '../models/sql.models';
+import { GamePlayers, Player } from '../models/sql.models';
 
 export class HandlerService extends Core {
   private client = new ErBsClient();
@@ -96,8 +96,8 @@ export class HandlerService extends Core {
       this.log.info(`[Match][${match.gameId}] Processing`);
       this.log.info(`[Match][${match.gameId}] Fetching`);
 
-      const record = await Games.query()
-        .where('id', '=', match.gameId)
+      const record = await GamePlayers.query()
+        .where('gameId', '=', match.gameId)
         .findOne('playerId', '=', match.userNum);
 
       if (record) {
