@@ -230,7 +230,7 @@ export class SqlService {
         }
       });
 
-      basicObject.seasonRecords = seasonRecords as any;
+      basicObject.seasonRecords = Object.values(seasonRecords) as any;
 
       await Players.findOneAndUpdate({ id: playerId }, basicObject as any, {
         new: true,
