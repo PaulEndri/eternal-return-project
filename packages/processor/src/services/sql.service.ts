@@ -142,8 +142,6 @@ export class SqlService {
       }
     } catch (e) {
       console.error(e);
-    } finally {
-      this.emitter.emit('mongo', userNum);
     }
   }
 

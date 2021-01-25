@@ -109,5 +109,7 @@ export class HandlerService extends Core {
         this.sqlService.upsertGame(match);
       }
     }
+
+    this.sqlService.emitter.emit('mongo', matches[0].userNum);
   };
 }
