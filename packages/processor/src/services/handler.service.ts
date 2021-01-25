@@ -97,7 +97,7 @@ export class HandlerService extends Core {
       this.log.info(`[Match][${match.gameId}] Fetching`);
 
       const record = await Games.query()
-        .where('gameId', '=', match.gameId)
+        .where('id', '=', match.gameId)
         .findOne('playerId', '=', match.userNum);
 
       if (record) {
