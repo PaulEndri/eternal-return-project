@@ -56,6 +56,7 @@ export class SqlService {
     } = game;
     try {
       console.log('Syncing Match', gameId);
+      const existingGame = await Games.query().findById(gameId);
       const existingPlayer = await GamePlayers.query()
         .where('gameId', '=', gameId)
         .findOne('userNum', '=', userNum);
@@ -89,20 +90,22 @@ export class SqlService {
         matchingTeamMode,
         seasonId
       };
-      if (existingPlayer && existingPlayer) {
-        await GamePlayers.query().deleteById(existingPlayer.id);
 
-        await GamePlayers.query().insertGraph(playerGraph);
-      } else {
-        await Games.query().insertGraph({
+      if (!existingGame) {
+        await Games.query().insert({
           id: +gameId,
           averageMmr: 0,
           seasonId,
           gameMode: matchingTeamMode,
-          version: `0.${versionMajor}.${versionMinor}`,
-          players: [playerGraph]
+          version: `0.${versionMajor}.${versionMinor}`
         } as any);
       }
+
+      if (existingPlayer && existingPlayer.id) {
+        await GamePlayers.query().deleteById(existingPlayer.id);
+      }
+
+      await GamePlayers.query().insertGraph(playerGraph);
     } catch (e) {
       console.error(e);
     }
