@@ -56,90 +56,50 @@ export class SqlService {
     } = game;
     try {
       console.log('Syncing Match', gameId);
-      const existing: any = await Games.query().findById(gameId);
+      const existing: any = await Games.query()
+        .where('userNum', '=', userNum)
+        .findById(gameId);
 
       if (existing && existing.id) {
-        try {
-          await Games.query()
-            .findById(gameId)
-            .patch({
-              gameMode: matchingTeamMode,
-              seasonId,
-              averageMmr: 0,
-              version: `0.${versionMajor}.${versionMinor}`
-            } as any);
-        } catch (e) {
-          console.warn(e);
-        }
+        await Games.query().deleteById(existing.id);
+      }
 
-        const {
-          masteryLevel,
-          equipment,
-          skillLevelInfo,
-          criticalStrikeChance,
-          skillOrderInfo,
-          ...rec
-        } = rest as any;
+      const {
+        masteryLevel,
+        equipment,
+        skillLevelInfo,
+        criticalStrikeChance,
+        skillOrderInfo,
+        ...rec
+      } = rest as any;
 
-        const skills = Object.entries(skillOrderInfo).map(([level, skill]) => ({
-          gameId,
-          skillId: +skill,
-          level: +level
-        }));
-        const insertEquipment = Object.values(equipment).map((item) => ({
-          itemId: +item,
-          gameId
-        }));
-
-        try {
-          await GamePlayers.query().insertGraph({
+      const skills = Object.entries(skillOrderInfo).map(([level, skill]) => ({
+        gameId,
+        skillId: +skill,
+        level: +level
+      }));
+      const insertEquipment = Object.values(equipment).map((item) => ({
+        itemId: +item,
+        gameId
+      }));
+      await Games.query().insertGraph({
+        id: +gameId,
+        averageMmr: 0,
+        seasonId,
+        gameMode: matchingTeamMode,
+        version: `0.${versionMajor}.${versionMinor}`,
+        players: [
+          {
             gameId,
             userNum,
             criticalChance: criticalStrikeChance,
             skills,
+            matchingTeamMode,
             equipment: insertEquipment,
             ...rec
-          });
-        } catch (e) {
-          console.warn(e);
-        }
-      } else {
-        const {
-          masteryLevel,
-          equipment,
-          skillLevelInfo,
-          criticalStrikeChance,
-          skillOrderInfo,
-          ...rec
-        } = rest as any;
-
-        const skills = Object.entries(skillOrderInfo).map(([level, skill]) => ({
-          gameId,
-          skillId: +skill,
-          level: +level
-        }));
-        const insertEquipment = Object.values(equipment).map((item) => ({
-          itemId: +item,
-          gameId
-        }));
-        await Games.query().insertGraph({
-          id: +gameId,
-          averageMmr: 0,
-          seasonId,
-          gameMode: matchingTeamMode,
-          version: `0.${versionMajor}.${versionMinor}`,
-          players: [
-            {
-              gameId,
-              userNum,
-              criticalChance: criticalStrikeChance,
-              skills,
-              equipment: insertEquipment,
-              ...rec
-            }
-          ]
-        } as any);
-      }
+          }
+        ]
+      } as any);
     } catch (e) {
       console.error(e);
     }
