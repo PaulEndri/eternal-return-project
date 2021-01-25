@@ -64,7 +64,7 @@ export class HandlerService extends Core {
 
     record.seasonRecords = results;
 
-    this.sqlService.upsertPlayer(record);
+    await this.sqlService.upsertPlayer(record);
 
     this.log.info(`[Player][${id}][Season][${seasonNumber}] Processed`);
 
