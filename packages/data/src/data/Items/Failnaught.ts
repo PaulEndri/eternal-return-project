@@ -13,7 +13,7 @@ export const Failnaught: Item = {
 	"stats": {
 		"attackPower": 100,
 		"attackSpeedRatio": 0.15,
-		"lifeSteal": 0.15
+		"increaseBasicAttackDamage": 0.15
 	},
 	"rarity": "Legend",
 	"code": "페일노트",
@@ -23,14 +23,8 @@ export const Failnaught: Item = {
 	"foundQuantity": 1,
 	"description": "The arrows of Tristan, one of the Knights of the Round Table. Known as the arrows that never miss, so it will fail you not.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401401
-		},
-		{
-			"name": "Scissors",
-			"id": 114301
-		}
+		401401,
+		114301
 	],
 	"displayName": "Failnaught",
 	"apiMetaData": {

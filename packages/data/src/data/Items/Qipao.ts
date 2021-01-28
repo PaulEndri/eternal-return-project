@@ -4,10 +4,7 @@ export const Qipao: Item = {
 	"id": 202304,
 	"name": "Qipao",
 	"buildsInto": [
-		{
-			"name": "Dragon Dobok",
-			"id": 202411
-		}
+		202411
 	],
 	"requirements": {
 		"Cloth": 1,
@@ -27,14 +24,8 @@ export const Qipao: Item = {
 	"foundQuantity": 1,
 	"description": "A traditional Chinese dress. They vary in style from simple cotton dresses to silk ones with elaborate fine details.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202207
-		},
-		{
-			"name": "Scissors",
-			"id": 113101
-		}
+		202207,
+		113101
 	],
 	"displayName": "Qipao",
 	"apiMetaData": {

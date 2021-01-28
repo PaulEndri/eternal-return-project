@@ -4,22 +4,16 @@ export const FlowerOfFate: Item = {
 	"id": 205203,
 	"name": "FlowerOfFate",
 	"buildsInto": [
-		{
-			"name": "Apricot Sword",
-			"id": 120301
-		},
-		{
-			"name": "Emerald Tablet",
-			"id": 205501
-		}
+		120301,
+		205501
 	],
 	"requirements": {
 		"Flower": 1,
 		"Playing Cards": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.1,
-		"criticalStrikeChance": 0.15
+		"criticalStrikeChance": 0.15,
+		"lifeSteal": 0.1
 	},
 	"rarity": "Uncommon",
 	"code": "운명의꽃",
@@ -29,14 +23,8 @@ export const FlowerOfFate: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205102
-		},
-		{
-			"name": "Scissors",
-			"id": 113102
-		}
+		205102,
+		113102
 	],
 	"displayName": "Flower of Fate",
 	"apiMetaData": {

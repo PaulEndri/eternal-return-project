@@ -4,30 +4,12 @@ export const ScrapMetal: Item = {
 	"id": 401106,
 	"name": "ScrapMetal",
 	"buildsInto": [
-		{
-			"name": "Nunchaku",
-			"id": 119201
-		},
-		{
-			"name": "High Heels",
-			"id": 204203
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		},
-		{
-			"name": "Iron Sheet",
-			"id": 401213
-		},
-		{
-			"name": "Motor",
-			"id": 401303
-		},
-		{
-			"name": "RDX",
-			"id": 502307
-		}
+		119201,
+		204203,
+		401201,
+		401213,
+		401303,
+		502307
 	],
 	"requirements": {},
 	"stats": {},
@@ -55,14 +37,8 @@ export const ScrapMetal: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		},
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		2,
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

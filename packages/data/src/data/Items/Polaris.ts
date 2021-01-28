@@ -13,9 +13,9 @@ export const Polaris: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"attackPower": 135,
+		"attackPower": 130,
 		"attackSpeedRatio": 0.4,
-		"moveSpeed": -0.07,
+		"moveSpeed": -0.03,
 		"sightRange": 2
 	},
 	"rarity": "Epic",
@@ -26,14 +26,8 @@ export const Polaris: Item = {
 	"foundQuantity": 1,
 	"description": "When a person dies, their soul will heads to the afterlife world. However, dying from this weapon appears to banish their soul even further. Perhaps to the North Star?",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 118402
-		},
-		{
-			"name": "Scissors",
-			"id": 401206
-		}
+		118402,
+		401206
 	],
 	"displayName": "Polaris",
 	"apiMetaData": {

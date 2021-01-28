@@ -13,8 +13,8 @@ export const Parashu: Item = {
 	},
 	"stats": {
 		"attackPower": 115,
-		"cooldownReduction": 0.1,
-		"moveSpeed": 0.15
+		"lifeSteal": 0.1,
+		"moveSpeed": 0.1
 	},
 	"rarity": "Epic",
 	"code": "파라슈",
@@ -24,14 +24,8 @@ export const Parashu: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105301
-		},
-		{
-			"name": "Scissors",
-			"id": 205207
-		}
+		105301,
+		205207
 	],
 	"displayName": "Parashu",
 	"apiMetaData": {

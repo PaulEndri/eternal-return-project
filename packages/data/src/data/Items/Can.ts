@@ -4,18 +4,9 @@ export const Can: Item = {
 	"id": 401120,
 	"name": "Can",
 	"buildsInto": [
-		{
-			"name": "Can of Cola",
-			"id": 301309
-		},
-		{
-			"name": "Canned Cod Liver",
-			"id": 302204
-		},
-		{
-			"name": "Clang Clatter",
-			"id": 502206
-		}
+		502206,
+		301309,
+		302204
 	],
 	"requirements": {},
 	"stats": {},
@@ -42,10 +33,7 @@ export const Can: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

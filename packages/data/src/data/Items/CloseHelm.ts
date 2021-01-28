@@ -4,14 +4,8 @@ export const CloseHelm: Item = {
 	"id": 201402,
 	"name": "CloseHelm",
 	"buildsInto": [
-		{
-			"name": "Helm of Banneret",
-			"id": 201407
-		},
-		{
-			"name": "Imperial Burgonet",
-			"id": 201410
-		}
+		201407,
+		201410
 	],
 	"requirements": {
 		"Hat": 1,
@@ -20,8 +14,9 @@ export const CloseHelm: Item = {
 		"Feather": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.1,
+		"cooldownReduction": 0.07,
 		"defense": 20,
+		"lifeSteal": 0.1,
 		"maxSp": 130,
 		"moveSpeed": 0.1
 	},
@@ -33,14 +28,8 @@ export const CloseHelm: Item = {
 	"foundQuantity": 1,
 	"description": "A helmet made out of steel to protect the head of its wearer. It's heavy, but it makes you feel safe.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201204
-		},
-		{
-			"name": "Scissors",
-			"id": 201201
-		}
+		201204,
+		201201
 	],
 	"displayName": "Close Helm",
 	"apiMetaData": {

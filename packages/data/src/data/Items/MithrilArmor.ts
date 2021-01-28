@@ -22,14 +22,8 @@ export const MithrilArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Normal chain armor cannot completely protect its wearer from external impact, but the Mithril material on this armor defies the normality of chain armor.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401304
-		},
-		{
-			"name": "Scissors",
-			"id": 202201
-		}
+		401304,
+		202201
 	],
 	"displayName": "Mithril Armor",
 	"apiMetaData": {

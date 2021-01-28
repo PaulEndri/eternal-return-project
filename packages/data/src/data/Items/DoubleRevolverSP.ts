@@ -4,10 +4,7 @@ export const DoubleRevolverSP: Item = {
 	"id": 116401,
 	"name": "DoubleRevolverSP",
 	"buildsInto": [
-		{
-			"name": "Devil's Marksman",
-			"id": 116403
-		}
+		116403
 	],
 	"requirements": {
 		"Walther PPK": 2,
@@ -28,14 +25,8 @@ export const DoubleRevolverSP: Item = {
 	"foundQuantity": 1,
 	"description": "This isn't two revolvers -- it's one double revolver.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116201
-		},
-		{
-			"name": "Scissors",
-			"id": 116202
-		}
+		116201,
+		116202
 	],
 	"displayName": "Double Revolver SP",
 	"apiMetaData": {

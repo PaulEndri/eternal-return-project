@@ -12,6 +12,7 @@ export const MotorcycleHelmet: Item = {
 	},
 	"stats": {
 		"attackPower": 10,
+		"cooldownReduction": 0.07,
 		"maxHp": 300,
 		"sightRange": 1.5
 	},
@@ -23,14 +24,8 @@ export const MotorcycleHelmet: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201302
-		},
-		{
-			"name": "Scissors",
-			"id": 205110
-		}
+		201302,
+		205110
 	],
 	"displayName": "Motorcycle Helmet",
 	"apiMetaData": {

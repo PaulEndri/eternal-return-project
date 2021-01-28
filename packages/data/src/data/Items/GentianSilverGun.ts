@@ -23,14 +23,8 @@ export const GentianSilverGun: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107401
-		},
-		{
-			"name": "Scissors",
-			"id": 401206
-		}
+		107401,
+		401206
 	],
 	"displayName": "Gentian Silver Gun",
 	"apiMetaData": {

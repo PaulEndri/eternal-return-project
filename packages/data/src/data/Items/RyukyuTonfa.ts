@@ -4,14 +4,8 @@ export const RyukyuTonfa: Item = {
 	"id": 111401,
 	"name": "RyukyuTonfa",
 	"buildsInto": [
-		{
-			"name": "Mai Sok",
-			"id": 111403
-		},
-		{
-			"name": "Plasma Tonfa",
-			"id": 111404
-		}
+		111403,
+		111404
 	],
 	"requirements": {
 		"Bamboo": 1,
@@ -31,14 +25,8 @@ export const RyukyuTonfa: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 111201
-		},
-		{
-			"name": "Scissors",
-			"id": 401206
-		}
+		111201,
+		401206
 	],
 	"displayName": "Ryukyu Tonfa",
 	"apiMetaData": {

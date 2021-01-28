@@ -4,10 +4,7 @@ export const HumbuckerPickup: Item = {
 	"id": 121302,
 	"name": "HumbuckerPickup",
 	"buildsInto": [
-		{
-			"name": "Stairway to Heaven",
-			"id": 121402
-		}
+		121402
 	],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -19,7 +16,7 @@ export const HumbuckerPickup: Item = {
 	"stats": {
 		"attackPower": 25,
 		"sightRange": 3,
-		"increaseSkillDamageRatio": 0.15
+		"preventSkillDamagedRatio": 0.15
 	},
 	"rarity": "Rare",
 	"code": "험버커픽업",
@@ -29,14 +26,8 @@ export const HumbuckerPickup: Item = {
 	"foundQuantity": 1,
 	"description": "A guitar with dual coil pickups. It has a darker output.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121201
-		},
-		{
-			"name": "Scissors",
-			"id": 205206
-		}
+		121201,
+		205206
 	],
 	"displayName": "Humbucker Pickup",
 	"apiMetaData": {

@@ -4,33 +4,21 @@ export const Fan: Item = {
 	"id": 205105,
 	"name": "Fan",
 	"buildsInto": [
-		{
-			"name": "Umbrella",
-			"id": 108401
-		},
-		{
-			"name": "Wind Whip",
-			"id": 109301
-		},
-		{
-			"name": "Gilded Quill Fan",
-			"id": 205210
-		},
-		{
-			"name": "Uchiwa",
-			"id": 205302
-		}
+		108401,
+		109301,
+		205210,
+		205302
 	],
 	"requirements": {},
 	"stats": {
-		"increaseSkillDamage": 11
+		"increaseSkillDamageRatio": 11
 	},
 	"rarity": "Common",
 	"code": "부채",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Forest": 8,
 		"Chapel": 6
 	},
@@ -48,10 +36,7 @@ export const Fan: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

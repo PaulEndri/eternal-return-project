@@ -4,14 +4,8 @@ export const BoneGauntlet: Item = {
 	"id": 110401,
 	"name": "BoneGauntlet",
 	"buildsInto": [
-		{
-			"name": "One Inch Punch",
-			"id": 110405
-		},
-		{
-			"name": "Brasil Gauntlet",
-			"id": 110410
-		}
+		110405,
+		110410
 	],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -22,7 +16,7 @@ export const BoneGauntlet: Item = {
 	"stats": {
 		"attackPower": 35,
 		"defense": 13,
-		"moveSpeed": -0.1
+		"moveSpeed": -0.05
 	},
 	"rarity": "Rare",
 	"code": "귀골장갑",
@@ -32,14 +26,8 @@ export const BoneGauntlet: Item = {
 	"foundQuantity": 1,
 	"description": "Armored gloves made from a turtle shell.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110301
-		},
-		{
-			"name": "Scissors",
-			"id": 401104
-		}
+		110301,
+		401104
 	],
 	"displayName": "Bone Gauntlet",
 	"apiMetaData": {

@@ -14,7 +14,7 @@ export const PurpleHaze: Item = {
 	},
 	"stats": {
 		"attackPower": 85,
-		"increaseSkillDamageRatio": 0.21
+		"preventSkillDamagedRatio": 0.21
 	},
 	"rarity": "Epic",
 	"code": "퍼플헤이즈",
@@ -24,14 +24,8 @@ export const PurpleHaze: Item = {
 	"foundQuantity": 1,
 	"description": "Whether tomorrow is waiting for you, or if it's really the end of time... this island doesn't have the answer.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121303
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		121303,
+		401210
 	],
 	"displayName": "Purple Haze",
 	"apiMetaData": {

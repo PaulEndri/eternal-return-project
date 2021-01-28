@@ -4,16 +4,14 @@ export const SafetyHelmet: Item = {
 	"id": 201205,
 	"name": "SafetyHelmet",
 	"buildsInto": [
-		{
-			"name": "Fire Helmet",
-			"id": 201302
-		}
+		201302
 	],
 	"requirements": {
 		"Bike Helmet": 1,
 		"Stone": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.04,
 		"maxHp": 210
 	},
 	"rarity": "Uncommon",
@@ -24,14 +22,8 @@ export const SafetyHelmet: Item = {
 	"foundQuantity": 1,
 	"description": "Please wear your personal protective equipment in all construction areas.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201104
-		},
-		{
-			"name": "Scissors",
-			"id": 112101
-		}
+		201104,
+		112101
 	],
 	"displayName": "Safety Helmet",
 	"apiMetaData": {

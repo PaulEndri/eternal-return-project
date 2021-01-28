@@ -4,10 +4,7 @@ export const Chakram: Item = {
 	"id": 113301,
 	"name": "Chakram",
 	"buildsInto": [
-		{
-			"name": "Dharma Chakram",
-			"id": 113403
-		}
+		113403
 	],
 	"requirements": {
 		"Razor": 1,
@@ -26,14 +23,8 @@ export const Chakram: Item = {
 	"foundQuantity": 1,
 	"description": "The chakram is basically a throwing weapon, but in some cases, it also can be used to slash enemies like a melee weapon. Its circular shape has sharp blades around it, making it even more deadly.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113205
-		},
-		{
-			"name": "Scissors",
-			"id": 401109
-		}
+		113205,
+		401109
 	],
 	"displayName": "Chakram",
 	"apiMetaData": {

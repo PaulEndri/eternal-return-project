@@ -4,18 +4,9 @@ export const Pike: Item = {
 	"id": 107302,
 	"name": "Pike",
 	"buildsInto": [
-		{
-			"name": "Halberd Axe",
-			"id": 107303
-		},
-		{
-			"name": "Lance of Poseidon",
-			"id": 107405
-		},
-		{
-			"name": "Spear of Longinus",
-			"id": 107501
-		}
+		107303,
+		107405,
+		107501
 	],
 	"requirements": {
 		"Short Spear": 1,
@@ -34,14 +25,8 @@ export const Pike: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107101
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		107101,
+		401201
 	],
 	"displayName": "Pike",
 	"apiMetaData": {

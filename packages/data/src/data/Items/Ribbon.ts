@@ -4,22 +4,13 @@ export const Ribbon: Item = {
 	"id": 205103,
 	"name": "Ribbon",
 	"buildsInto": [
-		{
-			"name": "Suit",
-			"id": 202303
-		},
-		{
-			"name": "Doll",
-			"id": 205205
-		},
-		{
-			"name": "Moonlight Pendant",
-			"id": 205401
-		}
+		202303,
+		205205,
+		205401
 	],
 	"requirements": {},
 	"stats": {
-		"lifeSteal": 0.05
+		"increaseBasicAttackDamage": 0.05
 	},
 	"rarity": "Common",
 	"code": "리본",
@@ -44,10 +35,7 @@ export const Ribbon: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

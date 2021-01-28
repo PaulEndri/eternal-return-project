@@ -4,18 +4,9 @@ export const ReapersScythe: Item = {
 	"id": 105302,
 	"name": "ReapersScythe",
 	"buildsInto": [
-		{
-			"name": "Santa Muerte",
-			"id": 105403
-		},
-		{
-			"name": "Scythe",
-			"id": 105404
-		},
-		{
-			"name": "Harpe",
-			"id": 105406
-		}
+		105403,
+		105404,
+		105406
 	],
 	"requirements": {
 		"Pickaxe": 1,
@@ -34,14 +25,8 @@ export const ReapersScythe: Item = {
 	"foundQuantity": 1,
 	"description": "A weapon that the Grim Reaper carries. If the scythe claims someone, that soul will vanish.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105201
-		},
-		{
-			"name": "Scissors",
-			"id": 108102
-		}
+		105201,
+		108102
 	],
 	"displayName": "Reaper's Scythe",
 	"apiMetaData": {

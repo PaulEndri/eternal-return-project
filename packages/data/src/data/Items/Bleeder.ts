@@ -4,10 +4,7 @@ export const Bleeder: Item = {
 	"id": 119302,
 	"name": "Bleeder",
 	"buildsInto": [
-		{
-			"name": "Vibro Nunchaku",
-			"id": 119402
-		}
+		119402
 	],
 	"requirements": {
 		"Steel Chain": 1,
@@ -25,14 +22,8 @@ export const Bleeder: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 119201
-		},
-		{
-			"name": "Scissors",
-			"id": 113101
-		}
+		119201,
+		113101
 	],
 	"displayName": "Bleeder",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const Gauntlet: Item = {
 	"id": 110301,
 	"name": "Gauntlet",
 	"buildsInto": [
-		{
-			"name": "Bone Gauntlet",
-			"id": 110401
-		},
-		{
-			"name": "Shatter Shell Gauntlet",
-			"id": 110402
-		}
+		110401,
+		110402
 	],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -30,14 +24,8 @@ export const Gauntlet: Item = {
 	"foundQuantity": 1,
 	"description": "Gloves that knights wore to protect their hands.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110102
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		110102,
+		401201
 	],
 	"displayName": "Gauntlet",
 	"apiMetaData": {

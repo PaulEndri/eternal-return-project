@@ -12,7 +12,7 @@ export const ThunderWhip: Item = {
 	},
 	"stats": {
 		"attackPower": 30,
-		"increaseSkillDamageRatio": 0.18
+		"preventSkillDamagedRatio": 0.2
 	},
 	"rarity": "Rare",
 	"code": "뇌룡편",
@@ -22,14 +22,8 @@ export const ThunderWhip: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 109202
-		},
-		{
-			"name": "Scissors",
-			"id": 401214
-		}
+		109202,
+		401214
 	],
 	"displayName": "Thunder Whip",
 	"apiMetaData": {

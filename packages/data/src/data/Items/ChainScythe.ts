@@ -4,10 +4,7 @@ export const ChainScythe: Item = {
 	"id": 105201,
 	"name": "ChainScythe",
 	"buildsInto": [
-		{
-			"name": "Reaper's Scythe",
-			"id": 105302
-		}
+		105302
 	],
 	"requirements": {
 		"Pickaxe": 1,
@@ -25,14 +22,8 @@ export const ChainScythe: Item = {
 	"foundQuantity": 1,
 	"description": "A weapon of the Grim Reaper that has a sharp scythe at one end of a steel chain.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105102
-		},
-		{
-			"name": "Scissors",
-			"id": 119101
-		}
+		105102,
+		119101
 	],
 	"displayName": "Chain Scythe",
 	"apiMetaData": {

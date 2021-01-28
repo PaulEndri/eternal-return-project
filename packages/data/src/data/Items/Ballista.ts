@@ -24,14 +24,8 @@ export const Ballista: Item = {
 	"foundQuantity": 1,
 	"description": "A smaller bow originally designed for siege warfare. It boasts incredible power.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115303
-		},
-		{
-			"name": "Scissors",
-			"id": 107101
-		}
+		115303,
+		107101
 	],
 	"displayName": "Ballista",
 	"apiMetaData": {

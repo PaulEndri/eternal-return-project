@@ -4,10 +4,7 @@ export const Magazine: Item = {
 	"id": 205303,
 	"name": "Magazine",
 	"buildsInto": [
-		{
-			"name": "XCR",
-			"id": 117405
-		}
+		117405
 	],
 	"requirements": {
 		"Box": 1,
@@ -16,7 +13,7 @@ export const Magazine: Item = {
 	},
 	"stats": {
 		"maxHp": 350,
-		"preventBasicAttackDamaged": 6
+		"increaseSkillDamage": 6
 	},
 	"rarity": "Rare",
 	"code": "탄창",
@@ -26,14 +23,8 @@ export const Magazine: Item = {
 	"foundQuantity": 1,
 	"description": "You can't fire a gun with nothing in the magazine.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205107
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		205107,
+		401213
 	],
 	"displayName": "Magazine",
 	"apiMetaData": {

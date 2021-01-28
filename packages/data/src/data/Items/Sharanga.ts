@@ -23,14 +23,8 @@ export const Sharanga: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401403
-		},
-		{
-			"name": "Scissors",
-			"id": 115202
-		}
+		401403,
+		115202
 	],
 	"displayName": "Sharanga",
 	"apiMetaData": {

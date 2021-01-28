@@ -4,10 +4,7 @@ export const ChainArmor: Item = {
 	"id": 202302,
 	"name": "ChainArmor",
 	"buildsInto": [
-		{
-			"name": "Commander's Armor",
-			"id": 202412
-		}
+		202412
 	],
 	"requirements": {
 		"Fabric Armor": 1,
@@ -25,14 +22,8 @@ export const ChainArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Armor used in both Asia and Europe in the past. Made out of interconnecting metal links.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202201
-		},
-		{
-			"name": "Scissors",
-			"id": 119101
-		}
+		202201,
+		119101
 	],
 	"displayName": "Chain Armor",
 	"apiMetaData": {

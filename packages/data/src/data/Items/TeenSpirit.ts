@@ -14,8 +14,8 @@ export const TeenSpirit: Item = {
 	},
 	"stats": {
 		"attackPower": 10,
-		"attackSpeedRatio": 0.25,
-		"increaseBasicAttackDamage": 20
+		"attackSpeedRatio": 0.35,
+		"preventBasicAttackDamaged": 20
 	},
 	"rarity": "Epic",
 	"code": "틴스피릿",
@@ -25,14 +25,8 @@ export const TeenSpirit: Item = {
 	"foundQuantity": 1,
 	"description": "Humans shine the most as teens. This shining aura fades slowly, but inevitably, as times passes by.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121306
-		},
-		{
-			"name": "Scissors",
-			"id": 205207
-		}
+		121306,
+		205207
 	],
 	"displayName": "Teen Spirit",
 	"apiMetaData": {

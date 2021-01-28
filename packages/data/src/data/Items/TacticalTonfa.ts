@@ -12,9 +12,9 @@ export const TacticalTonfa: Item = {
 		"Paper": 1
 	},
 	"stats": {
-		"attackPower": 70,
+		"attackPower": 74,
 		"defense": 10,
-		"lifeSteal": 0.25
+		"increaseBasicAttackDamage": 0.25
 	},
 	"rarity": "Epic",
 	"code": "택티컬톤파",
@@ -24,14 +24,8 @@ export const TacticalTonfa: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 111301
-		},
-		{
-			"name": "Scissors",
-			"id": 401212
-		}
+		111301,
+		401212
 	],
 	"displayName": "Tactical Tonfa",
 	"apiMetaData": {

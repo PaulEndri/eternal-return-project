@@ -4,22 +4,13 @@ export const BuddhistScripture: Item = {
 	"id": 205106,
 	"name": "BuddhistScripture",
 	"buildsInto": [
-		{
-			"name": "Charm",
-			"id": 113202
-		},
-		{
-			"name": "Dharma Chakram",
-			"id": 113403
-		},
-		{
-			"name": "Buddha Sarira",
-			"id": 205207
-		}
+		113202,
+		113403,
+		205207
 	],
 	"requirements": {},
 	"stats": {
-		"increaseSkillDamageRatio": 0.07
+		"preventSkillDamagedRatio": 0.07
 	},
 	"rarity": "Common",
 	"code": "불경",
@@ -42,14 +33,8 @@ export const BuddhistScripture: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		},
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		2,
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

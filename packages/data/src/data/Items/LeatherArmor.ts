@@ -4,18 +4,9 @@ export const LeatherArmor: Item = {
 	"id": 202201,
 	"name": "LeatherArmor",
 	"buildsInto": [
-		{
-			"name": "Chain Armor",
-			"id": 202302
-		},
-		{
-			"name": "Sunset Armor",
-			"id": 202402
-		},
-		{
-			"name": "Mithril Armor",
-			"id": 202407
-		}
+		202302,
+		202402,
+		202407
 	],
 	"requirements": {
 		"Fabric Armor": 1,
@@ -32,14 +23,8 @@ export const LeatherArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Armor made from leather. Stronger than armor made from just fabric!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202106
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		202106,
+		401103
 	],
 	"displayName": "Leather Armor",
 	"apiMetaData": {

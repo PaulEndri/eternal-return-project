@@ -4,18 +4,13 @@ export const MithrilString: Item = {
 	"id": 502401,
 	"name": "MithrilString",
 	"buildsInto": [
-		{
-			"name": "Imperial Silk Gloves",
-			"id": 110412
-		}
+		110412
 	],
 	"requirements": {
 		"Mithril": 1,
 		"Piano Wire": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Rare",
 	"code": "미스릴실",
 	"stackable": true,
@@ -23,14 +18,8 @@ export const MithrilString: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401304
-		},
-		{
-			"name": "Scissors",
-			"id": 502104
-		}
+		401304,
+		502104
 	],
 	"displayName": "Mithril String",
 	"apiMetaData": {

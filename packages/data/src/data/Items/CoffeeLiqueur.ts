@@ -4,24 +4,12 @@ export const CoffeeLiqueur: Item = {
 	"id": 301208,
 	"name": "CoffeeLiqueur",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Coffee"
-		},
-		{
-			"name": "Scissors",
-			"id": "Alcohol"
-		}
+		301106,
+		401111
 	],
 	"buildsInto": [
-		{
-			"name": "White Russian",
-			"id": 301311
-		},
-		{
-			"name": "Mocha Bread",
-			"id": 302308
-		}
+		301311,
+		302308
 	],
 	"requirements": {
 		"Coffee": 1,

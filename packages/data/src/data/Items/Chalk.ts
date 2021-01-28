@@ -4,10 +4,7 @@ export const Chalk: Item = {
 	"id": 113104,
 	"name": "Chalk",
 	"buildsInto": [
-		{
-			"name": "White Powder",
-			"id": 401206
-		}
+		401206
 	],
 	"requirements": {},
 	"stats": {
@@ -37,10 +34,7 @@ export const Chalk: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

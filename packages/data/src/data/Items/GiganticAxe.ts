@@ -4,10 +4,7 @@ export const GiganticAxe: Item = {
 	"id": 105401,
 	"name": "GiganticAxe",
 	"buildsInto": [
-		{
-			"name": "Beam Axe",
-			"id": 105402
-		}
+		105402
 	],
 	"requirements": {
 		"Hatchet": 1,
@@ -27,14 +24,8 @@ export const GiganticAxe: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105202
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		105202,
+		401201
 	],
 	"displayName": "Gigantic Axe",
 	"apiMetaData": {

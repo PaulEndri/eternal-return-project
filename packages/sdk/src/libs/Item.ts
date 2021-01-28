@@ -61,7 +61,7 @@ export class Item<A extends string = any, T extends string = any>
       const newArray = [];
 
       for (const element of this[prop]) {
-        const item = Item.Generate(element.id) as Item;
+        const item = Item.Generate(element) as Item;
 
         newArray.push(item);
 
@@ -90,8 +90,8 @@ export class Item<A extends string = any, T extends string = any>
         } else {
           list.add(+item.id, 1);
         }
-      } else if (item && item.id) {
-        const itemObj = new Item(item.id);
+      } else if (typeof item === 'number') {
+        const itemObj = new Item(item);
 
         checkForReqs(itemObj);
       }

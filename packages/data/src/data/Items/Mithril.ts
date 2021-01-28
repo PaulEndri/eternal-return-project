@@ -4,30 +4,12 @@ export const Mithril: Item = {
 	"id": 401304,
 	"name": "Mithril",
 	"buildsInto": [
-		{
-			"name": "Joyeuse",
-			"id": 120405
-		},
-		{
-			"name": "Mithril Helm",
-			"id": 201403
-		},
-		{
-			"name": "Mithril Armor",
-			"id": 202407
-		},
-		{
-			"name": "Mithril Shield",
-			"id": 203404
-		},
-		{
-			"name": "Mithril Boots",
-			"id": 204407
-		},
-		{
-			"name": "Mithril String",
-			"id": 502401
-		}
+		120405,
+		201403,
+		202407,
+		203404,
+		204407,
+		502401
 	],
 	"requirements": {},
 	"stats": {},
@@ -50,18 +32,9 @@ export const Mithril: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		},
-		{
-			"name": "Wickline",
-			"id": 7
-		}
+		5,
+		6,
+		7
 	],
 	"airSupply": true,
 	"collectible": 0

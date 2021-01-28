@@ -4,14 +4,8 @@ export const ZenVitality: Item = {
 	"id": 302329,
 	"name": "ZenVitality",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Acupuncture Needle"
-		},
-		{
-			"name": "Scissors",
-			"id": "Herbal Medicine"
-		}
+		302217,
+		302207
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -21,7 +15,7 @@ export const ZenVitality: Item = {
 		"Turtle Shell": 1
 	},
 	"stats": {
-		"heal": 850
+		"heal": 900
 	},
 	"rarity": "Rare",
 	"stackable": true,

@@ -4,30 +4,12 @@ export const HeatedOil: Item = {
 	"id": 401203,
 	"name": "HeatedOil",
 	"buildsInto": [
-		{
-			"name": "French Fries",
-			"id": 302302
-		},
-		{
-			"name": "Scrambled Egg",
-			"id": 302309
-		},
-		{
-			"name": "Fried Chicken",
-			"id": 302316
-		},
-		{
-			"name": "Curry Croquette",
-			"id": 302322
-		},
-		{
-			"name": "Fish Cutlet",
-			"id": 302326
-		},
-		{
-			"name": "Stir Fried Ramen",
-			"id": 302327
-		}
+		302302,
+		302309,
+		302316,
+		302322,
+		302326,
+		302327
 	],
 	"requirements": {
 		"Oil": 1,
@@ -42,14 +24,8 @@ export const HeatedOil: Item = {
 	"foundQuantity": 3,
 	"description": "Heated oil. It was sometimes used as a thermal weapon in the past, but now mostly used for cooking.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401112
-		},
-		{
-			"name": "Scissors",
-			"id": 401107
-		}
+		401112,
+		401107
 	],
 	"displayName": "Heated Oil",
 	"apiMetaData": {
@@ -62,14 +38,8 @@ export const HeatedOil: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

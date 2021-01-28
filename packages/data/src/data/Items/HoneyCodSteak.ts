@@ -4,21 +4,10 @@ export const HoneyCodSteak: Item = {
 	"id": 302201,
 	"name": "HoneyCodSteak",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Cod"
-		},
-		{
-			"name": "Scissors",
-			"id": "Honey"
-		}
+		302104,
+		301101
 	],
-	"buildsInto": [
-		{
-			"name": "Gleipnir",
-			"id": 109403
-		}
-	],
+	"buildsInto": [],
 	"requirements": {
 		"Cod": 1,
 		"Honey": 1

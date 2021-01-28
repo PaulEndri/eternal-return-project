@@ -4,38 +4,14 @@ export const Ice: Item = {
 	"id": 301103,
 	"name": "Ice",
 	"buildsInto": [
-		{
-			"name": "Frost Petal Hand",
-			"id": 110408
-		},
-		{
-			"name": "Frost Venom Dart",
-			"id": 113408
-		},
-		{
-			"name": "Glacial Ice",
-			"id": 205402
-		},
-		{
-			"name": "Ice Coffee",
-			"id": 301206
-		},
-		{
-			"name": "Ice Water",
-			"id": 301216
-		},
-		{
-			"name": "On The Rocks",
-			"id": 301217
-		},
-		{
-			"name": "Purified Water",
-			"id": 301308
-		},
-		{
-			"name": "Choco Ice Cream",
-			"id": 302237
-		}
+		110408,
+		113408,
+		205402,
+		301206,
+		301216,
+		301217,
+		301308,
+		302237
 	],
 	"requirements": {},
 	"stats": {

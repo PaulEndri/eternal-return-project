@@ -25,14 +25,8 @@ export const Elegance: Item = {
 	"foundQuantity": 1,
 	"description": "Though it looks like an old gun, it is actually a smaller version of the railgun pistol. Up to 6 bullets are loaded from a clip. At first glance, it looks like a decoration, but it is just as effective as the real, full-size version.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116301
-		},
-		{
-			"name": "Scissors",
-			"id": 205209
-		}
+		116301,
+		205209
 	],
 	"displayName": "Elegance",
 	"apiMetaData": {

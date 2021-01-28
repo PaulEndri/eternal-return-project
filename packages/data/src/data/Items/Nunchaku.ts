@@ -4,21 +4,15 @@ export const Nunchaku: Item = {
 	"id": 119201,
 	"name": "Nunchaku",
 	"buildsInto": [
-		{
-			"name": "Sharper",
-			"id": 119301
-		},
-		{
-			"name": "Bleeder",
-			"id": 119302
-		}
+		119301,
+		119302
 	],
 	"requirements": {
 		"Steel Chain": 1,
 		"Scrap Metal": 1
 	},
 	"stats": {
-		"attackPower": 27
+		"attackPower": 29
 	},
 	"rarity": "Uncommon",
 	"code": "눈차크",
@@ -28,14 +22,8 @@ export const Nunchaku: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 119101
-		},
-		{
-			"name": "Scissors",
-			"id": 401106
-		}
+		119101,
+		401106
 	],
 	"displayName": "Nunchaku",
 	"apiMetaData": {

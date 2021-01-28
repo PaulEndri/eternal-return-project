@@ -4,10 +4,7 @@ export const LightHatchet: Item = {
 	"id": 105301,
 	"name": "LightHatchet",
 	"buildsInto": [
-		{
-			"name": "Parashu",
-			"id": 105405
-		}
+		105405
 	],
 	"requirements": {
 		"Hatchet": 1,
@@ -26,14 +23,8 @@ export const LightHatchet: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105202
-		},
-		{
-			"name": "Scissors",
-			"id": 205101
-		}
+		105202,
+		205101
 	],
 	"displayName": "Light Hatchet",
 	"apiMetaData": {

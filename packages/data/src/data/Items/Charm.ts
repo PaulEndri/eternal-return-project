@@ -4,14 +4,8 @@ export const Charm: Item = {
 	"id": 113202,
 	"name": "Charm",
 	"buildsInto": [
-		{
-			"name": "Mystic Jade Charm",
-			"id": 113405
-		},
-		{
-			"name": "Death Rune",
-			"id": 113412
-		}
+		113405,
+		113412
 	],
 	"requirements": {
 		"Playing Cards": 1,
@@ -21,7 +15,7 @@ export const Charm: Item = {
 	"stats": {
 		"attackPower": 40,
 		"charges": 10,
-		"increaseSkillDamageRatio": 0.1
+		"preventSkillDamagedRatio": 0.1
 	},
 	"rarity": "Rare",
 	"code": "부적",
@@ -31,14 +25,8 @@ export const Charm: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113203
-		},
-		{
-			"name": "Scissors",
-			"id": 205106
-		}
+		113203,
+		205106
 	],
 	"displayName": "Charm",
 	"apiMetaData": {

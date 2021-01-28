@@ -4,34 +4,13 @@ export const Honey: Item = {
 	"id": 301101,
 	"name": "Honey",
 	"buildsInto": [
-		{
-			"name": "Cola",
-			"id": 301209
-		},
-		{
-			"name": "Honey Milk",
-			"id": 301211
-		},
-		{
-			"name": "Honey Water",
-			"id": 301215
-		},
-		{
-			"name": "Hot Honey Water",
-			"id": 301302
-		},
-		{
-			"name": "Honey cod steak",
-			"id": 302201
-		},
-		{
-			"name": "Honey Garlic Pickle",
-			"id": 302232
-		},
-		{
-			"name": "Honey Butter",
-			"id": 302315
-		}
+		301209,
+		301211,
+		301215,
+		301302,
+		302201,
+		302232,
+		302315
 	],
 	"requirements": {},
 	"stats": {

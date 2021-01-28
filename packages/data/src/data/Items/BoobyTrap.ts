@@ -4,28 +4,17 @@ export const BoobyTrap: Item = {
 	"id": 502205,
 	"name": "BoobyTrap",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Snare"
-		},
-		{
-			"name": "Scissors",
-			"id": "Glue"
-		}
+		502102,
+		401116
 	],
 	"buildsInto": [
-		{
-			"name": "Mine",
-			"id": 502304
-		}
+		502304
 	],
 	"requirements": {
 		"Snare": 1,
 		"Glue": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,

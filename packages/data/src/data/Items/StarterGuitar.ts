@@ -4,14 +4,8 @@ export const StarterGuitar: Item = {
 	"id": 121101,
 	"name": "StarterGuitar",
 	"buildsInto": [
-		{
-			"name": "Golden Bridge",
-			"id": 121201
-		},
-		{
-			"name": "Single Coil Pickup",
-			"id": 121202
-		}
+		121201,
+		121202
 	],
 	"requirements": {},
 	"stats": {
@@ -25,14 +19,8 @@ export const StarterGuitar: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108103
-		},
-		{
-			"name": "Scissors",
-			"id": 502104
-		}
+		108103,
+		502104
 	],
 	"displayName": "Starter Guitar",
 	"apiMetaData": {

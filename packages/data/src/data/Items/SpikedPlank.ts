@@ -4,26 +4,17 @@ export const SpikedPlank: Item = {
 	"id": 502201,
 	"name": "SpikedPlank",
 	"buildsInto": [
-		{
-			"name": "Stingburst",
-			"id": 502402
-		},
-		{
-			"name": "Hidden Maiden",
-			"id": 502407
-		},
-		{
-			"name": "Remote Mine",
-			"id": 502501
-		}
+		109403,
+		203304,
+		502402,
+		502407,
+		502501
 	],
 	"requirements": {
 		"Mousetrap": 1,
 		"Nail": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"code": "가시발판",
 	"stackable": true,
@@ -31,14 +22,8 @@ export const SpikedPlank: Item = {
 	"locations": {},
 	"foundQuantity": 2,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 502103
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		502103,
+		401101
 	],
 	"displayName": "Spiked Plank",
 	"apiMetaData": {

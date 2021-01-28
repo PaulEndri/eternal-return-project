@@ -4,38 +4,14 @@ export const Oil: Item = {
 	"id": 401112,
 	"name": "Oil",
 	"buildsInto": [
-		{
-			"name": "Masamune",
-			"id": 102401
-		},
-		{
-			"name": "Molotov Cocktail",
-			"id": 112203
-		},
-		{
-			"name": "Strong Bow",
-			"id": 114301
-		},
-		{
-			"name": "Magnum-Python",
-			"id": 116201
-		},
-		{
-			"name": "Gatling Gun",
-			"id": 117403
-		},
-		{
-			"name": "Wild Horse",
-			"id": 121306
-		},
-		{
-			"name": "Oilcloth",
-			"id": 401202
-		},
-		{
-			"name": "Heated Oil",
-			"id": 401203
-		}
+		102401,
+		112203,
+		114301,
+		116201,
+		117403,
+		121306,
+		401202,
+		401203
 	],
 	"requirements": {},
 	"stats": {},
@@ -44,7 +20,7 @@ export const Oil: Item = {
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Archery Range": 5,
 		"Factory": 7,
 		"Uptown": 7
@@ -63,10 +39,7 @@ export const Oil: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

@@ -4,14 +4,8 @@ export const AncientBolt: Item = {
 	"id": 114401,
 	"name": "AncientBolt",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Stallion Bow"
-		},
-		{
-			"name": "Scissors",
-			"id": "Bamboo"
-		}
+		114302,
+		108103
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -23,7 +17,7 @@ export const AncientBolt: Item = {
 	},
 	"stats": {
 		"attackPower": 55,
-		"increaseBasicAttackDamage": 40
+		"preventBasicAttackDamaged": 40
 	},
 	"rarity": "Epic",
 	"stackable": false,

@@ -4,20 +4,11 @@ export const FrenchFries: Item = {
 	"id": 302302,
 	"name": "FrenchFries",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Potato"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Oil"
-		}
+		302102,
+		401203
 	],
 	"buildsInto": [
-		{
-			"name": "Fish and Chips",
-			"id": 302401
-		}
+		302401
 	],
 	"requirements": {
 		"Potato": 1,
@@ -25,7 +16,7 @@ export const FrenchFries: Item = {
 		"Lighter": 1
 	},
 	"stats": {
-		"heal": 600
+		"heal": 700
 	},
 	"rarity": "Rare",
 	"stackable": true,

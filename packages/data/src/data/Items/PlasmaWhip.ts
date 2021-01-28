@@ -12,7 +12,7 @@ export const PlasmaWhip: Item = {
 		"Laser Pointer": 1
 	},
 	"stats": {
-		"attackPower": 54,
+		"attackPower": 60,
 		"attackSpeedRatio": 0.3,
 		"sightRange": 2.3
 	},
@@ -24,14 +24,8 @@ export const PlasmaWhip: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 109402
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		109402,
+		401108
 	],
 	"displayName": "Plasma Whip",
 	"apiMetaData": {

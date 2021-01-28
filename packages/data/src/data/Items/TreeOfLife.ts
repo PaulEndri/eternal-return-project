@@ -4,14 +4,8 @@ export const TreeOfLife: Item = {
 	"id": 401208,
 	"name": "TreeOfLife",
 	"buildsInto": [
-		{
-			"name": "Death Rune",
-			"id": 113412
-		},
-		{
-			"name": "Powder of Life",
-			"id": 205301
-		}
+		113412,
+		205301
 	],
 	"requirements": {},
 	"stats": {},

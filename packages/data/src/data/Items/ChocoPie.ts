@@ -4,20 +4,11 @@ export const ChocoPie: Item = {
 	"id": 302216,
 	"name": "ChocoPie",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Bread"
-		},
-		{
-			"name": "Scissors",
-			"id": "Chocolate"
-		}
+		302110,
+		302119
 	],
 	"buildsInto": [
-		{
-			"name": "Choco Pie Box",
-			"id": 302312
-		}
+		302312
 	],
 	"requirements": {
 		"Bread": 1,

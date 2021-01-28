@@ -4,14 +4,8 @@ export const FishFilletWithEgg: Item = {
 	"id": 302229,
 	"name": "FishFilletWithEgg",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Cod"
-		},
-		{
-			"name": "Scissors",
-			"id": "Egg"
-		}
+		302104,
+		302112
 	],
 	"buildsInto": [],
 	"requirements": {

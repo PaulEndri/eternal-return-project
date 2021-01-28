@@ -4,22 +4,15 @@ export const GildedQuillFan: Item = {
 	"id": 205210,
 	"name": "GildedQuillFan",
 	"buildsInto": [
-		{
-			"name": "Fangtian Huaji",
-			"id": 107407
-		},
-		{
-			"name": "White Crane Fan",
-			"id": 205201
-		}
+		107407,
+		205201
 	],
 	"requirements": {
 		"Fan": 1,
 		"Nail": 1
 	},
 	"stats": {
-		"decreaseRecoveryToSkill": 1,
-		"increaseSkillDamage": 14
+		"increaseSkillDamageRatio": 14
 	},
 	"rarity": "Uncommon",
 	"code": "군선",
@@ -29,14 +22,8 @@ export const GildedQuillFan: Item = {
 	"foundQuantity": 1,
 	"description": "If you fan your face with this, try not to scratch yourself.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205105
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		205105,
+		401101
 	],
 	"displayName": "Gilded Quill Fan",
 	"apiMetaData": {

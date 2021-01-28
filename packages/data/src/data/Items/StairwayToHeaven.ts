@@ -13,10 +13,10 @@ export const StairwayToHeaven: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"attackPower": 52,
+		"attackPower": 61,
 		"hpRegenRatio": 2,
 		"sightRange": 4,
-		"increaseSkillDamageRatio": 0.2
+		"preventSkillDamagedRatio": 0.2
 	},
 	"rarity": "Epic",
 	"code": "천국의계단",
@@ -26,14 +26,8 @@ export const StairwayToHeaven: Item = {
 	"foundQuantity": 1,
 	"description": "Heaven might be all bright and shiny, but we can't say the same for the stairway leading up to it. It might be covered in lead...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121302
-		},
-		{
-			"name": "Scissors",
-			"id": 205108
-		}
+		121302,
+		205108
 	],
 	"displayName": "Stairway to Heaven",
 	"apiMetaData": {

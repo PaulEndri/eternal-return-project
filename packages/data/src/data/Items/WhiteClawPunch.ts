@@ -23,14 +23,8 @@ export const WhiteClawPunch: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110403
-		},
-		{
-			"name": "Scissors",
-			"id": 401206
-		}
+		110403,
+		401206
 	],
 	"displayName": "White Claw Punch",
 	"apiMetaData": {

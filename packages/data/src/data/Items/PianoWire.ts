@@ -4,39 +4,17 @@ export const PianoWire: Item = {
 	"id": 502104,
 	"name": "PianoWire",
 	"buildsInto": [
-		{
-			"name": "Throwing Stars",
-			"id": 113205
-		},
-		{
-			"name": "Wooden Bow",
-			"id": 114201
-		},
-		{
-			"name": "Long Crossbow",
-			"id": 115201
-		},
-		{
-			"name": "AK-47",
-			"id": 117301
-		},
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		},
-		{
-			"name": "Dynamite",
-			"id": 502203
-		},
-		{
-			"name": "Mithril String",
-			"id": 502401
-		}
+		113205,
+		114201,
+		115201,
+		117301,
+		121101,
+		401211,
+		502203,
+		502401
 	],
 	"requirements": {},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Common",
 	"code": "피아노선",
 	"stackable": true,
@@ -60,10 +38,7 @@ export const PianoWire: Item = {
 		"category": "Special"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

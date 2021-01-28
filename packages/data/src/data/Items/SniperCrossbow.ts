@@ -24,14 +24,8 @@ export const SniperCrossbow: Item = {
 	"foundQuantity": 1,
 	"description": "A new type of bow with remarkably high accuracy. It's equipped with a laser sight, similar to modern sniper rifles.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115302
-		},
-		{
-			"name": "Scissors",
-			"id": 205206
-		}
+		115302,
+		205206
 	],
 	"displayName": "Sniper Crossbow",
 	"apiMetaData": {

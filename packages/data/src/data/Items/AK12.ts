@@ -26,14 +26,8 @@ export const AK12: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 117301
-		},
-		{
-			"name": "Scissors",
-			"id": 401305
-		}
+		117301,
+		401305
 	],
 	"displayName": "AK-12",
 	"apiMetaData": {

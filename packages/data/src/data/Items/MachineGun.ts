@@ -4,10 +4,7 @@ export const MachineGun: Item = {
 	"id": 117402,
 	"name": "MachineGun",
 	"buildsInto": [
-		{
-			"name": "Gatling Gun",
-			"id": 117403
-		}
+		117403
 	],
 	"requirements": {
 		"Fedorova": 1,
@@ -21,7 +18,7 @@ export const MachineGun: Item = {
 		"attackSpeedRatio": 0.1,
 		"charges": 2,
 		"sightRange": 1.5,
-		"increaseBasicAttackDamage": 11
+		"preventBasicAttackDamaged": 11
 	},
 	"rarity": "Epic",
 	"code": "기관총",
@@ -31,14 +28,8 @@ export const MachineGun: Item = {
 	"foundQuantity": 1,
 	"description": "A gun that continuously fires bullets when the trigger is held down.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 117201
-		},
-		{
-			"name": "Scissors",
-			"id": 401303
-		}
+		117201,
+		401303
 	],
 	"displayName": "Machine Gun",
 	"apiMetaData": {

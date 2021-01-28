@@ -23,14 +23,8 @@ export const VibroNunchaku: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 119302
-		},
-		{
-			"name": "Scissors",
-			"id": 401303
-		}
+		119302,
+		401303
 	],
 	"displayName": "Vibro Nunchaku",
 	"apiMetaData": {

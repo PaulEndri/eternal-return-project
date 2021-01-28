@@ -12,9 +12,9 @@ export const FrostPetalHand: Item = {
 		"Ice": 1
 	},
 	"stats": {
-		"attackPower": 27,
-		"cooldownReduction": 0.15,
-		"increaseSkillDamage": 38
+		"attackPower": 30,
+		"lifeSteal": 0.15,
+		"increaseSkillDamageRatio": 38
 	},
 	"rarity": "Epic",
 	"code": "빙화현옥수",
@@ -24,14 +24,8 @@ export const FrostPetalHand: Item = {
 	"foundQuantity": 1,
 	"description": "A guardian spirit that was passed down through generations of the North Polar Sea kingdom's bloodline. Petal-shaped ice flakes form along its surface to protect its user from harm.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110404
-		},
-		{
-			"name": "Scissors",
-			"id": 301103
-		}
+		110404,
+		301103
 	],
 	"displayName": "Frost Petal Hand",
 	"apiMetaData": {

@@ -4,10 +4,7 @@ export const SignedBall: Item = {
 	"id": 112205,
 	"name": "SignedBall",
 	"buildsInto": [
-		{
-			"name": "Sling",
-			"id": 112204
-		}
+		112204
 	],
 	"requirements": {
 		"Baseball": 1,
@@ -25,14 +22,8 @@ export const SignedBall: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112105
-		},
-		{
-			"name": "Scissors",
-			"id": 101102
-		}
+		112105,
+		101102
 	],
 	"displayName": "Signed Ball",
 	"apiMetaData": {

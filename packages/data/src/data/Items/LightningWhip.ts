@@ -4,10 +4,7 @@ export const LightningWhip: Item = {
 	"id": 109402,
 	"name": "LightningWhip",
 	"buildsInto": [
-		{
-			"name": "Plasma Whip",
-			"id": 109404
-		}
+		109404
 	],
 	"requirements": {
 		"Whip": 1,
@@ -27,14 +24,8 @@ export const LightningWhip: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 109202
-		},
-		{
-			"name": "Scissors",
-			"id": 401205
-		}
+		109202,
+		401205
 	],
 	"displayName": "Lightning Whip",
 	"apiMetaData": {

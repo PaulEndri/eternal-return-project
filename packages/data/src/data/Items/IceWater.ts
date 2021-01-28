@@ -4,20 +4,11 @@ export const IceWater: Item = {
 	"id": 301216,
 	"name": "IceWater",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Ice"
-		},
-		{
-			"name": "Scissors",
-			"id": "Water"
-		}
+		301103,
+		301102
 	],
 	"buildsInto": [
-		{
-			"name": "Cold Noodles",
-			"id": 302328
-		}
+		302328
 	],
 	"requirements": {
 		"Ice": 1,

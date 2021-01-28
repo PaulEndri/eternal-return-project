@@ -22,14 +22,8 @@ export const Joyeuse: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120201
-		},
-		{
-			"name": "Scissors",
-			"id": 401304
-		}
+		120201,
+		401304
 	],
 	"displayName": "Joyeuse",
 	"apiMetaData": {

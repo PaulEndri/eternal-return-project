@@ -5,22 +5,10 @@ export const Garlic: Item = {
 	"name": "Garlic",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Garlic Bread",
-			"id": 302205
-		},
-		{
-			"name": "Bacon and Garlic Sticks",
-			"id": 302224
-		},
-		{
-			"name": "Honey Garlic Pickle",
-			"id": 302232
-		},
-		{
-			"name": "Garlic Ramen",
-			"id": 302402
-		}
+		302205,
+		302224,
+		302232,
+		302402
 	],
 	"requirements": {},
 	"stats": {

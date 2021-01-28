@@ -4,34 +4,13 @@ export const Stone: Item = {
 	"id": 112101,
 	"name": "Stone",
 	"buildsInto": [
-		{
-			"name": "Satisfaction",
-			"id": 121404
-		},
-		{
-			"name": "Safety Helmet",
-			"id": 201205
-		},
-		{
-			"name": "Glass Pieces",
-			"id": 205204
-		},
-		{
-			"name": "Powder of Life",
-			"id": 205301
-		},
-		{
-			"name": "White Powder",
-			"id": 401206
-		},
-		{
-			"name": "Heated Stone",
-			"id": 401215
-		},
-		{
-			"name": "Moonstone",
-			"id": 401301
-		}
+		121404,
+		201205,
+		205204,
+		205301,
+		401206,
+		401215,
+		401301
 	],
 	"requirements": {},
 	"stats": {},

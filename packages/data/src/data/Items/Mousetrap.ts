@@ -4,33 +4,19 @@ export const Mousetrap: Item = {
 	"id": 502103,
 	"name": "Mousetrap",
 	"buildsInto": [
-		{
-			"name": "Spiked Plank",
-			"id": 502201
-		},
-		{
-			"name": "Enhanced Mousetrap",
-			"id": 502202
-		},
-		{
-			"name": "Jungle Guillotine",
-			"id": 502303
-		},
-		{
-			"name": "Explosive Trap",
-			"id": 502306
-		}
+		502201,
+		502202,
+		502303,
+		502306
 	],
 	"requirements": {},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Common",
 	"code": "쥐덫",
 	"stackable": true,
 	"maxStacks": 5,
 	"locations": {
-		"Pond": 7,
+		"Pond": 5,
 		"Cemetery": 6,
 		"Beach": 5
 	},
@@ -47,10 +33,7 @@ export const Mousetrap: Item = {
 		"category": "Special"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

@@ -5,22 +5,10 @@ export const OrientalHerb: Item = {
 	"name": "OrientalHerb",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Herbal Liquor",
-			"id": 301305
-		},
-		{
-			"name": "Herbal Medicine",
-			"id": 302207
-		},
-		{
-			"name": "Orchid",
-			"id": 302218
-		},
-		{
-			"name": "Oriental Concoction",
-			"id": 302314
-		}
+		301305,
+		302207,
+		302218,
+		302314
 	],
 	"requirements": {},
 	"stats": {

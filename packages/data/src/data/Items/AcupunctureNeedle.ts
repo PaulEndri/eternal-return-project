@@ -4,20 +4,11 @@ export const AcupunctureNeedle: Item = {
 	"id": 302217,
 	"name": "AcupunctureNeedle",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Alcohol"
-		},
-		{
-			"name": "Scissors",
-			"id": "Needle"
-		}
+		401111,
+		120101
 	],
 	"buildsInto": [
-		{
-			"name": "Zen Vitality",
-			"id": 302329
-		}
+		302329
 	],
 	"requirements": {
 		"Alcohol": 1,

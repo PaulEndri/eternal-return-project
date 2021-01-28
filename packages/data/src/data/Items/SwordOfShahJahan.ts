@@ -11,9 +11,9 @@ export const SwordOfShahJahan: Item = {
 		"Gemstone": 1
 	},
 	"stats": {
-		"attackPower": 28,
-		"maxHp": 300,
-		"preventBasicAttackDamaged": 2
+		"attackPower": 25,
+		"maxHp": 260,
+		"increaseSkillDamage": 2
 	},
 	"rarity": "Epic",
 	"code": "샤자한의검집",
@@ -23,14 +23,8 @@ export const SwordOfShahJahan: Item = {
 	"foundQuantity": 1,
 	"description": "A sword used by the emperor of India's great Mughal Empire. Due to the jewels around the sword, historians doubt its use in battle.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203301
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		203301,
+		401204
 	],
 	"displayName": "Sword of Shah Jahan",
 	"apiMetaData": {

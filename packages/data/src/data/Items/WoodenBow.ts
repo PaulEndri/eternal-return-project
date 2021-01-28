@@ -4,14 +4,8 @@ export const WoodenBow: Item = {
 	"id": 114201,
 	"name": "WoodenBow",
 	"buildsInto": [
-		{
-			"name": "Strong Bow",
-			"id": 114301
-		},
-		{
-			"name": "Pellet Bow",
-			"id": 114304
-		}
+		114301,
+		114304
 	],
 	"requirements": {
 		"Branch": 1,
@@ -28,14 +22,8 @@ export const WoodenBow: Item = {
 	"foundQuantity": 1,
 	"description": "A wooden bow. As plain as it seems, you need choice timber to make a usable wooden bow. Plywood is a no go.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108101
-		},
-		{
-			"name": "Scissors",
-			"id": 502104
-		}
+		108101,
+		502104
 	],
 	"displayName": "Wooden Bow",
 	"apiMetaData": {

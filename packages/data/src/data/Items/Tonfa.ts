@@ -4,14 +4,8 @@ export const Tonfa: Item = {
 	"id": 111201,
 	"name": "Tonfa",
 	"buildsInto": [
-		{
-			"name": "Police Baton",
-			"id": 111301
-		},
-		{
-			"name": "Ryukyu Tonfa",
-			"id": 111401
-		}
+		111301,
+		111401
 	],
 	"requirements": {
 		"Bamboo": 1,
@@ -29,14 +23,8 @@ export const Tonfa: Item = {
 	"foundQuantity": 1,
 	"description": "A weapon that is modified and widely used in Okinawa. Tonfa-based martial arts shares many similarities with bare-handed martial arts.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108103
-		},
-		{
-			"name": "Scissors",
-			"id": 108101
-		}
+		108103,
+		108101
 	],
 	"displayName": "Tonfa",
 	"apiMetaData": {

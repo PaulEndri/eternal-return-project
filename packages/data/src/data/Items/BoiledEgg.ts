@@ -4,14 +4,8 @@ export const BoiledEgg: Item = {
 	"id": 302318,
 	"name": "BoiledEgg",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Egg"
-		},
-		{
-			"name": "Scissors",
-			"id": "Boiling Water"
-		}
+		302112,
+		301201
 	],
 	"buildsInto": [],
 	"requirements": {

@@ -4,10 +4,7 @@ export const Florentine: Item = {
 	"id": 103301,
 	"name": "Florentine",
 	"buildsInto": [
-		{
-			"name": "Divine Dual Swords",
-			"id": 103401
-		}
+		103401
 	],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -16,9 +13,9 @@ export const Florentine: Item = {
 		"Paper": 1
 	},
 	"stats": {
-		"attackPower": 23,
+		"attackPower": 28,
 		"attackSpeedRatio": 0.1,
-		"lifeSteal": 0.1
+		"increaseBasicAttackDamage": 0.1
 	},
 	"rarity": "Rare",
 	"code": "피렌체식 쌍검",
@@ -28,14 +25,8 @@ export const Florentine: Item = {
 	"foundQuantity": 1,
 	"description": "The master of these swords from Florence says you can't use them seperately. One in each hand at all times.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 103201
-		},
-		{
-			"name": "Scissors",
-			"id": 401212
-		}
+		103201,
+		401212
 	],
 	"displayName": "Florentine",
 	"apiMetaData": {

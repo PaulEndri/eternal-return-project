@@ -4,26 +4,11 @@ export const IronBall: Item = {
 	"id": 112103,
 	"name": "IronBall",
 	"buildsInto": [
-		{
-			"name": "Morning Star",
-			"id": 104301
-		},
-		{
-			"name": "Grenade",
-			"id": 112202
-		},
-		{
-			"name": "Ball Lightning",
-			"id": 112303
-		},
-		{
-			"name": "Heelys",
-			"id": 204204
-		},
-		{
-			"name": "Clang Clatter",
-			"id": 502206
-		}
+		104301,
+		112202,
+		112303,
+		204204,
+		502206
 	],
 	"requirements": {},
 	"stats": {
@@ -53,10 +38,7 @@ export const IronBall: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

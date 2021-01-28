@@ -4,14 +4,8 @@ export const BulletproofVest: Item = {
 	"id": 202401,
 	"name": "BulletproofVest",
 	"buildsInto": [
-		{
-			"name": "Battle Suit",
-			"id": 202415
-		},
-		{
-			"name": "EOD Suit",
-			"id": 202417
-		}
+		202415,
+		202417
 	],
 	"requirements": {
 		"Windbreaker": 1,
@@ -22,7 +16,7 @@ export const BulletproofVest: Item = {
 	"stats": {
 		"defense": 10,
 		"maxHp": 130,
-		"preventBasicAttackDamaged": 10
+		"increaseSkillDamage": 10
 	},
 	"rarity": "Rare",
 	"code": "방탄조끼",
@@ -32,14 +26,8 @@ export const BulletproofVest: Item = {
 	"foundQuantity": 1,
 	"description": "A vest used to protect your torso from bullets. The rest of the body is still vulnerable, though",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202205
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		202205,
+		401213
 	],
 	"displayName": "Bulletproof Vest",
 	"apiMetaData": {

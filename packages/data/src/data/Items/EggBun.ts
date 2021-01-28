@@ -4,14 +4,8 @@ export const EggBun: Item = {
 	"id": 302234,
 	"name": "EggBun",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Egg"
-		},
-		{
-			"name": "Scissors",
-			"id": "Bread"
-		}
+		302112,
+		302110
 	],
 	"buildsInto": [],
 	"requirements": {

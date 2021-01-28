@@ -5,22 +5,10 @@ export const CurryPowder: Item = {
 	"name": "CurryPowder",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Tandoori Chicken",
-			"id": 302222
-		},
-		{
-			"name": "Curry Bun",
-			"id": 302238
-		},
-		{
-			"name": "Curry",
-			"id": 302313
-		},
-		{
-			"name": "Curry Croquette",
-			"id": 302322
-		}
+		302222,
+		302238,
+		302313,
+		302322
 	],
 	"requirements": {},
 	"stats": {

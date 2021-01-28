@@ -17,7 +17,7 @@ export const GatlingGun: Item = {
 		"attackSpeedRatio": 0.15,
 		"charges": 2,
 		"sightRange": 1.5,
-		"increaseBasicAttackDamage": 12
+		"preventBasicAttackDamaged": 12
 	},
 	"rarity": "Epic",
 	"code": "개틀링건",
@@ -27,14 +27,8 @@ export const GatlingGun: Item = {
 	"foundQuantity": 1,
 	"description": "The world's first machine gun, it fires through several barrels joined together. Can cause catastrophic damage to the enemy in a short period of time.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 117402
-		},
-		{
-			"name": "Scissors",
-			"id": 401112
-		}
+		117402,
+		401112
 	],
 	"displayName": "Gatling Gun",
 	"apiMetaData": {

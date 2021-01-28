@@ -4,38 +4,14 @@ export const Branch: Item = {
 	"id": 108101,
 	"name": "Branch",
 	"buildsInto": [
-		{
-			"name": "Army Knife",
-			"id": 101201
-		},
-		{
-			"name": "Tonfa",
-			"id": 111201
-		},
-		{
-			"name": "Willow Leaf Spike",
-			"id": 113207
-		},
-		{
-			"name": "Wooden Bow",
-			"id": 114201
-		},
-		{
-			"name": "Mistilteinn",
-			"id": 120402
-		},
-		{
-			"name": "Circlet",
-			"id": 201202
-		},
-		{
-			"name": "Military Suit",
-			"id": 202205
-		},
-		{
-			"name": "Butter",
-			"id": 302206
-		}
+		101201,
+		111201,
+		113207,
+		114201,
+		120402,
+		201202,
+		202205,
+		302206
 	],
 	"requirements": {},
 	"stats": {

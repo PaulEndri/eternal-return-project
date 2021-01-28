@@ -4,26 +4,11 @@ export const Razor: Item = {
 	"id": 113101,
 	"name": "Razor",
 	"buildsInto": [
-		{
-			"name": "Bullwhip",
-			"id": 109202
-		},
-		{
-			"name": "Throwing Stars",
-			"id": 113205
-		},
-		{
-			"name": "Onyx Dagger",
-			"id": 113206
-		},
-		{
-			"name": "Bleeder",
-			"id": 119302
-		},
-		{
-			"name": "Qipao",
-			"id": 202304
-		}
+		109202,
+		113205,
+		113206,
+		119302,
+		202304
 	],
 	"requirements": {},
 	"stats": {
@@ -53,10 +38,7 @@ export const Razor: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

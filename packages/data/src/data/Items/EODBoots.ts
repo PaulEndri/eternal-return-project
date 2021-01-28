@@ -14,7 +14,7 @@ export const EODBoots: Item = {
 		"Iron Ore": 1
 	},
 	"stats": {
-		"defense": 23,
+		"defense": 26,
 		"hpRegen": 1,
 		"moveSpeed": 0.33
 	},
@@ -26,14 +26,8 @@ export const EODBoots: Item = {
 	"foundQuantity": 1,
 	"description": "Boots worn by explosives disposal teams. They protect the wearer's legs from shrapnel if something goes wrong.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204302
-		},
-		{
-			"name": "Scissors",
-			"id": 204401
-		}
+		204302,
+		204401
 	],
 	"displayName": "EOD Boots",
 	"apiMetaData": {

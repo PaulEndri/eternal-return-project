@@ -4,18 +4,9 @@ export const Bracer: Item = {
 	"id": 203203,
 	"name": "Bracer",
 	"buildsInto": [
-		{
-			"name": "Bazuband",
-			"id": 203303
-		},
-		{
-			"name": "Draupnir",
-			"id": 203403
-		},
-		{
-			"name": "Auto-arms",
-			"id": 203503
-		}
+		203303,
+		203403,
+		203503
 	],
 	"requirements": {
 		"Bandage": 1,
@@ -33,14 +24,8 @@ export const Bracer: Item = {
 	"foundQuantity": 1,
 	"description": "Throw this on your wrist to protect you from the bow string.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203102
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		203102,
+		401103
 	],
 	"displayName": "Bracer",
 	"apiMetaData": {

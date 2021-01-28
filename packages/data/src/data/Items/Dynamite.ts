@@ -4,18 +4,13 @@ export const Dynamite: Item = {
 	"id": 502203,
 	"name": "Dynamite",
 	"buildsInto": [
-		{
-			"name": "RDX",
-			"id": 502307
-		}
+		502307
 	],
 	"requirements": {
 		"Piano Wire": 1,
 		"Gunpowder": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"code": "다이너마이트",
 	"stackable": true,
@@ -23,14 +18,8 @@ export const Dynamite: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 502104
-		},
-		{
-			"name": "Scissors",
-			"id": 401121
-		}
+		502104,
+		401121
 	],
 	"displayName": "Dynamite",
 	"apiMetaData": {

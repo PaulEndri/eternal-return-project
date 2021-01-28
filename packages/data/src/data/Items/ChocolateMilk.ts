@@ -4,14 +4,8 @@ export const ChocolateMilk: Item = {
 	"id": 301214,
 	"name": "ChocolateMilk",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Chocolate"
-		},
-		{
-			"name": "Scissors",
-			"id": "Milk"
-		}
+		302119,
+		301108
 	],
 	"buildsInto": [],
 	"requirements": {

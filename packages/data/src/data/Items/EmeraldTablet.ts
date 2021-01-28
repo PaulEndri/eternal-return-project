@@ -13,9 +13,9 @@ export const EmeraldTablet: Item = {
 	},
 	"stats": {
 		"attackPower": 10,
-		"cooldownReduction": 0.1,
 		"criticalStrikeChance": 0.15,
-		"defense": 10
+		"defense": 10,
+		"lifeSteal": 0.1
 	},
 	"rarity": "Legend",
 	"code": "에메랄드타블렛",
@@ -25,14 +25,8 @@ export const EmeraldTablet: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401403
-		},
-		{
-			"name": "Scissors",
-			"id": 205203
-		}
+		401403,
+		205203
 	],
 	"displayName": "Emerald Tablet",
 	"apiMetaData": {

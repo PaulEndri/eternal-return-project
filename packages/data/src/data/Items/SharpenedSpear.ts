@@ -4,14 +4,8 @@ export const SharpenedSpear: Item = {
 	"id": 107401,
 	"name": "SharpenedSpear",
 	"buildsInto": [
-		{
-			"name": "Gentian Silver Gun",
-			"id": 107402
-		},
-		{
-			"name": "Eighteen Foot Spear",
-			"id": 107403
-		}
+		107402,
+		107403
 	],
 	"requirements": {
 		"Short Spear": 1,
@@ -30,14 +24,8 @@ export const SharpenedSpear: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107201
-		},
-		{
-			"name": "Scissors",
-			"id": 205101
-		}
+		107201,
+		205101
 	],
 	"displayName": "Sharpened Spear",
 	"apiMetaData": {

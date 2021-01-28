@@ -4,42 +4,18 @@ export const Feather: Item = {
 	"id": 205101,
 	"name": "Feather",
 	"buildsInto": [
-		{
-			"name": "Light Hatchet",
-			"id": 105301
-		},
-		{
-			"name": "Sharpened Spear",
-			"id": 107401
-		},
-		{
-			"name": "Wing Knuckles",
-			"id": 110302
-		},
-		{
-			"name": "Dart",
-			"id": 113201
-		},
-		{
-			"name": "Mask",
-			"id": 201201
-		},
-		{
-			"name": "Feather Boots",
-			"id": 204402
-		},
-		{
-			"name": "Feather Duster",
-			"id": 205209
-		},
-		{
-			"name": "White Crane Fan",
-			"id": 205201
-		}
+		105301,
+		107401,
+		110302,
+		113201,
+		201201,
+		204402,
+		205209,
+		205201
 	],
 	"requirements": {},
 	"stats": {
-		"moveSpeed": 0.08
+		"moveSpeed": 0.06
 	},
 	"rarity": "Common",
 	"code": "깃털",
@@ -64,10 +40,7 @@ export const Feather: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

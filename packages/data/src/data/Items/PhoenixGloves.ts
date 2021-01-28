@@ -4,14 +4,8 @@ export const PhoenixGloves: Item = {
 	"id": 110404,
 	"name": "PhoenixGloves",
 	"buildsInto": [
-		{
-			"name": "Frost Petal Hand",
-			"id": 110408
-		},
-		{
-			"name": "Buddha's Palm",
-			"id": 110409
-		}
+		110408,
+		110409
 	],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -21,7 +15,7 @@ export const PhoenixGloves: Item = {
 	},
 	"stats": {
 		"attackPower": 27,
-		"increaseSkillDamage": 30
+		"increaseSkillDamageRatio": 30
 	},
 	"rarity": "Rare",
 	"code": "회단장갑",
@@ -31,14 +25,8 @@ export const PhoenixGloves: Item = {
 	"foundQuantity": 1,
 	"description": "You cannot reach the point of Nirvana to separate your body and soul, but you can remove others' souls from their bodies with this glove.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110201
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		110201,
+		401210
 	],
 	"displayName": "Phoenix Gloves",
 	"apiMetaData": {

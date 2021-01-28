@@ -4,10 +4,7 @@ export const DharmaChakram: Item = {
 	"id": 113403,
 	"name": "DharmaChakram",
 	"buildsInto": [
-		{
-			"name": "Wind and Fire Wheels",
-			"id": 113411
-		}
+		113411
 	],
 	"requirements": {
 		"Razor": 1,
@@ -16,9 +13,9 @@ export const DharmaChakram: Item = {
 		"Buddhist Scripture": 1
 	},
 	"stats": {
-		"attackPower": 34,
+		"attackPower": 38,
 		"charges": 50,
-		"increaseSkillDamageRatio": 0.15
+		"preventSkillDamagedRatio": 0.15
 	},
 	"rarity": "Rare",
 	"code": "법륜",
@@ -28,14 +25,8 @@ export const DharmaChakram: Item = {
 	"foundQuantity": 1,
 	"description": "A legendary weapon Buddha used to exorcise a demon. It causes damage with the sharp blades that rotate around its perimeter.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113301
-		},
-		{
-			"name": "Scissors",
-			"id": 205106
-		}
+		113301,
+		205106
 	],
 	"displayName": "Dharma Chakram",
 	"apiMetaData": {

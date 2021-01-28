@@ -4,14 +4,8 @@ export const SheetMetalArmor: Item = {
 	"id": 202305,
 	"name": "SheetMetalArmor",
 	"buildsInto": [
-		{
-			"name": "Crusader Armor",
-			"id": 202408
-		},
-		{
-			"name": "Amazoness Armor",
-			"id": 202410
-		}
+		202408,
+		202410
 	],
 	"requirements": {
 		"Fabric Armor": 1,
@@ -31,14 +25,8 @@ export const SheetMetalArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Armor comprised of several layers of metal plates. Sheet Metal Armor is effective at withstanding slashing and striking attacks, but is weaker against long-range weapons.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202106
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		202106,
+		401201
 	],
 	"displayName": "Sheet Metal Armor",
 	"apiMetaData": {

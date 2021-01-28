@@ -4,20 +4,13 @@ export const WaltherPPK: Item = {
 	"id": 116101,
 	"name": "WaltherPPK",
 	"buildsInto": [
-		{
-			"name": "Magnum-Python",
-			"id": 116201
-		},
-		{
-			"name": "Beretta M92F",
-			"id": 116202
-		}
+		116201,
+		116202
 	],
 	"requirements": {},
 	"stats": {
-		"attackPower": 8,
-		"charges": 6,
-		"moveSpeed": 0.1
+		"attackPower": 14,
+		"charges": 6
 	},
 	"rarity": "Common",
 	"code": "발터PPK",

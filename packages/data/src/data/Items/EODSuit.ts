@@ -13,11 +13,11 @@ export const EODSuit: Item = {
 		"Bandage": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.1,
-		"defense": 15,
+		"defense": 20,
 		"hpRegen": 1,
+		"lifeSteal": 0.1,
 		"maxHp": 300,
-		"preventBasicAttackDamaged": 12
+		"increaseSkillDamage": 12
 	},
 	"rarity": "Epic",
 	"code": "EOD수트",
@@ -27,14 +27,8 @@ export const EODSuit: Item = {
 	"foundQuantity": 1,
 	"description": "Originally developed as a bulletproof vest, often used at bomb disposal sites due to its protection.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202401
-		},
-		{
-			"name": "Scissors",
-			"id": 202206
-		}
+		202401,
+		202206
 	],
 	"displayName": "EOD Suit",
 	"apiMetaData": {

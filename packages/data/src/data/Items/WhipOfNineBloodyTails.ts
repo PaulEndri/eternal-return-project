@@ -12,8 +12,8 @@ export const WhipOfNineBloodyTails: Item = {
 	},
 	"stats": {
 		"attackPower": 65,
-		"lifeSteal": 0.2,
-		"increaseSkillDamage": 40
+		"increaseBasicAttackDamage": 0.2,
+		"increaseSkillDamageRatio": 40
 	},
 	"rarity": "Legend",
 	"code": "혈화구절편",
@@ -23,14 +23,8 @@ export const WhipOfNineBloodyTails: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401401
-		},
-		{
-			"name": "Scissors",
-			"id": 109301
-		}
+		401401,
+		109301
 	],
 	"displayName": "Whip of Nine Bloody Tails",
 	"apiMetaData": {

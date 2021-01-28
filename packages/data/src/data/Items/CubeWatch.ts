@@ -21,14 +21,8 @@ export const CubeWatch: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203101
-		},
-		{
-			"name": "Scissors",
-			"id": 401301
-		}
+		203101,
+		401301
 	],
 	"displayName": "Cube Watch",
 	"apiMetaData": {

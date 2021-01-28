@@ -3,17 +3,24 @@ import Item from '../../types/Item';
 export const Wetsuit: Item = {
 	"id": 202105,
 	"name": "Wetsuit",
-	"buildsInto": [],
+	"buildsInto": [
+		202209,
+		202210
+	],
 	"requirements": {},
 	"stats": {
-		"defense": 1,
-		"preventSkillDamagedRatio": 0.05
+		"decreaseRecoveryToBasicAttack": 0.05,
+		"defense": 1
 	},
 	"rarity": "Common",
 	"code": "전신수영복",
 	"stackable": false,
 	"maxStacks": 1,
-	"locations": {},
+	"locations": {
+		"Alley": 7,
+		"Beach": 6,
+		"Dock": 7
+	},
 	"foundQuantity": 1,
 	"description": "A kind of swimsuit that covers parts of the legs and arms or the whole body from neck down. Aka a wet suit!",
 	"buildsFrom": [],
@@ -28,10 +35,7 @@ export const Wetsuit: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

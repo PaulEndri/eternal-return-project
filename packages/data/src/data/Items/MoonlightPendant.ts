@@ -4,10 +4,7 @@ export const MoonlightPendant: Item = {
 	"id": 205401,
 	"name": "MoonlightPendant",
 	"buildsInto": [
-		{
-			"name": "Magic Stick",
-			"id": 104405
-		}
+		104405
 	],
 	"requirements": {
 		"Ribbon": 1,
@@ -16,7 +13,7 @@ export const MoonlightPendant: Item = {
 	},
 	"stats": {
 		"attackPower": 20,
-		"lifeSteal": 0.2
+		"increaseBasicAttackDamage": 0.2
 	},
 	"rarity": "Rare",
 	"code": "달빛펜던트",
@@ -26,14 +23,8 @@ export const MoonlightPendant: Item = {
 	"foundQuantity": 1,
 	"description": "It is not just a simple pendant. Magical powers are unleashed when shining a particular light through it.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205103
-		},
-		{
-			"name": "Scissors",
-			"id": 401301
-		}
+		205103,
+		401301
 	],
 	"displayName": "Moonlight Pendant",
 	"apiMetaData": {

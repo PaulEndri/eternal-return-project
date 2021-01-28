@@ -13,8 +13,8 @@ export const OpticalCamouflageSuit: Item = {
 	"stats": {
 		"attackPower": 10,
 		"criticalStrikeChance": 0.22,
-		"defense": 20,
-		"preventSkillDamagedRatio": 0.1
+		"decreaseRecoveryToBasicAttack": 0.1,
+		"defense": 20
 	},
 	"rarity": "Epic",
 	"code": "광학미채수트",
@@ -24,14 +24,8 @@ export const OpticalCamouflageSuit: Item = {
 	"foundQuantity": 1,
 	"description": "In the right environment, body parts covered by the suit become invisible.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202210
-		},
-		{
-			"name": "Scissors",
-			"id": 401305
-		}
+		202210,
+		401305
 	],
 	"displayName": "Optical Camouflage Suit",
 	"apiMetaData": {

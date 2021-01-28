@@ -11,9 +11,9 @@ export const AmazonessArmor: Item = {
 		"Scissors": 1
 	},
 	"stats": {
+		"decreaseRecoveryToBasicAttack": 0.2,
 		"defense": 28,
-		"maxHp": 120,
-		"preventSkillDamagedRatio": 0.2
+		"maxHp": 120
 	},
 	"rarity": "Epic",
 	"code": "아마조네스아머",
@@ -23,14 +23,8 @@ export const AmazonessArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Armor bestowed upon female warriors with outstanding archery ability and agility. Allows for flexibilty and protection.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202305
-		},
-		{
-			"name": "Scissors",
-			"id": 202209
-		}
+		202305,
+		202209
 	],
 	"displayName": "Amazoness Armor",
 	"apiMetaData": {

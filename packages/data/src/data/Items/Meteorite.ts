@@ -4,26 +4,11 @@ export const Meteorite: Item = {
 	"id": 401209,
 	"name": "Meteorite",
 	"buildsInto": [
-		{
-			"name": "Meteor Claymore",
-			"id": 120404
-		},
-		{
-			"name": "Wonderful Tonight",
-			"id": 121405
-		},
-		{
-			"name": "Kabana",
-			"id": 202501
-		},
-		{
-			"name": "Moonstone",
-			"id": 401301
-		},
-		{
-			"name": "Force Core",
-			"id": 401403
-		}
+		120404,
+		121405,
+		202501,
+		401301,
+		401403
 	],
 	"requirements": {},
 	"stats": {},
@@ -46,14 +31,8 @@ export const Meteorite: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

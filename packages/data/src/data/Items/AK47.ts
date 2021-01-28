@@ -4,10 +4,7 @@ export const AK47: Item = {
 	"id": 117301,
 	"name": "AK47",
 	"buildsInto": [
-		{
-			"name": "AK-12",
-			"id": 117404
-		}
+		117404
 	],
 	"requirements": {
 		"Fedorova": 1,
@@ -18,7 +15,7 @@ export const AK47: Item = {
 		"attackPower": 29,
 		"charges": 1,
 		"sightRange": 1.5,
-		"increaseBasicAttackDamage": 2
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Rare",
 	"code": "AK-47",
@@ -28,14 +25,8 @@ export const AK47: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 117201
-		},
-		{
-			"name": "Scissors",
-			"id": 502104
-		}
+		117201,
+		502104
 	],
 	"displayName": "AK-47",
 	"apiMetaData": {

@@ -11,9 +11,9 @@ export const QueenOfHearts: Item = {
 		"Flower": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.25,
-		"defense": 45,
-		"hpRegen": 3
+		"defense": 35,
+		"hpRegen": 3,
+		"lifeSteal": 0.25
 	},
 	"rarity": "Legend",
 	"code": "퀸오브하트",
@@ -23,14 +23,8 @@ export const QueenOfHearts: Item = {
 	"foundQuantity": 1,
 	"description": "A magical cloak that only a true queen can wear. The magic from the cloak protected the Queen, but its power hasn't been used for a while...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401401
-		},
-		{
-			"name": "Scissors",
-			"id": 202306
-		}
+		401401,
+		202306
 	],
 	"displayName": "Queen of Hearts",
 	"apiMetaData": {

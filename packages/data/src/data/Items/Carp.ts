@@ -5,18 +5,9 @@ export const Carp: Item = {
 	"name": "Carp",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Carp Bread",
-			"id": 302209
-		},
-		{
-			"name": "Spicy Fish Stew",
-			"id": 302301
-		},
-		{
-			"name": "Baked Carp",
-			"id": 302304
-		}
+		302209,
+		302301,
+		302304
 	],
 	"requirements": {},
 	"stats": {

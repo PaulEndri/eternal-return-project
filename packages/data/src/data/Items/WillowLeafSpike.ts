@@ -4,10 +4,7 @@ export const WillowLeafSpike: Item = {
 	"id": 113207,
 	"name": "WillowLeafSpike",
 	"buildsInto": [
-		{
-			"name": "Apricot Flower Tag",
-			"id": 113302
-		}
+		113302
 	],
 	"requirements": {
 		"Razor": 1,
@@ -17,7 +14,7 @@ export const WillowLeafSpike: Item = {
 	"stats": {
 		"attackPower": 17,
 		"charges": 50,
-		"increaseBasicAttackDamage": 20
+		"preventBasicAttackDamaged": 20
 	},
 	"rarity": "Rare",
 	"code": "유엽비도",
@@ -27,14 +24,8 @@ export const WillowLeafSpike: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113206
-		},
-		{
-			"name": "Scissors",
-			"id": 108101
-		}
+		113206,
+		108101
 	],
 	"displayName": "Willow Leaf Spike",
 	"apiMetaData": {

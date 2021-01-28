@@ -4,10 +4,7 @@ export const FrostVenomDart: Item = {
 	"id": 113408,
 	"name": "FrostVenomDart",
 	"buildsInto": [
-		{
-			"name": "Petal Torrent",
-			"id": 113502
-		}
+		113502
 	],
 	"requirements": {
 		"Needle": 1,
@@ -20,7 +17,7 @@ export const FrostVenomDart: Item = {
 		"attackPower": 80,
 		"charges": 3,
 		"criticalStrikeDamage": 0.5,
-		"increaseSkillDamage": 20
+		"increaseSkillDamageRatio": 20
 	},
 	"rarity": "Epic",
 	"code": "빙백은침",
@@ -30,14 +27,8 @@ export const FrostVenomDart: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113402
-		},
-		{
-			"name": "Scissors",
-			"id": 301103
-		}
+		113402,
+		301103
 	],
 	"displayName": "Frost Venom Dart",
 	"apiMetaData": {

@@ -16,9 +16,9 @@ export const StatueOfSoteria: Item = {
 		"attackPower": 90,
 		"attackSpeedRatio": 0.15,
 		"hpRegen": 0.6,
-		"lifeSteal": 0.1,
 		"moveSpeed": 0.1,
-		"spRegenRatio": 0.6
+		"spRegenRatio": 0.6,
+		"increaseBasicAttackDamage": 0.1
 	},
 	"rarity": "Epic",
 	"code": "구원의여신상",
@@ -28,14 +28,8 @@ export const StatueOfSoteria: Item = {
 	"foundQuantity": 1,
 	"description": "Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me. I lift my lamp beside the golden door.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108402
-		},
-		{
-			"name": "Scissors",
-			"id": 205205
-		}
+		108402,
+		205205
 	],
 	"displayName": "Statue of Soteria",
 	"apiMetaData": {

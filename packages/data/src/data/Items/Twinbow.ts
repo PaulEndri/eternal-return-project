@@ -14,8 +14,8 @@ export const Twinbow: Item = {
 	},
 	"stats": {
 		"attackPower": 70,
-		"attackSpeedRatio": 0.5,
-		"decreaseRecoveryToBasicAttack": 1
+		"attackSpeedRatio": 0.55,
+		"decreaseRecoveryToSkill": 1
 	},
 	"rarity": "Epic",
 	"code": "트윈보우",
@@ -25,14 +25,8 @@ export const Twinbow: Item = {
 	"foundQuantity": 1,
 	"description": "A bow modified to fire arrows with more power by crossing the bowstrings.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114301
-		},
-		{
-			"name": "Scissors",
-			"id": 114203
-		}
+		114301,
+		114203
 	],
 	"displayName": "Twinbow",
 	"apiMetaData": {

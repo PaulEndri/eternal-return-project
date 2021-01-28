@@ -4,10 +4,7 @@ export const Railgun: Item = {
 	"id": 118402,
 	"name": "Railgun",
 	"buildsInto": [
-		{
-			"name": "Polaris",
-			"id": 118406
-		}
+		118406
 	],
 	"requirements": {
 		"Long Rifle": 1,
@@ -18,7 +15,7 @@ export const Railgun: Item = {
 	"stats": {
 		"attackPower": 78,
 		"attackSpeedRatio": 0.2,
-		"moveSpeed": -0.15,
+		"moveSpeed": -0.03,
 		"sightRange": 2
 	},
 	"rarity": "Rare",
@@ -29,14 +26,8 @@ export const Railgun: Item = {
 	"foundQuantity": 1,
 	"description": "Uses electromagnets to rapidly accelerate and launch a metal projectile.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 118201
-		},
-		{
-			"name": "Scissors",
-			"id": 401211
-		}
+		118201,
+		401211
 	],
 	"displayName": "Railgun",
 	"apiMetaData": {

@@ -4,10 +4,7 @@ export const Sling: Item = {
 	"id": 112204,
 	"name": "Sling",
 	"buildsInto": [
-		{
-			"name": "David's Sling",
-			"id": 112401
-		}
+		112401
 	],
 	"requirements": {
 		"Baseball": 1,
@@ -26,14 +23,8 @@ export const Sling: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112205
-		},
-		{
-			"name": "Scissors",
-			"id": 401105
-		}
+		112205,
+		401105
 	],
 	"displayName": "Sling",
 	"apiMetaData": {

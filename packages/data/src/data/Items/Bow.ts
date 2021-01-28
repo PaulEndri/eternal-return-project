@@ -4,10 +4,7 @@ export const Bow: Item = {
 	"id": 114101,
 	"name": "Bow",
 	"buildsInto": [
-		{
-			"name": "Longbow",
-			"id": 114202
-		}
+		114202
 	],
 	"requirements": {},
 	"stats": {

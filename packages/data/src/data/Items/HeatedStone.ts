@@ -4,30 +4,12 @@ export const HeatedStone: Item = {
 	"id": 401215,
 	"name": "HeatedStone",
 	"buildsInto": [
-		{
-			"name": "Fang Mace",
-			"id": 104401
-		},
-		{
-			"name": "Pellet Bow",
-			"id": 114304
-		},
-		{
-			"name": "Baked Potato",
-			"id": 302303
-		},
-		{
-			"name": "Baked Carp",
-			"id": 302304
-		},
-		{
-			"name": "Grilled Chilean Sea Bass",
-			"id": 302306
-		},
-		{
-			"name": "Steak",
-			"id": 302323
-		}
+		104401,
+		114304,
+		302303,
+		302304,
+		302306,
+		302323
 	],
 	"requirements": {
 		"Stone": 1,
@@ -42,14 +24,8 @@ export const HeatedStone: Item = {
 	"foundQuantity": 3,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112101
-		},
-		{
-			"name": "Scissors",
-			"id": 401107
-		}
+		112101,
+		401107
 	],
 	"displayName": "Heated Stone",
 	"apiMetaData": {
@@ -62,10 +38,7 @@ export const HeatedStone: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

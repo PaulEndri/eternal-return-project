@@ -4,18 +4,9 @@ export const PowderOfLife: Item = {
 	"id": 205301,
 	"name": "PowderOfLife",
 	"buildsInto": [
-		{
-			"name": "Glacial Ice",
-			"id": 205402
-		},
-		{
-			"name": "True Samadhi Fire",
-			"id": 205403
-		},
-		{
-			"name": "Force Core",
-			"id": 401403
-		}
+		205402,
+		205403,
+		401403
 	],
 	"requirements": {
 		"Tree of Life": 1,
@@ -33,14 +24,8 @@ export const PowderOfLife: Item = {
 	"foundQuantity": 1,
 	"description": "A powder that summons the spirits. Better combined with other items to make something mystical.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401208
-		},
-		{
-			"name": "Scissors",
-			"id": 112101
-		}
+		401208,
+		112101
 	],
 	"displayName": "Powder of Life",
 	"apiMetaData": {
@@ -53,14 +38,8 @@ export const PowderOfLife: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bear",
-			"id": 6
-		},
-		{
-			"name": "Wickline",
-			"id": 7
-		}
+		6,
+		7
 	],
 	"airSupply": false,
 	"collectible": 0

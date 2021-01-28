@@ -13,7 +13,7 @@ export const DeathRune: Item = {
 	"stats": {
 		"attackPower": 80,
 		"charges": 10,
-		"increaseSkillDamageRatio": 0.23
+		"preventSkillDamagedRatio": 0.26
 	},
 	"rarity": "Epic",
 	"code": "생사부",
@@ -23,14 +23,8 @@ export const DeathRune: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113202
-		},
-		{
-			"name": "Scissors",
-			"id": 401208
-		}
+		113202,
+		401208
 	],
 	"displayName": "Death Rune",
 	"apiMetaData": {

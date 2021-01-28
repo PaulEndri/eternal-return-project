@@ -4,14 +4,8 @@ export const StirFriedRamen: Item = {
 	"id": 302327,
 	"name": "StirFriedRamen",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Ramen"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Oil"
-		}
+		302113,
+		401203
 	],
 	"buildsInto": [],
 	"requirements": {

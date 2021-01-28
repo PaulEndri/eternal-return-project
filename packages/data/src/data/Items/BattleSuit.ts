@@ -12,10 +12,10 @@ export const BattleSuit: Item = {
 		"Rubber": 1
 	},
 	"stats": {
+		"decreaseRecoveryToBasicAttack": 0.12,
 		"defense": 25,
 		"maxHp": 140,
-		"preventBasicAttackDamaged": 12,
-		"preventSkillDamagedRatio": 0.12
+		"increaseSkillDamage": 12
 	},
 	"rarity": "Epic",
 	"code": "배틀수트",
@@ -25,14 +25,8 @@ export const BattleSuit: Item = {
 	"foundQuantity": 1,
 	"description": "A futuristic combat suit. It's made with bulletproof material that makes it great armor. However, when worn in hot areas, you might die of dehydration before encountering a single foe.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202401
-		},
-		{
-			"name": "Scissors",
-			"id": 202210
-		}
+		202401,
+		202210
 	],
 	"displayName": "Battle Suit",
 	"apiMetaData": {

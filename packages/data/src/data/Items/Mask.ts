@@ -4,20 +4,15 @@ export const Mask: Item = {
 	"id": 201201,
 	"name": "Mask",
 	"buildsInto": [
-		{
-			"name": "Close Helm",
-			"id": 201402
-		},
-		{
-			"name": "Chinese Opera Mask",
-			"id": 201411
-		}
+		201402,
+		201411
 	],
 	"requirements": {
 		"Hairband": 1,
 		"Feather": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.04,
 		"defense": 10,
 		"maxSp": 130,
 		"moveSpeed": 0.08
@@ -30,14 +25,8 @@ export const Mask: Item = {
 	"foundQuantity": 1,
 	"description": "If you can escape from Lumia Island, try visiting the Carnival of Venice. It's one of the most popular festivals in the world, but you can visit only if you manage to get out of here alive.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201101
-		},
-		{
-			"name": "Scissors",
-			"id": 205101
-		}
+		201101,
+		205101
 	],
 	"displayName": "Mask",
 	"apiMetaData": {

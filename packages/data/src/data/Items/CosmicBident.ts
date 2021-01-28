@@ -22,14 +22,8 @@ export const CosmicBident: Item = {
 	"foundQuantity": 1,
 	"description": "A futuristic version of the spear of Hades, the Greek god of the underworld.  Snuff out the future of your enemy with this futuristic technology.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107301
-		},
-		{
-			"name": "Scissors",
-			"id": 401301
-		}
+		107301,
+		401301
 	],
 	"displayName": "Cosmic Bident",
 	"apiMetaData": {

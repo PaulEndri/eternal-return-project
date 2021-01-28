@@ -4,10 +4,7 @@ export const SwordOfJustice: Item = {
 	"id": 120302,
 	"name": "SwordOfJustice",
 	"buildsInto": [
-		{
-			"name": "Mistilteinn",
-			"id": 120402
-		}
+		120402
 	],
 	"requirements": {
 		"Needle": 1,
@@ -19,9 +16,9 @@ export const SwordOfJustice: Item = {
 	},
 	"stats": {
 		"attackPower": 30,
-		"cooldownReduction": 0.12,
 		"criticalStrikeDamage": 0.25,
 		"hpRegen": 1.5,
+		"lifeSteal": 0.12,
 		"spRegenRatio": 2
 	},
 	"rarity": "Epic",
@@ -32,14 +29,8 @@ export const SwordOfJustice: Item = {
 	"foundQuantity": 1,
 	"description": "Historical texts state that Hong Gil-dong, the Robin Hood of ancient Korea, used it.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120201
-		},
-		{
-			"name": "Scissors",
-			"id": 202404
-		}
+		120201,
+		202404
 	],
 	"displayName": "Sword of Justice",
 	"apiMetaData": {

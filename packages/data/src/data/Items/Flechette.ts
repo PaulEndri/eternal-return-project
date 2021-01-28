@@ -16,7 +16,7 @@ export const Flechette: Item = {
 		"attackPower": 85,
 		"charges": 20,
 		"criticalStrikeDamage": 0.4,
-		"moveSpeed": 0.2
+		"moveSpeed": 0.25
 	},
 	"rarity": "Epic",
 	"code": "플레솃",
@@ -26,14 +26,8 @@ export const Flechette: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113404
-		},
-		{
-			"name": "Scissors",
-			"id": 401206
-		}
+		113404,
+		401206
 	],
 	"displayName": "Flechette",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const Paper: Item = {
 	"id": 401117,
 	"name": "Paper",
 	"buildsInto": [
-		{
-			"name": "Ash",
-			"id": 401210
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
+		401210,
+		401212
 	],
 	"requirements": {},
 	"stats": {},
@@ -21,8 +15,8 @@ export const Paper: Item = {
 	"maxStacks": 3,
 	"locations": {
 		"Temple": 7,
-		"Archery Range": 5,
-		"Chapel": 6
+		"Archery Range": 6,
+		"Chapel": 7
 	},
 	"foundQuantity": 1,
 	"description": "",
@@ -38,10 +32,7 @@ export const Paper: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

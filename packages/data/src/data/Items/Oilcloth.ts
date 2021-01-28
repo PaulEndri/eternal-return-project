@@ -4,26 +4,12 @@ export const Oilcloth: Item = {
 	"id": 401202,
 	"name": "Oilcloth",
 	"buildsInto": [
-		{
-			"name": "Torch",
-			"id": 108402
-		},
-		{
-			"name": "Brasil Gauntlet",
-			"id": 110410
-		},
-		{
-			"name": "The Legend of The General",
-			"id": 115402
-		},
-		{
-			"name": "Boots",
-			"id": 204302
-		},
-		{
-			"name": "Fire Trap",
-			"id": 502403
-		}
+		108402,
+		110410,
+		115402,
+		204302,
+		115402,
+		502403
 	],
 	"requirements": {
 		"Oil": 1,
@@ -38,14 +24,8 @@ export const Oilcloth: Item = {
 	"foundQuantity": 2,
 	"description": "Oiled cloth. May be needed for something involving fire.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401112
-		},
-		{
-			"name": "Scissors",
-			"id": 203102
-		}
+		401112,
+		203102
 	],
 	"displayName": "Oilcloth",
 	"apiMetaData": {
@@ -58,14 +38,8 @@ export const Oilcloth: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

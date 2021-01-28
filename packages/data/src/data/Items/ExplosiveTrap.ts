@@ -4,32 +4,18 @@ export const ExplosiveTrap: Item = {
 	"id": 502306,
 	"name": "ExplosiveTrap",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Mousetrap"
-		},
-		{
-			"name": "Scissors",
-			"id": "Gunpowder"
-		}
+		502103,
+		401121
 	],
 	"buildsInto": [
-		{
-			"name": "Fire Trap",
-			"id": 502403
-		},
-		{
-			"name": "Claymore",
-			"id": 502406
-		}
+		502403,
+		502406
 	],
 	"requirements": {
 		"Mousetrap": 1,
 		"Gunpowder": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,

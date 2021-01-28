@@ -4,10 +4,7 @@ export const Bazuband: Item = {
 	"id": 203303,
 	"name": "Bazuband",
 	"buildsInto": [
-		{
-			"name": "Sword Stopper",
-			"id": 203402
-		}
+		203402
 	],
 	"requirements": {
 		"Bandage": 1,
@@ -17,7 +14,7 @@ export const Bazuband: Item = {
 	},
 	"stats": {
 		"defense": 25,
-		"preventBasicAttackDamaged": 8
+		"increaseSkillDamage": 8
 	},
 	"rarity": "Rare",
 	"code": "바주반드",
@@ -27,14 +24,8 @@ export const Bazuband: Item = {
 	"foundQuantity": 1,
 	"description": "Older styled forearm protectors to protect your, well, forearms.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203203
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		203203,
+		401213
 	],
 	"displayName": "Bazuband",
 	"apiMetaData": {

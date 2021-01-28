@@ -4,38 +4,14 @@ export const IronSheet: Item = {
 	"id": 401213,
 	"name": "IronSheet",
 	"buildsInto": [
-		{
-			"name": "Katana",
-			"id": 102301
-		},
-		{
-			"name": "Dragon Guandao",
-			"id": 107408
-		},
-		{
-			"name": "Steel Bow",
-			"id": 115401
-		},
-		{
-			"name": "NTW-20",
-			"id": 118405
-		},
-		{
-			"name": "Bulletproof Vest",
-			"id": 202401
-		},
-		{
-			"name": "Sheath",
-			"id": 203301
-		},
-		{
-			"name": "Bazuband",
-			"id": 203303
-		},
-		{
-			"name": "Magazine",
-			"id": 205303
-		}
+		102301,
+		107408,
+		115401,
+		118405,
+		202401,
+		203301,
+		203303,
+		205303
 	],
 	"requirements": {
 		"Scrap Metal": 1,
@@ -50,14 +26,8 @@ export const IronSheet: Item = {
 	"foundQuantity": 2,
 	"description": "This will give you goosebumps if you scrape your fingernails across it.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401106
-		},
-		{
-			"name": "Scissors",
-			"id": 104101
-		}
+		401106,
+		104101
 	],
 	"displayName": "Iron Sheet",
 	"apiMetaData": {
@@ -70,14 +40,8 @@ export const IronSheet: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

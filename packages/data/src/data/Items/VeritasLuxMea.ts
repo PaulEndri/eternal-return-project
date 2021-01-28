@@ -11,10 +11,10 @@ export const VeritasLuxMea: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.1,
 		"hpRegenRatio": 1.5,
-		"increaseBasicAttackDamage": 12,
-		"increaseSkillDamageRatio": 0.08
+		"lifeSteal": 0.1,
+		"preventBasicAttackDamaged": 12,
+		"preventSkillDamagedRatio": 0.08
 	},
 	"rarity": "Rare",
 	"code": "진리는나의빛",
@@ -24,14 +24,8 @@ export const VeritasLuxMea: Item = {
 	"foundQuantity": 1,
 	"description": "Truth is my light.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205207
-		},
-		{
-			"name": "Scissors",
-			"id": 205202
-		}
+		205207,
+		205202
 	],
 	"displayName": "Veritas Lux Mea",
 	"apiMetaData": {

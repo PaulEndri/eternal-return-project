@@ -4,14 +4,8 @@ export const BakedCarp: Item = {
 	"id": 302304,
 	"name": "BakedCarp",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Carp"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Stone"
-		}
+		302109,
+		401215
 	],
 	"buildsInto": [],
 	"requirements": {

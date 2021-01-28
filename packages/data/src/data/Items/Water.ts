@@ -4,38 +4,14 @@ export const Water: Item = {
 	"id": 301102,
 	"name": "Water",
 	"buildsInto": [
-		{
-			"name": "Fire Helmet",
-			"id": 201302
-		},
-		{
-			"name": "Boiling Water",
-			"id": 301201
-		},
-		{
-			"name": "Water Bottle",
-			"id": 301203
-		},
-		{
-			"name": "Soju",
-			"id": 301205
-		},
-		{
-			"name": "Honey Water",
-			"id": 301215
-		},
-		{
-			"name": "Ice Water",
-			"id": 301216
-		},
-		{
-			"name": "Dead Battery",
-			"id": 401205
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
+		201302,
+		301201,
+		401205,
+		401302,
+		301203,
+		301205,
+		301215,
+		301216
 	],
 	"requirements": {},
 	"stats": {

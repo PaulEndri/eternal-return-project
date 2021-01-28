@@ -4,14 +4,8 @@ export const HoneyMilk: Item = {
 	"id": 301211,
 	"name": "HoneyMilk",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Milk"
-		},
-		{
-			"name": "Scissors",
-			"id": "Honey"
-		}
+		301108,
+		301101
 	],
 	"buildsInto": [],
 	"requirements": {

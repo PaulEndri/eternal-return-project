@@ -4,10 +4,7 @@ export const CovertAgentUniform: Item = {
 	"id": 202404,
 	"name": "CovertAgentUniform",
 	"buildsInto": [
-		{
-			"name": "Sword of Justice",
-			"id": 120302
-		}
+		120302
 	],
 	"requirements": {
 		"Monk's Robe": 1,
@@ -16,9 +13,9 @@ export const CovertAgentUniform: Item = {
 		"Stallion Medal": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.15,
 		"defense": 23,
-		"hpRegen": 2.5
+		"hpRegen": 2.5,
+		"lifeSteal": 0.15
 	},
 	"rarity": "Rare",
 	"code": "어사의",
@@ -28,14 +25,8 @@ export const CovertAgentUniform: Item = {
 	"foundQuantity": 1,
 	"description": "The uniform worn by agents that performed special missions for the King. Secretly.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202306
-		},
-		{
-			"name": "Scissors",
-			"id": 401109
-		}
+		202306,
+		401109
 	],
 	"displayName": "Covert Agent Uniform",
 	"apiMetaData": {

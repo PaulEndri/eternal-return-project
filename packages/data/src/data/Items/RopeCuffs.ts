@@ -4,10 +4,7 @@ export const RopeCuffs: Item = {
 	"id": 109201,
 	"name": "RopeCuffs",
 	"buildsInto": [
-		{
-			"name": "Wind Whip",
-			"id": 109301
-		}
+		109301
 	],
 	"requirements": {
 		"Whip": 1,
@@ -15,7 +12,7 @@ export const RopeCuffs: Item = {
 	},
 	"stats": {
 		"attackPower": 24,
-		"increaseSkillDamage": 6
+		"increaseSkillDamageRatio": 6
 	},
 	"rarity": "Uncommon",
 	"code": "오랏줄",
@@ -25,14 +22,8 @@ export const RopeCuffs: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 109101
-		},
-		{
-			"name": "Scissors",
-			"id": 401109
-		}
+		109101,
+		401109
 	],
 	"displayName": "Rope Cuffs",
 	"apiMetaData": {

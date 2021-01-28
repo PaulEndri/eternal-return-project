@@ -4,19 +4,14 @@ export const Hat: Item = {
 	"id": 201102,
 	"name": "Hat",
 	"buildsInto": [
-		{
-			"name": "Beret",
-			"id": 201203
-		},
-		{
-			"name": "Chain Coif",
-			"id": 201204
-		}
+		201203,
+		201204
 	],
 	"requirements": {},
 	"stats": {
-		"cooldownReduction": 0.05,
-		"defense": 4
+		"cooldownReduction": 0.02,
+		"defense": 4,
+		"lifeSteal": 0.05
 	},
 	"rarity": "Common",
 	"code": "모자",
@@ -41,10 +36,7 @@ export const Hat: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

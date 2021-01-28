@@ -13,7 +13,6 @@ export const BeamAxe: Item = {
 	},
 	"stats": {
 		"attackPower": 137,
-		"moveSpeed": -0.1,
 		"sightRange": 4
 	},
 	"rarity": "Epic",
@@ -24,14 +23,8 @@ export const BeamAxe: Item = {
 	"foundQuantity": 1,
 	"description": "Widely used since the Old Stone Age, it became a masterpiece when fused with modern technology.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105401
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		105401,
+		401108
 	],
 	"displayName": "Beam Axe",
 	"apiMetaData": {

@@ -12,9 +12,10 @@ export const SwordStopper: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"decreaseRecoveryToBasicAttack": 1,
-		"defense": 28,
-		"preventBasicAttackDamaged": 11
+		"cooldownReduction": 0.1,
+		"decreaseRecoveryToSkill": 1,
+		"defense": 36,
+		"increaseSkillDamage": 11
 	},
 	"rarity": "Epic",
 	"code": "소드스토퍼",
@@ -24,14 +25,8 @@ export const SwordStopper: Item = {
 	"foundQuantity": 1,
 	"description": "It is, quite literally, armor that protects from swords. The hooks on it catch and entangle blades",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203303
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		203303,
+		401101
 	],
 	"displayName": "Sword Stopper",
 	"apiMetaData": {

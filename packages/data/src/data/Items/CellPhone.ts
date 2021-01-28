@@ -4,14 +4,8 @@ export const CellPhone: Item = {
 	"id": 501401,
 	"name": "CellPhone",
 	"buildsInto": [
-		{
-			"name": "Vital Sign Sensor",
-			"id": 203405
-		},
-		{
-			"name": "Smart Bomb",
-			"id": 502502
-		}
+		203405,
+		502502
 	],
 	"requirements": {
 		"Fountain Pen": 1,
@@ -28,14 +22,8 @@ export const CellPhone: Item = {
 	"foundQuantity": 1,
 	"description": "I'm not getting any bars here...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401212
-		},
-		{
-			"name": "Scissors",
-			"id": 401211
-		}
+		401212,
+		401211
 	],
 	"displayName": "Cell Phone",
 	"apiMetaData": {
@@ -48,14 +36,8 @@ export const CellPhone: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bear",
-			"id": 6
-		},
-		{
-			"name": "Wickline",
-			"id": 7
-		}
+		6,
+		7
 	],
 	"airSupply": true,
 	"collectible": 0

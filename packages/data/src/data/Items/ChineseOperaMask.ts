@@ -10,11 +10,12 @@ export const ChineseOperaMask: Item = {
 		"VF Blood Sample": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.1,
 		"defense": 16,
-		"lifeSteal": 0.22,
 		"maxSp": 300,
 		"moveSpeed": 0.1,
-		"moveSpeedOutOfCombat": 0.4
+		"moveSpeedOutOfCombat": 0.4,
+		"increaseBasicAttackDamage": 0.22
 	},
 	"rarity": "Epic",
 	"code": "변검",
@@ -24,14 +25,8 @@ export const ChineseOperaMask: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201201
-		},
-		{
-			"name": "Scissors",
-			"id": 401401
-		}
+		201201,
+		401401
 	],
 	"displayName": "Chinese Opera Mask",
 	"apiMetaData": {

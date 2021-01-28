@@ -4,10 +4,8 @@ export const Fedorova: Item = {
 	"id": 117101,
 	"name": "Fedorova",
 	"buildsInto": [
-		{
-			"name": "STG-44",
-			"id": 117201
-		}
+		117201,
+		117201
 	],
 	"requirements": {},
 	"stats": {

@@ -4,10 +4,7 @@ export const Crown: Item = {
 	"id": 201401,
 	"name": "Crown",
 	"buildsInto": [
-		{
-			"name": "Imperial Crown",
-			"id": 201409
-		}
+		201409
 	],
 	"requirements": {
 		"Hairband": 1,
@@ -16,9 +13,10 @@ export const Crown: Item = {
 		"Gemstone": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.07,
 		"defense": 16,
 		"maxSp": 360,
-		"increaseSkillDamageRatio": 0.08
+		"preventSkillDamagedRatio": 0.08
 	},
 	"rarity": "Rare",
 	"code": "왕관",
@@ -28,14 +26,8 @@ export const Crown: Item = {
 	"foundQuantity": 1,
 	"description": "The one  to wear the crown must bear its weight.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201202
-		},
-		{
-			"name": "Scissors",
-			"id": 401214
-		}
+		201202,
+		401214
 	],
 	"displayName": "Crown",
 	"apiMetaData": {

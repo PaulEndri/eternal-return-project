@@ -9,9 +9,9 @@ const SWITCHES = {
   DATA: false,
   NEW_DATA: false,
   CLIENT_DATA: false,
-  MASTER_DATA: false,
+  MASTER_DATA: true,
   OBJECTS: true,
-  ENUMS: true
+  ENUMS: false
 };
 
 const main = async () => {

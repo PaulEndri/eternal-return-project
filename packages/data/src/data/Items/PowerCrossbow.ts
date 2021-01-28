@@ -4,10 +4,7 @@ export const PowerCrossbow: Item = {
 	"id": 115301,
 	"name": "PowerCrossbow",
 	"buildsInto": [
-		{
-			"name": "The Golden Ghost",
-			"id": 115405
-		}
+		115405
 	],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -26,14 +23,8 @@ export const PowerCrossbow: Item = {
 	"foundQuantity": 1,
 	"description": "A good weapon, but it's paramount that you keep good track of your arrows.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115201
-		},
-		{
-			"name": "Scissors",
-			"id": 401105
-		}
+		115201,
+		401105
 	],
 	"displayName": "Power Crossbow",
 	"apiMetaData": {

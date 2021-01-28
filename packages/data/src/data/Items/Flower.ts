@@ -4,34 +4,16 @@ export const Flower: Item = {
 	"id": 205102,
 	"name": "Flower",
 	"buildsInto": [
-		{
-			"name": "Rose Knife",
-			"id": 101301
-		},
-		{
-			"name": "Apricot Flower Tag",
-			"id": 113302
-		},
-		{
-			"name": "Hanbok",
-			"id": 202306
-		},
-		{
-			"name": "Flower of Fate",
-			"id": 205203
-		},
-		{
-			"name": "Flower Liquor",
-			"id": 301303
-		},
-		{
-			"name": "Orchid",
-			"id": 302218
-		}
+		101301,
+		113302,
+		202306,
+		205203,
+		301303,
+		302218
 	],
 	"requirements": {},
 	"stats": {
-		"cooldownReduction": 0.07
+		"lifeSteal": 0.07
 	},
 	"rarity": "Common",
 	"code": "꽃",
@@ -57,10 +39,7 @@ export const Flower: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

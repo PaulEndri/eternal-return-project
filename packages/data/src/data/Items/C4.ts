@@ -4,14 +4,8 @@ export const C4: Item = {
 	"id": 502404,
 	"name": "C4",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "RDX"
-		},
-		{
-			"name": "Scissors",
-			"id": "White Powder"
-		}
+		502307,
+		401206
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -21,9 +15,7 @@ export const C4: Item = {
 		"Chalk": 1,
 		"Stone": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Epic",
 	"stackable": true,
 	"maxStacks": 5,

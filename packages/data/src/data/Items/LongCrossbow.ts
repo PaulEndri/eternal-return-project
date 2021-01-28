@@ -4,14 +4,8 @@ export const LongCrossbow: Item = {
 	"id": 115201,
 	"name": "LongCrossbow",
 	"buildsInto": [
-		{
-			"name": "Power Crossbow",
-			"id": 115301
-		},
-		{
-			"name": "Heavy Crossbow",
-			"id": 115303
-		}
+		115301,
+		115303
 	],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -28,14 +22,8 @@ export const LongCrossbow: Item = {
 	"foundQuantity": 1,
 	"description": "A long range weapon that can shoot further than a standard bow. During the Chosun Period, there are records of shots landing from as far as 600 steps away.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115101
-		},
-		{
-			"name": "Scissors",
-			"id": 502104
-		}
+		115101,
+		502104
 	],
 	"displayName": "Long Crossbow",
 	"apiMetaData": {

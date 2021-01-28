@@ -4,23 +4,19 @@ export const LongRifle: Item = {
 	"id": 118101,
 	"name": "LongRifle",
 	"buildsInto": [
-		{
-			"name": "Springfield",
-			"id": 118201
-		}
+		118201
 	],
 	"requirements": {},
 	"stats": {
 		"attackPower": 34,
-		"charges": 1,
-		"moveSpeed": -0.1
+		"charges": 1
 	},
 	"rarity": "Common",
 	"code": "화승총",
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Forest": 4,
+		"Forest": 2,
 		"Dock": 3
 	},
 	"foundQuantity": 1,

@@ -4,10 +4,7 @@ export const Scorchbow: Item = {
 	"id": 114402,
 	"name": "Scorchbow",
 	"buildsInto": [
-		{
-			"name": "Elemental Bow",
-			"id": 114501
-		}
+		114501
 	],
 	"requirements": {
 		"Bow": 1,
@@ -15,8 +12,8 @@ export const Scorchbow: Item = {
 		"Lighter": 1
 	},
 	"stats": {
-		"attackPower": 24,
-		"increaseSkillDamage": 18
+		"attackPower": 25,
+		"increaseSkillDamageRatio": 18
 	},
 	"rarity": "Rare",
 	"code": "화전",
@@ -26,14 +23,8 @@ export const Scorchbow: Item = {
 	"foundQuantity": 1,
 	"description": "A fiery arrow will burn your enemy.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114202
-		},
-		{
-			"name": "Scissors",
-			"id": 401107
-		}
+		114202,
+		401107
 	],
 	"displayName": "Scorchbow",
 	"apiMetaData": {

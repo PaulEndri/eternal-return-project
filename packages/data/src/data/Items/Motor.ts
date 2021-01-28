@@ -4,22 +4,10 @@ export const Motor: Item = {
 	"id": 401303,
 	"name": "Motor",
 	"buildsInto": [
-		{
-			"name": "Vibroblade",
-			"id": 101404
-		},
-		{
-			"name": "Mallet",
-			"id": 108404
-		},
-		{
-			"name": "Machine Gun",
-			"id": 117402
-		},
-		{
-			"name": "Vibro Nunchaku",
-			"id": 119402
-		}
+		101404,
+		108404,
+		117402,
+		119402
 	],
 	"requirements": {
 		"Battery": 1,
@@ -35,14 +23,8 @@ export const Motor: Item = {
 	"foundQuantity": 1,
 	"description": "A motor itself is useless, but you can probably turn it into something great.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401211
-		},
-		{
-			"name": "Scissors",
-			"id": 401106
-		}
+		401211,
+		401106
 	],
 	"displayName": "Motor",
 	"apiMetaData": {
@@ -55,14 +37,8 @@ export const Motor: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

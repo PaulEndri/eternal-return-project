@@ -4,18 +4,10 @@ export const Katana: Item = {
 	"id": 102301,
 	"name": "Katana",
 	"buildsInto": [
-		{
-			"name": "Masamune",
-			"id": 102401
-		},
-		{
-			"name": "Muramasa",
-			"id": 102402
-		},
-		{
-			"name": "Dáinsleif",
-			"id": 102501
-		}
+		102401,
+		102402,
+		102501,
+		102501
 	],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -33,14 +25,8 @@ export const Katana: Item = {
 	"foundQuantity": 1,
 	"description": "I can't believe that I'm actually holding a Japanese sword that I saw in the movies!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102101
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		102101,
+		401213
 	],
 	"displayName": "Katana",
 	"apiMetaData": {

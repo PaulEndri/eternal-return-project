@@ -4,26 +4,11 @@ export const ShortRod: Item = {
 	"id": 108102,
 	"name": "ShortRod",
 	"buildsInto": [
-		{
-			"name": "Warhammer",
-			"id": 104201
-		},
-		{
-			"name": "Reaper's Scythe",
-			"id": 105302
-		},
-		{
-			"name": "Long Rod",
-			"id": 108202
-		},
-		{
-			"name": "Mai Sok",
-			"id": 111403
-		},
-		{
-			"name": "Feather Duster",
-			"id": 205209
-		}
+		104201,
+		105302,
+		108202,
+		111403,
+		205209
 	],
 	"requirements": {},
 	"stats": {
@@ -52,10 +37,7 @@ export const ShortRod: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

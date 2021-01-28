@@ -160,9 +160,7 @@ export const generateEnums = () => {
       Object.fromEntries(
         Master.weapon.map((wpn) => [
           wpn.apiMetaData.type,
-          Object.fromEntries(
-            wpn.items.map(({ id, name }) => [name.replace(/ /g, ''), id])
-          )
+          Object.fromEntries(wpn.items.map((id) => [id, id]))
         ])
       )
     )
@@ -175,9 +173,7 @@ export const generateEnums = () => {
       Object.fromEntries(
         Master.armor.map((wpn) => [
           wpn.apiMetaData.type,
-          Object.fromEntries(
-            wpn.items.map(({ id, name }) => [name.replace(/ /g, ''), id])
-          )
+          Object.fromEntries(wpn.items.map((id) => [id, id]))
         ])
       )
     )

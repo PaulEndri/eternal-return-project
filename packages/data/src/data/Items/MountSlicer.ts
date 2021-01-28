@@ -12,11 +12,11 @@ export const MountSlicer: Item = {
 		"Lighter": 1
 	},
 	"stats": {
-		"attackPower": 33,
-		"cooldownReduction": 0.1,
+		"attackPower": 38,
+		"lifeSteal": 0.1,
 		"moveSpeed": 0.1,
 		"moveSpeedOutOfCombat": 0.1,
-		"increaseSkillDamage": 35
+		"increaseSkillDamageRatio": 30
 	},
 	"rarity": "Epic",
 	"code": "파산검",
@@ -26,14 +26,8 @@ export const MountSlicer: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101301
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		101301,
+		401210
 	],
 	"displayName": "Mount Slicer",
 	"apiMetaData": {

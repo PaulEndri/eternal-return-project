@@ -4,14 +4,8 @@ export const ChainLeggings: Item = {
 	"id": 204202,
 	"name": "ChainLeggings",
 	"buildsInto": [
-		{
-			"name": "Mithril Boots",
-			"id": 204407
-		},
-		{
-			"name": "Bucephalus",
-			"id": 204408
-		}
+		204407,
+		204408
 	],
 	"requirements": {
 		"Tights": 1,
@@ -29,14 +23,8 @@ export const ChainLeggings: Item = {
 	"foundQuantity": 1,
 	"description": "Protective leg equipment. Very effective and easily made.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204103
-		},
-		{
-			"name": "Scissors",
-			"id": 119101
-		}
+		204103,
+		119101
 	],
 	"displayName": "Chain Leggings",
 	"apiMetaData": {

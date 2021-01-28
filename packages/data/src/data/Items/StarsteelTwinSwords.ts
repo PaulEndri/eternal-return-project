@@ -11,7 +11,7 @@ export const StarsteelTwinSwords: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"attackPower": 55,
+		"attackPower": 60,
 		"attackSpeedRatio": 0.5
 	},
 	"rarity": "Epic",
@@ -22,14 +22,8 @@ export const StarsteelTwinSwords: Item = {
 	"foundQuantity": 1,
 	"description": "A pair of swords that Liu Bei used in \"Romance of the Three Kingdoms\".",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 103201
-		},
-		{
-			"name": "Scissors",
-			"id": 401301
-		}
+		103201,
+		401301
 	],
 	"displayName": "Starsteel Twin Swords",
 	"apiMetaData": {

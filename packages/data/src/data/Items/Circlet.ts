@@ -4,24 +4,16 @@ export const Circlet: Item = {
 	"id": 201202,
 	"name": "Circlet",
 	"buildsInto": [
-		{
-			"name": "Tiara",
-			"id": 201303
-		},
-		{
-			"name": "Crown",
-			"id": 201401
-		},
-		{
-			"name": "Laurel Wreath",
-			"id": 201408
-		}
+		201303,
+		201401,
+		201408
 	],
 	"requirements": {
 		"Hairband": 1,
 		"Branch": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.04,
 		"defense": 14,
 		"maxSp": 270
 	},
@@ -33,14 +25,8 @@ export const Circlet: Item = {
 	"foundQuantity": 1,
 	"description": "A simple accessory worn on the head. It looks rather plain.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201101
-		},
-		{
-			"name": "Scissors",
-			"id": 108101
-		}
+		201101,
+		108101
 	],
 	"displayName": "Circlet",
 	"apiMetaData": {

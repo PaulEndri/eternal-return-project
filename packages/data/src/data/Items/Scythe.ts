@@ -13,7 +13,7 @@ export const Scythe: Item = {
 	"stats": {
 		"attackPower": 130,
 		"attackRange": 1,
-		"increaseSkillDamageRatio": 0.18
+		"preventSkillDamagedRatio": 0.18
 	},
 	"rarity": "Epic",
 	"code": "스퀴테",
@@ -23,14 +23,8 @@ export const Scythe: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105302
-		},
-		{
-			"name": "Scissors",
-			"id": 401214
-		}
+		105302,
+		401214
 	],
 	"displayName": "Scythe",
 	"apiMetaData": {

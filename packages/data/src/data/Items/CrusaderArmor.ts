@@ -12,10 +12,10 @@ export const CrusaderArmor: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"defense": 30,
-		"hpRegenRatio": 2,
+		"defense": 38,
+		"hpRegenRatio": 1.5,
 		"moveSpeed": -0.02,
-		"increaseBasicAttackDamage": 15
+		"preventBasicAttackDamaged": 15
 	},
 	"rarity": "Epic",
 	"code": "성기사의갑옷",
@@ -25,14 +25,8 @@ export const CrusaderArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Some say that this armor provides special protection from the undead. It's a shame there's no zombies around here.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202305
-		},
-		{
-			"name": "Scissors",
-			"id": 205202
-		}
+		202305,
+		205202
 	],
 	"displayName": "Crusader Armor",
 	"apiMetaData": {

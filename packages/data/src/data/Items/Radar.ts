@@ -15,8 +15,8 @@ export const Radar: Item = {
 		"Glue": 1
 	},
 	"stats": {
-		"attackSpeedRatio": 0.35,
-		"criticalStrikeChance": 0.2,
+		"attackSpeedRatio": 0.4,
+		"criticalStrikeChance": 0.24,
 		"defense": 15
 	},
 	"rarity": "Legend",
@@ -27,14 +27,8 @@ export const Radar: Item = {
 	"foundQuantity": 1,
 	"description": "If you can get it working properly, it might help you find the location of anyone in the world.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203405
-		},
-		{
-			"name": "Scissors",
-			"id": 401305
-		}
+		203405,
+		401305
 	],
 	"displayName": "Radar",
 	"apiMetaData": {

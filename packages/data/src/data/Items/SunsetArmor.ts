@@ -12,7 +12,7 @@ export const SunsetArmor: Item = {
 	},
 	"stats": {
 		"defense": 28,
-		"maxHp": 450
+		"maxHp": 360
 	},
 	"rarity": "Rare",
 	"code": "석양의갑옷",
@@ -22,14 +22,8 @@ export const SunsetArmor: Item = {
 	"foundQuantity": 1,
 	"description": "Made of leather, it features a ruby that shines like a bright, red sun",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202201
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		202201,
+		401204
 	],
 	"displayName": "Sunset Armor",
 	"apiMetaData": {

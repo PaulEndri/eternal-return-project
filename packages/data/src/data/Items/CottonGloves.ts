@@ -4,14 +4,8 @@ export const CottonGloves: Item = {
 	"id": 110102,
 	"name": "CottonGloves",
 	"buildsInto": [
-		{
-			"name": "Leather Gloves",
-			"id": 110201
-		},
-		{
-			"name": "Gauntlet",
-			"id": 110301
-		}
+		110201,
+		110301
 	],
 	"requirements": {},
 	"stats": {

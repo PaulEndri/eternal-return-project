@@ -14,8 +14,8 @@ export const MysticJadeCharm: Item = {
 	"stats": {
 		"attackPower": 60,
 		"charges": 10,
-		"increaseSkillDamage": 12,
-		"increaseSkillDamageRatio": 0.15
+		"increaseSkillDamageRatio": 15,
+		"preventSkillDamagedRatio": 0.15
 	},
 	"rarity": "Epic",
 	"code": "옥전결",
@@ -25,14 +25,8 @@ export const MysticJadeCharm: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113202
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		113202,
+		401210
 	],
 	"displayName": "Mystic Jade Charm",
 	"apiMetaData": {

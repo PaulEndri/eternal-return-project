@@ -22,14 +22,8 @@ export const MithrilBoots: Item = {
 	"foundQuantity": 1,
 	"description": "Boots made out of mithril. Stronger than steel and fireproof, too!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401304
-		},
-		{
-			"name": "Scissors",
-			"id": 204202
-		}
+		401304,
+		204202
 	],
 	"displayName": "Mithril Boots",
 	"apiMetaData": {

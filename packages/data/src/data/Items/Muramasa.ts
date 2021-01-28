@@ -4,10 +4,7 @@ export const Muramasa: Item = {
 	"id": 102402,
 	"name": "Muramasa",
 	"buildsInto": [
-		{
-			"name": "Monohoshizao",
-			"id": 102410
-		}
+		102410
 	],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -26,14 +23,8 @@ export const Muramasa: Item = {
 	"foundQuantity": 1,
 	"description": "A sword cursing the Tokugawa family, who were the founders of Japan's Tokugawa shogunate. Tokugawa Leyasu's grandfather, father, and son were all killed or wounded by this sword, and Leyasu himself also had his finger cut off.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102301
-		},
-		{
-			"name": "Scissors",
-			"id": 401114
-		}
+		102301,
+		401114
 	],
 	"displayName": "Muramasa",
 	"apiMetaData": {

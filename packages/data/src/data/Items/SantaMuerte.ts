@@ -14,8 +14,8 @@ export const SantaMuerte: Item = {
 	"stats": {
 		"attackPower": 100,
 		"attackRange": 0.5,
-		"lifeSteal": 0.15,
-		"maxHp": 450
+		"maxHp": 450,
+		"increaseBasicAttackDamage": 0.15
 	},
 	"rarity": "Epic",
 	"code": "산타무에르떼",
@@ -25,14 +25,8 @@ export const SantaMuerte: Item = {
 	"foundQuantity": 1,
 	"description": "Santa Muerte, the Mexican goddess of death, cuts off all negative energies with her long-handled scythe.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105302
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		105302,
+		401204
 	],
 	"displayName": "Santa Muerte",
 	"apiMetaData": {

@@ -12,7 +12,8 @@ export const CrystalTiara: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"criticalStrikeChance": 0.22,
+		"cooldownReduction": 0.1,
+		"criticalStrikeChance": 0.2,
 		"defense": 14,
 		"maxSp": 700
 	},
@@ -24,14 +25,8 @@ export const CrystalTiara: Item = {
 	"foundQuantity": 1,
 	"description": "A tiara made of crystals. The intricacies are impressive.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201303
-		},
-		{
-			"name": "Scissors",
-			"id": 205204
-		}
+		201303,
+		205204
 	],
 	"displayName": "Crystal Tiara",
 	"apiMetaData": {

@@ -4,10 +4,7 @@ export const RubySpecial: Item = {
 	"id": 121301,
 	"name": "RubySpecial",
 	"buildsInto": [
-		{
-			"name": "Bohemian",
-			"id": 121401
-		}
+		121401
 	],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -20,7 +17,7 @@ export const RubySpecial: Item = {
 		"attackPower": 20,
 		"attackSpeedRatio": 0.2,
 		"maxHp": 300,
-		"increaseBasicAttackDamage": 2
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Rare",
 	"code": "루비스페셜",
@@ -30,14 +27,8 @@ export const RubySpecial: Item = {
 	"foundQuantity": 1,
 	"description": "A unique guitar that is as red as a ruby.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121202
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		121202,
+		401204
 	],
 	"displayName": "Ruby Special",
 	"apiMetaData": {

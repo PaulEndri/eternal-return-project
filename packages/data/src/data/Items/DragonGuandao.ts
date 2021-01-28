@@ -12,8 +12,9 @@ export const DragonGuandao: Item = {
 		"Hammer": 1
 	},
 	"stats": {
-		"attackPower": 130,
-		"moveSpeed": -0.1
+		"attackPower": 115,
+		"maxHp": 300,
+		"moveSpeed": -0.05
 	},
 	"rarity": "Epic",
 	"code": "청룡언월도",
@@ -23,14 +24,8 @@ export const DragonGuandao: Item = {
 	"foundQuantity": 1,
 	"description": "Made of 49 kg of iron during the Three Kingdoms period. It was thought to be used by Guan Yu.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107303
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		107303,
+		401213
 	],
 	"displayName": "Dragon Guandao",
 	"apiMetaData": {

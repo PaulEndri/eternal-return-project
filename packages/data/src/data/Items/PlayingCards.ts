@@ -4,18 +4,9 @@ export const PlayingCards: Item = {
 	"id": 113102,
 	"name": "PlayingCards",
 	"buildsInto": [
-		{
-			"name": "Vintage Cards",
-			"id": 113203
-		},
-		{
-			"name": "Bohemian",
-			"id": 121401
-		},
-		{
-			"name": "Flower of Fate",
-			"id": 205203
-		}
+		113203,
+		121401,
+		205203
 	],
 	"requirements": {},
 	"stats": {
@@ -28,7 +19,7 @@ export const PlayingCards: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Hotel": 6
 	},
 	"foundQuantity": 1,
@@ -45,10 +36,7 @@ export const PlayingCards: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

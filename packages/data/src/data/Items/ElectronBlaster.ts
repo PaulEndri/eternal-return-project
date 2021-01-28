@@ -16,7 +16,7 @@ export const ElectronBlaster: Item = {
 		"attackSpeedRatio": 0.5,
 		"charges": 30,
 		"moveSpeed": 0.1,
-		"increaseBasicAttackDamage": 28
+		"preventBasicAttackDamaged": 28
 	},
 	"rarity": "Epic",
 	"code": "일렉트론블라스터",
@@ -26,14 +26,8 @@ export const ElectronBlaster: Item = {
 	"foundQuantity": 1,
 	"description": "It's not as strong as the laser guns used on the other side of the cosmos, but it's still pretty powerful.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116202
-		},
-		{
-			"name": "Scissors",
-			"id": 401306
-		}
+		116202,
+		401306
 	],
 	"displayName": "Electron Blaster",
 	"apiMetaData": {

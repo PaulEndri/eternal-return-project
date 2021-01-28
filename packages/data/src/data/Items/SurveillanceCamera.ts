@@ -4,10 +4,7 @@ export const SurveillanceCamera: Item = {
 	"id": 502101,
 	"name": "SurveillanceCamera",
 	"buildsInto": [
-		{
-			"name": "Telephoto Camera",
-			"id": 502207
-		}
+		502207
 	],
 	"requirements": {},
 	"stats": {},
@@ -38,18 +35,9 @@ export const SurveillanceCamera: Item = {
 		"category": "Special"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		},
-		{
-			"name": "Boar",
-			"id": 3
-		},
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		2,
+		3,
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

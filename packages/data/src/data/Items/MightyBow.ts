@@ -4,10 +4,7 @@ export const MightyBow: Item = {
 	"id": 114303,
 	"name": "MightyBow",
 	"buildsInto": [
-		{
-			"name": "Stallion Bow",
-			"id": 114302
-		}
+		114302
 	],
 	"requirements": {
 		"Bow": 1,
@@ -15,8 +12,8 @@ export const MightyBow: Item = {
 		"Gunpowder": 1
 	},
 	"stats": {
-		"attackPower": 20,
-		"increaseBasicAttackDamage": 11
+		"attackPower": 25,
+		"preventBasicAttackDamaged": 11
 	},
 	"rarity": "Rare",
 	"code": "벽력궁",
@@ -26,14 +23,8 @@ export const MightyBow: Item = {
 	"foundQuantity": 1,
 	"description": "A bow that can be made by combining a bow and gunpowder. While hiding in darkness, you must draw the bow quietly, but quickly.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114202
-		},
-		{
-			"name": "Scissors",
-			"id": 401121
-		}
+		114202,
+		401121
 	],
 	"displayName": "Mighty Bow",
 	"apiMetaData": {

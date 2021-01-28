@@ -13,8 +13,8 @@ export const Monohoshizao: Item = {
 		"Paper": 1
 	},
 	"stats": {
-		"attackPower": 70,
-		"lifeSteal": 0.18
+		"attackPower": 74,
+		"increaseBasicAttackDamage": 0.21
 	},
 	"rarity": "Epic",
 	"code": "모노호시자오",
@@ -24,14 +24,8 @@ export const Monohoshizao: Item = {
 	"foundQuantity": 1,
 	"description": "A sword with a long blade. Legend says Kojiro Sasaki cut a flying swallow with this sword. A technique known as \"Upward Cutting\" is commonly used after an opponent dodges the first attack.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102402
-		},
-		{
-			"name": "Scissors",
-			"id": 401212
-		}
+		102402,
+		401212
 	],
 	"displayName": "Monohoshizao",
 	"apiMetaData": {

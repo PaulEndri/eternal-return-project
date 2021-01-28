@@ -4,18 +4,9 @@ export const Cloth: Item = {
 	"id": 401113,
 	"name": "Cloth",
 	"buildsInto": [
-		{
-			"name": "Dress",
-			"id": 202207
-		},
-		{
-			"name": "Repaired Slippers",
-			"id": 204301
-		},
-		{
-			"name": "Doll",
-			"id": 205205
-		}
+		202207,
+		204301,
+		205205
 	],
 	"requirements": {},
 	"stats": {},
@@ -25,7 +16,7 @@ export const Cloth: Item = {
 	"maxStacks": 3,
 	"locations": {
 		"Temple": 7,
-		"Avenue": 7,
+		"Avenue": 8,
 		"Hotel": 7
 	},
 	"foundQuantity": 1,
@@ -42,10 +33,7 @@ export const Cloth: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

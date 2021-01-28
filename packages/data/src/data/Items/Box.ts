@@ -4,18 +4,9 @@ export const Box: Item = {
 	"id": 205107,
 	"name": "Box",
 	"buildsInto": [
-		{
-			"name": "Magazine",
-			"id": 205303
-		},
-		{
-			"name": "Schrodinger's Box",
-			"id": 205404
-		},
-		{
-			"name": "Choco Pie Box",
-			"id": 302312
-		}
+		205303,
+		205404,
+		302312
 	],
 	"requirements": {},
 	"stats": {
@@ -44,10 +35,7 @@ export const Box: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

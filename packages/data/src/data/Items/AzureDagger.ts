@@ -14,8 +14,8 @@ export const AzureDagger: Item = {
 	"stats": {
 		"attackPower": 20,
 		"charges": 50,
-		"increaseBasicAttackDamage": 29,
-		"increaseSkillDamage": 24
+		"increaseSkillDamageRatio": 24,
+		"preventBasicAttackDamaged": 26
 	},
 	"rarity": "Epic",
 	"code": "푸른색단도",
@@ -25,14 +25,8 @@ export const AzureDagger: Item = {
 	"foundQuantity": 1,
 	"description": "Blue weapons aren't always associated with ice or water...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113206
-		},
-		{
-			"name": "Scissors",
-			"id": 401302
-		}
+		113206,
+		401302
 	],
 	"displayName": "Azure Dagger",
 	"apiMetaData": {

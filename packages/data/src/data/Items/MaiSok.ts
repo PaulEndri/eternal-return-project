@@ -12,7 +12,7 @@ export const MaiSok: Item = {
 		"Short Rod": 1
 	},
 	"stats": {
-		"attackPower": 50,
+		"attackPower": 63,
 		"defense": 20,
 		"hpRegenRatio": 1
 	},
@@ -24,14 +24,8 @@ export const MaiSok: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 111401
-		},
-		{
-			"name": "Scissors",
-			"id": 108102
-		}
+		111401,
+		108102
 	],
 	"displayName": "Mai Sok",
 	"apiMetaData": {

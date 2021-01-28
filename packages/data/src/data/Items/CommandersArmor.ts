@@ -4,10 +4,7 @@ export const CommandersArmor: Item = {
 	"id": 202412,
 	"name": "CommandersArmor",
 	"buildsInto": [
-		{
-			"name": "Kabana",
-			"id": 202501
-		}
+		202501
 	],
 	"requirements": {
 		"Fabric Armor": 1,
@@ -18,7 +15,7 @@ export const CommandersArmor: Item = {
 	},
 	"stats": {
 		"defense": 20,
-		"increaseSkillDamageRatio": 0.16
+		"preventSkillDamagedRatio": 0.18
 	},
 	"rarity": "Epic",
 	"code": "지휘관의갑옷",
@@ -28,14 +25,8 @@ export const CommandersArmor: Item = {
 	"foundQuantity": 1,
 	"description": "It's the General's armor, so it gotta be the strongest armor in town.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202302
-		},
-		{
-			"name": "Scissors",
-			"id": 401214
-		}
+		202302,
+		401214
 	],
 	"displayName": "Commander's Armor",
 	"apiMetaData": {

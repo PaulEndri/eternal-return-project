@@ -4,10 +4,7 @@ export const Torch: Item = {
 	"id": 108402,
 	"name": "Torch",
 	"buildsInto": [
-		{
-			"name": "Statue of Soteria",
-			"id": 108403
-		}
+		108403
 	],
 	"requirements": {
 		"Short Rod": 1,
@@ -29,14 +26,8 @@ export const Torch: Item = {
 	"foundQuantity": 1,
 	"description": "The torch that lights your way might help you keep your own life from being extinguished. If you see an enemy, don't hesitate to swing.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205209
-		},
-		{
-			"name": "Scissors",
-			"id": 401202
-		}
+		205209,
+		401202
 	],
 	"displayName": "Torch",
 	"apiMetaData": {

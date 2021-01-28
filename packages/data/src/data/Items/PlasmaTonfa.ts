@@ -24,14 +24,8 @@ export const PlasmaTonfa: Item = {
 	"foundQuantity": 1,
 	"description": "A tonfa-shaped weapon made out of plasma. It uses a chip that registers its owner's information, so it won't harm its owner and will be safe to use.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 111401
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		111401,
+		401108
 	],
 	"displayName": "Plasma Tonfa",
 	"apiMetaData": {

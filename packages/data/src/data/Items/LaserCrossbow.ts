@@ -4,10 +4,7 @@ export const LaserCrossbow: Item = {
 	"id": 115302,
 	"name": "LaserCrossbow",
 	"buildsInto": [
-		{
-			"name": "Sniper Crossbow",
-			"id": 115404
-		}
+		115404
 	],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -27,14 +24,8 @@ export const LaserCrossbow: Item = {
 	"foundQuantity": 1,
 	"description": "A bow specialized for sniping. As always, aim is important.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115202
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		115202,
+		401108
 	],
 	"displayName": "Laser Crossbow",
 	"apiMetaData": {

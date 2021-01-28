@@ -4,22 +4,10 @@ export const GlassBottle: Item = {
 	"id": 112104,
 	"name": "GlassBottle",
 	"buildsInto": [
-		{
-			"name": "Molotov Cocktail",
-			"id": 112203
-		},
-		{
-			"name": "Glass Pieces",
-			"id": 205204
-		},
-		{
-			"name": "Water Bottle",
-			"id": 301203
-		},
-		{
-			"name": "Healing Potion",
-			"id": 302317
-		}
+		112203,
+		205204,
+		301203,
+		302317
 	],
 	"requirements": {},
 	"stats": {},
@@ -28,7 +16,7 @@ export const GlassBottle: Item = {
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Chapel": 6,
 		"Dock": 7
 	},
@@ -46,10 +34,7 @@ export const GlassBottle: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

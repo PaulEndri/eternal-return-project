@@ -13,9 +13,8 @@ export const Tac50: Item = {
 	},
 	"stats": {
 		"attackPower": 140,
-		"lifeSteal": 0.2,
-		"moveSpeed": -0.03,
-		"sightRange": 2.5
+		"sightRange": 2.5,
+		"increaseBasicAttackDamage": 0.2
 	},
 	"rarity": "Epic",
 	"code": "Tac-50",
@@ -25,14 +24,8 @@ export const Tac50: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 118301
-		},
-		{
-			"name": "Scissors",
-			"id": 401212
-		}
+		118301,
+		401212
 	],
 	"displayName": "Tac-50",
 	"apiMetaData": {

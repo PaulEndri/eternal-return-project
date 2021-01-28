@@ -25,14 +25,8 @@ export const SmokeBomb: Item = {
 	"foundQuantity": 1,
 	"description": "Inflicts immense damage by emitting a poisonous gas. It is made from gunpowder and a special barrel.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112301
-		},
-		{
-			"name": "Scissors",
-			"id": 301209
-		}
+		112301,
+		301209
 	],
 	"displayName": "Smoke Bomb",
 	"apiMetaData": {

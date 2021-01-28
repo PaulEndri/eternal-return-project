@@ -4,14 +4,8 @@ export const ButterFriedPotatoes: Item = {
 	"id": 302325,
 	"name": "ButterFriedPotatoes",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Potato"
-		},
-		{
-			"name": "Scissors",
-			"id": "Butter"
-		}
+		302102,
+		302206
 	],
 	"buildsInto": [],
 	"requirements": {

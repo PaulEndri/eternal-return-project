@@ -17,7 +17,7 @@ export const XCR: Item = {
 		"charges": 3,
 		"maxHp": 350,
 		"sightRange": 1.5,
-		"increaseBasicAttackDamage": 10
+		"preventBasicAttackDamaged": 10
 	},
 	"rarity": "Epic",
 	"code": "XCR",
@@ -27,14 +27,8 @@ export const XCR: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 117401
-		},
-		{
-			"name": "Scissors",
-			"id": 205303
-		}
+		117401,
+		205303
 	],
 	"displayName": "XCR",
 	"apiMetaData": {

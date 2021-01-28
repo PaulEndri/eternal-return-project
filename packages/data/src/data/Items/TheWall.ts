@@ -13,9 +13,9 @@ export const TheWall: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"attackPower": 70,
-		"attackSpeedRatio": 0.18,
-		"increaseBasicAttackDamage": 2
+		"attackPower": 75,
+		"attackSpeedRatio": 0.2,
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Epic",
 	"code": "더월",
@@ -25,14 +25,8 @@ export const TheWall: Item = {
 	"foundQuantity": 1,
 	"description": "The test subjects on this island might as well just be, all in all, bricks in a wall.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121305
-		},
-		{
-			"name": "Scissors",
-			"id": 401206
-		}
+		121305,
+		401206
 	],
 	"displayName": "The Wall",
 	"apiMetaData": {

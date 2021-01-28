@@ -4,30 +4,12 @@ export const Moonstone: Item = {
 	"id": 401301,
 	"name": "Moonstone",
 	"buildsInto": [
-		{
-			"name": "Starsteel Twin Swords",
-			"id": 103402
-		},
-		{
-			"name": "Evening Star",
-			"id": 104404
-		},
-		{
-			"name": "Cosmic Bident",
-			"id": 107404
-		},
-		{
-			"name": "The Deadly Ray",
-			"id": 118501
-		},
-		{
-			"name": "Cube Watch",
-			"id": 203408
-		},
-		{
-			"name": "Moonlight Pendant",
-			"id": 205401
-		}
+		103402,
+		104404,
+		107404,
+		118501,
+		203408,
+		205401
 	],
 	"requirements": {
 		"Meteorite": 1,
@@ -41,14 +23,8 @@ export const Moonstone: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401209
-		},
-		{
-			"name": "Scissors",
-			"id": 112101
-		}
+		401209,
+		112101
 	],
 	"displayName": "Moonstone",
 	"apiMetaData": {
@@ -61,18 +37,9 @@ export const Moonstone: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		},
-		{
-			"name": "Wickline",
-			"id": 7
-		}
+		5,
+		6,
+		7
 	],
 	"airSupply": true,
 	"collectible": 0

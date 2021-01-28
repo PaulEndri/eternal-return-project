@@ -12,10 +12,10 @@ export const FuhmaShuriken: Item = {
 		"Alcohol": 1
 	},
 	"stats": {
-		"attackPower": 48,
+		"attackPower": 52,
 		"charges": 50,
-		"cooldownReduction": 0.15,
-		"increaseBasicAttackDamage": 36
+		"lifeSteal": 0.15,
+		"preventBasicAttackDamaged": 36
 	},
 	"rarity": "Epic",
 	"code": "풍마수리검",
@@ -25,14 +25,8 @@ export const FuhmaShuriken: Item = {
 	"foundQuantity": 1,
 	"description": "A ninja star originally used by Humma, a band of ninja that were active during the Sengoku period.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113302
-		},
-		{
-			"name": "Scissors",
-			"id": 401111
-		}
+		113302,
+		401111
 	],
 	"displayName": "Fuhma Shuriken",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const Dainsleif: Item = {
 	"id": 102501,
 	"name": "Dainsleif",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "VF Blood Sample"
-		},
-		{
-			"name": "Scissors",
-			"id": "Katana"
-		}
+		401401,
+		102301
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -21,8 +15,8 @@ export const Dainsleif: Item = {
 		"Hammer": 1
 	},
 	"stats": {
-		"attackPower": 70,
-		"lifeSteal": 0.2
+		"attackPower": 80,
+		"increaseBasicAttackDamage": 0.25
 	},
 	"rarity": "Legend",
 	"stackable": false,

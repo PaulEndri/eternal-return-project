@@ -4,14 +4,8 @@ export const Bracelet: Item = {
 	"id": 203104,
 	"name": "Bracelet",
 	"buildsInto": [
-		{
-			"name": "Golden Bracelet",
-			"id": 203302
-		},
-		{
-			"name": "Crimson Bracelet",
-			"id": 203304
-		}
+		203302,
+		203304
 	],
 	"requirements": {},
 	"stats": {
@@ -40,10 +34,7 @@ export const Bracelet: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

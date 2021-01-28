@@ -13,10 +13,10 @@ export const NTW20: Item = {
 		"Hammer": 1
 	},
 	"stats": {
-		"attackPower": 95,
-		"moveSpeed": -0.1,
+		"attackPower": 100,
+		"moveSpeed": -0.07,
 		"sightRange": 2.5,
-		"increaseSkillDamageRatio": 0.22
+		"preventSkillDamagedRatio": 0.24
 	},
 	"rarity": "Epic",
 	"code": "NTW-20",
@@ -26,14 +26,8 @@ export const NTW20: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 118401
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		118401,
+		401213
 	],
 	"displayName": "NTW-20",
 	"apiMetaData": {

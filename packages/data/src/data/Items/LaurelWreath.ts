@@ -12,11 +12,12 @@ export const LaurelWreath: Item = {
 		"Branch": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.1,
 		"defense": 18,
 		"hpRegen": 1.5,
 		"maxSp": 580,
 		"spRegen": 2,
-		"increaseBasicAttackDamage": 15
+		"preventBasicAttackDamaged": 15
 	},
 	"rarity": "Legend",
 	"code": "월계관",
@@ -26,14 +27,8 @@ export const LaurelWreath: Item = {
 	"foundQuantity": 1,
 	"description": "A crown made of branches of a laurel tree, which is a symbol of Apollo. Crowns symbolize wealth, but a laurel crown symbolizes honor.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205403
-		},
-		{
-			"name": "Scissors",
-			"id": 201202
-		}
+		205403,
+		201202
 	],
 	"displayName": "Laurel Wreath",
 	"apiMetaData": {

@@ -4,10 +4,7 @@ export const SpikyBouncyBall: Item = {
 	"id": 112403,
 	"name": "SpikyBouncyBall",
 	"buildsInto": [
-		{
-			"name": "Ruthenium Marble",
-			"id": 112501
-		}
+		112501
 	],
 	"requirements": {
 		"Rubber": 1,
@@ -16,9 +13,8 @@ export const SpikyBouncyBall: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 36,
-		"charges": 50,
-		"decreaseRecoveryToSkill": 1
+		"attackPower": 42,
+		"charges": 50
 	},
 	"rarity": "Rare",
 	"code": "가시탱탱볼",
@@ -28,14 +24,8 @@ export const SpikyBouncyBall: Item = {
 	"foundQuantity": 1,
 	"description": "A rubber ball with sharp fragments on the surface. It hurts. Also, don't underestimate its bouncing capability!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112304
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		112304,
+		401101
 	],
 	"displayName": "Spiky Bouncy Ball",
 	"apiMetaData": {

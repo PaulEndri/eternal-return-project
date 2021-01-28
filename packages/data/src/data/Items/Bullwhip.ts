@@ -4,14 +4,8 @@ export const Bullwhip: Item = {
 	"id": 109202,
 	"name": "Bullwhip",
 	"buildsInto": [
-		{
-			"name": "Thunder Whip",
-			"id": 109401
-		},
-		{
-			"name": "Lightning Whip",
-			"id": 109402
-		}
+		109401,
+		109402
 	],
 	"requirements": {
 		"Whip": 1,
@@ -28,14 +22,8 @@ export const Bullwhip: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 109101
-		},
-		{
-			"name": "Scissors",
-			"id": 113101
-		}
+		109101,
+		113101
 	],
 	"displayName": "Bullwhip",
 	"apiMetaData": {

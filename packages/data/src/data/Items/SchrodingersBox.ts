@@ -11,8 +11,8 @@ export const SchrodingersBox: Item = {
 		"Water": 1
 	},
 	"stats": {
-		"maxHp": 420,
-		"increaseSkillDamage": 7
+		"maxHp": 380,
+		"increaseSkillDamageRatio": 7
 	},
 	"rarity": "Rare",
 	"code": "슈뢰딩거의상자",
@@ -22,14 +22,8 @@ export const SchrodingersBox: Item = {
 	"foundQuantity": 1,
 	"description": "The cat inside the box is both alive and dead at the same time. Use it to show off your knowledge of quantum physics.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205107
-		},
-		{
-			"name": "Scissors",
-			"id": 401302
-		}
+		205107,
+		401302
 	],
 	"displayName": "Schrodinger's Box",
 	"apiMetaData": {

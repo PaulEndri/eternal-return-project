@@ -12,10 +12,9 @@ export const DivineDualSwords: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 44,
+		"attackPower": 49,
 		"attackSpeedRatio": 0.1,
-		"decreaseRecoveryToSkill": 1,
-		"lifeSteal": 0.18
+		"increaseBasicAttackDamage": 0.18
 	},
 	"rarity": "Epic",
 	"code": "이천일류",
@@ -25,14 +24,8 @@ export const DivineDualSwords: Item = {
 	"foundQuantity": 1,
 	"description": "A swordsmanship technique created and refined by Miyamoto Musashi. It involves using two swords, a shortsword in one hand and a longsword in the other.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 103301
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		103301,
+		401101
 	],
 	"displayName": "Divine Dual Swords",
 	"apiMetaData": {

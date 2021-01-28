@@ -22,14 +22,8 @@ export const PlasmaSword: Item = {
 	"foundQuantity": 1,
 	"description": "A sword made from the combination of ion nuclei and free electrons kept at an ultra-high temperature, also known as plasma. Due to its explosive nature, it's hard to handle, but it could be the start of an era of future weaponry. The plasma sword is the first of its kind.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102403
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		102403,
+		401108
 	],
 	"displayName": "Plasma Sword",
 	"apiMetaData": {

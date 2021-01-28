@@ -4,29 +4,18 @@ export const PendulumAxe: Item = {
 	"id": 502305,
 	"name": "PendulumAxe",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Bamboo Trap"
-		},
-		{
-			"name": "Scissors",
-			"id": "Hatchet"
-		}
+		502204,
+		105103
 	],
 	"buildsInto": [
-		{
-			"name": "Double Guillotine",
-			"id": 502405
-		}
+		502405
 	],
 	"requirements": {
 		"Snare": 1,
 		"Bamboo": 1,
 		"Hatchet": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,

@@ -12,7 +12,7 @@ export const SpearOfLonginus: Item = {
 	},
 	"stats": {
 		"attackPower": 140,
-		"lifeSteal": 0.2
+		"increaseBasicAttackDamage": 0.2
 	},
 	"rarity": "Legend",
 	"code": "롱기누스의창",
@@ -22,14 +22,8 @@ export const SpearOfLonginus: Item = {
 	"foundQuantity": 1,
 	"description": "Though its origins may be unclear, this spear is said to have been involved in mythical holiness. Texts say that this spear has the ability to heal its owner under certain conditions.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401401
-		},
-		{
-			"name": "Scissors",
-			"id": 107302
-		}
+		401401,
+		107302
 	],
 	"displayName": "Spear of Longinus",
 	"apiMetaData": {

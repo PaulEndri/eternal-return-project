@@ -4,14 +4,8 @@ export const SmartBomb: Item = {
 	"id": 502502,
 	"name": "SmartBomb",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "RDX"
-		},
-		{
-			"name": "Scissors",
-			"id": "Cell Phone"
-		}
+		502307,
+		501401
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -22,9 +16,7 @@ export const SmartBomb: Item = {
 		"Paper": 1,
 		"Battery": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Legend",
 	"stackable": true,
 	"maxStacks": 5,

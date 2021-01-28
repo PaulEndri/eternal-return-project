@@ -15,8 +15,8 @@ export const OneInchPunch: Item = {
 	"stats": {
 		"attackPower": 50,
 		"defense": 25,
-		"lifeSteal": 0.1,
-		"spRegenRatio": 0.5
+		"spRegenRatio": 0.5,
+		"increaseBasicAttackDamage": 0.1
 	},
 	"rarity": "Epic",
 	"code": "단영촌천투",
@@ -26,14 +26,8 @@ export const OneInchPunch: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110401
-		},
-		{
-			"name": "Scissors",
-			"id": 205205
-		}
+		110401,
+		205205
 	],
 	"displayName": "One Inch Punch",
 	"apiMetaData": {

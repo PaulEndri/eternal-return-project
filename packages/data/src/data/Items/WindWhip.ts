@@ -4,14 +4,8 @@ export const WindWhip: Item = {
 	"id": 109301,
 	"name": "WindWhip",
 	"buildsInto": [
-		{
-			"name": "Gleipnir",
-			"id": 109403
-		},
-		{
-			"name": "Whip of Nine Bloody Tails",
-			"id": 109501
-		}
+		109403,
+		109501
 	],
 	"requirements": {
 		"Whip": 1,
@@ -20,7 +14,7 @@ export const WindWhip: Item = {
 	},
 	"stats": {
 		"attackPower": 24,
-		"increaseSkillDamage": 20
+		"increaseSkillDamageRatio": 20
 	},
 	"rarity": "Rare",
 	"code": "바람채찍",
@@ -30,14 +24,8 @@ export const WindWhip: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 109201
-		},
-		{
-			"name": "Scissors",
-			"id": 205105
-		}
+		109201,
+		205105
 	],
 	"displayName": "Wind Whip",
 	"apiMetaData": {

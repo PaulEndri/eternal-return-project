@@ -4,29 +4,17 @@ export const TwinSwords: Item = {
 	"id": 103201,
 	"name": "TwinSwords",
 	"buildsInto": [
-		{
-			"name": "Florentine",
-			"id": 103301
-		},
-		{
-			"name": "Starsteel Twin Swords",
-			"id": 103402
-		},
-		{
-			"name": "Dioscuri",
-			"id": 103501
-		},
-		{
-			"name": "Lloigor & Zahr",
-			"id": 103502
-		}
+		103301,
+		103402,
+		103501,
+		103502
 	],
 	"requirements": {
 		"Kitchen Knife": 1,
 		"Rusty Sword": 1
 	},
 	"stats": {
-		"attackPower": 14,
+		"attackPower": 18,
 		"attackSpeedRatio": 0.1
 	},
 	"rarity": "Uncommon",
@@ -37,14 +25,8 @@ export const TwinSwords: Item = {
 	"foundQuantity": 1,
 	"description": "Double the sword, double the offense!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101104
-		},
-		{
-			"name": "Scissors",
-			"id": 102101
-		}
+		101104,
+		102101
 	],
 	"displayName": "Twin Swords",
 	"apiMetaData": {

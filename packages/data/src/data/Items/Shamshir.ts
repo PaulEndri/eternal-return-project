@@ -4,14 +4,8 @@ export const Shamshir: Item = {
 	"id": 102201,
 	"name": "Shamshir",
 	"buildsInto": [
-		{
-			"name": "Jewel Sword",
-			"id": 102404
-		},
-		{
-			"name": "Laevateinn",
-			"id": 102409
-		}
+		102404,
+		102409
 	],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -28,14 +22,8 @@ export const Shamshir: Item = {
 	"foundQuantity": 1,
 	"description": "The name translates into \"The Tail of the Lion.\" A symbolic sword of Persia, it's also known to be the origin of the sabre.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102101
-		},
-		{
-			"name": "Scissors",
-			"id": 401107
-		}
+		102101,
+		401107
 	],
 	"displayName": "Shamshir",
 	"apiMetaData": {

@@ -4,18 +4,9 @@ export const Springfield: Item = {
 	"id": 118201,
 	"name": "Springfield",
 	"buildsInto": [
-		{
-			"name": "Harpoon Gun",
-			"id": 118301
-		},
-		{
-			"name": "Golden Rifle",
-			"id": 118401
-		},
-		{
-			"name": "Railgun",
-			"id": 118402
-		}
+		118301,
+		118401,
+		118402
 	],
 	"requirements": {
 		"Long Rifle": 1,
@@ -23,7 +14,7 @@ export const Springfield: Item = {
 	},
 	"stats": {
 		"attackPower": 50,
-		"moveSpeed": -0.1,
+		"moveSpeed": -0.07,
 		"sightRange": 1.5
 	},
 	"rarity": "Uncommon",
@@ -34,14 +25,8 @@ export const Springfield: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 118101
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		118101,
+		401108
 	],
 	"displayName": "Springfield",
 	"apiMetaData": {

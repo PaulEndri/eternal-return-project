@@ -4,30 +4,12 @@ export const ElectronicParts: Item = {
 	"id": 401211,
 	"name": "ElectronicParts",
 	"buildsInto": [
-		{
-			"name": "Railgun",
-			"id": 118402
-		},
-		{
-			"name": "Volticletto",
-			"id": 120403
-		},
-		{
-			"name": "Tactical OPS Helmet",
-			"id": 201406
-		},
-		{
-			"name": "Maverick Runner",
-			"id": 204403
-		},
-		{
-			"name": "Motor",
-			"id": 401303
-		},
-		{
-			"name": "Cell Phone",
-			"id": 501401
-		}
+		118402,
+		120403,
+		201406,
+		204403,
+		401303,
+		501401
 	],
 	"requirements": {
 		"Battery": 1,
@@ -42,14 +24,8 @@ export const ElectronicParts: Item = {
 	"foundQuantity": 1,
 	"description": "You can likely craft something out of this.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401110
-		},
-		{
-			"name": "Scissors",
-			"id": 502104
-		}
+		401110,
+		502104
 	],
 	"displayName": "Electronic Parts",
 	"apiMetaData": {
@@ -62,14 +38,8 @@ export const ElectronicParts: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

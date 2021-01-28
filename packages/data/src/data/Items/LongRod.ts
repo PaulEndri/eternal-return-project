@@ -4,18 +4,9 @@ export const LongRod: Item = {
 	"id": 108202,
 	"name": "LongRod",
 	"buildsInto": [
-		{
-			"name": "Goblin Bat",
-			"id": 108301
-		},
-		{
-			"name": "Umbrella",
-			"id": 108401
-		},
-		{
-			"name": "Monkey King Bar",
-			"id": 108502
-		}
+		108301,
+		108401,
+		108502
 	],
 	"requirements": {
 		"Short Rod": 1,
@@ -32,14 +23,8 @@ export const LongRod: Item = {
 	"foundQuantity": 1,
 	"description": "You can keep more distance than when using a short rod, but you still have to be careful.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108102
-		},
-		{
-			"name": "Scissors",
-			"id": 108103
-		}
+		108102,
+		108103
 	],
 	"displayName": "Long Rod",
 	"apiMetaData": {

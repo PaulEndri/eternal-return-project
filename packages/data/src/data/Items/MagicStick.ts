@@ -12,9 +12,9 @@ export const MagicStick: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"attackPower": 65,
-		"lifeSteal": 0.3,
-		"increaseSkillDamageRatio": 0.27
+		"attackPower": 60,
+		"increaseBasicAttackDamage": 0.3,
+		"preventSkillDamagedRatio": 0.27
 	},
 	"rarity": "Epic",
 	"code": "마법봉",
@@ -24,14 +24,8 @@ export const MagicStick: Item = {
 	"foundQuantity": 1,
 	"description": "The stick often carried by the main characters of Shoujo comics. The moral of the Shoujo genre is that peace must be maintained through greater power.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 104201
-		},
-		{
-			"name": "Scissors",
-			"id": 205401
-		}
+		104201,
+		205401
 	],
 	"displayName": "Magic Stick",
 	"apiMetaData": {

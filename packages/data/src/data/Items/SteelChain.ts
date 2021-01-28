@@ -4,34 +4,16 @@ export const SteelChain: Item = {
 	"id": 119101,
 	"name": "SteelChain",
 	"buildsInto": [
-		{
-			"name": "Chain Scythe",
-			"id": 105201
-		},
-		{
-			"name": "Nunchaku",
-			"id": 119201
-		},
-		{
-			"name": "Chain Coif",
-			"id": 201204
-		},
-		{
-			"name": "Rider Jacket",
-			"id": 202301
-		},
-		{
-			"name": "Chain Armor",
-			"id": 202302
-		},
-		{
-			"name": "Chain Leggings",
-			"id": 204202
-		}
+		105201,
+		119201,
+		201204,
+		202301,
+		202302,
+		204202
 	],
 	"requirements": {},
 	"stats": {
-		"attackPower": 11
+		"attackPower": 13
 	},
 	"rarity": "Common",
 	"code": "쇠사슬",
@@ -56,10 +38,7 @@ export const SteelChain: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

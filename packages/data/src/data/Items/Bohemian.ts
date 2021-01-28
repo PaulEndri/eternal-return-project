@@ -17,7 +17,7 @@ export const Bohemian: Item = {
 		"attackSpeedRatio": 0.2,
 		"criticalStrikeChance": 0.2,
 		"maxHp": 380,
-		"increaseBasicAttackDamage": 2
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Epic",
 	"code": "보헤미안",
@@ -27,14 +27,8 @@ export const Bohemian: Item = {
 	"foundQuantity": 1,
 	"description": "\"Bohemian\" was first used to describe a part of the Czech population, but it is now used to represent free spirits.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121301
-		},
-		{
-			"name": "Scissors",
-			"id": 113102
-		}
+		121301,
+		113102
 	],
 	"displayName": "Bohemian",
 	"apiMetaData": {

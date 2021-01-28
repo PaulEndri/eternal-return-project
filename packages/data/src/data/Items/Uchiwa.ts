@@ -10,9 +10,9 @@ export const Uchiwa: Item = {
 		"Fan": 1
 	},
 	"stats": {
-		"lifeSteal": 0.15,
 		"spRegenRatio": 1,
-		"increaseSkillDamage": 21
+		"increaseBasicAttackDamage": 0.15,
+		"increaseSkillDamageRatio": 21
 	},
 	"rarity": "Rare",
 	"code": "우치와",
@@ -22,14 +22,8 @@ export const Uchiwa: Item = {
 	"foundQuantity": 1,
 	"description": "A fan with your favorite celebrity's face printed on it. It might block the view of the person behind you, so keep it at home during the concert.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205205
-		},
-		{
-			"name": "Scissors",
-			"id": 205105
-		}
+		205205,
+		205105
 	],
 	"displayName": "Uchiwa",
 	"apiMetaData": {

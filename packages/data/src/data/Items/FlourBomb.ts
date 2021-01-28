@@ -4,10 +4,7 @@ export const FlourBomb: Item = {
 	"id": 112301,
 	"name": "FlourBomb",
 	"buildsInto": [
-		{
-			"name": "Smoke Bomb",
-			"id": 112402
-		}
+		112402
 	],
 	"requirements": {
 		"Chalk": 1,
@@ -28,14 +25,8 @@ export const FlourBomb: Item = {
 	"foundQuantity": 1,
 	"description": "By combining a flour bomb and some gunpowder, you can make a smoke bomb. Let's see if there's any gunpowder around here...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401206
-		},
-		{
-			"name": "Scissors",
-			"id": 112203
-		}
+		401206,
+		112203
 	],
 	"displayName": "Flour Bomb",
 	"apiMetaData": {

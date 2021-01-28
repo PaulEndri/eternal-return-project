@@ -5,22 +5,10 @@ export const Lemon: Item = {
 	"name": "Lemon",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Lemonade",
-			"id": 301202
-		},
-		{
-			"name": "Cocktail",
-			"id": 301207
-		},
-		{
-			"name": "Citrus Cake",
-			"id": 302230
-		},
-		{
-			"name": "Lemon Ice Cream",
-			"id": 302231
-		}
+		301202,
+		301207,
+		302230,
+		302231
 	],
 	"requirements": {},
 	"stats": {

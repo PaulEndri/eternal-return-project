@@ -4,26 +4,11 @@ export const RustySword: Item = {
 	"id": 102101,
 	"name": "RustySword",
 	"buildsInto": [
-		{
-			"name": "Shamshir",
-			"id": 102201
-		},
-		{
-			"name": "Katana",
-			"id": 102301
-		},
-		{
-			"name": "Bastard Sword",
-			"id": 102403
-		},
-		{
-			"name": "Twin Swords",
-			"id": 103201
-		},
-		{
-			"name": "Shaman's Bronze",
-			"id": 205211
-		}
+		102201,
+		102301,
+		102403,
+		103201,
+		205211
 	],
 	"requirements": {},
 	"stats": {
@@ -34,9 +19,9 @@ export const RustySword: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Temple": 4,
-		"Chapel": 4,
-		"Dock": 4
+		"Archery Range": 5,
+		"Chapel": 5,
+		"Dock": 6
 	},
 	"foundQuantity": 1,
 	"description": "Every swordsman must train with this common longsword.",

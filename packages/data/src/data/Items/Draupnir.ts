@@ -15,7 +15,7 @@ export const Draupnir: Item = {
 		"defense": 10,
 		"hpRegen": 1,
 		"maxSp": 240,
-		"increaseSkillDamageRatio": 0.15
+		"preventSkillDamagedRatio": 0.17
 	},
 	"rarity": "Epic",
 	"code": "드라우프니르",
@@ -25,14 +25,8 @@ export const Draupnir: Item = {
 	"foundQuantity": 1,
 	"description": "The magical golden bracelet of the Norse God, Odin. It has the power to provide unthinkable riches... and a full stomach",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203302
-		},
-		{
-			"name": "Scissors",
-			"id": 203203
-		}
+		203302,
+		203203
 	],
 	"displayName": "Draupnir",
 	"apiMetaData": {

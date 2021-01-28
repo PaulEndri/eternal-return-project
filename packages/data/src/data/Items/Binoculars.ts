@@ -4,18 +4,9 @@ export const Binoculars: Item = {
 	"id": 205110,
 	"name": "Binoculars",
 	"buildsInto": [
-		{
-			"name": "Motorcycle Helmet",
-			"id": 201405
-		},
-		{
-			"name": "Sniping Scope",
-			"id": 205206
-		},
-		{
-			"name": "Telephoto Camera",
-			"id": 502207
-		}
+		201405,
+		205206,
+		502207
 	],
 	"requirements": {},
 	"stats": {
@@ -27,7 +18,7 @@ export const Binoculars: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Alley": 7,
+		"Alley": 6,
 		"Factory": 7,
 		"Hotel": 6,
 		"Beach": 6
@@ -46,14 +37,8 @@ export const Binoculars: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		},
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		2,
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

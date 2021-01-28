@@ -4,18 +4,8 @@ export const Crossbow: Item = {
 	"id": 115101,
 	"name": "Crossbow",
 	"buildsInto": [
-		{
-			"name": "Laser Crossbow",
-			"id": 115302
-		},
-		{
-			"name": "Steel Bow",
-			"id": 115401
-		},
-		{
-			"name": "Sharanga",
-			"id": 115501
-		}
+		115201,
+		115202
 	],
 	"requirements": {
 		"Short Crossbow": 1,

@@ -4,22 +4,10 @@ export const KitchenKnife: Item = {
 	"id": 101104,
 	"name": "KitchenKnife",
 	"buildsInto": [
-		{
-			"name": "Army Knife",
-			"id": 101201
-		},
-		{
-			"name": "Twin Swords",
-			"id": 103201
-		},
-		{
-			"name": "Bident",
-			"id": 107301
-		},
-		{
-			"name": "Jungle Guillotine",
-			"id": 502303
-		}
+		101201,
+		103201,
+		107301,
+		502303
 	],
 	"requirements": {},
 	"stats": {
@@ -50,10 +38,7 @@ export const KitchenKnife: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

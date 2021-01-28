@@ -24,14 +24,8 @@ export const BloodwingKnuckles: Item = {
 	"foundQuantity": 1,
 	"description": "Knuckles that seemingly fit the Dark Angel. How can you return when your wings are covered in crimson blood..?",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110302
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		110302,
+		401204
 	],
 	"displayName": "Bloodwing Knuckles",
 	"apiMetaData": {

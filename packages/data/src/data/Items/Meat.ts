@@ -5,26 +5,11 @@ export const Meat: Item = {
 	"name": "Meat",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Tandoori Chicken",
-			"id": 302222
-		},
-		{
-			"name": "Bacon and Garlic Sticks",
-			"id": 302224
-		},
-		{
-			"name": "Hamburger",
-			"id": 302226
-		},
-		{
-			"name": "Fried Chicken",
-			"id": 302316
-		},
-		{
-			"name": "Steak",
-			"id": 302323
-		}
+		302222,
+		302224,
+		302226,
+		302316,
+		302323
 	],
 	"requirements": {},
 	"stats": {

@@ -4,14 +4,8 @@ export const LeatherGloves: Item = {
 	"id": 110201,
 	"name": "LeatherGloves",
 	"buildsInto": [
-		{
-			"name": "Phoenix Gloves",
-			"id": 110404
-		},
-		{
-			"name": "Imperial Silk Gloves",
-			"id": 110412
-		}
+		110404,
+		110412
 	],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -27,14 +21,8 @@ export const LeatherGloves: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110102
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		110102,
+		401103
 	],
 	"displayName": "Leather Gloves",
 	"apiMetaData": {

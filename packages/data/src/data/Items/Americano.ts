@@ -4,14 +4,8 @@ export const Americano: Item = {
 	"id": 301304,
 	"name": "Americano",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Boiling Water"
-		},
-		{
-			"name": "Scissors",
-			"id": "Coffee"
-		}
+		301201,
+		301106
 	],
 	"buildsInto": [],
 	"requirements": {

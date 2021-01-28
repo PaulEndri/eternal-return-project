@@ -13,8 +13,8 @@ export const Hovud: Item = {
 		"Stone": 1
 	},
 	"stats": {
-		"attackPower": 45,
-		"criticalStrikeChance": 0.2,
+		"attackPower": 50,
+		"criticalStrikeChance": 0.25,
 		"maxHp": 300
 	},
 	"rarity": "Epic",
@@ -25,14 +25,8 @@ export const Hovud: Item = {
 	"foundQuantity": 1,
 	"description": "It is said that this blade, as mentioned briefly in \"Prose Edda\", was used by the Nordic mythical god Heimdallr and was made out of broken pieces of the rainbow bridge, Bifröst. The entire blade emits a dark blue aura, which makes the sword difficult to approach. Some people believe this blade's name means \"head\".",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102404
-		},
-		{
-			"name": "Scissors",
-			"id": 205204
-		}
+		102404,
+		205204
 	],
 	"displayName": "Hovud",
 	"apiMetaData": {

@@ -14,7 +14,7 @@ export const Autoarms: Item = {
 	"stats": {
 		"attackPower": 40,
 		"defense": 35,
-		"hpRegen": 1.5
+		"hpRegen": 1
 	},
 	"rarity": "Legend",
 	"code": "오토암즈",
@@ -24,14 +24,8 @@ export const Autoarms: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203203
-		},
-		{
-			"name": "Scissors",
-			"id": 401403
-		}
+		203203,
+		401403
 	],
 	"displayName": "Auto-arms",
 	"apiMetaData": {

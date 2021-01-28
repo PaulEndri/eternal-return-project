@@ -14,7 +14,7 @@ export const Kabana: Item = {
 	},
 	"stats": {
 		"defense": 36,
-		"increaseSkillDamageRatio": 0.18
+		"preventSkillDamagedRatio": 0.22
 	},
 	"rarity": "Legend",
 	"code": "카바나",
@@ -24,14 +24,8 @@ export const Kabana: Item = {
 	"foundQuantity": 1,
 	"description": "The armor of Karna, hero of the epic, Mahabharata. The armor becomes one with the body.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401209
-		},
-		{
-			"name": "Scissors",
-			"id": 202412
-		}
+		401209,
+		202412
 	],
 	"displayName": "Kabana",
 	"apiMetaData": {

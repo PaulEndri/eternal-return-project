@@ -4,14 +4,8 @@ export const FabricArmor: Item = {
 	"id": 202106,
 	"name": "FabricArmor",
 	"buildsInto": [
-		{
-			"name": "Leather Armor",
-			"id": 202201
-		},
-		{
-			"name": "Sheet Metal Armor",
-			"id": 202305
-		}
+		202201,
+		202305
 	],
 	"requirements": {},
 	"stats": {
@@ -40,10 +34,7 @@ export const FabricArmor: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

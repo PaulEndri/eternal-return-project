@@ -4,10 +4,7 @@ export const FireHelmet: Item = {
 	"id": 201302,
 	"name": "FireHelmet",
 	"buildsInto": [
-		{
-			"name": "Motorcycle Helmet",
-			"id": 201405
-		}
+		201405
 	],
 	"requirements": {
 		"Bike Helmet": 1,
@@ -15,6 +12,7 @@ export const FireHelmet: Item = {
 		"Water": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.07,
 		"maxHp": 280
 	},
 	"rarity": "Rare",
@@ -25,14 +23,8 @@ export const FireHelmet: Item = {
 	"foundQuantity": 1,
 	"description": "Head protection for firefighters. Strong resistance to flames and heat. Also equipped with a flashlight!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201205
-		},
-		{
-			"name": "Scissors",
-			"id": 301102
-		}
+		201205,
+		301102
 	],
 	"displayName": "Fire Helmet",
 	"apiMetaData": {

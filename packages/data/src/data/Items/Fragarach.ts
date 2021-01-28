@@ -12,7 +12,7 @@ export const Fragarach: Item = {
 		"Meteorite": 1
 	},
 	"stats": {
-		"attackPower": 75,
+		"attackPower": 90,
 		"moveSpeed": 0.2,
 		"moveSpeedOutOfCombat": 0.1
 	},
@@ -24,14 +24,8 @@ export const Fragarach: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101201
-		},
-		{
-			"name": "Scissors",
-			"id": 401403
-		}
+		101201,
+		401403
 	],
 	"displayName": "Fragarach",
 	"apiMetaData": {

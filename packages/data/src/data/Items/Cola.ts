@@ -4,18 +4,9 @@ export const Cola: Item = {
 	"id": 301209,
 	"name": "Cola",
 	"buildsInto": [
-		{
-			"name": "Smoke Bomb",
-			"id": 112402
-		},
-		{
-			"name": "Whiskey Cocktail",
-			"id": 301307
-		},
-		{
-			"name": "Can of Cola",
-			"id": 301309
-		}
+		112402,
+		301307,
+		301309
 	],
 	"requirements": {
 		"Carbonated Water": 1,
@@ -31,14 +22,8 @@ export const Cola: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 301107
-		},
-		{
-			"name": "Scissors",
-			"id": 301101
-		}
+		301107,
+		301101
 	],
 	"displayName": "Cola",
 	"apiMetaData": {

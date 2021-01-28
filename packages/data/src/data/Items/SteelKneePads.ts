@@ -4,10 +4,7 @@ export const SteelKneePads: Item = {
 	"id": 204401,
 	"name": "SteelKneePads",
 	"buildsInto": [
-		{
-			"name": "EOD Boots",
-			"id": 204409
-		}
+		204409
 	],
 	"requirements": {
 		"Tights": 1,
@@ -27,14 +24,8 @@ export const SteelKneePads: Item = {
 	"foundQuantity": 1,
 	"description": "A kick to the shin is a favorite among angry girlfriends. Keep your shins protected.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204201
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		204201,
+		401201
 	],
 	"displayName": "Steel Knee Pads",
 	"apiMetaData": {

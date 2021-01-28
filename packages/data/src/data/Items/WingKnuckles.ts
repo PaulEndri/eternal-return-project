@@ -4,10 +4,7 @@ export const WingKnuckles: Item = {
 	"id": 110302,
 	"name": "WingKnuckles",
 	"buildsInto": [
-		{
-			"name": "Bloodwing Knuckles",
-			"id": 110407
-		}
+		110407
 	],
 	"requirements": {
 		"Brass Knuckles": 1,
@@ -26,14 +23,8 @@ export const WingKnuckles: Item = {
 	"foundQuantity": 1,
 	"description": "Free your burdened soul with these masterfully created wings. But there exists no sky for you to spread your wings...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110202
-		},
-		{
-			"name": "Scissors",
-			"id": 205101
-		}
+		110202,
+		205101
 	],
 	"displayName": "Wing Knuckles",
 	"apiMetaData": {

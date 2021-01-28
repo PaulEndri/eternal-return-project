@@ -4,14 +4,8 @@ export const BattleAxe: Item = {
 	"id": 105202,
 	"name": "BattleAxe",
 	"buildsInto": [
-		{
-			"name": "Light Hatchet",
-			"id": 105301
-		},
-		{
-			"name": "Gigantic Axe",
-			"id": 105401
-		}
+		105301,
+		105401
 	],
 	"requirements": {
 		"Hatchet": 1,
@@ -28,14 +22,8 @@ export const BattleAxe: Item = {
 	"foundQuantity": 1,
 	"description": "Although it started as a tool for men, it proved itself useful in the battlefield. It's designed to rip flesh and cut bones, so it has a thinner and lighter blade than a usual ax.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 105103
-		},
-		{
-			"name": "Scissors",
-			"id": 108103
-		}
+		105103,
+		108103
 	],
 	"displayName": "Battle Axe",
 	"apiMetaData": {

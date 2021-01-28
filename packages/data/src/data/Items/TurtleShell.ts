@@ -4,26 +4,12 @@ export const TurtleShell: Item = {
 	"id": 401104,
 	"name": "TurtleShell",
 	"buildsInto": [
-		{
-			"name": "Thuận Thiên",
-			"id": 102405
-		},
-		{
-			"name": "Bone Gauntlet",
-			"id": 110401
-		},
-		{
-			"name": "Turtle Dobok",
-			"id": 202203
-		},
-		{
-			"name": "Leather Shield",
-			"id": 203201
-		},
-		{
-			"name": "Herbal Medicine",
-			"id": 302207
-		}
+		102405,
+		110401,
+		202203,
+		203201,
+		102405,
+		302207
 	],
 	"requirements": {},
 	"stats": {},
@@ -50,10 +36,7 @@ export const TurtleShell: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

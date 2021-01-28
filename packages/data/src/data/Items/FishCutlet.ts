@@ -4,20 +4,11 @@ export const FishCutlet: Item = {
 	"id": 302326,
 	"name": "FishCutlet",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Cod"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Oil"
-		}
+		302104,
+		401203
 	],
 	"buildsInto": [
-		{
-			"name": "Fish and Chips",
-			"id": 302401
-		}
+		302401
 	],
 	"requirements": {
 		"Cod": 1,

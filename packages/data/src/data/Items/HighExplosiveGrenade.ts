@@ -4,10 +4,7 @@ export const HighExplosiveGrenade: Item = {
 	"id": 112404,
 	"name": "HighExplosiveGrenade",
 	"buildsInto": [
-		{
-			"name": "Grenade of Antioch",
-			"id": 112305
-		}
+		112305
 	],
 	"requirements": {
 		"Iron Ball": 1,
@@ -18,7 +15,7 @@ export const HighExplosiveGrenade: Item = {
 	"stats": {
 		"attackPower": 56,
 		"charges": 8,
-		"increaseBasicAttackDamage": 60
+		"preventBasicAttackDamaged": 60
 	},
 	"rarity": "Epic",
 	"code": "고폭수류탄",
@@ -28,14 +25,8 @@ export const HighExplosiveGrenade: Item = {
 	"foundQuantity": 1,
 	"description": "It hurts when you touch it, but it even hurts more when it explodes next to you.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112202
-		},
-		{
-			"name": "Scissors",
-			"id": 502307
-		}
+		112202,
+		502307
 	],
 	"displayName": "High Explosive Grenade",
 	"apiMetaData": {

@@ -4,28 +4,17 @@ export const BambooTrap: Item = {
 	"id": 502204,
 	"name": "BambooTrap",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Snare"
-		},
-		{
-			"name": "Scissors",
-			"id": "Bamboo"
-		}
+		502102,
+		108103
 	],
 	"buildsInto": [
-		{
-			"name": "Pendulum Axe",
-			"id": 502305
-		}
+		502305
 	],
 	"requirements": {
 		"Snare": 1,
 		"Bamboo": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,

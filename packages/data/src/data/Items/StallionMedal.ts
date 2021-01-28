@@ -4,34 +4,13 @@ export const StallionMedal: Item = {
 	"id": 401109,
 	"name": "StallionMedal",
 	"buildsInto": [
-		{
-			"name": "Rope Cuffs",
-			"id": 109201
-		},
-		{
-			"name": "Police Baton",
-			"id": 111301
-		},
-		{
-			"name": "Chakram",
-			"id": 113301
-		},
-		{
-			"name": "Stallion Bow",
-			"id": 114302
-		},
-		{
-			"name": "Tiara",
-			"id": 201303
-		},
-		{
-			"name": "Covert Agent Uniform",
-			"id": 202404
-		},
-		{
-			"name": "Shaman's Bronze",
-			"id": 205211
-		}
+		109201,
+		111301,
+		113301,
+		114302,
+		201303,
+		202404,
+		205211
 	],
 	"requirements": {},
 	"stats": {},
@@ -58,10 +37,7 @@ export const StallionMedal: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

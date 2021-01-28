@@ -14,9 +14,8 @@ export const FangtianHuaji: Item = {
 	},
 	"stats": {
 		"attackPower": 88,
-		"decreaseRecoveryToSkill": 1,
 		"moveSpeed": -0.1,
-		"increaseSkillDamage": 34
+		"increaseSkillDamageRatio": 31
 	},
 	"rarity": "Epic",
 	"code": "방천화극",
@@ -26,14 +25,8 @@ export const FangtianHuaji: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107303
-		},
-		{
-			"name": "Scissors",
-			"id": 205210
-		}
+		107303,
+		205210
 	],
 	"displayName": "Fangtian Huaji",
 	"apiMetaData": {

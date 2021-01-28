@@ -4,10 +4,7 @@ export const PoliceBaton: Item = {
 	"id": 111301,
 	"name": "PoliceBaton",
 	"buildsInto": [
-		{
-			"name": "Tactical Tonfa",
-			"id": 111402
-		}
+		111402
 	],
 	"requirements": {
 		"Bamboo": 1,
@@ -26,14 +23,8 @@ export const PoliceBaton: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 111201
-		},
-		{
-			"name": "Scissors",
-			"id": 401109
-		}
+		111201,
+		401109
 	],
 	"displayName": "Police Baton",
 	"apiMetaData": {

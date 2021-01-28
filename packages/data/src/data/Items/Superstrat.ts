@@ -4,14 +4,8 @@ export const Superstrat: Item = {
 	"id": 121305,
 	"name": "Superstrat",
 	"buildsInto": [
-		{
-			"name": "Wonderful Tonight",
-			"id": 121405
-		},
-		{
-			"name": "The Wall",
-			"id": 121406
-		}
+		121405,
+		121406
 	],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -22,7 +16,7 @@ export const Superstrat: Item = {
 	"stats": {
 		"attackPower": 19,
 		"attackSpeedRatio": 0.15,
-		"increaseBasicAttackDamage": 2
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Rare",
 	"code": "슈퍼스트랫",
@@ -32,14 +26,8 @@ export const Superstrat: Item = {
 	"foundQuantity": 1,
 	"description": "Collectively refers to the most famous types of guitars in the world.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121202
-		},
-		{
-			"name": "Scissors",
-			"id": 108103
-		}
+		121202,
+		108103
 	],
 	"displayName": "Superstrat",
 	"apiMetaData": {

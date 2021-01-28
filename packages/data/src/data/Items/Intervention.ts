@@ -12,7 +12,7 @@ export const Intervention: Item = {
 		"Binoculars": 1
 	},
 	"stats": {
-		"attackPower": 110,
+		"attackPower": 120,
 		"attackRange": 1,
 		"sightRange": 4.5
 	},
@@ -24,14 +24,8 @@ export const Intervention: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 118301
-		},
-		{
-			"name": "Scissors",
-			"id": 502207
-		}
+		118301,
+		502207
 	],
 	"displayName": "Intervention",
 	"apiMetaData": {

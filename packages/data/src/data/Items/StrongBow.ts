@@ -4,14 +4,8 @@ export const StrongBow: Item = {
 	"id": 114301,
 	"name": "StrongBow",
 	"buildsInto": [
-		{
-			"name": "Twinbow",
-			"id": 114405
-		},
-		{
-			"name": "Failnaught",
-			"id": 114502
-		}
+		114405,
+		114502
 	],
 	"requirements": {
 		"Branch": 1,
@@ -30,14 +24,8 @@ export const StrongBow: Item = {
 	"foundQuantity": 1,
 	"description": "A bow with strong elasticity, the bow string is made of 240 strands of three-ply thread.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114201
-		},
-		{
-			"name": "Scissors",
-			"id": 401112
-		}
+		114201,
+		401112
 	],
 	"displayName": "Strong Bow",
 	"apiMetaData": {

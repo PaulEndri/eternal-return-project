@@ -5,26 +5,11 @@ export const Potato: Item = {
 	"name": "Potato",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Potato Bread",
-			"id": 302227
-		},
-		{
-			"name": "Potato Soup",
-			"id": 302228
-		},
-		{
-			"name": "French Fries",
-			"id": 302302
-		},
-		{
-			"name": "Baked Potato",
-			"id": 302303
-		},
-		{
-			"name": "Butter-Fried Potatoes",
-			"id": 302325
-		}
+		302227,
+		302228,
+		302302,
+		302303,
+		302325
 	],
 	"requirements": {},
 	"stats": {

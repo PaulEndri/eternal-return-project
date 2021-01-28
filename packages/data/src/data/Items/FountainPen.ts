@@ -4,18 +4,9 @@ export const FountainPen: Item = {
 	"id": 101102,
 	"name": "FountainPen",
 	"buildsInto": [
-		{
-			"name": "Signed Ball",
-			"id": 112205
-		},
-		{
-			"name": "Vintage Cards",
-			"id": 113203
-		},
-		{
-			"name": "Blueprint",
-			"id": 401212
-		}
+		112205,
+		113203,
+		401212
 	],
 	"requirements": {},
 	"stats": {
@@ -26,7 +17,7 @@ export const FountainPen: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"School": 7,
 		"Uptown": 6
 	},
@@ -44,10 +35,7 @@ export const FountainPen: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

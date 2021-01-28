@@ -4,30 +4,18 @@ export const BuddhaSarira: Item = {
 	"id": 205207,
 	"name": "BuddhaSarira",
 	"buildsInto": [
-		{
-			"name": "Parashu",
-			"id": 105405
-		},
-		{
-			"name": "Buddha's Palm",
-			"id": 110409
-		},
-		{
-			"name": "Teen Spirit",
-			"id": 121407
-		},
-		{
-			"name": "Veritas Lux Mea",
-			"id": 205405
-		}
+		105405,
+		110409,
+		121407,
+		205405
 	],
 	"requirements": {
 		"Buddhist Scripture": 1,
 		"Monk's Robe": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.08,
-		"increaseSkillDamageRatio": 0.08
+		"lifeSteal": 0.08,
+		"preventSkillDamagedRatio": 0.08
 	},
 	"rarity": "Uncommon",
 	"code": "진신사리",
@@ -37,14 +25,8 @@ export const BuddhaSarira: Item = {
 	"foundQuantity": 1,
 	"description": "A relic found in the ashes from the body of Buddha. It smells vaguely of incense.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205106
-		},
-		{
-			"name": "Scissors",
-			"id": 202103
-		}
+		205106,
+		202103
 	],
 	"displayName": "Buddha Sarira",
 	"apiMetaData": {

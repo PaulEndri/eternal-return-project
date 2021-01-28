@@ -13,8 +13,9 @@ export const Excalibur: Item = {
 	},
 	"stats": {
 		"attackPower": 60,
+		"attackSpeedRatio": 0.1,
 		"hpRegenRatio": 2,
-		"maxHp": 400
+		"maxHp": 360
 	},
 	"rarity": "Epic",
 	"code": "엑스칼리버",
@@ -24,14 +25,8 @@ export const Excalibur: Item = {
 	"foundQuantity": 1,
 	"description": "A noted sword produced in Avalon, the nation of fairies. King  Arthur received this sword from the beautiful Lady of the Lake and returned it after the final battle against Prince Mordred.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102404
-		},
-		{
-			"name": "Scissors",
-			"id": 205108
-		}
+		102404,
+		205108
 	],
 	"displayName": "Excalibur",
 	"apiMetaData": {

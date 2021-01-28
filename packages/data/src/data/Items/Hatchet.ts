@@ -4,18 +4,9 @@ export const Hatchet: Item = {
 	"id": 105103,
 	"name": "Hatchet",
 	"buildsInto": [
-		{
-			"name": "Battle Axe",
-			"id": 105202
-		},
-		{
-			"name": "Halberd Axe",
-			"id": 107303
-		},
-		{
-			"name": "Pendulum Axe",
-			"id": 502305
-		}
+		105202,
+		107303,
+		502305
 	],
 	"requirements": {},
 	"stats": {
@@ -44,10 +35,7 @@ export const Hatchet: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

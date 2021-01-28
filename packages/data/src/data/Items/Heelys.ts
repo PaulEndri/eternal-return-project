@@ -4,14 +4,8 @@ export const Heelys: Item = {
 	"id": 204204,
 	"name": "Heelys",
 	"buildsInto": [
-		{
-			"name": "Maverick Runner",
-			"id": 204403
-		},
-		{
-			"name": "Boots of Hermes",
-			"id": 204501
-		}
+		204403,
+		204501
 	],
 	"requirements": {
 		"Running Shoes": 1,
@@ -29,14 +23,8 @@ export const Heelys: Item = {
 	"foundQuantity": 1,
 	"description": "They look like regular shoes, but you can ride them like rollerblades because of the wheels mounted in the heels. That's just the way I roll.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204102
-		},
-		{
-			"name": "Scissors",
-			"id": 112103
-		}
+		204102,
+		112103
 	],
 	"displayName": "Heelys",
 	"apiMetaData": {

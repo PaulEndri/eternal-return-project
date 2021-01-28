@@ -13,8 +13,8 @@ export const MeteorClaymore: Item = {
 	},
 	"stats": {
 		"attackPower": 75,
-		"cooldownReduction": 0.1,
-		"criticalStrikeDamage": 0.3
+		"criticalStrikeDamage": 0.3,
+		"lifeSteal": 0.1
 	},
 	"rarity": "Epic",
 	"code": "유성검",
@@ -24,14 +24,8 @@ export const MeteorClaymore: Item = {
 	"foundQuantity": 1,
 	"description": "The silver-grey colored metals found in Meteorsteel can be used to make a great sword with great strength. However, manufacturing it is no easy task.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120301
-		},
-		{
-			"name": "Scissors",
-			"id": 401209
-		}
+		120301,
+		401209
 	],
 	"displayName": "Meteor Claymore",
 	"apiMetaData": {

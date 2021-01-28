@@ -4,23 +4,15 @@ export const EnhancedMousetrap: Item = {
 	"id": 502202,
 	"name": "EnhancedMousetrap",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Mousetrap"
-		},
-		{
-			"name": "Scissors",
-			"id": "Iron Ore"
-		}
+		502103,
+		401118
 	],
 	"buildsInto": [],
 	"requirements": {
 		"Mousetrap": 1,
 		"Iron Ore": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,

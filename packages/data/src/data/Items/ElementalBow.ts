@@ -14,9 +14,8 @@ export const ElementalBow: Item = {
 	},
 	"stats": {
 		"attackPower": 60,
-		"decreaseRecoveryToSkill": 1,
 		"moveSpeed": 0.1,
-		"increaseSkillDamage": 41
+		"increaseSkillDamageRatio": 38
 	},
 	"rarity": "Epic",
 	"code": "엘리멘탈보우",
@@ -26,14 +25,8 @@ export const ElementalBow: Item = {
 	"foundQuantity": 1,
 	"description": "A bow with the elemental powers of nature, such as fire or electricity. Similar to the four elements of Aristotle.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114402
-		},
-		{
-			"name": "Scissors",
-			"id": 205201
-		}
+		114402,
+		205201
 	],
 	"displayName": "Elemental Bow",
 	"apiMetaData": {

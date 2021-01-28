@@ -4,46 +4,16 @@ export const Steel: Item = {
 	"id": 401201,
 	"name": "Steel",
 	"buildsInto": [
-		{
-			"name": "Bastard Sword",
-			"id": 102403
-		},
-		{
-			"name": "Gigantic Axe",
-			"id": 105401
-		},
-		{
-			"name": "Pike",
-			"id": 107302
-		},
-		{
-			"name": "Gauntlet",
-			"id": 110301
-		},
-		{
-			"name": "Plumbata",
-			"id": 113404
-		},
-		{
-			"name": "Heavy Crossbow",
-			"id": 115303
-		},
-		{
-			"name": "Magnum-Boa",
-			"id": 116406
-		},
-		{
-			"name": "Sheet Metal Armor",
-			"id": 202305
-		},
-		{
-			"name": "Steel Shield",
-			"id": 203401
-		},
-		{
-			"name": "Steel Knee Pads",
-			"id": 204401
-		}
+		102403,
+		105401,
+		107302,
+		110301,
+		113404,
+		115303,
+		116406,
+		202305,
+		203401,
+		204401
 	],
 	"requirements": {
 		"Scrap Metal": 1,
@@ -58,14 +28,8 @@ export const Steel: Item = {
 	"foundQuantity": 2,
 	"description": "Just some strong steel. They could name a football team after this.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401106
-		},
-		{
-			"name": "Scissors",
-			"id": 401118
-		}
+		401106,
+		401118
 	],
 	"displayName": "Steel",
 	"apiMetaData": {
@@ -78,14 +42,8 @@ export const Steel: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

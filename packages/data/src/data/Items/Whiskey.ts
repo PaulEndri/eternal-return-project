@@ -5,30 +5,12 @@ export const Whiskey: Item = {
 	"name": "Whiskey",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Cocktail",
-			"id": 301207
-		},
-		{
-			"name": "Highball",
-			"id": 301213
-		},
-		{
-			"name": "On The Rocks",
-			"id": 301217
-		},
-		{
-			"name": "Cowboy",
-			"id": 301218
-		},
-		{
-			"name": "Whiskey Cocktail",
-			"id": 301307
-		},
-		{
-			"name": "Whisky Bonbon",
-			"id": 302236
-		}
+		301207,
+		301213,
+		301217,
+		301218,
+		301307,
+		302236
 	],
 	"requirements": {},
 	"stats": {

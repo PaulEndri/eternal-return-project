@@ -4,14 +4,8 @@ export const FriedChicken: Item = {
 	"id": 302316,
 	"name": "FriedChicken",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Meat"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Oil"
-		}
+		302111,
+		401203
 	],
 	"buildsInto": [],
 	"requirements": {

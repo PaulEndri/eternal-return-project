@@ -23,14 +23,8 @@ export const MithrilShield: Item = {
 	"foundQuantity": 1,
 	"description": "A shield made with Mithril. It's light, but the strength is beyond imagination.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401304
-		},
-		{
-			"name": "Scissors",
-			"id": 203201
-		}
+		401304,
+		203201
 	],
 	"displayName": "Mithril Shield",
 	"apiMetaData": {

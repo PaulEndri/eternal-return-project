@@ -4,22 +4,10 @@ export const IronOre: Item = {
 	"id": 401118,
 	"name": "IronOre",
 	"buildsInto": [
-		{
-			"name": "Iron Knuckles",
-			"id": 110202
-		},
-		{
-			"name": "Rapier",
-			"id": 120201
-		},
-		{
-			"name": "Steel",
-			"id": 401201
-		},
-		{
-			"name": "Enhanced Mousetrap",
-			"id": 502202
-		}
+		110202,
+		120201,
+		401201,
+		502202
 	],
 	"requirements": {},
 	"stats": {},
@@ -46,10 +34,7 @@ export const IronOre: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

@@ -4,14 +4,8 @@ export const RemoteMine: Item = {
 	"id": 502501,
 	"name": "RemoteMine",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Force Core"
-		},
-		{
-			"name": "Scissors",
-			"id": "Spiked Plank"
-		}
+		401403,
+		502201
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -21,9 +15,7 @@ export const RemoteMine: Item = {
 		"Mousetrap": 1,
 		"Nail": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Legend",
 	"stackable": true,
 	"maxStacks": 5,

@@ -4,10 +4,7 @@ export const ApricotFlowerTag: Item = {
 	"id": 113302,
 	"name": "ApricotFlowerTag",
 	"buildsInto": [
-		{
-			"name": "Fuhma Shuriken",
-			"id": 113406
-		}
+		113406
 	],
 	"requirements": {
 		"Razor": 1,
@@ -16,10 +13,10 @@ export const ApricotFlowerTag: Item = {
 		"Flower": 1
 	},
 	"stats": {
-		"attackPower": 14,
+		"attackPower": 17,
 		"charges": 50,
-		"cooldownReduction": 0.1,
-		"increaseBasicAttackDamage": 30
+		"lifeSteal": 0.1,
+		"preventBasicAttackDamaged": 30
 	},
 	"rarity": "Rare",
 	"code": "매화비표",
@@ -29,14 +26,8 @@ export const ApricotFlowerTag: Item = {
 	"foundQuantity": 1,
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113207
-		},
-		{
-			"name": "Scissors",
-			"id": 205102
-		}
+		113207,
+		205102
 	],
 	"displayName": "Apricot Flower Tag",
 	"apiMetaData": {

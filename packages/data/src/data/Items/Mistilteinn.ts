@@ -15,11 +15,11 @@ export const Mistilteinn: Item = {
 	},
 	"stats": {
 		"attackPower": 30,
-		"cooldownReduction": 0.12,
 		"criticalStrikeDamage": 0.25,
 		"hpRegen": 1.5,
+		"lifeSteal": 0.12,
 		"spRegenRatio": 2,
-		"increaseSkillDamageRatio": 0.15
+		"preventSkillDamagedRatio": 0.15
 	},
 	"rarity": "Legend",
 	"code": "미스틸테인",
@@ -29,14 +29,8 @@ export const Mistilteinn: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120302
-		},
-		{
-			"name": "Scissors",
-			"id": 108101
-		}
+		120302,
+		108101
 	],
 	"displayName": "Mistilteinn",
 	"apiMetaData": {

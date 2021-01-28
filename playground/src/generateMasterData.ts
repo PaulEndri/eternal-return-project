@@ -251,50 +251,18 @@ export const generateMasterData = () => {
       item.airSupply = false;
       item.collectible = 0;
 
-      item.buildsFrom = item.buildsFrom.map((id) => {
-        let foundItem = masterItems.find(({ id }) => id === id);
+      item.buildsFrom = item.buildsFrom.map((buildFromId) => {
+        let foundItem = masterItems.find(({ id, displayName }) =>
+          typeof buildFromId === 'number'
+            ? id === buildFromId
+            : displayName === buildFromId
+        );
 
         if (!foundItem || typeof foundItem.id === 'string') {
-          missingItems.add(id);
+          missingItems.add(buildFromId);
         }
 
-        return {
-          name: foundItem.displayName,
-          id
-        };
-      });
-
-      item.buildsInto = item.buildsInto.map((itemName) => {
-        let foundItem = ItemKeyLookups[itemName];
-        const name = itemName;
-        let id;
-
-        if (!foundItem) {
-          foundItem = masterItems.find(
-            ({ name, displayName }) =>
-              sanitizeItemString(itemName) === name ||
-              sanitizeItemString(itemName).toLowerCase() ===
-                name.toLowerCase() ||
-              displayName === itemName ||
-              sanitizeItemString(itemName).toLowerCase() ===
-                sanitizeItemString(displayName).toLowerCase()
-          );
-
-          if (!foundItem || typeof foundItem.id === 'string') {
-            console.log('[Failed to find BuildInto]', { itemName });
-
-            missingItems.add(itemName);
-          } else {
-            id = foundItem.id;
-          }
-        } else {
-          id = foundItem;
-        }
-
-        return {
-          name,
-          id
-        };
+        return foundItem ? foundItem.id : buildFromId;
       });
 
       const canBeLooted = lootLogic.find(
@@ -310,7 +278,7 @@ export const generateMasterData = () => {
             );
             const id = animalData ? animalData.id : animalName;
 
-            item.droppedFrom.push({ name: animalName, id });
+            item.droppedFrom.push(id);
           } else if (key === 'collectibleCode') {
             item.collectible = val;
           } else if (key === 'airSupply') {
@@ -318,6 +286,12 @@ export const generateMasterData = () => {
           }
         });
       }
+    });
+
+    masterItems.forEach((item) => {
+      item.buildsInto = masterItems
+        .filter((mi) => mi.buildsFrom && mi.buildsFrom.includes(item.id))
+        .map(({ id }) => id);
     });
   };
 
@@ -485,16 +459,11 @@ export const generateMasterData = () => {
           (i) => i.name === sanitizeItemString(name)
         );
 
-        return {
-          name,
-          id: linkedItem ? linkedItem.id : name
-        };
+        return linkedItem ? linkedItem.id : name;
       });
 
-      const apiLinkedItem = linkedItems.find(
-        ({ id }) => typeof id === 'number'
-      );
-      const { apiMetaData } = keyedItems[apiLinkedItem.id];
+      const apiLinkedItem = linkedItems.find((id) => typeof id === 'number');
+      const { apiMetaData } = keyedItems[apiLinkedItem];
 
       categoryApiMetaData.category = apiMetaData.category;
       categoryApiMetaData.type = apiMetaData.type;
@@ -529,16 +498,11 @@ export const generateMasterData = () => {
             (i) => i.name === sanitizeItemString(name)
           );
 
-          return {
-            name,
-            id: linkedItem ? linkedItem.id : name
-          };
+          return linkedItem ? linkedItem.id : name;
         });
 
-        const apiLinkedItem = linkedItems.find(
-          ({ id }) => typeof id === 'number'
-        );
-        const { apiMetaData } = keyedItems[apiLinkedItem.id];
+        const apiLinkedItem = linkedItems.find((id) => typeof id === 'number');
+        const { apiMetaData } = keyedItems[apiLinkedItem];
 
         categoryApiMetaData.category = apiMetaData.category;
         categoryApiMetaData.type = apiMetaData.type;

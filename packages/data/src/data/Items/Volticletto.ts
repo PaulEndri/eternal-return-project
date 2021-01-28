@@ -15,9 +15,9 @@ export const Volticletto: Item = {
 	"stats": {
 		"attackPower": 47,
 		"attackSpeedRatio": 0.35,
-		"cooldownReduction": 0.1,
 		"criticalStrikeChance": 0.1,
-		"criticalStrikeDamage": 0.25
+		"criticalStrikeDamage": 0.25,
+		"lifeSteal": 0.1
 	},
 	"rarity": "Epic",
 	"code": "볼틱레토",
@@ -27,14 +27,8 @@ export const Volticletto: Item = {
 	"foundQuantity": 1,
 	"description": "The word \"Volticletto\" is a portmanteau of 'voltaic,' meaning related to electric current, and the Italian 'Stiletto knife'. Punctures from this weapon cause double the pain.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120301
-		},
-		{
-			"name": "Scissors",
-			"id": 401211
-		}
+		120301,
+		401211
 	],
 	"displayName": "Volticletto",
 	"apiMetaData": {

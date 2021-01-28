@@ -5,26 +5,11 @@ export const Cod: Item = {
 	"name": "Cod",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Honey cod steak",
-			"id": 302201
-		},
-		{
-			"name": "Canned Cod Liver",
-			"id": 302204
-		},
-		{
-			"name": "Fish Fillet With Egg",
-			"id": 302229
-		},
-		{
-			"name": "Grilled Chilean Sea Bass",
-			"id": 302306
-		},
-		{
-			"name": "Fish Cutlet",
-			"id": 302326
-		}
+		302201,
+		302204,
+		302229,
+		302306,
+		302326
 	],
 	"requirements": {},
 	"stats": {

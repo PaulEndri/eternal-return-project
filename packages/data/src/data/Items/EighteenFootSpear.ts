@@ -24,14 +24,8 @@ export const EighteenFootSpear: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107401
-		},
-		{
-			"name": "Scissors",
-			"id": 401306
-		}
+		107401,
+		401306
 	],
 	"displayName": "Eighteen Foot Spear",
 	"apiMetaData": {

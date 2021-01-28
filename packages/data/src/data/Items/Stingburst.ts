@@ -4,10 +4,7 @@ export const Stingburst: Item = {
 	"id": 502402,
 	"name": "Stingburst",
 	"buildsInto": [
-		{
-			"name": "Petal Torrent",
-			"id": 113502
-		}
+		113502
 	],
 	"requirements": {
 		"Piano Wire": 1,
@@ -16,9 +13,7 @@ export const Stingburst: Item = {
 		"Mousetrap": 1,
 		"Nail": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Epic",
 	"code": "폭뢰침",
 	"stackable": true,
@@ -26,14 +21,8 @@ export const Stingburst: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 502307
-		},
-		{
-			"name": "Scissors",
-			"id": 502201
-		}
+		502307,
+		502201
 	],
 	"displayName": "Stingburst",
 	"apiMetaData": {

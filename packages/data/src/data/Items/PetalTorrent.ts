@@ -20,8 +20,8 @@ export const PetalTorrent: Item = {
 		"attackPower": 80,
 		"charges": 3,
 		"criticalStrikeDamage": 0.5,
-		"increaseBasicAttackDamage": 130,
-		"increaseSkillDamage": 25
+		"increaseSkillDamageRatio": 25,
+		"preventBasicAttackDamaged": 130
 	},
 	"rarity": "Legend",
 	"code": "만천화우",
@@ -31,14 +31,8 @@ export const PetalTorrent: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113408
-		},
-		{
-			"name": "Scissors",
-			"id": 502402
-		}
+		113408,
+		502402
 	],
 	"displayName": "Petal Torrent",
 	"apiMetaData": {

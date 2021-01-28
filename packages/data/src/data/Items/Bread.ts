@@ -5,50 +5,17 @@ export const Bread: Item = {
 	"name": "Bread",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Garlic Bread",
-			"id": 302205
-		},
-		{
-			"name": "Carp Bread",
-			"id": 302209
-		},
-		{
-			"name": "Choco Pie",
-			"id": 302216
-		},
-		{
-			"name": "Bun",
-			"id": 302225
-		},
-		{
-			"name": "Hamburger",
-			"id": 302226
-		},
-		{
-			"name": "Potato Bread",
-			"id": 302227
-		},
-		{
-			"name": "Citrus Cake",
-			"id": 302230
-		},
-		{
-			"name": "Egg Bun",
-			"id": 302234
-		},
-		{
-			"name": "Curry Bun",
-			"id": 302238
-		},
-		{
-			"name": "Mocha Bread",
-			"id": 302308
-		},
-		{
-			"name": "Poundcake",
-			"id": 302319
-		}
+		302205,
+		302209,
+		302216,
+		302225,
+		302226,
+		302227,
+		302230,
+		302234,
+		302238,
+		302308,
+		302319
 	],
 	"requirements": {},
 	"stats": {

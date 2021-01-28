@@ -4,10 +4,7 @@ export const LeatherJacket: Item = {
 	"id": 202202,
 	"name": "LeatherJacket",
 	"buildsInto": [
-		{
-			"name": "Rider Jacket",
-			"id": 202301
-		}
+		202301
 	],
 	"requirements": {
 		"Windbreaker": 1,
@@ -16,7 +13,7 @@ export const LeatherJacket: Item = {
 	"stats": {
 		"defense": 8,
 		"maxHp": 70,
-		"preventBasicAttackDamaged": 6
+		"increaseSkillDamage": 6
 	},
 	"rarity": "Uncommon",
 	"code": "가죽자켓",
@@ -26,14 +23,8 @@ export const LeatherJacket: Item = {
 	"foundQuantity": 1,
 	"description": "A reliable jacket that doesn't tear easily. Useful in most weather conditions.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202101
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		202101,
+		401103
 	],
 	"displayName": "Leather Jacket",
 	"apiMetaData": {

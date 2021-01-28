@@ -4,30 +4,12 @@ export const Alcohol: Item = {
 	"id": 401111,
 	"name": "Alcohol",
 	"buildsInto": [
-		{
-			"name": "Fuhma Shuriken",
-			"id": 113406
-		},
-		{
-			"name": "Baijiu",
-			"id": 301204
-		},
-		{
-			"name": "Soju",
-			"id": 301205
-		},
-		{
-			"name": "Coffee Liqueur",
-			"id": 301208
-		},
-		{
-			"name": "Disinfectant",
-			"id": 302213
-		},
-		{
-			"name": "Acupuncture Needle",
-			"id": 302217
-		}
+		113406,
+		301204,
+		301205,
+		301208,
+		302213,
+		302217
 	],
 	"requirements": {},
 	"stats": {},
@@ -54,10 +36,7 @@ export const Alcohol: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

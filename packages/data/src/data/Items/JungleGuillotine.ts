@@ -4,32 +4,18 @@ export const JungleGuillotine: Item = {
 	"id": 502303,
 	"name": "JungleGuillotine",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Mousetrap"
-		},
-		{
-			"name": "Scissors",
-			"id": "Kitchen Knife"
-		}
+		502103,
+		101104
 	],
 	"buildsInto": [
-		{
-			"name": "Double Guillotine",
-			"id": 502405
-		},
-		{
-			"name": "Hidden Maiden",
-			"id": 502407
-		}
+		502405,
+		502407
 	],
 	"requirements": {
 		"Mousetrap": 1,
 		"Kitchen Knife": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Uncommon",
 	"stackable": true,
 	"maxStacks": 5,

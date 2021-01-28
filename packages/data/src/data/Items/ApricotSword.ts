@@ -4,18 +4,9 @@ export const ApricotSword: Item = {
 	"id": 120301,
 	"name": "ApricotSword",
 	"buildsInto": [
-		{
-			"name": "Durendal Mk2",
-			"id": 120401
-		},
-		{
-			"name": "Volticletto",
-			"id": 120403
-		},
-		{
-			"name": "Meteor Claymore",
-			"id": 120404
-		}
+		120401,
+		120403,
+		120404
 	],
 	"requirements": {
 		"Needle": 1,
@@ -25,9 +16,9 @@ export const ApricotSword: Item = {
 	},
 	"stats": {
 		"attackPower": 21,
-		"cooldownReduction": 0.1,
 		"criticalStrikeChance": 0.1,
-		"criticalStrikeDamage": 0.25
+		"criticalStrikeDamage": 0.25,
+		"lifeSteal": 0.1
 	},
 	"rarity": "Rare",
 	"code": "매화검",
@@ -37,14 +28,8 @@ export const ApricotSword: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120201
-		},
-		{
-			"name": "Scissors",
-			"id": 205203
-		}
+		120201,
+		205203
 	],
 	"displayName": "Apricot Sword",
 	"apiMetaData": {

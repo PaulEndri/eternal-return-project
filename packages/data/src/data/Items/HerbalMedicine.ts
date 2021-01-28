@@ -4,20 +4,11 @@ export const HerbalMedicine: Item = {
 	"id": 302207,
 	"name": "HerbalMedicine",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Oriental Herb"
-		},
-		{
-			"name": "Scissors",
-			"id": "Turtle Shell"
-		}
+		302116,
+		401104
 	],
 	"buildsInto": [
-		{
-			"name": "Zen Vitality",
-			"id": 302329
-		}
+		302329
 	],
 	"requirements": {
 		"Oriental Herb": 1,

@@ -4,42 +4,15 @@ export const Lighter: Item = {
 	"id": 401107,
 	"name": "Lighter",
 	"buildsInto": [
-		{
-			"name": "Shamshir",
-			"id": 102201
-		},
-		{
-			"name": "Scorchbow",
-			"id": 114402
-		},
-		{
-			"name": "True Samadhi Fire",
-			"id": 205403
-		},
-		{
-			"name": "Boiling Water",
-			"id": 301201
-		},
-		{
-			"name": "Baijiu",
-			"id": 301204
-		},
-		{
-			"name": "Kaoliang Liquor",
-			"id": 301301
-		},
-		{
-			"name": "Heated Oil",
-			"id": 401203
-		},
-		{
-			"name": "Ash",
-			"id": 401210
-		},
-		{
-			"name": "Heated Stone",
-			"id": 401215
-		}
+		102201,
+		114402,
+		205403,
+		301201,
+		401203,
+		401210,
+		401215,
+		301204,
+		301301
 	],
 	"requirements": {},
 	"stats": {},
@@ -67,10 +40,7 @@ export const Lighter: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

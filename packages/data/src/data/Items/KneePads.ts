@@ -4,10 +4,7 @@ export const KneePads: Item = {
 	"id": 204201,
 	"name": "KneePads",
 	"buildsInto": [
-		{
-			"name": "Steel Knee Pads",
-			"id": 204401
-		}
+		204401
 	],
 	"requirements": {
 		"Tights": 1,
@@ -25,14 +22,8 @@ export const KneePads: Item = {
 	"foundQuantity": 1,
 	"description": "Learning to ride a bike? Put these on.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204103
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		204103,
+		401103
 	],
 	"displayName": "Knee Pads",
 	"apiMetaData": {

@@ -12,8 +12,8 @@ export const LanceOfPoseidon: Item = {
 		"Iron Ore": 1
 	},
 	"stats": {
-		"attackPower": 120,
-		"moveSpeed": -0.05
+		"attackPower": 90,
+		"preventSkillDamagedRatio": 0.17
 	},
 	"rarity": "Epic",
 	"code": "트리아이나",
@@ -23,14 +23,8 @@ export const LanceOfPoseidon: Item = {
 	"foundQuantity": 1,
 	"description": "A powerful spear that can bring forth waves. It's said to have once been used by Poseidon.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 107301
-		},
-		{
-			"name": "Scissors",
-			"id": 107302
-		}
+		107301,
+		107302
 	],
 	"displayName": "Lance of Poseidon",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const EasterEgg: Item = {
 	"id": 302235,
 	"name": "EasterEgg",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Egg"
-		},
-		{
-			"name": "Scissors",
-			"id": "Chocolate"
-		}
+		302112,
+		302119
 	],
 	"buildsInto": [],
 	"requirements": {

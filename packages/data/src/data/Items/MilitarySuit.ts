@@ -4,14 +4,8 @@ export const MilitarySuit: Item = {
 	"id": 202205,
 	"name": "MilitarySuit",
 	"buildsInto": [
-		{
-			"name": "Suit",
-			"id": 202303
-		},
-		{
-			"name": "Bulletproof Vest",
-			"id": 202401
-		}
+		202303,
+		202401
 	],
 	"requirements": {
 		"Windbreaker": 1,
@@ -19,7 +13,7 @@ export const MilitarySuit: Item = {
 	},
 	"stats": {
 		"maxHp": 50,
-		"preventBasicAttackDamaged": 10
+		"increaseSkillDamage": 10
 	},
 	"rarity": "Uncommon",
 	"code": "군복",
@@ -29,14 +23,8 @@ export const MilitarySuit: Item = {
 	"foundQuantity": 1,
 	"description": "Like a school uniform, these military uniforms get some people excited! But when you actually see them out in the street...meh.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202101
-		},
-		{
-			"name": "Scissors",
-			"id": 108101
-		}
+		202101,
+		108101
 	],
 	"displayName": "Military Suit",
 	"apiMetaData": {

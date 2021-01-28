@@ -4,14 +4,8 @@ export const BlackStagHammer: Item = {
 	"id": 104302,
 	"name": "BlackStagHammer",
 	"buildsInto": [
-		{
-			"name": "Hammer of Dagda",
-			"id": 104402
-		},
-		{
-			"name": "Hammer of Thor",
-			"id": 104403
-		}
+		104402,
+		104403
 	],
 	"requirements": {
 		"Hammer": 1,
@@ -29,14 +23,8 @@ export const BlackStagHammer: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 104201
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		104201,
+		401103
 	],
 	"displayName": "Black Stag Hammer",
 	"apiMetaData": {

@@ -13,7 +13,7 @@ export const Vibroblade: Item = {
 	},
 	"stats": {
 		"attackPower": 57,
-		"attackSpeedRatio": 0.35,
+		"attackSpeedRatio": 0.4,
 		"moveSpeed": 0.1,
 		"moveSpeedOutOfCombat": 0.1
 	},
@@ -25,14 +25,8 @@ export const Vibroblade: Item = {
 	"foundQuantity": 1,
 	"description": "This high-frequency vibrating blade will cleave the matter of its target at a molecular level. The knife vibrates at a frequency beyond human imagination.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101201
-		},
-		{
-			"name": "Scissors",
-			"id": 401303
-		}
+		101201,
+		401303
 	],
 	"displayName": "Vibroblade",
 	"apiMetaData": {

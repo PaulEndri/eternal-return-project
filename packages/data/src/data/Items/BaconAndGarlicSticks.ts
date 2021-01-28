@@ -4,14 +4,8 @@ export const BaconAndGarlicSticks: Item = {
 	"id": 302224,
 	"name": "BaconAndGarlicSticks",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Garlic"
-		},
-		{
-			"name": "Scissors",
-			"id": "Meat"
-		}
+		302106,
+		302111
 	],
 	"buildsInto": [],
 	"requirements": {

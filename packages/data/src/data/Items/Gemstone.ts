@@ -4,18 +4,9 @@ export const Gemstone: Item = {
 	"id": 401114,
 	"name": "Gemstone",
 	"buildsInto": [
-		{
-			"name": "Muramasa",
-			"id": 102402
-		},
-		{
-			"name": "Ruby",
-			"id": 401204
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
+		102402,
+		401204,
+		401214
 	],
 	"requirements": {},
 	"stats": {},
@@ -25,9 +16,9 @@ export const Gemstone: Item = {
 	"maxStacks": 3,
 	"locations": {
 		"Temple": 8,
-		"Pond": 8,
-		"Forest": 8,
-		"Beach": 7
+		"Pond": 10,
+		"Forest": 10,
+		"Beach": 9
 	},
 	"foundQuantity": 1,
 	"description": "An unrefined gemstone. Could be worth something in the right hands.",
@@ -43,10 +34,7 @@ export const Gemstone: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

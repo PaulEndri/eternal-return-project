@@ -11,8 +11,9 @@ export const MithrilHelm: Item = {
 	},
 	"stats": {
 		"attackSpeedRatio": 0.12,
-		"cooldownReduction": 0.15,
+		"cooldownReduction": 0.1,
 		"defense": 38,
+		"lifeSteal": 0.15,
 		"moveSpeed": 0.2
 	},
 	"rarity": "Epic",
@@ -23,14 +24,8 @@ export const MithrilHelm: Item = {
 	"foundQuantity": 1,
 	"description": "A helm made of mithril that's been reforged through generations. Delicate reliefs carved into the surface hint at the craftsmanship invested into it.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401304
-		},
-		{
-			"name": "Scissors",
-			"id": 201204
-		}
+		401304,
+		201204
 	],
 	"displayName": "Mithril Helm",
 	"apiMetaData": {

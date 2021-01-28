@@ -5,42 +5,15 @@ export const LaserPointer: Item = {
 	"name": "LaserPointer",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Plasma Sword",
-			"id": 102408
-		},
-		{
-			"name": "Beam Axe",
-			"id": 105402
-		},
-		{
-			"name": "Plasma Whip",
-			"id": 109404
-		},
-		{
-			"name": "Plasma Tonfa",
-			"id": 111404
-		},
-		{
-			"name": "Laser Crossbow",
-			"id": 115302
-		},
-		{
-			"name": "FN57",
-			"id": 116301
-		},
-		{
-			"name": "Springfield",
-			"id": 118201
-		},
-		{
-			"name": "Durendal Mk2",
-			"id": 120401
-		},
-		{
-			"name": "Sniping Scope",
-			"id": 205206
-		}
+		102408,
+		105402,
+		109404,
+		111404,
+		115302,
+		116301,
+		118201,
+		120401,
+		205206
 	],
 	"requirements": {},
 	"stats": {},
@@ -60,14 +33,8 @@ export const LaserPointer: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		},
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		2,
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

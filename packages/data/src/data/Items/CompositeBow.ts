@@ -4,10 +4,7 @@ export const CompositeBow: Item = {
 	"id": 114203,
 	"name": "CompositeBow",
 	"buildsInto": [
-		{
-			"name": "Twinbow",
-			"id": 114405
-		}
+		114405
 	],
 	"requirements": {
 		"Bow": 1,
@@ -15,8 +12,8 @@ export const CompositeBow: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 16,
-		"decreaseRecoveryToBasicAttack": 1
+		"attackPower": 25,
+		"decreaseRecoveryToSkill": 1
 	},
 	"rarity": "Rare",
 	"code": "컴포지트보우",
@@ -26,14 +23,8 @@ export const CompositeBow: Item = {
 	"foundQuantity": 1,
 	"description": "A high quality composite bow that was used in the East. There is a record of a man shooting over 440 meters during the England Archery Competition of 1795.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114202
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		114202,
+		401101
 	],
 	"displayName": "Composite Bow",
 	"apiMetaData": {

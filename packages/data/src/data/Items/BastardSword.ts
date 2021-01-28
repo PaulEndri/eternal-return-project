@@ -4,14 +4,9 @@ export const BastardSword: Item = {
 	"id": 102403,
 	"name": "BastardSword",
 	"buildsInto": [
-		{
-			"name": "Thuận Thiên",
-			"id": 102405
-		},
-		{
-			"name": "Plasma Sword",
-			"id": 102408
-		}
+		102405,
+		102408,
+		102405
 	],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -20,7 +15,7 @@ export const BastardSword: Item = {
 	},
 	"stats": {
 		"attackPower": 45,
-		"moveSpeed": -0.1
+		"moveSpeed": -0.05
 	},
 	"rarity": "Rare",
 	"code": "바스타드소드",
@@ -30,14 +25,8 @@ export const BastardSword: Item = {
 	"foundQuantity": 1,
 	"description": "In the Middle Ages, the Bastard Sword was the only weapon with the characteristics of both a double-handed sword and a single-handed sword, so it was named Bastard, meaning mixed breed.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102101
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		102101,
+		401201
 	],
 	"displayName": "Bastard Sword",
 	"apiMetaData": {

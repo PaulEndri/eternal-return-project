@@ -5,34 +5,13 @@ export const Chocolate: Item = {
 	"name": "Chocolate",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Chocolate Milk",
-			"id": 301214
-		},
-		{
-			"name": "Hot Chocolate",
-			"id": 301310
-		},
-		{
-			"name": "Choco Pie",
-			"id": 302216
-		},
-		{
-			"name": "Easter Egg",
-			"id": 302235
-		},
-		{
-			"name": "Whisky Bonbon",
-			"id": 302236
-		},
-		{
-			"name": "Choco Ice Cream",
-			"id": 302237
-		},
-		{
-			"name": "Chocolate Chip Cookies",
-			"id": 302311
-		}
+		301214,
+		301310,
+		302216,
+		302235,
+		302236,
+		302237,
+		302311
 	],
 	"requirements": {},
 	"stats": {

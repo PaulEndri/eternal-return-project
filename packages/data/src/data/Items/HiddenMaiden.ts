@@ -4,14 +4,8 @@ export const HiddenMaiden: Item = {
 	"id": 502407,
 	"name": "HiddenMaiden",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Spiked Plank"
-		},
-		{
-			"name": "Scissors",
-			"id": "Jungle Guillotine"
-		}
+		502201,
+		502303
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -19,9 +13,7 @@ export const HiddenMaiden: Item = {
 		"Nail": 1,
 		"Kitchen Knife": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,

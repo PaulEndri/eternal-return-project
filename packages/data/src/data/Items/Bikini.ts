@@ -4,17 +4,14 @@ export const Bikini: Item = {
 	"id": 202209,
 	"name": "Bikini",
 	"buildsInto": [
-		{
-			"name": "Amazoness Armor",
-			"id": 202410
-		}
+		202410
 	],
 	"requirements": {
 		"Scissors": 1
 	},
 	"stats": {
-		"defense": 4,
-		"preventSkillDamagedRatio": 0.11
+		"decreaseRecoveryToBasicAttack": 0.11,
+		"defense": 4
 	},
 	"rarity": "Uncommon",
 	"code": "비키니",
@@ -24,14 +21,8 @@ export const Bikini: Item = {
 	"foundQuantity": 1,
 	"description": "It's a bikini made of a thin fabric. You might wanna suck in your stomach when you're wearing it. It's so versatile, men can wear it, too.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202105
-		},
-		{
-			"name": "Scissors",
-			"id": 101101
-		}
+		202105,
+		101101
 	],
 	"displayName": "Bikini",
 	"apiMetaData": {

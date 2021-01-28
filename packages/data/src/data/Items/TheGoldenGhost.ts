@@ -14,7 +14,7 @@ export const TheGoldenGhost: Item = {
 	"stats": {
 		"attackPower": 70,
 		"charges": 6,
-		"increaseBasicAttackDamage": 37
+		"preventBasicAttackDamaged": 37
 	},
 	"rarity": "Epic",
 	"code": "영광금귀신기노",
@@ -24,14 +24,8 @@ export const TheGoldenGhost: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115301
-		},
-		{
-			"name": "Scissors",
-			"id": 502307
-		}
+		115301,
+		502307
 	],
 	"displayName": "The Golden Ghost",
 	"apiMetaData": {

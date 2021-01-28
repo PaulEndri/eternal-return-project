@@ -28,7 +28,7 @@ Object.entries(LocationsEnum).forEach(
 );
 
 const keys = Object.keys(LocationsEnum).filter((x) => isNaN(x));
-const test = new Permutation(keys, 3);
+const test = new Permutation(keys, 5);
 const threePtCombos = [];
 const fivePointCombos = [...test];
 console.log('[test]', test.length);
@@ -90,8 +90,7 @@ const generateData = (locations) => {
 
   return {
     locations: locations.map((i) => LocationsEnum[i]),
-    materials: totalMaterials.list,
-    itemsCompleted: [],
+    materials: Object.keys(totalMaterials.list),
     point: locations.length
   };
 };

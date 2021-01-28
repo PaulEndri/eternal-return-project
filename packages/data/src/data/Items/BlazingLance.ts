@@ -15,7 +15,7 @@ export const BlazingLance: Item = {
 		"attackPower": 110,
 		"hpRegen": 1.5,
 		"spRegen": 1.5,
-		"increaseBasicAttackDamage": 30
+		"preventBasicAttackDamaged": 30
 	},
 	"rarity": "Legend",
 	"code": "화첨창",
@@ -25,14 +25,8 @@ export const BlazingLance: Item = {
 	"foundQuantity": 1,
 	"description": "The length stretches freely, and flames spurt from the end of the spear; a treasure that appeared in \"Fengshen Yanyi.\"",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205403
-		},
-		{
-			"name": "Scissors",
-			"id": 107201
-		}
+		205403,
+		107201
 	],
 	"displayName": "Blazing Lance",
 	"apiMetaData": {

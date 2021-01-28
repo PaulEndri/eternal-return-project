@@ -12,10 +12,10 @@ export const DavidsSling: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"attackPower": 80,
+		"attackPower": 71,
 		"charges": 50,
 		"hpRegenRatio": 1.5,
-		"increaseBasicAttackDamage": 30
+		"preventBasicAttackDamaged": 27
 	},
 	"rarity": "Epic",
 	"code": "다비드슬링",
@@ -25,14 +25,8 @@ export const DavidsSling: Item = {
 	"foundQuantity": 1,
 	"description": "David's legendary stone that killed Goliath, the giant of Philistine.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112204
-		},
-		{
-			"name": "Scissors",
-			"id": 205202
-		}
+		112204,
+		205202
 	],
 	"displayName": "David's Sling",
 	"apiMetaData": {

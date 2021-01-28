@@ -4,22 +4,10 @@ export const FeatherDuster: Item = {
 	"id": 205209,
 	"name": "FeatherDuster",
 	"buildsInto": [
-		{
-			"name": "Torch",
-			"id": 108402
-		},
-		{
-			"name": "Elegance",
-			"id": 116404
-		},
-		{
-			"name": "Butler's Suit",
-			"id": 202413
-		},
-		{
-			"name": "Laced Quiver",
-			"id": 205304
-		}
+		108402,
+		116404,
+		202413,
+		205304
 	],
 	"requirements": {
 		"Short Rod": 1,
@@ -37,14 +25,8 @@ export const FeatherDuster: Item = {
 	"foundQuantity": 1,
 	"description": "Dust sticks to this thing like iron to a magnet. Feather dusters...how do they work?",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108102
-		},
-		{
-			"name": "Scissors",
-			"id": 205101
-		}
+		108102,
+		205101
 	],
 	"displayName": "Feather Duster",
 	"apiMetaData": {
@@ -57,10 +39,7 @@ export const FeatherDuster: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		}
+		5
 	],
 	"airSupply": true,
 	"collectible": 0

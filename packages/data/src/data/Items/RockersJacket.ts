@@ -13,10 +13,9 @@ export const RockersJacket: Item = {
 	},
 	"stats": {
 		"attackPower": 30,
-		"decreaseRecoveryToSkill": 1,
 		"defense": 11,
-		"moveSpeedOutOfCombat": 0.15,
-		"preventBasicAttackDamaged": 15
+		"moveSpeedOutOfCombat": 0.1,
+		"increaseSkillDamage": 11
 	},
 	"rarity": "Epic",
 	"code": "락커의자켓",
@@ -26,14 +25,8 @@ export const RockersJacket: Item = {
 	"foundQuantity": 1,
 	"description": "There's something burning in my HEART. Today, I can do anything.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202301
-		},
-		{
-			"name": "Scissors",
-			"id": 502206
-		}
+		202301,
+		502206
 	],
 	"displayName": "Rocker's Jacket",
 	"apiMetaData": {

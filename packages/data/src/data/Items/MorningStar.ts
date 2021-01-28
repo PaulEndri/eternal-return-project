@@ -4,14 +4,8 @@ export const MorningStar: Item = {
 	"id": 104301,
 	"name": "MorningStar",
 	"buildsInto": [
-		{
-			"name": "Fang Mace",
-			"id": 104401
-		},
-		{
-			"name": "Evening Star",
-			"id": 104404
-		}
+		104401,
+		104404
 	],
 	"requirements": {
 		"Hammer": 1,
@@ -29,14 +23,8 @@ export const MorningStar: Item = {
 	"foundQuantity": 1,
 	"description": "A blunt weapon you use with both hands. It was used by infantry against knights on horseback. The head of the weapon can be changed according to the user's style.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 104201
-		},
-		{
-			"name": "Scissors",
-			"id": 112103
-		}
+		104201,
+		112103
 	],
 	"displayName": "Morning Star",
 	"apiMetaData": {

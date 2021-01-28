@@ -4,10 +4,7 @@ export const FN57: Item = {
 	"id": 116301,
 	"name": "FN57",
 	"buildsInto": [
-		{
-			"name": "Elegance",
-			"id": 116404
-		}
+		116404
 	],
 	"requirements": {
 		"Walther PPK": 1,
@@ -28,14 +25,8 @@ export const FN57: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116202
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		116202,
+		401108
 	],
 	"displayName": "FN57",
 	"apiMetaData": {

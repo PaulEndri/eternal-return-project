@@ -12,9 +12,10 @@ export const TacticalOPSHelmet: Item = {
 		"Piano Wire": 1
 	},
 	"stats": {
-		"attackSpeedRatio": 0.2,
-		"cooldownReduction": 0.15,
+		"attackSpeedRatio": 0.23,
+		"cooldownReduction": 0.1,
 		"defense": 15,
+		"lifeSteal": 0.15,
 		"maxHp": 120
 	},
 	"rarity": "Epic",
@@ -25,14 +26,8 @@ export const TacticalOPSHelmet: Item = {
 	"foundQuantity": 1,
 	"description": "A tactical helmet used by special forces. Military grade communication technology is built-in.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201301
-		},
-		{
-			"name": "Scissors",
-			"id": 401211
-		}
+		201301,
+		401211
 	],
 	"displayName": "Tactical OPS Helmet",
 	"apiMetaData": {

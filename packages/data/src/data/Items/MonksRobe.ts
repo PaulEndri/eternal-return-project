@@ -4,23 +4,14 @@ export const MonksRobe: Item = {
 	"id": 202103,
 	"name": "MonksRobe",
 	"buildsInto": [
-		{
-			"name": "Turtle Dobok",
-			"id": 202203
-		},
-		{
-			"name": "Patched Robe",
-			"id": 202206
-		},
-		{
-			"name": "Buddha Sarira",
-			"id": 205207
-		}
+		202203,
+		202206,
+		205207
 	],
 	"requirements": {},
 	"stats": {
-		"cooldownReduction": 0.05,
-		"defense": 5
+		"defense": 5,
+		"lifeSteal": 0.05
 	},
 	"rarity": "Common",
 	"code": "승복",
@@ -44,10 +35,7 @@ export const MonksRobe: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

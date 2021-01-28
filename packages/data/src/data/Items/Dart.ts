@@ -4,10 +4,7 @@ export const Dart: Item = {
 	"id": 113201,
 	"name": "Dart",
 	"buildsInto": [
-		{
-			"name": "Plumbata",
-			"id": 113404
-		}
+		113404
 	],
 	"requirements": {
 		"Needle": 1,
@@ -27,14 +24,8 @@ export const Dart: Item = {
 	"foundQuantity": 1,
 	"description": "It's cute, but it can be deadly if it hits the right spot.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120101
-		},
-		{
-			"name": "Scissors",
-			"id": 205101
-		}
+		120101,
+		205101
 	],
 	"displayName": "Dart",
 	"apiMetaData": {

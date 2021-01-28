@@ -4,14 +4,8 @@ export const Pickaxe: Item = {
 	"id": 105102,
 	"name": "Pickaxe",
 	"buildsInto": [
-		{
-			"name": "Chain Scythe",
-			"id": 105201
-		},
-		{
-			"name": "Gold",
-			"id": 401214
-		}
+		105201,
+		401214
 	],
 	"requirements": {},
 	"stats": {
@@ -41,10 +35,7 @@ export const Pickaxe: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

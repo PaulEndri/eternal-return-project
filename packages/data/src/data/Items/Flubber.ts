@@ -4,10 +4,7 @@ export const Flubber: Item = {
 	"id": 112304,
 	"name": "Flubber",
 	"buildsInto": [
-		{
-			"name": "Spiky Bouncy Ball",
-			"id": 112403
-		}
+		112403
 	],
 	"requirements": {
 		"Rubber": 1,
@@ -26,14 +23,8 @@ export const Flubber: Item = {
 	"foundQuantity": 1,
 	"description": "It feels like the innocence of childhood. If you drop it, it'll lose its viscosity and become stiff, so take care of it.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401105
-		},
-		{
-			"name": "Scissors",
-			"id": 301201
-		}
+		401105,
+		301201
 	],
 	"displayName": "Flubber",
 	"apiMetaData": {

@@ -4,30 +4,12 @@ export const Rubber: Item = {
 	"id": 401105,
 	"name": "Rubber",
 	"buildsInto": [
-		{
-			"name": "Sling",
-			"id": 112204
-		},
-		{
-			"name": "Flubber",
-			"id": 112304
-		},
-		{
-			"name": "Longbow",
-			"id": 114202
-		},
-		{
-			"name": "Power Crossbow",
-			"id": 115301
-		},
-		{
-			"name": "Helm of Banneret",
-			"id": 201407
-		},
-		{
-			"name": "Diving Suit",
-			"id": 202210
-		}
+		112204,
+		112304,
+		114202,
+		115301,
+		201407,
+		202210
 	],
 	"requirements": {},
 	"stats": {},
@@ -54,10 +36,7 @@ export const Rubber: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

@@ -14,10 +14,10 @@ export const CreedOfTheKnight: Item = {
 	},
 	"stats": {
 		"attackPower": 30,
-		"criticalStrikeDamage": 0.2,
-		"defense": 25,
+		"criticalStrikeDamage": 0.25,
+		"defense": 20,
 		"hpRegen": 1.5,
-		"moveSpeed": -0.1
+		"moveSpeed": -0.05
 	},
 	"rarity": "Epic",
 	"code": "기사의신조",
@@ -27,14 +27,8 @@ export const CreedOfTheKnight: Item = {
 	"foundQuantity": 1,
 	"description": "Shielding is not just a skill that must be mastered by a knight, but also symbolizes a knight's creed to protect the weak.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203401
-		},
-		{
-			"name": "Scissors",
-			"id": 203202
-		}
+		203401,
+		203202
 	],
 	"displayName": "Creed of the Knight",
 	"apiMetaData": {

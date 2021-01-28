@@ -4,18 +4,9 @@ export const GlassPanel: Item = {
 	"id": 401305,
 	"name": "GlassPanel",
 	"buildsInto": [
-		{
-			"name": "AK-12",
-			"id": 117404
-		},
-		{
-			"name": "Optical Camouflage Suit",
-			"id": 202405
-		},
-		{
-			"name": "Radar",
-			"id": 203502
-		}
+		117404,
+		202405,
+		203502
 	],
 	"requirements": {
 		"Glass Bottle": 1,
@@ -31,14 +22,8 @@ export const GlassPanel: Item = {
 	"foundQuantity": 1,
 	"description": "A glass panel used for a display. If you break the one on your TV, you gotta replace it with a new panel. At that point, you might as well just get a new TV.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205204
-		},
-		{
-			"name": "Scissors",
-			"id": 401116
-		}
+		205204,
+		401116
 	],
 	"displayName": "Glass Panel",
 	"apiMetaData": {
@@ -51,14 +36,8 @@ export const GlassPanel: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

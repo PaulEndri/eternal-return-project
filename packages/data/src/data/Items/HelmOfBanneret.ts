@@ -13,10 +13,11 @@ export const HelmOfBanneret: Item = {
 	},
 	"stats": {
 		"cooldownReduction": 0.1,
-		"defense": 20,
+		"decreaseRecoveryToBasicAttack": 0.11,
+		"defense": 28,
+		"lifeSteal": 0.1,
 		"maxSp": 200,
-		"moveSpeed": 0.1,
-		"preventSkillDamagedRatio": 0.11
+		"moveSpeed": 0.1
 	},
 	"rarity": "Epic",
 	"code": "기사단장의투구",
@@ -26,14 +27,8 @@ export const HelmOfBanneret: Item = {
 	"foundQuantity": 1,
 	"description": "The war has begun and the righteous knight stands at the vanguard. May the blessings of victory be upon him.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201402
-		},
-		{
-			"name": "Scissors",
-			"id": 401105
-		}
+		201402,
+		401105
 	],
 	"displayName": "Helm of Banneret",
 	"apiMetaData": {

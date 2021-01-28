@@ -4,10 +4,7 @@ export const MagnumAnaconda: Item = {
 	"id": 116402,
 	"name": "MagnumAnaconda",
 	"buildsInto": [
-		{
-			"name": "Magnum-Boa",
-			"id": 116406
-		}
+		116406
 	],
 	"requirements": {
 		"Walther PPK": 1,
@@ -19,8 +16,8 @@ export const MagnumAnaconda: Item = {
 		"attackPower": 43,
 		"attackSpeedRatio": 0.1,
 		"charges": 30,
-		"lifeSteal": 0.1,
-		"moveSpeed": 0.1
+		"moveSpeed": 0.1,
+		"increaseBasicAttackDamage": 0.1
 	},
 	"rarity": "Rare",
 	"code": "매그넘-아나콘다",
@@ -30,14 +27,8 @@ export const MagnumAnaconda: Item = {
 	"foundQuantity": 1,
 	"description": "Named after the Anaconda, which is larger than a Python, it uses a larger caliber Magnum cartridge.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116201
-		},
-		{
-			"name": "Scissors",
-			"id": 401212
-		}
+		116201,
+		401212
 	],
 	"displayName": "Magnum-Anaconda",
 	"apiMetaData": {

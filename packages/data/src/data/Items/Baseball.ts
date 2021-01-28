@@ -4,10 +4,7 @@ export const Baseball: Item = {
 	"id": 112105,
 	"name": "Baseball",
 	"buildsInto": [
-		{
-			"name": "Signed Ball",
-			"id": 112205
-		}
+		112205
 	],
 	"requirements": {},
 	"stats": {

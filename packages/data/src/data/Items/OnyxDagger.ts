@@ -4,14 +4,8 @@ export const OnyxDagger: Item = {
 	"id": 113206,
 	"name": "OnyxDagger",
 	"buildsInto": [
-		{
-			"name": "Willow Leaf Spike",
-			"id": 113207
-		},
-		{
-			"name": "Azure Dagger",
-			"id": 113409
-		}
+		113207,
+		113409
 	],
 	"requirements": {
 		"Razor": 1,
@@ -20,7 +14,7 @@ export const OnyxDagger: Item = {
 	"stats": {
 		"attackPower": 17,
 		"charges": 50,
-		"increaseBasicAttackDamage": 10
+		"preventBasicAttackDamaged": 10
 	},
 	"rarity": "Uncommon",
 	"code": "흑건",
@@ -30,14 +24,8 @@ export const OnyxDagger: Item = {
 	"foundQuantity": 1,
 	"description": "Made out of a throwing dagger and a cross. It practically jumps from the tips of your fingers to fly into the heart of your enemy",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113101
-		},
-		{
-			"name": "Scissors",
-			"id": 205109
-		}
+		113101,
+		205109
 	],
 	"displayName": "Onyx Dagger",
 	"apiMetaData": {

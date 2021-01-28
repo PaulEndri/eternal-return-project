@@ -4,14 +4,8 @@ export const KaoliangLiquor: Item = {
 	"id": 301301,
 	"name": "KaoliangLiquor",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Baijiu"
-		},
-		{
-			"name": "Scissors",
-			"id": "Lighter"
-		}
+		301204,
+		401107
 	],
 	"buildsInto": [],
 	"requirements": {

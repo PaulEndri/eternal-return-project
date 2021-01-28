@@ -4,10 +4,7 @@ export const SquadLeaderArmband: Item = {
 	"id": 203202,
 	"name": "SquadLeaderArmband",
 	"buildsInto": [
-		{
-			"name": "Creed of the Knight",
-			"id": 203406
-		}
+		203406
 	],
 	"requirements": {
 		"Bandage": 1,
@@ -25,14 +22,8 @@ export const SquadLeaderArmband: Item = {
 	"foundQuantity": 1,
 	"description": "An armband normally worn by a squad commander. How did you get this?!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203102
-		},
-		{
-			"name": "Scissors",
-			"id": 120101
-		}
+		203102,
+		120101
 	],
 	"displayName": "Squad Leader Armband",
 	"apiMetaData": {

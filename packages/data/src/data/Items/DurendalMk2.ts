@@ -12,10 +12,10 @@ export const DurendalMk2: Item = {
 		"Laser Pointer": 1
 	},
 	"stats": {
-		"attackPower": 51,
-		"cooldownReduction": 0.1,
+		"attackPower": 55,
 		"criticalStrikeChance": 0.1,
-		"criticalStrikeDamage": 0.25,
+		"criticalStrikeDamage": 0.3,
+		"lifeSteal": 0.1,
 		"sightRange": 3
 	},
 	"rarity": "Epic",
@@ -25,14 +25,8 @@ export const DurendalMk2: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120301
-		},
-		{
-			"name": "Scissors",
-			"id": 401108
-		}
+		120301,
+		401108
 	],
 	"displayName": "Durendal Mk2",
 	"apiMetaData": {

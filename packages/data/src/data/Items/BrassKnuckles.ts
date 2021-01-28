@@ -4,10 +4,7 @@ export const BrassKnuckles: Item = {
 	"id": 110101,
 	"name": "BrassKnuckles",
 	"buildsInto": [
-		{
-			"name": "Iron Knuckles",
-			"id": 110202
-		}
+		110202
 	],
 	"requirements": {},
 	"stats": {

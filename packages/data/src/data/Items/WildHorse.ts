@@ -4,10 +4,7 @@ export const WildHorse: Item = {
 	"id": 121306,
 	"name": "WildHorse",
 	"buildsInto": [
-		{
-			"name": "Teen Spirit",
-			"id": 121407
-		}
+		121407
 	],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -18,7 +15,7 @@ export const WildHorse: Item = {
 	"stats": {
 		"attackPower": 9,
 		"attackSpeedRatio": 0.25,
-		"increaseBasicAttackDamage": 6
+		"preventBasicAttackDamaged": 6
 	},
 	"rarity": "Rare",
 	"code": "야생마",
@@ -28,14 +25,8 @@ export const WildHorse: Item = {
 	"foundQuantity": 1,
 	"description": "If it follows in the footsteps of the performance it takes its name from, you can probably expect to be in front of a large audience with this one.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121202
-		},
-		{
-			"name": "Scissors",
-			"id": 401112
-		}
+		121202,
+		401112
 	],
 	"displayName": "Wild Horse",
 	"apiMetaData": {

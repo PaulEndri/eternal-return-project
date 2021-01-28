@@ -15,9 +15,10 @@ export const ImperialBurgonet: Item = {
 	"stats": {
 		"cooldownReduction": 0.1,
 		"defense": 10,
+		"lifeSteal": 0.1,
 		"maxSp": 200,
 		"moveSpeed": 0.1,
-		"increaseSkillDamageRatio": 0.16
+		"preventSkillDamagedRatio": 0.18
 	},
 	"rarity": "Epic",
 	"code": "황실부르고넷",
@@ -27,14 +28,8 @@ export const ImperialBurgonet: Item = {
 	"foundQuantity": 1,
 	"description": "An extravagant burgonet used by the imperial family. Unlike a basic helmet, it is lavishly decorated",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201402
-		},
-		{
-			"name": "Scissors",
-			"id": 401214
-		}
+		201402,
+		401214
 	],
 	"displayName": "Imperial Burgonet",
 	"apiMetaData": {

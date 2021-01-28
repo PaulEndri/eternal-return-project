@@ -16,9 +16,9 @@ export const MagnumBoa: Item = {
 		"attackPower": 90,
 		"attackSpeedRatio": 0.25,
 		"charges": 30,
-		"lifeSteal": 0.2,
 		"moveSpeed": 0.1,
-		"sightRange": 3.5
+		"sightRange": 3.5,
+		"increaseBasicAttackDamage": 0.2
 	},
 	"rarity": "Epic",
 	"code": "매그넘-보아",
@@ -28,14 +28,8 @@ export const MagnumBoa: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116402
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		116402,
+		401201
 	],
 	"displayName": "Magnum-Boa",
 	"apiMetaData": {

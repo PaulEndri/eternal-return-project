@@ -15,8 +15,8 @@ export const Satisfaction: Item = {
 	"stats": {
 		"attackPower": 30,
 		"attackSpeedRatio": 0.3,
-		"lifeSteal": 0.1,
-		"increaseBasicAttackDamage": 11
+		"increaseBasicAttackDamage": 0.1,
+		"preventBasicAttackDamaged": 11
 	},
 	"rarity": "Epic",
 	"code": "새티스팩션",
@@ -26,14 +26,8 @@ export const Satisfaction: Item = {
 	"foundQuantity": 1,
 	"description": "The human nature of not being satisfied is what drives development. Humanity always blindly trusts evolution.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121304
-		},
-		{
-			"name": "Scissors",
-			"id": 112101
-		}
+		121304,
+		112101
 	],
 	"displayName": "Satisfaction",
 	"apiMetaData": {

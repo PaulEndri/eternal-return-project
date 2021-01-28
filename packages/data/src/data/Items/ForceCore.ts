@@ -4,42 +4,15 @@ export const ForceCore: Item = {
 	"id": 401403,
 	"name": "ForceCore",
 	"buildsInto": [
-		{
-			"name": "Fragarach",
-			"id": 101405
-		},
-		{
-			"name": "Monkey King Bar",
-			"id": 108502
-		},
-		{
-			"name": "Sudarsana",
-			"id": 113501
-		},
-		{
-			"name": "Sharanga",
-			"id": 115501
-		},
-		{
-			"name": "Kelte",
-			"id": 116501
-		},
-		{
-			"name": "Auto-arms",
-			"id": 203503
-		},
-		{
-			"name": "Boots of Hermes",
-			"id": 204501
-		},
-		{
-			"name": "Emerald Tablet",
-			"id": 205501
-		},
-		{
-			"name": "Remote Mine",
-			"id": 502501
-		}
+		101405,
+		108502,
+		113501,
+		115501,
+		116501,
+		203503,
+		204501,
+		205501,
+		502501
 	],
 	"requirements": {
 		"Tree of Life": 1,
@@ -55,14 +28,8 @@ export const ForceCore: Item = {
 	"foundQuantity": 1,
 	"description": "This seems to hold untapped power.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205301
-		},
-		{
-			"name": "Scissors",
-			"id": 401209
-		}
+		205301,
+		401209
 	],
 	"displayName": "Force Core",
 	"apiMetaData": {
@@ -75,10 +42,7 @@ export const ForceCore: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

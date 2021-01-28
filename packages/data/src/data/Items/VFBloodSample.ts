@@ -4,34 +4,14 @@ export const VFBloodSample: Item = {
 	"id": 401401,
 	"name": "VFBloodSample",
 	"buildsInto": [
-		{
-			"name": "Dáinsleif",
-			"id": 102501
-		},
-		{
-			"name": "Spear of Longinus",
-			"id": 107501
-		},
-		{
-			"name": "Whip of Nine Bloody Tails",
-			"id": 109501
-		},
-		{
-			"name": "Failnaught",
-			"id": 114502
-		},
-		{
-			"name": "Chinese Opera Mask",
-			"id": 201411
-		},
-		{
-			"name": "Queen of Hearts",
-			"id": 202502
-		},
-		{
-			"name": "Red Shoes",
-			"id": 204502
-		}
+		102501,
+		107501,
+		109501,
+		114502,
+		201411,
+		202502,
+		204502,
+		102501
 	],
 	"requirements": {},
 	"stats": {},
@@ -54,10 +34,7 @@ export const VFBloodSample: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

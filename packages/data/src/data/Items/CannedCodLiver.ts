@@ -4,14 +4,8 @@ export const CannedCodLiver: Item = {
 	"id": 302204,
 	"name": "CannedCodLiver",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Cod"
-		},
-		{
-			"name": "Scissors",
-			"id": "Can"
-		}
+		302104,
+		401120
 	],
 	"buildsInto": [],
 	"requirements": {

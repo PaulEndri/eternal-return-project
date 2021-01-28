@@ -4,14 +4,8 @@ export const Whip: Item = {
 	"id": 109101,
 	"name": "Whip",
 	"buildsInto": [
-		{
-			"name": "Rope Cuffs",
-			"id": 109201
-		},
-		{
-			"name": "Bullwhip",
-			"id": 109202
-		}
+		109201,
+		109202
 	],
 	"requirements": {},
 	"stats": {
@@ -23,7 +17,7 @@ export const Whip: Item = {
 	"maxStacks": 1,
 	"locations": {
 		"School": 4,
-		"Chapel": 4
+		"Chapel": 3
 	},
 	"foundQuantity": 1,
 	"description": "",

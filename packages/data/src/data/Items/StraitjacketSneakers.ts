@@ -14,7 +14,7 @@ export const StraitjacketSneakers: Item = {
 		"moveSpeed": 0.35,
 		"spRegen": 0.7,
 		"spRegenRatio": 0.5,
-		"increaseSkillDamage": 10
+		"increaseSkillDamageRatio": 10
 	},
 	"rarity": "Rare",
 	"code": "풍화륜",
@@ -24,14 +24,8 @@ export const StraitjacketSneakers: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204301
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		204301,
+		401210
 	],
 	"displayName": "Straitjacket Sneakers",
 	"apiMetaData": {

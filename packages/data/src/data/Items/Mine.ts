@@ -4,29 +4,18 @@ export const Mine: Item = {
 	"id": 502304,
 	"name": "Mine",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Booby Trap"
-		},
-		{
-			"name": "Scissors",
-			"id": "Gunpowder"
-		}
+		502205,
+		401121
 	],
 	"buildsInto": [
-		{
-			"name": "Claymore",
-			"id": 502406
-		}
+		502406
 	],
 	"requirements": {
 		"Snare": 1,
 		"Glue": 1,
 		"Gunpowder": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,

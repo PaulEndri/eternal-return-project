@@ -4,22 +4,10 @@ export const Scissors: Item = {
 	"id": 101101,
 	"name": "Scissors",
 	"buildsInto": [
-		{
-			"name": "King-V",
-			"id": 121303
-		},
-		{
-			"name": "Beret",
-			"id": 201203
-		},
-		{
-			"name": "Dress",
-			"id": 202207
-		},
-		{
-			"name": "Bikini",
-			"id": 202209
-		}
+		121303,
+		201203,
+		202207,
+		202209
 	],
 	"requirements": {},
 	"stats": {
@@ -48,10 +36,7 @@ export const Scissors: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

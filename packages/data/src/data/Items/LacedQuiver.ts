@@ -11,8 +11,8 @@ export const LacedQuiver: Item = {
 		"Feather": 1
 	},
 	"stats": {
-		"attackPower": 10,
-		"attackSpeedRatio": 0.25,
+		"attackPower": 13,
+		"attackSpeedRatio": 0.3,
 		"moveSpeed": 0.1
 	},
 	"rarity": "Rare",
@@ -23,14 +23,8 @@ export const LacedQuiver: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205208
-		},
-		{
-			"name": "Scissors",
-			"id": 205209
-		}
+		205208,
+		205209
 	],
 	"displayName": "Laced Quiver",
 	"apiMetaData": {

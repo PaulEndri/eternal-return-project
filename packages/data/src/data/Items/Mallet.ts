@@ -13,9 +13,9 @@ export const Mallet: Item = {
 		"Scrap Metal": 1
 	},
 	"stats": {
-		"attackPower": 80,
+		"attackPower": 85,
 		"attackSpeedRatio": 0.5,
-		"decreaseRecoveryToBasicAttack": 1
+		"decreaseRecoveryToSkill": 1
 	},
 	"rarity": "Epic",
 	"code": "타구봉",
@@ -25,14 +25,8 @@ export const Mallet: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108301
-		},
-		{
-			"name": "Scissors",
-			"id": 401303
-		}
+		108301,
+		401303
 	],
 	"displayName": "Mallet",
 	"apiMetaData": {

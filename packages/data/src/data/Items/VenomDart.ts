@@ -4,10 +4,7 @@ export const VenomDart: Item = {
 	"id": 113402,
 	"name": "VenomDart",
 	"buildsInto": [
-		{
-			"name": "Frost Venom Dart",
-			"id": 113408
-		}
+		113408
 	],
 	"requirements": {
 		"Needle": 1,
@@ -19,7 +16,7 @@ export const VenomDart: Item = {
 		"attackPower": 55,
 		"charges": 3,
 		"criticalStrikeDamage": 0.2,
-		"increaseSkillDamage": 15
+		"increaseSkillDamageRatio": 15
 	},
 	"rarity": "Rare",
 	"code": "독침",
@@ -29,14 +26,8 @@ export const VenomDart: Item = {
 	"foundQuantity": 1,
 	"description": "This deadly poison can kill an elephant within 3 seconds. Use it carefully.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120101
-		},
-		{
-			"name": "Scissors",
-			"id": 401302
-		}
+		120101,
+		401302
 	],
 	"displayName": "Venom Dart",
 	"apiMetaData": {

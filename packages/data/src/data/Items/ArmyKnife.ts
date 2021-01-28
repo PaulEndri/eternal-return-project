@@ -4,18 +4,9 @@ export const ArmyKnife: Item = {
 	"id": 101201,
 	"name": "ArmyKnife",
 	"buildsInto": [
-		{
-			"name": "Rose Knife",
-			"id": 101301
-		},
-		{
-			"name": "Vibroblade",
-			"id": 101404
-		},
-		{
-			"name": "Fragarach",
-			"id": 101405
-		}
+		101301,
+		101404,
+		101405
 	],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -34,14 +25,8 @@ export const ArmyKnife: Item = {
 	"foundQuantity": 1,
 	"description": "Very threatening yet easy to carry. It faithfully performs its duties, such as cutting and stabbing.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101104
-		},
-		{
-			"name": "Scissors",
-			"id": 108101
-		}
+		101104,
+		108101
 	],
 	"displayName": "Army Knife",
 	"apiMetaData": {

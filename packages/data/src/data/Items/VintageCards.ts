@@ -4,14 +4,8 @@ export const VintageCards: Item = {
 	"id": 113203,
 	"name": "VintageCards",
 	"buildsInto": [
-		{
-			"name": "Charm",
-			"id": 113202
-		},
-		{
-			"name": "Cards of Tyranny",
-			"id": 113401
-		}
+		113202,
+		113401
 	],
 	"requirements": {
 		"Playing Cards": 1,
@@ -30,14 +24,8 @@ export const VintageCards: Item = {
 	"foundQuantity": 1,
 	"description": "A shabby looking deck of cards. Probably used to gamble in a sketchy alley.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113102
-		},
-		{
-			"name": "Scissors",
-			"id": 101102
-		}
+		113102,
+		101102
 	],
 	"displayName": "Vintage Cards",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const HerbalLiquor: Item = {
 	"id": 301305,
 	"name": "HerbalLiquor",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Baijiu"
-		},
-		{
-			"name": "Scissors",
-			"id": "Oriental Herb"
-		}
+		301204,
+		302116
 	],
 	"buildsInto": [],
 	"requirements": {

@@ -4,14 +4,8 @@ export const Claymore: Item = {
 	"id": 502406,
 	"name": "Claymore",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Mine"
-		},
-		{
-			"name": "Scissors",
-			"id": "Explosive Trap"
-		}
+		502304,
+		502306
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -20,9 +14,7 @@ export const Claymore: Item = {
 		"Gunpowder": 2,
 		"Mousetrap": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Epic",
 	"stackable": true,
 	"maxStacks": 5,

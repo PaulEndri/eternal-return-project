@@ -5,30 +5,12 @@ export const Egg: Item = {
 	"name": "Egg",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Fish Fillet With Egg",
-			"id": 302229
-		},
-		{
-			"name": "Lemon Ice Cream",
-			"id": 302231
-		},
-		{
-			"name": "Egg Bun",
-			"id": 302234
-		},
-		{
-			"name": "Easter Egg",
-			"id": 302235
-		},
-		{
-			"name": "Scrambled Egg",
-			"id": 302309
-		},
-		{
-			"name": "Boiled Egg",
-			"id": 302318
-		}
+		302229,
+		302231,
+		302234,
+		302235,
+		302309,
+		302318
 	],
 	"requirements": {},
 	"stats": {

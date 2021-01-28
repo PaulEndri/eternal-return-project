@@ -4,28 +4,13 @@ export const STG44: Item = {
 	"id": 117201,
 	"name": "STG44",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Fedorova"
-		},
-		{
-			"name": "Scissors",
-			"id": "Gunpowder"
-		}
+		117101,
+		401121
 	],
 	"buildsInto": [
-		{
-			"name": "AK-47",
-			"id": 117301
-		},
-		{
-			"name": "M16A1",
-			"id": 117401
-		},
-		{
-			"name": "Machine Gun",
-			"id": 117402
-		}
+		117301,
+		117401,
+		117402
 	],
 	"requirements": {
 		"Fedorova": 1,
@@ -35,7 +20,7 @@ export const STG44: Item = {
 		"attackPower": 18,
 		"charges": 2,
 		"sightRange": 1.5,
-		"increaseBasicAttackDamage": 2
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Uncommon",
 	"stackable": false,

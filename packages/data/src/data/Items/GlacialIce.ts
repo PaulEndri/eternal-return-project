@@ -4,14 +4,8 @@ export const GlacialIce: Item = {
 	"id": 205402,
 	"name": "GlacialIce",
 	"buildsInto": [
-		{
-			"name": "Bracelet of Skadi",
-			"id": 203501
-		},
-		{
-			"name": "Glacial Shoes",
-			"id": 204410
-		}
+		203501,
+		204410
 	],
 	"requirements": {
 		"Tree of Life": 1,
@@ -21,7 +15,7 @@ export const GlacialIce: Item = {
 	"stats": {
 		"hpRegen": 1.5,
 		"spRegen": 1.5,
-		"increaseSkillDamage": 18
+		"increaseSkillDamageRatio": 18
 	},
 	"rarity": "Epic",
 	"code": "만년빙",
@@ -31,14 +25,8 @@ export const GlacialIce: Item = {
 	"foundQuantity": 1,
 	"description": "It seems different from normal ice. It practically burns me to the bone by just looking at it. Keep it out of your lemonade.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205301
-		},
-		{
-			"name": "Scissors",
-			"id": 301103
-		}
+		205301,
+		301103
 	],
 	"displayName": "Glacial Ice",
 	"apiMetaData": {

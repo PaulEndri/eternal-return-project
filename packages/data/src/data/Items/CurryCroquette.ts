@@ -4,14 +4,8 @@ export const CurryCroquette: Item = {
 	"id": 302322,
 	"name": "CurryCroquette",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Curry Powder"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Oil"
-		}
+		302120,
+		401203
 	],
 	"buildsInto": [],
 	"requirements": {

@@ -4,38 +4,15 @@ export const Ash: Item = {
 	"id": 401210,
 	"name": "Ash",
 	"buildsInto": [
-		{
-			"name": "Mount Slicer",
-			"id": 101402
-		},
-		{
-			"name": "Phoenix Gloves",
-			"id": 110404
-		},
-		{
-			"name": "Mystic Jade Charm",
-			"id": 113405
-		},
-		{
-			"name": "Devil's Marksman",
-			"id": 116403
-		},
-		{
-			"name": "The Smiting Dragon",
-			"id": 119401
-		},
-		{
-			"name": "Purple Haze",
-			"id": 121403
-		},
-		{
-			"name": "Straitjacket Sneakers",
-			"id": 204406
-		},
-		{
-			"name": "Poison",
-			"id": 401302
-		}
+		101402,
+		108501,
+		110404,
+		113405,
+		116403,
+		119401,
+		121403,
+		204406,
+		401302
 	],
 	"requirements": {
 		"Paper": 1,
@@ -50,14 +27,8 @@ export const Ash: Item = {
 	"foundQuantity": 1,
 	"description": "The remains of something burning.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401117
-		},
-		{
-			"name": "Scissors",
-			"id": 401107
-		}
+		401117,
+		401107
 	],
 	"displayName": "Ash",
 	"apiMetaData": {
@@ -70,14 +41,8 @@ export const Ash: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

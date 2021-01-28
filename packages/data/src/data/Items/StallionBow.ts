@@ -4,10 +4,8 @@ export const StallionBow: Item = {
 	"id": 114302,
 	"name": "StallionBow",
 	"buildsInto": [
-		{
-			"name": "Ancient bolt",
-			"id": 114401
-		}
+		114401,
+		114401
 	],
 	"requirements": {
 		"Bow": 1,
@@ -17,7 +15,7 @@ export const StallionBow: Item = {
 	},
 	"stats": {
 		"attackPower": 20,
-		"increaseBasicAttackDamage": 25
+		"preventBasicAttackDamaged": 25
 	},
 	"rarity": "Rare",
 	"code": "국궁",
@@ -27,14 +25,8 @@ export const StallionBow: Item = {
 	"foundQuantity": 1,
 	"description": "A traditional Korean bow that can kill a tiger with a single arrow.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114303
-		},
-		{
-			"name": "Scissors",
-			"id": 401109
-		}
+		114303,
+		401109
 	],
 	"displayName": "Stallion Bow",
 	"apiMetaData": {

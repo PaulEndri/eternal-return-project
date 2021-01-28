@@ -4,14 +4,8 @@ export const OnTheRocks: Item = {
 	"id": 301217,
 	"name": "OnTheRocks",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Ice"
-		},
-		{
-			"name": "Scissors",
-			"id": "Whiskey"
-		}
+		301103,
+		301104
 	],
 	"buildsInto": [],
 	"requirements": {

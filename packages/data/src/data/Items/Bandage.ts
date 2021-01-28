@@ -4,26 +4,11 @@ export const Bandage: Item = {
 	"id": 203102,
 	"name": "Bandage",
 	"buildsInto": [
-		{
-			"name": "Patched Robe",
-			"id": 202206
-		},
-		{
-			"name": "Squad Leader Armband",
-			"id": 203202
-		},
-		{
-			"name": "Bracer",
-			"id": 203203
-		},
-		{
-			"name": "First Aid Kit",
-			"id": 302324
-		},
-		{
-			"name": "Oilcloth",
-			"id": 401202
-		}
+		202206,
+		203202,
+		203203,
+		401202,
+		302324
 	],
 	"requirements": {},
 	"stats": {
@@ -53,10 +38,7 @@ export const Bandage: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

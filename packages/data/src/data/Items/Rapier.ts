@@ -4,18 +4,9 @@ export const Rapier: Item = {
 	"id": 120201,
 	"name": "Rapier",
 	"buildsInto": [
-		{
-			"name": "Apricot Sword",
-			"id": 120301
-		},
-		{
-			"name": "Sword of Justice",
-			"id": 120302
-		},
-		{
-			"name": "Joyeuse",
-			"id": 120405
-		}
+		120301,
+		120302,
+		120405
 	],
 	"requirements": {
 		"Needle": 1,
@@ -33,14 +24,8 @@ export const Rapier: Item = {
 	"foundQuantity": 1,
 	"description": "A one-handed sword for personal combat with a long, thin blade ideal for stabbing. Used mostly in the 16th and 17th centuries.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 120101
-		},
-		{
-			"name": "Scissors",
-			"id": 401118
-		}
+		120101,
+		401118
 	],
 	"displayName": "Rapier",
 	"apiMetaData": {

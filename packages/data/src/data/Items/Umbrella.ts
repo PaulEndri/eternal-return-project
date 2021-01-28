@@ -4,10 +4,7 @@ export const Umbrella: Item = {
 	"id": 108401,
 	"name": "Umbrella",
 	"buildsInto": [
-		{
-			"name": "Spy Umbrella",
-			"id": 108501
-		}
+		108501
 	],
 	"requirements": {
 		"Short Rod": 1,
@@ -16,7 +13,7 @@ export const Umbrella: Item = {
 	},
 	"stats": {
 		"attackPower": 30,
-		"increaseSkillDamage": 14
+		"increaseSkillDamageRatio": 14
 	},
 	"rarity": "Rare",
 	"code": "우산",
@@ -26,14 +23,8 @@ export const Umbrella: Item = {
 	"foundQuantity": 1,
 	"description": "You might wonder how this became a weapon, but it is often used as a murder weapon in mystery stories.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108202
-		},
-		{
-			"name": "Scissors",
-			"id": 205105
-		}
+		108202,
+		205105
 	],
 	"displayName": "Umbrella",
 	"apiMetaData": {

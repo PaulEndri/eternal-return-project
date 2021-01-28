@@ -5,19 +5,11 @@ export const Snare: Item = {
 	"name": "Snare",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Bamboo Trap",
-			"id": 502204
-		},
-		{
-			"name": "Booby Trap",
-			"id": 502205
-		}
+		502204,
+		502205
 	],
 	"requirements": {},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Common",
 	"stackable": true,
 	"maxStacks": 5,
@@ -25,9 +17,9 @@ export const Snare: Item = {
 		"Pond": 6,
 		"Archery Range": 5,
 		"Forest": 5,
-		"Chapel": 5,
-		"Beach": 5,
-		"Dock": 6
+		"Chapel": 4,
+		"Beach": 3,
+		"Dock": 5
 	},
 	"foundQuantity": 2,
 	"displayName": "Snare",
@@ -41,10 +33,7 @@ export const Snare: Item = {
 		"category": "Special"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

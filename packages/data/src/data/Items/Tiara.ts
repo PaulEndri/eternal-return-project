@@ -4,10 +4,7 @@ export const Tiara: Item = {
 	"id": 201303,
 	"name": "Tiara",
 	"buildsInto": [
-		{
-			"name": "Crystal Tiara",
-			"id": 201404
-		}
+		201404
 	],
 	"requirements": {
 		"Hairband": 1,
@@ -15,6 +12,7 @@ export const Tiara: Item = {
 		"Stallion Medal": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.07,
 		"defense": 14,
 		"maxSp": 460
 	},
@@ -26,14 +24,8 @@ export const Tiara: Item = {
 	"foundQuantity": 1,
 	"description": "A crown-like accessory for the head. Worn by both princesses and beauty pagent winners.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201202
-		},
-		{
-			"name": "Scissors",
-			"id": 401109
-		}
+		201202,
+		401109
 	],
 	"displayName": "Tiara",
 	"apiMetaData": {

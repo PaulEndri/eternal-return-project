@@ -4,10 +4,7 @@ export const SteelShield: Item = {
 	"id": 203401,
 	"name": "SteelShield",
 	"buildsInto": [
-		{
-			"name": "Creed of the Knight",
-			"id": 203406
-		}
+		203406
 	],
 	"requirements": {
 		"Turtle Shell": 1,
@@ -17,8 +14,8 @@ export const SteelShield: Item = {
 	},
 	"stats": {
 		"attackPower": 23,
-		"defense": 25,
-		"moveSpeed": -0.1
+		"defense": 20,
+		"moveSpeed": -0.05
 	},
 	"rarity": "Rare",
 	"code": "강철방패",
@@ -28,14 +25,8 @@ export const SteelShield: Item = {
 	"foundQuantity": 1,
 	"description": "A durable shield made of metal and leather.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203201
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		203201,
+		401201
 	],
 	"displayName": "Steel Shield",
 	"apiMetaData": {

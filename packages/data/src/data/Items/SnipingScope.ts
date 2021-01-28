@@ -4,22 +4,16 @@ export const SnipingScope: Item = {
 	"id": 205206,
 	"name": "SnipingScope",
 	"buildsInto": [
-		{
-			"name": "Sniper Crossbow",
-			"id": 115404
-		},
-		{
-			"name": "Humbucker Pickup",
-			"id": 121302
-		}
+		115404,
+		121302
 	],
 	"requirements": {
 		"Laser Pointer": 1,
 		"Binoculars": 1
 	},
 	"stats": {
-		"attackPower": 6,
-		"sightRange": 4
+		"attackPower": 10,
+		"sightRange": 4.5
 	},
 	"rarity": "Uncommon",
 	"code": "저격스코프",
@@ -29,14 +23,8 @@ export const SnipingScope: Item = {
 	"foundQuantity": 1,
 	"description": "You might be able to improve your accuracy with this on a rifle or other firearm.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401108
-		},
-		{
-			"name": "Scissors",
-			"id": 205110
-		}
+		401108,
+		205110
 	],
 	"displayName": "Sniping Scope",
 	"apiMetaData": {

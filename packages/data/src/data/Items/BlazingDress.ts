@@ -12,11 +12,11 @@ export const BlazingDress: Item = {
 		"Scissors": 1
 	},
 	"stats": {
-		"defense": 25,
+		"defense": 30,
 		"hpRegen": 2.5,
 		"spRegen": 3,
 		"spRegenRatio": 0.75,
-		"increaseBasicAttackDamage": 18
+		"preventBasicAttackDamaged": 18
 	},
 	"rarity": "Legend",
 	"code": "불꽃드레스",
@@ -26,14 +26,8 @@ export const BlazingDress: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205403
-		},
-		{
-			"name": "Scissors",
-			"id": 202207
-		}
+		205403,
+		202207
 	],
 	"displayName": "Blazing Dress",
 	"apiMetaData": {

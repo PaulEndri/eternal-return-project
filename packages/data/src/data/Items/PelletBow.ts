@@ -4,10 +4,7 @@ export const PelletBow: Item = {
 	"id": 114304,
 	"name": "PelletBow",
 	"buildsInto": [
-		{
-			"name": "Golden-Ratio Bow",
-			"id": 114403
-		}
+		114403
 	],
 	"requirements": {
 		"Branch": 1,
@@ -26,14 +23,8 @@ export const PelletBow: Item = {
 	"foundQuantity": 1,
 	"description": "Can fire bullets instead of arrows. It'd be a good idea to check to see if there are more bullets around.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 114201
-		},
-		{
-			"name": "Scissors",
-			"id": 401215
-		}
+		114201,
+		401215
 	],
 	"displayName": "Pellet Bow",
 	"apiMetaData": {

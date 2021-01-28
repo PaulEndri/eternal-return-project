@@ -13,11 +13,11 @@ export const GlacialShoes: Item = {
 	},
 	"stats": {
 		"hpRegen": 2,
-		"moveSpeed": 0.15,
-		"moveSpeedOutOfCombat": 0.5,
+		"moveSpeed": 0.25,
+		"moveSpeedOutOfCombat": 0.45,
 		"spRegen": 2,
 		"spRegenRatio": 0.6,
-		"increaseSkillDamage": 15
+		"increaseSkillDamageRatio": 15
 	},
 	"rarity": "Legend",
 	"code": "글레이셜슈즈",
@@ -27,14 +27,8 @@ export const GlacialShoes: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204301
-		},
-		{
-			"name": "Scissors",
-			"id": 205402
-		}
+		204301,
+		205402
 	],
 	"displayName": "Glacial Shoes",
 	"apiMetaData": {

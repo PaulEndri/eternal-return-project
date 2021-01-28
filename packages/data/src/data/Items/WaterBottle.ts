@@ -4,14 +4,8 @@ export const WaterBottle: Item = {
 	"id": 301203,
 	"name": "WaterBottle",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Water"
-		},
-		{
-			"name": "Scissors",
-			"id": "Glass Bottle"
-		}
+		301102,
+		112104
 	],
 	"buildsInto": [],
 	"requirements": {

@@ -13,9 +13,9 @@ export const CardsOfTyranny: Item = {
 	},
 	"stats": {
 		"attackPower": 49,
-		"attackSpeedRatio": 0.3,
+		"attackSpeedRatio": 0.4,
 		"charges": 52,
-		"criticalStrikeChance": 0.2
+		"criticalStrikeChance": 0.25
 	},
 	"rarity": "Epic",
 	"code": "미치광이왕의카드",
@@ -25,14 +25,8 @@ export const CardsOfTyranny: Item = {
 	"foundQuantity": 1,
 	"description": "A brazen claim by some say they used to be fighters, but nobody has ever actually seen them fight.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113203
-		},
-		{
-			"name": "Scissors",
-			"id": 401306
-		}
+		113203,
+		401306
 	],
 	"displayName": "Cards of Tyranny",
 	"apiMetaData": {

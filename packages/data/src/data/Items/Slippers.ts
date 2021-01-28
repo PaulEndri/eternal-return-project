@@ -4,14 +4,8 @@ export const Slippers: Item = {
 	"id": 204101,
 	"name": "Slippers",
 	"buildsInto": [
-		{
-			"name": "High Heels",
-			"id": 204203
-		},
-		{
-			"name": "Repaired Slippers",
-			"id": 204301
-		}
+		204203,
+		204301
 	],
 	"requirements": {},
 	"stats": {
@@ -23,7 +17,7 @@ export const Slippers: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Hospital": 6,
 		"School": 7
 	},
@@ -41,10 +35,7 @@ export const Slippers: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

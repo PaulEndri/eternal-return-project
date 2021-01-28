@@ -4,18 +4,9 @@ export const HolyGrail: Item = {
 	"id": 205108,
 	"name": "HolyGrail",
 	"buildsInto": [
-		{
-			"name": "Excalibur",
-			"id": 102407
-		},
-		{
-			"name": "Stairway to Heaven",
-			"id": 121402
-		},
-		{
-			"name": "Saint's Relic",
-			"id": 205202
-		}
+		102407,
+		121402,
+		205202
 	],
 	"requirements": {},
 	"stats": {
@@ -42,14 +33,8 @@ export const HolyGrail: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		},
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		2,
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

@@ -4,10 +4,7 @@ export const Quiver: Item = {
 	"id": 205208,
 	"name": "Quiver",
 	"buildsInto": [
-		{
-			"name": "Laced Quiver",
-			"id": 205304
-		}
+		205304
 	],
 	"requirements": {
 		"Leather": 1,
@@ -24,14 +21,8 @@ export const Quiver: Item = {
 	"foundQuantity": 1,
 	"description": "Rather pointless by itself. On the otherhand, if you stash some arrows in it...",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401103
-		},
-		{
-			"name": "Scissors",
-			"id": 108103
-		}
+		401103,
+		108103
 	],
 	"displayName": "Quiver",
 	"apiMetaData": {

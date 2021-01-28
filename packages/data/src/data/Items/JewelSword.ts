@@ -4,14 +4,8 @@ export const JewelSword: Item = {
 	"id": 102404,
 	"name": "JewelSword",
 	"buildsInto": [
-		{
-			"name": "Excalibur",
-			"id": 102407
-		},
-		{
-			"name": "Hovud",
-			"id": 102411
-		}
+		102407,
+		102411
 	],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -31,14 +25,8 @@ export const JewelSword: Item = {
 	"foundQuantity": 1,
 	"description": "Valuable by its very existence. Often is the case of such swords that were made with precious materials or used by a famous hero.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102201
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		102201,
+		401204
 	],
 	"displayName": "Jewel Sword",
 	"apiMetaData": {

@@ -63,7 +63,7 @@ export class MaterialList {
     return new MaterialList().addFromList(this.list);
   }
 
-  public getAllCraftableItems(idsOnly = false): Item[] {
+  public getAllCraftableItems(idsOnly = false): Item[] | number[] {
     let results = [];
     let changed = true;
     const tmpList = this.clone();
@@ -75,17 +75,17 @@ export class MaterialList {
         ({ buildsFrom }) =>
           buildsFrom &&
           buildsFrom.length > 0 &&
-          buildsFrom.every(({ id }) => tmpList.list[id])
+          buildsFrom.every((id) => tmpList.list[id])
       );
-      results.forEach(({ id }) => tmpList.add(id, 4));
+      results.forEach((res) => tmpList.add(res.id, 4));
 
       changed = originalLength !== results.length;
     }
 
     if (idsOnly) {
-      return results.map(({ id }) => id);
+      return results.map((res) => res.id);
     }
 
-    return results.map(({ id }) => new Item(id));
+    return results.map((id) => new Item(id));
   }
 }

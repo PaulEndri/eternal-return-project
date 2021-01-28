@@ -5,34 +5,13 @@ export const Milk: Item = {
 	"name": "Milk",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Latte",
-			"id": 301210
-		},
-		{
-			"name": "Honey Milk",
-			"id": 301211
-		},
-		{
-			"name": "Chocolate Milk",
-			"id": 301214
-		},
-		{
-			"name": "Cowboy",
-			"id": 301218
-		},
-		{
-			"name": "White Russian",
-			"id": 301311
-		},
-		{
-			"name": "Butter",
-			"id": 302206
-		},
-		{
-			"name": "Potato Soup",
-			"id": 302228
-		}
+		301210,
+		301211,
+		301214,
+		301218,
+		301311,
+		302206,
+		302228
 	],
 	"requirements": {},
 	"stats": {

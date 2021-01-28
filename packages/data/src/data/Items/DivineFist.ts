@@ -12,9 +12,9 @@ export const DivineFist: Item = {
 		"Cross": 1
 	},
 	"stats": {
-		"attackPower": 46,
+		"attackPower": 53,
 		"moveSpeed": -0.05,
-		"increaseBasicAttackDamage": 33
+		"preventBasicAttackDamaged": 33
 	},
 	"rarity": "Epic",
 	"code": "디바인피스트",
@@ -24,14 +24,8 @@ export const DivineFist: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110402
-		},
-		{
-			"name": "Scissors",
-			"id": 205109
-		}
+		110402,
+		205109
 	],
 	"displayName": "Divine Fist",
 	"apiMetaData": {

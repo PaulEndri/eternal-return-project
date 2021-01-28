@@ -12,7 +12,7 @@ export const EveningStar: Item = {
 		"Iron Ball": 1
 	},
 	"stats": {
-		"attackPower": 150
+		"attackPower": 145
 	},
 	"rarity": "Epic",
 	"code": "개밥바라기",
@@ -22,14 +22,8 @@ export const EveningStar: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401301
-		},
-		{
-			"name": "Scissors",
-			"id": 104301
-		}
+		401301,
+		104301
 	],
 	"displayName": "Evening Star",
 	"apiMetaData": {

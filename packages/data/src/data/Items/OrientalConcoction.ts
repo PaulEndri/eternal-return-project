@@ -4,14 +4,8 @@ export const OrientalConcoction: Item = {
 	"id": 302314,
 	"name": "OrientalConcoction",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Oriental Herb"
-		},
-		{
-			"name": "Scissors",
-			"id": "Boiling Water"
-		}
+		302116,
+		301201
 	],
 	"buildsInto": [],
 	"requirements": {

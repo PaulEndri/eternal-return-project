@@ -14,7 +14,7 @@ export const Arondight: Item = {
 	"stats": {
 		"attackPower": 50,
 		"attackSpeedRatio": 0.25,
-		"increaseBasicAttackDamage": 23
+		"preventBasicAttackDamaged": 23
 	},
 	"rarity": "Epic",
 	"code": "아론다이트",
@@ -24,14 +24,8 @@ export const Arondight: Item = {
 	"foundQuantity": 1,
 	"description": "The sword of Sir Lancelot, who was a dragon slayer that cut down the fire drake during the rescue of princess Elaine of Corbenic.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102401
-		},
-		{
-			"name": "Scissors",
-			"id": 205109
-		}
+		102401,
+		205109
 	],
 	"displayName": "Arondight",
 	"apiMetaData": {

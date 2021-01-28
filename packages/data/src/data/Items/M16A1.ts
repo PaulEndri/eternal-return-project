@@ -4,10 +4,7 @@ export const M16A1: Item = {
 	"id": 117401,
 	"name": "M16A1",
 	"buildsInto": [
-		{
-			"name": "XCR",
-			"id": 117405
-		}
+		117405
 	],
 	"requirements": {
 		"Fedorova": 1,
@@ -18,7 +15,7 @@ export const M16A1: Item = {
 		"attackPower": 25,
 		"charges": 3,
 		"sightRange": 1.5,
-		"increaseBasicAttackDamage": 4
+		"preventBasicAttackDamaged": 4
 	},
 	"rarity": "Rare",
 	"code": "M16A1",
@@ -28,14 +25,8 @@ export const M16A1: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 117201
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		117201,
+		401103
 	],
 	"displayName": "M16A1",
 	"apiMetaData": {

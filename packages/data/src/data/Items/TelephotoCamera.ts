@@ -4,10 +4,7 @@ export const TelephotoCamera: Item = {
 	"id": 502207,
 	"name": "TelephotoCamera",
 	"buildsInto": [
-		{
-			"name": "Intervention",
-			"id": 118404
-		}
+		118404
 	],
 	"requirements": {
 		"Surveillance Camera": 1,
@@ -21,14 +18,8 @@ export const TelephotoCamera: Item = {
 	"locations": {},
 	"foundQuantity": 3,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 502101
-		},
-		{
-			"name": "Scissors",
-			"id": 205110
-		}
+		502101,
+		205110
 	],
 	"displayName": "Telephoto Camera",
 	"apiMetaData": {
@@ -41,10 +32,7 @@ export const TelephotoCamera: Item = {
 		"category": "Special"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wickline",
-			"id": 7
-		}
+		7
 	],
 	"airSupply": true,
 	"collectible": 0

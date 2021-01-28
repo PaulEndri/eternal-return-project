@@ -5,26 +5,11 @@ export const Coffee: Item = {
 	"name": "Coffee",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Ice Coffee",
-			"id": 301206
-		},
-		{
-			"name": "Coffee Liqueur",
-			"id": 301208
-		},
-		{
-			"name": "Latte",
-			"id": 301210
-		},
-		{
-			"name": "Americano",
-			"id": 301304
-		},
-		{
-			"name": "Bun",
-			"id": 302225
-		}
+		301206,
+		301208,
+		301210,
+		301304,
+		302225
 	],
 	"requirements": {},
 	"stats": {
@@ -36,7 +21,7 @@ export const Coffee: Item = {
 	"locations": {
 		"Cemetery": 5,
 		"Uptown": 5,
-		"Dock": 6
+		"Dock": 5
 	},
 	"foundQuantity": 1,
 	"displayName": "Coffee",

@@ -4,14 +4,8 @@ export const Tights: Item = {
 	"id": 204103,
 	"name": "Tights",
 	"buildsInto": [
-		{
-			"name": "Knee Pads",
-			"id": 204201
-		},
-		{
-			"name": "Chain Leggings",
-			"id": 204202
-		}
+		204201,
+		204202
 	],
 	"requirements": {},
 	"stats": {
@@ -23,7 +17,7 @@ export const Tights: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Hospital": 6,
 		"Forest": 7
 	},
@@ -41,10 +35,7 @@ export const Tights: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

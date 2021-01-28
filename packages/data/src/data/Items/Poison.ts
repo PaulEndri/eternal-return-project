@@ -4,26 +4,10 @@ export const Poison: Item = {
 	"id": 401302,
 	"name": "Poison",
 	"buildsInto": [
-		{
-			"name": "Lloigor & Zahr",
-			"id": 103502
-		},
-		{
-			"name": "Spy Umbrella",
-			"id": 108501
-		},
-		{
-			"name": "Venom Dart",
-			"id": 113402
-		},
-		{
-			"name": "Azure Dagger",
-			"id": 113409
-		},
-		{
-			"name": "Schrodinger's Box",
-			"id": 205404
-		}
+		103502,
+		113402,
+		113409,
+		205404
 	],
 	"requirements": {
 		"Paper": 1,
@@ -39,14 +23,8 @@ export const Poison: Item = {
 	"foundQuantity": 1,
 	"description": "DO NOT DRINK.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401210
-		},
-		{
-			"name": "Scissors",
-			"id": 301102
-		}
+		401210,
+		301102
 	],
 	"displayName": "Poison",
 	"apiMetaData": {
@@ -59,14 +37,8 @@ export const Poison: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

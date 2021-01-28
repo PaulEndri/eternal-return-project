@@ -4,18 +4,16 @@ export const Beret: Item = {
 	"id": 201203,
 	"name": "Beret",
 	"buildsInto": [
-		{
-			"name": "Ballistic Helmet",
-			"id": 201301
-		}
+		201301
 	],
 	"requirements": {
 		"Hat": 1,
 		"Scissors": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.07,
+		"cooldownReduction": 0.04,
 		"defense": 10,
+		"lifeSteal": 0.07,
 		"maxHp": 60
 	},
 	"rarity": "Uncommon",
@@ -26,14 +24,8 @@ export const Beret: Item = {
 	"foundQuantity": 1,
 	"description": "The trademark hat of painters and soldiers. It gets sweaty inside easily and it doesn't block the sun, but at least it looks cool.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201102
-		},
-		{
-			"name": "Scissors",
-			"id": 101101
-		}
+		201102,
+		101101
 	],
 	"displayName": "Beret",
 	"apiMetaData": {

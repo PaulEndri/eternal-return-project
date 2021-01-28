@@ -21,14 +21,8 @@ export const ImperialSilkGloves: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 502401
-		},
-		{
-			"name": "Scissors",
-			"id": 110201
-		}
+		502401,
+		110201
 	],
 	"displayName": "Imperial Silk Gloves",
 	"apiMetaData": {

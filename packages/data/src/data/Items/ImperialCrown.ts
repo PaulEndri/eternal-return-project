@@ -12,10 +12,11 @@ export const ImperialCrown: Item = {
 		"Hammer": 1
 	},
 	"stats": {
+		"cooldownReduction": 0.1,
 		"defense": 18,
 		"maxHp": 300,
 		"maxSp": 500,
-		"increaseSkillDamageRatio": 0.08
+		"preventSkillDamagedRatio": 0.08
 	},
 	"rarity": "Epic",
 	"code": "제국왕관",
@@ -25,14 +26,8 @@ export const ImperialCrown: Item = {
 	"foundQuantity": 1,
 	"description": "A crown built for the first and only monarch of the Kingdom of Finland, Friedrich Karl. However, due to the adoption of the republican constitution before the coronation, the crown has never been used since.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201401
-		},
-		{
-			"name": "Scissors",
-			"id": 401204
-		}
+		201401,
+		401204
 	],
 	"displayName": "Imperial Crown",
 	"apiMetaData": {

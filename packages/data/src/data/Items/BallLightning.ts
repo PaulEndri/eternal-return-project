@@ -4,10 +4,7 @@ export const BallLightning: Item = {
 	"id": 112303,
 	"name": "BallLightning",
 	"buildsInto": [
-		{
-			"name": "Incendiary Bomb",
-			"id": 112302
-		}
+		112302
 	],
 	"requirements": {
 		"Iron Ball": 1,
@@ -27,14 +24,8 @@ export const BallLightning: Item = {
 	"foundQuantity": 1,
 	"description": "You can knock out your enemies by throwing the hammer, but it's your choice to run or keep fighting.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112103
-		},
-		{
-			"name": "Scissors",
-			"id": 401205
-		}
+		112103,
+		401205
 	],
 	"displayName": "Ball Lightning",
 	"apiMetaData": {

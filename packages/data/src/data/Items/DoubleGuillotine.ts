@@ -4,14 +4,8 @@ export const DoubleGuillotine: Item = {
 	"id": 502405,
 	"name": "DoubleGuillotine",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Jungle Guillotine"
-		},
-		{
-			"name": "Scissors",
-			"id": "Pendulum Axe"
-		}
+		502303,
+		502305
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -21,9 +15,7 @@ export const DoubleGuillotine: Item = {
 		"Bamboo": 1,
 		"Hatchet": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Epic",
 	"stackable": true,
 	"maxStacks": 5,

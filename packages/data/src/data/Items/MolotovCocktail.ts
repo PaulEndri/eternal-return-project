@@ -4,14 +4,8 @@ export const MolotovCocktail: Item = {
 	"id": 112203,
 	"name": "MolotovCocktail",
 	"buildsInto": [
-		{
-			"name": "Flour Bomb",
-			"id": 112301
-		},
-		{
-			"name": "Incendiary Bomb",
-			"id": 112302
-		}
+		112301,
+		112302
 	],
 	"requirements": {
 		"Glass Bottle": 1,
@@ -30,14 +24,8 @@ export const MolotovCocktail: Item = {
 	"foundQuantity": 1,
 	"description": "Make a mistake and drop it, you'll become your own worst enemy.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112104
-		},
-		{
-			"name": "Scissors",
-			"id": 401112
-		}
+		112104,
+		401112
 	],
 	"displayName": "Molotov Cocktail",
 	"apiMetaData": {

@@ -5,10 +5,7 @@ export const AdhesiveBandage: Item = {
 	"name": "AdhesiveBandage",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Disinfectant",
-			"id": 302213
-		}
+		302213
 	],
 	"requirements": {},
 	"stats": {

@@ -12,9 +12,9 @@ export const LloigorZahr: Item = {
 		"Water": 1
 	},
 	"stats": {
-		"attackPower": 33,
-		"attackSpeedRatio": 0.2,
-		"increaseSkillDamage": 36
+		"attackPower": 38,
+		"attackSpeedRatio": 0.15,
+		"increaseSkillDamageRatio": 36
 	},
 	"rarity": "Epic",
 	"code": "로이거 차르",
@@ -24,14 +24,8 @@ export const LloigorZahr: Item = {
 	"foundQuantity": 1,
 	"description": "You'll love crafting these twin swords, just be careful if you feel wind but the weather isn't windy. Lloigor might be watching.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 103201
-		},
-		{
-			"name": "Scissors",
-			"id": 401302
-		}
+		103201,
+		401302
 	],
 	"displayName": "Lloigor & Zahr",
 	"apiMetaData": {

@@ -12,11 +12,11 @@ export const DevilsMarksman: Item = {
 		"Lighter": 1
 	},
 	"stats": {
-		"attackPower": 30,
+		"attackPower": 35,
 		"attackSpeedRatio": 0.1,
 		"charges": 30,
 		"moveSpeed": 0.1,
-		"increaseSkillDamage": 40
+		"increaseSkillDamageRatio": 42
 	},
 	"rarity": "Epic",
 	"code": "마탄의사수",
@@ -26,14 +26,8 @@ export const DevilsMarksman: Item = {
 	"foundQuantity": 1,
 	"description": "You can perfect your marksmanship by selling your soul to the devil. What could possibly go wrong?",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116401
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		116401,
+		401210
 	],
 	"displayName": "Devil's Marksman",
 	"apiMetaData": {

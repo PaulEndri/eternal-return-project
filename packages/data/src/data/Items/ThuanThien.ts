@@ -4,14 +4,8 @@ export const ThuanThien: Item = {
 	"id": 102405,
 	"name": "ThuanThien",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Bastard Sword"
-		},
-		{
-			"name": "Scissors",
-			"id": "Turtle Shell"
-		}
+		102403,
+		401104
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -22,8 +16,7 @@ export const ThuanThien: Item = {
 	},
 	"stats": {
 		"attackPower": 77,
-		"defense": 25,
-		"moveSpeed": -0.1
+		"defense": 25
 	},
 	"rarity": "Rare",
 	"stackable": false,

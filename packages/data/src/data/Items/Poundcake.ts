@@ -4,14 +4,8 @@ export const Poundcake: Item = {
 	"id": 302319,
 	"name": "Poundcake",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Butter"
-		},
-		{
-			"name": "Scissors",
-			"id": "Bread"
-		}
+		302206,
+		302110
 	],
 	"buildsInto": [],
 	"requirements": {

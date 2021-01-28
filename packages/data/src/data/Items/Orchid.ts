@@ -4,20 +4,11 @@ export const Orchid: Item = {
 	"id": 302218,
 	"name": "Orchid",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Oriental Herb"
-		},
-		{
-			"name": "Scissors",
-			"id": "Flower"
-		}
+		302116,
+		205102
 	],
 	"buildsInto": [
-		{
-			"name": "Healing Potion",
-			"id": 302317
-		}
+		302317
 	],
 	"requirements": {
 		"Oriental Herb": 1,

@@ -4,14 +4,8 @@ export const RoseKnife: Item = {
 	"id": 101301,
 	"name": "RoseKnife",
 	"buildsInto": [
-		{
-			"name": "Carnwennan",
-			"id": 101401
-		},
-		{
-			"name": "Mount Slicer",
-			"id": 101402
-		}
+		101401,
+		101402
 	],
 	"requirements": {
 		"Kitchen Knife": 1,
@@ -20,7 +14,7 @@ export const RoseKnife: Item = {
 	},
 	"stats": {
 		"attackPower": 20,
-		"cooldownReduction": 0.1,
+		"lifeSteal": 0.1,
 		"moveSpeed": 0.1,
 		"moveSpeedOutOfCombat": 0.1
 	},
@@ -32,14 +26,8 @@ export const RoseKnife: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101201
-		},
-		{
-			"name": "Scissors",
-			"id": 205102
-		}
+		101201,
+		205102
 	],
 	"displayName": "Rose Knife",
 	"apiMetaData": {

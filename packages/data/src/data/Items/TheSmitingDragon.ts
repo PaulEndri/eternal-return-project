@@ -13,8 +13,7 @@ export const TheSmitingDragon: Item = {
 	},
 	"stats": {
 		"attackPower": 50,
-		"decreaseRecoveryToSkill": 1,
-		"increaseSkillDamage": 14
+		"increaseSkillDamageRatio": 17
 	},
 	"rarity": "Epic",
 	"code": "대소반룡곤",
@@ -24,14 +23,8 @@ export const TheSmitingDragon: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 119301
-		},
-		{
-			"name": "Scissors",
-			"id": 401210
-		}
+		119301,
+		401210
 	],
 	"displayName": "The Smiting Dragon",
 	"apiMetaData": {

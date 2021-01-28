@@ -15,8 +15,7 @@ export const RutheniumMarble: Item = {
 	"stats": {
 		"attackPower": 80,
 		"charges": 50,
-		"decreaseRecoveryToSkill": 1,
-		"increaseSkillDamageRatio": 0.2
+		"preventSkillDamagedRatio": 0.26
 	},
 	"rarity": "Epic",
 	"code": "루테늄구슬",
@@ -26,14 +25,8 @@ export const RutheniumMarble: Item = {
 	"foundQuantity": 1,
 	"description": "Made out of Ruthenium, which is the hardest element among the platinum metals. It also has applications as a superconductor.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112403
-		},
-		{
-			"name": "Scissors",
-			"id": 401214
-		}
+		112403,
+		401214
 	],
 	"displayName": "Ruthenium Marble",
 	"apiMetaData": {

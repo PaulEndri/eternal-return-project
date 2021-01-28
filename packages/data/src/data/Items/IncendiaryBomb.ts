@@ -14,7 +14,8 @@ export const IncendiaryBomb: Item = {
 	"stats": {
 		"attackPower": 70,
 		"attackSpeedRatio": 0.5,
-		"charges": 50
+		"charges": 50,
+		"lifeSteal": 0.08
 	},
 	"rarity": "Epic",
 	"code": "소이탄",
@@ -24,14 +25,8 @@ export const IncendiaryBomb: Item = {
 	"foundQuantity": 1,
 	"description": "Inflict damage by quickly spreading fire to an area. It'll be hard to extinguish.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 112203
-		},
-		{
-			"name": "Scissors",
-			"id": 112303
-		}
+		112203,
+		112303
 	],
 	"displayName": "Incendiary Bomb",
 	"apiMetaData": {

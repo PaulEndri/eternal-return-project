@@ -4,10 +4,8 @@ export const SteelBow: Item = {
 	"id": 115401,
 	"name": "SteelBow",
 	"buildsInto": [
-		{
-			"name": "The Legend of The General",
-			"id": 115402
-		}
+		115402,
+		115402
 	],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -27,14 +25,8 @@ export const SteelBow: Item = {
 	"foundQuantity": 1,
 	"description": "A bow made out of steel. It might be heavy to some.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115202
-		},
-		{
-			"name": "Scissors",
-			"id": 401213
-		}
+		115202,
+		401213
 	],
 	"displayName": "Steel Bow",
 	"apiMetaData": {

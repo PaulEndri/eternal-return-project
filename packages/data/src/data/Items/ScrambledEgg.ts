@@ -4,14 +4,8 @@ export const ScrambledEgg: Item = {
 	"id": 302309,
 	"name": "ScrambledEgg",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Egg"
-		},
-		{
-			"name": "Scissors",
-			"id": "Heated Oil"
-		}
+		302112,
+		401203
 	],
 	"buildsInto": [],
 	"requirements": {

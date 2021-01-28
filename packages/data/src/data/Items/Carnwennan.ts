@@ -12,12 +12,12 @@ export const Carnwennan: Item = {
 		"Holy Grail": 1
 	},
 	"stats": {
-		"attackPower": 37,
-		"cooldownReduction": 0.1,
-		"hpRegen": 1.5,
+		"attackPower": 44,
+		"hpRegen": 1.2,
+		"lifeSteal": 0.12,
 		"moveSpeed": 0.1,
 		"moveSpeedOutOfCombat": 0.1,
-		"increaseBasicAttackDamage": 29
+		"preventBasicAttackDamaged": 29
 	},
 	"rarity": "Epic",
 	"code": "카른웬난",
@@ -27,14 +27,8 @@ export const Carnwennan: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101301
-		},
-		{
-			"name": "Scissors",
-			"id": 205202
-		}
+		101301,
+		205202
 	],
 	"displayName": "Carnwennan",
 	"apiMetaData": {

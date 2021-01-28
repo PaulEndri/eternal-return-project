@@ -15,10 +15,10 @@ describe('[Class] Material List', () => {
         const list = new MaterialList();
         const beach = new Location(Locations.Beach);
         list.addFromList(beach.materials.list);
-
+        console.log('[test]', beach.materials.list);
         Route.UNIVERSAL_ITEMS.forEach((id) => list.add(id, 10));
         const results = list.getAllCraftableItems(true);
-
+        console.log('[test]', results);
         expect(results).toContain(Items.MotorcycleHelmet);
       });
     });

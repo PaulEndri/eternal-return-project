@@ -4,10 +4,7 @@ export const Sharper: Item = {
 	"id": 119301,
 	"name": "Sharper",
 	"buildsInto": [
-		{
-			"name": "The Smiting Dragon",
-			"id": 119401
-		}
+		119401
 	],
 	"requirements": {
 		"Steel Chain": 1,
@@ -15,8 +12,7 @@ export const Sharper: Item = {
 		"Nail": 1
 	},
 	"stats": {
-		"attackPower": 19,
-		"decreaseRecoveryToSkill": 1
+		"attackPower": 29
 	},
 	"rarity": "Rare",
 	"code": "샤퍼",
@@ -26,14 +22,8 @@ export const Sharper: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 119201
-		},
-		{
-			"name": "Scissors",
-			"id": 401101
-		}
+		119201,
+		401101
 	],
 	"displayName": "Sharper",
 	"apiMetaData": {

@@ -4,22 +4,10 @@ export const CarbonatedWater: Item = {
 	"id": 301107,
 	"name": "CarbonatedWater",
 	"buildsInto": [
-		{
-			"name": "Lemonade",
-			"id": 301202
-		},
-		{
-			"name": "Cola",
-			"id": 301209
-		},
-		{
-			"name": "Highball",
-			"id": 301213
-		},
-		{
-			"name": "Ion Battery",
-			"id": 401306
-		}
+		301209,
+		401306,
+		301202,
+		301213
 	],
 	"requirements": {},
 	"stats": {

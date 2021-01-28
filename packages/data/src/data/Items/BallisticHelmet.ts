@@ -4,10 +4,7 @@ export const BallisticHelmet: Item = {
 	"id": 201301,
 	"name": "BallisticHelmet",
 	"buildsInto": [
-		{
-			"name": "Tactical OPS Helmet",
-			"id": 201406
-		}
+		201406
 	],
 	"requirements": {
 		"Hat": 1,
@@ -15,8 +12,9 @@ export const BallisticHelmet: Item = {
 		"Bike Helmet": 1
 	},
 	"stats": {
-		"cooldownReduction": 0.08,
+		"cooldownReduction": 0.07,
 		"defense": 15,
+		"lifeSteal": 0.08,
 		"maxHp": 90
 	},
 	"rarity": "Rare",
@@ -27,14 +25,8 @@ export const BallisticHelmet: Item = {
 	"foundQuantity": 1,
 	"description": "Battered and tattered Ballistic Helmet. Initials marked inside the helmet scratched out and written over. Seems it's been passed around plenty of times.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 201203
-		},
-		{
-			"name": "Scissors",
-			"id": 201104
-		}
+		201203,
+		201104
 	],
 	"displayName": "Ballistic Helmet",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const CarpBread: Item = {
 	"id": 302209,
 	"name": "CarpBread",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Bread"
-		},
-		{
-			"name": "Scissors",
-			"id": "Carp"
-		}
+		302110,
+		302109
 	],
 	"buildsInto": [],
 	"requirements": {

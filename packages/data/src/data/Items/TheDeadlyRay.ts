@@ -13,10 +13,10 @@ export const TheDeadlyRay: Item = {
 		"Gemstone": 1
 	},
 	"stats": {
-		"attackPower": 95,
-		"moveSpeed": -0.1,
+		"attackPower": 100,
+		"moveSpeed": -0.07,
 		"sightRange": 2.5,
-		"increaseSkillDamageRatio": 0.3
+		"preventSkillDamagedRatio": 0.33
 	},
 	"rarity": "Legend",
 	"code": "사사성광",
@@ -26,14 +26,8 @@ export const TheDeadlyRay: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401301
-		},
-		{
-			"name": "Scissors",
-			"id": 118401
-		}
+		401301,
+		118401
 	],
 	"displayName": "The Deadly Ray",
 	"apiMetaData": {

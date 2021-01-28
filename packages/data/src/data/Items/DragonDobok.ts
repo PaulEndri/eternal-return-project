@@ -14,8 +14,8 @@ export const DragonDobok: Item = {
 	"stats": {
 		"attackPower": 11,
 		"attackRange": 1,
-		"cooldownReduction": 0.1,
 		"defense": 10,
+		"lifeSteal": 0.1,
 		"spRegenRatio": 1.5
 	},
 	"rarity": "Epic",
@@ -26,14 +26,8 @@ export const DragonDobok: Item = {
 	"foundQuantity": 1,
 	"description": "A martial arts uniform designed for mental and physical training. You only qualify to wear this if you fulfill a particular set of prerequisites.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 202304
-		},
-		{
-			"name": "Scissors",
-			"id": 202203
-		}
+		202304,
+		202203
 	],
 	"displayName": "Dragon Dobok",
 	"apiMetaData": {

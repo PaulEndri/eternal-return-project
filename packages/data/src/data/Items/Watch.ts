@@ -4,14 +4,8 @@ export const Watch: Item = {
 	"id": 203101,
 	"name": "Watch",
 	"buildsInto": [
-		{
-			"name": "Vital Sign Sensor",
-			"id": 203405
-		},
-		{
-			"name": "Cube Watch",
-			"id": 203408
-		}
+		203405,
+		203408
 	],
 	"requirements": {},
 	"stats": {
@@ -22,7 +16,7 @@ export const Watch: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Hotel": 6,
 		"Uptown": 6
 	},
@@ -40,10 +34,7 @@ export const Watch: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

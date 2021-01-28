@@ -5,18 +5,9 @@ export const Ramen: Item = {
 	"name": "Ramen",
 	"buildsFrom": [],
 	"buildsInto": [
-		{
-			"name": "Hot Ramen",
-			"id": 302307
-		},
-		{
-			"name": "Stir Fried Ramen",
-			"id": 302327
-		},
-		{
-			"name": "Cold Noodles",
-			"id": 302328
-		}
+		302307,
+		302327,
+		302328
 	],
 	"requirements": {},
 	"stats": {
@@ -27,7 +18,7 @@ export const Ramen: Item = {
 	"maxStacks": 5,
 	"locations": {
 		"Alley": 6,
-		"Archery Range": 5,
+		"Temple": 4,
 		"Dock": 6
 	},
 	"foundQuantity": 1,

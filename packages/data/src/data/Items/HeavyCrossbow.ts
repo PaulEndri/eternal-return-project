@@ -4,10 +4,7 @@ export const HeavyCrossbow: Item = {
 	"id": 115303,
 	"name": "HeavyCrossbow",
 	"buildsInto": [
-		{
-			"name": "Ballista",
-			"id": 115403
-		}
+		115403
 	],
 	"requirements": {
 		"Short Crossbow": 1,
@@ -16,7 +13,7 @@ export const HeavyCrossbow: Item = {
 		"Iron Ore": 1
 	},
 	"stats": {
-		"attackPower": 72,
+		"attackPower": 69,
 		"charges": 6,
 		"moveSpeed": -0.1
 	},
@@ -28,14 +25,8 @@ export const HeavyCrossbow: Item = {
 	"foundQuantity": 1,
 	"description": "Heavier than a standard crossbow, but also that much stronger. It was a popular weapon in Medieval Europe as it was easy to learn and use.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 115201
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		115201,
+		401201
 	],
 	"displayName": "Heavy Crossbow",
 	"apiMetaData": {

@@ -4,14 +4,8 @@ export const RepairedSlippers: Item = {
 	"id": 204301,
 	"name": "RepairedSlippers",
 	"buildsInto": [
-		{
-			"name": "Straitjacket Sneakers",
-			"id": 204406
-		},
-		{
-			"name": "Glacial Shoes",
-			"id": 204410
-		}
+		204406,
+		204410
 	],
 	"requirements": {
 		"Slippers": 1,
@@ -30,14 +24,8 @@ export const RepairedSlippers: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 204101
-		},
-		{
-			"name": "Scissors",
-			"id": 401113
-		}
+		204101,
+		401113
 	],
 	"displayName": "Repaired Slippers",
 	"apiMetaData": {

@@ -4,22 +4,10 @@ export const ShortSpear: Item = {
 	"id": 107101,
 	"name": "ShortSpear",
 	"buildsInto": [
-		{
-			"name": "Bamboo Spear",
-			"id": 107201
-		},
-		{
-			"name": "Pike",
-			"id": 107302
-		},
-		{
-			"name": "Ballista",
-			"id": 115403
-		},
-		{
-			"name": "Harpoon Gun",
-			"id": 118301
-		}
+		107201,
+		107302,
+		115403,
+		118301
 	],
 	"requirements": {},
 	"stats": {
@@ -48,10 +36,7 @@ export const ShortSpear: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

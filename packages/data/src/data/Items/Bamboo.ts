@@ -4,46 +4,18 @@ export const Bamboo: Item = {
 	"id": 108103,
 	"name": "Bamboo",
 	"buildsInto": [
-		{
-			"name": "Battle Axe",
-			"id": 105202
-		},
-		{
-			"name": "Bamboo Spear",
-			"id": 107201
-		},
-		{
-			"name": "Long Rod",
-			"id": 108202
-		},
-		{
-			"name": "Tonfa",
-			"id": 111201
-		},
-		{
-			"name": "Wind and Fire Wheels",
-			"id": 113411
-		},
-		{
-			"name": "Ancient bolt",
-			"id": 114401
-		},
-		{
-			"name": "Crossbow",
-			"id": 115202
-		},
-		{
-			"name": "Superstrat",
-			"id": 121305
-		},
-		{
-			"name": "Quiver",
-			"id": 205208
-		},
-		{
-			"name": "Bamboo Trap",
-			"id": 502204
-		}
+		105202,
+		107201,
+		108202,
+		111201,
+		113411,
+		114401,
+		115202,
+		121101,
+		121305,
+		205208,
+		114401,
+		502204
 	],
 	"requirements": {},
 	"stats": {
@@ -56,7 +28,7 @@ export const Bamboo: Item = {
 	"locations": {
 		"Temple": 7,
 		"Pond": 7,
-		"Archery Range": 6,
+		"Archery Range": 5,
 		"Cemetery": 7,
 		"Forest": 7
 	},
@@ -74,10 +46,7 @@ export const Bamboo: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

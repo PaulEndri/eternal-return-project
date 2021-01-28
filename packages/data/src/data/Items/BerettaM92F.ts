@@ -4,22 +4,10 @@ export const BerettaM92F: Item = {
 	"id": 116202,
 	"name": "BerettaM92F",
 	"buildsInto": [
-		{
-			"name": "FN57",
-			"id": 116301
-		},
-		{
-			"name": "Double Revolver SP",
-			"id": 116401
-		},
-		{
-			"name": "Electron Blaster",
-			"id": 116405
-		},
-		{
-			"name": "Kelte",
-			"id": 116501
-		}
+		116301,
+		116401,
+		116405,
+		116501
 	],
 	"requirements": {
 		"Walther PPK": 1,
@@ -38,14 +26,8 @@ export const BerettaM92F: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116101
-		},
-		{
-			"name": "Scissors",
-			"id": 401103
-		}
+		116101,
+		401103
 	],
 	"displayName": "Beretta M92F",
 	"apiMetaData": {

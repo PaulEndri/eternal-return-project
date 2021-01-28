@@ -4,26 +4,11 @@ export const SaintsRelic: Item = {
 	"id": 205202,
 	"name": "SaintsRelic",
 	"buildsInto": [
-		{
-			"name": "Carnwennan",
-			"id": 101401
-		},
-		{
-			"name": "Hammer of Dagda",
-			"id": 104402
-		},
-		{
-			"name": "David's Sling",
-			"id": 112401
-		},
-		{
-			"name": "Crusader Armor",
-			"id": 202408
-		},
-		{
-			"name": "Veritas Lux Mea",
-			"id": 205405
-		}
+		101401,
+		104402,
+		112401,
+		202408,
+		205405
 	],
 	"requirements": {
 		"Cross": 1,
@@ -31,7 +16,7 @@ export const SaintsRelic: Item = {
 	},
 	"stats": {
 		"hpRegenRatio": 1.5,
-		"increaseBasicAttackDamage": 8
+		"preventBasicAttackDamaged": 8
 	},
 	"rarity": "Uncommon",
 	"code": "성자의유산",
@@ -41,14 +26,8 @@ export const SaintsRelic: Item = {
 	"foundQuantity": 1,
 	"description": "The last relic of one who fought to save those who have fallen, despite being betrayed, tortured, and crucified.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 205109
-		},
-		{
-			"name": "Scissors",
-			"id": 205108
-		}
+		205109,
+		205108
 	],
 	"displayName": "Saint's Relic",
 	"apiMetaData": {

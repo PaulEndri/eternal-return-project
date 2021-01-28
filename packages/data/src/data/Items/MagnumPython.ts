@@ -4,14 +4,8 @@ export const MagnumPython: Item = {
 	"id": 116201,
 	"name": "MagnumPython",
 	"buildsInto": [
-		{
-			"name": "Double Revolver SP",
-			"id": 116401
-		},
-		{
-			"name": "Magnum-Anaconda",
-			"id": 116402
-		}
+		116401,
+		116402
 	],
 	"requirements": {
 		"Walther PPK": 1,
@@ -31,14 +25,8 @@ export const MagnumPython: Item = {
 	"foundQuantity": 1,
 	"description": "If you research revolvers that use Magnum cartridges, you'll find that some of them use scientific names for snakes. This one is the  Pythonidae, also known as Python.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 116101
-		},
-		{
-			"name": "Scissors",
-			"id": 401112
-		}
+		116101,
+		401112
 	],
 	"displayName": "Magnum-Python",
 	"apiMetaData": {

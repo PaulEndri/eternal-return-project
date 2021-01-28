@@ -4,14 +4,8 @@ export const HoneyWater: Item = {
 	"id": 301215,
 	"name": "HoneyWater",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Honey"
-		},
-		{
-			"name": "Scissors",
-			"id": "Water"
-		}
+		301101,
+		301102
 	],
 	"buildsInto": [],
 	"requirements": {

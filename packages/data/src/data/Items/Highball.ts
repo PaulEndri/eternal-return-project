@@ -4,14 +4,8 @@ export const Highball: Item = {
 	"id": 301213,
 	"name": "Highball",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Whiskey"
-		},
-		{
-			"name": "Scissors",
-			"id": "Carbonated Water"
-		}
+		301104,
+		301107
 	],
 	"buildsInto": [],
 	"requirements": {

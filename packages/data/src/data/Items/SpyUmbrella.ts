@@ -14,7 +14,7 @@ export const SpyUmbrella: Item = {
 	},
 	"stats": {
 		"attackPower": 65,
-		"increaseSkillDamage": 25
+		"increaseSkillDamageRatio": 28
 	},
 	"rarity": "Epic",
 	"code": "스파이의우산",
@@ -24,14 +24,8 @@ export const SpyUmbrella: Item = {
 	"foundQuantity": 1,
 	"description": "There is a poisoned needle concealed at the tip of the umbrella. You can make use of it when the timing is right. Pretend to accidentally stab your target's foot with the tip while carrying it on a rainy day.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 108401
-		},
-		{
-			"name": "Scissors",
-			"id": 401302
-		}
+		108401,
+		401210
 	],
 	"displayName": "Spy Umbrella",
 	"apiMetaData": {

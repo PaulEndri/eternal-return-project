@@ -4,10 +4,7 @@ export const GlassKnuckles: Item = {
 	"id": 110403,
 	"name": "GlassKnuckles",
 	"buildsInto": [
-		{
-			"name": "White Claw Punch",
-			"id": 110411
-		}
+		110411
 	],
 	"requirements": {
 		"Brass Knuckles": 1,
@@ -27,14 +24,8 @@ export const GlassKnuckles: Item = {
 	"foundQuantity": 1,
 	"description": "Knuckles coated with glass fragments. They're not entirely made of glass!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110202
-		},
-		{
-			"name": "Scissors",
-			"id": 205204
-		}
+		110202,
+		205204
 	],
 	"displayName": "Glass Knuckles",
 	"apiMetaData": {

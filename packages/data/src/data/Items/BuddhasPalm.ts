@@ -13,9 +13,9 @@ export const BuddhasPalm: Item = {
 		"Monk's Robe": 1
 	},
 	"stats": {
-		"attackPower": 33,
-		"cooldownReduction": 0.1,
-		"increaseSkillDamageRatio": 0.18
+		"attackPower": 37,
+		"lifeSteal": 0.1,
+		"preventSkillDamagedRatio": 0.18
 	},
 	"rarity": "Epic",
 	"code": "여래수투",
@@ -25,14 +25,8 @@ export const BuddhasPalm: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110404
-		},
-		{
-			"name": "Scissors",
-			"id": 205207
-		}
+		110404,
+		205207
 	],
 	"displayName": "Buddha's Palm",
 	"apiMetaData": {

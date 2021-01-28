@@ -4,14 +4,8 @@ export const Soju: Item = {
 	"id": 301205,
 	"name": "Soju",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Alcohol"
-		},
-		{
-			"name": "Scissors",
-			"id": "Water"
-		}
+		401111,
+		301102
 	],
 	"buildsInto": [],
 	"requirements": {

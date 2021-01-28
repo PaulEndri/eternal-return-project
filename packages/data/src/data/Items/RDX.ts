@@ -4,35 +4,18 @@ export const RDX: Item = {
 	"id": 502307,
 	"name": "RDX",
 	"buildsInto": [
-		{
-			"name": "High Explosive Grenade",
-			"id": 112404
-		},
-		{
-			"name": "The Golden Ghost",
-			"id": 115405
-		},
-		{
-			"name": "Stingburst",
-			"id": 502402
-		},
-		{
-			"name": "C-4",
-			"id": 502404
-		},
-		{
-			"name": "Smart Bomb",
-			"id": 502502
-		}
+		112404,
+		115405,
+		502402,
+		502404,
+		502502
 	],
 	"requirements": {
 		"Piano Wire": 1,
 		"Gunpowder": 1,
 		"Scrap Metal": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Rare",
 	"code": "RDX",
 	"stackable": true,
@@ -40,14 +23,8 @@ export const RDX: Item = {
 	"locations": {},
 	"foundQuantity": 1,
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 502203
-		},
-		{
-			"name": "Scissors",
-			"id": 401106
-		}
+		502203,
+		401106
 	],
 	"displayName": "RDX",
 	"apiMetaData": {

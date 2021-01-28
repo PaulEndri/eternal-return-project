@@ -4,17 +4,12 @@ export const BikeHelmet: Item = {
 	"id": 201104,
 	"name": "BikeHelmet",
 	"buildsInto": [
-		{
-			"name": "Safety Helmet",
-			"id": 201205
-		},
-		{
-			"name": "Ballistic Helmet",
-			"id": 201301
-		}
+		201205,
+		201301
 	],
 	"requirements": {},
 	"stats": {
+		"cooldownReduction": 0.02,
 		"maxHp": 90
 	},
 	"rarity": "Common",
@@ -40,10 +35,7 @@ export const BikeHelmet: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "Boar",
-			"id": 3
-		}
+		3
 	],
 	"airSupply": false,
 	"collectible": 0

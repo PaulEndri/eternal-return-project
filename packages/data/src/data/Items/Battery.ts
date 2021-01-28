@@ -4,14 +4,8 @@ export const Battery: Item = {
 	"id": 401110,
 	"name": "Battery",
 	"buildsInto": [
-		{
-			"name": "Dead Battery",
-			"id": 401205
-		},
-		{
-			"name": "Electronic Parts",
-			"id": 401211
-		}
+		401205,
+		401211
 	],
 	"requirements": {},
 	"stats": {},
@@ -20,7 +14,7 @@ export const Battery: Item = {
 	"stackable": true,
 	"maxStacks": 3,
 	"locations": {
-		"Avenue": 7,
+		"Avenue": 8,
 		"Factory": 9,
 		"Dock": 7
 	},
@@ -38,10 +32,7 @@ export const Battery: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

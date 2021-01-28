@@ -4,10 +4,7 @@ export const Nocaster: Item = {
 	"id": 121304,
 	"name": "Nocaster",
 	"buildsInto": [
-		{
-			"name": "Satisfaction",
-			"id": 121404
-		}
+		121404
 	],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -19,8 +16,8 @@ export const Nocaster: Item = {
 	"stats": {
 		"attackPower": 15,
 		"attackSpeedRatio": 0.2,
-		"lifeSteal": 0.1,
-		"increaseBasicAttackDamage": 10
+		"increaseBasicAttackDamage": 0.1,
+		"preventBasicAttackDamaged": 10
 	},
 	"rarity": "Rare",
 	"code": "노캐스터",
@@ -30,14 +27,8 @@ export const Nocaster: Item = {
 	"foundQuantity": 1,
 	"description": "The most used title in art is \"Untitled\". Isn't there an unsaid rule that says not to do that with guitar names?",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121202
-		},
-		{
-			"name": "Scissors",
-			"id": 401212
-		}
+		121202,
+		401212
 	],
 	"displayName": "Nocaster",
 	"apiMetaData": {

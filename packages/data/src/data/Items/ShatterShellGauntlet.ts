@@ -4,10 +4,7 @@ export const ShatterShellGauntlet: Item = {
 	"id": 110402,
 	"name": "ShatterShellGauntlet",
 	"buildsInto": [
-		{
-			"name": "Divine Fist",
-			"id": 110406
-		}
+		110406
 	],
 	"requirements": {
 		"Cotton Gloves": 1,
@@ -18,7 +15,7 @@ export const ShatterShellGauntlet: Item = {
 	"stats": {
 		"attackPower": 32,
 		"moveSpeed": -0.1,
-		"increaseBasicAttackDamage": 15
+		"preventBasicAttackDamaged": 15
 	},
 	"rarity": "Rare",
 	"code": "벽력귀투",
@@ -28,14 +25,8 @@ export const ShatterShellGauntlet: Item = {
 	"foundQuantity": 1,
 	"description": "A glove that adds explosive force behind each punch.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 110301
-		},
-		{
-			"name": "Scissors",
-			"id": 401121
-		}
+		110301,
+		401121
 	],
 	"displayName": "Shatter Shell Gauntlet",
 	"apiMetaData": {

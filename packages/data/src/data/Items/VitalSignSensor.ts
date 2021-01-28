@@ -4,10 +4,7 @@ export const VitalSignSensor: Item = {
 	"id": 203405,
 	"name": "VitalSignSensor",
 	"buildsInto": [
-		{
-			"name": "Radar",
-			"id": 203502
-		}
+		203502
 	],
 	"requirements": {
 		"Watch": 1,
@@ -28,14 +25,8 @@ export const VitalSignSensor: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 203101
-		},
-		{
-			"name": "Scissors",
-			"id": 501401
-		}
+		203101,
+		501401
 	],
 	"displayName": "Vital Sign Sensor",
 	"apiMetaData": {

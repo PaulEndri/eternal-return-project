@@ -4,34 +4,14 @@ export const Blueprint: Item = {
 	"id": 401212,
 	"name": "Blueprint",
 	"buildsInto": [
-		{
-			"name": "Monohoshizao",
-			"id": 102410
-		},
-		{
-			"name": "Florentine",
-			"id": 103301
-		},
-		{
-			"name": "Tactical Tonfa",
-			"id": 111402
-		},
-		{
-			"name": "Magnum-Anaconda",
-			"id": 116402
-		},
-		{
-			"name": "Tac-50",
-			"id": 118403
-		},
-		{
-			"name": "Nocaster",
-			"id": 121304
-		},
-		{
-			"name": "Cell Phone",
-			"id": 501401
-		}
+		102410,
+		103301,
+		111402,
+		116402,
+		118403,
+		121304,
+		205305,
+		501401
 	],
 	"requirements": {
 		"Fountain Pen": 1,
@@ -46,14 +26,8 @@ export const Blueprint: Item = {
 	"foundQuantity": 1,
 	"description": "An elaborate blueprint. What on earth do all the lines and numbers mean?",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 101102
-		},
-		{
-			"name": "Scissors",
-			"id": 401117
-		}
+		101102,
+		401117
 	],
 	"displayName": "Blueprint",
 	"apiMetaData": {
@@ -66,14 +40,8 @@ export const Blueprint: Item = {
 		"category": "Misc"
 	},
 	"droppedFrom": [
-		{
-			"name": "Wolf",
-			"id": 5
-		},
-		{
-			"name": "Bear",
-			"id": 6
-		}
+		5,
+		6
 	],
 	"airSupply": true,
 	"collectible": 0

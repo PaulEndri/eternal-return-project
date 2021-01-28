@@ -23,14 +23,8 @@ export const MonkeyKingBar: Item = {
 	"foundQuantity": 1,
 	"description": "A tool, made by Daode Tianzun, used for measuring the depth of the river and sea. The Dragon King of the East Sea kept it in his palace storage, but Sun Wukong stole it and used it as a weapon.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 401403
-		},
-		{
-			"name": "Scissors",
-			"id": 108202
-		}
+		401403,
+		108202
 	],
 	"displayName": "Monkey King Bar",
 	"apiMetaData": {

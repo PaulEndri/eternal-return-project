@@ -4,10 +4,7 @@ export const Masamune: Item = {
 	"id": 102401,
 	"name": "Masamune",
 	"buildsInto": [
-		{
-			"name": "Arondight",
-			"id": 102406
-		}
+		102406
 	],
 	"requirements": {
 		"Rusty Sword": 1,
@@ -27,14 +24,8 @@ export const Masamune: Item = {
 	"foundQuantity": 1,
 	"description": "A sword made by Masamune, the greatest sword maker in the history of Japan. It stands as one of the strongest and sharpest swords of Japan.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 102301
-		},
-		{
-			"name": "Scissors",
-			"id": 401112
-		}
+		102301,
+		401112
 	],
 	"displayName": "Masamune",
 	"apiMetaData": {

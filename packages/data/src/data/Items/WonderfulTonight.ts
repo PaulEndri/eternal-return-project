@@ -13,8 +13,8 @@ export const WonderfulTonight: Item = {
 	},
 	"stats": {
 		"attackPower": 100,
-		"attackSpeedRatio": 0.45,
-		"increaseBasicAttackDamage": 2
+		"attackSpeedRatio": 0.25,
+		"preventBasicAttackDamaged": 2
 	},
 	"rarity": "Epic",
 	"code": "원더풀투나잇",
@@ -24,14 +24,8 @@ export const WonderfulTonight: Item = {
 	"foundQuantity": 1,
 	"description": "If it's late in the evening, and you're wondering what item to craft, try this one!",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121305
-		},
-		{
-			"name": "Scissors",
-			"id": 401209
-		}
+		121305,
+		401209
 	],
 	"displayName": "Wonderful Tonight",
 	"apiMetaData": {

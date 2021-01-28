@@ -4,20 +4,11 @@ export const HotRamen: Item = {
 	"id": 302307,
 	"name": "HotRamen",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Ramen"
-		},
-		{
-			"name": "Scissors",
-			"id": "Boiling Water"
-		}
+		302113,
+		301201
 	],
 	"buildsInto": [
-		{
-			"name": "Garlic Ramen",
-			"id": 302402
-		}
+		302402
 	],
 	"requirements": {
 		"Ramen": 1,

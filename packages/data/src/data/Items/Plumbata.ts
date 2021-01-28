@@ -4,10 +4,7 @@ export const Plumbata: Item = {
 	"id": 113404,
 	"name": "Plumbata",
 	"buildsInto": [
-		{
-			"name": "Flechette",
-			"id": 113410
-		}
+		113410
 	],
 	"requirements": {
 		"Needle": 1,
@@ -29,14 +26,8 @@ export const Plumbata: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 113201
-		},
-		{
-			"name": "Scissors",
-			"id": 401201
-		}
+		113201,
+		401201
 	],
 	"displayName": "Plumbata",
 	"apiMetaData": {

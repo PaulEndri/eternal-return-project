@@ -4,26 +4,11 @@ export const Needle: Item = {
 	"id": 120101,
 	"name": "Needle",
 	"buildsInto": [
-		{
-			"name": "Dart",
-			"id": 113201
-		},
-		{
-			"name": "Venom Dart",
-			"id": 113402
-		},
-		{
-			"name": "Rapier",
-			"id": 120201
-		},
-		{
-			"name": "Squad Leader Armband",
-			"id": 203202
-		},
-		{
-			"name": "Acupuncture Needle",
-			"id": 302217
-		}
+		113201,
+		113402,
+		120201,
+		203202,
+		302217
 	],
 	"requirements": {},
 	"stats": {
@@ -35,7 +20,7 @@ export const Needle: Item = {
 	"stackable": false,
 	"maxStacks": 1,
 	"locations": {
-		"Alley": 7,
+		"Alley": 6,
 		"Hospital": 6,
 		"Hotel": 6
 	},
@@ -53,10 +38,7 @@ export const Needle: Item = {
 		"category": "Weapon"
 	},
 	"droppedFrom": [
-		{
-			"name": "Bat",
-			"id": 2
-		}
+		2
 	],
 	"airSupply": false,
 	"collectible": 0

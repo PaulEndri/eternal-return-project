@@ -4,14 +4,8 @@ export const RunningShoes: Item = {
 	"id": 204102,
 	"name": "RunningShoes",
 	"buildsInto": [
-		{
-			"name": "Heelys",
-			"id": 204204
-		},
-		{
-			"name": "Boots",
-			"id": 204302
-		}
+		204204,
+		204302
 	],
 	"requirements": {},
 	"stats": {
@@ -40,10 +34,7 @@ export const RunningShoes: Item = {
 		"category": "Armor"
 	},
 	"droppedFrom": [
-		{
-			"name": "WildDog",
-			"id": 4
-		}
+		4
 	],
 	"airSupply": false,
 	"collectible": 0

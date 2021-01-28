@@ -13,7 +13,7 @@ export const FangMace: Item = {
 	},
 	"stats": {
 		"attackPower": 55,
-		"increaseSkillDamage": 31
+		"increaseSkillDamageRatio": 31
 	},
 	"rarity": "Epic",
 	"code": "낭아봉",
@@ -23,14 +23,8 @@ export const FangMace: Item = {
 	"foundQuantity": 1,
 	"description": "",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 104301
-		},
-		{
-			"name": "Scissors",
-			"id": 401215
-		}
+		104301,
+		401215
 	],
 	"displayName": "Fang Mace",
 	"apiMetaData": {

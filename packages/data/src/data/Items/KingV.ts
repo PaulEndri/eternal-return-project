@@ -4,10 +4,7 @@ export const KingV: Item = {
 	"id": 121303,
 	"name": "KingV",
 	"buildsInto": [
-		{
-			"name": "Purple Haze",
-			"id": 121403
-		}
+		121403
 	],
 	"requirements": {
 		"Starter Guitar": 1,
@@ -17,7 +14,7 @@ export const KingV: Item = {
 	},
 	"stats": {
 		"attackPower": 13,
-		"increaseSkillDamageRatio": 0.16
+		"preventSkillDamagedRatio": 0.16
 	},
 	"rarity": "Rare",
 	"code": "King-V",
@@ -27,14 +24,8 @@ export const KingV: Item = {
 	"foundQuantity": 1,
 	"description": "This guitar has an unconventional V shape. Although it was sensational at release, it didn't see huge popularity.",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": 121201
-		},
-		{
-			"name": "Scissors",
-			"id": 101101
-		}
+		121201,
+		101101
 	],
 	"displayName": "King-V",
 	"apiMetaData": {

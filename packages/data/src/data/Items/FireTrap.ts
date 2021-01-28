@@ -4,14 +4,8 @@ export const FireTrap: Item = {
 	"id": 502403,
 	"name": "FireTrap",
 	"buildsFrom": [
-		{
-			"name": "Scissors",
-			"id": "Explosive Trap"
-		},
-		{
-			"name": "Scissors",
-			"id": "Oilcloth"
-		}
+		502306,
+		401202
 	],
 	"buildsInto": [],
 	"requirements": {
@@ -20,9 +14,7 @@ export const FireTrap: Item = {
 		"Oil": 1,
 		"Bandage": 1
 	},
-	"stats": {
-		"attackPower": "#REF!"
-	},
+	"stats": {},
 	"rarity": "Rare",
 	"stackable": true,
 	"maxStacks": 5,
