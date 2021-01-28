@@ -1,6 +1,6 @@
 {
   "name": "erbs-wiki-api",
-  "version": "1.6.11",
+  "version": "1.7.6",
   "description": "erbs wiki data api + generic erbs api",
   "main": "dist/index.js",
   "directories": {
