@@ -28,6 +28,6 @@
     "aidyn": "^1.1.1",
     "bottleneck": "^2.19.5",
     "dotenv": "^8.2.0",
-    "mongoose": "^5.11.9"
+    "mongoose": "^5.12.2"
   }
 }
