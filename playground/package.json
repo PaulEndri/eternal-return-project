@@ -23,7 +23,7 @@
     "js-combinatorics": "^1.4.5",
     "json-format": "^1.0.1",
     "knex": "^0.21.16",
-    "mongoose": "^5.11.9",
+    "mongoose": "^5.12.2",
     "mysql2": "^2.2.5",
     "node-fetch": "^2.6.0",
     "objection": "^2.2.7",
