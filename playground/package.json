@@ -18,7 +18,7 @@
     "@types/mongoose": "^5.10.3",
     "axios": "^0.21.1",
     "bottleneck": "^2.19.5",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0",
     "dotenv": "^8.2.0",
     "js-combinatorics": "^1.4.5",
     "json-format": "^1.0.1",
