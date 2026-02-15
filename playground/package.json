@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/mongoose": "^5.10.3",
-    "axios": "^0.21.1",
+    "axios": "^1.13.5",
     "bottleneck": "^2.19.5",
     "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.2.0",
@@ -26,7 +26,7 @@
     "mongoose": "^5.11.9",
     "mysql2": "^2.2.5",
     "node-fetch": "^2.6.0",
-    "objection": "^2.2.7",
+    "objection": "^3.0.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
